@@ -1,0 +1,14 @@
+.order-my-home {
+    justify-content: center;
+    align-items: center;
+}
+.orderButtons {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+.folders{
+    margin-left: 150px;
+    margin-top: 70px;
+    width: 200px;
+}
