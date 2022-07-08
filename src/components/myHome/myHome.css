@@ -7,8 +7,16 @@
     margin-right: auto;
     margin-left: auto;
 }
-.folders{
-    margin-left: 150px;
-    margin-top: 70px;
-    width: 200px;
+.baseFolders{
+    width: 230px;
+}
+.sheetsUX{
+    width: 213.5px;
+}
+.folderTop{
+    width: 239px;
+}
+.icons{
+    width: 74px;
+    height: 69px;
 }
