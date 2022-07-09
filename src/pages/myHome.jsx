@@ -56,9 +56,15 @@ const MyHome = () => {
                 {/* <img src="" alt="" /> Falta la imagen  */}
             </main>
             <footer>
-                <a href="mailto:zittapaz@gmail.com" ><img className="icons" src={IGmail} alt="Ícono gmail" /></a>
-                <a href="https://github.com/pazzitta" target="_blank" rel="nofollow"><img className="icons" src={IGitHub} alt="Ícono GitHub" /></a>
-                <a href="https://www.linkedin.com/in/paz-zitta/" target="_blank" rel="nofollow"><img className="icons" src={ILinkedIn} alt="íÍcono linkedIn" /></a>
+                <a href="mailto:zittapaz@gmail.com" target="_blank" rel="noreferrer">
+                    <img className="icons" src={IGmail} alt="Ícono gmail" />
+                </a>
+                <a href="https://github.com/pazzitta" target="_blank" rel="noreferrer">
+                    <img className="icons" src={IGitHub} alt="Ícono GitHub" />
+                </a>
+                <a href="https://www.linkedin.com/in/paz-zitta/" target="_blank" rel="noreferrer">
+                    <img className="icons" src={ILinkedIn} alt="íÍcono linkedIn" />
+                </a>
             </footer>
         </div>
     )

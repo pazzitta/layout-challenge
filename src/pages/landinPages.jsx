@@ -1,7 +1,10 @@
+import BaseAllViews from "../components/baseAllViews/baseAllViews";
 
 const LandingPages = () => {
     return(
-        <div>Soy las LandingPages</div>
+        <div>
+            <BaseAllViews/>
+        </div>
     )
 }
 export default LandingPages;
