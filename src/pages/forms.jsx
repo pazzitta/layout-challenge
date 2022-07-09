@@ -1,7 +1,11 @@
+import BaseAllViews from "../components/baseAllViews/baseAllViews";
 
 const Forms = () => {
     return(
-        <div>Soy forms</div>
+        <div>
+            <BaseAllViews/>
+            Soy forms
+        </div>
     )
 }
 export default Forms;

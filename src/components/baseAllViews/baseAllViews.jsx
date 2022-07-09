@@ -1,5 +1,13 @@
 import MainLandingPages from "../landingsPages/mainLandinPages";
-import LandingPages from "../../pages/landinPages";
+import LinkLandingPages from "../landingsPages/LinksLandinPages";
+import MainHomes from "../homes/mainHomes";
+import LinkHomes from "../homes/linkHomes";
+import MainDetails from "../details/mainDetails";
+import LinkDetails from "../details/linkDetails";
+import MainForms from "../forms/mainForms";
+import LinkForms from "../forms/linkForms";
+import MainCards from "../Cards/mainCards";
+import LinkCards from "../Cards/linkCards";
 // import Modal from '../modal/modal'
 
 const BaseAllViews = () => {
@@ -30,11 +38,19 @@ const BaseAllViews = () => {
                                 <img src="" alt="" />
                             </a>
                         </div>
-                        <LandingPages/>
+                        <LinkLandingPages/>
+                        <LinkHomes/>
+                        <LinkDetails/>
+                        <LinkForms/>
+                        <LinkCards/>
                     </nav>
                     <div>
-                        {/* aca van los distintos 'mains' con un coandicional según la ruta */}
+                        {/* aca van los distintos 'mains' con un condicional según la ruta */}
                         <MainLandingPages/>
+                        <MainHomes/>
+                        <MainDetails/>
+                        <MainForms/>
+                        <MainCards/>
                     </div>
                 </div>
             </main>
@@ -42,7 +58,7 @@ const BaseAllViews = () => {
             state={stateModalCreate}
             changeState= {setStateModalCreate}
             >
-            <CreateProduct/>
+            
             </Modal> */}
         </div>
     )

@@ -18,7 +18,7 @@ const MyHome = () => {
     return(
         <div className='order-my-home'>
             <header>
-                <a href="/landinPages">
+                <a href="/landingPages">
                     <img className="baseFolders" src={FLandingP} alt="Carpeta Landing Pages" />
                     <img className="sheetsUX" src={SLandingP} alt="Hoja UX Landing Pages" />
                     {/* <img src="" alt="" /> */}

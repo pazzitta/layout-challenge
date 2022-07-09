@@ -1,5 +1,5 @@
 
-const MainLandingPages = () => {
+const MainCards = () => {
     return(
         <div> 
             {/* <a href="">
@@ -17,8 +17,8 @@ const MainLandingPages = () => {
             <a href="">
                 <img src="" alt="Imagen de Landin Page Diseño propio" />
             </a> */}
-            <h2>Soy el main de la Landing</h2>
+            <h2>Soy el main de las Cards</h2>
         </div>
     )
 }
-export default MainLandingPages;
+export default MainCards;

@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route exat path='/' element={<MyHome/>} />
-        <Route path='/landinPages' element={<LandingPages/>}/>
+        <Route path='/landingPages' element={<LandingPages/>}/>
         <Route path='/homes' element={<Homes/>}/>
         <Route path='/details' element={<Details/>}/>
         <Route path='/forms' element={<Forms/>}/>

@@ -1,7 +1,11 @@
+import BaseAllViews from "../components/baseAllViews/baseAllViews"
 
 const Homes = () => {
     return (
-        <div>Soy las homes</div>
+        <div>
+            <BaseAllViews/>
+            Soy las homes
+        </div>
     )
 }
 export default Homes
