@@ -9,6 +9,10 @@ import LinkForms from "../forms/linkForms";
 import MainCards from "../Cards/mainCards";
 import LinkCards from "../Cards/linkCards";
 import {useLocation} from 'react-router-dom'
+import BackgroundVideo from "../landingsPages/layoutsToReplicate/BackgroundVideo";
+import Minimalism from "../landingsPages/layoutsToReplicate/Minimalism";
+import OrganicShapes from "../landingsPages/layoutsToReplicate/OrganicShapes";
+import Advertisings from "../landingsPages/layoutsToReplicate/Advertising";
 // import Modal from '../modal/modal'
 
 // VER SI LOS CONDICIONALES LOS TERMINO CON NULL
@@ -62,11 +66,16 @@ const BaseAllViews = () => {
                     </div>
                 </div>
             </main>
-            {/* <Modal
+            {/* CADA MODAL TIENE 2 COMPNENTES,LA IMAGEN ORIGINAL Y LA REPLICA, LA REPLICA VA A TENER DENTRO INFO DEL REPO Y UNA PEQUEÑA DOC
+            <Modal
             state={stateModalCreate}
             changeState= {setStateModalCreate}
             >
-            
+            <BackgroundVideo/>
+            <Minimalism/>
+            <OrganicShapes/>
+            <Advertisings/>
+       
             </Modal> */}
         </div>
     )
