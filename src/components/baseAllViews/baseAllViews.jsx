@@ -8,11 +8,15 @@ import MainForms from "../forms/mainForms";
 import LinkForms from "../forms/linkForms";
 import MainCards from "../Cards/mainCards";
 import LinkCards from "../Cards/linkCards";
+import {useLocation} from 'react-router-dom'
 // import Modal from '../modal/modal'
+
+// VER SI LOS CONDICIONALES LOS TERMINO CON NULL
 
 const BaseAllViews = () => {
     // const [stateModalCreate, setStateModalCreate] = useState (false)
    
+    const location = useLocation ()
     // function handleClickModalC(e) {
     //     setStateModalCreate(!stateModalCreate);
     //   }
@@ -21,13 +25,14 @@ const BaseAllViews = () => {
     return(
         <div>
             <header>
-                {/* esto tiene un condicional según la ruta... */}
                 <div>
-                    <h1>Landing Pages</h1>
-                    {/* <h1>Homes</h1>
-                    <h1>Details</h1>
-                    <h1>Forms</h1>
-                    <h1>Cards</h1> */}
+                    {
+                        location.pathname === "/landingPages"? <h1>Landing Pages</h1>: 
+                        location.pathname === "/homes"? <h1>Homes</h1>:
+                        location.pathname === "/details"? <h1>Details</h1>:
+                        location.pathname === "/forms"? <h1>Forms</h1> : 
+                        <h1>Cards</h1>          
+                    }
                 </div>
             </header>
             <main>
@@ -38,19 +43,22 @@ const BaseAllViews = () => {
                                 <img src="" alt="" />
                             </a>
                         </div>
-                        <LinkLandingPages/>
-                        <LinkHomes/>
-                        <LinkDetails/>
-                        <LinkForms/>
-                        <LinkCards/>
+                        {
+                            location.pathname === "/landingPages"? <LinkLandingPages/>:
+                            location.pathname === "/homes"? <LinkHomes/>:
+                            location.pathname === "/details"? <LinkDetails/>:
+                            location.pathname === "/forms"? <LinkForms/> :
+                            <LinkCards/>
+                        }                       
                     </nav>
                     <div>
-                        {/* aca van los distintos 'mains' con un condicional según la ruta */}
-                        <MainLandingPages/>
-                        <MainHomes/>
-                        <MainDetails/>
-                        <MainForms/>
-                        <MainCards/>
+                        {
+                            location.pathname === "/landingPages"? <MainLandingPages/>:
+                            location.pathname === "/homes"? <MainHomes/>:
+                            location.pathname === "/details"? <MainDetails/>:
+                            location.pathname === "/forms"? <MainForms/>:
+                            <MainCards/>                  
+                        }
                     </div>
                 </div>
             </main>

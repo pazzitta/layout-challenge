@@ -4,7 +4,6 @@ const Forms = () => {
     return(
         <div>
             <BaseAllViews/>
-            Soy forms
         </div>
     )
 }

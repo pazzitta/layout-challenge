@@ -4,7 +4,6 @@ const Cards = () =>{
     return(
         <div>
             <BaseAllViews/>
-            Soy las cards
         </div>
     )
 }

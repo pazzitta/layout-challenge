@@ -4,7 +4,6 @@ const Homes = () => {
     return (
         <div>
             <BaseAllViews/>
-            Soy las homes
         </div>
     )
 }

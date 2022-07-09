@@ -4,7 +4,6 @@ const LandingPages = () => {
     return(
         <div>
             <BaseAllViews/>
-            Soy la landing
         </div>
     )
 }

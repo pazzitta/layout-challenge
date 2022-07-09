@@ -4,7 +4,6 @@ const Details = () => {
     return(
         <div>
             <BaseAllViews/>
-            Soy los details
         </div>
     )
 }
