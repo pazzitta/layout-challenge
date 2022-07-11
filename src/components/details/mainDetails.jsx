@@ -1,4 +1,5 @@
 import ProductOneDetail from "./AllDetails/ProductOne";
+import ProductTwoDetail from "./AllDetails/ProductTwo";
 
 const MainDetails = () => {
     return(
@@ -20,6 +21,7 @@ const MainDetails = () => {
             </a> */}
             <h2>Soy el main de los details</h2>
             <ProductOneDetail/>
+            <ProductTwoDetail/>
         </div>
     )
 }
