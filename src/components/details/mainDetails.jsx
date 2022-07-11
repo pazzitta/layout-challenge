@@ -1,5 +1,6 @@
 import ProductOneDetail from "./AllDetails/ProductOne";
 import ProductTwoDetail from "./AllDetails/ProductTwo";
+import NewsDetail from "./AllDetails/News";
 
 const MainDetails = () => {
     return(
@@ -22,6 +23,7 @@ const MainDetails = () => {
             <h2>Soy el main de los details</h2>
             <ProductOneDetail/>
             <ProductTwoDetail/>
+            <NewsDetail/>
         </div>
     )
 }
