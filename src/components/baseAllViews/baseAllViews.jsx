@@ -9,10 +9,6 @@ import LinkForms from "../forms/linkForms";
 import MainCards from "../Cards/mainCards";
 import LinkCards from "../Cards/linkCards";
 import {useLocation} from 'react-router-dom'
-import BackgroundVideo from "../landingsPages/layoutsToReplicate/BackgroundVideo";
-import Minimalism from "../landingsPages/layoutsToReplicate/Minimalism";
-import OrganicShapes from "../landingsPages/layoutsToReplicate/OrganicShapes";
-import Advertisings from "../landingsPages/layoutsToReplicate/Advertising";
 // import Modal from '../modal/modal'
 
 // VER SI LOS CONDICIONALES LOS TERMINO CON NULL
@@ -55,6 +51,7 @@ const BaseAllViews = () => {
                             <LinkCards/>
                         }                       
                     </nav>
+                    {/* EL MODAL ES LO QUE HAY DENTRO DE LOS MAIN... */}
                     <div>
                         {
                             location.pathname === "/landingPages"? <MainLandingPages/>:
@@ -71,11 +68,6 @@ const BaseAllViews = () => {
             state={stateModalCreate}
             changeState= {setStateModalCreate}
             >
-            <BackgroundVideo/>
-            <Minimalism/>
-            <OrganicShapes/>
-            <Advertisings/>
-       
             </Modal> */}
         </div>
     )

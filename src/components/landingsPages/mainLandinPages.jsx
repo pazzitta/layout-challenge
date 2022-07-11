@@ -1,3 +1,7 @@
+import BackgroundVideo from "./layoutsToReplicate/BackgroundVideo";
+import Minimalism from "./layoutsToReplicate/Minimalism";
+import OrganicShapes from "./layoutsToReplicate/OrganicShapes";
+import Advertisings from "./layoutsToReplicate/Advertising";
 
 const MainLandingPages = () => {
     return(
@@ -18,6 +22,10 @@ const MainLandingPages = () => {
                 <img src="" alt="Imagen de Landin Page Diseño propio" />
             </a> */}
             <h2>Soy el main de la Landing</h2>
+            <BackgroundVideo/>
+            <Minimalism/>
+            <OrganicShapes/>
+            <Advertisings/>
         </div>
     )
 }

@@ -1,6 +1,7 @@
 import ProductOneDetail from "./AllDetails/ProductOne";
 import ProductTwoDetail from "./AllDetails/ProductTwo";
 import NewsDetail from "./AllDetails/News";
+import ProfileDetail from "./AllDetails/Profile";
 
 const MainDetails = () => {
     return(
@@ -24,6 +25,7 @@ const MainDetails = () => {
             <ProductOneDetail/>
             <ProductTwoDetail/>
             <NewsDetail/>
+            <ProfileDetail/>
         </div>
     )
 }
