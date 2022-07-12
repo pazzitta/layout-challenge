@@ -1,4 +1,5 @@
 import PersonalPageHome from "./AllHomes/PersonalPage";
+import EcommerceHomes from "./AllHomes/Ecommerce";
 
 const MainHomes = () => {
     return(
@@ -20,6 +21,7 @@ const MainHomes = () => {
             </a> */}
             <h2>Soy el main de las homes</h2>
             <PersonalPageHome/>
+            <EcommerceHomes/>
         </div>
     )
 }
