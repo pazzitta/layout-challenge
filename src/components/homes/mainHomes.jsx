@@ -1,3 +1,4 @@
+import PersonalPageHome from "./AllHomes/PersonalPage";
 
 const MainHomes = () => {
     return(
@@ -18,6 +19,7 @@ const MainHomes = () => {
                 <img src="" alt="Imagen de Landin Page Diseño propio" />
             </a> */}
             <h2>Soy el main de las homes</h2>
+            <PersonalPageHome/>
         </div>
     )
 }
