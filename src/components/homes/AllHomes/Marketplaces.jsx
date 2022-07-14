@@ -1,6 +1,8 @@
 import CardProductsOne from "./Cards/Marketplace/CardProductsOne";
 import CardTestimonials from "./Cards/Marketplace/CardTestimonials";
 import CardProductTwo from "./Cards/Marketplace/CardProductTwo";
+import CardProductsThree from "./Cards/Marketplace/CardProductThree";
+import CardProductsFour from "./Cards/Marketplace/CardProductsFour";
 
 const MarketplacesHomes = () => {
     return(
@@ -145,15 +147,206 @@ const MarketplacesHomes = () => {
                         </article>
                     </section>
                     <section>Section 2
-                    
+                        <nav>
+                            <div>
+                                <a href="">FEATURED</a>
+                                <a href="">LATEST</a>
+                            </div>
+                            <div>
+                                <a href=""><img src="" alt="ícono 1" /></a>
+                                <a href=""><img src="" alt="ícono 2" /></a>
+                            </div>
+                        </nav>
+                        <section>
+                            <CardProductsThree/>
+                            <CardProductsThree/>
+                            <CardProductsThree/>
+                            <CardProductsThree/>
+                            <CardProductsThree/>
+                            <CardProductsThree/>
+                            <CardProductsThree/>
+                            <CardProductsThree/>
+                        </section>
+                        <article>
+                            <div>
+                                <a href="">
+                                    <img src="" alt="ícono Nave espacial" />
+                                    <h6>Algo algo 1</h6>
+                                    <p>SubAlgo 1</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="" alt="ícono manoslibres" />
+                                    <h6>Algo algo 2</h6>
+                                    <p>Subalgo 2</p>
+                                </a>
+                            </div><div>
+                                <a href="">
+                                    <img src="" alt="ícono alcancía" />
+                                    <h6>Algo algo 3</h6>
+                                    <p>Subalgo 3</p>
+                                </a>
+                            </div>
+                        </article>
+                        <nav>
+                            <div>
+                                <a href="">WOMEN</a>
+                            </div>
+                            <div>
+                                <a href=""><img src="" alt="ícono 1" /></a>
+                                <a href=""><img src="" alt="ícono 2" /></a>
+                                <a href=""><img src="" alt="ícono 3" /></a>
+                                <a href=""><img src="" alt="ícono 4" /></a>
+                            </div>
+                        </nav>
+                        <section>
+                            <aside>
+                                <img src="" alt="Publicidad 4" />
+                            </aside>
+                            <section>
+                                <nav>
+                                    <a href=""></a>
+                                    <a href=""></a>
+                                    <a href=""></a>
+                                    <a href=""></a>
+                                </nav>
+                                <div>
+                                    <CardProductsThree/>
+                                    <CardProductsThree/>
+                                    <CardProductsThree/> 
+                                </div>
+                            </section>                    
+                        </section>
+                        <section>
+                            <nav>
+                                <a href="">NEWS</a>
+                                <div>
+                                    <a href="">
+                                        <img src="" alt="Ícono 1" />
+                                    </a>
+                                    <a href="">
+                                        <img src="" alt="ícono 2" />
+                                    </a>
+                                </div>
+                            </nav>
+                            <CardProductsFour/>
+                            <CardProductsFour/>
+                            <CardProductsFour/>
+                        </section> 
                     </section>
                     <section>Section 3
-
+                        <article>
+                            <div>
+                                <h3>BEST PRODUCT</h3>
+                            </div>
+                            <CardProductsOne/>
+                            <CardProductsOne/>
+                            <CardProductsOne/>
+                            {/* PAGINADO, dos páginas */}
+                        </article>
+                        <aside>
+                            <img src="" alt="Publicidad 5" />
+                        </aside>
+                        <aside>
+                            <div>
+                                <h3>OUR BRANDS</h3>
+                            </div>
+                            <img src="" alt="Publicidad 6" />
+                        </aside>
                     </section>
                 </section>
             </div>
             <footer>
-
+                <header>
+                    <nav>
+                        <img src="" alt="ícono correo" />
+                        <div>
+                            <h2>JOIN OUR NEWSLETTER</h2>
+                            <p>indicación de que hacer</p>
+                        </div>
+                        <form action="">
+                            <input type="text" placeholder="Enviar algo" />
+                            <button>Avión de papel</button>
+                        </form>
+                        <div>
+                            <button>Red 1</button>
+                            <button>Red 2</button>
+                            <button>Red 3</button>
+                            <button>Red 4</button>
+                        </div>
+                    </nav>
+                </header>
+                <div>
+                    <section>
+                        <img src="" alt="Logo" />
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis natus in eius beatae.</p>
+                        <div>
+                            <img src="" alt="ícono 1" />
+                            <img src="" alt="ícono 2" />
+                            <img src="" alt="ícono 3" />
+                            <img src="" alt="ícono 4" />
+                        </div>
+                    </section>
+                    <section>
+                        <h3>PRODUCT</h3>
+                        <small>algo 1</small>
+                        <small>algo 2</small>
+                        <small>algo 3</small>
+                        <small>algo 4</small>
+                        <small>algo 5</small>
+                        <small>algo 6</small>
+                    </section>
+                    <section>
+                        <h3>OUR COMPANY</h3>
+                        <small>algo 1</small>
+                        <small>algo 2</small>
+                        <small>algo 3</small>
+                        <small>algo 4</small>
+                        <small>algo 5</small>
+                        <small>algo 6</small>
+                    </section>
+                    <section>
+                        <h3>YOUR ACCOUNT</h3>
+                        <small>algo 1</small>
+                        <small>algo 2</small>
+                        <small>algo 3</small>
+                        <small>algo 4</small>
+                        <small>algo 5</small>
+                        <small>algo 6</small>
+                    </section>
+                    <section>
+                        <h3>CONTACT INFORMATION</h3>
+                        <div>
+                            <img src="" alt="ícono ubicación" />
+                            <small>Ubicación</small>
+                        </div>
+                        <div>
+                            <img src="" alt="ícono teléfono" />
+                            <small>Teléfono</small>
+                        </div>
+                        <div>
+                            <img src="" alt="ícono 3" />
+                            <small>Algo 3</small>
+                        </div>
+                        <div>
+                            <img src="" alt="ícono email" />
+                            <small>Email</small>
+                        </div>
+                    </section>
+                </div>
+                <footer>
+                    <article>
+                        <div>
+                            <a href="">Contact</a>
+                            <a href="">Algo 2</a>
+                            <a href="">Algo 3</a>
+                            <a href="">Algo 4</a>
+                            <a href="">Algo 5</a>
+                        </div>
+                        <p>Dererechos reservados ...</p>
+                    </article>
+                </footer>
             </footer>
         </div>
     )
