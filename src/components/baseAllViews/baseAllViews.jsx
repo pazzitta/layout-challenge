@@ -60,13 +60,40 @@ const BaseAllViews = () => {
                 </div>
                     
                     <div  className="stained-glass-border-all-views">
-                        {
+                        <div className="internal-stained-glass-border-all-views">
+                            <div className="glass-roof-all-views"></div>
+                            <div className="top-box-original-images-a-v">
+                                <div className="individual-box-original-images-a-v">
+                                    <div className="vertical-line-glass-all-views" ></div>
+                                    <button className="original-image-all-views"></button>
+                                </div>
+                                <div  className="individual-box-original-images-a-v">
+                                    <div className="vertical-line-glass-all-views" ></div>
+                                    <button className="original-image-all-views"></button>
+                                </div>
+                            </div>
+                            <div className="top-box-original-images-a-v">
+                                <div className="individual-box-original-images-a-v">
+                                    <div className="vertical-line-glass-all-views" ></div>
+                                    <button className="original-image-all-views"></button>
+                                </div>
+                                <div  className="individual-box-original-images-a-v">
+                                    <div className="vertical-line-glass-all-views" ></div>
+                                    <button className="original-image-all-views"></button>
+                                </div>
+                                <div  className="individual-box-original-images-a-v">
+                                    <div className="vertical-line-glass-all-views" ></div>
+                                    <button className="original-image-all-views"></button>
+                                </div>
+                            </div>
+                            {/* {
                             location.pathname === "/landingPages"? <MainLandingPages/>:
                             location.pathname === "/homes"? <MainHomes/>:
                             location.pathname === "/details"? <MainDetails/>:
                             location.pathname === "/forms"? <MainForms/>:
                             <MainCards/>                  
-                        }
+                            } */}
+                        </div>
                     </div>
             </main>
             {/* CADA MODAL TIENE 2 COMPNENTES,LA IMAGEN ORIGINAL Y LA REPLICA, LA REPLICA VA A TENER DENTRO INFO DEL REPO Y UNA PEQUEÑA DOC

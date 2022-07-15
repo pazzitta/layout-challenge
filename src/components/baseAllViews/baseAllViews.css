@@ -34,8 +34,10 @@
 }
 main{
     display: flex;
-    align-items: center;
-    justify-content: center;   
+    /* align-items: center; NO ME ANDA!ver porqué */
+    position: relative;
+    top: 25px;
+    justify-content: center;
 }
 .door-frame-all-views{
     display: flex;
@@ -44,15 +46,20 @@ main{
     margin-right: 30px;
     border: solid;
     border-color: #282828;
+    border-width: 5px;
     width: 500px;
-    height: 800px;
+    height: 750px;
 }
 
 .stained-glass-border-all-views{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: solid;
     border-color: #282828;
+    border-width: 5px;
     width: 1200px;
-    height: 800px;
+    height: 750px;
 }
 
 .internal-door-frame-all-views{
@@ -62,16 +69,22 @@ main{
     /* border: groove;
     border-color: #282828; */
     width: 450px;
-    height: 750px;
+    height: 700px;
 }
 .stained-glass-door-all-views{
+    display: flex;
+    flex-direction: column;
     border: groove;
     border-color: #282828;
+    border-width: 20px;
     width: 450px;
     height: 480px; 
 }
 .letter-box-all-views{
-    background-color: #282828;
+    background-color: #3b3b3b;
+    border: groove;
+    border-color: #282828;
+    border-width: 10px;
     width: 120px;
     height: 40px;
     margin-top: 15px;
@@ -79,8 +92,50 @@ main{
 }
 
 .link-box-all-views{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: groove;
+    border-width: 20px;
     border-color: #282828;
     width: 400px;
     height: 200px; 
+}
+.image-links-all-views{
+    width: 90px;
+    height: 84.16px;
+    margin-right: 10px;
+}
+.internal-stained-glass-border-all-views{
+    border: groove;
+    border-width: 10px;
+    border-color: #282828;
+    width: 1130px;
+    height: 700px;
+}
+.glass-roof-all-views{
+    background-color:  #000000;
+    width: 1110px;
+    height: 40px;
+
+}
+.vertical-line-glass-all-views{
+    border-left: thick solid #282828;
+    width: 20px;
+    height: 40px;
+}
+.top-box-original-images-a-v{
+    display: flex;
+    justify-content: space-evenly;    
+}
+.original-image-all-views{
+    border: groove thick solid #282828;
+    background-color: transparent;
+    width: 280px;
+    height: 180px;
+}
+.individual-box-original-images-a-v{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
