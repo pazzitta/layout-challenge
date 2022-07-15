@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+.macro-name-box-all-views{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282828;
+    width: 100%;
+    height: 140px;
+}
+.box-name-all-views{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border: groove;
+    border-color: white;
+    width: 95%;
+    height: 100px;
+   
+}
+.page-names-all-views {
+    position: relative;
+    bottom: 5px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 75px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.door-frame-all-views{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-right: 30px;
+    border: solid;
+    border-color: #282828;
+    width: 500px;
+    height: 800px;
+}
+
+.stained-glass-border-all-views{
+    border: solid;
+    border-color: #282828;
+    width: 1200px;
+    height: 800px;
+}
+
+.internal-door-frame-all-views{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: groove;
+    border-color: #282828; */
+    width: 450px;
+    height: 750px;
+}
+.stained-glass-door-all-views{
+    border: groove;
+    border-color: #282828;
+    width: 450px;
+    height: 480px; 
+}
+.letter-box-all-views{
+    background-color: #282828;
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.link-box-all-views{
+    border: groove;
+    border-color: #282828;
+    width: 400px;
+    height: 200px; 
+}

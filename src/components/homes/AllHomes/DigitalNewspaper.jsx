@@ -12,6 +12,7 @@ const DigitalNewspaper = () =>{
                         <a href=""><img src="" alt="ícono gráfico de torta" /></a>
                         <a href=""><img src="" alt="ícono saludo de manos" /></a>
                         <a href=""><img src="" alt="ícono pelota" /></a>
+                        
                     </div>
                     <img src="" alt="Imagen autor" />
                 </nav>
