@@ -10,6 +10,7 @@ import MainCards from "../Cards/mainCards";
 import LinkCards from "../Cards/linkCards";
 import {useLocation} from 'react-router-dom'
 import OriginalPage from "./originalPage";
+import Mannequin from '../../assets/myHome/mannequinAllViews.png'
 import './baseAllViews.css'
 // import Modal from '../modal/modal'
 
@@ -62,18 +63,16 @@ const BaseAllViews = () => {
                 
                 <div  className="stained-glass-border-all-views">
                     <div className="internal-stained-glass-border-all-views">
-                    <div className="glass-roof-all-views"></div>
+                        <div className="glass-roof-all-views"></div>
                         <OriginalPage/>
-                    <div>
                         <div className="stained-glass-wall-all-views"></div>
-                        <div></div>
-                        <div></div>
+                        <div className="base-stained-glass-all-views"></div>
                     </div>
-                    </div>
+                    <img  className="mannequin-all-views" src={Mannequin} alt="" />
 
                 </div>
             </main>
-            {/* CADA MODAL TIENE 2 COMPNENTES,LA IMAGEN ORIGINAL Y LA REPLICA, LA REPLICA VA A TENER DENTRO INFO DEL REPO Y UNA PEQUEÑA DOC
+            {/* CADA MODAL TIENE 2 COMPONENTES,LA IMAGEN ORIGINAL Y LA REPLICA, LA REPLICA VA A TENER DENTRO INFO DEL REPO Y UNA PEQUEÑA DOC
             <Modal
             state={stateModalCreate}
             changeState= {setStateModalCreate}
