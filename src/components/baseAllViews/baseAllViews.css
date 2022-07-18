@@ -124,18 +124,55 @@ main{
     width: 20px;
     height: 40px;
 }
+.vertical-long-line-glass-all-views{
+    border-left: thick solid #282828;
+    width: 20px;
+    height: 240px;
+}
+.vertical-left-line-glass-all-views{
+    position: relative;
+    right: 70px;
+    border-left: thick solid #282828;
+    width: 20px;
+    height: 240px;
+}
+.vertical-right-line-glass-all-views{
+    position: relative;
+    left: 70px;
+    border-left: thick solid #282828;
+    width: 20px;
+    height: 240px;
+}
 .top-box-original-images-a-v{
+    width: 90%;
     display: flex;
     justify-content: space-evenly;    
 }
+.top-box2-original-images-a-v{
+    position: relative;
+    bottom: 220px;
+    left: 10px;
+    /* background-color: chocolate; */
+    width: 90%;
+    display: flex;
+    justify-content: space-between;    
+}
 .original-image-all-views{
-    border: groove thick solid #282828;
-    background-color: transparent;
+    border: thick solid #282828;
     width: 280px;
     height: 180px;
+    cursor: pointer;
 }
 .individual-box-original-images-a-v{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.stained-glass-wall-all-views{
+    position: relative;
+    bottom: 650px;
+    border-right: solid #000000;
+    border-bottom: solid #000000 ;
+    width: 1040px;
+    height: 570px;
 }

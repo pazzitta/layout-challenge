@@ -9,6 +9,7 @@ import LinkForms from "../forms/linkForms";
 import MainCards from "../Cards/mainCards";
 import LinkCards from "../Cards/linkCards";
 import {useLocation} from 'react-router-dom'
+import OriginalPage from "./originalPage";
 import './baseAllViews.css'
 // import Modal from '../modal/modal'
 
@@ -58,43 +59,19 @@ const BaseAllViews = () => {
                     </nav>
                     {/* EL MODAL ES LO QUE HAY DENTRO DE LOS MAIN... */}
                 </div>
-                    
-                    <div  className="stained-glass-border-all-views">
-                        <div className="internal-stained-glass-border-all-views">
-                            <div className="glass-roof-all-views"></div>
-                            <div className="top-box-original-images-a-v">
-                                <div className="individual-box-original-images-a-v">
-                                    <div className="vertical-line-glass-all-views" ></div>
-                                    <button className="original-image-all-views"></button>
-                                </div>
-                                <div  className="individual-box-original-images-a-v">
-                                    <div className="vertical-line-glass-all-views" ></div>
-                                    <button className="original-image-all-views"></button>
-                                </div>
-                            </div>
-                            <div className="top-box-original-images-a-v">
-                                <div className="individual-box-original-images-a-v">
-                                    <div className="vertical-line-glass-all-views" ></div>
-                                    <button className="original-image-all-views"></button>
-                                </div>
-                                <div  className="individual-box-original-images-a-v">
-                                    <div className="vertical-line-glass-all-views" ></div>
-                                    <button className="original-image-all-views"></button>
-                                </div>
-                                <div  className="individual-box-original-images-a-v">
-                                    <div className="vertical-line-glass-all-views" ></div>
-                                    <button className="original-image-all-views"></button>
-                                </div>
-                            </div>
-                            {/* {
-                            location.pathname === "/landingPages"? <MainLandingPages/>:
-                            location.pathname === "/homes"? <MainHomes/>:
-                            location.pathname === "/details"? <MainDetails/>:
-                            location.pathname === "/forms"? <MainForms/>:
-                            <MainCards/>                  
-                            } */}
-                        </div>
+                
+                <div  className="stained-glass-border-all-views">
+                    <div className="internal-stained-glass-border-all-views">
+                    <div className="glass-roof-all-views"></div>
+                        <OriginalPage/>
+                    <div>
+                        <div className="stained-glass-wall-all-views"></div>
+                        <div></div>
+                        <div></div>
                     </div>
+                    </div>
+
+                </div>
             </main>
             {/* CADA MODAL TIENE 2 COMPNENTES,LA IMAGEN ORIGINAL Y LA REPLICA, LA REPLICA VA A TENER DENTRO INFO DEL REPO Y UNA PEQUEÑA DOC
             <Modal
