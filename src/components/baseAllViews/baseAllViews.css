@@ -53,7 +53,7 @@ main{
 
 .stained-glass-border-all-views{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     border: solid;
     border-color: #282828;
@@ -62,6 +62,15 @@ main{
     height: 750px;
 }
 
+.internal-stained-glass-border-all-views{
+    position: relative;
+    left: 28px;
+    border: groove;
+    border-width: 10px;
+    border-color: #282828;
+    width: 1130px;
+    height: 700px;
+}
 .internal-door-frame-all-views{
     display: flex;
     flex-direction: column;
@@ -106,13 +115,6 @@ main{
     height: 84.16px;
     margin-right: 10px;
 }
-.internal-stained-glass-border-all-views{
-    border: groove;
-    border-width: 10px;
-    border-color: #282828;
-    width: 1130px;
-    height: 700px;
-}
 .glass-roof-all-views{
     background-color:  #000000;
     width: 1110px;
@@ -129,33 +131,19 @@ main{
     width: 20px;
     height: 240px;
 }
-.vertical-left-line-glass-all-views{
-    position: relative;
-    right: 70px;
-    border-left: thick solid #282828;
-    width: 20px;
-    height: 240px;
-}
-.vertical-right-line-glass-all-views{
-    position: relative;
-    left: 70px;
-    border-left: thick solid #282828;
-    width: 20px;
-    height: 240px;
-}
+
 .top-box-original-images-a-v{
     width: 90%;
     display: flex;
-    justify-content: space-evenly;    
+    justify-content: space-around;    
 }
-.top-box2-original-images-a-v{
+.bottom-box-original-images-a-v{
     position: relative;
     bottom: 220px;
-    left: 10px;
-    /* background-color: chocolate; */
-    width: 90%;
+    left: 145px;
+    width: 65%;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-evenly;    
 }
 .original-image-all-views{
     border: thick solid #282828;
@@ -187,8 +175,8 @@ main{
 
 .mannequin-all-views{
     position: relative;
-    right: 200px;
-    top: 100px;
+    right: 220px;
+    top: 80px;
     height: 450px;
-    width: 130px;
+    width: 117px;
 }
