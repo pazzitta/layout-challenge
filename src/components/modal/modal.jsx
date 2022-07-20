@@ -1,3 +1,4 @@
+import './modal.css'
 
 const Modal = ({children, state, changeState}) => {
 

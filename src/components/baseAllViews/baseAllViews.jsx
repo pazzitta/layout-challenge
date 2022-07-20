@@ -1,30 +1,28 @@
-import MainLandingPages from "../landingsPages/mainLandinPages";
+import { useState } from "react";
 import LinkLandingPages from "../landingsPages/LinksLandinPages";
-import MainHomes from "../homes/mainHomes";
 import LinkHomes from "../homes/linkHomes";
-import MainDetails from "../details/mainDetails";
 import LinkDetails from "../details/linkDetails";
-import MainForms from "../forms/mainForms";
 import LinkForms from "../forms/linkForms";
-import MainCards from "../Cards/mainCards";
 import LinkCards from "../Cards/linkCards";
 import {useLocation} from 'react-router-dom'
 import OriginalPage from "./originalPage";
 import Mannequin from '../../assets/myHome/mannequinAllViews.png'
 import './baseAllViews.css'
-// import Modal from '../modal/modal'
+import Modal from '../modal/modal'
+import BackgroundVideo from "../landingsPages/layoutsToReplicate/BackgroundVideo";
 
 // VER SI LOS CONDICIONALES LOS TERMINO CON NULL
 
 const BaseAllViews = () => {
+    
     // const [stateModalCreate, setStateModalCreate] = useState (false)
-   
     const location = useLocation ()
+    
     // function handleClickModalC(e) {
     //     setStateModalCreate(!stateModalCreate);
     //   }
     
-    //   const [modal, setModal] = useState(false);
+    // //   const [modal, setModal] = useState(false);
     return(
         <div>
             <header className="macro-name-box-all-views">
@@ -68,16 +66,12 @@ const BaseAllViews = () => {
                         <div className="stained-glass-wall-all-views"></div>
                         <div className="base-stained-glass-all-views"></div>
                     </div>
-                    <img  className="mannequin-all-views" src={Mannequin} alt="" />
+                    <img  className="mannequin-all-views" src={Mannequin} alt="Maniquí" />
 
                 </div>
             </main>
-            {/* CADA MODAL TIENE 2 COMPONENTES,LA IMAGEN ORIGINAL Y LA REPLICA, LA REPLICA VA A TENER DENTRO INFO DEL REPO Y UNA PEQUEÑA DOC
-            <Modal
-            state={stateModalCreate}
-            changeState= {setStateModalCreate}
-            >
-            </Modal> */}
+            {/* CADA MODAL TIENE 2 COMPONENTES,LA IMAGEN ORIGINAL Y LA REPLICA, LA REPLICA VA A TENER DENTRO INFO DEL REPO Y UNA PEQUEÑA DOC */}
+            
         </div>
     )
 }
