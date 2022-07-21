@@ -32,7 +32,7 @@
     font-family: 'Dancing Script', cursive;
     font-size: 75px;
 }
-main{
+.main-base-all-views{
     display: flex;
     /* align-items: center; NO ME ANDA!ver porqué */
     position: relative;

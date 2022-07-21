@@ -37,7 +37,7 @@ const BaseAllViews = () => {
                 </div>
             </header>
             
-            <main>
+            <main className="main-base-all-views">
                 <div className="door-frame-all-views">
                     <nav className="internal-door-frame-all-views">
                         <div className="stained-glass-door-all-views">
