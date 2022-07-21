@@ -56,3 +56,26 @@
       right: 7px;
       width: 101%;
   }   
+
+  /* MINIMALISM */
+  .box-macro-minimalist-LP{
+    background-color: #5c6ac4;
+    width: 100%;
+    height: 100vh;
+  }
+  .internal-box-minimalist-LP{
+    display: flex;
+    flex-direction: column;
+  }
+  .header-box-minimalist-LP{
+    background-color: cadetblue;
+    width: 100%;
+    height: 80px;
+  }
+  .main-box-minimalist-LP{
+    background-color: blueviolet;
+  }
+  .footer-box-minimalist-LP {
+    background-color: chocolate;
+    width: 100%;
+  }
