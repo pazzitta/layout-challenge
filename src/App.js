@@ -7,7 +7,8 @@ import Details from './pages/details';
 import Forms from './pages/forms';
 import Cards from './pages/cards';
 // import BackgroundVideo from './components/landingsPages/layoutsToReplicate/BackgroundVideo';
-import Minimalism from './components/landingsPages/layoutsToReplicate/Minimalism';
+// import Minimalism from './components/landingsPages/layoutsToReplicate/Minimalism';
+import OrganicShapes from './components/landingsPages/layoutsToReplicate/OrganicShapes';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         <Route path='/details' element={<Details/>}/>
         <Route path='/forms' element={<Forms/>}/>
         <Route path='/cards' element= {<Cards/>}/>
-        <Route path='/pruebas' element= {<Minimalism/>}/>
+        <Route path='/pruebas' element= {<OrganicShapes/>}/>
       </Routes>
       </BrowserRouter>
   
