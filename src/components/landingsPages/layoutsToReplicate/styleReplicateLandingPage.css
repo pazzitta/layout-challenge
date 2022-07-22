@@ -155,12 +155,13 @@
 
   /* ORGANIC SHAPES */
   .box-macro-organic-shapes-LP{
-    border: solid;
+    /* border: solid; */
     width: 100%;
     height: 100vh;
   }
   .box-header-organic-shapes-LP{
     display: flex;  
+    position: relative;
     /* border: solid red; */
     width: 100%;
     height: 80px;
@@ -188,13 +189,13 @@
   }
   .style-ancords-header-organic-shapes-LP{
     text-decoration: none;
-    color: rgb(159, 116, 116);
+    color: white;
     font-size: 18px;
     /* es blanco el color */
   }
   .box-main-organic-shapes-LP{
     display: flex;
-    border: solid hotpink;
+    /* border: solid hotpink; */
     width: 100%;
     height: 852px;
   }
@@ -203,15 +204,15 @@
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    border: solid yellow;
-    width: 40%;
+    /* border: solid yellow; */
+    width: 45%;
   }
   .titel-main-organic-shapes-LP{
     width: 60%;
     color: #363c46;
     text-align: start;
     /* border: solid gray; */
-    font-size: 39px;
+    font-size: 45px;
     line-height: 45px;
     font-style: oblique;
   }
@@ -221,7 +222,8 @@
     width: 60%;
     color: #363c46;
     font-weight: 500;
-    font-size: 19px;
+    font-size: 20px;
+    letter-spacing: 1.2px;
   }
   .box-button-main-organic-shapes-LP{
     display: flex;
@@ -244,7 +246,8 @@
     border: solid orange;
     width: 60%;
   }
-  /* .image-main-organic-shapes-LP{
-    border: solid orange;
-    width: 60%;
-  } */
+  .image-main-organic-shapes-LP{
+    position: absolute;
+    right: 0px;
+    width: 70%;
+  }

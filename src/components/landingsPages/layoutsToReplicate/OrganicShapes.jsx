@@ -1,7 +1,9 @@
+import BackgroundImageOS from '../../../assets/LandingPages/backgroundImageOS.png'
 
 const OrganicShapes = () => {
     return(
         <div className="box-macro-organic-shapes-LP">
+            <img className="image-main-organic-shapes-LP" src={BackgroundImageOS} alt="Ilustración space" />
             <header className="box-header-organic-shapes-LP">
                 <div className="box-name-header-organic-shapes-LP">
                     <h3 className="name-header-organic-shapes-LP">NAME</h3>
@@ -20,9 +22,8 @@ const OrganicShapes = () => {
                         <button className="button-main-organic-shapes-LP">LETS GO</button>
                     </div>
                 </div>
-                <div className="box-image-main-organic-shapes-LP">
-                    <img className="image-main-organic-shapes-LP" src="" alt="Ilustración space" />
-                </div>
+                {/* <div className="box-image-main-organic-shapes-LP">
+                </div> */}
             </main>
         </div>
     )
