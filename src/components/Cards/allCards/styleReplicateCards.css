@@ -156,3 +156,73 @@
     border-radius: 5px;
     font-size: 17px;
 }
+
+/* PEOPLE */
+.box-macro-people-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 450px;
+    height: 300px;
+    /* box-shadow: ; */
+}
+.box-header-people-card{
+    display: flex;
+    justify-content: flex-end;
+    border: solid thin grey;
+    width: 450px;
+    height: 40px;
+}
+.box-button-header-people-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2e5ee;
+    width: 40px;
+    height: 40px;
+}
+.button-star-header-people-card{
+    background-image:url('../../../assets/Cards/starPeople.png');
+    background-repeat:no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    background-position:center;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+.box-profile-data-people-card{
+    display: flex;
+    border: solid thin green;
+    width: 100%;
+}
+.box-image-profile-people-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid thin goldenrod;
+    width: 50%;
+    height: 190px; 
+}
+.image-profile-people-card{
+    width: 170px;
+    border-radius: 50%;
+}
+.box-all-data-profile-people-card{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; */
+    border: solid thin rgb(32, 88, 218);
+    width: 50%;
+    height: 190px; 
+}
+.name-data-profile-people-card{
+    border: solid thin hotpink;
+    margin: 0;
+}
+.box-data-profile-people-card{
+    border: solid thin purple;
+    height: 155px ;
+}
