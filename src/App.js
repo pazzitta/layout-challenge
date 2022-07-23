@@ -10,7 +10,8 @@ import Cards from './pages/cards';
 // import Minimalism from './components/landingsPages/layoutsToReplicate/Minimalism';
 // import OrganicShapes from './components/landingsPages/layoutsToReplicate/OrganicShapes';
 // import Promotional from './components/landingsPages/layoutsToReplicate/Promotional';
-import ClothesCard from './components/Cards/allCards/Clothes';
+// import ClothesCard from './components/Cards/allCards/Clothes';
+import FoodCard from './components/Cards/allCards/Food';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         <Route path='/details' element={<Details/>}/>
         <Route path='/forms' element={<Forms/>}/>
         <Route path='/cards' element= {<Cards/>}/>
-        <Route path='/pruebas' element= {<ClothesCard/>}/>
+        <Route path='/pruebas' element= {<FoodCard/>}/>
       </Routes>
       </BrowserRouter>
   
