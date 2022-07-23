@@ -1,13 +1,18 @@
+import './styleReplicateCards.css'
+import ProductOne from '../../../assets/Cards/productOneCard.png'
+import  CartBlack from '../../../assets/Cards/cartBlack.png'
 
 const ClothesCard = () => {
     return(
-        <div>
-            <div><img src="" alt="Imagen producto" /></div>
-            <div>
-                <h3><i>Soy el nombre del producto</i></h3>
-                <p><small>Soy el modelo</small></p>
+        <div className='box-macro-clothes-card'>
+            <div className='box-image-product-clothes-card'>
+                <img className='image-product-clothes-card' src={ProductOne} alt="Imagen producto" />
+            </div>
+            <div className='box-text-product-clothes-card'>
+                <h3 className='titel-product-clothes-card'><i>SOY EL NOMBRE DEL PRODUCTO</i></h3>
+                <p className='description-product-clothes-card'>Soy el modelo</p>
                 <button>ADD TO CART
-                    <img src="" alt="Ícono carrito de compras" />
+                    <img src={CartBlack} alt="Ícono carrito de compras" />
                 </button>
                 <p>$--</p>
             </div>
