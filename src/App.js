@@ -12,7 +12,8 @@ import Cards from './pages/cards';
 // import Promotional from './components/landingsPages/layoutsToReplicate/Promotional';
 // import ClothesCard from './components/Cards/allCards/Clothes';
 // import FoodCard from './components/Cards/allCards/Food';
-import PeopleCard from './components/Cards/allCards/People';
+// import PeopleCard from './components/Cards/allCards/People';
+import NewsCard from './components/Cards/allCards/News';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         <Route path='/details' element={<Details/>}/>
         <Route path='/forms' element={<Forms/>}/>
         <Route path='/cards' element= {<Cards/>}/>
-        <Route path='/pruebas' element= {<PeopleCard/>}/>
+        <Route path='/pruebas' element= {<NewsCard/>}/>
       </Routes>
       </BrowserRouter>
   
