@@ -1,5 +1,10 @@
 import './styleReplicateCards.css'
 import ImageProfile from '../../../assets/Cards/imageProfileP.jpg'
+import IconPeople from '../../../assets/Cards/iconPeople.png'
+import IconViews from '../../../assets/Cards/iconViews.png'
+import IconVideos from '../../../assets/Cards/iconVideo.png'
+import IconAdd from '../../../assets/Cards/iconAdd.png'
+
 
 const PeopleCard = () => {
     return(
@@ -16,27 +21,33 @@ const PeopleCard = () => {
                     <h2 className='name-data-profile-people-card'>Nombre Apellido</h2>
                     <div className='box-data-profile-people-card'>
                         <div>
-                            <img src="" alt="Ícono personas" />
-                            <p>Followers</p>
-                            <h3>------</h3>
+                            <img className='icon-images-profile-people-card' src={IconPeople} alt="Ícono personas" />
+                            <div className='box-statistics-profile-people-card'>
+                                <p>Followers</p>
+                                <h3>200,000</h3>
+                            </div>
                         </div>
                         <div>
-                            <img src="" alt="Íconos views" />
-                            <p>Views</p>
-                            <h3>------</h3>
+                            <img className='icon-images-profile-people-card' src={IconViews} alt="Íconos views" />
+                            <div className='box-statistics-profile-people-card'>
+                                <p>Views</p>
+                                <h3>400,000.20</h3>
+                            </div>
                         </div>
                         <div>
-                            <img src="" alt="Ícono videos" />
-                            <p>Videos</p>
-                            <h3>----</h3>
+                            <img className='icon-images-profile-people-card' src={IconVideos} alt="Ícono videos" />
+                            <div className='box-statistics-profile-people-card'>
+                                <p>Videos</p>
+                                <h3>1300</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
                 
             </div>
-            <footer>
+            <footer className='box-buttons-footer-people-card'>
                 <button>View profile</button>
-                <button>Ícono add</button>
+                <button><img src={IconAdd} alt="icono agregar" /></button>
             </footer>
         </div>
 
