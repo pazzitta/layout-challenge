@@ -10,7 +10,7 @@ const NewsCard = () => {
                 <div className='box-text-news-card'>
                     <div className='internal-box-text-news-card'>
                         <p className='section-text-news-card'>Section</p>
-                        <h2 className='titel-text-news-card'>Titulo de la noticia</h2>
+                        <h2 className='titel-text-news-card'>Título de la noticia</h2>
                         <p className='decription-text-news-card'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus sunt voluptatibus repudiandae quasi sint. Enim dolores laudantium blanditiis mollitia tenetur nisi. Culpa, quaerat a! Eos ipsum quas consectetur totam nemo.</p>
                         <p className='decription2-text-news-card'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus sunt voluptatibus repudiandae quasi sint. Enim dolores laudantium blanditiis mollitia tenetur nisi. Culpa, quaerat a! Eos ipsum quas consectetur totam nemo.</p>
                         <div className='box-autor-text-news-card'>
