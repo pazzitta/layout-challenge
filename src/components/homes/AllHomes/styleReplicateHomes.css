@@ -83,8 +83,90 @@
     font-size: 18px;
     font-weight: 600;
 }
-.box-intenal-body-personalPage-home{
-    border: solid thin cornflowerblue;
+.box-intenal-body-personalPage-homes{
+    /* border: solid thin cornflowerblue; */
     width: 100%;
     height: 90vh;
+}
+.box-data-and-image-personalPage-homes{
+    /* border: solid thin firebrick; */
+    display: flex;
+    width: 100%;
+    height: 75vh;
+}
+.box-data-body-personalPage-homes{
+    /* border: solid thin fuchsia; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 80px;
+    width: 60%;
+    height: 35vh;
+    align-self: center;
+    color: #3a3a3a;
+}
+.box-data-body-personalPage-homes >h5{
+    font-size: 20px;
+    margin: 0;
+}
+.box-data-body-personalPage-homes >h1{
+    font-size: 110px;
+    margin: 0;
+    line-height: 90px;
+}
+.box-data-body-personalPage-homes >h2{
+    font-size: 60px;
+    margin: 0;
+    text-align: start;
+    font-weight: 600;
+}
+.box-data-body-personalPage-homes >h3{
+    font-size: 30px;
+    margin: 0;
+    text-align: start;
+    font-weight: 600;
+}
+.box-data-body-personalPage-homes >button{
+    background-color: #de2d49;
+    width: 250px;
+    height: 50px;
+    border: none;
+    margin-top: 40px;
+    color: white;
+    font-size: 20px;
+}
+.box-background-image-personalPage-homes{
+    /* border:solid thin tomato; */
+    display: flex;
+    justify-content: flex-start;
+    width: 40%;
+
+}
+.backgroun-image-personalPage-homes{
+    width: 69%;
+}
+.box-footer-personalPage-homes{
+    /* border: solid thin rgb(34, 178, 116); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    height: 16.5%;
+}
+.box-footer-personalPage-homes >div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-right: solid thin rgb(102, 102, 102);
+    width: 25%;
+    height: 70px;
+}
+.box-footer-personalPage-homes h6{
+    font-size: 20px;
+    margin: 0;
+}
+.box-footer-personalPage-homes p{
+    margin: 0;
 }

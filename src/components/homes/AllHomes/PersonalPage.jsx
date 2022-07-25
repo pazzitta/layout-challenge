@@ -6,7 +6,7 @@ import InstagramIconPP from '../../../assets/homes/InstagramIconPP.png'
 import GitHubIconPP from '../../../assets/homes/GitHubIconPP.png'
 import LinkedInIconPP from '../../../assets/homes/LinkedInIconPP.png'
 import PhoneIconPP from '../../../assets/homes/phoneIconoPP.png'
-
+import BackgroundImagePP from '../../../assets/homes/backgroundImagePP.jpg'
 
 const PersonalPageHome = () => {
     return(
@@ -45,18 +45,20 @@ const PersonalPageHome = () => {
                         <a href="tel:3536272883">Call me</a>
                     </div>
                 </nav>
-                <div className='box-intenal-body-personalPage-home'>
-                <div>
-                    <div>
+                <div className='box-intenal-body-personalPage-homes'>
+                <div className='box-data-and-image-personalPage-homes'>
+                    <div className='box-data-body-personalPage-homes'>
                         <h5>Hi There,</h5>
-                        <h1>I am Venissa</h1>
+                        <h1>I am Ven<font color='#de2d49'>i</font>ssa</h1>
                         <h2>I am designer during daytime</h2>
                         <h3>& work with batman during nigths.</h3>
                         <button>Ask Me How</button>
                     </div>
-                    <img src="" alt="Imagen de ella" />
+                    <div className='box-background-image-personalPage-homes'>
+                        <img className='backgroun-image-personalPage-homes' src={BackgroundImagePP} alt="Imagen de ella" />
+                    </div>
                 </div>
-                <div>
+                <div className='box-footer-personalPage-homes'>
                     <div>
                         <h6>Email</h6>
                         <p>soyunemail@gmail.com</p>
