@@ -1,10 +1,14 @@
+import './styleCardsHomes.css'
+import ProductCardEcommerce from '../../../../assets/homes/T-shirtCardE.png'
 
 const CardEcommerce = () => {
     return(
-        <div>
-            <img src="" alt="Imagen producto" />
-            <p><b>Nombre porducto</b>&#65288;algo1&#65289;</p>
-            <p>$--</p>
+        <div className="background-Ecommerce-card">
+            <img src={ProductCardEcommerce} alt="Imagen producto" />
+            <section>
+                <p><b>Nombre porducto</b><small>&#65288;algo1&#65289;</small></p>
+                <p><b>$--</b></p>
+            </section>
         </div>
     )
 }

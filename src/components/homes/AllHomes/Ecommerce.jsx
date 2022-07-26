@@ -33,7 +33,15 @@ const EcommerceHomes = () => {
                     <a href="">Women</a>
                     <a href="">Objets</a>
                 </nav>
-                <div>
+                <div className="box-all-card-Ecommerce-homes">
+                    <CardEcommerce/>
+                    <CardEcommerce/>
+                    <CardEcommerce/>
+                    <CardEcommerce/>
+                    <CardEcommerce/>
+                    <CardEcommerce/>
+                    <CardEcommerce/>
+                    <CardEcommerce/>
                     <CardEcommerce/>
                     <CardEcommerce/>
                     <CardEcommerce/>

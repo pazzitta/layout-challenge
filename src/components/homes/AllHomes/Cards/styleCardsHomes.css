@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box
+}
+
+/* CARD E-COMMERCE  */
+.background-Ecommerce-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#f7f7f7;
+    width: 340px;
+    height: 400px;
+}
+.background-Ecommerce-card > img{
+    width: 90%
+}
+.background-Ecommerce-card >section{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 340px;
+    height: 70px
+}
+.background-Ecommerce-card p{
+    margin: 0;
+    align-self: start;
+    padding-left: 10px;
+}
