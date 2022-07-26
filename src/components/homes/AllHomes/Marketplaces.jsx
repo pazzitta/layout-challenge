@@ -47,198 +47,207 @@ const MarketplacesHomes = () => {
                     </div>
                 </nav>
             </header>
-            <div>
-                <section>
-                    <div>
-                        <h3>CATEGORÍAS</h3>
-                        <details>
-                            <summary>Categoría 1</summary>
-                            <a href="">Sub cat. 1</a>
-                            <a href="">Sub cat. 2</a>
-                            <a href="">Sub cat. 3</a>
-                            <a href="">Sub cat. 4</a>
-                            <a href="">Sub cat. 5</a> 
-                        </details>
-                        <details>
-                            <summary>Categoría 2</summary>
-                            <a href="">Sub cat. 1</a>
-                            <a href="">Sub cat. 2</a>
-                            <a href="">Sub cat. 3</a>
-                            <a href="">Sub cat. 4</a>
-                            <a href="">Sub cat. 5</a> 
-                        </details>
-                        <details>
-                            <summary>Categoría 3</summary>
-                            <a href="">Sub cat. 1</a>
-                            <a href="">Sub cat. 2</a>
-                            <a href="">Sub cat. 3</a>
-                            <a href="">Sub cat. 4</a>
-                            <a href="">Sub cat. 5</a> 
-                        </details>
-                        <details>
-                            <summary>Categoría 4</summary>
-                            <a href="">Sub cat. 1</a>
-                            <a href="">Sub cat. 2</a>
-                            <a href="">Sub cat. 3</a>
-                            <a href="">Sub cat. 4</a>
-                            <a href="">Sub cat. 5</a> 
-                        </details>
-                        <details>
-                            <summary>Categoría 5</summary>
-                            <a href="">Sub cat. 1</a>
-                            <a href="">Sub cat. 2</a>
-                            <a href="">Sub cat. 3</a>
-                            <a href="">Sub cat. 4</a>
-                            <a href="">Sub cat. 5</a> 
-                        </details>
-                        <details>
-                            <summary>Categoría 6</summary>
-                            <a href="">Sub cat. 1</a>
-                            <a href="">Sub cat. 2</a>
-                            <a href="">Sub cat. 3</a>
-                            <a href="">Sub cat. 4</a>
-                            <a href="">Sub cat. 5</a> 
-                        </details>
-                        <details>
-                            <summary>Categoría 7</summary>
-                            <a href="">Sub cat. 1</a>
-                            <a href="">Sub cat. 2</a>
-                            <a href="">Sub cat. 3</a>
-                            <a href="">Sub cat. 4</a>
-                            <a href="">Sub cat. 5</a> 
-                        </details>
-                        <details>
-                            <summary>Categoría 8</summary>
-                            <a href="">Sub cat. 1</a>
-                            <a href="">Sub cat. 2</a>
-                            <a href="">Sub cat. 3</a>
-                            <a href="">Sub cat. 4</a>
-                            <a href="">Sub cat. 5</a> 
-                        </details>
-                        <img src="" alt="Imagen publicitaria" />
-                        <aside><img src="" alt="Publicidad 2" /></aside>
-                    </div>
-                </section>
-                <section>
-                    <section>Section1
-                        <aside>
-                            <img src="" alt="Publicidad 3" />
-                        </aside>
+            <div className="box-macro-body-marketplace-homes">
+                <div className="left-box-body-marketplace-homes">
+                    <section>
+                        <div>
+                            <h3>! CATEGORÍAS</h3>
+                            <details>
+                                <summary>Categoría 1</summary>
+                                <a href="">Sub cat. 1</a>
+                                <a href="">Sub cat. 2</a>
+                                <a href="">Sub cat. 3</a>
+                                <a href="">Sub cat. 4</a>
+                                <a href="">Sub cat. 5</a> 
+                            </details>
+                            <details>
+                                <summary>Categoría 2</summary>
+                                <a href="">Sub cat. 1</a>
+                                <a href="">Sub cat. 2</a>
+                                <a href="">Sub cat. 3</a>
+                                <a href="">Sub cat. 4</a>
+                                <a href="">Sub cat. 5</a>
+                            </details>
+                            <details>
+                                <summary>Categoría 3</summary>
+                                <a href="">Sub cat. 1</a>
+                                <a href="">Sub cat. 2</a>
+                                <a href="">Sub cat. 3</a>
+                                <a href="">Sub cat. 4</a>
+                                <a href="">Sub cat. 5</a> 
+                            </details>
+                            <details>
+                                <summary>Categoría 4</summary>
+                                <a href="">Sub cat. 1</a>
+                                <a href="">Sub cat. 2</a>
+                                <a href="">Sub cat. 3</a>
+                                <a href="">Sub cat. 4</a>
+                                <a href="">Sub cat. 5</a> 
+                            </details>
+                            <details>
+                                <summary>Categoría 5</summary>
+                                <a href="">Sub cat. 1</a>
+                                <a href="">Sub cat. 2</a>
+                                <a href="">Sub cat. 3</a>
+                                <a href="">Sub cat. 4</a>
+                                <a href="">Sub cat. 5</a>
+                            </details>
+                            <details>
+                                <summary>Categoría 6</summary>
+                                <a href="">Sub cat. 1</a>
+                                <a href="">Sub cat. 2</a>
+                                <a href="">Sub cat. 3</a>
+                                <a href="">Sub cat. 4</a>
+                                <a href="">Sub cat. 5</a>
+                            </details>
+                            <details>
+                                <summary>Categoría 7</summary>
+                                <a href="">Sub cat. 1</a>
+                                <a href="">Sub cat. 2</a>
+                                <a href="">Sub cat. 3</a>
+                                <a href="">Sub cat. 4</a>
+                                <a href="">Sub cat. 5</a> 
+                            </details>
+                            <details>
+                                <summary>Categoría 8</summary>
+                                <a href="">Sub cat. 1</a>
+                                <a href="">Sub cat. 2</a>
+                                <a href="">Sub cat. 3</a>
+                                <a href="">Sub cat. 4</a>
+                                <a href="">Sub cat. 5</a>
+                            </details>
+                        </div>
+                    </section>
+                    <aside><img src="" alt="Publicidad 1 box left" /></aside>
+                    <section>
                         <article>
                             <div>
-                                <h3>SPECIAL PRODUCT</h3>
+                                <h3>! SPECIAL PRODUCT</h3>
                             </div>
                             <CardProductsOne/>
                             <CardProductsOne/>
                             <CardProductsOne/>
                             {/* PAGINADO, dos páginas */}
                         </article>
+                    </section>
+                    <section>
                         <article>
                             <div>
-                                <h3>TESTIMONIALS</h3>
+                                <h3>! TESTIMONIALS</h3>
                             </div>
                             <CardTestimonials/>
                             {/* PAGINADO, tres páginas */}
                         </article>
+                    </section>
+                    <section>
                         <article>
                             <div>
-                                <h3>BEST ALGO</h3>
+                                <h3>! BEST ALGO</h3>
                             </div>
                             <CardProductTwo/>
                             {/* PAGINADO, tres páginas */}
                         </article>
+                    </section>               
+                </div>
+
+
+                <div className="box-center-body-marketplace-homes">
+                    <img src="" alt="Imagen main publicitaria" />
+                    <nav>
+                        <div>
+                            <a href="">FEATURED</a>
+                            <a href="">LATEST</a>
+                        </div>
+                        <div>
+                            <a href=""><img src="" alt="ícono 1" /></a>
+                            <a href=""><img src="" alt="ícono 2" /></a>
+                        </div>
+                    </nav>
+                    <section>
+                        <CardProductsThree/>
+                        <CardProductsThree/>
+                        <CardProductsThree/>
+                        <CardProductsThree/>
+                        <CardProductsThree/>
+                        <CardProductsThree/>
+                        <CardProductsThree/>
+                        <CardProductsThree/>
                     </section>
-                    <section>Section 2
-                        <nav>
-                            <div>
-                                <a href="">FEATURED</a>
-                                <a href="">LATEST</a>
-                            </div>
-                            <div>
-                                <a href=""><img src="" alt="ícono 1" /></a>
-                                <a href=""><img src="" alt="ícono 2" /></a>
-                            </div>
-                        </nav>
-                        <section>
-                            <CardProductsThree/>
-                            <CardProductsThree/>
-                            <CardProductsThree/>
-                            <CardProductsThree/>
-                            <CardProductsThree/>
-                            <CardProductsThree/>
-                            <CardProductsThree/>
-                            <CardProductsThree/>
-                        </section>
-                        <article>
-                            <div>
-                                <a href="">
-                                    <img src="" alt="ícono Nave espacial" />
-                                    <h6>Algo algo 1</h6>
-                                    <p>SubAlgo 1</p>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="">
-                                    <img src="" alt="ícono manoslibres" />
-                                    <h6>Algo algo 2</h6>
-                                    <p>Subalgo 2</p>
-                                </a>
-                            </div><div>
-                                <a href="">
-                                    <img src="" alt="ícono alcancía" />
-                                    <h6>Algo algo 3</h6>
-                                    <p>Subalgo 3</p>
-                                </a>
-                            </div>
-                        </article>
-                        <nav>
-                            <div>
-                                <a href="">WOMEN</a>
-                            </div>
-                            <div>
-                                <a href=""><img src="" alt="ícono 1" /></a>
-                                <a href=""><img src="" alt="ícono 2" /></a>
-                                <a href=""><img src="" alt="ícono 3" /></a>
-                                <a href=""><img src="" alt="ícono 4" /></a>
-                            </div>
-                        </nav>
-                        <section>
-                            <aside>
-                                <img src="" alt="Publicidad 4" />
-                            </aside>
-                            <section>
-                                <nav>
-                                    <a href=""></a>
-                                    <a href=""></a>
-                                    <a href=""></a>
-                                    <a href=""></a>
-                                </nav>
-                                <div>
-                                    <CardProductsThree/>
-                                    <CardProductsThree/>
-                                    <CardProductsThree/> 
-                                </div>
-                            </section>                    
-                        </section>
+                    <article>
+                        <div>
+                            <a href="">
+                                <img src="" alt="ícono Nave espacial" />
+                                <h6>Algo algo 1</h6>
+                                <p>SubAlgo 1</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <img src="" alt="ícono manoslibres" />
+                                <h6>Algo algo 2</h6>
+                                <p>Subalgo 2</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <img src="" alt="ícono alcancía" />
+                                <h6>Algo algo 3</h6>
+                                <p>Subalgo 3</p>
+                            </a>
+                        </div>
+                    </article>
+                    <nav>
+                        <div>
+                            <a href="">WOMEN</a>
+                        </div>
+                        <div>
+                            <a href=""><img src="" alt="ícono 1" /></a>
+                            <a href=""><img src="" alt="ícono 2" /></a>
+                            <a href=""><img src="" alt="ícono 3" /></a>
+                            <a href=""><img src="" alt="ícono 4" /></a>
+                        </div>
+                    </nav>
+                    <section>
+                        <aside>
+                            <img src="" alt="Publicidad 4" />
+                        </aside>
                         <section>
                             <nav>
-                                <a href="">NEWS</a>
-                                <div>
-                                    <a href="">
-                                        <img src="" alt="Ícono 1" />
-                                    </a>
-                                    <a href="">
-                                        <img src="" alt="ícono 2" />
-                                    </a>
-                                </div>
+                                <a href=""></a>
+                                <a href=""></a>
+                                <a href=""></a>
+                                <a href=""></a>
                             </nav>
-                            <CardProductsFour/>
-                            <CardProductsFour/>
-                            <CardProductsFour/>
-                        </section> 
+                            <div>
+                                <CardProductsThree/>
+                                <CardProductsThree/>
+                                <CardProductsThree/> 
+                            </div>
+                        </section>                    
                     </section>
-                    <section>Section 3
-                        <article>
+                    <section>
+                        <nav>
+                            <a href="">NEWS</a>
+                            <div>
+                                <a href="">
+                                    <img src="" alt="Ícono 1" />
+                                </a>
+                                <a href="">
+                                    <img src="" alt="ícono 2" />
+                                </a>
+                            </div>
+                        </nav>
+                        <CardProductsFour/>
+                        <CardProductsFour/>
+                        <CardProductsFour/>
+                    </section>                         
+                </div>
+
+                <div className="box-right-body-marketplace-homes">
+                    <aside>
+                        <img src="" alt="Publicidad 1 box-right-body" />
+                    </aside>
+                    <article>
                             <div>
                                 <h3>BEST PRODUCT</h3>
                             </div>
@@ -246,20 +255,19 @@ const MarketplacesHomes = () => {
                             <CardProductsOne/>
                             <CardProductsOne/>
                             {/* PAGINADO, dos páginas */}
-                        </article>
-                        <aside>
-                            <img src="" alt="Publicidad 5" />
-                        </aside>
-                        <aside>
-                            <div>
-                                <h3>OUR BRANDS</h3>
-                            </div>
-                            <img src="" alt="Publicidad 6" />
-                        </aside>
-                    </section>
-                </section>
+                    </article>
+                    <aside>
+                        <img src="" alt="Publicidad 2 box-right-body " />
+                    </aside>
+                    <aside>
+                        <div>
+                            <h3>OUR BRANDS</h3>
+                        </div>
+                        <img src="" alt="Publicidad 6" />
+                    </aside>
+                </div>
             </div>
-            <footer>
+            <footer className="box-macro-footer-marketplace-homes">
                 <header>
                     <nav>
                         <img src="" alt="ícono correo" />
@@ -279,9 +287,9 @@ const MarketplacesHomes = () => {
                         </div>
                     </nav>
                 </header>
-                <div>
+                <div className="box-body-footer-marketplace-homes">
                     <section>
-                        <img src="" alt="Logo" />
+                        <img src={IsologoMp} alt="Logo" />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis natus in eius beatae.</p>
                         <div>
                             <img src="" alt="ícono 1" />
