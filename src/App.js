@@ -15,7 +15,8 @@ import Cards from './pages/cards';
 // import PeopleCard from './components/Cards/allCards/People';
 // import NewsCard from './components/Cards/allCards/News';
 // import PersonalPageHome from './components/homes/AllHomes/PersonalPage';
-import EcommerceHomes from './components/homes/AllHomes/Ecommerce';
+// import EcommerceHomes from './components/homes/AllHomes/Ecommerce';
+import MarketplacesHomes from './components/homes/AllHomes/Marketplaces';
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
         <Route path='/details' element={<Details/>}/>
         <Route path='/forms' element={<Forms/>}/>
         <Route path='/cards' element= {<Cards/>}/>
-        <Route path='/pruebas' element= {<EcommerceHomes/>}/>
+        <Route path='/pruebas' element= {<MarketplacesHomes/>}/>
       </Routes>
       </BrowserRouter>
   

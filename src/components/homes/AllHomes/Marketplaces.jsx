@@ -3,17 +3,19 @@ import CardTestimonials from "./Cards/Marketplace/CardTestimonials";
 import CardProductTwo from "./Cards/Marketplace/CardProductTwo";
 import CardProductsThree from "./Cards/Marketplace/CardProductThree";
 import CardProductsFour from "./Cards/Marketplace/CardProductsFour";
+import IsologoMp from '../../../assets/homes/isologoMp.png'
+import MagnifyingGlassMp from '../../../assets/LandingPages/lupaP.png'
 
 const MarketplacesHomes = () => {
     return(
-        <div>
-            <header>
-                <nav>
-                    <div>
-                        <select name="" id="" placeholder="English">
-                            <option value="">Option 1</option>
-                            <option value="">Option 2</option>
-                            <option value="">Option 3</option>
+        <div className="box-macro-marketplaces-homes">
+            <header className="box-header-marketplace-homes">
+                <nav className="top-nav-header-marketplace-homes">
+                    <div className="box-left-header-marketplace-homes">
+                        <select name="" id="" >
+                            <option value="">English</option>
+                            <option value="">Español</option>
+                            <option value="">Portugués</option>
                         </select>
                         <select name="" id="" placeholder="No sé">
                             <option value="">Option a</option>
@@ -22,24 +24,24 @@ const MarketplacesHomes = () => {
                         </select>
                         <a href="">Sing in</a>
                     </div>
-                    <div>
-                        <a href="">Contact</a>
-                        <a href="">No sé 1</a>
-                        <a href="">No sé 2</a>
-                        <a href="">No sé 3</a>
-                        <a href="">New arrivals</a>
+                    <div className="box-right-header-marketplace-homes">
+                        <a className="ancords-box-right-marketplace-homes" href="">Contact</a>
+                        <a className="ancords-box-right-marketplace-homes" href="">No sé 1</a>
+                        <a className="ancords-box-right-marketplace-homes" href="">No sé 2</a>
+                        <a className="ancords-box-right-marketplace-homes" href="">No sé 3</a>
+                        <a className="last-ancord-right-header-marketplace-homes" href="">New arrivals</a>
                     </div>
                 </nav>
-                <nav>
-                    <img src="" alt="Logo" />
+                <nav className="botton-nav-header-marketplace-homes">
+                    <img src={IsologoMp} alt="Logo" />
                     <form action="">
                         <input type="text" placeholder="Search" />
-                        <button>Lupa</button>
+                        <button></button>
                     </form>
-                    <div>
-                        <button>Corazón</button>
+                    <div className="box-right-botton-right-nav-header-marketplace-homes">
+                        <button></button>
                         <div>
-                            <button>Carrito</button>
+                            <button></button>
                             <p>CART</p>
                         </div>
                     </div>

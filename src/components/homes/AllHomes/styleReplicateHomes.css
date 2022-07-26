@@ -272,3 +272,124 @@
     width: 75%;
     height: 1250px;
 }
+
+/* MARKETPLACE */
+.box-macro-marketplaces-homes{
+    border: solid;
+    width: 100%;
+}
+.box-header-marketplace-homes{
+    border: solid thin orange;
+    width: 100%;
+    height: 100px;
+}
+.top-nav-header-marketplace-homes{
+    border: solid thin #de2d49;
+    background-color: #d15f00;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;   
+}
+.box-left-header-marketplace-homes{
+    /* border: solid thin wheat; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15%;
+}
+
+.box-left-header-marketplace-homes > select{
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+.box-left-header-marketplace-homes > a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.box-right-header-marketplace-homes{
+    /* border: solid thin wheat; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 25%;
+}
+.ancords-box-right-marketplace-homes{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    width: 80px;
+    border-right: solid thin white;
+}
+.last-ancord-right-header-marketplace-homes {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.botton-nav-header-marketplace-homes{
+    background-color: #ef6c00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 68px;
+}
+.botton-nav-header-marketplace-homes > img{
+    width: 100px;
+    height: 40px;
+}
+.botton-nav-header-marketplace-homes > form {
+    display: flex;
+}
+.botton-nav-header-marketplace-homes > form input{
+    width: 600px;
+    height: 30px;
+    border: none;
+}
+.botton-nav-header-marketplace-homes > form button{
+    background-image: url('../../../assets/LandingPages/lupaP.png');
+    background-repeat:no-repeat;
+    background-color: black;
+    background-size: cover;
+    background-position:center;
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+
+.box-right-botton-right-nav-header-marketplace-homes{
+    /* border: solid thin rebeccapurple; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 10%;
+}
+.box-right-botton-right-nav-header-marketplace-homes > button{
+    background-image: url('../../../assets/homes/iconHeartM.png');
+    background-repeat:no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    background-position:center;
+    border: none;
+    width: 30px;
+    height: 22px;
+}
+.box-right-botton-right-nav-header-marketplace-homes > div{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.box-right-botton-right-nav-header-marketplace-homes > div button{
+    background-image: url('../../../assets/Cards/cartBlack.png');
+    background-repeat:no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    background-position:center;
+    border: none;
+    width: 30px;
+    height: 22px;
+    margin-right: 5px;
+    /* este carrito es provisorio */
+}
