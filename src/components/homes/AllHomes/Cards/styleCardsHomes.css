@@ -28,3 +28,33 @@
     align-self: start;
     padding-left: 10px;
 }
+
+/* CARD MARKETPLACE */
+/* VerticalProductCard */
+.background-vertical-product-card-Mp-homes{
+    /* border: solid thin; */
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 130px;
+}
+.background-vertical-product-card-Mp-homes > img{
+    width: 100px;
+    height: 100px;
+}
+.background-vertical-product-card-Mp-homes p{
+    font-size: 12px;
+    text-align: start;
+    margin: 0;
+}
+.box-price-vertical-product-card-Mp-homes{
+    /* border: solid; */
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.box-price-vertical-product-card-Mp-homes > h5{
+    color:  #d15f00;
+    font-size: 15px;
+    margin-right: 5px;
+}

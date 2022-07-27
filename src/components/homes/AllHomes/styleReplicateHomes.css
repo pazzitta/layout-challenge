@@ -422,6 +422,15 @@
     margin: 0;
     padding-left:10px ;
 }
+.order-card-special-product-marketplace-homes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+/* fALTA VER COMO HAGO ESO DEL RADIO O SI PONGO UN BOTÓN CON UN FOCOS, ACTIVE... para que haga el color naranja */
+
+
 
 .box-center-body-marketplace-homes{
     border:solid thin #00d1ca;

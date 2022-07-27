@@ -1,4 +1,4 @@
-import CardProductsOne from "./Cards/Marketplace/CardProductsOne";
+import VerticalProductCard from "./Cards/Marketplace/VerticalProductCard";
 import CardTestimonials from "./Cards/Marketplace/CardTestimonials";
 import CardProductTwo from "./Cards/Marketplace/CardProductTwo";
 import CardProductsThree from "./Cards/Marketplace/CardProductThree";
@@ -129,9 +129,15 @@ const MarketplacesHomes = () => {
                             <div>
                                 <h3>! SPECIAL PRODUCT</h3>
                             </div>
-                            <CardProductsOne/>
-                            <CardProductsOne/>
-                            <CardProductsOne/>
+                            <div className="order-card-special-product-marketplace-homes">
+                            <VerticalProductCard/>
+                            <VerticalProductCard/>
+                            <VerticalProductCard/>
+                            </div>
+                            <div className="box-paginated-special-product-marketplace-homes">
+                                <input type="radio" name="pages" id="" />
+                                <input type="radio" name="pages" id="" />
+                            </div>  
                             {/* PAGINADO, dos páginas */}
                         </article>
                     </section>
@@ -256,9 +262,9 @@ const MarketplacesHomes = () => {
                             <div>
                                 <h3>BEST PRODUCT</h3>
                             </div>
-                            <CardProductsOne/>
-                            <CardProductsOne/>
-                            <CardProductsOne/>
+                            <VerticalProductCard/>
+                            <VerticalProductCard/>
+                            <VerticalProductCard/>
                             {/* PAGINADO, dos páginas */}
                     </article>
                     <aside>
