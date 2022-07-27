@@ -10,6 +10,7 @@ import IconTwitterMp from '../../../assets/homes/icons/iconTwitterMp.png'
 import IconUbicationMp from '../../../assets/homes/icons/iconUbicationMp.png'
 import IconCardOneMp from '../../../assets/homes/icons/iconCardOneMp.png'
 import IconCardTwoMp from '../../../assets/homes/icons/iconCardTwoMp.png'
+import ImageOneLeft from '../../../assets/homes/Marketplace/imageOneLeft.jpg'
 
 const MarketplacesHomes = () => {
     return(
@@ -123,7 +124,7 @@ const MarketplacesHomes = () => {
                             </details>
                         </div>
                     </section>
-                    <aside><img src="" alt="Publicidad 1 box left" /></aside>
+                    <aside><img className="position-image-left-box-body-marketplace-homes" src={ImageOneLeft} alt="Publicidad 1 box left" /></aside>
                     <section>
                         <article>
                             <div>
@@ -134,7 +135,7 @@ const MarketplacesHomes = () => {
                             <VerticalProductCard/>
                             <VerticalProductCard/>
                             </div>
-                            <div className="box-paginated-special-product-marketplace-homes">
+                            <div className="cbox-paginated-special-product-marketplace-homes">
                                 <input type="radio" name="pages" id="" />
                                 <input type="radio" name="pages" id="" />
                             </div>  
@@ -146,7 +147,14 @@ const MarketplacesHomes = () => {
                             <div>
                                 <h3>! TESTIMONIALS</h3>
                             </div>
-                            <CardTestimonials/>
+                            <div className="order-card-testimonial-marketplace-homes" >
+                                <CardTestimonials/>
+                            </div>
+                            <div className="box-paginated-special-product-marketplace-homes">
+                                <input type="radio" name="testimonial" id="" />
+                                <input type="radio" name="testimonial" id="" />
+                                <input type="radio" name="testimonial" id="" />
+                            </div> 
                             {/* PAGINADO, tres páginas */}
                         </article>
                     </section>

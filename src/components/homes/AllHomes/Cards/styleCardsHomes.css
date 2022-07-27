@@ -58,3 +58,32 @@
     font-size: 15px;
     margin-right: 5px;
 }
+/* CardTestimonials */
+.background-testimonial-card-Mp-homes{
+    /* border: solid thin olivedrab; */
+    width: 90%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.background-testimonial-card-Mp-homes > img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    align-self: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.background-testimonial-card-Mp-homes > h5{
+   margin: 0;
+   font-size: 17px;
+}
+.background-testimonial-card-Mp-homes > h6{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.background-testimonial-card-Mp-homes > p{
+    line-height: 30px;
+}
