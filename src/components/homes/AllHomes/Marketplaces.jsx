@@ -5,6 +5,11 @@ import CardProductsThree from "./Cards/Marketplace/CardProductThree";
 import CardProductsFour from "./Cards/Marketplace/CardProductsFour";
 import IsologoMp from '../../../assets/homes/isologoMp.png'
 import MagnifyingGlassMp from '../../../assets/LandingPages/lupaP.png'
+import IconLetterMp from '../../../assets/homes/icons/iconLetterMp.png'
+import IconTwitterMp from '../../../assets/homes/icons/iconTwitterMp.png'
+import IconUbicationMp from '../../../assets/homes/icons/iconUbicationMp.png'
+import IconCardOneMp from '../../../assets/homes/icons/iconCardOneMp.png'
+import IconCardTwoMp from '../../../assets/homes/icons/iconCardTwoMp.png'
 
 const MarketplacesHomes = () => {
     return(
@@ -270,66 +275,73 @@ const MarketplacesHomes = () => {
             <footer className="box-macro-footer-marketplace-homes">
                 <header>
                     <nav>
-                        <img src="" alt="ícono correo" />
-                        <div>
+                        <img src={IconLetterMp} alt="ícono correo" />
+                        <div className="box-description-header-footer-marketplace-homes">
                             <h2>JOIN OUR NEWSLETTER</h2>
-                            <p>indicación de que hacer</p>
+                            <p>indicación de que hacer holi holi holi</p>
                         </div>
-                        <form action="">
+                        <form action="" className="order-form-header-footer-marketplace-homes">
                             <input type="text" placeholder="Enviar algo" />
-                            <button>Avión de papel</button>
+                            <div><button></button></div> 
                         </form>
-                        <div>
-                            <button>Red 1</button>
-                            <button>Red 2</button>
-                            <button>Red 3</button>
-                            <button>Red 4</button>
+                        <div className="box-buttons-header-footer-marketplace-homes">
+                            <button><img src={IconUbicationMp} alt="" /></button>
+                            <button><img src={IconTwitterMp} alt="" /></button>
+                            <button><img src={IconUbicationMp} alt="" /></button>
+                            <button><img src={IconTwitterMp} alt="" /></button>
                         </div>
                     </nav>
                 </header>
                 <div className="box-body-footer-marketplace-homes">
-                    <section>
+                    <section className="order-section-left-body-footer-marketplace-homes">
                         <img src={IsologoMp} alt="Logo" />
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis natus in eius beatae.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis natus in eius beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis natus in eius beatae</p>
                         <div>
-                            <img src="" alt="ícono 1" />
-                            <img src="" alt="ícono 2" />
-                            <img src="" alt="ícono 3" />
-                            <img src="" alt="ícono 4" />
+                            <img src={IconCardOneMp} alt="ícono 1" />
+                            <img src={IconCardTwoMp} alt="ícono 2" />
+                            <img src={IconCardOneMp} alt="ícono 3" />
+                            <img src={IconCardTwoMp} alt="ícono 4" />
+                        </div>
+                    </section>
+                    <div className="order-section-right-body-footer-marketplace-homes">
+                    <section>
+                        <h3>PRODUCT</h3>
+                        <div>
+                            <small>algo 1</small>
+                            <small>algo 2</small>
+                            <small>algo 3</small>
+                            <small>algo 4</small>
+                            <small>algo 5</small>
+                            <small>algo 6</small>
                         </div>
                     </section>
                     <section>
-                        <h3>PRODUCT</h3>
-                        <small>algo 1</small>
-                        <small>algo 2</small>
-                        <small>algo 3</small>
-                        <small>algo 4</small>
-                        <small>algo 5</small>
-                        <small>algo 6</small>
-                    </section>
-                    <section>
                         <h3>OUR COMPANY</h3>
-                        <small>algo 1</small>
-                        <small>algo 2</small>
-                        <small>algo 3</small>
-                        <small>algo 4</small>
-                        <small>algo 5</small>
-                        <small>algo 6</small>
+                        <div>
+                            <small>algo 1</small>
+                            <small>algo 2</small>
+                            <small>algo 3</small>
+                            <small>algo 4</small>
+                            <small>algo 5</small>
+                            <small>algo 6</small>
+                        </div>
                     </section>
                     <section>
                         <h3>YOUR ACCOUNT</h3>
-                        <small>algo 1</small>
-                        <small>algo 2</small>
-                        <small>algo 3</small>
-                        <small>algo 4</small>
-                        <small>algo 5</small>
-                        <small>algo 6</small>
+                        <div>
+                            <small>algo 1</small>
+                            <small>algo 2</small>
+                            <small>algo 3</small>
+                            <small>algo 4</small>
+                            <small>algo 5</small>
+                            <small>algo 6</small>
+                        </div>
                     </section>
                     <section>
                         <h3>CONTACT INFORMATION</h3>
                         <div>
-                            <img src="" alt="ícono ubicación" />
-                            <small>Ubicación</small>
+                            <img src={IconUbicationMp} alt="ícono ubicación" />
+                            <p>Ubicación</p>
                         </div>
                         <div>
                             <img src="" alt="ícono teléfono" />
@@ -344,9 +356,10 @@ const MarketplacesHomes = () => {
                             <small>Email</small>
                         </div>
                     </section>
+
+                    </div>
                 </div>
-                <footer>
-                    <article>
+                <footer className="order-footer-footer-marketplace-homes">
                         <div>
                             <a href="">Contact</a>
                             <a href="">Algo 2</a>
@@ -355,7 +368,6 @@ const MarketplacesHomes = () => {
                             <a href="">Algo 5</a>
                         </div>
                         <p>Dererechos reservados ...</p>
-                    </article>
                 </footer>
             </footer>
         </div>
