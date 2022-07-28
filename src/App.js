@@ -16,7 +16,7 @@ import Cards from './pages/cards';
 // import NewsCard from './components/Cards/allCards/News';
 // import PersonalPageHome from './components/homes/AllHomes/PersonalPage';
 // import EcommerceHomes from './components/homes/AllHomes/Ecommerce';
-import MarketplacesHomes from './components/homes/AllHomes/Marketplaces';
+import DigitalNewspaper from './components/homes/AllHomes/DigitalNewspaper';
 
 function App() {
   return (
@@ -29,7 +29,7 @@ function App() {
         <Route path='/details' element={<Details/>}/>
         <Route path='/forms' element={<Forms/>}/>
         <Route path='/cards' element= {<Cards/>}/>
-        <Route path='/pruebas' element= {<MarketplacesHomes/>}/>
+        <Route path='/pruebas' element= {<DigitalNewspaper/>}/>
       </Routes>
       </BrowserRouter>
   

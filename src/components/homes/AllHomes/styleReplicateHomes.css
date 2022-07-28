@@ -635,3 +635,116 @@
     color: #1e1e1e;
     font-weight: 500;
 }
+
+/* DIGITAL NEWSPAPER */
+.box-macro-digital-newspaper-homes{
+    border: solid;
+    width: 100%;
+    display: flex;
+
+}
+.box-vertical-nav-digital-newspaper-homes{
+    /* border: solid thin #00d1ca; */
+    width: 5%;
+}
+.isologo-vertical-nav-digital-newspaper-homes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid thin rgba(132, 132, 132, 0.2);
+    width: 95px;
+    height: 95px;
+}
+.isologo-vertical-nav-digital-newspaper-homes > img{
+    width: 35px;
+}
+.autor-image-vertical-nav-digital-newspaper-homes{
+    width: 45px;
+    margin-top: 500px;
+}
+.order-ancords-vertical-nav-digital-newspaper-homes{
+    /* border: solid thin #901b6b; */
+    display: flex;
+    flex-direction: column;
+}
+.order-ancords-vertical-nav-digital-newspaper-homes img{
+    width: 35px;
+    margin-top: 30px;
+}
+
+.box-body-digital-newspaper-homes{
+    border: solid thin #1c00d1;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+.box-body-digital-newspaper-homes > nav{
+    /* border: solid thin #d15f00; */
+    background-color: #f2f3f4;
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-buttons-body-digital-newspaper-homes{
+    margin-left: 50px;
+}
+.box-buttons-body-digital-newspaper-homes > button{
+    background-color: white;
+    border: none;
+    margin-right: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.box-search-body-digital-newspaper-homes{
+    display: flex;
+    margin-right: 50px;
+}
+.box-search-body-digital-newspaper-homes > button{
+    background-image: url('../../../assets/homes/DigitalNewsPaper/iconMagnifyingGlassDNP.png');
+    background-repeat:no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    background-position:center;
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+.box-search-body-digital-newspaper-homes > label{
+   font-size: 17px;
+   font-weight: 500;
+   margin-right: 10px;
+}
+.section-one-body-digital-newspaper-homes{
+    border-bottom: solid thin rgba(132, 132, 132, 0.5);
+    width: 90%;
+    align-self: center;
+}
+.section-one-body-digital-newspaper-homes > div{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+.section-one-body-digital-newspaper-homes h6{
+    font-size: 15px;
+    margin-left: 6px;
+    margin-right: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.section-one-body-digital-newspaper-homes p{
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.section-one-body-digital-newspaper-homes > h2{
+    margin: 0;
+    font-size: 100px;
+    text-align: start;
+    line-height: 120px;
+    padding-bottom: 50px;
+}
