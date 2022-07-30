@@ -6,8 +6,7 @@ import IconAtomDNP from '../../../assets/homes/DigitalNewsPaper/iconAtomDNP.png'
 import IconPieChartDNP from '../../../assets/homes/DigitalNewsPaper/iconPieChartDNP.png'
 import IconHandDNP from '../../../assets/homes/DigitalNewsPaper/iconHandDNP.png'
 import IconBallDNP from '../../../assets/homes/DigitalNewsPaper/iconBallDNP.png'
-
-
+import ImageSectionTwoDNP from '../../../assets/homes/DigitalNewsPaper/imageSectionTwo.png'
 
 const DigitalNewspaper = () =>{
     return(
@@ -44,41 +43,45 @@ const DigitalNewspaper = () =>{
                 <section className="section-one-body-digital-newspaper-homes">
                     <div>
                         <img src={IconHandDNP} alt="Isotipo" />
-                        <h6>Sección</h6>
+                        <h6>Politic</h6>
                         <p>fecha</p>
                     </div>
                     <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, delectus! Quisquam cum praesentium ratione doloribus.</h2>
                 </section>
-                    <section>
+                <section className="section-two-body-digital-newspaper-homes">
+                    <div className="box-left-news-section-two-body-digital-newspaper-homes">
                         <article>
                             <div>
-                                <img src="" alt="Isotipo" />
-                                <h6>Sección</h6>
+                                <img src={IconHandDNP} alt="Isotipo" />
+                                <h6>Politic</h6>
                                 <p>fecha</p>
                             </div>
-                            <h4>Título Noticia 1</h4>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, blanditiis nisi ratione.</p>
+                            <h4>Trump's Twitter war Friday hits multiple targets</h4>
+                            <p className="crest-news-igital-newspaper-homes">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, blanditiis nisi ratione.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, blanditiis nisi ratione. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                         </article>
                         <article>
                             <div>
-                                <img src="" alt="Isotipo" />
-                                <h6>Sección</h6>
+                                <img src={IconBallDNP} alt="Isotipo" />
+                                <h6>Sport</h6>
                                 <p>fecha</p> 
                             </div>
-                            <h4>Título Noticia 2</h4>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, blanditiis nisi ratione.</p>
+                            <h4>Watson's TD lifts Texans over Bengals in slog</h4>
+                            <p className="crest-news-igital-newspaper-homes">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, blanditiis nisi ratione.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, blanditiis nisi ratione. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                         </article>
-                        <div>
-                            <img src="" alt="Imagen noticia 1" />
+                    </div>
+                    <div className="box-right-news-section-two-body-digital-newspaper-homes">
+                        <img src={ImageSectionTwoDNP} alt="Imagen noticia 1" />
+                        <div className="internal-box-image-right-news-section-two-body-digital-newspaper-homes">
                             <div>
-                                <img src="" alt="Isotipo" />
-                                <h6>Sección</h6>
+                                <img src={IconAtomDNP} alt="Isotipo" />
+                                <h6>Technology</h6>
                                 <p>fecha</p>
                             </div>
-                            <h4>Título Imagen 3</h4>
+                            <h4>Tim Cook talks about the future</h4>
                         </div>
-                    </section>
-                    <hr />
+                    </div>
+                </section>
+        
                     <section>
                         <img src="" alt="Imagen noticia 2" />
                         <article>
