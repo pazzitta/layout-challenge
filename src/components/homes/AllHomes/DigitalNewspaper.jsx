@@ -85,14 +85,13 @@ const DigitalNewspaper = () =>{
                         </div>
                     </div>
                 </section>
-        
                     <section className="section-three-body-digital-newspaper-homes">
                         <img src={ImageSectionThreeDNP} alt="Imagen noticia 2" />
                         <div>
                             <article>
                                 <div className="box-section-and-date-body-digital-newspaper-homes">
                                     <img src={IconBallDNP} alt="Isotipo" />
-                                    <h6>Sección</h6>
+                                    <h6>Sport</h6>
                                     <p>fecha</p> 
                                 </div>
                                 <h4>Chicago Bears wins the title for the best team</h4>
@@ -104,32 +103,41 @@ const DigitalNewspaper = () =>{
                             </section>
                         </div>
                     </section>
-                    <section>
-                        <article>
-                            <div>
-                                <img src="" alt="Isotipo" />
+
+                    <section className="section-four-body-digital-newspaper-homes">
+                        <article className="article-one-section-four-body-digital-newspaper-homes">
+                            <div className="box-section-and-date-body-digital-newspaper-homes">
+                                <img src={IconHandDNP} alt="Isotipo" />
                                 <h6>Sección</h6>
                                 <p>fecha</p> 
                             </div>
-                            <h4>Título Noticia </h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa commodi hic, temporibus dolor nihil officia cumque ut veniam nostrum omnis vel! Ipsa nostrum.</p>
+                            <h4>When U.N. Envoy Nikki Haley Talks, Does President Trump Listen?</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa 
+                                commodi hic, temporibus dolor nihil officia cumque ut veniam nostrum omnis vel! Ipsa nostrum.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa 
+                                commodi hic, temporibus dolor nihil officia cumque ut veniam nostrum omnis vel! Ipsa nostrum.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa 
+                                commodi hic, temporibus dolor nihil officia cumque ut veniam nostrum omnis vel! Ipsa nostrum.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa 
+                                commodi hic, temporibus dolor nihil officia cumque ut veniam nostrum omnis vel! Ipsa nostrum.
+                .</p>
                         </article>
-                        <div>
+                        <div className="article-two-section-four-body-digital-newspaper-homes">
                             <article>
-                                <div>
-                                    <img src="" alt="Isotipo" />
-                                    <h6>Sección</h6>
+                                <div className="box-section-and-date-body-digital-newspaper-homes">
+                                    <img src={IconPieChartDNP} alt="Isotipo" />
+                                    <h6>Money</h6>
                                     <p>fecha</p>
                                 </div>
-                                <h4>Título Noticia </h4>
+                                <h4>You Don't have to Be College-Bound to Take a Gap Year</h4>
                             </article>
                             <article>
-                                <div>
-                                    <img src="" alt="Isotipo" />
-                                    <h6>Sección</h6>
+                                <div className="box-section-and-date-body-digital-newspaper-homes">
+                                    <img src={IconAtomDNP} alt="Isotipo" />
+                                    <h6>Technology</h6>
                                     <p>fecha</p>
                                 </div>
-                                <h4>Título Noticia </h4>
+                                <h4>Facebook Navigates an Internet Fractured by Governmental Controls</h4>
                             </article>
                         </div>
                     </section>

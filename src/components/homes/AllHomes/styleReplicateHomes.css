@@ -904,7 +904,40 @@
     font-weight: 600; 
     margin-top: 52px;
 }
+.section-four-body-digital-newspaper-homes{
+    border-bottom: solid thin rgba(132, 132, 132, 0.5);
+    width: 85%;
+    align-self: center;
+    display: flex;
+}
+.article-one-section-four-body-digital-newspaper-homes{
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.section-four-body-digital-newspaper-homes h4{
+    width: 80%;
+    font-size: 50px;
+    text-align: start;
+    margin: 0;
+}
+.article-one-section-four-body-digital-newspaper-homes >p {
+    width: 80%;
+    font-size: 20px;
+    text-align: start;
+    margin: 0;
+    line-height: 40px;
+    margin-bottom: 50px
+}
 
+.article-two-section-four-body-digital-newspaper-homes{
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-bottom: 50px
+}
 
 
 /* .box-right-news-section-two-body-digital-newspaper-homes div{
