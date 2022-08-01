@@ -7,6 +7,10 @@ import IconPieChartDNP from '../../../assets/homes/DigitalNewsPaper/iconPieChart
 import IconHandDNP from '../../../assets/homes/DigitalNewsPaper/iconHandDNP.png'
 import IconBallDNP from '../../../assets/homes/DigitalNewsPaper/iconBallDNP.png'
 import ImageSectionTwoDNP from '../../../assets/homes/DigitalNewsPaper/imageSectionTwo.png'
+import ImageSectionThreeDNP from '../../../assets/homes/DigitalNewsPaper/imageSectionThree.jpg'
+import TeamOneShieldDNP from '../../../assets/homes/DigitalNewsPaper/teamOneShield.png'
+import TeamTwoShieldDNP from '../../../assets/homes/DigitalNewsPaper/teamTwoShield.png'
+
 
 const DigitalNewspaper = () =>{
     return(
@@ -82,19 +86,23 @@ const DigitalNewspaper = () =>{
                     </div>
                 </section>
         
-                    <section>
-                        <img src="" alt="Imagen noticia 2" />
-                        <article>
-                            <div>
-                                <img src="" alt="Isotipo" />
-                                <h6>Sección</h6>
-                                <p>fecha</p> 
-                            </div>
-                            <h4>Título Noticia </h4>
-                        </article>
-                        <div><img src="" alt="Escudo 1" /></div>
-                        <h3>Resul</h3>
-                        <div><img src="" alt="Escudo 2" /></div>
+                    <section className="section-three-body-digital-newspaper-homes">
+                        <img src={ImageSectionThreeDNP} alt="Imagen noticia 2" />
+                        <div>
+                            <article>
+                                <div className="box-section-and-date-body-digital-newspaper-homes">
+                                    <img src={IconBallDNP} alt="Isotipo" />
+                                    <h6>Sección</h6>
+                                    <p>fecha</p> 
+                                </div>
+                                <h4>Chicago Bears wins the title for the best team</h4>
+                            </article>
+                            <section className="box-result-body-digital-newspaper-homes">
+                                <div><img src={TeamOneShieldDNP} alt="Escudo 1" /></div>
+                                <h3>8<i>-</i>6</h3>
+                                <div><img src={TeamTwoShieldDNP} alt="Escudo 2" /></div>
+                            </section>
+                        </div>
                     </section>
                     <section>
                         <article>
