@@ -10,7 +10,7 @@ import ImageSectionTwoDNP from '../../../assets/homes/DigitalNewsPaper/imageSect
 import ImageSectionThreeDNP from '../../../assets/homes/DigitalNewsPaper/imageSectionThree.jpg'
 import TeamOneShieldDNP from '../../../assets/homes/DigitalNewsPaper/teamOneShield.png'
 import TeamTwoShieldDNP from '../../../assets/homes/DigitalNewsPaper/teamTwoShield.png'
-
+import ImageSectionFiveDNP from '../../../assets/homes/DigitalNewsPaper/imageSectionFive.png'
 
 const DigitalNewspaper = () =>{
     return(
@@ -120,7 +120,7 @@ const DigitalNewspaper = () =>{
                                 commodi hic, temporibus dolor nihil officia cumque ut veniam nostrum omnis vel! Ipsa nostrum.
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa 
                                 commodi hic, temporibus dolor nihil officia cumque ut veniam nostrum omnis vel! Ipsa nostrum.
-                .</p>
+                                commodi hic, temporibus dolor nihil officia cumque ut veniam nostrum omnis vel! Ipsa nostrum.</p>
                         </article>
                         <div className="article-two-section-four-body-digital-newspaper-homes">
                             <article>
@@ -141,29 +141,33 @@ const DigitalNewspaper = () =>{
                             </article>
                         </div>
                     </section>
-                    <section>
+                    
+                    <section className="section-five-body-digital-newspaper-homes">
                         <div>
                             <article>
-                                <div>
-                                    <img src="" alt="Isotipo" />
-                                    <h6>Sección</h6>
+                                <div className="box-section-and-date-body-digital-newspaper-homes">
+                                    <img src={IconAtomDNP} alt="Isotipo" />
+                                    <h6>Technology</h6>
                                     <p>fecha</p>
                                 </div>
-                                <h4>Título Noticia </h4>
+                                <h4>The new iPhone X starts at $1.499. Our first review</h4>
                             </article>
-                            <div>
+                            <div className="box-section-top-right-section-five-body-digital-newspaper-homes">
                                 <div>
-                                    <img src="" alt="ícono +" />
+                                    <div>+</div>
                                     <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
                                 </div>
                                 <div>
-                                    <img src="" alt="ícono +" />
-                                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
+                                    <div>+</div>
+                                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
                                 </div>
-                                <p>Lorem ipsum dolor sit.</p>
+                                <div>
+                                    <div>-</div>
+                                    <small>Lorem ipsum dolor sit.</small>
+                                </div>
                             </div>
                         </div>
-                        <img src="" alt="Imagen .png" />
+                        <img src={ImageSectionFiveDNP} alt="Imagen .png" />
                     </section>
                     <section>
                         <article>
@@ -174,7 +178,7 @@ const DigitalNewspaper = () =>{
                         </article>
                         <div>
                             <article>
-                                <div>
+                                <div className="box-section-and-date-body-digital-newspaper-homes">
                                     <img src="" alt="Isotipo" />
                                     <h6>Sección</h6>
                                     <p>fecha</p>
@@ -183,7 +187,7 @@ const DigitalNewspaper = () =>{
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa commodi hic, temporibus dolor nihil officia cumque ut veniam nostrum omnis vel! Ipsa nostrum.</p>
                             </article>
                             <article>
-                                <div>
+                                <div className="box-section-and-date-body-digital-newspaper-homes">
                                     <img src="" alt="Isotipo" />
                                     <h6>Sección</h6>
                                     <p>fecha</p>
@@ -196,7 +200,7 @@ const DigitalNewspaper = () =>{
                     <section>
                         <div>
                             <article>
-                                <div>
+                                <div className="box-section-and-date-body-digital-newspaper-homes">
                                     <img src="" alt="Isotipo" />
                                     <h6>Sección</h6>
                                     <p>fecha</p>
@@ -210,7 +214,7 @@ const DigitalNewspaper = () =>{
                     <section>
                         <div>
                             <article>
-                                <div>
+                                <div className="box-section-and-date-body-digital-newspaper-homes">
                                     <img src="" alt="Isotipo" />
                                     <h6>Sección</h6>
                                     <p>fecha</p>
@@ -227,7 +231,7 @@ const DigitalNewspaper = () =>{
                             </article>
                         </div>
                         <article>
-                            <div>
+                            <div className="box-section-and-date-body-digital-newspaper-homes">
                                 <img src="" alt="Isotipo" />
                                 <h6>Sección</h6>
                                 <p>fecha</p> 
