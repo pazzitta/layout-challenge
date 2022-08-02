@@ -141,7 +141,6 @@ const DigitalNewspaper = () =>{
                             </article>
                         </div>
                     </section>
-                    
                     <section className="section-five-body-digital-newspaper-homes">
                         <div>
                             <article>
@@ -169,9 +168,11 @@ const DigitalNewspaper = () =>{
                         </div>
                         <img src={ImageSectionFiveDNP} alt="Imagen .png" />
                     </section>
-                    <section>
+                    
+                    <section className="section-six-body-digital-newspaper-homes">
                         <article>
                             <h4>Stock Spotlight</h4>
+                            <CardOneDN/>
                             <CardOneDN/>
                             <CardOneDN/>
                             <CardOneDN/>
