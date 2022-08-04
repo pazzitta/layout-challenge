@@ -177,24 +177,29 @@ const DigitalNewspaper = () =>{
                             <CardOneDN/>
                             <CardOneDN/>
                         </article>
-                        <div>
+                        <div className="section-right-section-six-body-digital-newspaper-homes">
                             <article>
                                 <div className="box-section-and-date-body-digital-newspaper-homes">
-                                    <img src="" alt="Isotipo" />
-                                    <h6>Sección</h6>
+                                    <img src={IconHandDNP} alt="Isotipo" />
+                                    <h6>Politica</h6>
                                     <p>fecha</p>
                                 </div>
-                                <h4>Título Noticia </h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa commodi hic, temporibus dolor nihil officia cumque ut veniam nostrum omnis vel! Ipsa nostrum.</p>
+                                <h4>Senate Republicans Have New Obamacare Repeal Plan</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa commodi hic, 
+                                    temporibus dolor nihil officia cumque ut veniam nostrum omnis vel! Ipsa nostrum.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa commodi hic, 
+                                    temporibus dolor nihil officia cumque ut veniam nostrum omnis vel! Ipsa nostrum.</p>
                             </article>
                             <article>
                                 <div className="box-section-and-date-body-digital-newspaper-homes">
-                                    <img src="" alt="Isotipo" />
-                                    <h6>Sección</h6>
+                                    <img src={IconBallDNP} alt="Isotipo" />
+                                    <h6>Sports</h6>
                                     <p>fecha</p>
                                 </div>
-                                <h4>Título Noticia </h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa commodi hic, temporibus dolor nihil officia cumque ut veniam nostrum omnis vel! Ipsa nostrum.</p>
+                                <h4>J.J Watt Got Hero's Welcome in His First Game After Raising Millions for Harvey Relief</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa commodi hic, 
+                                    temporibus dolor nihil officia cumque ut veniam nostrum omnis vel! Ipsa nostrum.
+                                    orem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa commodi hic.</p>
                             </article>
                         </div>
                     </section>
