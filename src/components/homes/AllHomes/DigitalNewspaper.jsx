@@ -11,6 +11,7 @@ import ImageSectionThreeDNP from '../../../assets/homes/DigitalNewsPaper/imageSe
 import TeamOneShieldDNP from '../../../assets/homes/DigitalNewsPaper/teamOneShield.png'
 import TeamTwoShieldDNP from '../../../assets/homes/DigitalNewsPaper/teamTwoShield.png'
 import ImageSectionFiveDNP from '../../../assets/homes/DigitalNewsPaper/imageSectionFive.png'
+import ImageSectionSevenDNP from '../../../assets/homes/DigitalNewsPaper/imageSectionSeven.png'
 
 const DigitalNewspaper = () =>{
     return(
@@ -168,7 +169,6 @@ const DigitalNewspaper = () =>{
                         </div>
                         <img src={ImageSectionFiveDNP} alt="Imagen .png" />
                     </section>
-                    
                     <section className="section-six-body-digital-newspaper-homes">
                         <article>
                             <h4>Stock Spotlight</h4>
@@ -203,20 +203,22 @@ const DigitalNewspaper = () =>{
                             </article>
                         </div>
                     </section>
-                    <section>
+                    
+                    <section className="section-seven-body-digital-newspaper-homes">
                         <div>
                             <article>
                                 <div className="box-section-and-date-body-digital-newspaper-homes">
-                                    <img src="" alt="Isotipo" />
-                                    <h6>Sección</h6>
+                                    <img src={IconHandDNP} alt="Isotipo" />
+                                    <h6>Politica</h6>
                                     <p>fecha</p>
                                 </div>
-                                <h3>Título Noticia </h3>
+                                <h4>Hilary Clintons upcoming election voting results</h4>
                             </article>
                             <img src="" alt="Gráfico (como el de torta pero con columnitas)" />
                         </div>
-                        <img src="" alt="Imágen noticia" />
+                        <img src={ImageSectionSevenDNP} alt="Imágen noticia" />
                     </section>
+                    
                     <section>
                         <div>
                             <article>

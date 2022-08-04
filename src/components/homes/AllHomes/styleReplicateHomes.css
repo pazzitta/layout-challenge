@@ -1040,7 +1040,29 @@
     text-align: start;
     line-height: 35px;
 }
-
+.section-seven-body-digital-newspaper-homes{
+    border-bottom: solid thin rgba(132, 132, 132, 0.2);
+    width: 100%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section-seven-body-digital-newspaper-homes >div{
+    /* border: solid red; */
+    width: 55%;   
+}
+.section-seven-body-digital-newspaper-homes h4{
+    text-align: start;
+    font-size: 70px;
+    margin: 0;
+    width: 70%;   
+}
+.section-seven-body-digital-newspaper-homes >img{
+    width: 25%;   
+}
 
 
 /* .box-right-news-section-two-body-digital-newspaper-homes div{
