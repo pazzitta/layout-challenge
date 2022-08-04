@@ -203,7 +203,6 @@ const DigitalNewspaper = () =>{
                             </article>
                         </div>
                     </section>
-                    
                     <section className="section-seven-body-digital-newspaper-homes">
                         <div>
                             <article>
@@ -218,34 +217,54 @@ const DigitalNewspaper = () =>{
                         </div>
                         <img src={ImageSectionSevenDNP} alt="Imágen noticia" />
                     </section>
-                    
-                    <section>
+                   
+                    <section className="section-eight-body-digital-newspaper-homes">
                         <div>
                             <article>
                                 <div className="box-section-and-date-body-digital-newspaper-homes">
-                                    <img src="" alt="Isotipo" />
-                                    <h6>Sección</h6>
+                                    <img src={IconPieChartDNP} alt="Isotipo" />
+                                    <h6>Money</h6>
                                     <p>fecha</p>
                                 </div>
-                                <h4>Título Noticia </h4>
+                                <h4>No, Toys 'R' Us Isn't Closing All Its Store After Filing for Bankruptcy</h4>
                             </article>
                             <article>
-                                <div>
-                                    <img src="" alt="Isotipo" />
-                                    <h6>Sección</h6>
+                                <div className="box-section-and-date-body-digital-newspaper-homes">
+                                    <img src={IconAtomDNP} alt="Isotipo" />
+                                    <h6>Technology</h6>
                                     <p>fecha</p>
                                 </div>
-                                <h4>Título Noticia </h4>
+                                <h4>How Apple's iPhone X Compares to the Best Smartphones Around</h4>
                             </article>
                         </div>
                         <article>
                             <div className="box-section-and-date-body-digital-newspaper-homes">
-                                <img src="" alt="Isotipo" />
-                                <h6>Sección</h6>
+                                <img src={IconBallDNP} alt="Isotipo" />
+                                <h6>Sports</h6>
                                 <p>fecha</p> 
                             </div>
-                            <h4>Título Noticia </h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa commodi hic, temporibus dolor nihil officia cumque ut veniam nostrum omnis vel! Ipsa nostrum.</p>
+                            <h4>Boston Red Sox Used and Apple Watch to Steal New York Yankees' Signs</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa 
+                                commodi hic, temporibus dolor nihil officia cumque ut veniam nostrum omnis 
+                                vel! Ipsa nostrum.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa 
+                                commodi hic, temporibus dolor nihil officia cumque ut veniam nostrum omnis 
+                                vel! Ipsa nostrum.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa 
+                                commodi hic, temporibus dolor nihil officia cumque ut veniam nostrum omnis 
+                                vel! Ipsa nostrum.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa 
+                                commodi hic, temporibus dolor nihil officia cumque ut veniam nostrum omnis 
+                                vel! Ipsa nostrum.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa 
+                                commodi hic, temporibus dolor nihil officia cumque ut veniam nostrum omnis 
+                                vel! Ipsa nostrum.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa 
+                                commodi hic, temporibus dolor nihil officia cumque ut veniam nostrum omnis 
+                                vel! Ipsa nostrum.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa 
+                                commodi hic, temporibus dolor nihil officia cumque ut veniam nostrum omnis 
+                                vel! Ipsa nostrum.</p>
                         </article>
                     </section>
                 </section>

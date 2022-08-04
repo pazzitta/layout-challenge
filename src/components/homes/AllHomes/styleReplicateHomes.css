@@ -638,7 +638,7 @@
 
 /* DIGITAL NEWSPAPER */
 .box-macro-digital-newspaper-homes{
-    border: solid;
+    /* border: solid; */
     width: 100%;
     display: flex;
 
@@ -673,7 +673,7 @@
 }
 
 .box-body-digital-newspaper-homes{
-    border: solid thin #1c00d1;
+    /* border: solid thin #1c00d1; */
     display: flex;
     flex-direction: column;
     width: 95%;
@@ -1062,6 +1062,32 @@
 }
 .section-seven-body-digital-newspaper-homes >img{
     width: 25%;   
+}
+.section-eight-body-digital-newspaper-homes{
+    width: 80%;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.section-eight-body-digital-newspaper-homes >div{
+    /* border: solid yellow; */
+    width: 40%;
+}
+.section-eight-body-digital-newspaper-homes h4{
+    font-size: 50px;
+    text-align: start;
+    margin: 0;
+}
+.section-eight-body-digital-newspaper-homes p{
+   font-size: 17px;
+   text-align: start;
+   line-height: 35px;
+}
+.section-eight-body-digital-newspaper-homes >article{
+    /* border: solid rgb(22, 155, 13); */
+    width: 60%;
 }
 
 
