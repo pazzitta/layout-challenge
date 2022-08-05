@@ -1,4 +1,3 @@
-import BackgroudLogin from '../../../assets/Forms/Login/backgroundImageLogin.jpg'
 import './loginForm.css'
 import IconPerson from '../../../assets/Forms/Login/iconPerson.png'
 import IconPadlock from '../../../assets/Forms/Login/iconPadlock.png'

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .box-all-login-form{
-    border: solid;
+    /* border: solid; */
     width: 100%;
     height: 100vh;
     background-image: url('../../../assets/Forms/Login/backgroundImageLogin.jpg');
@@ -137,6 +137,7 @@
     color: white;
     font-size: 20px;
 }
+
 .style-caption-button-login-form {
     color: #4f5965;
     font-size: 18px;
