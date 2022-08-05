@@ -16,7 +16,8 @@ import Cards from './pages/cards';
 // import NewsCard from './components/Cards/allCards/News';
 // import PersonalPageHome from './components/homes/AllHomes/PersonalPage';
 // import EcommerceHomes from './components/homes/AllHomes/Ecommerce';
-import DigitalNewspaper from './components/homes/AllHomes/DigitalNewspaper';
+// import DigitalNewspaper from './components/homes/AllHomes/DigitalNewspaper';
+import LoginForm from './components/forms/Login/loginForm';
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
         <Route path='/details' element={<Details/>}/>
         <Route path='/forms' element={<Forms/>}/>
         <Route path='/cards' element= {<Cards/>}/>
-        <Route path='/pruebas' element= {<DigitalNewspaper/>}/>
+        <Route path='/pruebas' element= {<LoginForm/>}/>
       </Routes>
       </BrowserRouter>
   
