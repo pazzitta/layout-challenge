@@ -72,6 +72,7 @@
   color: #3aaf9f;
   font-size: 60px;
   margin: 0;
+  padding-top: 90px;
 }
 .box-right-register-form>div{
     /* border: solid; */
@@ -79,14 +80,42 @@
     justify-content: space-between;
     width: 24%;
     align-self: center;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .box-right-register-form a{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid thin gray;
+    border: solid thin #c6c8c7;
     width: 60px;
     height: 60px;
     border-radius: 50%;
 }
+.box-right-register-form >p{
+    color: #c6c8c7;
+}
+.box-right-register-form >input{
+    align-self: center;
+    width: 60%;
+    height: 50px;
+    background-color: #f4f8f7;
+    border: none;
+    color: #c6c8c7;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.box-right-register-form >button {
+    align-self: center;
+    color: white;
+    background-color: #3aaf9f;
+    border: none;
+    border-radius: 30px;
+    width: 35%;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 550;
+}
+
+
