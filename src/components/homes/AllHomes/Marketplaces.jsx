@@ -6,7 +6,7 @@ import CardProductsFour from "./Cards/Marketplace/CardProductsFour";
 import IsologoMp from '../../../assets/homes/isologoMp.png'
 import MagnifyingGlassMp from '../../../assets/LandingPages/lupaP.png'
 import IconLetterMp from '../../../assets/homes/icons/iconLetterMp.png'
-import IconTwitterMp from '../../../assets/homes/icons/iconTwitterMp.png'
+import IconTwitterMp from '../../../assets/homes/icons/iconTwitterBlack.png'
 import IconUbicationMp from '../../../assets/homes/icons/iconUbicationMp.png'
 import IconCardOneMp from '../../../assets/homes/icons/iconCardOneMp.png'
 import IconCardTwoMp from '../../../assets/homes/icons/iconCardTwoMp.png'

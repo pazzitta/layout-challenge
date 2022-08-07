@@ -3,6 +3,12 @@ import BackgroundHeader from '../../../assets/Forms/ContactUs/backgroundHeader.j
 import IconPhoneGolden from '../../../assets/Forms/ContactUs/iconPhoneGolden.png'
 import IconLocationGolden from '../../../assets/Forms/ContactUs/iconLocationGolden.png'
 import IconEmailGolden from '../../../assets/Forms/ContactUs/iconEmailGolden.png'
+import IconFacebookBlack from '../../../assets/Forms/Register/iconFacebookBlack.png'
+import IconLinkedInBlack from '../../../assets/Forms/Register/iconLinkedInBlack.png'
+import IconTwitterBlack from '../../../assets/Forms/ContactUs/iconTwitterBlack0.png'
+import IconPinteresBlack from '../../../assets/Forms/ContactUs/iconPinterestBlack.png'
+import IconInstagramBlack from '../../../assets/Forms/ContactUs/iconInstagramBlack.png'
+import LocationMap from '../../../assets/Forms/ContactUs/locationMap.jpg'
 
 const ContactUsForm = () => {
     return(
@@ -51,7 +57,7 @@ const ContactUsForm = () => {
                     </article>
                 </section>
                 <section className='midsection-body-section-order-contact-us-form'>
-                    <h3>IF YOU GOT ANY QUESTIONS PLEASE DO NOT ALGO TO SENDUS A MESSAGE.</h3>
+                    <h3>IF YOU GOT ANY QUESTIONS <br></br>PLEASE DO NOT ALGO TO SENDUS A MESSAGE.</h3>
                     <input type="text" placeholder='Your name' />
                     <input type="text" placeholder=''/>
                     <input type="text" placeholder='Email'/>
@@ -61,13 +67,13 @@ const ContactUsForm = () => {
                 <section className='botton-body-section-order-contact-us-form'>
                     <h3><i>Connect with us !</i></h3>
                     <div>
-                        <a href=""><img src="" alt="ícono Facebook" /></a>
-                        <a href=""><img src="" alt="ícono Twitter" /></a>
-                        <a href=""><img src="" alt="ícono Pinterest" /></a>
-                        <a href=""><img src="" alt="ícono Instagram" /></a>
-                        <a href=""><img src="" alt="ícono LinkedIn" /></a>
+                        <a href=""><img src={IconFacebookBlack} alt="ícono Facebook" /></a>
+                        <a href=""><img src={IconTwitterBlack} alt="ícono Twitter" /></a>
+                        <a href=""><img src={IconPinteresBlack} alt="ícono Pinterest" /></a>
+                        <a href=""><img src={IconInstagramBlack} alt="ícono Instagram" /></a>
+                        <a href=""><img src={IconLinkedInBlack} alt="ícono LinkedIn" /></a>
                     </div>
-                    <img src="" alt="mapa del lugar" />
+                    <img src={LocationMap} alt="mapa del lugar" />
                 </section>
             </main>
             <footer>

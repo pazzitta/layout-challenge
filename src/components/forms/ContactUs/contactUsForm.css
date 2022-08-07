@@ -73,9 +73,11 @@
    font-size: 10px;
 }
 .body-box-order-contact-us-form{
-    border: solid thin green;
-    width: 60%;
+    /* border: solid thin green; */
+    width: 95%;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
 }
 .top-body-section-order-contact-us-form{
     display: flex;
@@ -94,7 +96,7 @@
 }
 .top-body-section-order-contact-us-form >article div{
     border-right: solid #b2814b ;
-    width: 30%;
+    width: 20%;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -113,3 +115,71 @@
     color: white;
     font-size: 12px;
 }
+.midsection-body-section-order-contact-us-form{
+    /* border: solid thin hotpink; */
+    width: 80%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.midsection-body-section-order-contact-us-form >h3{
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.midsection-body-section-order-contact-us-form >input{
+    width: 600px;
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: #272727;
+    border: none;
+}
+.midsection-body-section-order-contact-us-form >textarea{
+    width: 600px;
+    background-color: #272727;
+    border: none;
+    margin-bottom: 20px;
+}
+.midsection-body-section-order-contact-us-form >button{
+    width: 150px;
+    height: 40px;
+    background-color:#b2814b ;
+    border: none;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.botton-body-section-order-contact-us-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.botton-body-section-order-contact-us-form i{
+    color: #b2814b;
+    font-size: 25px;
+    font-weight: 450;
+}
+.botton-body-section-order-contact-us-form>div{
+    /* border: solid thin blue; */
+    width: 310px;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+}
+.botton-body-section-order-contact-us-form a{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #b2814b;
+   width: 35px;
+   height: 35px;
+   border-radius: 5px;
+}
+.botton-body-section-order-contact-us-form>img{
+   width: 100%;
+   margin-top: 50px;
+ }
