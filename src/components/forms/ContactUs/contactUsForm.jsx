@@ -1,5 +1,8 @@
 import './contactUsForm.css'
 import BackgroundHeader from '../../../assets/Forms/ContactUs/backgroundHeader.jpg'
+import IconPhoneGolden from '../../../assets/Forms/ContactUs/iconPhoneGolden.png'
+import IconLocationGolden from '../../../assets/Forms/ContactUs/iconLocationGolden.png'
+import IconEmailGolden from '../../../assets/Forms/ContactUs/iconEmailGolden.png'
 
 const ContactUsForm = () => {
     return(
@@ -23,31 +26,31 @@ const ContactUsForm = () => {
                     </div>
                 </div>
             </header>
-            <main>
-                <section>
-                    <p>Get in touch with us!</p>
-                    <div>
+            <main className='body-box-order-contact-us-form'>
+                <section className='top-body-section-order-contact-us-form'>
+                    <p><i>Get in touch with us !</i></p>
+                    <article>
                         <div>
-                            <img src="" alt="" />
+                            <img src={IconPhoneGolden} alt="ícono celular" />
                             <p>PHONE</p>
                             <small>1626673728</small>
                             <small>5367678839</small>
                         </div>
                         <div>
-                            <img src="" alt="" />
+                            <img src={IconLocationGolden} alt="ícono localización" />
                             <p>ADDRESS</p>
                             <small>soy una direccón</small>
                             <small>sigo o soy otra</small>
                         </div>
                         <div>
-                            <img src="" alt="" />
+                            <img src={IconEmailGolden} alt="ícono Email" />
                             <p>EMAIL</p>
                             <small>holis@hoao.com</small>
                             <small>holisdos@hshhd.com</small>
                         </div>
-                    </div>
+                    </article>
                 </section>
-                <section>
+                <section className='midsection-body-section-order-contact-us-form'>
                     <h3>IF YOU GOT ANY QUESTIONS PLEASE DO NOT ALGO TO SENDUS A MESSAGE.</h3>
                     <input type="text" placeholder='Your name' />
                     <input type="text" placeholder=''/>
@@ -55,7 +58,7 @@ const ContactUsForm = () => {
                     <textarea name="" id="" cols="30" rows="10" placeholder='Message'></textarea>
                     <button>SEND MESSAGE</button>
                 </section>
-                <section>
+                <section className='botton-body-section-order-contact-us-form'>
                     <h3><i>Connect with us !</i></h3>
                     <div>
                         <a href=""><img src="" alt="ícono Facebook" /></a>
