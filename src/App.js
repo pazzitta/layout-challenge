@@ -18,7 +18,8 @@ import Cards from './pages/cards';
 // import EcommerceHomes from './components/homes/AllHomes/Ecommerce';
 // import DigitalNewspaper from './components/homes/AllHomes/DigitalNewspaper';
 // import LoginForm from './components/forms/Login/loginForm';
-import RegisterForm from './components/forms/Register/registerForm';
+// import RegisterForm from './components/forms/Register/registerForm';
+import ContactUsForm from './components/forms/ContactUs/contactUsForm';
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
         <Route path='/details' element={<Details/>}/>
         <Route path='/forms' element={<Forms/>}/>
         <Route path='/cards' element= {<Cards/>}/>
-        <Route path='/pruebas' element= {<RegisterForm/>}/>
+        <Route path='/pruebas' element= {<ContactUsForm/>}/>
       </Routes>
       </BrowserRouter>
   
