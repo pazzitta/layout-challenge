@@ -3,8 +3,54 @@
 *::before{
     box-sizing: border-box;
 }
-/* .box-vp-contact-us-form{
+.box-vp-contact-us-form{
     background-color: #0e0e0e;
     width: 100%;
     height: 100vh;
-} */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-header-contact-us-form{
+    /* border: solid thin hotpink; */
+    width: 95%;
+    height: 500px;
+    margin-top: 45px;
+}
+.box-header-contact-us-form >img{
+    width: 100%;
+    position: relative;
+}
+.header-header-contact-us-form{
+    /* border: solid thin yellow; */
+    position: relative;
+    bottom: 500px;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.order-top-header-contact-us-form{
+    border: solid thin rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.order-top-header-contact-us-form >h2{
+    font-size: 15px;
+    padding-left: 20px;
+}
+.box-titel-header-contact-us-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white;
+    width: 18%;
+    height: 70px;
+    align-self: center;
+    margin-top: 170px;
+}
+.box-titel-header-contact-us-form >h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+}

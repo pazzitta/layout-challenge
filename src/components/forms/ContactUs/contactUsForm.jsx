@@ -1,23 +1,26 @@
 import './contactUsForm.css'
+import BackgroundHeader from '../../../assets/Forms/ContactUs/backgroundHeader.jpg'
 
 const ContactUsForm = () => {
     return(
         <div className="box-vp-contact-us-form">
-            <header>
-                <img src="" alt="imagen ciudad" />
-                <div>
-                    <h2>KAPANDESAL INC.</h2>
-                    <div>
-                        <select name="" id="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                        </select>
-                        <p>MENU</p>
+            <header className='box-header-contact-us-form'>
+                <img src={BackgroundHeader} alt="imagen ciudad" />
+                <div className='header-header-contact-us-form'>
+                    <div className='order-top-header-contact-us-form'>
+                        <h2>KAPANDESAL INC.</h2>
+                        <div>
+                            <select name="" id="">
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                            </select>
+                            <p>MENU</p>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <h1>CONTACT US</h1>
+                    <div className='box-titel-header-contact-us-form'>
+                        <h1>CONTACT US</h1>
+                    </div>
                 </div>
             </header>
             <main>
