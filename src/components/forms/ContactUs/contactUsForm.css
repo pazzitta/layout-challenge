@@ -182,4 +182,29 @@
 .botton-body-section-order-contact-us-form>img{
    width: 100%;
    margin-top: 50px;
- }
+   margin-bottom: 50px;
+}
+.footer-box-order-contact-us-form{
+    /* border:solid #b2814b; */
+    width: 95%;
+}
+.footer-box-order-contact-us-form>img{
+    width: 100%;
+}
+.footer-box-order-contact-us-form div{
+    position: relative;
+    bottom: 80px;
+}
+.footer-box-order-contact-us-form a{
+   color: white;
+   margin-left: 60px;
+   text-decoration: none;
+   font-size: 25px;
+   font-weight: 600;
+}
+.footer-box-order-contact-us-form p{
+    color: white;
+    margin: 0;
+    position: relative;
+    bottom: 20px;
+}

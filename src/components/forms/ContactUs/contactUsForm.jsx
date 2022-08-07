@@ -9,6 +9,8 @@ import IconTwitterBlack from '../../../assets/Forms/ContactUs/iconTwitterBlack0.
 import IconPinteresBlack from '../../../assets/Forms/ContactUs/iconPinterestBlack.png'
 import IconInstagramBlack from '../../../assets/Forms/ContactUs/iconInstagramBlack.png'
 import LocationMap from '../../../assets/Forms/ContactUs/locationMap.jpg'
+import LogoWithBackground from '../../../assets/Forms/ContactUs/logoWithBackground.jpg'
+
 
 const ContactUsForm = () => {
     return(
@@ -76,10 +78,10 @@ const ContactUsForm = () => {
                     <img src={LocationMap} alt="mapa del lugar" />
                 </section>
             </main>
-            <footer>
-                <img src="" alt="imagen fondo logo" />
+            <footer className='footer-box-order-contact-us-form'>
+                <img src={LogoWithBackground} alt="imagen fondo logo" />
                 <div>
-                    <img src="" alt="logo empresa" />
+                    {/* <img src="" alt="logo empresa" /> */}
                     <a href="">TWITTER</a>
                     <a href="">FACEBOOK</a>
                     <a href="">INSTAGRAM</a>
