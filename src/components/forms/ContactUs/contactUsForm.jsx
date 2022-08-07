@@ -11,9 +11,9 @@ const ContactUsForm = () => {
                         <h2>KAPANDESAL INC.</h2>
                         <div>
                             <select name="" id="">
-                                <option value=""></option>
-                                <option value=""></option>
-                                <option value=""></option>
+                                <option value="">holis 1</option>
+                                <option value="">holis 2</option>
+                                <option value="">holis 3</option>
                             </select>
                             <p>MENU</p>
                         </div>
