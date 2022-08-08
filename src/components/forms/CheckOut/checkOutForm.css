@@ -1,0 +1,150 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+.all-page-order-checkOut-form{
+    border: solid;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-components-order-checkOut-form{
+    /* border: solid thin hotpink; */
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+}
+.header-components-order-checkOut-form>nav{
+    background-color: black;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+}
+.brand-name-order-checkOut-form{
+    /* border:solid #5adcac; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 150px;
+    margin-left:9px;
+}
+.brand-name-order-checkOut-form>p{
+    background-color: #373737;
+    font-size: 12px;    
+}
+.order-right-box-nav-checkOut-form{
+    /* border:solid #5adcac; */
+    display: flex;
+    width: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 10px;
+}
+.order-right-box-nav-checkOut-form>select{
+    background-image: url('../../../assets/Forms/ContactUs/imageMenu.png');
+    background-repeat:no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    background-position:center;
+    appearance: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+}
+.header-components-order-checkOut-form>div{
+    background-color: #5adcac;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-components-order-checkOut-form>div div{
+    background-color: white;
+    width: 15px;
+    height: 20px;
+}
+.header-components-order-checkOut-form small{
+    color: white;
+    margin-left: 10px;
+}
+.body-components-order-checkOut-form{
+    border: solid thin blueviolet;
+    width: 80%;
+    display: flex;
+}
+.body-components-order-checkOut-form>section{
+    border: solid thin green;
+    width: 65%;
+}
+.body-components-order-checkOut-form h1{
+    font-size: 35px;
+}
+/* .body-components-order-checkOut-form>section section{
+    background-color: #f7f7f7;
+    width: 100%;
+    border:solid thin #e3e3e3;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+} */
+.order-of-internal-sections-body-checkOut-form{
+    background-color: #f7f7f7;
+    width: 100%;
+    border:solid thin #e3e3e3;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.order-of-internal-sections-body-checkOut-form>h3{
+    font-size: 30px;
+    align-self: flex-start;
+    padding-left: 30px;
+}
+.top-box-order-input-sections-body-checkOut-form{
+    /* border: solid thin skyblue; */
+    width: 93%;
+    align-self:center;
+    margin-bottom: 20px;
+}
+.top-box-order-input-sections-body-checkOut-form>div{
+    /* border: solid thin rgb(62, 114, 134); */
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.top-box-order-input-sections-body-checkOut-form>div div{
+    /* border: solid thin rgb(191, 130, 31); */
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.top-box-order-input-sections-body-checkOut-form>div div small{
+    font-size: 12px;
+    font-weight: 500;
+}
+.top-box-order-input-sections-body-checkOut-form>div div span{
+    color: red;
+    font-size: 12px;
+    font-weight: 500;
+}
+.top-box-order-input-sections-body-checkOut-form>div input{
+    width: 400px;
+    height: 40px;
+    border: solid thin #e3e3e3;
+}
+.top-box-order-input-sections-body-checkOut-form>div select{
+    width: 400px;
+    height: 40px;
+    border: solid thin #e3e3e3;
+}
+
+.body-components-order-checkOut-form>article{
+    border: solid thin rgb(11, 0, 128);
+    width: 35%;
+}

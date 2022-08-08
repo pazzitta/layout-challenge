@@ -1,14 +1,15 @@
-
+import './checkOutForm.css'
+import ImageSelect from '../../../assets/Forms/ContactUs/imageMenu.png'
 const CheckOutForm = () =>{
     return(
-        <div>
-            <header>
+        <div className="all-page-order-checkOut-form">
+            <header className="header-components-order-checkOut-form">
                 <nav>
-                    <div>
+                    <div className='brand-name-order-checkOut-form'>
                         <h2>VOSSY</h2>
                         <p>BETA</p>
                     </div>
-                    <div>
+                    <div className='order-right-box-nav-checkOut-form'>
                         <p>Country</p>
                         <select name="" id="">
                             <option value="">Aus</option>
@@ -20,15 +21,18 @@ const CheckOutForm = () =>{
                     </div>
                 </nav>
                 <div>
-                    <img src="" alt="Isotipo de algo" />
-                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat similique nam.</small>
+                    {/* <img src="" alt="Isotipo de algo" /> */}
+                    <div></div>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
                 </div>
             </header>
-            <main>
+           
+            <main className="body-components-order-checkOut-form">
                 <section>
-                    <section>
+                    <h1>Complete Your Booking</h1>
+                    <section className='order-of-internal-sections-body-checkOut-form'>
                         <h3>Gues Details</h3>
-                        <div>
+                        <div className='top-box-order-input-sections-body-checkOut-form'>
                             <div>
                                 <div>
                                     <small>algo1</small>
@@ -44,7 +48,7 @@ const CheckOutForm = () =>{
                                 <input type="text" />
                             </div>
                         </div>
-                        <div>
+                        <div className='top-box-order-input-sections-body-checkOut-form'>
                             <div>
                                 <div>
                                     <small>algo3</small>
@@ -56,14 +60,22 @@ const CheckOutForm = () =>{
                                 </div>                               
                             </div>
                             <div>
-                                <input type="text" />
-                                <input type="text" />
+                                <select name="" id="">
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                </select>
+                                <select name="" id="">
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                </select>
                             </div>
                         </div>
                     </section>
-                    <section>
+                    <section  className='order-of-internal-sections-body-checkOut-form'>
                         <h3>Billing Details</h3>
-                        <div>
+                        <div className='top-box-order-input-sections-body-checkOut-form'>
                             <div>
                                 <div>
                                     <small>alg0 1</small>
@@ -79,7 +91,7 @@ const CheckOutForm = () =>{
                                 <input type="text" />
                             </div>
                         </div>
-                        <div>
+                        <div className='top-box-order-input-sections-body-checkOut-form'>
                             <div>
                                 <div>
                                     <small>algo3</small>
@@ -95,7 +107,7 @@ const CheckOutForm = () =>{
                                 <input type="text" />
                             </div>
                         </div>
-                        <div>
+                        <div className='top-box-order-input-sections-body-checkOut-form'>
                             <div>
                                 <div>
                                     <small>algo5</small>
@@ -111,7 +123,7 @@ const CheckOutForm = () =>{
                                 <input type="text" />
                             </div>
                         </div>
-                        <div>
+                        <div className='top-box-order-input-sections-body-checkOut-form'>
                             <div>
                                 <div>
                                     <small>algo7</small>
@@ -123,11 +135,16 @@ const CheckOutForm = () =>{
                                 </div>                               
                             </div>
                             <div>
-                                <input type="text" />
+                                <select name="" id="">
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                </select>
                                 <input type="text" />
                             </div>
                         </div>                           
                     </section>
+                   {/* hasta acá llegué (15:53) */}
                     <section>
                         <h3>Need to Know Information</h3>
                         <details>
@@ -217,12 +234,12 @@ const CheckOutForm = () =>{
                 <article>
                     <p></p>
                     <img src="" alt="" />
-                    <section></section>
+                    <section>hols</section>
                     <section></section>
                     <section></section>
                 </article>
             </main>
-            <footer>hay que ver si se hace!</footer>
+            <footer className="footer-components-order-checkOut-form">hay que ver si se hace!</footer>
 
         </div>
     )
