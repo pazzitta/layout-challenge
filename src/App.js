@@ -19,7 +19,8 @@ import Cards from './pages/cards';
 // import DigitalNewspaper from './components/homes/AllHomes/DigitalNewspaper';
 // import LoginForm from './components/forms/Login/loginForm';
 // import RegisterForm from './components/forms/Register/registerForm';
-import ContactUsForm from './components/forms/ContactUs/contactUsForm';
+// import ContactUsForm from './components/forms/ContactUs/contactUsForm';
+import CheckOutForm from './components/forms/CheckOut/checkOutForm';
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
         <Route path='/details' element={<Details/>}/>
         <Route path='/forms' element={<Forms/>}/>
         <Route path='/cards' element= {<Cards/>}/>
-        <Route path='/pruebas' element= {<ContactUsForm/>}/>
+        <Route path='/pruebas' element= {<CheckOutForm/>}/>
       </Routes>
       </BrowserRouter>
   
