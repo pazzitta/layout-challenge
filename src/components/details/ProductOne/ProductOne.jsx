@@ -82,13 +82,18 @@ const ProductOneDetail = () => {
                     <img src={FrontImageProduct} alt="Imagen del producto" />
                     <h2>$850</h2>
                 </div>
+                <div className="right-right-rectangle-order-product-image-main-product-one-detail">
+                    <button></button>
+                </div>
             </main>
             <footer className='footer-order-product-one-detail'>
-                <div></div>
-                <p>ACO TO BASKETS</p>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div className="left-white-rectangle-footer-product-one-detail"></div>
+                <div className="blue-rectangle-footer-product-one-detail"></div>
+                <div className="text-rectangle-footer-product-one-detail">
+                    <p>ACO TO BASKETS</p>
+                </div>
+                <div className="yellow-rectangle-footer-product-one-detail"></div>
+                <div className="right-white-rectangle-footer-product-one-detail"></div>
             </footer>
         </div>
     )

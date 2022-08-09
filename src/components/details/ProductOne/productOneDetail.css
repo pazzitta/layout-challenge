@@ -5,7 +5,7 @@
 }
 
 .all-page-order-product-one-detail{
-    border: solid;
+    /* border: solid; */
     width: 100%;
     height: 100vh;
     display: flex;
@@ -22,13 +22,13 @@
 .left-white-rectangle-nav-product-one-detail{
     border-right: solid;
     border-bottom: solid;
-    width: 40px;
+    width: 43px;
     height: 93px;
 }
 .brand-white-rectangle-nav-product-one-detail{
     border-right: solid;
     border-bottom: solid;
-    width: 393px;
+    width: 397px;
     height: 93px;
     display: flex;
     justify-content: center;
@@ -41,7 +41,7 @@
 .yellow-rectangle-nav-product-one-detail{
     border-right: solid;
     border-bottom: solid;
-    width: 80px;
+    width: 73px;
     height: 93px;
     background-color: #ffd300;
 }
@@ -99,7 +99,7 @@
 .main-order-product-one-detail{
     /* border: solid thin rgb(0, 255, 0); */
     width: 100%;
-    height: 82%;
+    height: 84%;
     display: flex;
     flex-direction: row;
 }
@@ -149,7 +149,7 @@
     border-top: solid;
     border-right: solid;
     border-bottom: solid;
-    width: 300px;
+    width: 305px;
     display: flex;
     flex-direction: column;
 }
@@ -216,10 +216,50 @@
     width: 45%;
     margin-top: 15px;
 }
-
-
+.right-right-rectangle-order-product-image-main-product-one-detail{
+    border-bottom: solid;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.right-right-rectangle-order-product-image-main-product-one-detail>button{
+    background-image: url('../../../assets/Details/ProductOne/imageNextBlack.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    background-color: transparent;
+    background-position:center;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+}
 .footer-order-product-one-detail{
     border: solid thin rgb(22, 15, 126);
     width: 100%;
     height: 8%;
+    display: flex;
+}
+.left-white-rectangle-footer-product-one-detail{
+    border-right: solid;
+    width: 39px;
+    height: 74px;
+}
+.blue-rectangle-footer-product-one-detail{
+    border-right: solid;
+    background-color: #006bb6;
+    width: 450px;
+}
+.text-rectangle-footer-product-one-detail{
+    border-right: solid;
+    width: 305px;
+}
+.yellow-rectangle-footer-product-one-detail{
+    border-right: solid;
+    background-color: #ffd300;
+    width: 800px;
+}
+.right-white-rectangle-footer-product-one-detail{
+    border-right: solid;
+    width: 265px;
 }
