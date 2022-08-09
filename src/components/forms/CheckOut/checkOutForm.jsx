@@ -1,5 +1,6 @@
 import './checkOutForm.css'
 import IconCard from '../../../assets/Forms/CheckOut/iconCard.png'
+import ImageRoom from '../../../assets/Forms/CheckOut/imageRoom.jpg'
 
 const CheckOutForm = () =>{
     return(
@@ -108,7 +109,7 @@ const CheckOutForm = () =>{
                                 <input type="text" />
                             </div>
                         </div>
-                        <div cclassName='top-box-order-input-sections-body-checkOut-form'>
+                        <div className='top-box-order-input-sections-body-checkOut-form'>
                             <div>
                                 <div>
                                     <small>algo5</small>
@@ -234,11 +235,60 @@ const CheckOutForm = () =>{
                     </div>
                 </section>
                 <article>
-                    <p></p>
-                    <img src="" alt="" />
-                    <section>hols</section>
-                    <section></section>
-                    <section></section>
+                    <article>
+                        <p>&#10004; Best algo algomaslargo</p>
+                        <img src={ImageRoom} alt="imagen habitación" />
+                        <section>
+                            <h3>The St. Regis New York</h3>
+                            <p>Direccion lugar- Zona ciudad</p>
+                        </section>
+                        <section>
+                            <table>
+                                <tr>
+                                    <td>Check in:</td>
+                                    <td><b><font color='black'>Wed, Feb. 18 2015</font></b></td>
+                                </tr>
+                                <tr>
+                                    <td>Check Out:</td>
+                                    <td><b><font color='black'>Fei, feb. 20 2015</font></b></td>
+                                </tr>
+                                <tr>
+                                    <td>Room type:</td>
+                                    <td><b><font color='black'>Superior Room, 1 King Bed, Non Smoking</font></b></td>
+                                </tr>
+                                <tr>
+                                    <td>Rooms:</td>
+                                    <td><b><font color='black'>1</font></b></td>
+                                </tr>
+                                <tr>
+                                    <td>Guests:</td>
+                                    <td><b><font color='black'>2</font></b></td>
+                                </tr>
+                                <tr>
+                                    <td>Refundable:</td>
+                                    <td><b><font color='black'>Yes</font></b></td>
+                                </tr>
+                            </table>
+                        </section>
+                        <section>
+                            <div>
+                                <p>Room price</p>
+                                <h3>AU$1,801.30</h3>
+                            </div>
+                            <div>
+                                <p>Hotel occupancy and sales tai</p>
+                                <h3>AU$265,63<u>algo algo</u></h3>
+                            </div>
+                            <div>
+                                <p>Tax ni idea ni idea and lala lalala</p>
+                                <h3>AU$274,76<u>algo algo</u></h3>
+                            </div>
+                            <div>
+                                <p>Total:</p>
+                                <h3>AU$2,076.00</h3>
+                            </div>
+                        </section>
+                    </article>
                 </article>
             </main>
             <footer className="footer-components-order-checkOut-form">hay que ver si se hace!</footer>

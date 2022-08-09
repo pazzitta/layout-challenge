@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .all-page-order-checkOut-form{
-    border: solid;
+    /* border: solid; */
     width: 100%;
     display:flex;
     flex-direction: column;
@@ -74,7 +74,7 @@
     margin-left: 10px;
 }
 .body-components-order-checkOut-form{
-    border: solid thin blueviolet;
+    /* border: solid thin blueviolet; */
     width: 80%;
     display: flex;
 }
@@ -275,6 +275,85 @@
     margin-bottom: 40px;
 }
 .body-components-order-checkOut-form>article{
-    border: solid thin rgb(11, 0, 128);
+    /* border: solid thin rgb(11, 0, 128); */
     width: 35%;
+    display: flex;
+    justify-content: flex-end;
+}
+.body-components-order-checkOut-form>article article{
+    /* border: solid thin rgb(11, 0, 128); */
+    background-color: #f7f7f7;
+    width: 80%;
+    height: 795px;
+    margin-top: 105px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom:solid thin #e3e3e3;
+    border-left:solid thin #e3e3e3 ;
+    border-right:solid thin #e3e3e3 ;
+}
+.body-components-order-checkOut-form img{
+    width: 100%;
+}
+.body-components-order-checkOut-form>article article>p{
+    background-color: black;
+    margin: 0;
+    width: 100%;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.body-components-order-checkOut-form>article article>section{
+  border-bottom:solid thin #efefef;
+  width: 85%;
+}
+.body-components-order-checkOut-form>article article>section>p{
+    text-align: start;
+    margin-top: 10px;
+    color: #aaaaaa;
+    font-size: 15px;
+}
+.body-components-order-checkOut-form>article article>section>h3{
+    text-align: start;
+    margin-bottom: 0;
+    font-size: 30px;
+}
+.body-components-order-checkOut-form>article table{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.body-components-order-checkOut-form>article table td{
+    /* border:solid thin #373737; */
+    width: 50%;
+    text-align: start;
+    color: #aaaaaa;
+    font-size: 15px;
+}
+.body-components-order-checkOut-form>article article>section>div{
+   display: flex;
+   flex-direction: column;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+.body-components-order-checkOut-form>article article>section>div p{
+    margin: 0;
+    align-self: flex-start;
+    color: #aaaaaa;
+    font-size: 15px;
+    
+}
+.body-components-order-checkOut-form>article article>section>div h3{
+    margin: 0;
+    align-self: flex-start;
+    font-size: 17px;
+}
+.body-components-order-checkOut-form>article article>section>div u{
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 400;
+    color: #aaaaaa;
 }
