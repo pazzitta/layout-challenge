@@ -20,7 +20,8 @@ import Cards from './pages/cards';
 // import LoginForm from './components/forms/Login/loginForm';
 // import RegisterForm from './components/forms/Register/registerForm';
 // import ContactUsForm from './components/forms/ContactUs/contactUsForm';
-import CheckOutForm from './components/forms/CheckOut/checkOutForm';
+// import CheckOutForm from './components/forms/CheckOut/checkOutForm';
+import ProductOneDetail from './components/details/ProductOne/ProductOne';
 
 function App() {
   return (
@@ -33,7 +34,7 @@ function App() {
         <Route path='/details' element={<Details/>}/>
         <Route path='/forms' element={<Forms/>}/>
         <Route path='/cards' element= {<Cards/>}/>
-        <Route path='/pruebas' element= {<CheckOutForm/>}/>
+        <Route path='/pruebas' element= {<ProductOneDetail/>}/>
       </Routes>
       </BrowserRouter>
   

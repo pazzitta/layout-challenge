@@ -1,0 +1,111 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+.all-page-order-product-one-detail{
+    border: solid;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.header-order-product-one-detail{
+    /* border: solid thin red; */
+    width: 100%;
+    height: 10%;
+}
+.header-order-product-one-detail>nav{
+    display: flex;
+}
+.left-white-rectangle-nav-product-one-detail{
+    border-right: solid;
+    border-bottom: solid;
+    width: 40px;
+    height: 93px;
+}
+.brand-white-rectangle-nav-product-one-detail{
+    border-right: solid;
+    border-bottom: solid;
+    width: 300px;
+    height: 93px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand-white-rectangle-nav-product-one-detail>h2{
+  letter-spacing: 1px;
+  font-size: 27px;
+}
+.yellow-rectangle-nav-product-one-detail{
+    border-right: solid;
+    border-bottom: solid;
+    width: 80px;
+    height: 93px;
+    background-color: #ffd300;
+}
+.order-main-white-rectangle-nav-product-one-detail{
+    border-bottom: solid;
+    width: 1430px;
+    height: 93px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.order-main-white-rectangle-nav-product-one-detail>section{
+   /* border:solid thin #e1191c; */
+   width: 600px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.order-main-white-rectangle-nav-product-one-detail a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+.order-main-white-rectangle-nav-product-one-detail a:focus{
+    text-decoration: underline;
+}
+.order-main-white-rectangle-nav-product-one-detail>div{
+    /* border:solid thin #e1191c; */
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 26px;
+}
+.order-main-white-rectangle-nav-product-one-detail button{
+    background-image: url('../../../assets/Details/ProductOne/magnifyingGlassBlack.png');
+    background-repeat:no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    background-position:center;
+    border: none;
+    width: 25px;
+    height: 26px;
+}
+
+.red-rectangle-nav-product-one-detail{
+    border-left: solid;
+    border-bottom: solid;
+    background-color: #e1191c;
+    width: 65px;
+    height: 93px;
+}
+
+
+
+.main-order-product-one-detail{
+    border: solid thin rgb(0, 255, 0);
+    width: 100%;
+    height: 82%;
+}
+
+.footer-order-product-one-detail{
+    border: solid thin rgb(22, 15, 126);
+    width: 100%;
+    height: 8%;
+}

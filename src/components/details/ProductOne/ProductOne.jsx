@@ -1,29 +1,31 @@
-
+import './productOneDetail.css'
+import IconHeartBlack from '../../../assets/Details/ProductOne/iconHeartBlack.png'
 const ProductOneDetail = () => {
     return(
-        <div>
-            <header>
+        <div className='all-page-order-product-one-detail'>
+            <header className='header-order-product-one-detail'>
                 <nav>
-                    <div className="white-rectangle-one">
-                        <img src="" alt="Logo" />
+                    <div className="left-white-rectangle-nav-product-one-detail"></div>
+                    <div className="brand-white-rectangle-nav-product-one-detail"><h2>BALENCIAGA</h2></div>
+                    <div className="yellow-rectangle-nav-product-one-detail"></div>
+                    <div className="order-main-white-rectangle-nav-product-one-detail">
+                        <section>
+                            <a href="">Home</a>
+                            <a href="">About</a>
+                            <a href="">Women</a>
+                            <a href="">Men</a>
+                            <a href="">Otro3</a>
+                        </section>
+                        <div>
+                            <button></button>
+                            {/* <input type="text" placeholder="input búsqueda" />         */}
+                            <a href=""><img src={IconHeartBlack} alt="Icono 2" /></a>
+                        </div>
                     </div>
-                    <div className="yellow-rectangle"></div>
-                    <div className="white-rectangle-two">
-                        <a href="">Home</a>
-                        <a href="">About</a>
-                        <a href="">Otro</a>
-                        <a href="">Otro2</a>
-                        <a href="">Otro3</a>
-                        <button>Icono lupa</button>
-                        <input type="text" placeholder="input búsqueda" />        
-                        <a href="">
-                            <img src="" alt="Icono 2" />
-                        </a>
-                    </div>
+                    <div className="red-rectangle-nav-product-one-detail"></div>
                 </nav>
-                <div className="red-rectangle"></div>
             </header>
-            <main>
+            <main className='main-order-product-one-detail'>
                 <div className="rectangle-first-image">
                     <img src="" alt="Imagen zapatilla vista uno" />
                     <button>prev</button>
@@ -73,6 +75,13 @@ const ProductOneDetail = () => {
                     <h2>$--</h2>
                 </div>
             </main>
+            <footer className='footer-order-product-one-detail'>
+                <div></div>
+                <p>ACO TO BASKETS</p>
+                <div></div>
+                <div></div>
+                <div></div>
+            </footer>
         </div>
     )
 }
