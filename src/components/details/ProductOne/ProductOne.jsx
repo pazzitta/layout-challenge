@@ -1,5 +1,8 @@
 import './productOneDetail.css'
 import IconHeartBlack from '../../../assets/Details/ProductOne/iconHeartBlack.png'
+import VerticalImageProduct from '../../../assets/Details/ProductOne/verticalImageProduct.jpg'
+import FrontImageProduct from '../../../assets/Details/ProductOne/frontImageProduct.jpg'
+
 const ProductOneDetail = () => {
     return(
         <div className='all-page-order-product-one-detail'>
@@ -26,53 +29,58 @@ const ProductOneDetail = () => {
                 </nav>
             </header>
             <main className='main-order-product-one-detail'>
-                <div className="rectangle-first-image">
-                    <img src="" alt="Imagen zapatilla vista uno" />
-                    <button>prev</button>
-                    <button>Next</button>
+                <div className='left-vertical-rectangle-main-product-one-detail'>
+                    <div className='black-left-vertical-rectangle-main-product-one-detail'></div>
                 </div>
-                <div className="container-section-two">
-                    <div className="grey-rectangle"></div>
-                    <setion className="container-description">
+                <div className="left-rectangle-order-product-image-main-product-one-detail">
+                    <button className='previous-button-product-image-main-product-one-detail'></button>
+                    <img src={VerticalImageProduct} alt="Imagen zapatilla vista uno" />
+                    <button className='next-button-product-image-main-product-one-detail'></button>
+                </div>
+                <div className="middle-rectangle-order-product-image-main-product-one-detail">
+                    <div className="top-grey-rectangle-middle-rectangle-main-product-one-detail"></div>
+                    <section>
                         <ul>
                             <li>
                                 <h4>Description</h4>
                             </li>
                         </ul>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi molestias incidunt molestiae quia dolore doloremque non nam.</p>
-                    </setion>
-                    <div className="">
+                    </section>
+                    <section>
                         <ul>
                             <li>
                                 <h4>Algo</h4>
                             </li>
                         </ul>
-                    </div>
-                    <div>
+                    </section>
+                    <section>
                         <ul>
                             <li>
                                 <h4>Talle</h4>
                             </li>
                         </ul>
-                        <button>t1</button>
-                        <button>t2</button>
-                        <button>t3</button>
-                        <button>t4</button>
-                        <button>t5</button>
-                    </div>
-                    <div>
+                        <div>
+                            <button>t1</button>
+                            <button>t2</button>
+                            <button>t3</button>
+                            <button>t4</button>
+                            <button>t5</button>
+                        </div>
+                    </section>
+                    <section>
                         <ul>
                             <li>
                                 <h4>Talle</h4>
                             </li>
                         </ul>
-                    </div>
-                </div>
-                <div>
-                    <h1>Nombre producto</h1>
-                    <small>Descripción</small>
-                    <img src="" alt="Imagen del producto" />
-                    <h2>$--</h2>
+                    </section>
+                </div>               
+                <div className="right-rectangle-order-product-image-main-product-one-detail">
+                    <h1>NOMBRE PRODUCTO</h1>
+                    <small> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</small>
+                    <img src={FrontImageProduct} alt="Imagen del producto" />
+                    <h2>$850</h2>
                 </div>
             </main>
             <footer className='footer-order-product-one-detail'>
