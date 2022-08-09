@@ -79,7 +79,7 @@
     display: flex;
 }
 .body-components-order-checkOut-form>section{
-    border: solid thin green;
+    /* border: solid thin green; */
     width: 65%;
 }
 .body-components-order-checkOut-form h1{
@@ -144,6 +144,136 @@
     border: solid thin #e3e3e3;
 }
 
+/* .order-of-internal-sections-body-checkOut-form>details{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding-left: 30px;
+} */
+.order-of-internal-sections-body-checkOut-form summary{
+    margin-bottom: 20px;
+
+}
+/* NO SÉ COMO DARLE ESTILOS A ESTO DE ARRIBA */
+.order-of-internal-sections-body-checkOut-form>textarea{
+    width: 90%;
+    align-self: center;
+}
+.order-of-internal-sections-body-checkOut-form>small{
+    /* border: solid; */
+    margin-bottom: 30px;
+    margin-top: 20px;
+    align-self: center;
+    display: flex;
+    align-items:flex-start ;
+    width: 90%;
+}
+.order-top-section-of-payment-and-confirmation-checkOut-form{
+    display: flex;
+    flex-direction: column;
+}
+.order-top-section-of-payment-and-confirmation-checkOut-form>header{
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 93%;
+}
+.order-top-section-of-payment-and-confirmation-checkOut-form h3{
+    font-size: 30px;
+}
+.order-top-section-of-payment-and-confirmation-checkOut-form>header img{
+    width: 10%;
+}
+.botton-box-order-input-sections-body-checkOut-form{
+    width: 93%;
+    align-self:center;
+    margin-bottom: 20px;
+}
+.botton-box-order-input-sections-body-checkOut-form>div{
+    /* border: solid thin rgb(62, 114, 134); */
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.botton-box-order-input-sections-body-checkOut-form>div div{
+    /* border: solid thin rgb(191, 130, 31); */
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.botton-box-order-input-sections-body-checkOut-form>div div small{
+    font-size: 12px;
+    font-weight: 500;
+}
+.botton-box-order-input-sections-body-checkOut-form>div div span{
+    color: red;
+    font-size: 12px;
+    font-weight: 500;
+}
+.botton-box-order-input-sections-body-checkOut-form>div input{
+    width: 300px;
+    height: 40px;
+    border: solid thin #e3e3e3;
+}
+.order-terms-and-conditions-checkOut-form{
+    /* border: solid #5adcac; */
+    width: 93%;
+    align-self: center;
+}
+.order-terms-and-conditions-checkOut-form>label{
+    /* border: solid #5adcac; */
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.order-price-checkOut-form{
+    background-color: #efefef;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.order-price-checkOut-form>h2{
+    /* border: solid; */
+    width: 95%;
+    align-self: center;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    margin-bottom: 10px;   
+}
+.order-price-checkOut-form>p{
+   color: #aaaaaa;
+   margin: 0;
+   display: flex;
+   justify-content: space-between;
+   align-self: center; 
+   width: 95%;  
+}
+.order-botton-section-of-payment-and-confirmation-checkOut-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.order-botton-section-of-payment-and-confirmation-checkOut-form>button{
+    background-color: #5adcac;
+    border: none;
+    width: 200px;
+    height: 50px;
+    color: white;
+    margin-bottom: 15px;
+}
+.order-botton-section-of-payment-and-confirmation-checkOut-form>small{
+    font-size: 10px;
+    color: #373737;
+    margin-bottom: 40px;
+}
 .body-components-order-checkOut-form>article{
     border: solid thin rgb(11, 0, 128);
     width: 35%;

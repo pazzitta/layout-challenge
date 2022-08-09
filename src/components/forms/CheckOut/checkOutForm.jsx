@@ -1,5 +1,6 @@
 import './checkOutForm.css'
-import ImageSelect from '../../../assets/Forms/ContactUs/imageMenu.png'
+import IconCard from '../../../assets/Forms/CheckOut/iconCard.png'
+
 const CheckOutForm = () =>{
     return(
         <div className="all-page-order-checkOut-form">
@@ -107,7 +108,7 @@ const CheckOutForm = () =>{
                                 <input type="text" />
                             </div>
                         </div>
-                        <div className='top-box-order-input-sections-body-checkOut-form'>
+                        <div cclassName='top-box-order-input-sections-body-checkOut-form'>
                             <div>
                                 <div>
                                     <small>algo5</small>
@@ -143,44 +144,45 @@ const CheckOutForm = () =>{
                                 <input type="text" />
                             </div>
                         </div>                           
-                    </section>
-                   {/* hasta acá llegué (15:53) */}
-                    <section>
+                    </section>                 
+                    <section className='order-of-internal-sections-body-checkOut-form'>
                         <h3>Need to Know Information</h3>
-                        <details>
-                                <summary>Cancellation Policy</summary>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque est, minus placeat fugit ipsa error 
-                                    delectus culpa perspiciatis accusantium voluptatum veritatis consequatur blanditiis dolorem explicabo, 
-                                    aliquam incidunt repudiandae alias. Illum!
-                                </p>
-                        </details>
-                        <details>
-                                <summary>Check In Instructions</summary>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque est, minus placeat fugit ipsa error 
-                                    delectus culpa perspiciatis accusantium voluptatum veritatis consequatur blanditiis dolorem explicabo, 
-                                    aliquam incidunt repudiandae alias. Illum!
-                                </p>
-                        </details>
-                        <details>
-                                <summary>Hotel policy</summary>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque est, minus placeat fugit ipsa error 
-                                    delectus culpa perspiciatis accusantium voluptatum veritatis consequatur blanditiis dolorem explicabo, 
-                                    aliquam incidunt repudiandae alias. Illum!
-                                </p>
-                        </details>
+                        <div>
+                            <details>
+                                    <summary>Cancellation Policy</summary>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque est, minus placeat fugit ipsa error 
+                                        delectus culpa perspiciatis accusantium voluptatum veritatis consequatur blanditiis dolorem explicabo, 
+                                        aliquam incidunt repudiandae alias. Illum!
+                                    </p>
+                            </details>
+                            <details>
+                                    <summary>Check In Instructions</summary>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque est, minus placeat fugit ipsa error 
+                                        delectus culpa perspiciatis accusantium voluptatum veritatis consequatur blanditiis dolorem explicabo, 
+                                        aliquam incidunt repudiandae alias. Illum!
+                                    </p>
+                            </details>
+                            <details>
+                                    <summary>Hotel policy</summary>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque est, minus placeat fugit ipsa error 
+                                        delectus culpa perspiciatis accusantium voluptatum veritatis consequatur blanditiis dolorem explicabo, 
+                                        aliquam incidunt repudiandae alias. Illum!
+                                    </p>
+                            </details>
+                        </div>
                     </section>
-                    <section>
+                    <section className='order-of-internal-sections-body-checkOut-form'>
                         <h3>Special Requests*</h3>
                         <textarea name="" id="" cols="30" rows="10"></textarea>
                         <small>* Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor debitis numquam.</small>
                     </section>
-                    <section>
-                        <div>
+                    <section className='order-of-internal-sections-body-checkOut-form'>
+                        <div className='order-top-section-of-payment-and-confirmation-checkOut-form'>
                             <header>
                                 <h3>Payment and Confirmation</h3>
-                                <img src="" alt="Logo de tarjeta" />
+                                <img src={IconCard} alt="Logo de tarjeta" />
                             </header>
-                            <div>
+                            <div className='top-box-order-input-sections-body-checkOut-form'>
                                 <div>
                                     <div>
                                         <small>algo1</small>
@@ -196,7 +198,7 @@ const CheckOutForm = () =>{
                                     <input type="text" />
                                 </div>
                             </div>
-                            <div>
+                            <div className='botton-box-order-input-sections-body-checkOut-form'>
                                 <div>
                                     <div>
                                         <small>algo3</small>
@@ -215,21 +217,21 @@ const CheckOutForm = () =>{
                                     </div>
                                 </div>
                             </div>
-                            <div>
+                            <div className='order-terms-and-conditions-checkOut-form'>
                                 <input type="checkbox" name="" id="" />
                                 <label htmlFor="">I agree to the<u>Terms and conditions</u> understand cancellation policy</label>
                             </div>
-                            <div>
-                                <h2>Total:AU$2,076.06</h2>
+                            <div className='order-price-checkOut-form'>
+                                <h2>Total: AU$2,076.06</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto fugit dignissimos, impedit libero.</p>
                             </div>
                         </div>
-                        <div>
-                            <button>CheckOut Now</button>
-                            <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</small>
-                        </div>
                     </section>
+                    <div className='order-botton-section-of-payment-and-confirmation-checkOut-form'>
+                        <button>CheckOut Now</button>
+                        <small>Lorem ipsum dolor sit amet.</small>
+                    </div>
                 </section>
                 <article>
                     <p></p>
