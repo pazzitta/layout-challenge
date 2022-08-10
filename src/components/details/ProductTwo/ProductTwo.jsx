@@ -6,6 +6,7 @@ import ProductFrontImage from '../../../assets/Details/ProductTwo/productFrontIm
 import ProductLeftImage from '../../../assets/Details/ProductTwo/leftImageProduct.jpg'
 import ProductMiddleImage from '../../../assets/Details/ProductTwo/middleImageProduct.jpg'
 import ProductRightImage from '../../../assets/Details/ProductTwo/rightImageProduct.jpg'
+import StarYellow from '../../../assets/Details/ProductTwo/starYellow.png'
 
 const ProductTwoDetail = () => {
     return(
@@ -23,8 +24,6 @@ const ProductTwoDetail = () => {
                         </section>
                     </div>
                 </section>
-                
-               
                 <section className='order-card-right-section-product-two-detail'>
                     <nav>
                         <div className='card-right-section-anchors-order-nav-product-two-detail'>
@@ -41,20 +40,20 @@ const ProductTwoDetail = () => {
                             <img src={CartGrey} alt="Carrito compras" />
                         </div>
                     </nav>
-                    <div>
+                    <div className='card-right-section-description-order-nav-product-two-detail'>
                         <small>Algo</small>
-                        <h1>Nombre producto</h1>
-                        <div>
-                            <img src="" alt="Estrellita ícono" />
-                            <h3>Puntación</h3>
-                            <p>detalle</p>
+                        <h1>Drop type cusion chair</h1>
+                        <div className='order-score-box-product-two-detail'>
+                            <img src={StarYellow} alt="Estrellita ícono" />
+                            <h4>8/10</h4>
+                            <p>15 Reviews</p>
                         </div>
                         <div>
                             <input type="radio" name="color" id="" />
                             <input type="radio" name="color" id="" />
                         </div>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo omnis error.</p>
-                        <div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo omnis error.amet consectetur adipisicing elit. Quo omnis error.</p>
+                        <div className='box-order-quantity-product-two-detail'>
                             <div>
                                 <p>Algo</p>
                                 <h4>--<small>algo</small></h4>
@@ -64,19 +63,19 @@ const ProductTwoDetail = () => {
                                 <h4>--<small>algo2</small></h4>
                             </div>
                             <div>
-                                <p>Algo3</p>
+                                <p><u>Algo3</u></p>
                                 {/* <hr/> */}
                             </div>
                         </div>
-                        <h2>$--</h2>
-                        <div>
-                            <button>+</button>
-                            <div>--</div>
-                            <button>-</button>
+                        <h2>$265.50</h2>
+                        <div className='order-box-counter-product-two-detail'>
+                            <button className='less-button-product-two-detail'>-</button>
+                            <div>1</div>
+                            <button className='plus-button-product-two-detail'>+</button>
                         </div>
                         <div>
-                            <button>ADD TO CARD</button>
-                            <button>BUY NOW</button>
+                            <button className='add-button-product-two-detail'>ADD TO CARD</button>
+                            <button className='buy-button-product-two-detail'>BUY NOW</button>
                         </div>
                     </div>
                 </section>

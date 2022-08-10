@@ -93,6 +93,102 @@
     width: 40px;
     margin-left: 20px;
 }
+.card-right-section-description-order-nav-product-two-detail{
+    /* border: solid; */
+    width: 73%;
+    height: 550px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: start;
+}
+.card-right-section-description-order-nav-product-two-detail>small{
+    color: rgb(88, 88, 88);
+}
+.card-right-section-description-order-nav-product-two-detail>h1{
+    font-size: 30px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.order-score-box-product-two-detail{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.order-score-box-product-two-detail>img{
+    width: 25px;
+    margin-right: 10px;
+}
+.order-score-box-product-two-detail>p{
+    font-size: 14px;
+    color: rgb(88, 88, 88);
+    margin-left: 10px;
+    font-weight: 500;
+}
+.card-right-section-description-order-nav-product-two-detail>p{
+    /* border: solid; */
+    width: 65%;
+    color: rgb(88, 88, 88);
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.box-order-quantity-product-two-detail{
+    display: flex;
+    border-bottom: solid thin rgb(88, 88, 88);
+    border-top: solid thin rgb(88, 88, 88);
+    width: 50%;
+    height: 70px;
+
+}
+.box-order-quantity-product-two-detail>div{
+    border-left: solid thin rgb(88, 88, 88); 
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-order-quantity-product-two-detail h4,
+.box-order-quantity-product-two-detail small,
+.box-order-quantity-product-two-detail p{
+   margin: 0;
+}
+.order-box-counter-product-two-detail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.order-box-counter-product-two-detail>div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.plus-button-product-two-detail,
+.less-button-product-two-detail{
+    border: solid thin rgb(88, 88, 88);
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.plus-button-product-two-detail{
+    background-color: #060b16;
+    color: white;
+}
+.add-button-product-two-detail,
+.buy-button-product-two-detail{
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-weight: 600;
+}
+.buy-button-product-two-detail{
+    background-color: #060b16;
+    color: white;
+}
 
 
 
