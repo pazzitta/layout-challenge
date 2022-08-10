@@ -1,33 +1,36 @@
+import './profile.css'
+import BrandLogo from '../../../assets/Details/Profile/brandLogo.png'
+import ImageProfile from '../../../assets/Cards/imageProfileP.jpg'
 
 const ProfileDetail = () => {
     return(
-        <div>
-            <header>
+        <div className='order-all-page-profile-detail'>
+            <header className='header-order-profile-detail'>
                 <nav>
-                    <img src="" alt="Logo" />
+                    <img src={BrandLogo} alt="Logo" />
                     <form action="">
                         <input type="text" />
-                        <button type="submit">Lupa</button>
+                        {/* <button type="submit">Lupa</button> */}
                     </form>
                     <div>
                         <a href="">Find profile</a>
                         <div>
                             <a href="">Messages</a>
-                            <h4>--</h4>
+                            <h4>15</h4>
                         </div>
                         <a href="">My contacts</a>
-                        <img src="" alt="Foto perfil" />
+                        <img src={ImageProfile} alt="Foto perfil" />
                     </div>
                 </nav>
             </header>
-            <main>
-                <section>
+            <main className='main-order-profile-detail'>
+                <section className='order-left-section-profile-detail'>
                     <div>
-                        <img src="" alt="Foto perfil" />
+                        <img src={ImageProfile} alt="Foto perfil" />
                         <small>Algo 0</small>
                     </div>
                     <div>
-                        <div>
+                        <div className='box-titel-and-button-main-profile-detail'>
                             <h4>Spotify New York</h4>
                             <button>Algo 1</button>
                         </div>
@@ -35,7 +38,7 @@ const ProfileDetail = () => {
                         <p>algo 3</p>
                     </div>
                     <div>
-                        <div>
+                        <div className='box-titel-and-button-main-profile-detail'>
                             <h4>Metropolitan Museum</h4>
                             <button>Algo 4</button>
                         </div>

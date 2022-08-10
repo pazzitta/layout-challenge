@@ -22,7 +22,8 @@ import Cards from './pages/cards';
 // import ContactUsForm from './components/forms/ContactUs/contactUsForm';
 // import CheckOutForm from './components/forms/CheckOut/checkOutForm';
 // import ProductOneDetail from './components/details/ProductOne/ProductOne';
-import ProductTwoDetail from './components/details/ProductTwo/ProductTwo';
+// import ProductTwoDetail from './components/details/ProductTwo/ProductTwo';
+import ProfileDetail from './components/details/Profile/Profile';
 
 function App() {
   return (
@@ -35,7 +36,7 @@ function App() {
         <Route path='/details' element={<Details/>}/>
         <Route path='/forms' element={<Forms/>}/>
         <Route path='/cards' element= {<Cards/>}/>
-        <Route path='/pruebas' element= {<ProductTwoDetail/>}/>
+        <Route path='/pruebas' element= {<ProfileDetail/>}/>
       </Routes>
       </BrowserRouter>
   
