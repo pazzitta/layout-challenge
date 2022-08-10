@@ -1,31 +1,46 @@
 import './productTwo.css'
+import BrandLogo from '../../../assets/Details/ProductTwo/brandLogo.png'
+import ShortMangnifyingGlass from '../../../assets/Details/ProductTwo/shortMagnifyingGlassGrey.png'
+import CartGrey from '../../../assets/Details/ProductTwo/cartGrey.png'
+import ProductFrontImage from '../../../assets/Details/ProductTwo/productFrontImage.png'
+import ProductLeftImage from '../../../assets/Details/ProductTwo/leftImageProduct.jpg'
+import ProductMiddleImage from '../../../assets/Details/ProductTwo/middleImageProduct.jpg'
+import ProductRightImage from '../../../assets/Details/ProductTwo/rightImageProduct.jpg'
 
 const ProductTwoDetail = () => {
     return(
         <div className='order-all-page-product-two-detail'>
             <div className='container-card-product-two-detail'>
-                <header className='header-order-product-two-detail'>
-                    <nav>
-                        <img src="" alt="Logo" />
-                        <a href="">Home</a>
-                        <a href="">Furniture</a>
-                        <a href="">Product</a>
-                        <a href="">Store</a>
-                        <div>
-                            <img src="" alt="Lupa" />
-                            <input type="text" placeholder="Buscar" />
-                        </div>
-                        <img src="" alt="Carrito compras" />
-                    </nav>
-                </header>
-                <main className='main-order-product-two-detail'>
+                <section className='order-card-left-section-product-two-detail'>
+                    <img src={BrandLogo} alt="Logo" />
                     <div>
-                        <img src="" alt="Imagen principal" />
+                        <img src={ProductFrontImage} alt="Imagen principal" />
                         <input type="radio" name="cambio-imagen" id="" />
-                        <img src="" alt="Imagen 1" />
-                        <img src="" alt="Imagen 2" />
-                        <img src="" alt="Imagen 3" />
+                        <section>
+                            <img src={ProductLeftImage} alt="Imagen 1" />
+                            <img src={ProductMiddleImage} alt="Imagen 2" />
+                            <img src={ProductRightImage} alt="Imagen 3" />
+                        </section>
                     </div>
+                </section>
+                
+               
+                <section className='order-card-right-section-product-two-detail'>
+                    <nav>
+                        <div className='card-right-section-anchors-order-nav-product-two-detail'>
+                            <a href="">Home</a>
+                            <a href="">Furniture</a>
+                            <a href="">Product</a>
+                            <a href="">Store</a>
+                        </div>
+                        <div className='card-right-section-images-order-nav-product-two-detail'>
+                            <div>
+                                <img src={ShortMangnifyingGlass} alt="Lupa" />
+                                {/* <input type="text" placeholder="Buscar"  */}
+                            </div>
+                            <img src={CartGrey} alt="Carrito compras" />
+                        </div>
+                    </nav>
                     <div>
                         <small>Algo</small>
                         <h1>Nombre producto</h1>
@@ -64,7 +79,7 @@ const ProductTwoDetail = () => {
                             <button>BUY NOW</button>
                         </div>
                     </div>
-               </main>
+                </section>
             </div>
         </div>
     )
