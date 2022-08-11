@@ -1,6 +1,13 @@
 import './profile.css'
 import BrandLogo from '../../../assets/Details/Profile/brandLogo.png'
 import ImageProfile from '../../../assets/Cards/imageProfileP.jpg'
+import LocationGray from '../../../assets/Details/Profile/locationGray.png'
+import IconFavGray from '../../../assets/Details/Profile/iconFavGray.png'
+import StarBlue from '../../../assets/Details/Profile/starBlue.png'
+import IconMessage from '../../../assets/Details/Profile/iconMessage.png'
+import IconDarkGrayEye from '../../../assets/Details/Profile/iconDarkGrayEye.png'
+import IconPersonDarkGray from '../../../assets/Details/Profile/iconPersonDarkGray.png'
+
 
 const ProfileDetail = () => {
     return(
@@ -54,43 +61,45 @@ const ProfileDetail = () => {
                         <h5>Algo 12</h5>
                     </div>
                 </section>
-                <section>
-                    <div>
-                        <div>
-                            <h1>Nombre Apellido</h1>
-                            <img src="" alt="ícono localización" />
-                            <small>Nombre lugar Loc.</small>
-                            <button><img src="" alt="Banderita fav" />Like</button>
-                            <h4>Profesión</h4>
-                        </div>
-                        <br />
-                        <div>
-                            <small>Valoración</small>
+                <section className='order-right-section-profile-detail'>
+                    <section>
+                        <div className='order-box-name-right-section-profile-detail'>
                             <div>
-                                <h3>--</h3>
-                                {/* creo que son inputs */}
-                                <img src="" alt="estrellitas" />
+                                <h1>Jeremy Rose</h1>
+                                <img src={LocationGray} alt="ícono localización" />
+                                <small>Nombre lugar Loc.</small>
                             </div>
+                            <button><img src={IconFavGray} alt="Banderita fav" />LikeLike</button>
                         </div>
-                        <br />
-                        <div>
-                            <button><img src="" alt="Mensaje ícono" />Send Message</button>
-                            <button><img src="" alt="ícono tilde" />Contact</button>
-                            <small>Algo 13</small>
+                        <h4>Profesión</h4>
+                        <small>Valoración</small>
+                        <div className='order-box-qualification-right-section-profile-detail'>
+                            <h3>8.6</h3>
+                                {/* creo que son inputs */}
+                            <img src={StarBlue} alt="estrellitas" />
+                            <img src={StarBlue} alt="estrellitas" />
+                            <img src={StarBlue} alt="estrellitas" />
+                            <img src={StarBlue} alt="estrellitas" />
+                            <small>25</small>
                         </div>
-                    </div>
-                    <br />
-                    <div>
-                        <div>
+                        <div className='order-box-buutons-right-section-profile-detail'>
+                            <button><img src={IconMessage} alt="Mensaje ícono" />Send Message</button>
+                            <button><p>&#10004;</p> Contact</button>
+                            <small>Algo algo</small>
+                        </div>
+                        <div className='order-box-anchords-right-section-profile-detail'>
                             <a href="">
-                                <img src="" alt="ícono algo 14" />
-                                algo 14
+                                <img src={IconDarkGrayEye} alt="ícono algo 14" />
+                                <label htmlFor="">algo 14</label> 
                             </a>
                             <a href="">
-                                <img src="" alt="ícono persona" />
-                                About
+                                <img src={IconPersonDarkGray} alt="ícono persona" />
+                                <label htmlFor="">algo 15</label> 
                             </a>
                         </div>
+                    </section>
+                    
+                    <section>
                         <br />
                         <table>
                             <tr>
@@ -129,7 +138,7 @@ const ProfileDetail = () => {
                                 <td>Contenido 2 2.2</td>
                             </tr>
                         </table>
-                    </div>
+                    </section>
                 </section>
             </main>
         </div>

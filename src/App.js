@@ -25,6 +25,8 @@ import Cards from './pages/cards';
 // import ProductTwoDetail from './components/details/ProductTwo/ProductTwo';
 import ProfileDetail from './components/details/Profile/Profile';
 
+// CAMBIAR TODOS LO GREY POR GRAY
+
 function App() {
   return (
     <div className="App">
