@@ -101,37 +101,35 @@ const ProfileDetail = () => {
                     
                     <section>
                         <br />
-                        <table>
+                        <table className='order-table-lower-section-right-section-profile-detail'>
                             <tr>
-                                <td><small>Título 1</small></td>
-                                <td><small>Título 2</small></td>
+                                <td><small>Holis soy algo 1</small></td>
                             </tr>
                             <tr>
-                                <td>Contenido 1 1</td>
-                                <td>Contenido 1 2</td>
+                                <td>Phone</td>
+                                <td><a href="tel:+54112345678">+54112345678</a></td>
                             </tr>
                             <tr>
-                                <td>Contenido 2 1</td>
-                                <td>Contenido 2 2</td>
+                                <td>Address</td>
+                                <td><address>Catamarca 2354, Rosario, Santa Fe, Argentina.</address></td>
                             </tr>
                             <tr>
-                                <td>Contenido 3 1</td>
-                                <td>Contenido 3 2</td>
+                                <td>E-mail</td>
+                                <td><a href="mailto:cuenta@deemail.com">cuenta@deemail.com</a></td>
                             </tr>
                             <tr>
-                                <td>Contenido 4 1</td>
-                                <td>Contenido 4 2</td>
+                                <td>Site</td>
+                                <td><a>www.nrl.com</a></td>
                             </tr>
                         </table>
                         <br />
-                        <table>
+                        <table className='order-table-lower-section-right-section-profile-detail'>
                             <tr>
-                                <td><small>Título 1.2</small></td>
-                                <td><small>Título 2.2</small></td>
+                                <td><small>Holi soy algo 2</small></td>
                             </tr>
                             <tr>
-                                <td>Contenido 1 1.2</td>
-                                <td>Contenido 1 2.2</td>
+                                <td>Birthday</td>
+                                <td>May 1, 1989</td>
                             </tr>
                             <tr>
                                 <td>Contenido 2 1.2</td>
