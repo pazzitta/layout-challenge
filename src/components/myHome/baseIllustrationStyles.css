@@ -82,6 +82,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 .top-frame-styles-and-order{
     background-image: url('../../assets/myHome/OrganizerBaseBoard/woodenTopFrame.jpg');
@@ -151,3 +152,120 @@
 .botton-frame-styles-and-order>div:last-child{
     margin-right: 15px;
 }
+
+/* ALLBOARDCONTENT.JSX */
+.order-all-board-content{
+    border: solid seagreen;
+    width: 80%;
+    height: 680px;
+    position: absolute;
+    top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-one{
+    border: solid thin goldenrod;
+    width: 100%;
+    height: 33%;
+}
+.section-two{
+    border: solid thin red;
+    width: 100%;
+    height: 56%;
+}
+.section-three{
+    border: solid thin palevioletred;
+    width: 96.4%;
+    height: 11%;
+}
+.order-of-all-pencils{
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.order-a-purple-pencil,
+.order-a-hotpink-pencil,
+.order-a-blue-pencil,
+.order-a-green-pencil,
+.order-a-yellow-pencil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.order-a-purple-pencil>div:first-child{
+    width: 0;
+    height: 0;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 15px solid #7136F4;
+    /* ver cómo funciona esto */
+}
+.order-a-purple-pencil>div:last-child{
+    width: 15px;
+    height: 45px;
+    background-color: #814EF2;
+}
+.order-a-hotpink-pencil>div:first-child{
+    width: 0;
+    height: 0;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 15px solid #F62F55;
+    /* ver cómo funciona esto */
+}
+.order-a-hotpink-pencil>div:last-child{
+    width: 15px;
+    height: 45px;
+    background-color: #F44D6D;
+}
+.order-a-blue-pencil>div:first-child{
+    width: 0;
+    height: 0;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 15px solid #3842F1;
+    /* ver cómo funciona esto */
+}
+.order-a-blue-pencil>div:last-child{
+    width: 15px;
+    height: 45px;
+    background-color: #5058EF;
+}
+.order-a-green-pencil>div:first-child{
+    width: 0;
+    height: 0;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 15px solid #0DDD79;
+    /* ver cómo funciona esto */
+}
+.order-a-green-pencil>div:last-child{
+    width: 15px;
+    height: 45px;
+    background-color: #4EF2A3;
+}
+.order-a-yellow-pencil>div:first-child{
+    width: 0;
+    height: 0;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 15px solid #E1C815;
+    /* ver cómo funciona esto */
+}
+.order-a-yellow-pencil>div:last-child{
+    width: 15px;
+    height: 45px;
+    background-color: #F2DE4E;
+}
+

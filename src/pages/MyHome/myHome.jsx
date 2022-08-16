@@ -1,6 +1,7 @@
 import './myHome.css'
 import CreateName from '../../components/myHome/create';
 import OrganizerBaseBoard from '../../components/myHome/organizerBaseBoard';
+import AllBoardContent from '../../components/myHome/allBoardContent';
 // import FTop from '../assets/myHome/FolderTop.png'
 // import FLandingP from '../assets/myHome/FolderLanding.png'
 // import SLandingP from '../assets/myHome/SheetLandingPagesUX.png'
@@ -21,6 +22,7 @@ const MyHome = () => {
         <div className='base-illustration-component-order'>
             <CreateName/>
             <OrganizerBaseBoard/>
+            <AllBoardContent/>
 
         </div>
         // <div className='order-my-home'>
