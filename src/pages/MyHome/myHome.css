@@ -1,4 +1,21 @@
-.order-my-home {
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+.base-illustration-component-order{
+    border: solid;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* .order-my-home {
     justify-content: center;
     align-items: center;
 }
@@ -19,4 +36,4 @@
 .icons{
     width: 74px;
     height: 69px;
-}
+} */

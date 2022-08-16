@@ -119,7 +119,7 @@ const ProfileDetail = () => {
                             </tr>
                             <tr>
                                 <td>Site</td>
-                                <td><a>www.nrl.com</a></td>
+                                <td> <a href="https://github.com/pazzitta" target="_blank" rel="noreferrer">Mi gitHub</a></td>
                             </tr>
                         </table>
                         <br />

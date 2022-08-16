@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .order-all-page-profile-detail{
-    border: solid;
+    /* border: solid; */
     display: flex;
     flex-direction: column;
     width: 100%;

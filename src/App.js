@@ -1,6 +1,6 @@
 import './App.css';
 import {Route, BrowserRouter, Routes} from 'react-router-dom'
-import MyHome from './pages/myHome';
+import MyHome from './pages/MyHome/myHome';
 import LandingPages from './pages/landinPages';
 import Homes from './pages/homes';
 import Details from './pages/details';
@@ -23,7 +23,8 @@ import Cards from './pages/cards';
 // import CheckOutForm from './components/forms/CheckOut/checkOutForm';
 // import ProductOneDetail from './components/details/ProductOne/ProductOne';
 // import ProductTwoDetail from './components/details/ProductTwo/ProductTwo';
-import ProfileDetail from './components/details/Profile/Profile';
+// import ProfileDetail from './components/details/Profile/Profile';
+import NewsDetail from './components/details/News/News';
 
 // CAMBIAR TODOS LO GREY POR GRAY
 
@@ -38,7 +39,7 @@ function App() {
         <Route path='/details' element={<Details/>}/>
         <Route path='/forms' element={<Forms/>}/>
         <Route path='/cards' element= {<Cards/>}/>
-        <Route path='/pruebas' element= {<ProfileDetail/>}/>
+        <Route path='/pruebas' element= {<NewsDetail/>}/>
       </Routes>
       </BrowserRouter>
   
