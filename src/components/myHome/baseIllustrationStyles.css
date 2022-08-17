@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
 
 *,
 *::after,
@@ -196,6 +197,8 @@
     border: solid thin rgb(255, 165, 105);
     width: 14.5%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .section-two>section:last-child{
     border: solid thin rgb(119, 183, 24);
@@ -359,6 +362,34 @@
     width: 15px;
     height: 45px;
     background-color: #F2DE4E;
+}
+
+/* SECTION FOUR */
+.order-note{
+    border: solid #212121;
+    width: 100%;
+    height: 150px;
+}
+.order-note-scotch-tape{
+    display: flex;
+}
+.hotpink-note-background{
+    background-color: #F44D6D;
+    width: 150px;
+    height: 107px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* no es la medida pero la tengo que ver inclinada */
+}
+.hotpink-note-background>p{
+    /* no es la medida pero la tengo que ver inclinada */
+    font-family: 'Aladin', cursive;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    font-size: 15px;
 }
 
 /* SECTION FIVE */

@@ -16,8 +16,8 @@ const WantedPoster = () => {
                 <img src={MyPicture} alt="imagen mía" />
                 <article>
                     <p>claim reward at</p>
-                    <a href=""><img src={LinkedInIcon} alt="iso linkedIn" /></a>
-                    <a href=""><img src={GitHubIcon} alt="iso gitHub" /></a>
+                    <a href="https://www.linkedin.com/in/paz-zitta/" target="_blank" rel="noreferrer"><img src={LinkedInIcon} alt="iso linkedIn" /></a>
+                    <a href="https://github.com/pazzitta" target="_blank" rel="noreferrer"><img src={GitHubIcon} alt="iso gitHub" /></a>
                 </article>
             </div>
 

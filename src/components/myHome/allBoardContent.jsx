@@ -16,7 +16,26 @@ const AllBoardContent = () => {
                     
                 </section>
                 <section></section>
-                <section></section>
+                <section>
+                    <div className='order-note'>
+                        <div className='order-note-scotch-tape'>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div className='hotpink-note-background'>
+                            <p>“La lógica te llevará de la A a la Z; la imaginación te llevará a todas partes.“ Albert Einstein</p>
+                        </div>
+                    </div>
+                    <div className='order-note'>
+                        <div className='order-note-scotch-tape'>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div className='hotpink-note-background'>
+                            <p>No sé aún...</p>
+                        </div>
+                    </div>
+                </section>
                 <section>
                     <WantedPoster/>
                 </section>
