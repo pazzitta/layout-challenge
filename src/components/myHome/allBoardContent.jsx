@@ -5,16 +5,24 @@ import WantedPoster from './InternalBoardComponents/wantedPoster';
 import FamilyPictureOne from '../../assets/myHome/AllBoardContent/familyPictureOne.jpg'
 import FamilyPictureTwo from '../../assets/myHome/AllBoardContent/familyPictureTwo.jpg'
 import FamilyPictureThree from '../../assets/myHome/AllBoardContent/familyPictureThree.jpg'
-
+import MetalBasket from './InternalBoardComponents/metalBasket';
 
 const AllBoardContent = () => {
     return (
         <div className="order-all-board-content">
-            <div className='section-one'></div>
+            <div className='section-one'>
+                <MetalBasket/>
+                <MetalBasket/>
+                <MetalBasket/>
+                <MetalBasket/>
+                <MetalBasket/>
+            </div>
             <div className='section-two'>
                 <section>
                     <BlackboardCalendar/>
-                    <div></div>
+                    <div>
+                        <MetalBasket/>
+                    </div>
                 </section>
                 <section>
                     <div className='order-portrait-door-left-aligned'>

@@ -171,6 +171,9 @@
     border: solid thin goldenrod;
     width: 96.4%;
     height: 33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 .section-two{
     border: solid thin red;
@@ -182,6 +185,10 @@
     border: solid thin hotpink;
     width: 22.5%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .section-two>section:nth-child(2){
     /* border: solid thin rgb(105, 110, 255); */
@@ -222,8 +229,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 22px;
-    margin-left: 10px;
+    margin-top: 20px;
     /* position: absolute; */
 }
 .blackboard-calendar-order>div:first-child{
