@@ -201,7 +201,7 @@
     flex-direction: column;
 }
 .section-two>section:last-child{
-    border: solid thin rgb(119, 183, 24);
+    /* border: solid thin rgb(119, 183, 24); */
     width: 25.4%;
     height: 100%;
     display: flex;
@@ -368,61 +368,141 @@
 .order-note{
     border: solid #212121;
     width: 100%;
-    height: 150px;
-}
-.order-note-scotch-tape{
+    height: 130px;
     display: flex;
+    margin-top: 60px;
 }
-.hotpink-note-background{
+.order-note-scotch-tape-one{
+    /* border: solid; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 160px;
+    height: 40px;
+    right: 0px;
+    bottom: 1px;
+    transform: rotate(15deg);
+}
+.order-note-scotch-tape-one>div:first-child{
+    width: 45px;
+    height: 16px;
+    background-color: #231E20;
+    transform: rotate(-50deg);
+}
+.order-note-scotch-tape-one>div:last-child{
+    width: 40px;
+    height: 16px;
+    background-color: #231E20;
+    transform: rotate(45deg);
+}
+.hotpink-note-background-one{
     background-color: #F44D6D;
-    width: 150px;
+    width: 135px;
     height: 107px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: rotate(15deg);
+    margin-left: 5px;
+    position: absolute;
     /* no es la medida pero la tengo que ver inclinada */
 }
-.hotpink-note-background>p{
+.hotpink-note-background-one>p{
     /* no es la medida pero la tengo que ver inclinada */
     font-family: 'Aladin', cursive;
     color: white;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
     margin: 0;
     font-size: 15px;
+}
+.hotpink-note-background-two{
+    background-color: #F44D6D;
+    width: 135px;
+    height: 107px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-15deg);
+    margin-left: 5px;
+    position: absolute;
+    align-self: flex-end;
+    /* no es la medida pero la tengo que ver inclinada */
+}
+.hotpink-note-background-two>p{
+    /* no es la medida pero la tengo que ver inclinada */
+    font-family: 'Aladin', cursive;
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 0;
+    font-size: 15px;
+}
+.order-note-scotch-tape-two{
+    /* border: solid; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 160px;
+    height: 40px;
+    right: 0px;
+    bottom: 1px;
+    transform: rotate(-15deg);
+}
+.order-note-scotch-tape-two>div:first-child{
+    width: 45px;
+    height: 16px;
+    background-color: #231E20;
+    transform: rotate(-50deg);
+}
+.order-note-scotch-tape-two>div:last-child{
+    width: 40px;
+    height: 16px;
+    background-color: #231E20;
+    transform: rotate(45deg);
 }
 
 /* SECTION FIVE */
 
 /* ** WantedPoster */
 .order-wanted-poster{
-    border:solid thin #0DDD79;
+    /* border:solid thin #0DDD79; */
     width: 98%;
     height: 98%;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     align-self: end;
 }
 .order-scotch-tape{
+    /* border: solid; */
+    width: 400px;
     display: flex;
     justify-content: space-between;
+    position: absolute;
 }
 .order-scotch-tape>div:first-child{
     background-color: #F62F55;
+    width: 60px;
+    height: 20px;
+    transform: rotate(-45deg);
 }
 .order-scotch-tape>div:last-child{
     background-color: #F62F55;
+    width: 60px;
+    height: 20px;
+    transform: rotate(45deg);
 }
 
 .order-and-style-base-wanted-poster{
     background-color: #A08D7A;
     width: 95%;
-    height: 97%;
+    height: 98%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 .order-and-style-base-wanted-poster>h3{
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -436,7 +516,7 @@
     font-size: 12px;
     margin: 0;
     font-weight: 550;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #231E20;
  }
 .order-and-style-base-wanted-poster>img{

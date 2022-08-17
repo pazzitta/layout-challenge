@@ -18,21 +18,21 @@ const AllBoardContent = () => {
                 <section></section>
                 <section>
                     <div className='order-note'>
-                        <div className='order-note-scotch-tape'>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div className='hotpink-note-background'>
+                        <div className='hotpink-note-background-one'>
                             <p>“La lógica te llevará de la A a la Z; la imaginación te llevará a todas partes.“ Albert Einstein</p>
+                        </div>
+                        <div className='order-note-scotch-tape-one'>
+                            <div></div>
+                            <div></div>
                         </div>
                     </div>
                     <div className='order-note'>
-                        <div className='order-note-scotch-tape'>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div className='hotpink-note-background'>
+                        <div className='hotpink-note-background-two'>
                             <p>No sé aún...</p>
+                        </div>
+                        <div className='order-note-scotch-tape-two'>
+                            <div></div>
+                            <div></div>
                         </div>
                     </div>
                 </section>
