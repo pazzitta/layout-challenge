@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 *,
 *::after,
@@ -155,27 +157,113 @@
 
 /* ALLBOARDCONTENT.JSX */
 .order-all-board-content{
-    border: solid seagreen;
+    /* border: solid seagreen; */
     width: 80%;
     height: 680px;
     position: absolute;
-    top: 180px;
+    top: 175px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .section-one{
     border: solid thin goldenrod;
-    width: 100%;
+    width: 96.4%;
     height: 33%;
 }
 .section-two{
     border: solid thin red;
-    width: 100%;
+    width: 96.4%;
     height: 56%;
+    display: flex;
 }
+.section-two>section:first-child{
+    border: solid thin hotpink;
+    width: 22.5%;
+    height: 100%;
+}
+.section-two>section:nth-child(2){
+    border: solid thin rgb(105, 110, 255);
+    width: 17.2%;
+    height: 100%;
+}
+.section-two>section:nth-child(3){
+    border: solid thin rgb(105, 255, 138);
+    width: 20.4%;
+    height: 100%;
+}
+.section-two>section:nth-child(4){
+    border: solid thin rgb(255, 165, 105);
+    width: 14.5%;
+    height: 100%;
+}
+.section-two>section:last-child{
+    border: solid thin rgb(119, 183, 24);
+    width: 25.4%;
+    height: 100%;
+}
+/* **BlackboardCalendar.jsx */
+.blackboard-calendar-order{
+    /* border:solid #0DDD79; */
+    width: 306px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22px;
+    margin-left: 10px;
+    /* position: absolute; */
+}
+.blackboard-calendar-order>div:first-child{
+    width: 300px;
+    height: 180px;
+    background-image: url('../../assets/myHome/AllBoardContent/colorBackgroundBoard.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    position: absolute;
+}
+.blackboard-calendar-order>div:nth-child(2){
+    width: 285px;
+    height: 170px;
+    background-color: #212121;
+    position: absolute;
+}
+.blackboard-calendar-order>div:last-child{
+    width: 285px;
+    height: 170px;
+    border: solid thin green;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.order-month-and-date{
+    border: solid thin #0DDD79;
+    width: 90%;
+    height: 15%;
+}
+.order-and-styles-row-one>td{
+    border: solid thin white;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.order-and-styles-row-two>td{
+    border: solid thin white;
+    width: 20px;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 10px;
+}
+
+
 .section-three{
-    border: solid thin palevioletred;
+    /* border: solid thin palevioletred; */
     width: 96.4%;
     height: 11%;
 }
