@@ -2,6 +2,10 @@ import './baseIllustrationStyles.css'
 import RowOfPencils from './InternalBoardComponents/rowOfPencils';
 import BlackboardCalendar from './InternalBoardComponents/blackboardCalendar';
 import WantedPoster from './InternalBoardComponents/wantedPoster';
+import FamilyPictureOne from '../../assets/myHome/AllBoardContent/familyPictureOne.jpg'
+import FamilyPictureTwo from '../../assets/myHome/AllBoardContent/familyPictureTwo.jpg'
+import FamilyPictureThree from '../../assets/myHome/AllBoardContent/familyPictureThree.jpg'
+
 
 const AllBoardContent = () => {
     return (
@@ -13,7 +17,21 @@ const AllBoardContent = () => {
                     <div></div>
                 </section>
                 <section>
-                    
+                    <div className='order-portrait-door-left-aligned'>
+                        <div>
+                            <img src={FamilyPictureOne} alt="foto familia de 4" />
+                        </div>
+                    </div>
+                    <div className='order-portrait-door-right-aligned'>
+                        <div>
+                            <img src={FamilyPictureTwo} alt="Con Anto" />
+                        </div>
+                    </div>
+                    <div className='order-portrait-door-left-aligned'>
+                        <div>
+                            <img src={FamilyPictureThree} alt="Con Magui" />
+                        </div>
+                    </div>
                 </section>
                 <section></section>
                 <section>
