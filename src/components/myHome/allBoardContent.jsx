@@ -1,6 +1,7 @@
 import './baseIllustrationStyles.css'
 import RowOfPencils from './InternalBoardComponents/rowOfPencils';
 import BlackboardCalendar from './InternalBoardComponents/blackboardCalendar';
+import WantedPoster from './InternalBoardComponents/wantedPoster';
 
 const AllBoardContent = () => {
     return (
@@ -16,7 +17,9 @@ const AllBoardContent = () => {
                 </section>
                 <section></section>
                 <section></section>
-                <section></section>
+                <section>
+                    <WantedPoster/>
+                </section>
             </div>
             <div className='section-three'>
                 <RowOfPencils/>

@@ -201,6 +201,10 @@
     border: solid thin rgb(119, 183, 24);
     width: 25.4%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 /* **BlackboardCalendar.jsx */
 .blackboard-calendar-order{
@@ -356,4 +360,74 @@
     height: 45px;
     background-color: #F2DE4E;
 }
+
+/* SECTION FIVE */
+
+/* ** WantedPoster */
+.order-wanted-poster{
+    border:solid thin #0DDD79;
+    width: 98%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    align-self: end;
+}
+.order-scotch-tape{
+    display: flex;
+    justify-content: space-between;
+}
+.order-scotch-tape>div:first-child{
+    background-color: #F62F55;
+}
+.order-scotch-tape>div:last-child{
+    background-color: #F62F55;
+}
+
+.order-and-style-base-wanted-poster{
+    background-color: #A08D7A;
+    width: 95%;
+    height: 97%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.order-and-style-base-wanted-poster>h3{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 60px;
+   margin: 0;
+   margin-top: 5px;
+   color: #231E20;
+}
+.order-and-style-base-wanted-poster>p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    margin: 0;
+    font-weight: 550;
+    margin-bottom: 10px;
+    color: #231E20;
+ }
+.order-and-style-base-wanted-poster>img{
+    width: 65%;
+}
+.order-and-style-base-wanted-poster>article{
+    /* border: solid thin; */
+    width: 72%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.order-and-style-base-wanted-poster>article>p{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+    margin-right: 10px;
+    font-weight: 550;
+}
+.order-and-style-base-wanted-poster>article>a:first-of-type{
+   margin-right: 10px;
+}
+
 
