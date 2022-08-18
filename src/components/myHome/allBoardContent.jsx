@@ -6,6 +6,7 @@ import FamilyPictureOne from '../../assets/myHome/AllBoardContent/familyPictureO
 import FamilyPictureTwo from '../../assets/myHome/AllBoardContent/familyPictureTwo.jpg'
 import FamilyPictureThree from '../../assets/myHome/AllBoardContent/familyPictureThree.jpg'
 import MetalBasket from './InternalBoardComponents/metalBasket';
+import LayoutFolder from './InternalBoardComponents/layoutFolder';
 
 const AllBoardContent = () => {
     return (
@@ -41,7 +42,9 @@ const AllBoardContent = () => {
                         </div>
                     </div>
                 </section>
-                <section></section>
+                <section>
+                    <LayoutFolder/>
+                </section>
                 <section>
                     <div className='order-note'>
                         <div className='hotpink-note-background-one'>

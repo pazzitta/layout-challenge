@@ -203,6 +203,9 @@
     border: solid thin rgb(105, 255, 138);
     width: 20.4%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .section-two>section:nth-child(4){
     border: solid thin rgb(255, 165, 105);

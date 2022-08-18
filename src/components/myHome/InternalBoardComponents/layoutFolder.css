@@ -1,0 +1,69 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+.box-layout-folder{
+    border: solid thin;
+    width: 200px;
+    height: 135px;
+}
+.back-folde-order{
+    position: absolute;
+}
+.flap-folder-order-and-style{
+    width: 90px;
+    height: 0px;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 30px solid #F6B14C;
+    margin-left: 8px;
+    /* ver cómo redondearle el borde interno */
+}
+.base-folder-style{
+    background-color: #F6B14C;
+    width: 195px;
+    height: 100px;
+    border-radius: 10px;
+}
+.front-folde-order{
+    position: absolute;
+}
+.flap-front-folder-order-and-style{
+    width: 90px;
+    height: 0px;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 30px solid #D68D23;
+    margin-left: 10px;
+    padding-top: 3px;
+    /* ver cómo redondearle el borde interno */
+}
+.flap-front-folder-order-and-style>div{
+    background-color: white;
+    width: 60px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    border-radius: 2px;
+}
+.flap-front-folder-order-and-style>div>div{
+    background-color: #814EF2;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+}
+.flap-front-folder-order-and-style>div>h4{
+    font-size: 8px;
+}
+
+.base-front-folder-style{
+    background-color: #D68D23;
+    width: 195px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 3px;
+}
