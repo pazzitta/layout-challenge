@@ -23,7 +23,6 @@ const MyHome = () => {
             <CreateName/>
             <OrganizerBaseBoard/>
             <AllBoardContent/>
-
         </div>
         // <div className='order-my-home'>
         //     <header>
