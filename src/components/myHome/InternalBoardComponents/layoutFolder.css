@@ -7,6 +7,10 @@
     border: solid thin;
     width: 200px;
     height: 135px;
+    display: flex;
+}
+.box-back-folder{
+    position: absolute;
 }
 .back-folde-order{
     position: absolute;
@@ -59,11 +63,48 @@
 .flap-front-folder-order-and-style>div>h4{
     font-size: 8px;
 }
-
 .base-front-folder-style{
     background-color: #D68D23;
     width: 195px;
     height: 100px;
     border-radius: 10px;
     margin-left: 3px;
+}
+.box-fron-folder{
+    /* border: solid thin rebeccapurple; */
+    width: 200px;
+    height: 98px;
+    align-self:flex-end ;
+    position: relative;
+}
+.front-front-cover-folde-order{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.flap-front-front-folder-order-and-style{
+    /* border: solid thin fuchsia; */
+    background-color: #F6B14C;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100px;
+    height: 28px;
+    align-self: flex-end;
+    margin-top: 2px;
+}
+.base-front-front-folder-style{
+    background-color: #F6B14C;
+    /* border:solid thin #814EF2; */
+    width: 195px;
+    height: 65px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 5px;
+    align-self: flex-end;
+}
+.box-paper-markets{
+    border: solid thin green;
+    width: 50px;
+    height: 40px;
+    position: relative;
 }
