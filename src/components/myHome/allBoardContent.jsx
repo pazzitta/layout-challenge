@@ -12,7 +12,9 @@ const AllBoardContent = () => {
     return (
         <div className="order-all-board-content">
             <div className='section-one'>
-                <MetalBasket/>
+                <a href="/landingPages">
+                    <MetalBasket/>
+                </a>
                 <MetalBasket/>
                 <MetalBasket/>
                 <MetalBasket/>

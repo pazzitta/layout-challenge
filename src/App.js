@@ -1,7 +1,7 @@
 import './App.css';
 import {Route, BrowserRouter, Routes} from 'react-router-dom'
 import MyHome from './pages/MyHome/myHome';
-import LandingPages from './pages/landinPages';
+import LandingPages from './pages/LandingPages/landingPages';
 import Homes from './pages/homes';
 import Details from './pages/details';
 import Forms from './pages/forms';
