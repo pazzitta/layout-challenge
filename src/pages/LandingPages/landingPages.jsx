@@ -1,13 +1,13 @@
 import './landingPages.css'
 import OrganizerBaseBoard from "../../components/myHome/organizerBaseBoard";
-import LandingPageName from '../../components/landingsPages/MainPageBase/landingPagesName';
-import LPBoardContent from '../../components/landingsPages/MainPageBase/LPBoardContent';
+import LandingPageName from '../../components/landingsPages/MainPagesBase/landingPagesName';
+import AllBoardContent from '../../components/landingsPages/MainPagesBase/LPBoardContent';
 const LandingPages = () => {
     return(
         <div className="base-illustration-component-order-landin-pages">
             <LandingPageName/>
             <OrganizerBaseBoard/>
-            <LPBoardContent/>
+            <AllBoardContent/>
         </div>
     )
 }

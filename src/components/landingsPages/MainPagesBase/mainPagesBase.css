@@ -110,7 +110,7 @@
     margin-top: 170px;
 }
 .original-pages-order-and-styles{
-    border: solid thin hotpink;
+    /* border: solid thin hotpink; */
     width: 100%;
     height: 680px;
     display: flex;
@@ -131,7 +131,8 @@
 .wooden-sign-background>h2{
     color: white;
     margin: 0;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Abel', sans-serif;
 }
 .order-wooden-signs{
     display: flex;
@@ -140,13 +141,14 @@
 }
 
 .original-page-images-order{
+    /* border: solid; */
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
 .original-page-images-order>img{
-    width: 303px;
-    height: 194px;
+    width: 300px;
+    height: 172px;
 }
 
 .my-replicas-order-and-styles{
@@ -158,11 +160,69 @@
     width: 100%;
 }
 .wooden-sign-background{
+    margin-top: 10px;
     background-image: url('../../../assets/LandingPages/woodenSignBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 300px;
     height: 70px;
 }
 
 .order-wooden-signs{
     display: flex;
+}
+.order-wooden-signs>div{
+    /* border: solid thin salmon ; */
+    background-image: url('../../../assets/LandingPages/SmallWoodenSignBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 216px;
+    height: 42px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.order-wooden-signs>div>div{
+    background-color: #444444;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.order-wooden-signs>div>h3{
+    /* border: solid thin white; */
+    width: 160px;
+    font-size: 22px;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+
+.order-box-scotch-tape-main-Pages-Base{
+    /* border:solid thin #444444; */
+    width: 100%;
+    height: 20px;
+    position: relative;
+    bottom: 175px;
+    display: flex;
+    justify-content: space-around;
+}
+.order-box-scotch-tape-main-Pages-Base>div{
+    /* border:solid thin #444444; */
+    width: 320px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.order-box-scotch-tape-main-Pages-Base>div>div{
+   background-color: #F62F55;
+    width: 40px;
+    height: 15px;
+}
+.order-box-scotch-tape-main-Pages-Base>div>div:first-child{
+    transform: rotate(-40deg);
+}
+.order-box-scotch-tape-main-Pages-Base>div>div:last-child{
+    transform: rotate(40deg);
 }

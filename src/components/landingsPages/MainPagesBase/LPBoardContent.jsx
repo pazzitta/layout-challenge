@@ -1,11 +1,11 @@
 import './mainPagesBase.css'
 import RowOfPencils from '../../myHome/InternalBoardComponents/rowOfPencils';
-import BackgroundVideoLP from '../../../assets/LandingPages/backgroundVideo.jpg'
+import BackgroundVideoLP from '../../../assets/LandingPages/BackgroundVideoGif.gif'
 import MinimalismLP from '../../../assets/LandingPages/Minimalism.jpg'
 import OrganicShapesLP from '../../../assets/LandingPages/OrganicShapes.jpg'
-import AdvertisingLP from '../../../assets/LandingPages/Advertising.jpg'
+import PromotionalLP from '../../../assets/LandingPages/Promotional.jpg'
 
-const LPBoardContent = () => {
+const AllBoardContent = () => {
     return(
         <div className='order-all-board-content-LP'>
             <div className='original-pages-order-and-styles'>
@@ -40,7 +40,26 @@ const LPBoardContent = () => {
                     <img src={BackgroundVideoLP} alt="" />
                     <img src={MinimalismLP} alt="" />
                     <img src={OrganicShapesLP} alt="" />
-                    <img src={AdvertisingLP} alt="" />
+                    <img src={PromotionalLP} alt="" />
+                </div>
+                <div className='order-box-scotch-tape-main-Pages-Base'>
+                    <div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <div></div>
+                        <div></div>
+                    </div>
+
                 </div>
             </div>
             <div className='my-replicas-order-and-styles'></div>
@@ -50,4 +69,4 @@ const LPBoardContent = () => {
         </div>
     )
 }
-export default LPBoardContent;
+export default AllBoardContent;
