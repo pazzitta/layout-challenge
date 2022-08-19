@@ -2,10 +2,10 @@ import './App.css';
 import {Route, BrowserRouter, Routes} from 'react-router-dom'
 import MyHome from './pages/MyHome/myHome';
 import LandingPages from './pages/LandingPages/landingPages';
-import Homes from './pages/homes';
-import Details from './pages/details';
-import Forms from './pages/forms';
-import Cards from './pages/cards';
+import Homes from './pages/Homes/homes';
+import Details from './pages/Detail/details';
+import Forms from './pages/Forms/forms';
+import Cards from './pages/Cards/cards';
 // import BackgroundVideo from './components/landingsPages/layoutsToReplicate/BackgroundVideo';
 // import Minimalism from './components/landingsPages/layoutsToReplicate/Minimalism';
 // import OrganicShapes from './components/landingsPages/layoutsToReplicate/OrganicShapes';

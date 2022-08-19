@@ -15,7 +15,9 @@ const AllBoardContent = () => {
                 <a href="/landingPages">
                     <MetalBasket/>
                 </a>
-                <MetalBasket/>
+                <a href="/homes">
+                    <MetalBasket/>
+                </a>
                 <MetalBasket/>
                 <MetalBasket/>
                 <MetalBasket/>
