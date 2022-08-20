@@ -21,18 +21,20 @@
     flex-direction: column;
 }
 .modal-header{
+    border-bottom: solid 1.5px rgba(35, 30, 32, 0.2);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 95%;
+    width: 96%;
     align-self: center;
-    border: solid;
+    padding-right: 20px;
+    position: relative;
 }
 .modal-header>h1{
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 100px;
     margin-top: 7px;
-    margin-bottom:7px;
+    margin-bottom:10px;
     letter-spacing: 15px;
 }
 .lettering-style-L-P::first-letter{
@@ -43,13 +45,21 @@
 }
 
 .close-button{
-    background-color: #F62F55;
-    width: 35px;
-    height: 35px;
+    background-color: #F44D6D;
+    width: 40px;
+    height: 40px;
     border: none;
     border-radius: 5px;
     font-family: 'Patrick Hand', cursive;
     font-size: 20px;
     color: #F0F0F0;
     font-weight: 600;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.close-button:hover{
+    background-color: #F62F55;
+    font-size: 30px;
 }

@@ -224,32 +224,12 @@
     right: 150px;
     
 }
-.my-replicas-images-order>div>button{
+.my-replicas-images-order>div>img{
     width: 300px;
     height: 172px;
     filter: blur(5px);
     cursor: pointer;
     position: absolute;
-}
-.my-replicas-images-order>div:first-child>button{
-    background-image: url('../../assets/LandingPages/BackgroundVideoGif.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.my-replicas-images-order>div:nth-child(2)>button{
-    background-image: url('../../assets/LandingPages/Minimalism.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.my-replicas-images-order>div:nth-child(3)>button{
-    background-image: url('../../assets/LandingPages/OrganicShapes.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.my-replicas-images-order>div:last-child>button{
-    background-image: url('../../assets/LandingPages/Promotional.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 .my-replicas-images-order>div>h3{
     cursor: pointer;
