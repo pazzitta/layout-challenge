@@ -1,4 +1,4 @@
-import './styleReplicateLandingPage.css'
+import './backgroundVideo.css'
 import Video from '../../../assets/LandingPages/backgroundV.mp4'
 
 const BackgroundVideo = () => {

@@ -23,6 +23,7 @@ import FoodC from '../../assets/Cards/Food.jpg'
 import NewsC from '../../assets/Cards/News.jpg'
 import ProfileC from '../../assets/Cards/Profile.jpg'
 import Modal from '../Modal/modal';
+import ModalBaseInternalPage from '../Modal/modalBaseInternalPage';
 
 
 const AllBoardContent = () => {
@@ -209,13 +210,13 @@ const AllBoardContent = () => {
         setState = {SetstateModal1}
         >
             {
-                location.pathname === "/landingPages" ?   <h3>holas soy background video</h3>:
+                location.pathname === "/landingPages" ?   <ModalBaseInternalPage/>:
                 location.pathname === "/homes" ? <h3>holas soy personal page</h3>:
                 location.pathname === "/details" ? <h3>Holas soy Clothes D</h3>:
                 location.pathname === "/forms" ? <h3>Hola soy Login</h3>:
                 <h3>Holas soy Clothes C</h3>
             }
-            
+        
         </Modal>
         <Modal
         state= {stateModal2}

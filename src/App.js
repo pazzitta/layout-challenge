@@ -6,7 +6,7 @@ import Homes from './pages/Homes/homes';
 import Details from './pages/Detail/details';
 import Forms from './pages/Forms/forms';
 import Cards from './pages/Cards/cards';
-// import BackgroundVideo from './components/landingsPages/layoutsToReplicate/BackgroundVideo';
+import BackgroundVideo from './components/landingsPages/BackgroundVideo/layoutBackgroundVideo';
 // import Minimalism from './components/landingsPages/layoutsToReplicate/Minimalism';
 // import OrganicShapes from './components/landingsPages/layoutsToReplicate/OrganicShapes';
 // import Promotional from './components/landingsPages/layoutsToReplicate/Promotional';
@@ -24,7 +24,7 @@ import Cards from './pages/Cards/cards';
 // import ProductOneDetail from './components/details/ProductOne/ProductOne';
 // import ProductTwoDetail from './components/details/ProductTwo/ProductTwo';
 // import ProfileDetail from './components/details/Profile/Profile';
-import NewsDetail from './components/details/News/News';
+// import NewsDetail from './components/details/News/News';
 
 // CAMBIAR TODOS LO GREY POR GRAY
 
@@ -39,7 +39,7 @@ function App() {
         <Route path='/details' element={<Details/>}/>
         <Route path='/forms' element={<Forms/>}/>
         <Route path='/cards' element= {<Cards/>}/>
-        <Route path='/pruebas' element= {<NewsDetail/>}/>
+        <Route path='/pruebas' element= {<BackgroundVideo/>}/>
       </Routes>
       </BrowserRouter>
   

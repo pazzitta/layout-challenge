@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+.order-all-componentes-board-modal{
+    /* border: solid thin blue; */
+    width: 85%;
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.board-base-style-modal{
+    background-color: #505F71;
+    width: 95%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.circle-line-order-modal{
+    /* border:solid thin slateblue; */
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+.circle-line-order-modal>div{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
