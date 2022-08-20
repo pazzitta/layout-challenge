@@ -595,5 +595,8 @@
 .order-and-style-base-wanted-poster>article>a:first-of-type{
    margin-right: 10px;
 }
+.order-and-style-base-wanted-poster>article>a>img{
+    width: 32px;
+}
 
 

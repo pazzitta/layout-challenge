@@ -1,12 +1,12 @@
 import './details.css'
-import CreateName from '../../components/myHome/create';
+import DetailName from '../../components/MainPagesBase/detailName';
 import OrganizerBaseBoard from '../../components/myHome/organizerBaseBoard';
-import AllBoardContent from '../../components/landingsPages/MainPagesBase/BoardContent';
+import AllBoardContent from '../../components/MainPagesBase/BoardContent';
 
 const Details = () => {
     return(
         <div className='base-illustration-component-order-details'>
-            <CreateName/>
+            <DetailName/>
             <OrganizerBaseBoard/>
             <AllBoardContent/>
         </div>

@@ -18,9 +18,15 @@ const AllBoardContent = () => {
                 <a href="/homes">
                     <MetalBasket/>
                 </a>
-                <MetalBasket/>
-                <MetalBasket/>
-                <MetalBasket/>
+                <a href="/details">
+                    <MetalBasket/>
+                </a>
+                <a href="/forms">
+                    <MetalBasket/>
+                </a>
+                <a href="/cards">
+                    <MetalBasket/>
+                </a>
             </div>
             <div className='section-two'>
                 <section>

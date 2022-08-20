@@ -27,7 +27,7 @@
 .landing-pages-main-name-order>div:last-child h2{
     margin: 0;
     margin-left: 20px;
-    background-image: url('../../../assets/myHome/Create/colorBackgroundLetters.jpg');
+    background-image: url('../../assets/myHome/Create/colorBackgroundLetters.jpg');
     background-size: cover;
     background-repeat:no-repeat;
     background-position:center;
@@ -37,7 +37,7 @@
 .landing-pages-main-name-order>div:last-child h2:nth-child(8){
     margin: 0;
     margin-left: 60px;
-    background-image: url('../../../assets/myHome/Create/colorBackgroundLetters.jpg');
+    background-image: url('../../assets/myHome/Create/colorBackgroundLetters.jpg');
     background-size: cover;
     background-repeat:no-repeat;
     background-position:center;
@@ -122,7 +122,7 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 10px;
-    background-image: url('../../../assets/LandingPages/woodenSignBackground.jpg');
+    background-image: url('../../assets/LandingPages/woodenSignBackground.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 300px;
@@ -173,7 +173,7 @@
 }
 .order-wooden-signs>div{
     /* border: solid thin salmon ; */
-    background-image: url('../../../assets/LandingPages/SmallWoodenSignBackground.jpg');
+    background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 216px;
@@ -228,7 +228,7 @@
 }
 
 .wooden-sign-background-MR{
-    background-image: url('../../../assets/LandingPages/woodenSignBackground.jpg');
+    background-image: url('../../assets/LandingPages/woodenSignBackground.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 300px;
@@ -266,22 +266,22 @@
     position: absolute;
 }
 .my-replicas-images-order>div:first-child>button{
-    background-image: url('../../../assets/LandingPages/BackgroundVideoGif.gif');
+    background-image: url('../../assets/LandingPages/BackgroundVideoGif.gif');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .my-replicas-images-order>div:nth-child(2)>button{
-    background-image: url('../../../assets/LandingPages/Minimalism.jpg');
+    background-image: url('../../assets/LandingPages/Minimalism.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .my-replicas-images-order>div:nth-child(3)>button{
-    background-image: url('../../../assets/LandingPages/OrganicShapes.jpg');
+    background-image: url('../../assets/LandingPages/OrganicShapes.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .my-replicas-images-order>div:last-child>button{
-    background-image: url('../../../assets/LandingPages/Promotional.jpg');
+    background-image: url('../../assets/LandingPages/Promotional.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -318,7 +318,7 @@
 .homes-main-name-order>div:last-child h2{
     margin: 0;
     margin-left: 50px;
-    background-image: url('../../../assets/myHome/Create/colorBackgroundLetters.jpg');
+    background-image: url('../../assets/myHome/Create/colorBackgroundLetters.jpg');
     background-size: cover;
     background-repeat:no-repeat;
     background-position:center;
@@ -355,9 +355,193 @@
     color: rgb(249, 222, 78);
     text-shadow: 2px 1px 2px rgba(249, 222, 78, 0.5);
 }
-/* .homes-main-name-order>div:first-child>h2:last-child{
+
+/* DETAILNAME */
+.details-main-name-order{
+    /* border: solid thin red; */
+    width: 40%;
+    height: 130px;
+    display: flex;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 70px ;
+}
+.details-main-name-order>div:first-child{
+    position: relative;
+    display: flex;
+    right: 37px;
+    top: 2px;
+}
+.details-main-name-order>div:last-child{
+    position: relative;
+    right: 826px;
+    display: flex;
+}
+.details-main-name-order>div:last-child h2{
+    margin: 0;
+    margin-left: 50px;
+    background-image: url('../../assets/myHome/Create/colorBackgroundLetters.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-clip: text;
+    color: transparent;
+}
+
+.details-main-name-order>div:first-child>h2:first-child,
+.details-main-name-order>div:first-child>h2:last-child{
+    margin: 0;
+    margin-left: 50px;
+    color: rgba(113, 54, 244);
+    text-shadow: 2px 1px 2px rgba(113, 54, 244, 0.5);
+}
+.details-main-name-order>div:first-child>h2:nth-child(2){
+    margin: 0;
+    margin-left: 50px;
+    color: rgb(246, 47, 85);
+    text-shadow: 2px 1px 2px rgba(246, 47, 85, 0.5);
+}
+.details-main-name-order>div:first-child>h2:nth-child(3){
+    margin: 0;
+    margin-left: 50px;
+    color: rgb(80, 88, 239);
+    text-shadow: 2px 1px 2px rgba(80, 88, 239, 0.5);
+}
+.details-main-name-order>div:first-child>h2:nth-child(4){
+    margin: 0;
+    margin-left: 50px;
+    color: rgb(13, 221, 121);
+    text-shadow: 2px 1px 2px rgba(13, 221, 121, 0.5);
+}
+.details-main-name-order>div:first-child>h2:nth-child(5){
+    margin: 0;
+    margin-left: 50px;
+    color: rgb(249, 222, 78);
+    text-shadow: 2px 1px 2px rgba(249, 222, 78, 0.5);
+}
+.details-main-name-order>div:first-child>h2:nth-child(6){
     margin: 0;
     margin-left: 50px;
     color: rgb(242, 108, 78);
     text-shadow: 2px 1px 2px rgba(242, 108, 78, 0.5);
-} */
+}
+
+/* FORMSNAME */
+.forms-main-name-order{
+    /* border: solid thin red; */
+    width: 34%;
+    height: 130px;
+    display: flex;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 70px ;
+}
+.forms-main-name-order>div:first-child{
+    position: relative;
+    display: flex;
+    left: 7px;
+    top: 2px;
+}
+.forms-main-name-order>div:last-child{
+    position: relative;
+    right: 590px;
+    display: flex;
+}
+.forms-main-name-order>div:last-child h2{
+    margin: 0;
+    margin-left: 50px;
+    background-image: url('../../assets/myHome/Create/colorBackgroundLetters.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-clip: text;
+    color: transparent;
+}
+.forms-main-name-order>div:first-child>h2:first-child{
+    margin: 0;
+    margin-left: 50px;
+    color: rgba(113, 54, 244);
+    text-shadow: 2px 1px 2px rgba(113, 54, 244, 0.5);
+}
+.forms-main-name-order>div:first-child>h2:nth-child(2){
+    margin: 0;
+    margin-left: 50px;
+    color: rgb(246, 47, 85);
+    text-shadow: 2px 1px 2px rgba(246, 47, 85, 0.5);
+}
+.forms-main-name-order>div:first-child>h2:nth-child(3){
+    margin: 0;
+    margin-left: 50px;
+    color: rgb(80, 88, 239);
+    text-shadow: 2px 1px 2px rgba(80, 88, 239, 0.5);
+}
+.forms-main-name-order>div:first-child>h2:nth-child(4){
+    margin: 0;
+    margin-left: 50px;
+    color: rgb(13, 221, 121);
+    text-shadow: 2px 1px 2px rgba(13, 221, 121, 0.5);
+}
+.forms-main-name-order>div:first-child>h2:last-child{
+    margin: 0;
+    margin-left: 50px;
+    color: rgb(249, 222, 78);
+    text-shadow: 2px 1px 2px rgba(249, 222, 78, 0.5);
+}
+/* CARDSNAME */
+.cards-main-name-order{
+    /* border: solid thin red; */
+    width: 34%;
+    height: 130px;
+    display: flex;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 70px ;
+}
+.cards-main-name-order>div:first-child{
+    position: relative;
+    display: flex;
+    left: 7px;
+    top: 2px;
+}
+.cards-main-name-order>div:last-child{
+    position: relative;
+    right: 593px;
+    display: flex;
+}
+.cards-main-name-order>div:last-child h2{
+    margin: 0;
+    margin-left: 50px;
+    background-image: url('../../assets/myHome/Create/colorBackgroundLetters.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-clip: text;
+    color: transparent;
+}
+.cards-main-name-order>div:first-child>h2:first-child{
+    margin: 0;
+    margin-left: 50px;
+    color: rgba(113, 54, 244);
+    text-shadow: 2px 1px 2px rgba(113, 54, 244, 0.5);
+}
+.cards-main-name-order>div:first-child>h2:nth-child(2){
+    margin: 0;
+    margin-left: 50px;
+    color: rgb(246, 47, 85);
+    text-shadow: 2px 1px 2px rgba(246, 47, 85, 0.5);
+}
+.cards-main-name-order>div:first-child>h2:nth-child(3){
+    margin: 0;
+    margin-left: 50px;
+    color: rgb(80, 88, 239);
+    text-shadow: 2px 1px 2px rgba(80, 88, 239, 0.5);
+}
+.cards-main-name-order>div:first-child>h2:nth-child(4){
+    margin: 0;
+    margin-left: 50px;
+    color: rgb(13, 221, 121);
+    text-shadow: 2px 1px 2px rgba(13, 221, 121, 0.5);
+}
+.cards-main-name-order>div:first-child>h2:last-child{
+    margin: 0;
+    margin-left: 50px;
+    color: rgb(249, 222, 78);
+    text-shadow: 2px 1px 2px rgba(249, 222, 78, 0.5);
+}
