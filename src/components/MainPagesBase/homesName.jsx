@@ -1,4 +1,4 @@
-import './mainPagesBase.css'
+import './allNamesStyles.css'
 const HomesName = () => {
     return(
         <div className='homes-main-name-order'>

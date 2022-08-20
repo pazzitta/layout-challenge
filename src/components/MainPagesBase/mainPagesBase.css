@@ -4,100 +4,6 @@
     box-sizing: border-box;
 }
 
-/* LANDINGPAGESNAME */
-.landing-pages-main-name-order{
-    /* border: solid thin red; */
-    width: 58%;
-    height: 130px;
-    display: flex;
-    font-family: 'Allerta Stencil', sans-serif;
-    font-size: 70px ;
-}
-.landing-pages-main-name-order>div:first-child{
-    position: relative;
-    display: flex;
-    left: 0px;
-    top: 2px;
-}
-.landing-pages-main-name-order>div:last-child{
-    position: relative;
-    right: 1083px;
-    display: flex;
-}
-.landing-pages-main-name-order>div:last-child h2{
-    margin: 0;
-    margin-left: 20px;
-    background-image: url('../../assets/myHome/Create/colorBackgroundLetters.jpg');
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position:center;
-    background-clip: text;
-    color: transparent;
-}
-.landing-pages-main-name-order>div:last-child h2:nth-child(8){
-    margin: 0;
-    margin-left: 60px;
-    background-image: url('../../assets/myHome/Create/colorBackgroundLetters.jpg');
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position:center;
-    background-clip: text;
-    color: transparent;
-}
-.landing-pages-main-name-order>div:first-child>h2:first-child,
-.landing-pages-main-name-order>div:first-child>h2:nth-child(7){
-    margin: 0;
-    margin-left: 20px;
-    color: rgba(113, 54, 244);
-    text-shadow: 2px 1px 2px rgba(113, 54, 244, 0.5);
-}
-.landing-pages-main-name-order>div:first-child>h2:nth-child(2){
-    margin: 0;
-    margin-left: 20px;
-    color: rgb(246, 47, 85);
-    text-shadow: 2px 1px 2px rgba(246, 47, 85, 0.5);
-}
-.landing-pages-main-name-order>div:first-child>h2:nth-child(3),
-.landing-pages-main-name-order>div:first-child>h2:nth-child(9){
-    margin: 0;
-    margin-left: 20px;
-    color: rgb(80, 88, 239);
-    text-shadow: 2px 1px 2px rgba(80, 88, 239, 0.5);
-}
-.landing-pages-main-name-order>div:first-child>h2:nth-child(4),
-.landing-pages-main-name-order>div:first-child>h2:nth-child(10){
-    margin: 0;
-    margin-left: 20px;
-    color: rgb(13, 221, 121);
-    text-shadow: 2px 1px 2px rgba(13, 221, 121, 0.5);
-}
-.landing-pages-main-name-order>div:first-child>h2:nth-child(5),
-.landing-pages-main-name-order>div:first-child>h2:nth-child(11){
-    margin: 0;
-    margin-left: 20px;
-    color: rgb(249, 222, 78);
-    text-shadow: 2px 1px 2px rgba(249, 222, 78, 0.5);
-}
-.landing-pages-main-name-order>div:first-child>h2:nth-child(6),
-.landing-pages-main-name-order>div:first-child>h2:last-child{
-    margin: 0;
-    margin-left: 20px;
-    color: rgb(242, 108, 78);
-    text-shadow: 2px 1px 2px rgba(242, 108, 78, 0.5);
-}
-.landing-pages-main-name-order>div:first-child>h2:nth-child(7){
-    margin: 0;
-    margin-left: 20px;
-    color: rgba(113, 54, 244);
-    text-shadow: 2px 1px 2px rgba(113, 54, 244, 0.5);
-}
-.landing-pages-main-name-order>div:first-child>h2:nth-child(8){
-    margin: 0;
-    margin-left: 60px;
-    color: rgb(246, 47, 85);
-    text-shadow: 2px 1px 2px rgba(246, 47, 85, 0.5);
-}
-
 /* LPBOARDCONTENT */
 .order-all-board-content-LP{
     /* border: solid thin blue;  */
@@ -116,6 +22,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.wooden-sing-and-poster-order{
+    /* border: solid; */
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-self: flex-end;
 }
 .wooden-sign-background{
     display: flex;
@@ -144,6 +57,59 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
+}
+.poster-come-back-base-and-order{
+    /* border: solid thin red; */
+    width: 220px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    top: 15px;
+    right: 30px;
+    transform: rotate(5deg);
+}
+.poster-come-back-base{
+    background-color: #F62F55;
+    width: 200px;
+    height: 75px;
+    align-self: center;
+    position: absolute;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: white;
+    font-family: 'Allerta Stencil', sans-serif; */
+}
+.poster-come-back-base>h2{
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 33px;
+    margin: 0;
+}
+
+.poster-come-back-base-and-order>div:last-child{
+    /* border: solid; */
+    width: 220px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 60px;
+    align-self: center;
+}
+.poster-come-back-base-and-order>div>div{
+   background-color: #231E20;
+    width: 30px;
+    height: 10px;
+}
+.poster-come-back-base-and-order>div>div:first-child{
+    transform: rotate(-35deg);
+}
+.poster-come-back-base-and-order>div>div:last-child{
+    transform: rotate(35deg);
 }
 
 .original-page-images-order{
@@ -179,7 +145,7 @@
     width: 216px;
     height: 42px;
     margin-top: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -294,254 +260,4 @@
     font-size: 40px;
     padding-left: 55px;
     padding-top: 20px;
-}
-/* HOMESNAME */
-.homes-main-name-order{
-    /* border: solid thin red; */
-    width: 34%;
-    height: 130px;
-    display: flex;
-    font-family: 'Allerta Stencil', sans-serif;
-    font-size: 70px ;
-}
-.homes-main-name-order>div:first-child{
-    position: relative;
-    display: flex;
-    left: 0px;
-    top: 2px;
-}
-.homes-main-name-order>div:last-child{
-    position: relative;
-    right: 611px;
-    display: flex;
-}
-.homes-main-name-order>div:last-child h2{
-    margin: 0;
-    margin-left: 50px;
-    background-image: url('../../assets/myHome/Create/colorBackgroundLetters.jpg');
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position:center;
-    background-clip: text;
-    color: transparent;
-}
-.homes-main-name-order>div:first-child>h2:first-child{
-    margin: 0;
-    margin-left: 50px;
-    color: rgba(113, 54, 244);
-    text-shadow: 2px 1px 2px rgba(113, 54, 244, 0.5);
-}
-.homes-main-name-order>div:first-child>h2:nth-child(2){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(246, 47, 85);
-    text-shadow: 2px 1px 2px rgba(246, 47, 85, 0.5);
-}
-.homes-main-name-order>div:first-child>h2:nth-child(3){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(80, 88, 239);
-    text-shadow: 2px 1px 2px rgba(80, 88, 239, 0.5);
-}
-.homes-main-name-order>div:first-child>h2:nth-child(4){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(13, 221, 121);
-    text-shadow: 2px 1px 2px rgba(13, 221, 121, 0.5);
-}
-.homes-main-name-order>div:first-child>h2:last-child{
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(249, 222, 78);
-    text-shadow: 2px 1px 2px rgba(249, 222, 78, 0.5);
-}
-
-/* DETAILNAME */
-.details-main-name-order{
-    /* border: solid thin red; */
-    width: 40%;
-    height: 130px;
-    display: flex;
-    font-family: 'Allerta Stencil', sans-serif;
-    font-size: 70px ;
-}
-.details-main-name-order>div:first-child{
-    position: relative;
-    display: flex;
-    right: 37px;
-    top: 2px;
-}
-.details-main-name-order>div:last-child{
-    position: relative;
-    right: 826px;
-    display: flex;
-}
-.details-main-name-order>div:last-child h2{
-    margin: 0;
-    margin-left: 50px;
-    background-image: url('../../assets/myHome/Create/colorBackgroundLetters.jpg');
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position:center;
-    background-clip: text;
-    color: transparent;
-}
-
-.details-main-name-order>div:first-child>h2:first-child,
-.details-main-name-order>div:first-child>h2:last-child{
-    margin: 0;
-    margin-left: 50px;
-    color: rgba(113, 54, 244);
-    text-shadow: 2px 1px 2px rgba(113, 54, 244, 0.5);
-}
-.details-main-name-order>div:first-child>h2:nth-child(2){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(246, 47, 85);
-    text-shadow: 2px 1px 2px rgba(246, 47, 85, 0.5);
-}
-.details-main-name-order>div:first-child>h2:nth-child(3){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(80, 88, 239);
-    text-shadow: 2px 1px 2px rgba(80, 88, 239, 0.5);
-}
-.details-main-name-order>div:first-child>h2:nth-child(4){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(13, 221, 121);
-    text-shadow: 2px 1px 2px rgba(13, 221, 121, 0.5);
-}
-.details-main-name-order>div:first-child>h2:nth-child(5){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(249, 222, 78);
-    text-shadow: 2px 1px 2px rgba(249, 222, 78, 0.5);
-}
-.details-main-name-order>div:first-child>h2:nth-child(6){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(242, 108, 78);
-    text-shadow: 2px 1px 2px rgba(242, 108, 78, 0.5);
-}
-
-/* FORMSNAME */
-.forms-main-name-order{
-    /* border: solid thin red; */
-    width: 34%;
-    height: 130px;
-    display: flex;
-    font-family: 'Allerta Stencil', sans-serif;
-    font-size: 70px ;
-}
-.forms-main-name-order>div:first-child{
-    position: relative;
-    display: flex;
-    left: 7px;
-    top: 2px;
-}
-.forms-main-name-order>div:last-child{
-    position: relative;
-    right: 590px;
-    display: flex;
-}
-.forms-main-name-order>div:last-child h2{
-    margin: 0;
-    margin-left: 50px;
-    background-image: url('../../assets/myHome/Create/colorBackgroundLetters.jpg');
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position:center;
-    background-clip: text;
-    color: transparent;
-}
-.forms-main-name-order>div:first-child>h2:first-child{
-    margin: 0;
-    margin-left: 50px;
-    color: rgba(113, 54, 244);
-    text-shadow: 2px 1px 2px rgba(113, 54, 244, 0.5);
-}
-.forms-main-name-order>div:first-child>h2:nth-child(2){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(246, 47, 85);
-    text-shadow: 2px 1px 2px rgba(246, 47, 85, 0.5);
-}
-.forms-main-name-order>div:first-child>h2:nth-child(3){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(80, 88, 239);
-    text-shadow: 2px 1px 2px rgba(80, 88, 239, 0.5);
-}
-.forms-main-name-order>div:first-child>h2:nth-child(4){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(13, 221, 121);
-    text-shadow: 2px 1px 2px rgba(13, 221, 121, 0.5);
-}
-.forms-main-name-order>div:first-child>h2:last-child{
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(249, 222, 78);
-    text-shadow: 2px 1px 2px rgba(249, 222, 78, 0.5);
-}
-/* CARDSNAME */
-.cards-main-name-order{
-    /* border: solid thin red; */
-    width: 34%;
-    height: 130px;
-    display: flex;
-    font-family: 'Allerta Stencil', sans-serif;
-    font-size: 70px ;
-}
-.cards-main-name-order>div:first-child{
-    position: relative;
-    display: flex;
-    left: 7px;
-    top: 2px;
-}
-.cards-main-name-order>div:last-child{
-    position: relative;
-    right: 593px;
-    display: flex;
-}
-.cards-main-name-order>div:last-child h2{
-    margin: 0;
-    margin-left: 50px;
-    background-image: url('../../assets/myHome/Create/colorBackgroundLetters.jpg');
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position:center;
-    background-clip: text;
-    color: transparent;
-}
-.cards-main-name-order>div:first-child>h2:first-child{
-    margin: 0;
-    margin-left: 50px;
-    color: rgba(113, 54, 244);
-    text-shadow: 2px 1px 2px rgba(113, 54, 244, 0.5);
-}
-.cards-main-name-order>div:first-child>h2:nth-child(2){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(246, 47, 85);
-    text-shadow: 2px 1px 2px rgba(246, 47, 85, 0.5);
-}
-.cards-main-name-order>div:first-child>h2:nth-child(3){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(80, 88, 239);
-    text-shadow: 2px 1px 2px rgba(80, 88, 239, 0.5);
-}
-.cards-main-name-order>div:first-child>h2:nth-child(4){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(13, 221, 121);
-    text-shadow: 2px 1px 2px rgba(13, 221, 121, 0.5);
-}
-.cards-main-name-order>div:first-child>h2:last-child{
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(249, 222, 78);
-    text-shadow: 2px 1px 2px rgba(249, 222, 78, 0.5);
 }

@@ -1,4 +1,4 @@
-import './mainPagesBase.css'
+import './allNamesStyles.css'
 const CardsName = () => {
     return(
         <div className='cards-main-name-order'>

@@ -1,4 +1,4 @@
-import './mainPagesBase.css'
+import './allNamesStyles.css'
 const FormsName = () => {
     return(
         <div className='forms-main-name-order'>

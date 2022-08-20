@@ -1,4 +1,5 @@
-.overLayModal{
+
+.overlay-modal{
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -6,39 +7,49 @@
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
-.contenedorModal {
-    width: 700px;
-    min-height: 550px;
-    background-color: rgba(23, 49, 87);
+.modal-container{
+    /* background-color: white; */
+    background-color: #F0F0F0;
+    width: 90%;
+    height: 90vh;
+    border-radius: 20px;
     position: relative;
-    border-radius: 5px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    /* margin-left: auto;
-    margin-right: auto;
-    margin-top: 200px;
-    margin-bottom: auto;    */
+    display: flex;
+    flex-direction: column;
 }
-.buttonXModal {
-    background-color: rgb(195, 6, 6);
-    width: 30px;
-    height: 30px;
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    align-self: center;
+    border: solid;
+}
+.modal-header>h1{
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 100px;
+    margin-top: 7px;
+    margin-bottom:7px;
+    letter-spacing: 15px;
+}
+.lettering-style-L-P::first-letter{
+    color: #7136F4;
+}
+.lettering-style-L-P::last-letter{
+    color: #7136F4;
+}
+
+.close-button{
+    background-color: #F62F55;
+    width: 35px;
+    height: 35px;
     border: none;
     border-radius: 5px;
-    color: white;
-    font-family: 'Trebuchet MS', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif;
-    font-weight: 700;
-    font-size: 1.3rem;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    transition: .2s ease all;
-}
-.buttonXModal:hover {
-    background-color: #716d6e;
-}
-.orderFormInModal{
-    margin-top: 50px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    color: #F0F0F0;
+    font-weight: 600;
 }

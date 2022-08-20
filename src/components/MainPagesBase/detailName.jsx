@@ -1,4 +1,4 @@
-import './mainPagesBase.css'
+import './allNamesStyles.css'
 const DetailName = () => {
     return(
         <div className='details-main-name-order'>

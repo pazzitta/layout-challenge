@@ -21,18 +21,31 @@ import ClothesC from '../../assets/Cards/Clothes.jpg'
 import FoodC from '../../assets/Cards/Food.jpg'
 import NewsC from '../../assets/Cards/News.jpg'
 import ProfileC from '../../assets/Cards/Profile.jpg'
+import Modal from '../Modal/modal';
 
 
 const AllBoardContent = () => {
     const location = useLocation()
 
     return(
+        <>
         <div className='order-all-board-content-LP'>
             <div className='original-pages-order-and-styles'>
-                <div className='wooden-sign-background'>
-                    <div></div>
-                    <h2>Original pages</h2>
-                    <div></div>
+                <div className='wooden-sing-and-poster-order'>
+                    <div className='wooden-sign-background'>
+                        <div></div>
+                        <h2>Original pages</h2>
+                        <div></div>
+                    </div>
+                    <div className='poster-come-back-base-and-order'>
+                        <a href='/' className='poster-come-back-base'>
+                            <h2>BACK TO TOP</h2>
+                        </a>
+                        <div> 
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
                 </div>
                 <div className='order-wooden-signs'>
                     <div>
@@ -159,6 +172,8 @@ const AllBoardContent = () => {
                 <RowOfPencils/>
             </div>
         </div>
+        <Modal/>
+        </>
     )
 }
 export default AllBoardContent;
