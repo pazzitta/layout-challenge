@@ -1,5 +1,5 @@
-import './modalBaseInternalPage.css'
-import ModalBaseBoard from './modalBaseBoard';
+// import '../MainPagesBase/myLayoutBaseBoard.css'
+// import ModalBaseBoard from './myLayoutBaseBoard';
 import DigitaNewspapers from '../homes/AllHomes/DigitalNewspaper'
 
 const ModalBaseInternalPage = () => {

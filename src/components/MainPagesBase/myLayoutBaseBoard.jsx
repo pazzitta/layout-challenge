@@ -1,6 +1,6 @@
-import './modalBaseInternalPage.css'
+import './myLayoutBaseBoard.css'
 
-const ModalBaseBoard = () => {
+const MyLayoutBaseBoard = () => {
     return(
         <div className="order-all-componentes-board-modal">
         <div className="board-base-style-modal">
@@ -129,4 +129,4 @@ const ModalBaseBoard = () => {
     )
 }
 
-export default ModalBaseBoard;
+export default MyLayoutBaseBoard;

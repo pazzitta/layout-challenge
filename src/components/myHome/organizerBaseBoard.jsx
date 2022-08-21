@@ -1,4 +1,5 @@
 import './baseIllustrationStyles.css'
+
 const OrganizerBaseBoard = () => {
     return(
         <div className="order-all-componentes-board">
