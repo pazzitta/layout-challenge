@@ -3,9 +3,15 @@
 *::before{
     box-sizing: border-box;
 }
+.order-all-mains{
+    border: solid red;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 
 /* LPBOARDCONTENT */
-.order-all-board-content-LP{
+.order-all-board-content-section-one{
     /* border: solid thin blue;  */
     width: 77%;
     height: 73vh;

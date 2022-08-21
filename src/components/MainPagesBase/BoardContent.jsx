@@ -22,23 +22,23 @@ import ClothesC from '../../assets/Cards/Clothes.jpg'
 import FoodC from '../../assets/Cards/Food.jpg'
 import NewsC from '../../assets/Cards/News.jpg'
 import ProfileC from '../../assets/Cards/Profile.jpg'
-import Modal from '../Modal/modal';
+// import Modal from '../Modal/modal';
 import ModalBaseInternalPage from '../Modal/modalBaseInternalPage';
 
 
 const AllBoardContent = () => {
     const location = useLocation()
 
-    const [stateModal1, SetstateModal1] = useState(false)
-    const [stateModal2, SetstateModal2] = useState(false)
-    const [stateModal3, SetstateModal3] = useState(false)
-    const [stateModal4, SetstateModal4] = useState(false)
-
+    // const [stateModal1, SetstateModal1] = useState(false)
+    // const [stateModal2, SetstateModal2] = useState(false)
+    // const [stateModal3, SetstateModal3] = useState(false)
+    // const [stateModal4, SetstateModal4] = useState(false)
+    // onClick={() => SetstateModal1(!stateModal1)}
 
 
     return(
         <>
-        <div className='order-all-board-content-LP'>
+        <section className='order-all-board-content-section-one'>
             <div className='original-pages-order-and-styles'>
                 <div className='wooden-sing-and-poster-order'>
                     <div className='wooden-sign-background'>
@@ -159,7 +159,7 @@ const AllBoardContent = () => {
                     <div></div>
                 </div>
                 <div className='my-replicas-images-order'>
-                    <div onClick={() => SetstateModal1(!stateModal1)}>
+                    <div>
                     {
                         location.pathname === "/landingPages" ?  <img src={BackgroundVideoLP} alt="imagen original Background Video LP"/>:
                         location.pathname === "/homes" ? <img src={PersonalPageH} alt="imagen original personal page H"/>:
@@ -169,7 +169,7 @@ const AllBoardContent = () => {
                     }
                         <h3>Discover me</h3>
                     </div>
-                    <div onClick={() => SetstateModal2(!stateModal2)}>
+                    <div>
                     {
                         location.pathname === "/landingPages" ?  <img src={MinimalismLP} alt="imagen original Minimalism LP" />:
                         location.pathname === "/homes" ? <img src={ECommerceH} alt="imagen E-commerce H"/>:
@@ -179,7 +179,7 @@ const AllBoardContent = () => {
                     }
                         <h3>Discover me</h3>
                     </div>
-                    <div onClick={() => SetstateModal3(!stateModal3)}>
+                    <div>
                     {
                         location.pathname === "/landingPages" ?   <img src={OrganicShapesLP} alt="imagen original OrganicShapes LP" />:
                         location.pathname === "/homes" ? <img src={MarketPlaceH} alt="imagen Marketplace H"/>:
@@ -189,7 +189,7 @@ const AllBoardContent = () => {
                     }
                         <h3>Discover me</h3>
                     </div>
-                    <div onClick={() => SetstateModal4(!stateModal4)}>
+                    <div>
                     {
                         location.pathname === "/landingPages" ? <img src={PromotionalLP} alt="imagen original Promotional LP" />:
                         location.pathname === "/homes" ? <img src={DigitalNewsPaperH} alt="imagen DigitalNewsPaper H"/>:
@@ -204,8 +204,9 @@ const AllBoardContent = () => {
             <div className='pencils-size-LP'>
                 <RowOfPencils/>
             </div>
-        </div>
-        <Modal
+        </section>
+
+        {/* <Modal
         state= {stateModal1}
         setState = {SetstateModal1}
         >
@@ -256,7 +257,7 @@ const AllBoardContent = () => {
                 <h3>Holas soy Profile C</h3>
             }
             
-        </Modal>
+        </Modal> */}
         </>
     )
 }

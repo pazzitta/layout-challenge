@@ -3,8 +3,9 @@
 *::before{
     box-sizing: border-box;
 }
+
 .base-illustration-component-order-landin-pages{
-    /* border: solid; */
+    border: solid;
     width: 100%;
     height: 100vh;
     display: flex;
