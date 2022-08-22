@@ -1,6 +1,7 @@
 import './myLayoutsSection.css'
 // import '../myHome/baseIllustrationStyles.css'
 import MyLayoutBaseBoard from './myLayoutBaseBoard';
+import LayoutSectionContent from './layoutSectionContent';
 
 const MyLayoutsSection = () => {
     return(
@@ -18,6 +19,7 @@ const MyLayoutsSection = () => {
                     <div></div>
                     <div></div>
                 </div>
+                <LayoutSectionContent/>
             </article>
             <article className='order-all-componentes-article-two'>
                 <h2>MINIMALISM</h2>

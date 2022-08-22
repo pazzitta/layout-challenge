@@ -1,0 +1,161 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+.order-all-layout-section-content{
+    border: solid thin rgb(25, 179, 185); 
+    width: 92%;
+    height: 2315px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    position: absolute;
+    margin-top: 130px;
+}
+.original-page-section-order{
+    width: 100%;
+    height: 670px;
+}
+.section-identification-posters-order{
+    /* border: solid thin red; */
+    width: 250px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    top: 15px;
+    /* right: 30px; */
+    transform: rotate(-5deg);
+}
+.section-identification-posters-base{
+    background-color: #F62F55;
+    width: 200px;
+    height: 75px;
+    align-self: center;
+    position: absolute;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: white;
+    font-family: 'Allerta Stencil', sans-serif; */
+}
+.section-identification-posters-base{
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 33px;
+    margin: 0;
+}
+
+.section-identification-posters-order>div:last-child{
+    /* border: solid; */
+    width: 220px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 60px;
+    align-self: center;
+}
+.section-identification-posters-order>div>div{
+   background-color: #231E20;
+    width: 30px;
+    height: 10px;
+}
+.section-identification-posters-order>div>div:first-child{
+    transform: rotate(-35deg);
+}
+.section-identification-posters-order>div>div:last-child{
+    transform: rotate(35deg);
+}
+
+.original-page-section-order>img{
+    align-self: center;
+    width: 65%;
+    margin-top: 20px;
+}
+
+.assets-section-order{
+    /* border: solid; */
+    width: 100%;
+    height: 900px;
+
+}
+.top-box-assets-section-order{
+    border: solid thin hotpink; 
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.top-box-assets-section-order>div:nth-child(2){
+    border: solid;
+    width: 95%;
+    height: 70%;
+    align-self: center;
+    margin-top: 25px;
+}
+.order-all-wooden-signs-LSC{
+   /* border: solid; */
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+}
+.order-wooden-signs-LSC{
+    display: flex;
+}
+.order-wooden-signs-LSC>div{
+    /* border: solid thin salmon ; */
+    background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 216px;
+    height: 42px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.order-wooden-signs-LSC>div>div{
+    background-color: #444444;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.order-wooden-signs-LSC>div>h3{
+    /* border: solid thin white; */
+    width: 160px;
+    font-size: 22px;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+
+.order-papers-assets{
+    border: solid;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 100%;
+    height: 84%;
+}
+.order-papers-assets>div:first-child{
+    background-color: #231E20;
+    width: 30%;
+    height: 90%;
+}
+.order-papers-assets>div:last-child{
+   border: solid thin hotpink;
+   width: 30%;
+   height: 20px;
+
+}
+
+
+.botton-box-assets-section-order{
+    border: solid thin rgb(105, 105, 255); 
+    width: 100%;
+    height: 50%;
+}
