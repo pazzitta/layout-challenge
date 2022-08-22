@@ -1,5 +1,8 @@
 import './backgroundVideo.css'
 import Video from '../../../assets/LandingPages/backgroundV.mp4'
+import PlayVideoIconLP from '../../../assets/LandingPages/BackgrondVideo/playVideoIcon.png'
+import DownArrowIconLP from '../../../assets/LandingPages/BackgrondVideo/downArrowIcon.png'
+
 
 const BackgroundVideo = () => {
     return (
@@ -9,19 +12,23 @@ const BackgroundVideo = () => {
             </video>
             <div className='content-box-landing-pages-BgV'>
                 <div>
-                    <h1>BUILDIN PLACES THAT INSPIRE<font color='red'>.</font></h1>
+                    <h2>BUILDIN PLACES THAT INSPIRE<font color='red'>.</font></h2>
+                    {/* EL DE ARRIBA ES UN H1 PERO COMO ESTOY DENTRO DE OTRA PÁG. PREFIERO NO USARLO PARA QUE NO HAYA MÁS DE UNO */}
                     <h5>WASHINGTON, DC</h5>
-                    <div>SOY LA FLECHISTA...NO SÉ QUE ETIQUETA SOY AÚN</div>
+                    <img src={PlayVideoIconLP} alt="ícono de play" />
+                    <img src={DownArrowIconLP} alt="ícono flecha" />
                 </div>
                 <footer className='footer-box-landing-pages-BgV'>
-                    <h2 className='brand-name-landing-pages-BgV'>DITO<font color='red'>.</font></h2>
-                    <select name="" id="">
-                        <option selected></option>
-                        <option>Home</option>
-                        <option>About</option>
-                        <option>Services</option>
-                        <option>Contact</option>
-                    </select>
+                    <div>
+                        <h2 className='brand-name-landing-pages-BgV'>DITO<font color='red'>.</font></h2>
+                        <select name="" id="">
+                            <option selected></option>
+                            <option>Home</option>
+                            <option>About</option>
+                            <option>Services</option>
+                            <option>Contact</option>
+                        </select>
+                    </div>
                 </footer>
             </div>
         </div>
