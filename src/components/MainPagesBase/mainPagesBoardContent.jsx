@@ -22,19 +22,10 @@ import ClothesC from '../../assets/Cards/Clothes.jpg'
 import FoodC from '../../assets/Cards/Food.jpg'
 import NewsC from '../../assets/Cards/News.jpg'
 import ProfileC from '../../assets/Cards/Profile.jpg'
-// import Modal from '../Modal/modal';
-import ModalBaseInternalPage from '../Modal/modalBaseInternalPage';
 
 
-const AllBoardContent = () => {
+const MainPagesBoardContent = () => {
     const location = useLocation()
-
-    // const [stateModal1, SetstateModal1] = useState(false)
-    // const [stateModal2, SetstateModal2] = useState(false)
-    // const [stateModal3, SetstateModal3] = useState(false)
-    // const [stateModal4, SetstateModal4] = useState(false)
-    // onClick={() => SetstateModal1(!stateModal1)}
-
 
     return(
         <>
@@ -205,60 +196,7 @@ const AllBoardContent = () => {
                 <RowOfPencils/>
             </div>
         </section>
-
-        {/* <Modal
-        state= {stateModal1}
-        setState = {SetstateModal1}
-        >
-            {
-                location.pathname === "/landingPages" ?   <ModalBaseInternalPage/>:
-                location.pathname === "/homes" ? <h3>holas soy personal page</h3>:
-                location.pathname === "/details" ? <h3>Holas soy Clothes D</h3>:
-                location.pathname === "/forms" ? <h3>Hola soy Login</h3>:
-                <h3>Holas soy Clothes C</h3>
-            }
-        
-        </Modal>
-        <Modal
-        state= {stateModal2}
-        setState = {SetstateModal2}
-        >
-            {
-                location.pathname === "/landingPages" ?   <h3>holas Minimalism</h3>:
-                location.pathname === "/homes" ? <h3>holas soy E-commerce</h3>:
-                location.pathname === "/details" ? <h3>Holas soy Furniture</h3>:
-                location.pathname === "/forms" ? <h3>Hola soy Register</h3>:
-                <h3>Holas soy Food C</h3>
-            }
-            
-        </Modal>
-        <Modal
-        state= {stateModal3}
-        setState = {SetstateModal3}
-        >
-            {
-                location.pathname === "/landingPages" ?   <h3>holas soy Organic Shapes</h3>:
-                location.pathname === "/homes" ? <h3>holas soy Marketplace</h3>:
-                location.pathname === "/details" ? <h3>Holas News D</h3>:
-                location.pathname === "/forms" ? <h3>Hola soy CheckOut</h3>:
-                <h3>Holas soy News C</h3>
-            }
-            
-        </Modal>
-        <Modal
-        state= {stateModal4}
-        setState = {SetstateModal4}
-        >
-            {
-                location.pathname === "/landingPages" ?   <h3>holas Promotional</h3>:
-                location.pathname === "/homes" ? <h3>holas soy DigitalNewsPaper</h3>:
-                location.pathname === "/details" ? <h3>Holas soy Profile D</h3>:
-                location.pathname === "/forms" ? <h3>Hola soyContact Us</h3>:
-                <h3>Holas soy Profile C</h3>
-            }
-            
-        </Modal> */}
         </>
     )
 }
-export default AllBoardContent;
+export default MainPagesBoardContent;

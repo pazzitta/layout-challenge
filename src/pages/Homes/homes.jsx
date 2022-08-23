@@ -1,6 +1,6 @@
 import './homes.css'
 import OrganizerBaseBoard from '../../components/myHome/organizerBaseBoard'
-import AllBoardContent from '../../components/MainPagesBase/BoardContent'
+import MainPagesBoardContent from '../../components/MainPagesBase/mainPagesBoardContent'
 import HomesName from '../../components/MainPagesBase/homesName'
 
 const Homes = () => {
@@ -8,7 +8,7 @@ const Homes = () => {
         <div className="base-illustration-component-order-homes">
             <HomesName/>
             <OrganizerBaseBoard/>
-            <AllBoardContent/>
+            <MainPagesBoardContent/>
         </div>
     )
 }

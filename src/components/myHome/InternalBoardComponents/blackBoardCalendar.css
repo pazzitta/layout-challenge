@@ -1,0 +1,60 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+.blackboard-calendar-order{
+    width: 306px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.blackboard-calendar-order>div:first-child{
+    width: 300px;
+    height: 180px;
+    background-image: url('../../../assets/myHome/AllBoardContent/colorBackgroundBoard.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    position: absolute;
+}
+.blackboard-calendar-order>div:nth-child(2){
+    width: 285px;
+    height: 170px;
+    background-color: #212121;
+    position: absolute;
+}
+.blackboard-calendar-order>div:last-child{
+    width: 285px;
+    height: 170px;
+    border: solid thin green;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.order-month-and-date{
+    border: solid thin #0DDD79;
+    width: 90%;
+    height: 15%;
+}
+.order-and-styles-row-one>td{
+    border: solid thin white;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.order-and-styles-row-two>td{
+    border: solid thin white;
+    width: 20px;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 10px;
+}

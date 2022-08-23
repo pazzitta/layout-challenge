@@ -1,4 +1,4 @@
-import '../../myHome/baseIllustrationStyles.css'
+import './blackBoardCalendar.css'
 
 const BlackboardCalendar = () =>{
     return(

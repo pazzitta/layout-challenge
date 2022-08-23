@@ -1,8 +1,8 @@
 import './landingPages.css'
 import '../../components/MainPagesBase/mainPagesBase.css'
 import OrganizerBaseBoard from "../../components/myHome/organizerBaseBoard";
-import LandingPageName from '../../components/MainPagesBase/landingPagesName';
-import AllBoardContent from '../../components/MainPagesBase/BoardContent';
+import LandingPageName from '../../components/landingsPages/landingPagesName';
+import MainPagesBoardContent from '../../components/MainPagesBase/mainPagesBoardContent';
 import MyLayoutsSection from '../../components/MainPagesBase/myLayoutsSection';
 const LandingPages = () => {
     return(
@@ -10,7 +10,7 @@ const LandingPages = () => {
             <div className="base-illustration-component-order-landin-pages">
                 <LandingPageName/>
                 <OrganizerBaseBoard/>
-                <AllBoardContent/>
+                <MainPagesBoardContent/>
             </div>                
             <MyLayoutsSection/>
         </div>

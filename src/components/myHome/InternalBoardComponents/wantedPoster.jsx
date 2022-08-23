@@ -1,4 +1,4 @@
-import '../../myHome/baseIllustrationStyles.css'
+import './wantedPoster.css'
 import MyPicture from '../../../assets/myHome/AllBoardContent/myPicture.jpg'
 import LinkedInIcon from '../../../assets/myHome/AllBoardContent/linkedInBlack.png'
 import GitHubIcon from '../../../assets/myHome/AllBoardContent/gitHubBlack.png'

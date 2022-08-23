@@ -1,4 +1,4 @@
-import '../../myHome/baseIllustrationStyles.css'
+import './rowOfPencils.css'
 
 const RowOfPencils = () => {
     return(

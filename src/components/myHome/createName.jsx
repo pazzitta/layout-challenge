@@ -1,4 +1,4 @@
-import './baseIllustrationStyles.css'
+import './createName.css'
 const CreateName = () => {
     return(
         <div className='main-name-order'>

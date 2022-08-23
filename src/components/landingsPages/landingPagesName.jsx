@@ -1,4 +1,4 @@
-import './allNamesStyles.css'
+import '../MainPagesBase/allNamesStyles.css'
 const LandingPageName = () => {
     return(
         <div className='landing-pages-main-name-order'>
