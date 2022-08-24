@@ -1,4 +1,4 @@
-import './styleReplicateCards.css'
+import './clothesCard.css'
 import ProductOne from '../../../assets/Cards/productOneCard.png'
 import  CartBlack from '../../../assets/Cards/cartBlack.png'
 

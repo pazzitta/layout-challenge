@@ -1,8 +1,8 @@
-import './styleReplicateLandingPage.css'
-import BackgrounImage from '../../../assets/LandingPages/backgroundImage.png'
-import LogoShopfy from '../../../assets/LandingPages/logo.png'
+import './layoutMinimalism.css'
+import BackgrounImage from '../../../assets/LandingPages/Minimalism/backgroundImageMinimalism.png'
+import LogoShopfy from '../../../assets/LandingPages/Minimalism/shopifylogo.png'
 
-const Minimalism = () => {
+const LayoutMinimalism = () => {
     return(
         <div className="box-macro-minimalist-LP">
             <div className='background-color-minimalist-LP'></div>
@@ -31,4 +31,4 @@ const Minimalism = () => {
         </div>
     )
 }
-export default Minimalism;
+export default LayoutMinimalism;

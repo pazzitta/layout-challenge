@@ -1,13 +1,23 @@
 import './myLayoutsSection.css'
+import { useLocation } from 'react-router-dom';
 // import '../myHome/baseIllustrationStyles.css'
 import MyLayoutBaseBoard from './myLayoutBaseBoard';
-import LayoutSectionContent from './layoutSectionContent';
+import LayoutSectionContentOne from './layoutSectionContents/layoutSectionContentOne';
+import LayoutSectionContentTwo from './layoutSectionContents/layoutSectionContentTwo';
 
 const MyLayoutsSection = () => {
+
+    const location = useLocation();
     return(
         <div className='general-order-my-layout-section'>
             <article className='order-all-componentes-article-one'>
-                <h2>BACKGROUND VIDEO</h2>
+                {
+                    location.pathname === '/landingPages'? <h2>BACKGROUND VIDEO</h2> :
+                    location.pathname === '/homes' ? <h2>PERSONAL PAGE</h2> :
+                    location.pathname === '/details' ? <h2>CLOTHES</h2> :
+                    location.pathname === '/forms' ? <h2>LOGIN</h2> :
+                    <h2>CLOTHES</h2>
+                }
                 <div className="top-frame-styles-and-order-layout-section">
                     <div></div>
                     <div></div>
@@ -19,10 +29,16 @@ const MyLayoutsSection = () => {
                     <div></div>
                     <div></div>
                 </div>
-                <LayoutSectionContent/>
+                <LayoutSectionContentOne/>
             </article>
             <article className='order-all-componentes-article-two'>
-                <h2>MINIMALISM</h2>
+                {
+                    location.pathname === '/landingPages'? <h2>MINIMALISM</h2> :
+                    location.pathname === '/homes' ? <h2>E-COMMERCE</h2> :
+                    location.pathname === '/details' ? <h2>FURNITURE</h2> :
+                    location.pathname === '/forms' ? <h2>REGISTER</h2> :
+                    <h2>FOOD</h2>
+                }
                 <div className="top-frame-styles-and-order-layout-section">
                     <div></div>
                     <div></div>
@@ -34,9 +50,16 @@ const MyLayoutsSection = () => {
                     <div></div>
                     <div></div>
                 </div>
+                <LayoutSectionContentTwo/>
             </article>
             <article className='order-all-componentes-article-three'>
-                <h2>ORGANIC SHAPES</h2>
+                {
+                    location.pathname === '/landingPages'?  <h2>ORGANIC SHAPES</h2> :
+                    location.pathname === '/homes' ? <h2>MARKETPLACE</h2> :
+                    location.pathname === '/details' ? <h2>NEWS</h2> :
+                    location.pathname === '/forms' ? <h2>CHECK OUT</h2> :
+                    <h2>NEWS</h2>
+                }
                 <div className="top-frame-styles-and-order-layout-section">
                     <div></div>
                     <div></div>
@@ -50,7 +73,13 @@ const MyLayoutsSection = () => {
                 </div>
             </article>
             <article className='order-all-componentes-article-four'>
-                <h2>PROMOTIONAL</h2>
+                {
+                    location.pathname === '/landingPages'?   <h2>PROMOTIONAL</h2> :
+                    location.pathname === '/homes' ? <h2>NEWS</h2> :
+                    location.pathname === '/details' ? <h2>PROFILE</h2> :
+                    location.pathname === '/forms' ? <h2>CONTACT US</h2> :
+                    <h2>PROFILE</h2>
+                }
                 <div className="top-frame-styles-and-order-layout-section">
                     <div></div>
                     <div></div>

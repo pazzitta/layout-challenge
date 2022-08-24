@@ -1,5 +1,5 @@
 import './backgroundVideo.css'
-import Video from '../../../assets/LandingPages/backgroundV.mp4'
+import Video from '../../../assets/LandingPages/BackgrondVideo/backgroundV.mp4'
 import PlayVideoIconLP from '../../../assets/LandingPages/BackgrondVideo/playVideoIcon.png'
 import DownArrowIconLP from '../../../assets/LandingPages/BackgrondVideo/downArrowIcon.png'
 

@@ -1,13 +1,12 @@
 import './layoutSectionContent.css'
-// import '../MainPagesBase/mainPagesBase.css'
-import OriginalPagesLSC from '../../assets/LandingPages/BackgroundVideoGif.gif'
-import PlayVideoIconLP from '../../assets/LandingPages/BackgrondVideo/playVideoIcon.png'
-import DownArrowIconLP from '../../assets/LandingPages/BackgrondVideo/downArrowIcon.png'
-import MenuLineIconLP from '../../assets/LandingPages/BackgrondVideo/menuLineIcon.png'
-import Videoprovisorio from '../../assets/LandingPages/BackgrondVideo/videoUI.jpg'
-import BackgroundVideo from '../landingsPages/BackgroundVideo/layoutBackgroundVideo'
+import { useLocation } from 'react-router-dom'
+import OPMinimalismLP from '../../../assets/LandingPages/LayoutSectionContent/OPMinimalismLP.jpg'
+import LayoutMinimalism from '../../landingsPages/Minimalism/layoutMinimalism'
+import ShopifyLogo from '../../../assets/LandingPages/Minimalism/shopifylogo.png'
+import BackgroundImageMinimalismLP from '../../../assets/LandingPages/Minimalism/backgroundImageMinimalism.png'
 
-const LayoutSectionContent = () => {
+const LayoutSectionContentTwo = () => {
+    const location = useLocation()
     return(
         <div className="order-all-layout-section-content">
             <section className='original-page-section-order'>
@@ -18,7 +17,13 @@ const LayoutSectionContent = () => {
                         <div></div>
                     </div>
                 </div>
-                <img src={OriginalPagesLSC} alt="imagen página original" />
+                {
+                    location.pathname === '/landingPages' ? <img src={OPMinimalismLP} alt="pág. original Minimalism LP" /> :
+                    location.pathname === '/homes' ? <img src="" alt="pág. original " /> :
+                    location.pathname === '/details' ? <img src="" alt="pág. original Furniture D" /> :
+                    location.pathname === '/forms' ? <img src="" alt="pág. original " /> :
+                    <img src="" alt="pág. original Clothes C" /> 
+                }
             </section>
 
             <section className='assets-section-order'>
@@ -57,9 +62,9 @@ const LayoutSectionContent = () => {
                         <div className='order-papers-assets'>
                             <div className='papers-order-and-styles'>
                                 <div>
-                                    <img src={PlayVideoIconLP} alt="" />
-                                    <img src={DownArrowIconLP} alt="" />
-                                    <img src={MenuLineIconLP} alt="" />
+                                    <img src={ShopifyLogo} alt="logo marca" />
+                                    {/* <img src={DownArrowIconLP} alt="" />
+                                    <img src={MenuLineIconLP} alt="" /> */}
                                 </div>
                                 <div>
                                     <div></div>
@@ -68,7 +73,7 @@ const LayoutSectionContent = () => {
                             </div>
                             <div className='papers-order-and-styles'>
                                 <div>
-                                    <img src={Videoprovisorio} alt="" />
+                                    <img src={BackgroundImageMinimalismLP} alt="Background Minimalism LP" />
                                 </div>
                                 <div>
                                     <div></div>
@@ -76,9 +81,7 @@ const LayoutSectionContent = () => {
                                 </div>
                             </div>
                             <div className='papers-order-and-styles'>
-                                <div>
-                                    <h4>none</h4>
-                                </div>
+                               <div><h4>none</h4></div>
                                 <div>
                                     <div></div>
                                     <div></div>
@@ -98,17 +101,23 @@ const LayoutSectionContent = () => {
                 </div>
             </section>
             <section className='my-layout-section-order'>
-            <div className='section-identification-posters-order'>
-                        <h2 className='section-identification-posters-base'>MY LAYOUT</h2>
-                        <div> 
-                            <div></div>
-                            <div></div>
-                        </div>
+                <div className='section-identification-posters-order'>
+                    <h2 className='section-identification-posters-base'>MY LAYOUT</h2>
+                    <div>
+                        <div></div>
+                        <div></div>
                     </div>
-                <BackgroundVideo/>
+                </div>
+                {
+                    location.pathname === '/landingPages' ? <LayoutMinimalism/> : 
+                    location.pathname === '/homes' ? <LayoutMinimalism/> :
+                    location.pathname === '/details' ? <LayoutMinimalism/> :
+                    location.pathname === '/forms' ? <LayoutMinimalism/> :
+                    <LayoutMinimalism/>
+                }
             </section>
 
         </div>
     )
 }
-export default LayoutSectionContent;
+export default LayoutSectionContentTwo;

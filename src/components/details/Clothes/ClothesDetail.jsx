@@ -3,7 +3,7 @@ import IconHeartBlack from '../../../assets/Details/ProductOne/iconHeartBlack.pn
 import VerticalImageProduct from '../../../assets/Details/ProductOne/verticalImageProduct.jpg'
 import FrontImageProduct from '../../../assets/Details/ProductOne/frontImageProduct.jpg'
 
-const ProductOneDetail = () => {
+const ClothesDetail = () => {
     return(
         <div className='all-page-order-product-one-detail'>
             <header className='header-order-product-one-detail'>
@@ -98,4 +98,4 @@ const ProductOneDetail = () => {
         </div>
     )
 }
-export default ProductOneDetail;
+export default ClothesDetail;
