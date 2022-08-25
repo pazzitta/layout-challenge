@@ -1,18 +1,18 @@
-import './styleReplicateHomes.css'
-import IsologoPP from '../../../assets/homes/isologoPP.png'
-import TwitterIconPP from '../../../assets/homes/twitterIconPP.png'
-import BehanceIconPP from '../../../assets/homes/BehanceIconPP.png'
-import InstagramIconPP from '../../../assets/homes/InstagramIconPP.png'
-import GitHubIconPP from '../../../assets/homes/GitHubIconPP.png'
-import LinkedInIconPP from '../../../assets/homes/LinkedInIconPP.png'
-import PhoneIconPP from '../../../assets/homes/phoneIconoPP.png'
-import BackgroundImagePP from '../../../assets/homes/backgroundImagePP.jpg'
+import './personalPage.css'
+import IsotipoPP from '../../../assets/homes/PersonaPage/isotipoPP.png'
+import TwitterIconPP from '../../../assets/homes/PersonaPage/twitterIconPP.png'
+import BehanceIconPP from '../../../assets/homes/PersonaPage/BehanceIconPP.png'
+import InstagramIconPP from '../../../assets/homes/PersonaPage/InstagramIconPP.png'
+import GitHubIconPP from '../../../assets/homes/PersonaPage/GitHubIconPP.png'
+import LinkedInIconPP from '../../../assets/homes/PersonaPage/LinkedInIconPP.png'
+import PhoneIconPP from '../../../assets/homes/PersonaPage/phoneIconoPP.png'
+import BackgroundImagePP from '../../../assets/homes/PersonaPage/backgroundImagePP.jpg'
 
 const PersonalPageHome = () => {
     return(
         <div className='box-macro-personalPage-homes'>
             <nav className='vertical-nav-personalPage-homes'>
-                <img className='isologo-vertical-nav-personalPage-homes' src={IsologoPP} alt="Isotipo" />
+                <img className='isologo-vertical-nav-personalPage-homes' src={IsotipoPP} alt="Isotipo" />
                 <div className='box-ancords-vertical-nav-personalPage-homes'>
                     <a href="">
                         <img src={TwitterIconPP} alt="ícono Twitter" />

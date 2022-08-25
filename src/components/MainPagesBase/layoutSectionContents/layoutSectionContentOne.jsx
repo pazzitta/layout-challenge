@@ -9,9 +9,18 @@ import OPClothesC from '../../../assets/Cards/LayoutSectionContent/OPClothesC.jp
 import PlayVideoIconLP from '../../../assets/LandingPages/BackgrondVideo/playVideoIcon.png'
 import DownArrowIconLP from '../../../assets/LandingPages/BackgrondVideo/downArrowIcon.png'
 import MenuLineIconLP from '../../../assets/LandingPages/BackgrondVideo/menuLineIcon.png'
+import IsotipoPP from '../../../assets/homes/PersonaPage/isotipoPP.png'
+import TwitteIconPP from '../../../assets/homes/PersonaPage/twitterIconPP.png'
+import BehanceIconPP from '../../../assets/homes/PersonaPage/BehanceIconPP.png'
+import InstagramIconPP from '../../../assets/homes/PersonaPage/InstagramIconPP.png'
+import GitHubIconPP from '../../../assets/homes/PersonaPage/GitHubIconPP.png'
+import LinkedInIconPP from '../../../assets/homes/PersonaPage/LinkedInIconPP.png'
+import PhoneIconPP from '../../../assets/homes/PersonaPage/phoneIconoPP.png'
+import BackgroundImagePP from '../../../assets/homes/PersonaPage/backgroundImagePP.jpg'
+
 import VideoBackgroundVideoLP from '../../../assets/LandingPages/BackgrondVideo/backgroundV.mp4'
 import BackgroundVideo from '../../landingsPages/BackgroundVideo/layoutBackgroundVideo'
-import PersonalPage from '../../homes/AllHomes/PersonalPage'
+import PersonalPage from '../../homes/PersonalPage/PersonalPage'
 import ClothesDetail from '../../details/Clothes/ClothesDetail'
 import LoginForm from '../../forms/Login/loginForm'
 import ClothesCard from '../../Cards/Clothes/ClothesCard'
@@ -76,9 +85,19 @@ const LayoutSectionContentOne = () => {
                                     {
                                         location.pathname === '/landingPages' ? 
                                         <div className='assets-icons-background-video-LP'>
-                                            <img src={PlayVideoIconLP} alt="" />
-                                            <img src={DownArrowIconLP} alt="" />
-                                            <img src={MenuLineIconLP} alt="" /> 
+                                            <img src={PlayVideoIconLP} alt="Ícono play" />
+                                            <img src={DownArrowIconLP} alt="ícono flecha rosa" />
+                                            <img src={MenuLineIconLP} alt="ícono 3 líneas menú" /> 
+                                        </div> :
+                                        location.pathname === '/homes' ? 
+                                        <div className='assets-icons-minimalist-h'>
+                                            <img src={IsotipoPP} alt="Isotipo página" />
+                                            <img src={TwitteIconPP} alt="ícono twitter" />
+                                            <img src={BehanceIconPP} alt="ícono Behance" />
+                                            <img src={InstagramIconPP} alt="ícono Instagram" />
+                                            <img src={GitHubIconPP} alt="ícono GitHub" />
+                                            <img src={LinkedInIconPP} alt="ícono LinkedIn" /> 
+                                            <img src={PhoneIconPP} alt="ícono Phone rosa" /> 
                                         </div> :
                                         <h2>Soy las demás pero me falta el contenido</h2>   
                                     }
@@ -97,6 +116,10 @@ const LayoutSectionContentOne = () => {
                                                 <source src={VideoBackgroundVideoLP} type="video/mp4" />
                                             </video>
                                         </div> :
+                                        location.pathname === '/homes' ? 
+                                        <div className='assets-multimedia-personal-page-H'>
+                                            <img src={BackgroundImagePP} alt="backgroun image PP" />
+                                        </div> :
                                         <h2>SOY LAS OTRAS</h2>
                                     }
                                 </div>
@@ -109,6 +132,7 @@ const LayoutSectionContentOne = () => {
                                 <div>
                                     {
                                         location.pathname === '/landingPages' ? <h4>none</h4> :
+                                        location.pathname === '/homes' ? <h4>none</h4> :
                                         <div><h2>soy las otras</h2></div>
                                     }
                                 </div>
