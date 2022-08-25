@@ -1,5 +1,5 @@
 .general-order-my-layout-section{
-    border: solid hotpink;
+    /* border: solid hotpink; */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,6 @@
 
 /* ARTICLE ONE */
 .order-all-componentes-article-one{
-    /* border: solid thin blue; */
     width: 85%;
     display: flex;
     flex-direction: column;
@@ -16,16 +15,35 @@
     position: relative;
     margin-bottom: 20px;
 }
+/* .order-all-componentes-article-one>h2{
+    font-size: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Allerta Stencil', sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(219deg,
+    #F2DE4E 19%,
+    transparent 19%, transparent 19%,
+    #F44D6D 20%, #F44D6D 39%,
+    transparent 39%, transparent 40%,
+    #5058EF 40%, #5058EF 59%,
+    transparent 59%, transparent 60%,
+    #4EF2A3 60%, #4EF2A3 79%,
+    transparent 79%, transparent 80%,
+    #814EF2 80%);
+    background-clip: text;
+    color: transparent;
+} */
 .top-frame-styles-and-order-layout-section{
-        background-image: url('../../assets/myHome/OrganizerBaseBoard/woodenTopFrame.jpg');
-        background-repeat:no-repeat;
-        background-size: cover;
-        background-position:center;
-        width: 100%;
-        height: 40px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    background-image: url('../../assets/myHome/OrganizerBaseBoard/woodenTopFrame.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .top-frame-styles-and-order-layout-section>div{
     background-color: #555555;
@@ -92,4 +110,89 @@
     align-items: center;
     position: relative;
     margin-bottom: 20px;
+}
+
+/* STYLESNAMES */
+.name-background-video-article-one,
+.name-personal-page-article-one,
+.name-clothes-article-one,
+.name-login-article-one{
+    /* border: solid; */
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name-background-video-article-one>h2,
+.name-personal-page-article-one>h2,
+.name-clothes-article-one>h2,
+.name-login-article-one>h2{
+    display: flex;
+    font-size: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.name-background-video-article-one>h2:first-child,
+.name-background-video-article-one>h2:nth-child(6),
+.name-personal-page-article-one>h2:first-child,
+.name-personal-page-article-one>h2:nth-child(6),
+.name-personal-page-article-one>h2:nth-child(11),
+.name-clothes-article-one>h2:first-child,
+.name-clothes-article-one>h2:nth-child(6),
+.name-login-article-one>h2:first-child{
+    color: #814EF2;
+    text-shadow: 2px 2px 2px #7136F4;
+}
+.name-background-video-article-one>h2:nth-child(11){
+    color: #814EF2;
+    text-shadow: 2px 2px 2px #7136F4;
+    margin-left: 30px;
+}
+.name-background-video-article-one>h2:nth-child(2),
+.name-background-video-article-one>h2:nth-child(7),
+.name-background-video-article-one>h2:nth-child(12),
+.name-personal-page-article-one>h2:nth-child(2),
+.name-personal-page-article-one>h2:nth-child(7),
+.name-personal-page-article-one>h2:last-child,
+.name-clothes-article-one>h2:nth-child(2),
+.name-clothes-article-one>h2:last-child,
+.name-login-article-one>h2:nth-child(2){
+    color: #F44D6D;
+    text-shadow: 2px 2px 2px #F62F55;
+}
+.name-background-video-article-one>h2:nth-child(3),
+.name-background-video-article-one>h2:nth-child(8),
+.name-background-video-article-one>h2:nth-child(13),
+.name-personal-page-article-one>h2:nth-child(3),
+.name-personal-page-article-one>h2:nth-child(8),
+.name-clothes-article-one>h2:nth-child(3),
+.name-login-article-one>h2:nth-child(3){
+    color: #5058EF;
+    text-shadow: 2px 2px 2px #3842F1;
+}
+.name-background-video-article-one>h2:nth-child(4),
+.name-background-video-article-one>h2:nth-child(9),
+.name-background-video-article-one>h2:nth-child(14),
+.name-personal-page-article-one>h2:nth-child(4),
+.name-clothes-article-one>h2:nth-child(4),
+.name-login-article-one>h2:nth-child(4){
+    color: #4EF2A3;
+    text-shadow: 2px 2px 2px #0DDD79;
+}
+.name-background-video-article-one>h2:nth-child(5),
+.name-background-video-article-one>h2:nth-child(10),
+.name-background-video-article-one>h2:last-child,
+.name-personal-page-article-one>h2:nth-child(5),
+.name-personal-page-article-one>h2:nth-child(10),
+.name-clothes-article-one>h2:nth-child(5),
+.name-login-article-one>h2:last-child{
+    color: #F2DE4E;
+    text-shadow: 2px 2px 2px #E1C815;
+}
+.name-personal-page-article-one>h2:nth-child(9){
+    color: #4EF2A3;
+    text-shadow: 2px 2px 2px #0DDD79;
+    margin-left: 30px;
 }
