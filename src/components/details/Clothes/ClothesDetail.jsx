@@ -39,7 +39,7 @@ const ClothesDetail = () => {
                 </div>
                 <div className="middle-rectangle-order-product-image-main-product-one-detail">
                     <div className="top-grey-rectangle-middle-rectangle-main-product-one-detail"></div>
-                    <section>
+                    <section className='section-one-middle-rectangle-main-clothes-D'>
                         <ul>
                             <li>
                                 <h4>Description</h4>
@@ -47,14 +47,14 @@ const ClothesDetail = () => {
                         </ul>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi molestias incidunt molestiae quia dolore doloremque non nam.</p>
                     </section>
-                    <section>
+                    <section className='section-two-and-three-middle-rectangle-main-clothes-D'>
                         <ul>
                             <li>
                                 <h4>Algo</h4>
                             </li>
                         </ul>
                     </section>
-                    <section>
+                    <section className='section-two-and-three-middle-rectangle-main-clothes-D'>
                         <ul>
                             <li>
                                 <h4>Talle</h4>
@@ -68,7 +68,7 @@ const ClothesDetail = () => {
                             <button>t5</button>
                         </div>
                     </section>
-                    <section>
+                    <section  className='section-two-and-three-middle-rectangle-main-clothes-D' >
                         <ul>
                             <li>
                                 <h4>Talle</h4>
