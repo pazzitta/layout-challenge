@@ -14,12 +14,12 @@ const LoginForm = () => {
             <p className='order-caption-login-form'>Don't have an account.Clouse your... ni leo que dice bien</p>
             <div className='box-inputs-login-form'>
                 <img src={IconPerson} alt="ícono persona" />
-                <input type="text"/>
+                <input type="text" placeholder='Your email'/>
                 <button className='button-password-ok-login-form'></button>
             </div>
             <div className='box-inputs-login-form'>
                 <img src={IconPadlock} alt="ícono candado" />
-                <input type="text"/>
+                <input type="text" placeholder='Password'/>
                 <button className='button-password-off-login-form'></button>
             </div>
             <div className='box-inputs-caption-login-form'>
@@ -36,7 +36,7 @@ const LoginForm = () => {
                 <button className='style-button-google-login-form'><img src={IconGoogleWhite} alt="Iso Google+" /></button>
                 <button className='style-button-twitter-login-form'><img src={IcontwitterWhite} alt="Iso Twitter" /></button>
             </div>
-            <p className='order-copyright-login-form'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores vitae dolor eaque consequuntur aliquid.</p>
+            <p className='order-copyright-login-form'>Lorem ipsum dolor sit amet consectetur <br />adipisicing elit. Maiores vitae dolor eaque consequuntur.</p>
         </article>
     </div>
 

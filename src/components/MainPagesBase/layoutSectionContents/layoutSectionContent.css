@@ -228,15 +228,21 @@
    width: 70%;
 }
 .assets-icons-minimalist-h,
-.assets-icons-clothes-D{
+.assets-icons-clothes-D,
+.assets-icons-login-f{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-.assets-icons-minimalist-h>img{
+.assets-icons-minimalist-h>img,
+.assets-icons-login-f>img{
     width: 15%;
     margin-right: 20px;
+}
+.assets-icons-minimalist-h>img:first-child,
+.assets-icons-login-f>img:first-child{
+    margin-left: 20px;
 }
 .assets-multimedia-personal-page-H{
     display: flex;
@@ -257,5 +263,9 @@
 .assets-multimedia-clothes-D>img:last-child{
     width: 25%;
     margin-left: 20px;
+}
+.assets-multimedia-login-F>img{
+    width: 60%;
+
 }
 

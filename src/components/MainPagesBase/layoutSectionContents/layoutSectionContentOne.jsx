@@ -23,8 +23,15 @@ import NextIconD from '../../../assets/Details/ProductOne/imageNextBlack.png'
 import HeartIconD from '../../../assets/Details/ProductOne/iconHeartBlack.png'
 import FrontImageClothesD from '../../../assets/Details/ProductOne/frontImageProduct.jpg'
 import VerticalImageClothesD from '../../../assets/Details/ProductOne/verticalImageProduct.jpg'
-
-
+import EyeIconF from '../../../assets/Forms/Login/iconeye.png'
+import FacebookIconF from '../../../assets/Forms/Login/iconFacebookWhite.png'
+import GoogleIconF from '../../../assets/Forms/Login/iconGoogleWhite.png'
+import LoginStartButtonIconF from '../../../assets/Forms/Login/iconLoginButton.png'
+import PadlockIconF from '../../../assets/Forms/Login/iconPadlock.png'
+import PersonIconF from '../../../assets/Forms/Login/iconPerson.png'
+import TickIconF from '../../../assets/Forms/Login/iconTick.png'
+import TwitterIconF from '../../../assets/Forms/Login/iconTwitterWhite.png'
+import BackgroundImageLoginF from '../../../assets/Forms/Login/backgroundImageLogin.jpg'
 
 import VideoBackgroundVideoLP from '../../../assets/LandingPages/BackgrondVideo/backgroundV.mp4'
 import BackgroundVideo from '../../landingsPages/BackgroundVideo/layoutBackgroundVideo'
@@ -114,6 +121,17 @@ const LayoutSectionContentOne = () => {
                                             <img src={NextIconD} alt="ícono next" /> 
                                             <img src={HeartIconD} alt="ícono corazón" /> 
                                         </div> :
+                                        location.pathname === '/forms' ? 
+                                        <div className='assets-icons-login-f'>
+                                            <img src={PersonIconF} alt="Isotipo persona" />
+                                            <img src={TickIconF} alt="ícono tick ok" />
+                                            <img src={PadlockIconF} alt="ícono Candado" />
+                                            <img src={EyeIconF} alt="ícono Ojo bloqueado" />
+                                            <img src={LoginStartButtonIconF} alt="ícono inicio sesión" />
+                                            <img src={FacebookIconF} alt="ícono Facebook" /> 
+                                            <img src={GoogleIconF} alt="ícono Google +" />
+                                            <img src={TwitterIconF} alt="ícono Google +" />
+                                        </div> :
                                         <h2>Soy las demás pero me falta el contenido</h2>   
                                     }
                                 </div>
@@ -140,6 +158,10 @@ const LayoutSectionContentOne = () => {
                                             <img src={FrontImageClothesD} alt="imagen frontal producto" />
                                             <img src={VerticalImageClothesD} alt="imagen vertical producto" />
                                         </div> :
+                                        location.pathname === '/forms' ? 
+                                        <div className='assets-multimedia-login-F'>
+                                            <img src={BackgroundImageLoginF} alt="backgroun image Login F" />
+                                        </div> :
                                         <h2>SOY LAS OTRAS</h2>
                                     }
                                 </div>
@@ -154,6 +176,7 @@ const LayoutSectionContentOne = () => {
                                         location.pathname === '/landingPages' ? <h4>none</h4> :
                                         location.pathname === '/homes' ? <h4>none</h4> :
                                         location.pathname === '/details' ? <h4>none</h4> :
+                                        location.pathname === '/forms' ? <h4>none</h4> :
                                         <div><h2>soy las otras</h2></div> 
                                     }
                                 </div>
