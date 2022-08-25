@@ -62,7 +62,13 @@ const LayoutSectionContentTwo = () => {
                         <div className='order-papers-assets'>
                             <div className='papers-order-and-styles'>
                                 <div>
-                                    <img src={ShopifyLogo} alt="logo marca" />
+                                    {
+                                        location.pathname === '/landingPages' ?
+                                        <div className='assets-icons-minimalism-LP'>
+                                            <img src={ShopifyLogo} alt="logo marca" />
+                                        </div> :
+                                        <h5>soy las otras</h5>
+                                    }
                                     {/* <img src={DownArrowIconLP} alt="" />
                                     <img src={MenuLineIconLP} alt="" /> */}
                                 </div>
@@ -73,7 +79,13 @@ const LayoutSectionContentTwo = () => {
                             </div>
                             <div className='papers-order-and-styles'>
                                 <div>
-                                    <img src={BackgroundImageMinimalismLP} alt="Background Minimalism LP" />
+                                    {
+                                        location.pathname === '/landingPages' ? 
+                                        <div className='assets-multimedia-minimalism-LP'>
+                                            <img src={BackgroundImageMinimalismLP} alt="backgroun image PP" />
+                                        </div> :
+                                        <h5>soy las otras</h5>
+                                    }
                                 </div>
                                 <div>
                                     <div></div>

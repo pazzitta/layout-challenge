@@ -224,7 +224,8 @@
     justify-content: center;
     align-items: center;
 }
-.assets-multimedia-background-video-LP>video{
+.assets-multimedia-background-video-LP>video,
+.assets-multimedia-minimalism-LP>img{
    width: 70%;
 }
 .assets-icons-minimalist-h,
@@ -272,7 +273,8 @@
     margin-left: 20px;
 }
 .assets-multimedia-login-F>img,
-.assets-multimedia-Clothes-C{
+.assets-multimedia-Clothes-C,
+.assets-icons-minimalism-LP>img{
     width: 60%;
 }
 .clothes-card-order-section-content-one{

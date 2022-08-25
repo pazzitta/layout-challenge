@@ -3,26 +3,22 @@
 *::after{
     box-sizing: border-box;
 }
-.background-color-minimalist-LP{
-    position: absolute;
-    background-color: #5c6ac4;
+.box-macro-minimalist-LP{
+  /* border: solid; */
+  background-color: #5c6ac4;
+  width: 100%;
+  height: 90vh;
+}
+.internal-box-minimalist-LP{
     width: 100%;
-    height: 100vh;
-  }
-  .internal-box-minimalist-LP{
-    /* border: solid red; */
-    position: relative;
-    /* bottom: 937px; */
-    width: 100%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
-  }
+}
   .header-box-minimalist-LP{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: solid; */
     width: 100%;
     height: 80px;
   }
@@ -33,11 +29,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* border: solid; */
     /* background-color: blueviolet; */
   }
   .titel-main-minimalism-LP {
     margin: 0;
-    /* border: solid hotpink; */
     color: white;
     font-size: 65px;
     font-weight: 600;
@@ -46,20 +42,23 @@
     /* border: solid gray; */
     margin: 0;
     margin-top: 5px;
-    font-size: 42px;
+    font-size: 30px;
     color: white;
     width: 50%;
-    line-height: 47px;
+    line-height: 40px;
   }
   .input-box-main-minimalism-LP{
     padding-top: 20px;
-    /* border: solid paleturquoise; */
   }
   .input-main-minimalism-LP{
     width: 370px;
     height: 40px;
     border-radius: 8px;
     border: none;
+    padding-left: 20px;
+  }
+  .input-main-minimalism-LP::placeholder{
+    font-weight: 600;
   }
   .button-main-minimalism-LP{
     margin-left: 5px;
@@ -70,6 +69,7 @@
     border: none;
     border-radius: 5px;
     font-weight: 600;
+    cursor: pointer;
   }
   .description-small-main-minimalis-LP{
     color: white;
@@ -79,21 +79,18 @@
   }
   .composition-footer-minimalism-LP{
     /* border: solid yellow; */
-    height: 520px;
+    height: 530px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .background-white-minimalism-LP{
+    background-color: white;
+    width: 100%;
+    height: 200px;
   }
   .image-minimalism-LP{
     /* border: solid; */
-    position: relative;
-    top: 10px;
-    /* bottom: 100px; */
-    width: 45%;
-  }
-  .background-white-minimalism-LP{
-    /* position: relative;
-    top: 535px; */
-    position: absolute;
-    bottom: 0px;
-    background-color: white;
-    width: 100%;
-    height: 220px;
+    width: 1480px;
+    height: 485px;
   }
