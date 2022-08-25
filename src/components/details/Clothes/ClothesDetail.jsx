@@ -94,6 +94,7 @@ const ClothesDetail = () => {
                 </div>
                 <div className="yellow-rectangle-footer-product-one-detail"></div>
                 <div className="right-white-rectangle-footer-product-one-detail"></div>
+                <div className="right-white-no-line-rectangle-footer-product-one-detail"></div>
             </footer>
         </div>
     )

@@ -17,6 +17,14 @@ import GitHubIconPP from '../../../assets/homes/PersonaPage/GitHubIconPP.png'
 import LinkedInIconPP from '../../../assets/homes/PersonaPage/LinkedInIconPP.png'
 import PhoneIconPP from '../../../assets/homes/PersonaPage/phoneIconoPP.png'
 import BackgroundImagePP from '../../../assets/homes/PersonaPage/backgroundImagePP.jpg'
+import MagnifyingGlassD from '../../../assets/Details/ProductOne/magnifyingGlassBlack.png'
+import PreviousIconD from '../../../assets/Details/ProductOne/imagePreviousBlack.png'
+import NextIconD from '../../../assets/Details/ProductOne/imageNextBlack.png'
+import HeartIconD from '../../../assets/Details/ProductOne/iconHeartBlack.png'
+import FrontImageClothesD from '../../../assets/Details/ProductOne/frontImageProduct.jpg'
+import VerticalImageClothesD from '../../../assets/Details/ProductOne/verticalImageProduct.jpg'
+
+
 
 import VideoBackgroundVideoLP from '../../../assets/LandingPages/BackgrondVideo/backgroundV.mp4'
 import BackgroundVideo from '../../landingsPages/BackgroundVideo/layoutBackgroundVideo'
@@ -99,6 +107,13 @@ const LayoutSectionContentOne = () => {
                                             <img src={LinkedInIconPP} alt="ícono LinkedIn" /> 
                                             <img src={PhoneIconPP} alt="ícono Phone rosa" /> 
                                         </div> :
+                                        location.pathname === '/details' ? 
+                                        <div className='assets-icons-clothes-D'>
+                                            <img src={MagnifyingGlassD} alt="Ícono lupa" />
+                                            <img src={PreviousIconD} alt="ícono flecha previo" />
+                                            <img src={NextIconD} alt="ícono next" /> 
+                                            <img src={HeartIconD} alt="ícono corazón" /> 
+                                        </div> :
                                         <h2>Soy las demás pero me falta el contenido</h2>   
                                     }
                                 </div>
@@ -120,6 +135,11 @@ const LayoutSectionContentOne = () => {
                                         <div className='assets-multimedia-personal-page-H'>
                                             <img src={BackgroundImagePP} alt="backgroun image PP" />
                                         </div> :
+                                        location.pathname === '/details' ? 
+                                        <div className='assets-multimedia-clothes-D'>
+                                            <img src={FrontImageClothesD} alt="imagen frontal producto" />
+                                            <img src={VerticalImageClothesD} alt="imagen vertical producto" />
+                                        </div> :
                                         <h2>SOY LAS OTRAS</h2>
                                     }
                                 </div>
@@ -133,7 +153,8 @@ const LayoutSectionContentOne = () => {
                                     {
                                         location.pathname === '/landingPages' ? <h4>none</h4> :
                                         location.pathname === '/homes' ? <h4>none</h4> :
-                                        <div><h2>soy las otras</h2></div>
+                                        location.pathname === '/details' ? <h4>none</h4> :
+                                        <div><h2>soy las otras</h2></div> 
                                     }
                                 </div>
                                 <div>

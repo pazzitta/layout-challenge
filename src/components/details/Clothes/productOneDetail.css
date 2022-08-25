@@ -5,9 +5,9 @@
 }
 
 .all-page-order-product-one-detail{
-    /* border: solid; */
+   background-color: white;
     width: 100%;
-    height: 100vh;
+    height: 91vh;
     display: flex;
     flex-direction: column;
 }
@@ -29,7 +29,7 @@
     border-right: solid;
     border-bottom: solid;
     width: 397px;
-    height: 93px;
+    height: 89px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,14 +41,14 @@
 .yellow-rectangle-nav-product-one-detail{
     border-right: solid;
     border-bottom: solid;
-    width: 73px;
-    height: 93px;
+    width: 78px;
+    height: 89px;
     background-color: #ffd300;
 }
 .order-main-white-rectangle-nav-product-one-detail{
     border-bottom: solid;
     width: 1430px;
-    height: 93px;
+    height: 89px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -69,6 +69,9 @@
 .order-main-white-rectangle-nav-product-one-detail a:focus{
     text-decoration: underline;
 }
+.order-main-white-rectangle-nav-product-one-detail a>img{
+    width: 30%;
+}
 .order-main-white-rectangle-nav-product-one-detail>div{
     /* border:solid thin #e1191c; */
     width: 100px;
@@ -84,7 +87,7 @@
     background-size: cover;
     background-position:center;
     border: none;
-    width: 25px;
+    width: 45px;
     height: 26px;
 }
 
@@ -93,7 +96,7 @@
     border-bottom: solid;
     background-color: #e1191c;
     width: 65px;
-    height: 93px;
+    height: 89px;
 }
 
 .main-order-product-one-detail{
@@ -107,7 +110,7 @@
     border-top: solid;
     border-right: solid;
     border-bottom: solid;
-    width: 40px;
+    width: 42px;
 }
 .black-left-vertical-rectangle-main-product-one-detail{
     background-color: black;
@@ -149,14 +152,14 @@
     border-top: solid;
     border-right: solid;
     border-bottom: solid;
-    width: 305px;
+    width: 313px;
     display: flex;
     flex-direction: column;
 }
 .top-grey-rectangle-middle-rectangle-main-product-one-detail{
     background-color: #cfcfcf;
     border-bottom: solid;
-    height: 60px;
+    height: 70px;
 }
 .middle-rectangle-order-product-image-main-product-one-detail>section{
     border-bottom: solid;
@@ -164,9 +167,16 @@
     flex-direction: column;
     justify-content: flex-start;
 }
-.middle-rectangle-order-product-image-main-product-one-detail h4{
+.middle-rectangle-order-product-image-main-product-one-detail>section>p{
+    margin-top: 0;
+    margin-bottom:10px;
+    text-align: start;
+    margin-left: 25px;
+}
+.middle-rectangle-order-product-image-main-product-one-detail h4:first-of-type{
     text-align: start;
 }
+
 .middle-rectangle-order-product-image-main-product-one-detail>section>div{
     /* border: solid #e1191c; */
     position: relative;
@@ -188,7 +198,7 @@
     border-top: solid;
     border-right: solid;
     border-bottom: solid;
-    width: 1066px;
+    width: 1045px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -201,7 +211,7 @@
     width: 75%;
     align-self: flex-start;
     font-size: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     margin-top: 0;
 }
 .right-rectangle-order-product-image-main-product-one-detail>small{
@@ -223,6 +233,11 @@
     flex-direction: column;
     justify-content: flex-end;
 }
+.right-rectangle-order-product-image-main-product-one-detail>small{
+    text-align: start;
+    margin-left: 55px;
+    font-weight: 600;
+}
 .right-right-rectangle-order-product-image-main-product-one-detail>button{
     background-image: url('../../../assets/Details/ProductOne/imageNextBlack.png');
     background-repeat: no-repeat;
@@ -230,36 +245,40 @@
     border: none;
     background-color: transparent;
     background-position:center;
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     padding: 0;
 }
 .footer-order-product-one-detail{
-    border: solid thin rgb(22, 15, 126);
+    /* border: solid thin rgb(22, 15, 126); */
     width: 100%;
     height: 8%;
     display: flex;
 }
 .left-white-rectangle-footer-product-one-detail{
     border-right: solid;
-    width: 39px;
-    height: 74px;
+    width: 40px;
+    height: 69px;
 }
 .blue-rectangle-footer-product-one-detail{
     border-right: solid;
     background-color: #006bb6;
-    width: 450px;
+    width: 434px;
 }
 .text-rectangle-footer-product-one-detail{
     border-right: solid;
-    width: 305px;
+    width: 301px;
 }
 .yellow-rectangle-footer-product-one-detail{
     border-right: solid;
     background-color: #ffd300;
-    width: 800px;
+    width: 799px;
 }
 .right-white-rectangle-footer-product-one-detail{
     border-right: solid;
-    width: 265px;
+    width: 208px;
+}
+.right-white-no-line-rectangle-footer-product-one-detail{
+    color: white;
+    width: 57px;
 }

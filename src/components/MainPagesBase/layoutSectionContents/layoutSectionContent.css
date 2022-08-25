@@ -218,7 +218,8 @@
      width: 100%;
      height: 920px;
 }
-.assets-multimedia-background-video-LP{
+.assets-multimedia-background-video-LP,
+.assets-multimedia-clothes-D{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -226,7 +227,8 @@
 .assets-multimedia-background-video-LP>video{
    width: 70%;
 }
-.assets-icons-minimalist-h{
+.assets-icons-minimalist-h,
+.assets-icons-clothes-D{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -242,5 +244,18 @@
     align-items: center;   
 }
 .assets-multimedia-personal-page-H>img{
-    width: 30%;  
+    width: 30%; 
+    margin-right: 15px; 
 }
+.assets-icons-clothes-D>img{
+    width: 20%;  
+}
+.assets-multimedia-clothes-D>img:first-child{
+    width: 40%;
+    margin-left: 20px;
+}
+.assets-multimedia-clothes-D>img:last-child{
+    width: 25%;
+    margin-left: 20px;
+}
+
