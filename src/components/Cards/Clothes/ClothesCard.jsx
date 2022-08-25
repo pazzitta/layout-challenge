@@ -1,6 +1,6 @@
 import './clothesCard.css'
 import ProductOne from '../../../assets/Cards/productOneCard.png'
-import  CartBlack from '../../../assets/Cards/cartBlack.png'
+import CartBlack from '../../../assets/Cards/Clothes/cartBlack.png'
 
 const ClothesCard = () => {
     return(
@@ -10,12 +10,10 @@ const ClothesCard = () => {
                 <img className='image-product-clothes-card' src={ProductOne} alt="Imagen producto" />
             </div>
             <div className='box-text-product-clothes-card'>
-                <h3 className='titel-product-clothes-card'><i>SOY EL NOMBRE DEL PRODUCTO</i></h3>
-                <p className='description-product-clothes-card'>Soy el modelo</p>
-                <button className='button-add-cart-clothes-card'>ADD TO CART
-                    <img src={CartBlack} alt="Ícono carrito de compras" />
-                </button>
-                <p>$--</p>
+                <h3 className='titel-product-clothes-card'><i>ZAPATILLAS RUNFALCON</i></h3>
+                <p className='description-product-clothes-card'><i>Core black | Core black</i></p>
+                <button className='button-add-cart-clothes-card'>ADD TO CART</button>
+                <p>$185</p>
             </div>
         </div>
 

@@ -229,11 +229,18 @@
 }
 .assets-icons-minimalist-h,
 .assets-icons-clothes-D,
-.assets-icons-login-f{
+.assets-icons-login-f,
+.assets-icons-clothes-c{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+.assets-icons-clothes-c>img{
+    width: 30%;
+}
+.assets-icons-clothes-c>img:first-child{
+    margin-right: 20px;
 }
 .assets-icons-minimalist-h>img,
 .assets-icons-login-f>img{
@@ -264,8 +271,15 @@
     width: 25%;
     margin-left: 20px;
 }
-.assets-multimedia-login-F>img{
+.assets-multimedia-login-F>img,
+.assets-multimedia-Clothes-C{
     width: 60%;
-
 }
-
+.clothes-card-order-section-content-one{
+    background-color: white;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

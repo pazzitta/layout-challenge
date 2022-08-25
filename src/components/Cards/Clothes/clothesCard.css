@@ -6,8 +6,11 @@
 .box-macro-clothes-card{
     /* border: solid; */
     background-color: #fbfaf6;
-    width: 300px;
-    height: 370px;
+    width: 400px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .box-macro-clothes-card:hover{
     background-color: #fcd8da;
@@ -17,8 +20,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 20vh;
+    width: 90%;
+    height: 30vh;
 }
 .image-product-clothes-card{
     width: 100%;
@@ -34,8 +37,8 @@
 }
 .titel-product-clothes-card{
     /* border:solid; */
-    font-size: 17px;
-    padding-top: 3px;
+    font-size: 25px;
+    margin-bottom: 5px;
 }
 .description-product-clothes-card{
     font-size: 12px;
@@ -43,17 +46,40 @@
 }
 .button-add-cart-clothes-card{
     display: flex;
-    justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #fbfaf6;
     border: solid thin;
-    width: 170px;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    width: 230px;
+    padding-left: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     font-weight: 600;
+    background-image: url('../../../assets/Cards/Clothes/cartBlack.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 150px;
+    background-position-y: center;
+
 }
 .button-add-cart-clothes-card:hover{
     background-color: black;
     color: white;
+    background-image: url('../../../assets/Cards/Clothes/cartWhite.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 150px;
+    background-position-y: center;
+    border: none;
+}
+.box-text-product-clothes-card>p:nth-of-type(2){
+    color: #dbdad6;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.box-text-product-clothes-card>p:nth-of-type(2):active,
+.box-text-product-clothes-card>p:nth-of-type(2):focus,
+.box-text-product-clothes-card>p:nth-of-type(2):hover{
+    color: #222222;
 }

@@ -32,6 +32,9 @@ import PersonIconF from '../../../assets/Forms/Login/iconPerson.png'
 import TickIconF from '../../../assets/Forms/Login/iconTick.png'
 import TwitterIconF from '../../../assets/Forms/Login/iconTwitterWhite.png'
 import BackgroundImageLoginF from '../../../assets/Forms/Login/backgroundImageLogin.jpg'
+import CartBlackIconC from '../../../assets/Cards/Clothes/cartBlack.png'
+import CartWhiteIconC from '../../../assets/Cards/Clothes/cartWhite.png'
+import ProductClotheCart from '../../../assets/Cards/Clothes/productOneCard.png'
 
 import VideoBackgroundVideoLP from '../../../assets/LandingPages/BackgrondVideo/backgroundV.mp4'
 import BackgroundVideo from '../../landingsPages/BackgroundVideo/layoutBackgroundVideo'
@@ -132,7 +135,10 @@ const LayoutSectionContentOne = () => {
                                             <img src={GoogleIconF} alt="ícono Google +" />
                                             <img src={TwitterIconF} alt="ícono Google +" />
                                         </div> :
-                                        <h2>Soy las demás pero me falta el contenido</h2>   
+                                        <div className='assets-icons-clothes-c'>
+                                            <img src={CartBlackIconC} alt="ícono carrito negro" />
+                                            <img src={CartWhiteIconC} alt="ícono cattito blanco" />
+                                        </div>
                                     }
                                 </div>
                                 <div>
@@ -162,7 +168,7 @@ const LayoutSectionContentOne = () => {
                                         <div className='assets-multimedia-login-F'>
                                             <img src={BackgroundImageLoginF} alt="backgroun image Login F" />
                                         </div> :
-                                        <h2>SOY LAS OTRAS</h2>
+                                        <img className='assets-multimedia-Clothes-C' src={ProductClotheCart} alt="Zapatilla adidas" />
                                     }
                                 </div>
                                 <div>
@@ -177,7 +183,7 @@ const LayoutSectionContentOne = () => {
                                         location.pathname === '/homes' ? <h4>none</h4> :
                                         location.pathname === '/details' ? <h4>none</h4> :
                                         location.pathname === '/forms' ? <h4>none</h4> :
-                                        <div><h2>soy las otras</h2></div> 
+                                        <h4>none</h4>
                                     }
                                 </div>
                                 <div>
@@ -211,7 +217,11 @@ const LayoutSectionContentOne = () => {
                     location.pathname === '/homes' ? <PersonalPage/> :
                     location.pathname === '/details' ? <ClothesDetail/> :
                     location.pathname === '/forms' ? <LoginForm/> :
-                    <ClothesCard/>
+                    <div className='clothes-card-order-section-content-one'>
+                        <ClothesCard/>
+                        <ClothesCard/>
+                        <ClothesCard/>
+                    </div>
                 }
             </section>
 
