@@ -278,7 +278,8 @@
 .assets-icons-login-f>img:first-child{
     margin-left: 20px;
 }
-.assets-multimedia-personal-page-H{
+.assets-multimedia-personal-page-H,
+.assets-multimedia-food-C{
     display: flex;
     justify-content: center;
     align-items: center;   
@@ -290,7 +291,8 @@
 .assets-icons-clothes-D>img{
     width: 20%;  
 }
-.assets-multimedia-clothes-D>img:first-child{
+.assets-multimedia-clothes-D>img:first-child,
+.assets-multimedia-food-C>img{
     width: 40%;
     margin-left: 20px;
 }

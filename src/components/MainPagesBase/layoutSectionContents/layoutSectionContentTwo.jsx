@@ -19,14 +19,17 @@ import LeftImageProductD from '../../../assets/Details/ProductTwo/leftImageProdu
 import MiddleImageProductD from '../../../assets/Details/ProductTwo/middleImageProduct.jpg'
 import ProductFrontImageD from '../../../assets/Details/ProductTwo/productFrontImage.png'
 import RightImageProductD from '../../../assets/Details/ProductTwo/rightImageProduct.jpg'
+import ProductTwoC from '../../../assets/Cards/Food/productFood.png'
 
 import OPMinimalismLP from '../../../assets/LandingPages/LayoutSectionContent/OPMinimalismLP.jpg'
 import OPFurniture from '../../../assets/Details/ProductTwo/OPFurnitureD.jpg'
 import OPRegisterF from '../../../assets/Forms/Register/LayoutSectioContent/OPRegisterF.jpg'
+import OPFooodC from '../../../assets/Cards/LayoutSectionContent/OPFoodC.jpg'
 
 import LayoutMinimalism from '../../landingsPages/Minimalism/layoutMinimalism'
 import FurnitureDetail from '../../details/ProductTwo/Furniture'
 import RegisterForm from '../../forms/Register/registerForm'
+import FoodCard from '../../Cards/Food/Food'
 
 import BackgroundRegisterF from '../../../assets/Forms/Register/backgroundRegister.jpg'
 
@@ -47,7 +50,7 @@ const LayoutSectionContentTwo = () => {
                     location.pathname === '/homes' ? <img src="" alt="pág. original " /> :
                     location.pathname === '/details' ? <img src={OPFurniture} alt="pág. original Furniture D" /> :
                     location.pathname === '/forms' ? <img src={OPRegisterF} alt="pág. original Register " /> :
-                    <img src="" alt="pág. original Clothes C" /> 
+                    <img src={OPFooodC} alt="pág. original Food C" /> 
                 }
             </section>
 
@@ -111,7 +114,7 @@ const LayoutSectionContentTwo = () => {
                                             <img src={EmailIconGrayF} alt="ícono Carta gris" />
                                             <img src={PadLockIconGrayF} alt="ícono Candado gris" />
                                         </div> :
-                                        <h5>soy las otras</h5>
+                                        <h4>none</h4>
                                     }
                                     {/* <img src={DownArrowIconLP} alt="" />
                                     <img src={MenuLineIconLP} alt="" /> */}
@@ -136,7 +139,9 @@ const LayoutSectionContentTwo = () => {
                                             <img src={ProductFrontImageD} alt="Imagen izquierda silla" />   
                                         </div> :
                                         location.pathname === '/forms' ? <h4>none</h4> :
-                                        <h5>soy las otras</h5>
+                                        <div className='assets-multimedia-food-C'>
+                                            <img src={ProductTwoC} alt="imagen bagels" />
+                                        </div> 
                                     }
                                 </div>
                                 <div>
@@ -147,10 +152,11 @@ const LayoutSectionContentTwo = () => {
                             <div className='papers-order-and-styles'>
                                <div className='assets-multimedia-minimalism-LP'>
                                 {
-                                    location.pathname === '/landingPages'? <h4>none</h4> :
+                                    location.pathname === '/landingPages' ? <h4>none</h4> :
+                                    location.pathname === '/homes' ? <h4>soy el home</h4> :
                                     location.pathname === '/details' ? <h4>none</h4> :
                                     location.pathname === '/forms' ? <img src={BackgroundRegisterF} alt="Imagen del medio silla" /> :
-                                    <h3>soy las otras</h3> 
+                                    <h4>none</h4> 
                                 }
                                </div>
                                 <div>
@@ -184,7 +190,16 @@ const LayoutSectionContentTwo = () => {
                     location.pathname === '/homes' ? <LayoutMinimalism/> :
                     location.pathname === '/details' ? <FurnitureDetail/> :
                     location.pathname === '/forms' ? <RegisterForm/> :
-                    <LayoutMinimalism/>
+                    <div className='food-card-order-section-content-two'>
+                        <FoodCard/>
+                        <FoodCard/>
+                        <FoodCard/>
+                        <FoodCard/>
+                        <FoodCard/>
+                        <FoodCard/>
+                        <FoodCard/>
+                        <FoodCard/>        
+                    </div>
                 }
             </section>
 
