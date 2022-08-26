@@ -49,8 +49,8 @@ const FurnitureDetail = () => {
                             <p>15 Reviews</p>
                         </div>
                         <div>
-                            <input type="radio" name="color" id="" />
-                            <input type="radio" name="color" id="" />
+                            <button></button>
+                            <button></button>
                         </div>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo omnis error.amet consectetur adipisicing elit. Quo omnis error.</p>
                         <div className='box-order-quantity-product-two-detail'>
@@ -63,7 +63,7 @@ const FurnitureDetail = () => {
                                 <h4>--<small>algo2</small></h4>
                             </div>
                             <div>
-                                <p><u>Algo3</u></p>
+                                <p>Algo3</p>
                                 {/* <hr/> */}
                             </div>
                         </div>

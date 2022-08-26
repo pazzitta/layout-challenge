@@ -83,7 +83,7 @@
 
 /* ARTICLE TWO */
 .order-all-componentes-article-two{
-    border: solid thin rgb(0, 255, 166);
+    /* border: solid thin rgb(0, 255, 166); */
     width: 85%;
     display: flex;
     flex-direction: column;
