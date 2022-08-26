@@ -1,14 +1,17 @@
 import './layoutSectionContent.css'
 import { useLocation } from 'react-router-dom'
-import LayoutMinimalism from '../../landingsPages/Minimalism/layoutMinimalism'
 import ShopifyLogo from '../../../assets/LandingPages/Minimalism/shopifylogo.png'
 import BrandLogoD from '../../../assets/Details/ProductTwo/brandLogo.png'
 import CartGreyIconD from '../../../assets/Details/ProductTwo/cartGrey.png'
 import ShortMagnifyingGlassGreyD from '../../../assets/Details/ProductTwo/shortMagnifyingGlassGrey.png'
 import StarYellowD from '../../../assets/Details/ProductTwo/starYellow.png'
+import IsologoBrandF from '../../../assets/Forms/Register/isologoWhite.png'
+import FacebookIconBlackF from '../../../assets/Forms/Register/iconFacebookBlack.png'
+import GoogleIconBlackF from '../../../assets/Forms/Register/iconGoogleBlack.png'
+import LinkedInIconBlackF from '../../../assets/Forms/Register/iconLinkedInBlack.png'
+
 
 import BackgroundImageMinimalismLP from '../../../assets/LandingPages/Minimalism/backgroundImageMinimalism.png'
-import FurnitureDetail from '../../details/ProductTwo/Furniture'
 import LeftImageProductD from '../../../assets/Details/ProductTwo/leftImageProduct.jpg'
 import MiddleImageProductD from '../../../assets/Details/ProductTwo/middleImageProduct.jpg'
 import ProductFrontImageD from '../../../assets/Details/ProductTwo/productFrontImage.png'
@@ -16,6 +19,13 @@ import RightImageProductD from '../../../assets/Details/ProductTwo/rightImagePro
 
 import OPMinimalismLP from '../../../assets/LandingPages/LayoutSectionContent/OPMinimalismLP.jpg'
 import OPFurniture from '../../../assets/Details/ProductTwo/OPFurnitureD.jpg'
+import OPRegisterF from '../../../assets/Forms/Register/LayoutSectioContent/OPRegisterF.jpg'
+
+import LayoutMinimalism from '../../landingsPages/Minimalism/layoutMinimalism'
+import FurnitureDetail from '../../details/ProductTwo/Furniture'
+import RegisterForm from '../../forms/Register/registerForm'
+
+import BackgroundRegisterF from '../../../assets/Forms/Register/backgroundRegister.jpg'
 
 const LayoutSectionContentTwo = () => {
     const location = useLocation()
@@ -33,7 +43,7 @@ const LayoutSectionContentTwo = () => {
                     location.pathname === '/landingPages' ? <img src={OPMinimalismLP} alt="pág. original Minimalism LP" /> :
                     location.pathname === '/homes' ? <img src="" alt="pág. original " /> :
                     location.pathname === '/details' ? <img src={OPFurniture} alt="pág. original Furniture D" /> :
-                    location.pathname === '/forms' ? <img src="" alt="pág. original " /> :
+                    location.pathname === '/forms' ? <img src={OPRegisterF} alt="pág. original Register " /> :
                     <img src="" alt="pág. original Clothes C" /> 
                 }
             </section>
@@ -84,9 +94,16 @@ const LayoutSectionContentTwo = () => {
                                         location.pathname === '/details' ?
                                         <div className='assets-icons-furniture-D'>
                                             <img src={BrandLogoD} alt="logo marca" />
-                                            <img src={CartGreyIconD} alt="logo marca" />
-                                            <img src={ShortMagnifyingGlassGreyD} alt="logo marca" />
-                                            <img src={StarYellowD} alt="logo marca" />
+                                            <img src={CartGreyIconD} alt="ícono carrito gris" />
+                                            <img src={ShortMagnifyingGlassGreyD} alt="ícono lupa gris" />
+                                            <img src={StarYellowD} alt="estrella amarilla" />
+                                        </div> :
+                                        location.pathname === '/forms' ?
+                                        <div className='assets-icons-furniture-D'>
+                                            <img src={IsologoBrandF} alt="Isologo marca" />
+                                            <img src={FacebookIconBlackF} alt="ícono Facebook negro" />
+                                            <img src={GoogleIconBlackF} alt="ícono Google negro" />
+                                            <img src={LinkedInIconBlackF} alt="ícono LinkedIn negro" />
                                         </div> :
                                         <h5>soy las otras</h5>
                                     }
@@ -112,6 +129,7 @@ const LayoutSectionContentTwo = () => {
                                             <img src={RightImageProductD} alt="Imagen izquierda silla" />   
                                             <img src={ProductFrontImageD} alt="Imagen izquierda silla" />   
                                         </div> :
+                                        location.pathname === '/forms' ? <h4>none</h4> :
                                         <h5>soy las otras</h5>
                                     }
                                 </div>
@@ -121,7 +139,14 @@ const LayoutSectionContentTwo = () => {
                                 </div>
                             </div>
                             <div className='papers-order-and-styles'>
-                               <div><h4>none</h4></div>
+                               <div className='assets-multimedia-minimalism-LP'>
+                                {
+                                    location.pathname === '/landingPages'? <h4>none</h4> :
+                                    location.pathname === '/details' ? <h4>none</h4> :
+                                    location.pathname === '/forms' ? <img src={BackgroundRegisterF} alt="Imagen del medio silla" /> :
+                                    <h3>soy las otras</h3> 
+                                }
+                               </div>
                                 <div>
                                     <div></div>
                                     <div></div>
@@ -152,7 +177,7 @@ const LayoutSectionContentTwo = () => {
                     location.pathname === '/landingPages' ? <LayoutMinimalism/> : 
                     location.pathname === '/homes' ? <LayoutMinimalism/> :
                     location.pathname === '/details' ? <FurnitureDetail/> :
-                    location.pathname === '/forms' ? <LayoutMinimalism/> :
+                    location.pathname === '/forms' ? <RegisterForm/> :
                     <LayoutMinimalism/>
                 }
             </section>
