@@ -231,7 +231,8 @@
 .assets-icons-minimalist-h,
 .assets-icons-clothes-D,
 .assets-icons-login-f,
-.assets-icons-clothes-c{
+.assets-icons-clothes-c,
+.assets-icons-furniture-D{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,6 +240,19 @@
 }
 .assets-icons-clothes-c>img{
     width: 30%;
+}
+.assets-icons-furniture-D>img:first-child{
+    width: 40%;
+    margin-left: 45px;
+}
+.assets-icons-furniture-D>img:nth-child(2),
+.assets-icons-furniture-D>img:last-child{
+    width: 20%;
+    margin-right: 20px;
+}
+.assets-icons-furniture-D>img:nth-child(3){
+    width: 15%;
+    margin-right: 45px;
 }
 .assets-icons-clothes-c>img:first-child{
     margin-right: 20px;
@@ -284,4 +298,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.assets-multimedia-furniture-D>img:first-child,
+.assets-multimedia-furniture-D>img:nth-child(2),
+.assets-multimedia-furniture-D>img:nth-child(3){
+    width: 20%;
+    margin-right: 15px;
+}
+.assets-multimedia-furniture-D>img:last-child{
+    width: 25%;
 }

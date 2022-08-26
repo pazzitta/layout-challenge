@@ -8,7 +8,7 @@ import ProductMiddleImage from '../../../assets/Details/ProductTwo/middleImagePr
 import ProductRightImage from '../../../assets/Details/ProductTwo/rightImageProduct.jpg'
 import StarYellow from '../../../assets/Details/ProductTwo/starYellow.png'
 
-const ProductTwoDetail = () => {
+const FurnitureDetail = () => {
     return(
         <div className='order-all-page-product-two-detail'>
             <div className='container-card-product-two-detail'>
@@ -83,4 +83,4 @@ const ProductTwoDetail = () => {
         </div>
     )
 }
-export default ProductTwoDetail;
+export default FurnitureDetail;
