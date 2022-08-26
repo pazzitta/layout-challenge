@@ -4,20 +4,20 @@
     box-sizing: border-box;
 }
 .box-vp-register-form{
-    background-image: url('../../../assets/Forms/Register/backgroundRegister.jpg');
+    background-image: url('../../../assets/Forms/Register/backgroundRegister1.jpg');
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center; 
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .box-register-form{
     background-color: rgba(255, 255, 255, 0.2);
-    width: 80%;
-    height: 75vh;
+    width: 85%;
+    height: 80vh;
     display: flex;
     border-radius: 20px;
 }
@@ -30,19 +30,19 @@
     flex-direction: column;
 }
 .box-left-register-form >img {
-    width: 20%;
+    width: 24%;
     align-self: flex-start;
     margin: 20px;
 }
 .box-left-register-form >h2 {
     color: white;
-    font-size: 60px;
+    font-size: 50px;
     margin: 0;
-    padding-top: 150px;
+    padding-top: 170px;
 }
 .box-left-register-form >p {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     width: 60%;
     align-self: center;
     margin-top: 10px;
@@ -56,9 +56,10 @@
     border-radius: 30px;
     width: 50%;
     height: 60px;
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 17px;
     font-weight: 550;
+    cursor: pointer;
 }
 .box-right-register-form{
     background-color: white;
@@ -67,18 +68,19 @@
     border-top-right-radius: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .box-right-register-form >h1{
   color: #3aaf9f;
-  font-size: 60px;
+  font-size: 50px;
   margin: 0;
-  padding-top: 90px;
 }
 .box-right-register-form>div{
     /* border: solid; */
     display: flex;
     justify-content: space-between;
-    width: 24%;
+    width: 28%;
     align-self: center;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -92,8 +94,11 @@
     height: 60px;
     border-radius: 50%;
 }
+.box-right-register-form a>img{
+    width: 60%;
+}
 .box-right-register-form >p{
-    color: #c6c8c7;
+    color: #acacac;
 }
 .box-right-register-form >input{
     align-self: center;
@@ -104,6 +109,26 @@
     color: #c6c8c7;
     font-size: 20px;
     margin-bottom: 20px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-name-resgister-F::placeholder{
+    background-image: url('../../../assets/Forms/Register/peopleIconGrayF.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+.input-email-resgister-F::placeholder{
+    background-image: url('../../../assets/Forms/Register/emailIconGrayF.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+.input-password-resgister-F::placeholder{
+    background-image: url('../../../assets/Forms/Register/padLockIconGrayF.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
 }
 .box-right-register-form >button {
     align-self: center;

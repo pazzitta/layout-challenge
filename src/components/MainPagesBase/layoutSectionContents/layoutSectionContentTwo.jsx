@@ -9,6 +9,9 @@ import IsologoBrandF from '../../../assets/Forms/Register/isologoWhite.png'
 import FacebookIconBlackF from '../../../assets/Forms/Register/iconFacebookBlack.png'
 import GoogleIconBlackF from '../../../assets/Forms/Register/iconGoogleBlack.png'
 import LinkedInIconBlackF from '../../../assets/Forms/Register/iconLinkedInBlack.png'
+import PeopleIconGrayF from '../../../assets/Forms/Register/peopleIconGrayF.png'
+import EmailIconGrayF from '../../../assets/Forms/Register/emailIconGrayF.png'
+import PadLockIconGrayF from '../../../assets/Forms/Register/padLockIconGrayF.png'
 
 
 import BackgroundImageMinimalismLP from '../../../assets/LandingPages/Minimalism/backgroundImageMinimalism.png'
@@ -99,11 +102,14 @@ const LayoutSectionContentTwo = () => {
                                             <img src={StarYellowD} alt="estrella amarilla" />
                                         </div> :
                                         location.pathname === '/forms' ?
-                                        <div className='assets-icons-furniture-D'>
+                                        <div className='assets-icons-register-F'>
                                             <img src={IsologoBrandF} alt="Isologo marca" />
                                             <img src={FacebookIconBlackF} alt="ícono Facebook negro" />
                                             <img src={GoogleIconBlackF} alt="ícono Google negro" />
                                             <img src={LinkedInIconBlackF} alt="ícono LinkedIn negro" />
+                                            <img src={PeopleIconGrayF} alt="ícono persona gris" />
+                                            <img src={EmailIconGrayF} alt="ícono Carta gris" />
+                                            <img src={PadLockIconGrayF} alt="ícono Candado gris" />
                                         </div> :
                                         <h5>soy las otras</h5>
                                     }

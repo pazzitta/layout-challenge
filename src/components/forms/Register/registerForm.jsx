@@ -24,9 +24,9 @@ const RegisterForm = () => {
                        <a href=""><img src={IconLinkedInBlack} alt="ícono LinkedIn" /></a>
                     </div>
                     <p>or use your email for registration</p>
-                    <input type="text" placeholder='Name'/>
-                    <input type="text" placeholder='Email'/>
-                    <input type="text" placeholder='Password'/>
+                    <input className='input-name-resgister-F' type="text" placeholder='Name'/>
+                    <input className='input-email-resgister-F' type="text" placeholder='Email'/>
+                    <input className='input-password-resgister-F' type="text" placeholder='Password'/>
                     <button>SING UP</button>
                 </section>
             </div>

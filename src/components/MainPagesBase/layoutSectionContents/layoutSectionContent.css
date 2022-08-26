@@ -232,13 +232,15 @@
 .assets-icons-clothes-D,
 .assets-icons-login-f,
 .assets-icons-clothes-c,
-.assets-icons-furniture-D{
+.assets-icons-furniture-D,
+.assets-icons-register-F{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-.assets-icons-clothes-c>img{
+.assets-icons-clothes-c>img,
+.assets-icons-register-F>img:first-child{
     width: 30%;
 }
 .assets-icons-furniture-D>img:first-child{
@@ -253,6 +255,16 @@
 .assets-icons-furniture-D>img:nth-child(3){
     width: 15%;
     margin-right: 45px;
+}
+.assets-icons-register-F>img:nth-child(2),
+.assets-icons-register-F>img:nth-child(3),
+.assets-icons-register-F>img:nth-child(4),
+.assets-icons-register-F>img:nth-child(5),
+.assets-icons-register-F>img:nth-child(6),
+.assets-icons-register-F>img:nth-child(7),
+.assets-icons-register-F>img:last-child{
+    width: 15%;
+    margin-right: 20px;
 }
 .assets-icons-clothes-c>img:first-child{
     margin-right: 20px;
