@@ -72,10 +72,17 @@
     transform: rotate(35deg);
 }
 
-.original-page-section-order>img{
+.original-page-section-order>img,
+.original-page-section-order-two>img:first-child,
+.original-page-section-order-two>img:nth-child(3),
+.original-page-section-order-two>img:nth-child(4),
+.original-page-section-order-two>img:last-child{
     align-self: center;
     width: 65%;
     margin-top: 20px;
+}
+.original-page-section-order-two>img:nth-child(2){
+    width: 35%;
 }
 
 .assets-section-order{
@@ -219,13 +226,15 @@
      height: 920px;
 }
 .assets-multimedia-background-video-LP,
-.assets-multimedia-clothes-D{
+.assets-multimedia-clothes-D,
+.assets-multimedia-ecommerce-H{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .assets-multimedia-background-video-LP>video,
-.assets-multimedia-minimalism-LP>img{
+.assets-multimedia-minimalism-LP>img,
+.assets-multimedia-ecommerce-H>img{
    width: 70%;
 }
 .assets-icons-minimalist-h,

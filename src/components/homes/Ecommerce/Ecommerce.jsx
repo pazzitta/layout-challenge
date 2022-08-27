@@ -1,6 +1,7 @@
-import CardEcommerce from "./Cards/CardEcommerce"
-import BackgroundEcommerce from '../../../assets/homes/backgroundEcommerce.jpg'
-import ProvisionalCart from '../../../assets/Cards/cartBlack.png'
+import './ecommerce.css'
+import CardEcommerce from "../AllHomes/Cards/CardEcommerce"
+import BackgroundEcommerce from '../../../assets/homes/Ecommerce/backgroundEcommerce.jpg'
+import CartWhiteH from '../../../assets/homes/Ecommerce/cartWhiteH.png'
 
 const EcommerceHomes = () => {
     return(
@@ -22,7 +23,7 @@ const EcommerceHomes = () => {
                         <a href="">Help</a>
                         <a href="">Contact Us</a>
                         <a href="">
-                            <img src={ProvisionalCart} alt="Carrito" />
+                            <img src={CartWhiteH} alt="Carrito" />
                         </a>
                     </div>
                 </nav>
@@ -34,9 +35,6 @@ const EcommerceHomes = () => {
                     <a href="">Objets</a>
                 </nav>
                 <div className="box-all-card-Ecommerce-homes">
-                    <CardEcommerce/>
-                    <CardEcommerce/>
-                    <CardEcommerce/>
                     <CardEcommerce/>
                     <CardEcommerce/>
                     <CardEcommerce/>

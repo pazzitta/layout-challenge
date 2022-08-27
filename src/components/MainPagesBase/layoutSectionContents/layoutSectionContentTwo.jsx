@@ -12,21 +12,23 @@ import LinkedInIconBlackF from '../../../assets/Forms/Register/iconLinkedInBlack
 import PeopleIconGrayF from '../../../assets/Forms/Register/peopleIconGrayF.png'
 import EmailIconGrayF from '../../../assets/Forms/Register/emailIconGrayF.png'
 import PadLockIconGrayF from '../../../assets/Forms/Register/padLockIconGrayF.png'
-
-
+import CartWhiteH from '../../../assets/homes/Ecommerce/cartWhiteH.png'
 import BackgroundImageMinimalismLP from '../../../assets/LandingPages/Minimalism/backgroundImageMinimalism.png'
 import LeftImageProductD from '../../../assets/Details/ProductTwo/leftImageProduct.jpg'
 import MiddleImageProductD from '../../../assets/Details/ProductTwo/middleImageProduct.jpg'
 import ProductFrontImageD from '../../../assets/Details/ProductTwo/productFrontImage.png'
 import RightImageProductD from '../../../assets/Details/ProductTwo/rightImageProduct.jpg'
 import ProductTwoC from '../../../assets/Cards/Food/productFood.png'
+import BackgroundEcommerceH from '../../../assets/homes/Ecommerce/backgroundEcommerce.jpg'
 
 import OPMinimalismLP from '../../../assets/LandingPages/LayoutSectionContent/OPMinimalismLP.jpg'
 import OPFurniture from '../../../assets/Details/ProductTwo/OPFurnitureD.jpg'
 import OPRegisterF from '../../../assets/Forms/Register/LayoutSectioContent/OPRegisterF.jpg'
 import OPFooodC from '../../../assets/Cards/LayoutSectionContent/OPFoodC.jpg'
+import OPEcommerce from '../../../assets/homes/LayoutSectionContent/OPEcommerceH.jpg'
 
 import LayoutMinimalism from '../../landingsPages/Minimalism/layoutMinimalism'
+import EcommerceHomes from '../../homes/Ecommerce/Ecommerce'
 import FurnitureDetail from '../../details/ProductTwo/Furniture'
 import RegisterForm from '../../forms/Register/registerForm'
 import FoodCard from '../../Cards/Food/Food'
@@ -37,7 +39,7 @@ const LayoutSectionContentTwo = () => {
     const location = useLocation()
     return(
         <div className="order-all-layout-section-content">
-            <section className='original-page-section-order'>
+            <section className='original-page-section-order-two'>
                 <div className='section-identification-posters-order'>
                     <h2 className='section-identification-posters-base'>ORIGINAL PAGE</h2>
                     <div> 
@@ -47,7 +49,7 @@ const LayoutSectionContentTwo = () => {
                 </div>
                 {
                     location.pathname === '/landingPages' ? <img src={OPMinimalismLP} alt="pág. original Minimalism LP" /> :
-                    location.pathname === '/homes' ? <img src="" alt="pág. original " /> :
+                    location.pathname === '/homes' ? <img src={OPEcommerce} alt="pág. original " /> :
                     location.pathname === '/details' ? <img src={OPFurniture} alt="pág. original Furniture D" /> :
                     location.pathname === '/forms' ? <img src={OPRegisterF} alt="pág. original Register " /> :
                     <img src={OPFooodC} alt="pág. original Food C" /> 
@@ -96,7 +98,9 @@ const LayoutSectionContentTwo = () => {
                                             <img src={ShopifyLogo} alt="logo marca" />
                                         </div> :
                                         location.pathname === '/homes' ?
-                                        <h2>soy el último</h2> :
+                                        <div className='assets-icons-minimalism-LP'>
+                                            <img src={CartWhiteH} alt="ícono carrito" />
+                                        </div> :
                                         location.pathname === '/details' ?
                                         <div className='assets-icons-furniture-D'>
                                             <img src={BrandLogoD} alt="logo marca" />
@@ -131,6 +135,9 @@ const LayoutSectionContentTwo = () => {
                                         <div className='assets-multimedia-minimalism-LP'>
                                             <img src={BackgroundImageMinimalismLP} alt="backgroun image PP" />
                                         </div> :
+                                        location.pathname === '/homes' ? <div className='assets-multimedia-ecommerce-H'>
+                                            <img src={BackgroundEcommerceH} alt="background ecommerce" />
+                                        </div> :
                                         location.pathname === '/details' ? 
                                         <div className='assets-multimedia-furniture-D'>
                                             <img src={LeftImageProductD} alt="Imagen izquierda silla" />
@@ -153,7 +160,7 @@ const LayoutSectionContentTwo = () => {
                                <div className='assets-multimedia-minimalism-LP'>
                                 {
                                     location.pathname === '/landingPages' ? <h4>none</h4> :
-                                    location.pathname === '/homes' ? <h4>soy el home</h4> :
+                                    location.pathname === '/homes' ? <h4>none</h4> :
                                     location.pathname === '/details' ? <h4>none</h4> :
                                     location.pathname === '/forms' ? <img src={BackgroundRegisterF} alt="Imagen del medio silla" /> :
                                     <h4>none</h4> 
@@ -187,7 +194,7 @@ const LayoutSectionContentTwo = () => {
                 </div>
                 {
                     location.pathname === '/landingPages' ? <LayoutMinimalism/> : 
-                    location.pathname === '/homes' ? <LayoutMinimalism/> :
+                    location.pathname === '/homes' ? <EcommerceHomes/> :
                     location.pathname === '/details' ? <FurnitureDetail/> :
                     location.pathname === '/forms' ? <RegisterForm/> :
                     <div className='food-card-order-section-content-two'>
