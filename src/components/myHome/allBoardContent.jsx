@@ -13,7 +13,14 @@ const AllBoardContent = () => {
         <div className="order-all-board-content">
             <div className='section-one'>
                 <a href="/landingPages">
-                    <MetalBasket/>
+                    <div className='position-metal-basket'>
+                        <MetalBasket/>
+                    </div>
+                    <div className='poster-wood-order-and-style' >
+                        <div></div>
+                        <h2>landing pages</h2>
+                        <div></div>
+                    </div>
                 </a>
                 <a href="/homes">
                     <MetalBasket/>

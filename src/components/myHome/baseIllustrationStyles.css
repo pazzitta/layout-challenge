@@ -154,6 +154,10 @@
 /* SECTION ONE */
 .section-one>a{
     color: black;
+    border: solid red;
+    height: 105px;
+    width: 260px;
+    text-decoration: none;
 }
 .section-one>a:first-child:hover{
     color: #7136F4;
@@ -169,6 +173,31 @@
 }
 .section-one>a:last-child:hover{
     color: #E1C815;
+}
+
+.position-metal-basket{
+    position: absolute;
+}
+.poster-wood-order-and-style{
+    background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.poster-wood-order-and-style>div{
+    background-color: #555555;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.poster-wood-order-and-style>h2{
+    margin: 0;
+    line-height: 22px;
 }
 
 /* SECTION TWO */
