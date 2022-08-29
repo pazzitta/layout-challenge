@@ -1,4 +1,6 @@
 import './layoutFolder.css'
+import PapersTop from '../../../assets/myHome/AllBoardContent/papersTop.png'
+import PaperUx from '../../../assets/myHome/AllBoardContent/SheetHomesUX.png'
 
 const LayoutFolder = () => {
     return(
@@ -12,27 +14,22 @@ const LayoutFolder = () => {
                     <div className='flap-front-folder-order-and-style'>
                         <div>
                             <div></div>
-                            <h4>Namename</h4>
+                            {/* <h4>Namename</h4> */}
                         </div>
                     </div>                
                     <div className='base-front-folder-style'></div>
                 </div>
             </div>
             
+            <img className='paper-ux-order' src={PaperUx} alt="" />
+
             <div className='box-fron-folder'>
                 <div className='front-front-cover-folde-order'>
                     <div className='flap-front-front-folder-order-and-style'></div>                
                     <div className='base-front-front-folder-style'></div>
                 </div>
                 <div className='box-paper-markets'>
-                    <div></div>
-                    <div></div>
-                    <div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
+                    <img src={PapersTop} alt="" />
                 </div>
         
             </div>

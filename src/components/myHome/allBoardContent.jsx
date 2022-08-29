@@ -13,6 +13,20 @@ const AllBoardContent = () => {
         <div className="order-all-board-content">
             <div className='section-one'>
                 <a href="/landingPages">
+                    <div className='order-folders-in-back-of-metal-basket'>
+                        <div>
+                            <LayoutFolder/>
+                        </div>
+                        <div>
+                            <LayoutFolder/>
+                        </div>
+                        <div>
+                            <LayoutFolder/>
+                        </div>
+                        <div>
+                            <LayoutFolder/>
+                        </div>
+                    </div>
                     <div className='position-metal-basket'>
                         <MetalBasket/>
                     </div>
@@ -23,6 +37,20 @@ const AllBoardContent = () => {
                     </div>
                 </a>
                 <a href="/homes">
+                    <div className='order-folders-in-back-of-metal-basket'>
+                        <div>
+                            <LayoutFolder/>
+                        </div>
+                        <div>
+                            <LayoutFolder/>
+                        </div>
+                        <div>
+                            <LayoutFolder/>
+                        </div>
+                        <div>
+                            <LayoutFolder/>
+                        </div>
+                    </div>
                     <div className='position-metal-basket'>
                         <MetalBasket/>
                     </div>
@@ -33,6 +61,20 @@ const AllBoardContent = () => {
                     </div>
                 </a>
                 <a href="/details">
+                    <div className='order-folders-in-back-of-metal-basket'>
+                        <div>
+                            <LayoutFolder/>
+                        </div>
+                        <div>
+                            <LayoutFolder/>
+                        </div>
+                        <div>
+                            <LayoutFolder/>
+                        </div>
+                        <div>
+                            <LayoutFolder/>
+                        </div>
+                    </div>
                     <div className='position-metal-basket'>
                         <MetalBasket/>
                     </div>
@@ -43,6 +85,20 @@ const AllBoardContent = () => {
                     </div>
                 </a>
                 <a href="/forms">
+                    <div className='order-folders-in-back-of-metal-basket'>
+                        <div>
+                            <LayoutFolder/>
+                        </div>
+                        <div>
+                            <LayoutFolder/>
+                        </div>
+                        <div>
+                            <LayoutFolder/>
+                        </div>
+                        <div>
+                            <LayoutFolder/>
+                        </div>
+                    </div>
                     <div className='position-metal-basket'>
                         <MetalBasket/>
                     </div>
@@ -53,7 +109,21 @@ const AllBoardContent = () => {
                     </div>
                 </a>
                 <a href="/cards">
-                <div className='position-metal-basket'>
+                    <div className='order-folders-in-back-of-metal-basket'>
+                        <div>
+                            <LayoutFolder/>
+                        </div>
+                        <div>
+                            <LayoutFolder/>
+                        </div>
+                        <div>
+                            <LayoutFolder/>
+                        </div>
+                        <div>
+                            <LayoutFolder/>
+                        </div>
+                    </div>
+                    <div className='position-metal-basket'>
                         <MetalBasket/>
                     </div>
                     <div className='poster-wood-order-and-style' >
@@ -93,7 +163,8 @@ const AllBoardContent = () => {
                         <h2>layouts</h2>
                         <div></div>
                     </div>
-                    <LayoutFolder/>
+                    <MetalBasket/>
+                    {/* <LayoutFolder/> */}
                 </section>
                 <section>
                     <div className='order-note'>
