@@ -7,6 +7,7 @@ import FamilyPictureTwo from '../../assets/myHome/AllBoardContent/familyPictureT
 import FamilyPictureThree from '../../assets/myHome/AllBoardContent/familyPictureThree.jpg'
 import MetalBasket from './InternalBoardComponents/metalBasket';
 import LayoutFolder from './InternalBoardComponents/layoutFolder';
+import MyContactForm from './InternalBoardComponents/myContactForm';
 
 const AllBoardContent = () => {
     return (
@@ -170,7 +171,14 @@ const AllBoardContent = () => {
                         <h2>layouts</h2>
                         <div></div>
                     </div>
-                    <MetalBasket/>
+                    <div className='box-metal-basquet-and-my-contact-form'> 
+                        <div>
+                            <MetalBasket/>
+                        </div>
+                        <div>
+                            <MyContactForm/>
+                        </div>
+                    </div>
                     {/* <LayoutFolder/> */}
                 </section>
                 <section>

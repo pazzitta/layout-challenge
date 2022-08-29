@@ -365,7 +365,26 @@
     color: white;
     font-family: 'Abel', sans-serif;
 }
-
+.box-metal-basquet-and-my-contact-form{
+    /* border: solid green; */
+    width: 100%;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.box-metal-basquet-and-my-contact-form>div:first-child{
+    /* border: solid orange; */
+    position: absolute;
+    width: 270px;
+}
+.box-metal-basquet-and-my-contact-form>div:last-child{
+    /* border: solid rgb(0, 145, 255); */
+    /* position: relative; */
+    height: 250px;
+    width: 205px;
+}
 
 /* GENERAL SECTION THREE */
 .section-three{
