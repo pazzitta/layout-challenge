@@ -124,7 +124,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 .section-two>section:nth-child(3){
@@ -132,11 +132,12 @@
     width: 20.4%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 .section-two>section:nth-child(4){
-    border: solid thin rgb(255, 165, 105);
+    /* border: solid thin rgb(255, 165, 105); */
     width: 14.5%;
     height: 100%;
     display: flex;
@@ -154,10 +155,13 @@
 /* SECTION ONE */
 .section-one>a{
     color: black;
-    border: solid red;
+    /* border: solid red; */
     height: 105px;
     width: 260px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .section-one>a:first-child:hover{
     color: #7136F4;
@@ -187,18 +191,27 @@
     height: 60px;
     position: relative;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .poster-wood-order-and-style>div{
-    background-color: #555555;
-    width: 10px;
-    height: 10px;
+    background-color: #444444;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
 }
 .poster-wood-order-and-style>h2{
     margin: 0;
-    line-height: 22px;
+    font-size: 27px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    width: 110px;
+    color: white;
+    font-family: 'Abel', sans-serif;
 }
+/* .poster-wood-order-and-style>h2:hover{
+   color: #F62F55;
+} */
 
 /* SECTION TWO */
 .order-portrait-door-left-aligned{
@@ -242,21 +255,51 @@
    width: 100px;
    height: 80px;
 }
+/* SECTION THREE INSIDE OF  GENERAL SECTION TWO */
+.layouts-poster-wood-order-and-style{
+    background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.layouts-poster-wood-order-and-style>div{
+    background-color: #444444;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.layouts-poster-wood-order-and-style>h2{
+    /* border: solid; */
+    margin: 0;
+    font-size: 55px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    width: 200px;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
 
-/* SECTION THREE */
+
+/* GENERAL SECTION THREE */
 .section-three{
     /* border: solid thin palevioletred; */
     width: 96.4%;
     height: 10.6%;
 }
 
+
 /* SECTION FOUR */
 .order-note{
-    border: solid #212121;
+    /* border: solid #b82626; */
     width: 100%;
     height: 130px;
     display: flex;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 .order-note-scotch-tape-one{
     /* border: solid; */
@@ -302,6 +345,14 @@
     margin: 0;
     font-size: 15px;
 }
+.order-note-two{
+    /* border: solid #392323; */
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: end;
+    padding-right:10px ;
+}
 .hotpink-note-background-two{
     background-color: #F44D6D;
     width: 135px;
@@ -334,6 +385,8 @@
     right: 0px;
     bottom: 1px;
     transform: rotate(-15deg);
+    margin-top: 25px;
+    padding-left: 5px;
 }
 .order-note-scotch-tape-two>div:first-child{
     width: 45px;

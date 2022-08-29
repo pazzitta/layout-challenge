@@ -23,16 +23,44 @@ const AllBoardContent = () => {
                     </div>
                 </a>
                 <a href="/homes">
-                    <MetalBasket/>
+                    <div className='position-metal-basket'>
+                        <MetalBasket/>
+                    </div>
+                    <div className='poster-wood-order-and-style' >
+                        <div></div>
+                        <h2>homes</h2>
+                        <div></div>
+                    </div>
                 </a>
                 <a href="/details">
-                    <MetalBasket/>
+                    <div className='position-metal-basket'>
+                        <MetalBasket/>
+                    </div>
+                    <div className='poster-wood-order-and-style' >
+                        <div></div>
+                        <h2>details</h2>
+                        <div></div>
+                    </div>
                 </a>
                 <a href="/forms">
-                    <MetalBasket/>
+                    <div className='position-metal-basket'>
+                        <MetalBasket/>
+                    </div>
+                    <div className='poster-wood-order-and-style' >
+                        <div></div>
+                        <h2>forms</h2>
+                        <div></div>
+                    </div>
                 </a>
                 <a href="/cards">
-                    <MetalBasket/>
+                <div className='position-metal-basket'>
+                        <MetalBasket/>
+                    </div>
+                    <div className='poster-wood-order-and-style' >
+                        <div></div>
+                        <h2>cards</h2>
+                        <div></div>
+                    </div>
                 </a>
             </div>
             <div className='section-two'>
@@ -60,6 +88,11 @@ const AllBoardContent = () => {
                     </div>
                 </section>
                 <section>
+                    <div className='layouts-poster-wood-order-and-style' >
+                        <div></div>
+                        <h2>layouts</h2>
+                        <div></div>
+                    </div>
                     <LayoutFolder/>
                 </section>
                 <section>
@@ -72,9 +105,9 @@ const AllBoardContent = () => {
                             <div></div>
                         </div>
                     </div>
-                    <div className='order-note'>
+                    <div className='order-note-two'>
                         <div className='hotpink-note-background-two'>
-                            <p>No sé aún...</p>
+                            <p>"Sé el cambio que quieres ver en el mundo"</p>
                         </div>
                         <div className='order-note-scotch-tape-two'>
                             <div></div>
