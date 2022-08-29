@@ -249,7 +249,53 @@
    color: #F62F55;
 } */
 
-/* SECTION TWO */
+/* GENERAL SECTION TWO */
+/* SECTION ONE INSIDE OF  GENERAL SECTION TWO */
+.in-process-position-metal-baske-order{
+    /* border: solid hotpink; */
+    width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.in-process-position-metal-basket{
+    position: absolute;
+    /* border: solid red; */
+    width: 325px;
+    /* margin-top: 75px; */
+    display: flex;
+    justify-content: center;
+}
+.in-process-poster-wood-order-and-style{
+    background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* align-self: center; */
+}
+.in-process-poster-wood-order-and-style>div{
+    background-color: #444444;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+.in-process-poster-wood-order-and-style>h2{
+    margin: 0;
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    width: 110px;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+/* SECTION TWO INSIDE OF  GENERAL SECTION TWO */
 .order-portrait-door-left-aligned{
     /* border: solid blue; */
     width: 80%;

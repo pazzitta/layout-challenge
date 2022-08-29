@@ -136,8 +136,15 @@ const AllBoardContent = () => {
             <div className='section-two'>
                 <section>
                     <BlackboardCalendar/>
-                    <div>
-                        <MetalBasket/>
+                    <div className='in-process-position-metal-baske-order'>
+                        <div className='in-process-position-metal-basket'>
+                            <MetalBasket/>
+                        </div>
+                        <div className='in-process-poster-wood-order-and-style' >
+                            <div></div>
+                            <h2>in process</h2>
+                            <div></div>
+                        </div>
                     </div>
                 </section>
                 <section>
