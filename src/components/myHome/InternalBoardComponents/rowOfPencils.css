@@ -27,7 +27,7 @@
 }
 .order-a-purple-pencil>div:last-child{
     width: 15px;
-    height: 45px;
+    height: 40px;
     background-color: #814EF2;
 }
 .order-a-hotpink-pencil>div:first-child{
@@ -40,7 +40,7 @@
 }
 .order-a-hotpink-pencil>div:last-child{
     width: 15px;
-    height: 45px;
+    height: 40px;
     background-color: #F44D6D;
 }
 .order-a-blue-pencil>div:first-child{
@@ -53,7 +53,7 @@
 }
 .order-a-blue-pencil>div:last-child{
     width: 15px;
-    height: 45px;
+    height: 40px;
     background-color: #5058EF;
 }
 .order-a-green-pencil>div:first-child{
@@ -66,7 +66,7 @@
 }
 .order-a-green-pencil>div:last-child{
     width: 15px;
-    height: 45px;
+    height: 40px;
     background-color: #4EF2A3;
 }
 .order-a-yellow-pencil>div:first-child{
@@ -79,6 +79,6 @@
 }
 .order-a-yellow-pencil>div:last-child{
     width: 15px;
-    height: 45px;
+    height: 40px;
     background-color: #F2DE4E;
 }

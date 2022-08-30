@@ -8,10 +8,11 @@ const WantedPoster = () => {
         <div className='order-wanted-poster'>
             <div className='order-and-style-base-wanted-poster'>
                 <h3>WANTED</h3>
-                <p>WANTED FOR THE CRIME OF SUFFERING <br />IMPOSTOR SYNDROME IN TECHNICAL INTERVIEWS</p>
+                <p>SE BUSCA POR EL CRIMEN DE SUFRIR SÍNDROME DEL IMPOSTOR EN ENTREVISTA TÉCNICA Y HACER CHISTE MALOS PARA QUE NO SE NOTE</p>
+                {/* <p>WANTED FOR THE CRIME OF SUFFERING <br />IMPOSTOR SYNDROME IN TECHNICAL INTERVIEWS</p> */}
                 <img src={MyPicture} alt="imagen mía" />
                 <article>
-                    <p>claim reward at</p>
+                    <p>reclamar recompensa</p>
                     <a href="https://www.linkedin.com/in/paz-zitta/" target="_blank" rel="noreferrer"><img src={LinkedInIcon} alt="iso linkedIn" /></a>
                     <a href="https://github.com/pazzitta" target="_blank" rel="noreferrer"><img src={GitHubIcon} alt="iso gitHub" /></a>
                 </article>

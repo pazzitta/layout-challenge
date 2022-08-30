@@ -2,12 +2,13 @@ import './blackBoardCalendar.css'
 
 const BlackboardCalendar = () =>{
     return(
-        <div className='blackboard-calendar-order'>
+        <div className='blackboard-order'>
             <div></div>
             <div></div>
             <div>
-                <div className='order-month-and-date'></div>
-                <table>
+                <div className='blackboard-text-order-and-style'>Hola, soy Paz, Full Stack Developer y este es mi portfolio 
+                de maquetaciones html y css <p>→</p></div>
+                {/* <table>
                     <tr className='order-and-styles-row-one'>
                         <td>Sun.</td>
                         <td>Mon.</td>
@@ -26,7 +27,7 @@ const BlackboardCalendar = () =>{
                         <td>jkja</td>
                         <td>kka</td>
                     </tr>
-                </table>
+                </table> */}
             </div>
         </div>
     )

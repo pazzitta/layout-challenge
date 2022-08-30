@@ -18,6 +18,7 @@
     align-items: center;
     position: relative;
 }
+
 .top-frame-styles-and-order{
     background-image: url('../../assets/myHome/OrganizerBaseBoard/woodenTopFrame.jpg');
     background-repeat:no-repeat;
@@ -57,8 +58,8 @@
 }
 .circle-line-order>div{
     background-color: white;
-    width: 15px;
-    height: 15px;
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
 }
 
@@ -96,14 +97,91 @@
     flex-direction: column;
     align-items: center;
 }
+
+/* GENERAL SECTION ONE */
 .section-one{
-    /* border: solid thin goldenrod; */
+    border: solid thin goldenrod;
     width: 96.4%;
-    height: 33%;
+    height: 90.4%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.section-one>section:first-child{
+    border: solid thin #F62F55;
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+}
+.section-one>section:first-child>div:first-child{
+    /* border: solid thin #F62F55; */
+    width: 100%;
+    height: 41%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-one>section:first-child>div:nth-child(2){
+    /* border: solid thin #53f62f; */
+    width: 100%;
+    height: 9%;
+    display: flex;
     align-items: flex-end;
 }
+.section-one>section:first-child>div:last-child{
+    /* border: solid thin #f6dc2f; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.section-one>section:last-child{
+    border: solid thin #6b2ff6;
+    width: 66%;
+}
+
+.order-note-scotch-tape-one{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 245px;
+    height: 40px;
+    right: -3px;
+    bottom: 8px;
+}
+.order-note-scotch-tape-one>div:first-child{
+    width: 35px;
+    height: 12px;
+    background-color: #231E20;
+    transform: rotate(-50deg);
+}
+.order-note-scotch-tape-one>div:last-child{
+    width: 35px;
+    height: 12px;
+    background-color: #231E20;
+    transform: rotate(45deg);
+}
+.hotpink-note-background-one{
+    background-color: #F44D6D;
+    width: 220px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 16px;
+
+}
+.hotpink-note-background-one>p{
+    font-family: 'Abel', sans-serif;
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 0;
+    font-size: 40px;
+}
+
+
 .section-two{
     border: solid thin red;
     width: 96.4%;
@@ -390,20 +468,20 @@
 .section-three{
     /* border: solid thin palevioletred; */
     width: 96.4%;
-    height: 8.5%;
+    height: 7%;
 }
 
 
 /* SECTION FOUR */
-.order-note{
-    /* border: solid #b82626; */
+/* .order-note{
+    
     width: 100%;
     height: 130px;
     display: flex;
     margin-top: 100px;
 }
 .order-note-scotch-tape-one{
-    /* border: solid; */
+   
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -435,17 +513,17 @@
     transform: rotate(15deg);
     margin-left: 5px;
     position: absolute;
-    /* no es la medida pero la tengo que ver inclinada */
+
 }
 .hotpink-note-background-one>p{
-    /* no es la medida pero la tengo que ver inclinada */
+  
     font-family: 'Aladin', cursive;
     color: white;
     padding-left: 12px;
     padding-right: 12px;
     margin: 0;
     font-size: 15px;
-}
+} */
 .order-note-two{
     /* border: solid #392323; */
     width: 100%;

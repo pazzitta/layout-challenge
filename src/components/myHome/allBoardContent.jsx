@@ -13,6 +13,29 @@ const AllBoardContent = () => {
     return (
         <div className="order-all-board-content">
             <div className='section-one'>
+                <section>
+                    <div>
+                        <BlackboardCalendar/>
+                    </div>
+                    <div>
+                        <div className='hotpink-note-background-one'>
+                            <p>CONTACTO</p>
+                        </div>
+                        <div className='order-note-scotch-tape-one'>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div>
+                        <WantedPoster/>
+                    </div>
+                </section>
+                <section>
+
+                </section>
+
+            </div>
+            {/* <div className='section-one'>
                 <a href="/landingPages">
                     <div className='order-folders-in-back-of-metal-basket'>
                         <div>
@@ -179,7 +202,6 @@ const AllBoardContent = () => {
                             <MyContactForm/>
                         </div>
                     </div>
-                    {/* <LayoutFolder/> */}
                 </section>
                 <section>
                     <div className='order-note'>
@@ -204,7 +226,7 @@ const AllBoardContent = () => {
                 <section>
                     <WantedPoster/>
                 </section>
-            </div>
+            </div> */}
             <div className='section-three'>
                 <RowOfPencils/>
             </div>
