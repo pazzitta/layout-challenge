@@ -77,4 +77,9 @@
 }
 .order-and-style-base-wanted-poster>article>a>img{
     width: 22px;
+    transition: transform 0.4s;
+    transform-style: preserve-3d;
+}
+.order-and-style-base-wanted-poster>article>a>img:hover{
+    transform:scale(1.3)
 }

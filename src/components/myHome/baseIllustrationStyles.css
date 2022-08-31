@@ -100,14 +100,14 @@
 
 /* GENERAL SECTION ONE */
 .section-one{
-    border: solid thin goldenrod;
+    /* border: solid thin goldenrod; */
     width: 96.4%;
-    height: 90.4%;
+    height: 92.5%;
     display: flex;
     justify-content: space-between;
 }
 .section-one>section:first-child{
-    border: solid thin #F62F55;
+    /* border: solid thin #F62F55; */
     width: 34%;
     display: flex;
     flex-direction: column;
@@ -136,8 +136,10 @@
 }
 
 .section-one>section:last-child{
-    border: solid thin #6b2ff6;
+    /* border: solid thin #6b2ff6; */
     width: 66%;
+    display: flex;
+    flex-direction: column;
 }
 
 .order-note-scotch-tape-one{
@@ -180,6 +182,200 @@
     margin: 0;
     font-size: 40px;
 }
+
+.section-one>section:last-child>div:first-child{
+   /* border:solid #E1C815; */
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.layouts-poster-wood-order-and-style{
+    background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 330px;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.layouts-poster-wood-order-and-style>div{
+    background-color: #444444;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.layouts-poster-wood-order-and-style>h2{
+    /* border: solid; */
+    margin: 0;
+    font-size: 35px;
+    line-height: 35px;
+    letter-spacing: 4px;
+    width: 270px;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+.section-one>section:last-child>div:nth-child(2){
+    /* border:solid #26e115; */
+    width: 100%;
+    height: 60%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.section-one>section:last-child>div:nth-child(2)>a{
+    /* border: solid red; */
+    color: black;
+    height: 180px;
+    width: 260px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-one>section:last-child>div:nth-child(2)>a:nth-child(2){
+    margin-left: 85px;
+}
+.section-one>section:last-child>div:nth-child(2)>a:nth-child(3){
+    margin-left: 85px;
+}
+.section-one>section:last-child>div:nth-child(2)>a:nth-child(4){
+    margin-right:50px ;
+}
+.section-one>section:last-child>div:nth-child(2)>a:last-child{
+    margin-left: 50px;
+}
+.section-one>section:last-child>div:nth-child(2)>a:first-child:hover{
+    color: #7136F4;
+}
+.section-one>section:last-child>div:nth-child(2)>a:nth-child(2):hover{
+    color: #F62F55;
+}
+.section-one>section:last-child>div:nth-child(2)>a:nth-child(3):hover{
+    color: #3842F1;
+}
+.section-one>section:last-child>div:nth-child(2)>a:nth-child(4):hover{
+    color: #0DDD79;
+}
+.section-one>section:last-child>div:nth-child(2)>a:last-child:hover{
+    color: #E1C815;
+}
+.order-folders-in-back-of-metal-basket{
+    /* border: solid hotpink; */
+    position: absolute;
+    width: 250px;
+    height: 178px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+.order-folders-in-back-of-metal-basket>div:first-child{
+     /* border:solid #7136F4; */
+    position: absolute;
+    margin-top: 3px;
+    right: 6px;
+}
+.order-folders-in-back-of-metal-basket>div:nth-child(2){
+    /* border:solid #36f488; */
+    position: absolute;
+    margin-top: 14px;
+    right: 15px;
+}
+.order-folders-in-back-of-metal-basket>div:nth-child(3){
+    /* border:solid #36f488; */
+    position: absolute;
+    margin-top: 27px;
+    right: 25px;
+}
+.order-folders-in-back-of-metal-basket>div:nth-child(4){
+    /* border:solid #36f488; */
+    position: absolute;
+    margin-top: 40px;
+    right: 33px;
+    /* bottom: 180px;
+    right: 60px; */
+}
+.position-metal-basket{
+    position: absolute;
+    margin-top: 80px;
+}
+.portfolio-poster-wood-order-and-style{
+    background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+.portfolio-poster-wood-order-and-style>div{
+    background-color: #444444;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.portfolio-poster-wood-order-and-style>h2{
+    /* border: solid; */
+    margin: 0;
+    font-size: 26px;
+    line-height: 35px;
+    letter-spacing: 4px;
+    width: 220px;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+.order-folders-in-back-of-metal-basket-two{
+    /* border: solid green; */
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+.order-folders-in-back-of-metal-basket-two>div{
+    /* border:solid #7136F4; */
+    position: absolute;
+    right: 20px;
+    margin-top: 5px;
+ }
+.poster-wood-order-and-style{
+    background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+}
+.poster-wood-order-and-style>div{
+    background-color: #444444;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+.poster-wood-order-and-style>h2{
+    margin: 0;
+    font-size: 27px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    width: 110px;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+
+
+
 
 
 .section-two{
@@ -231,98 +427,12 @@
 }
 
 /* SECTION ONE */
-.section-one>a{
-    /* border: solid red; */
-    color: black;
-    height: 222px;
-    width: 260px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.section-one>a:first-child:hover{
-    color: #7136F4;
-}
-.section-one>a:nth-child(2):hover{
-    color: #F62F55;
-}
-.section-one>a:nth-child(3):hover{
-    color: #3842F1;
-}
-.section-one>a:nth-child(4):hover{
-    color: #0DDD79;
-}
-.section-one>a:last-child:hover{
-    color: #E1C815;
-}
-.order-folders-in-back-of-metal-basket{
-  /* border: solid hotpink; */
-  position: absolute;
-  width: 250px;
-  height: 220px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-.order-folders-in-back-of-metal-basket>div:first-child{
-   /* border:solid #7136F4; */
-   position: absolute;
-   margin-top: 2px;
-}
-.order-folders-in-back-of-metal-basket>div:nth-child(2){
-    /* border:solid #36f488; */
-    position: absolute;
-    margin-top: 25px;
-    right: 10px;
-}
-.order-folders-in-back-of-metal-basket>div:nth-child(3){
-    /* border:solid #36f488; */
-    position: absolute;
-    margin-top: 50px;
-    right: 20px;
-}
-.order-folders-in-back-of-metal-basket>div:nth-child(4){
-    /* border:solid #36f488; */
-    position: absolute;
-    margin-top: 75px;
-    right: 30px;
-    /* bottom: 180px;
-    right: 60px; */
-}
 
-.position-metal-basket{
-    position: absolute;
-    margin-top: 120px;
-}
-.poster-wood-order-and-style{
-    background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 150px;
-    height: 60px;
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 120px;
-}
-.poster-wood-order-and-style>div{
-    background-color: #444444;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-}
-.poster-wood-order-and-style>h2{
-    margin: 0;
-    font-size: 27px;
-    line-height: 24px;
-    letter-spacing: 4px;
-    width: 110px;
-    color: white;
-    font-family: 'Abel', sans-serif;
-}
+
+
+
+
+
 /* .poster-wood-order-and-style>h2:hover{
    color: #F62F55;
 } */
@@ -416,33 +526,7 @@
    height: 80px;
 }
 /* SECTION THREE INSIDE OF  GENERAL SECTION TWO */
-.layouts-poster-wood-order-and-style{
-    background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 80px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.layouts-poster-wood-order-and-style>div{
-    background-color: #444444;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-}
-.layouts-poster-wood-order-and-style>h2{
-    /* border: solid; */
-    margin: 0;
-    font-size: 55px;
-    line-height: 24px;
-    letter-spacing: 4px;
-    width: 200px;
-    color: white;
-    font-family: 'Abel', sans-serif;
-}
+
 .box-metal-basquet-and-my-contact-form{
     /* border: solid green; */
     width: 100%;
