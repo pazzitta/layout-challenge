@@ -152,41 +152,41 @@ const MainPagesBoardContent = () => {
                 <div className='my-replicas-images-order'>
                     <div>
                     {
-                        location.pathname === "/landingPages" ?  <img src={BackgroundVideoLP} alt="imagen original Background Video LP"/>:
-                        location.pathname === "/homes" ? <img src={PersonalPageH} alt="imagen original personal page H"/>:
-                        location.pathname === "/details" ? <img src={ClothesD} alt="imagen original Clothes D"/>:
-                        location.pathname === "/forms" ? <img src={LoginF} alt="imagen original Login LP"/>:
-                        <img src={ClothesC} alt="imagen original Clothes C"/>
+                        location.pathname === "/landingPages" ? <a href='/landingPages#firstSection'><img src={BackgroundVideoLP} alt="imagen original Background Video LP"/></a> :
+                        location.pathname === "/homes" ? <a href='/homes#firstSection'><img src={PersonalPageH} alt="imagen original personal page H"/></a>:
+                        location.pathname === "/details" ? <a href='/details#firstSection'><img src={ClothesD} alt="imagen original Clothes D"/></a> :
+                        location.pathname === "/forms" ? <a href='/forms#firstSection'><img src={LoginF} alt="imagen original Login LP"/></a>:
+                        <a href='/cards#firstSection'><img src={ClothesC} alt="imagen original Clothes C"/></a>
                     }
                         <h3>Discover me</h3>
                     </div>
                     <div>
                     {
-                        location.pathname === "/landingPages" ?  <img src={MinimalismLP} alt="imagen original Minimalism LP" />:
-                        location.pathname === "/homes" ? <img src={ECommerceH} alt="imagen E-commerce H"/>:
-                        location.pathname === "/details" ? <img src={FurnitureD} alt="imagen original Furniture D"/>:
-                        location.pathname === "/forms" ? <img src={RegisterF} alt="imagen original Register F"/>:
-                        <img src={FoodC} alt="imagen original Food C"/>
+                        location.pathname === "/landingPages" ? <a href='/landingPages#secondSection'><img src={MinimalismLP} alt="imagen original Minimalism LP" /></a> :
+                        location.pathname === "/homes" ? <a href='/homes#secondSection'><img src={ECommerceH} alt="imagen E-commerce H"/></a>:
+                        location.pathname === "/details" ? <a href='/details#secondSection'><img src={FurnitureD} alt="imagen original Furniture D"/></a>:
+                        location.pathname === "/forms" ? <a href='/forms#secondSection'><img src={RegisterF} alt="imagen original Register F"/></a>:
+                        <a href='/cards#secondSection'><img src={FoodC} alt="imagen original Food C"/></a>
                     }
                         <h3>Discover me</h3>
                     </div>
                     <div>
                     {
-                        location.pathname === "/landingPages" ?   <img src={OrganicShapesLP} alt="imagen original OrganicShapes LP" />:
-                        location.pathname === "/homes" ? <img src={MarketPlaceH} alt="imagen Marketplace H"/>:
-                        location.pathname === "/details" ? <img src={NewsD} alt="imagen original News D"/>:
-                        location.pathname === "/forms" ? <img src={CheckOutF} alt="imagen original CheckOut F"/>:
-                        <img src={NewsC} alt="imagen original News C"/>
+                        location.pathname === "/landingPages" ? <a href='/landingPages#thirdSection'><img src={OrganicShapesLP} alt="imagen original OrganicShapes LP" /></a>:
+                        location.pathname === "/homes" ? <a href='/homes#thirdSection'><img src={MarketPlaceH} alt="imagen Marketplace H"/></a>:
+                        location.pathname === "/details" ? <a href='/details#thirdSection'><img src={NewsD} alt="imagen original News D"/></a>:
+                        location.pathname === "/forms" ? <a href='/forms#thirdSection'><img src={CheckOutF} alt="imagen original CheckOut F"/></a>:
+                        <a href='/cards#thirdSection'><img src={NewsC} alt="imagen original News C"/></a>
                     }
                         <h3>Discover me</h3>
                     </div>
                     <div>
                     {
-                        location.pathname === "/landingPages" ? <img src={PromotionalLP} alt="imagen original Promotional LP" />:
-                        location.pathname === "/homes" ? <img src={DigitalNewsPaperH} alt="imagen DigitalNewsPaper H"/>:
-                        location.pathname === "/details" ? <img src={ProfileD} alt="imagen original Profile D"/>:
-                        location.pathname === "/forms" ? <img src={ContactUsF} alt="imagen original Contact Us F"/>:
-                        <img src={ProfileC} alt="imagen original Profile C"/>
+                        location.pathname === "/landingPages" ? <a href='/landingPages#fourthSection'><img src={PromotionalLP} alt="imagen original Promotional LP" /></a>:
+                        location.pathname === "/homes" ? <a href='/homes#fourthSection'><img src={DigitalNewsPaperH} alt="imagen DigitalNewsPaper H"/></a>:
+                        location.pathname === "/details" ?  <a href='/details#fourthSection'><img src={ProfileD} alt="imagen original Profile D"/></a>:
+                        location.pathname === "/forms" ? <a href='/forms#fourthSection'><img src={ContactUsF} alt="imagen original Contact Us F"/></a>:
+                        <a href='/cards#fourthSection'><img src={ProfileC} alt="imagen original Profile C"/></a>
                     }
                         <h3>Discover me</h3>
                     </div>

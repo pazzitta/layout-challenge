@@ -10,7 +10,7 @@ const MyLayoutsSection = () => {
     const location = useLocation();
     return(
         <div className='general-order-my-layout-section'>
-            <article className='order-all-componentes-article-one'>
+            <article id='firstSection' className='order-all-componentes-article-one'>
                 {
                     location.pathname === '/landingPages'? 
                     <div className='name-background-video-article-one'>
@@ -47,7 +47,7 @@ const MyLayoutsSection = () => {
                 </div>
                 <LayoutSectionContentOne/>
             </article>
-            <article className='order-all-componentes-article-two'>
+            <article id='secondSection' className='order-all-componentes-article-two'>
                 {
                     location.pathname === '/landingPages'?
                     <div className='name-background-video-article-one'>
@@ -95,7 +95,7 @@ const MyLayoutsSection = () => {
                 </div>
                 <LayoutSectionContentTwo/>
             </article>
-            <article className='order-all-componentes-article-three'>
+            <article id='thirdSection' className='order-all-componentes-article-three'>
                 {
                     location.pathname === '/landingPages'?  <h2>ORGANIC SHAPES</h2> :
                     location.pathname === '/homes' ? <h2>MARKETPLACE</h2> :
@@ -115,7 +115,7 @@ const MyLayoutsSection = () => {
                     <div></div>
                 </div>
             </article>
-            <article className='order-all-componentes-article-four'>
+            <article id='fourthSection' className='order-all-componentes-article-four'>
                 {
                     location.pathname === '/landingPages'?   <h2>PROMOTIONAL</h2> :
                     location.pathname === '/homes' ? <h2>NEWS</h2> :
