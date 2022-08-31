@@ -36,6 +36,10 @@ import CartBlackIconC from '../../../assets/Cards/Clothes/cartBlack.png'
 import CartWhiteIconC from '../../../assets/Cards/Clothes/cartWhite.png'
 import ProductClotheCart from '../../../assets/Cards/Clothes/productOneCard.png'
 
+import ResponsiveBVLP834x1194 from '../../../assets/LandingPages/BackgrondVideo/responsiveBVLP834x1194.jpg'
+import ResponsiveBVLP390x844 from '../../../assets/LandingPages/BackgrondVideo/responsiveBVLP390x844.jpg'
+import ResponsiveBVLP360x640 from '../../../assets/LandingPages/BackgrondVideo/responsiveBVLP360x640.jpg'
+
 import VideoBackgroundVideoLP from '../../../assets/LandingPages/BackgrondVideo/backgroundV.mp4'
 import BackgroundVideo from '../../landingsPages/BackgroundVideo/layoutBackgroundVideo'
 import PersonalPage from '../../homes/PersonalPage/PersonalPage'
@@ -49,7 +53,7 @@ const LayoutSectionContentOne = () => {
         <div className="order-all-layout-section-content">
             <section className='original-page-section-order'>
                 <div className='section-identification-posters-order'>
-                    <h2 className='section-identification-posters-base'>ORIGINAL PAGE</h2>
+                    <h2 className='section-identification-posters-base'>PÁGINA ORIGINAL</h2>
                     <div> 
                         <div></div>
                         <div></div>
@@ -67,7 +71,7 @@ const LayoutSectionContentOne = () => {
             <section className='assets-section-order'>
                 <div className='top-box-assets-section-order'>
                     <div className='section-identification-posters-order'>
-                        <h2 className='section-identification-posters-base'>ASSETS</h2>
+                        <h2 className='section-identification-posters-base'>RECURSOS</h2>
                         <div> 
                             <div></div>
                             <div></div>
@@ -78,7 +82,7 @@ const LayoutSectionContentOne = () => {
                             <div className='order-wooden-signs-LSC'>
                                 <div>
                                     <div></div>
-                                    <h3>ICONS</h3>
+                                    <h3>ÍCONOS</h3>
                                     <div></div>
                                 </div>
                             </div>
@@ -92,7 +96,7 @@ const LayoutSectionContentOne = () => {
                             <div className='order-wooden-signs-LSC'>
                                 <div>
                                     <div></div>
-                                    <h3>ILLUSTRATIONS</h3>
+                                    <h3>ILLUSTRACIONES</h3>
                                     <div></div>
                                 </div>
                             </div>
@@ -196,17 +200,27 @@ const LayoutSectionContentOne = () => {
                 </div>
                 <div className='botton-box-assets-section-order'>
                     <div className='section-identification-posters-order'>
-                        <h2 className='section-identification-posters-base'>RESPONSIVE</h2>
+                        <h2 className='section-identification-posters-base'>RESPONSIVO</h2>
                         <div> 
                             <div></div>
                             <div></div>
                         </div>
                     </div>
+                    <div className='responsive-section-order'>
+                        {
+                            location.pathname === '/landingPages' ? <div>
+                                <img src={ResponsiveBVLP834x1194} alt="diseño responsivo background video LP 834x1194" />
+                                <img src={ResponsiveBVLP390x844} alt="diseño responsivo background video LP 390x844" />
+                                <img src={ResponsiveBVLP360x640} alt="diseño responsivo background video LP 360x640" />
+                            </div> :
+                            <div className='responsive-section-order'></div>
+                        }
+                    </div>
                 </div>
             </section>
             <section className='my-layout-section-order'>
                 <div className='section-identification-posters-order'>
-                    <h2 className='section-identification-posters-base'>MY LAYOUT</h2>
+                    <h2 className='section-identification-posters-base'>MI REPRODUCCIÓN</h2>
                     <div>
                         <div></div>
                         <div></div>
