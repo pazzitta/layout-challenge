@@ -57,7 +57,7 @@ const ClothesDetail = () => {
                     <section className='section-two-and-three-middle-rectangle-main-clothes-D'>
                         <ul>
                             <li>
-                                <h4>Talle</h4>
+                                <h4>Size</h4>
                             </li>
                         </ul>
                         <div>
@@ -71,13 +71,13 @@ const ClothesDetail = () => {
                     <section  className='section-two-and-three-middle-rectangle-main-clothes-D' >
                         <ul>
                             <li>
-                                <h4>Talle</h4>
+                                <h4>Algo 2</h4>
                             </li>
                         </ul>
                     </section>
                 </div>               
                 <div className="right-rectangle-order-product-image-main-product-one-detail">
-                    <h1>NOMBRE PRODUCTO</h1>
+                    <h1>TRIPLE S TRAINERS</h1>
                     <small> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</small>
                     <img src={FrontImageProduct} alt="Imagen del producto" />
                     <h2>$850</h2>

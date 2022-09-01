@@ -39,6 +39,10 @@ import ProductClotheCart from '../../../assets/Cards/Clothes/productOneCard.png'
 import ResponsiveBVLP834x1194 from '../../../assets/LandingPages/BackgrondVideo/responsiveBVLP834x1194.jpg'
 import ResponsiveBVLP390x844 from '../../../assets/LandingPages/BackgrondVideo/responsiveBVLP390x844.jpg'
 import ResponsiveBVLP360x640 from '../../../assets/LandingPages/BackgrondVideo/responsiveBVLP360x640.jpg'
+import ResponsivePPH834x1194 from '../../../assets/homes/PersonaPage/responsivePPH834x1194.jpg'
+import ResponsivePPH390x844 from '../../../assets/homes/PersonaPage/responsivePPH390x844.jpg'
+import ResponsivePPH360x640 from '../../../assets/homes/PersonaPage/responsivePPH360x640.jpg'
+
 
 import VideoBackgroundVideoLP from '../../../assets/LandingPages/BackgrondVideo/backgroundV.mp4'
 import BackgroundVideo from '../../landingsPages/BackgroundVideo/layoutBackgroundVideo'
@@ -208,11 +212,18 @@ const LayoutSectionContentOne = () => {
                     </div>
                     <div className='responsive-section-order'>
                         {
-                            location.pathname === '/landingPages' ? <div>
+                            location.pathname === '/landingPages' ? 
+                            <div>
                                 <img src={ResponsiveBVLP834x1194} alt="diseño responsivo background video LP 834x1194" />
                                 <img src={ResponsiveBVLP390x844} alt="diseño responsivo background video LP 390x844" />
                                 <img src={ResponsiveBVLP360x640} alt="diseño responsivo background video LP 360x640" />
                             </div> :
+                            location.pathname === '/homes' ? 
+                            <div>
+                            <img src={ResponsivePPH834x1194} alt="diseño responsivo background video LP 834x1194" />
+                            <img src={ResponsivePPH390x844} alt="diseño responsivo background video LP 390x844" />
+                            <img src={ResponsivePPH360x640} alt="diseño responsivo background video LP 360x640" />
+                        </div> :
                             <div className='responsive-section-order'></div>
                         }
                     </div>
