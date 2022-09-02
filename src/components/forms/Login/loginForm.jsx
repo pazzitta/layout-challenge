@@ -12,24 +12,26 @@ const LoginForm = () => {
         <article>
             <h1>$ budge<font color='#4395e7'>tale</font> login</h1>
             <p className='order-caption-login-form'>Don't have an account.Clouse your... ni leo que dice bien</p>
-            <div className='box-inputs-login-form'>
-                <img src={IconPerson} alt="ícono persona" />
-                <input type="text" placeholder='Your email'/>
-                <button className='button-password-ok-login-form'></button>
-            </div>
-            <div className='box-inputs-login-form'>
-                <img src={IconPadlock} alt="ícono candado" />
-                <input type="text" placeholder='Password'/>
-                <button className='button-password-off-login-form'></button>
-            </div>
-            <div className='box-inputs-caption-login-form'>
-                <div>
-                    <div><p>&#10004;</p></div>
-                    <small>soy algo</small>
+            <form>
+                <div className='box-inputs-login-form'>
+                    <img src={IconPerson} alt="ícono persona" />
+                    <input type="text" placeholder='Your email'/>
+                    <button className='button-password-ok-login-form'></button>
                 </div>
-                <small>soy otro algo</small>
-            </div>
-            <button className='style-button-login-form' type="submit"><img src={IconLoginButton} alt="ícono ingresar" />Login</button>
+                <div className='box-inputs-login-form'>
+                    <img src={IconPadlock} alt="ícono candado" />
+                    <input type="password" name="" id="" placeholder='Password' />
+                    <button className='button-password-off-login-form'></button>
+                </div>
+                <div className='box-inputs-caption-login-form'>
+                    <div>
+                        <div><p>&#10004;</p></div>
+                        <small>soy algo</small>
+                    </div>
+                    <small>soy otro algo</small>
+                </div>
+                <button className='style-button-login-form' type="submit"><img src={IconLoginButton} alt="ícono ingresar" />Login</button>
+            </form>
             <p className='style-caption-button-login-form'>Login with</p>
             <div>
                 <button className='style-button-facebook-login-form'><img src={IconFacebookWhite} alt="Iso Facebook" /></button>

@@ -42,6 +42,12 @@ import ResponsiveBVLP360x640 from '../../../assets/LandingPages/BackgrondVideo/r
 import ResponsivePPH834x1194 from '../../../assets/homes/PersonaPage/responsivePPH834x1194.jpg'
 import ResponsivePPH390x844 from '../../../assets/homes/PersonaPage/responsivePPH390x844.jpg'
 import ResponsivePPH360x640 from '../../../assets/homes/PersonaPage/responsivePPH360x640.jpg'
+import ResponsiveCD834x1194 from '../../../assets/Details/ProductOne/responsiveCD834x1194.jpg'
+import ResponsiveCD390x844 from '../../../assets/Details/ProductOne/responsiveCD390x844.jpg'
+import ResponsiveCD360x640 from '../../../assets/Details/ProductOne/responsiveCD360x640.jpg'
+import ResponsiveLF834x1194 from '../../../assets/Forms/Login/responsiveLF834x1194.jpg'
+import ResponsiveLF390x844 from '../../../assets/Forms/Login/responsiveLF390x844.jpg'
+import ResponsiveLF360x640 from '../../../assets/Forms/Login/responsiveLF360x640.jpg'
 
 
 import VideoBackgroundVideoLP from '../../../assets/LandingPages/BackgrondVideo/backgroundV.mp4'
@@ -220,10 +226,22 @@ const LayoutSectionContentOne = () => {
                             </div> :
                             location.pathname === '/homes' ? 
                             <div>
-                            <img src={ResponsivePPH834x1194} alt="diseño responsivo background video LP 834x1194" />
-                            <img src={ResponsivePPH390x844} alt="diseño responsivo background video LP 390x844" />
-                            <img src={ResponsivePPH360x640} alt="diseño responsivo background video LP 360x640" />
-                        </div> :
+                                <img src={ResponsivePPH834x1194} alt="diseño responsivo personal page H 834x1194" />
+                                <img src={ResponsivePPH390x844} alt="diseño responsivo personal page H 390x844" />
+                                <img src={ResponsivePPH360x640} alt="diseño responsivo personal page H 360x640" />
+                            </div> :
+                            location.pathname === '/details' ? 
+                            <div>
+                                <img src={ResponsiveCD834x1194} alt="diseño responsivo clothes D 834x1194" />
+                                <img src={ResponsiveCD390x844} alt="diseño responsivo clothes D 390x844" />
+                                <img src={ResponsiveCD360x640} alt="diseño responsivo clothes D 360x640" />
+                            </div> :
+                             location.pathname === '/forms' ? 
+                             <div>
+                                 <img src={ResponsiveLF834x1194} alt="diseño responsivo login F 834x1194" />
+                                 <img src={ResponsiveLF390x844} alt="diseño responsivo login F 390x844" />
+                                 <img src={ResponsiveLF360x640} alt="diseño responsivo login F 360x640" />
+                             </div> :
                             <div className='responsive-section-order'></div>
                         }
                     </div>
