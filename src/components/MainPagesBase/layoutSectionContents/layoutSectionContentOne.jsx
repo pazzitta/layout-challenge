@@ -48,6 +48,9 @@ import ResponsiveCD360x640 from '../../../assets/Details/ProductOne/responsiveCD
 import ResponsiveLF834x1194 from '../../../assets/Forms/Login/responsiveLF834x1194.jpg'
 import ResponsiveLF390x844 from '../../../assets/Forms/Login/responsiveLF390x844.jpg'
 import ResponsiveLF360x640 from '../../../assets/Forms/Login/responsiveLF360x640.jpg'
+import ResponsiveCC834x1194 from '../../../assets/Cards/Clothes/responsiveCC834x1194.jpg'
+import ResponsiveCC390x844 from '../../../assets/Cards/Clothes/responsiveCC390x844.jpg'
+import ResponsiveCC360x640 from '../../../assets/Cards/Clothes/responsiveCC360x640.jpg'
 
 
 import VideoBackgroundVideoLP from '../../../assets/LandingPages/BackgrondVideo/backgroundV.mp4'
@@ -242,7 +245,11 @@ const LayoutSectionContentOne = () => {
                                  <img src={ResponsiveLF390x844} alt="diseño responsivo login F 390x844" />
                                  <img src={ResponsiveLF360x640} alt="diseño responsivo login F 360x640" />
                              </div> :
-                            <div className='responsive-section-order'></div>
+                             <div>
+                                <img src={ResponsiveCC834x1194} alt="diseño responsivo Clothes C 834x1194" />
+                                <img src={ResponsiveCC390x844} alt="diseño responsivo clothes C 390x844" />
+                                <img src={ResponsiveCC360x640} alt="diseño responsivo clothes C 360x640" />
+                             </div>
                         }
                     </div>
                 </div>
