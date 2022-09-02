@@ -73,17 +73,13 @@
     transform: rotate(35deg);
 }
 
-.original-page-section-order>img,
-.original-page-section-order-two>img:first-child,
-.original-page-section-order-two>img:nth-child(3),
-.original-page-section-order-two>img:nth-child(4),
-.original-page-section-order-two>img:last-child{
+.original-page-section-order-two-img-ecommerce{
+    width: 35%;
+}
+.original-page-section-order-two-img{
     align-self: center;
     width: 65%;
     margin-top: 20px;
-}
-.original-page-section-order-two>img:nth-child(2){
-    width: 35%;
 }
 
 .assets-section-order{

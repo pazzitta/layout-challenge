@@ -48,11 +48,11 @@ const LayoutSectionContentTwo = () => {
                     </div>
                 </div>
                 {
-                    location.pathname === '/landingPages' ? <img src={OPMinimalismLP} alt="pág. original Minimalism LP" /> :
-                    location.pathname === '/homes' ? <img src={OPEcommerce} alt="pág. original " /> :
-                    location.pathname === '/details' ? <img src={OPFurniture} alt="pág. original Furniture D" /> :
-                    location.pathname === '/forms' ? <img src={OPRegisterF} alt="pág. original Register " /> :
-                    <img src={OPFooodC} alt="pág. original Food C" /> 
+                    location.pathname === '/landingPages' ? <img className='original-page-section-order-two-img' src={OPMinimalismLP} alt="pág. original Minimalism LP" /> :
+                    location.pathname === '/homes' ? <img className='original-page-section-order-two-img-ecommerce' src={OPEcommerce} alt="pág. original " /> :
+                    location.pathname === '/details' ? <img className='original-page-section-order-two-img' src={OPFurniture} alt="pág. original Furniture D" /> :
+                    location.pathname === '/forms' ? <img className='original-page-section-order-two-img' src={OPRegisterF} alt="pág. original Register " /> :
+                    <img  className='original-page-section-order-two-img' src={OPFooodC} alt="pág. original Food C" /> 
                 }
             </section>
 
