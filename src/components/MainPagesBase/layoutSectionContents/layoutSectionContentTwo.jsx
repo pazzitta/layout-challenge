@@ -26,6 +26,9 @@ import ResponsiveMLP360x640 from '../../../assets/LandingPages/Minimalism/respon
 import ResponsiveECH834x1194 from '../../../assets/homes/Ecommerce/responsiveECH834x1194.jpg'
 import ResponsiveECH390x844 from '../../../assets/homes/Ecommerce/responsiveECH390x844.jpg'
 import ResponsiveECH360x640 from '../../../assets/homes/Ecommerce/responsiveECH360x640.jpg'
+import ResponsiveFD834x1194 from '../../../assets/Details/ProductTwo/responsiveFD834x1194.jpg'
+import ResponsiveFD390x844 from '../../../assets/Details/ProductTwo/responsiveFD390x844.jpg'
+import ResponsiveFD360x640 from '../../../assets/Details/ProductTwo/responsiveFD360x640.jpg'
 
 import OPMinimalismLP from '../../../assets/LandingPages/LayoutSectionContent/OPMinimalismLP.jpg'
 import OPFurniture from '../../../assets/Details/ProductTwo/OPFurnitureD.jpg'
@@ -192,9 +195,9 @@ const LayoutSectionContentTwo = () => {
                         {
                             location.pathname === '/landingPages' ? 
                             <div>
-                                <img src={ResponsiveMLP834x1194} alt="diseño responsivo background video LP 834x1194" />
-                                <img src={ResponsiveMLP390x844} alt="diseño responsivo background video LP 390x844" />
-                                <img src={ResponsiveMLP360x640} alt="diseño responsivo background video LP 360x640" />
+                                <img src={ResponsiveMLP834x1194} alt="diseño responsivo minimalism LP 834x1194" />
+                                <img src={ResponsiveMLP390x844} alt="diseño responsivo minimalism LP 390x844" />
+                                <img src={ResponsiveMLP360x640} alt="diseño responsivo minimalism  LP 360x640" />
                             </div> :
                             location.pathname === '/homes' ? 
                             <div>
@@ -202,14 +205,15 @@ const LayoutSectionContentTwo = () => {
                                 <img src={ResponsiveECH390x844} alt="diseño responsivo e-commerce H 390x844" />
                                 <img src={ResponsiveECH360x640} alt="diseño responsivo e-commerce H 360x640" />
                             </div> :
+                            location.pathname === '/details' ? 
+                            <div>
+                                <img src={ResponsiveFD834x1194} alt="diseño responsivo Furniture D 834x1194" />
+                                <img src={ResponsiveFD390x844} alt="diseño responsivo Furniture D 390x844" />
+                                <img src={ResponsiveFD360x640} alt="diseño responsivo Furniture D 360x640" />
+                            </div> :
                             <h3>hl</h3>
                             // 
-                            // location.pathname === '/details' ? 
-                            // <div>
-                            //     <img src={ResponsiveCD834x1194} alt="diseño responsivo clothes D 834x1194" />
-                            //     <img src={ResponsiveCD390x844} alt="diseño responsivo clothes D 390x844" />
-                            //     <img src={ResponsiveCD360x640} alt="diseño responsivo clothes D 360x640" />
-                            // </div> :
+                            // 
                             //  location.pathname === '/forms' ? 
                             //  <div>
                             //      <img src={ResponsiveLF834x1194} alt="diseño responsivo login F 834x1194" />

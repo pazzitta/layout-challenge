@@ -55,12 +55,12 @@ const FurnitureDetail = () => {
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo omnis error.amet consectetur adipisicing elit. Quo omnis error.</p>
                         <div className='box-order-quantity-product-two-detail'>
                             <div>
-                                <p>Algo</p>
-                                <h4>--<small>algo</small></h4>
+                                <p>Height</p>
+                                <h4>52<small>cm</small></h4>
                             </div>
                             <div>
-                                <p>Algo 2</p>
-                                <h4>--<small>algo2</small></h4>
+                                <p>Width</p>
+                                <h4>43<small>cm</small></h4>
                             </div>
                             <div>
                                 <p>Algo3</p>
@@ -74,7 +74,7 @@ const FurnitureDetail = () => {
                             <button className='plus-button-product-two-detail'>+</button>
                         </div>
                         <div>
-                            <button className='add-button-product-two-detail'>ADD TO CARD</button>
+                            <button className='add-button-product-two-detail'>ADD TO CART</button>
                             <button className='buy-button-product-two-detail'>BUY NOW</button>
                         </div>
                     </div>
