@@ -26,7 +26,7 @@ const RegisterForm = () => {
                     <p>or use your email for registration</p>
                     <input className='input-name-resgister-F' type="text" placeholder='Name'/>
                     <input className='input-email-resgister-F' type="text" placeholder='Email'/>
-                    <input className='input-password-resgister-F' type="text" placeholder='Password'/>
+                    <input className='input-password-resgister-F' type="password" placeholder='Password'/>
                     <button>SING UP</button>
                 </section>
             </div>

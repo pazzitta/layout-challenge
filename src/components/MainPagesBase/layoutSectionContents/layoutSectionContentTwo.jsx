@@ -29,6 +29,9 @@ import ResponsiveECH360x640 from '../../../assets/homes/Ecommerce/responsiveECH3
 import ResponsiveFD834x1194 from '../../../assets/Details/ProductTwo/responsiveFD834x1194.jpg'
 import ResponsiveFD390x844 from '../../../assets/Details/ProductTwo/responsiveFD390x844.jpg'
 import ResponsiveFD360x640 from '../../../assets/Details/ProductTwo/responsiveFD360x640.jpg'
+import ResponsiveRF834x1194 from '../../../assets/Forms/Register/responsiveRF834x1194.jpg'
+import ResponsiveRF390x844 from '../../../assets/Forms/Register/responsiveRF390x844.jpg'
+import ResponsiveRF360x640 from '../../../assets/Forms/Register/responsiveRF360x640.jpg'
 
 import OPMinimalismLP from '../../../assets/LandingPages/LayoutSectionContent/OPMinimalismLP.jpg'
 import OPFurniture from '../../../assets/Details/ProductTwo/OPFurnitureD.jpg'
@@ -211,15 +214,16 @@ const LayoutSectionContentTwo = () => {
                                 <img src={ResponsiveFD390x844} alt="diseño responsivo Furniture D 390x844" />
                                 <img src={ResponsiveFD360x640} alt="diseño responsivo Furniture D 360x640" />
                             </div> :
+                            location.pathname === '/forms' ? 
+                             <div>
+                                 <img src={ResponsiveRF834x1194} alt="diseño responsivo Register F 834x1194" />
+                                 <img src={ResponsiveRF390x844} alt="diseño responsivo Register F 390x844" />
+                                 <img src={ResponsiveRF360x640} alt="diseño responsivo Register F 360x640" />
+                             </div> :
                             <h3>hl</h3>
                             // 
                             // 
-                            //  location.pathname === '/forms' ? 
-                            //  <div>
-                            //      <img src={ResponsiveLF834x1194} alt="diseño responsivo login F 834x1194" />
-                            //      <img src={ResponsiveLF390x844} alt="diseño responsivo login F 390x844" />
-                            //      <img src={ResponsiveLF360x640} alt="diseño responsivo login F 360x640" />
-                            //  </div> :
+                            //  
                             //  <div>
                             //     <img src={ResponsiveCC834x1194} alt="diseño responsivo Clothes C 834x1194" />
                             //     <img src={ResponsiveCC390x844} alt="diseño responsivo clothes C 390x844" />
