@@ -20,6 +20,12 @@ import ProductFrontImageD from '../../../assets/Details/ProductTwo/productFrontI
 import RightImageProductD from '../../../assets/Details/ProductTwo/rightImageProduct.jpg'
 import ProductTwoC from '../../../assets/Cards/Food/productFood.png'
 import BackgroundEcommerceH from '../../../assets/homes/Ecommerce/backgroundEcommerce.jpg'
+import ResponsiveMLP834x1194 from '../../../assets/LandingPages/Minimalism/responsiveMLPTablet.jpg'
+import ResponsiveMLP390x844 from '../../../assets/LandingPages/Minimalism/responsiveMLP390x844.jpg'
+import ResponsiveMLP360x640 from '../../../assets/LandingPages/Minimalism/responsiveMLP360x640.jpg'
+import ResponsiveECH834x1194 from '../../../assets/homes/Ecommerce/responsiveECH834x1194.jpg'
+import ResponsiveECH390x844 from '../../../assets/homes/Ecommerce/responsiveECH390x844.jpg'
+import ResponsiveECH360x640 from '../../../assets/homes/Ecommerce/responsiveECH360x640.jpg'
 
 import OPMinimalismLP from '../../../assets/LandingPages/LayoutSectionContent/OPMinimalismLP.jpg'
 import OPFurniture from '../../../assets/Details/ProductTwo/OPFurnitureD.jpg'
@@ -181,6 +187,41 @@ const LayoutSectionContentTwo = () => {
                             <div></div>
                             <div></div>
                         </div>
+                    </div>
+                    <div className='responsive-section-order'>
+                        {
+                            location.pathname === '/landingPages' ? 
+                            <div>
+                                <img src={ResponsiveMLP834x1194} alt="diseño responsivo background video LP 834x1194" />
+                                <img src={ResponsiveMLP390x844} alt="diseño responsivo background video LP 390x844" />
+                                <img src={ResponsiveMLP360x640} alt="diseño responsivo background video LP 360x640" />
+                            </div> :
+                            location.pathname === '/homes' ? 
+                            <div>
+                                <img src={ResponsiveECH834x1194} alt="diseño responsivo e-commerce H 834x1194" />
+                                <img src={ResponsiveECH390x844} alt="diseño responsivo e-commerce H 390x844" />
+                                <img src={ResponsiveECH360x640} alt="diseño responsivo e-commerce H 360x640" />
+                            </div> :
+                            <h3>hl</h3>
+                            // 
+                            // location.pathname === '/details' ? 
+                            // <div>
+                            //     <img src={ResponsiveCD834x1194} alt="diseño responsivo clothes D 834x1194" />
+                            //     <img src={ResponsiveCD390x844} alt="diseño responsivo clothes D 390x844" />
+                            //     <img src={ResponsiveCD360x640} alt="diseño responsivo clothes D 360x640" />
+                            // </div> :
+                            //  location.pathname === '/forms' ? 
+                            //  <div>
+                            //      <img src={ResponsiveLF834x1194} alt="diseño responsivo login F 834x1194" />
+                            //      <img src={ResponsiveLF390x844} alt="diseño responsivo login F 390x844" />
+                            //      <img src={ResponsiveLF360x640} alt="diseño responsivo login F 360x640" />
+                            //  </div> :
+                            //  <div>
+                            //     <img src={ResponsiveCC834x1194} alt="diseño responsivo Clothes C 834x1194" />
+                            //     <img src={ResponsiveCC390x844} alt="diseño responsivo clothes C 390x844" />
+                            //     <img src={ResponsiveCC360x640} alt="diseño responsivo clothes C 360x640" />
+                            //  </div>
+                        }
                     </div>
                 </div>
             </section>

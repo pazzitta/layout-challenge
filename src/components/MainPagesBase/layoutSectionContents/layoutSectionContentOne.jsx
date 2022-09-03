@@ -35,7 +35,6 @@ import BackgroundImageLoginF from '../../../assets/Forms/Login/backgroundImageLo
 import CartBlackIconC from '../../../assets/Cards/Clothes/cartBlack.png'
 import CartWhiteIconC from '../../../assets/Cards/Clothes/cartWhite.png'
 import ProductClotheCart from '../../../assets/Cards/Clothes/productOneCard.png'
-
 import ResponsiveBVLP834x1194 from '../../../assets/LandingPages/BackgrondVideo/responsiveBVLP834x1194.jpg'
 import ResponsiveBVLP390x844 from '../../../assets/LandingPages/BackgrondVideo/responsiveBVLP390x844.jpg'
 import ResponsiveBVLP360x640 from '../../../assets/LandingPages/BackgrondVideo/responsiveBVLP360x640.jpg'
@@ -51,8 +50,6 @@ import ResponsiveLF360x640 from '../../../assets/Forms/Login/responsiveLF360x640
 import ResponsiveCC834x1194 from '../../../assets/Cards/Clothes/responsiveCC834x1194.jpg'
 import ResponsiveCC390x844 from '../../../assets/Cards/Clothes/responsiveCC390x844.jpg'
 import ResponsiveCC360x640 from '../../../assets/Cards/Clothes/responsiveCC360x640.jpg'
-
-
 import VideoBackgroundVideoLP from '../../../assets/LandingPages/BackgrondVideo/backgroundV.mp4'
 import BackgroundVideo from '../../landingsPages/BackgroundVideo/layoutBackgroundVideo'
 import PersonalPage from '../../homes/PersonalPage/PersonalPage'
