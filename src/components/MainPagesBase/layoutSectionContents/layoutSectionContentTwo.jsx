@@ -32,6 +32,9 @@ import ResponsiveFD360x640 from '../../../assets/Details/ProductTwo/responsiveFD
 import ResponsiveRF834x1194 from '../../../assets/Forms/Register/responsiveRF834x1194.jpg'
 import ResponsiveRF390x844 from '../../../assets/Forms/Register/responsiveRF390x844.jpg'
 import ResponsiveRF360x640 from '../../../assets/Forms/Register/responsiveRF360x640.jpg'
+import ResponsiveFC834x1194 from '../../../assets/Cards/Food/responsiveFC834x1194.jpg'
+import ResponsiveFC390x844 from '../../../assets/Cards/Food/responsiveFC390x844.jpg'
+import ResponsiveFC360x640 from '../../../assets/Cards/Food/responsiveFC360x640.jpg'
 
 import OPMinimalismLP from '../../../assets/LandingPages/LayoutSectionContent/OPMinimalismLP.jpg'
 import OPFurniture from '../../../assets/Details/ProductTwo/OPFurnitureD.jpg'
@@ -215,20 +218,16 @@ const LayoutSectionContentTwo = () => {
                                 <img src={ResponsiveFD360x640} alt="diseño responsivo Furniture D 360x640" />
                             </div> :
                             location.pathname === '/forms' ? 
-                             <div>
-                                 <img src={ResponsiveRF834x1194} alt="diseño responsivo Register F 834x1194" />
-                                 <img src={ResponsiveRF390x844} alt="diseño responsivo Register F 390x844" />
-                                 <img src={ResponsiveRF360x640} alt="diseño responsivo Register F 360x640" />
-                             </div> :
-                            <h3>hl</h3>
-                            // 
-                            // 
-                            //  
-                            //  <div>
-                            //     <img src={ResponsiveCC834x1194} alt="diseño responsivo Clothes C 834x1194" />
-                            //     <img src={ResponsiveCC390x844} alt="diseño responsivo clothes C 390x844" />
-                            //     <img src={ResponsiveCC360x640} alt="diseño responsivo clothes C 360x640" />
-                            //  </div>
+                            <div>
+                                <img src={ResponsiveRF834x1194} alt="diseño responsivo Register F 834x1194" />
+                                <img src={ResponsiveRF390x844} alt="diseño responsivo Register F 390x844" />
+                                <img src={ResponsiveRF360x640} alt="diseño responsivo Register F 360x640" />
+                            </div> :
+                            <div>
+                                <img src={ResponsiveFC834x1194} alt="diseño responsivo Food C 834x1194" />
+                                <img src={ResponsiveFC390x844} alt="diseño responsivo Food C 390x844" />
+                                <img src={ResponsiveFC360x640} alt="diseño responsivo Food C 360x640" />
+                            </div>
                         }
                     </div>
                 </div>
