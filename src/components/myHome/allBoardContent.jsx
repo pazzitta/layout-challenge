@@ -2,12 +2,12 @@ import './baseIllustrationStyles.css'
 import RowOfPencils from './InternalBoardComponents/rowOfPencils';
 import BlackboardCalendar from './InternalBoardComponents/blackboardCalendar';
 import WantedPoster from './InternalBoardComponents/wantedPoster';
-import FamilyPictureOne from '../../assets/myHome/AllBoardContent/familyPictureOne.jpg'
-import FamilyPictureTwo from '../../assets/myHome/AllBoardContent/familyPictureTwo.jpg'
-import FamilyPictureThree from '../../assets/myHome/AllBoardContent/familyPictureThree.jpg'
+// import FamilyPictureOne from '../../assets/myHome/AllBoardContent/familyPictureOne.jpg'
+// import FamilyPictureTwo from '../../assets/myHome/AllBoardContent/familyPictureTwo.jpg'
+// import FamilyPictureThree from '../../assets/myHome/AllBoardContent/familyPictureThree.jpg'
 import MetalBasket from './InternalBoardComponents/metalBasket';
 import LayoutFolder from './InternalBoardComponents/layoutFolder';
-import MyContactForm from './InternalBoardComponents/myContactForm';
+// import MyContactForm from './InternalBoardComponents/myContactForm';
 
 const AllBoardContent = () => {
     return (
@@ -19,7 +19,7 @@ const AllBoardContent = () => {
                     </div>
                     <div>
                         <div className='hotpink-note-background-one'>
-                            <p>CONTACTO</p>
+                            <p>Contacto</p>
                         </div>
                         <div className='order-note-scotch-tape-one'>
                             <div></div>
@@ -168,21 +168,23 @@ const AllBoardContent = () => {
                             <h2>en construcción</h2>
                             <div></div>
                         </div>
-                        <div className='in-process-position-metal-baske-order'>
-                            <div className='order-folders-in-back-of-metal-basket-two'>
-                                <div>
-                                    <LayoutFolder/>
+                        <a className='anchord-portfolio-styles' href="/inConstruction">
+                            <div className='in-process-position-metal-baske-order'>
+                                <div className='order-folders-in-back-of-metal-basket-two'>
+                                    <div>
+                                        <LayoutFolder/>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className='in-process-position-metal-basket'>
-                                <MetalBasket/>
-                            </div>
-                            <div className='in-process-poster-wood-order-and-style' >
-                                <div></div>
-                                <h2>portfolio</h2>
-                                <div></div>
-                            </div>
-                        </div>
+                                <div className='in-process-position-metal-basket'>
+                                    <MetalBasket/>
+                                </div>
+                                <div className='in-process-poster-wood-order-and-style' >
+                                    <div></div>
+                                    <h2>portfolio</h2>
+                                    <div></div>
+                                </div>
+                            </div>                         
+                        </a>
                     </div>
                 </section>
 

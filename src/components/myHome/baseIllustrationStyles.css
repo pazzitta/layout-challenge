@@ -261,6 +261,14 @@
 .section-one>section:last-child>div:nth-child(2)>a:last-child:hover{
     color: #E1C815;
 }
+.anchord-portfolio-styles{
+    text-decoration: none;
+    color: black;
+}
+.anchord-portfolio-styles:hover{
+    color: black;
+    color: rgb(242, 108, 78);
+}
 .order-folders-in-back-of-metal-basket{
     /* border: solid hotpink; */
     position: absolute;

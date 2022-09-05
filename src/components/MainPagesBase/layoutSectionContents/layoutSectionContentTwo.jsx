@@ -56,7 +56,7 @@ const LayoutSectionContentTwo = () => {
         <div className="order-all-layout-section-content">
             <section className='original-page-section-order-two'>
                 <div className='section-identification-posters-order'>
-                    <h2 className='section-identification-posters-base'>ORIGINAL PAGE</h2>
+                    <h2 className='section-identification-posters-base'>PÁGINA ORIGINAL</h2>
                     <div> 
                         <div></div>
                         <div></div>
@@ -74,7 +74,7 @@ const LayoutSectionContentTwo = () => {
             <section className='assets-section-order'>
                 <div className='top-box-assets-section-order'>
                     <div className='section-identification-posters-order'>
-                        <h2 className='section-identification-posters-base'>ASSETS</h2>
+                        <h2 className='section-identification-posters-base'>RECURSOS</h2>
                         <div> 
                             <div></div>
                             <div></div>
@@ -85,7 +85,7 @@ const LayoutSectionContentTwo = () => {
                             <div className='order-wooden-signs-LSC'>
                                 <div>
                                     <div></div>
-                                    <h3>ICONS</h3>
+                                    <h3>ÍCONOS</h3>
                                     <div></div>
                                 </div>
                             </div>
@@ -99,7 +99,7 @@ const LayoutSectionContentTwo = () => {
                             <div className='order-wooden-signs-LSC'>
                                 <div>
                                     <div></div>
-                                    <h3>ILLUSTRATIONS</h3>
+                                    <h3>ILUSTRACIONES</h3>
                                     <div></div>
                                 </div>
                             </div>
@@ -191,7 +191,7 @@ const LayoutSectionContentTwo = () => {
                 </div>
                 <div className='botton-box-assets-section-order'>
                     <div className='section-identification-posters-order'>
-                        <h2 className='section-identification-posters-base'>RESPONSIVE</h2>
+                        <h2 className='section-identification-posters-base'>RESPONSIVO</h2>
                         <div> 
                             <div></div>
                             <div></div>
@@ -234,7 +234,7 @@ const LayoutSectionContentTwo = () => {
             </section>
             <section className='my-layout-section-order'>
                 <div className='section-identification-posters-order'>
-                    <h2 className='section-identification-posters-base'>MY LAYOUT</h2>
+                    <h2 className='section-identification-posters-base'>MI REPRODUCCIÓN</h2>
                     <div>
                         <div></div>
                         <div></div>

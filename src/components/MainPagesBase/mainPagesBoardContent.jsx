@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import './mainPagesBase.css'
 import RowOfPencils from '../myHome/InternalBoardComponents/rowOfPencils';
@@ -39,7 +38,7 @@ const MainPagesBoardContent = () => {
                     </div>
                     <div className='poster-come-back-base-and-order'>
                         <a href='/' className='poster-come-back-base'>
-                            <h2>VOLVER AL HOME</h2>
+                            <h2>VOLVER AL INICIO</h2>
                         </a>
                         <div> 
                             <div></div>
@@ -158,7 +157,13 @@ const MainPagesBoardContent = () => {
                         location.pathname === "/forms" ? <a href='/forms#firstSection'><img src={LoginF} alt="imagen original Login LP"/></a>:
                         <a href='/cards#firstSection'><img src={ClothesC} alt="imagen original Clothes C"/></a>
                     }
-                        <h3>Descubrime</h3>
+                    {
+                        location.pathname === "/landingPages" ? <a href="/landingPages#firstSection"><h3>Descubrime</h3></a>:
+                        location.pathname === "/homes" ? <a href='/homes#firstSection'><h3>Descubrime</h3></a>:
+                        location.pathname === "/details" ? <a href='/details#firstSection'><h3>Descubrime</h3></a> :
+                        location.pathname === "/forms" ? <a href='/forms#firstSection'><h3>Descubrime</h3></a>:
+                        <a href='/cards#firstSection'><h3>Descubrime</h3></a>
+                    }
                     </div>
                     <div>
                     {
@@ -168,7 +173,13 @@ const MainPagesBoardContent = () => {
                         location.pathname === "/forms" ? <a href='/forms#secondSection'><img src={RegisterF} alt="imagen original Register F"/></a>:
                         <a href='/cards#secondSection'><img src={FoodC} alt="imagen original Food C"/></a>
                     }
-                        <h3>Descubrime</h3>
+                    {
+                        location.pathname === "/landingPages" ? <a href='/landingPages#secondSection'><h3>Descubrime</h3></a>:
+                        location.pathname === "/homes" ? <a href='/homes#secondSection'><h3>Descubrime</h3></a>:
+                        location.pathname === "/details" ? <a href='/details#secondSection'><h3>Descubrime</h3></a>:
+                        location.pathname === "/forms" ? <a href='/forms#secondSection'><h3>Descubrime</h3></a>:
+                        <a href='/cards#secondSection'><h3>Descubrime</h3></a>                        
+                    }
                     </div>
                     <div>
                     {
@@ -178,7 +189,14 @@ const MainPagesBoardContent = () => {
                         location.pathname === "/forms" ? <a href='/forms#thirdSection'><img src={CheckOutF} alt="imagen original CheckOut F"/></a>:
                         <a href='/cards#thirdSection'><img src={NewsC} alt="imagen original News C"/></a>
                     }
-                        <h3>No disponible</h3>
+                    {
+                        location.pathname === "/landingPages" ? <a href='/landingPages#thirdSection'><h3>No disponible</h3></a> :  
+                        location.pathname === "/homes" ? <a href='/homes#thirdSection'><h3>No disponible</h3></a>:
+                        location.pathname === "/details" ? <a href='/details#thirdSection'><h3>No disponible</h3></a>:
+                        location.pathname === "/forms" ? <a href='/forms#thirdSection'><h3>No disponible</h3></a>:
+                        <a href='/cards#thirdSection'><h3>No disponible</h3></a>
+
+                    }
                     </div>
                     <div>
                     {
@@ -188,7 +206,13 @@ const MainPagesBoardContent = () => {
                         location.pathname === "/forms" ? <a href='/forms#fourthSection'><img src={ContactUsF} alt="imagen original Contact Us F"/></a>:
                         <a href='/cards#fourthSection'><img src={ProfileC} alt="imagen original Profile C"/></a>
                     }
-                        <h3>No disponible</h3>
+                    {
+                        location.pathname === "/landingPages" ? <a href='/landingPages#fourthSection'><h3>No disponible</h3></a>:
+                        location.pathname === "/homes" ? <a href='/homes#fourthSection'><h3>No disponible</h3></a>:
+                        location.pathname === "/details" ?  <a href='/details#fourthSection'><h3>No disponible</h3></a>:
+                        location.pathname === "/forms" ? <a href='/forms#fourthSection'><h3>No disponible</h3></a>:
+                        <a href='/cards#fourthSection'><h3>No disponible</h3></a>
+                    }
                     </div>
                 </div>
             </div>
