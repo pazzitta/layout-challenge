@@ -169,6 +169,7 @@ const LayoutSectionContentOne = () => {
                                             <video autoPlay loop muted>
                                                 <source src={VideoBackgroundVideoLP} type="video/mp4" />
                                             </video>
+                                            <p>Se utilizó otro video, ya que el orinal es propiedad de la marca.</p>
                                         </div> :
                                         location.pathname === '/homes' ? 
                                         <div className='assets-multimedia-personal-page-H'>
@@ -249,6 +250,17 @@ const LayoutSectionContentOne = () => {
                                 <img src={ResponsiveCC360x640} alt="diseño responsivo clothes C 360x640" />
                              </div>
                         }
+                        <div className='responsive-sizes-posters-order'>
+                            <div className='responsive-sizes-posters-internal-order'>
+                                <h2 className='responsive-sizes-posters-base'>834x1194 px</h2>
+                            </div>
+                            <div className='responsive-sizes-posters-internal-order'>
+                                <h2 className='responsive-sizes-posters-base'>390x844 px</h2>
+                            </div>
+                            <div className='responsive-sizes-posters-internal-order-last'>
+                                <h2 className='responsive-sizes-posters-base'>360x640 px</h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
