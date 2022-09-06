@@ -56,6 +56,7 @@ import PersonalPage from '../../homes/PersonalPage/PersonalPage'
 import ClothesDetail from '../../details/Clothes/ClothesDetail'
 import LoginForm from '../../forms/Login/loginForm'
 import ClothesCard from '../../Cards/Clothes/ClothesCard'
+import IGitHub from '../../../assets/myHome/Icons/gitHub.png'
 
 const LayoutSectionContentOne = () => {
     const location = useLocation()
@@ -252,12 +253,43 @@ const LayoutSectionContentOne = () => {
                 </div>
             </section>
             <section className='my-layout-section-order'>
-                <div className='section-identification-posters-order'>
-                    <h2 className='section-identification-posters-base'>MI REPRODUCCIÓN</h2>
-                    <div>
-                        <div></div>
-                        <div></div>
+                <div className='box-links-repos-and-identification-posters-order'>
+                    <div className='section-identification-posters-order'>
+                        <h2 className='section-identification-posters-base'>MI REPRODUCCIÓN</h2>
+                        <div>
+                            <div></div>
+                            <div></div>
+                        </div>
                     </div>
+                    <div className='section-link-identification-posters-order'>
+                        <h2 className='section-link-identification-posters-base'>REPO:
+                        {
+                           location.pathname === '/landingPages' ? 
+                           <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/landingsPages/BackgroundVideo" target="_blank" rel="noreferrer">
+                            <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
+                           </a>:
+                           location.pathname === '/homes' ? 
+                           <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/homes/PersonalPage" target="_blank" rel="noreferrer">
+                            <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
+                           </a>:
+                            location.pathname === '/details' ?
+                            <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/details/Clothes" target="_blank" rel="noreferrer">
+                                <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
+                            </a>:
+                           location.pathname === '/forms' ?
+                           <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/forms/Login" target="_blank" rel="noreferrer">
+                            <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
+                           </a>:
+                           <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/Cards/Clothes" target="_blank" rel="noreferrer">
+                            <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
+                           </a>
+                        }
+                        </h2>
+                        <div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>                   
                 </div>
                 {
                     location.pathname === '/landingPages' ? <BackgroundVideo/> : 
