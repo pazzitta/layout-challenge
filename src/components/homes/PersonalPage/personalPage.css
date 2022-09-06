@@ -56,15 +56,17 @@
     width: 50%;
     height: 90px;
 }
-.box-ancords-horizontal-nav-personalPage-homes > a{
+.box-ancords-horizontal-nav-personalPage-homes >a{
     text-decoration: none;
     font-size: 20px;
     color: black;
     font-weight: 600;
+    height: 35px;
 }
-.box-ancords-horizontal-nav-personalPage-homes > a:focus{
-    text-decoration: underline;
-    /* falta moverla para abajo */
+.box-ancords-horizontal-nav-personalPage-homes > a:hover,
+.box-ancords-horizontal-nav-personalPage-homes > a:focus,
+.box-ancords-horizontal-nav-personalPage-homes > a:active{
+    border-bottom: solid;
 }
 .box-phone-horizontal-nav-personalPage-homes{
     /* border: solid thin chocolate; */
@@ -185,4 +187,5 @@
 }
 .box-footer-personalPage-homes p{
     margin: 0;
+    font-weight: 500;
 }

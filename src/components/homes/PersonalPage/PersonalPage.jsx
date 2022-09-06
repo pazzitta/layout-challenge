@@ -14,19 +14,19 @@ const PersonalPageHome = () => {
             <nav className='vertical-nav-personalPage-homes'>
                 <img className='isologo-vertical-nav-personalPage-homes' src={IsotipoPP} alt="Isotipo" />
                 <div className='box-ancords-vertical-nav-personalPage-homes'>
-                    <a href="">
+                    <a href="https://github.com/pazzitta" target="_blank" rel="noreferrer">
                         <img src={TwitterIconPP} alt="ícono Twitter" />
                     </a>
-                    <a href="">
+                    <a href="https://www.behance.net/pazzitta" target="_blank" rel="noreferrer">
                         <img src={BehanceIconPP} alt="ícono 2" />
                     </a>
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/paz-zitta/" target="_blank" rel="noreferrer">
                         <img src={InstagramIconPP} alt="ícono 3" />
                     </a>
-                    <a href="">
+                    <a href="https://github.com/pazzitta" target="_blank" rel="noreferrer">
                         <img src={GitHubIconPP} alt="ícono 4" />
                     </a>
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/paz-zitta/" target="_blank" rel="noreferrer">
                         <img src={LinkedInIconPP} alt="ícono 5" />
                     </a>
                 </div>
@@ -65,11 +65,11 @@ const PersonalPageHome = () => {
                         </div>
                     <div>
                         <h6>Phone</h6>
-                        <p>----------</p>
+                        <p>+54 11 12345678</p>
                     </div>
                     <div>
                         <h6>Location</h6>
-                        <p>Soy una dirección</p>
+                        <p> Avenida Siempreviva 742</p>
                     </div>
                 </div>
 

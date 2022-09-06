@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 .order-all-mains{
-    border: solid red;
     display: flex;
     flex-direction: column;
     width: 100%;
