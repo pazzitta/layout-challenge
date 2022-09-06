@@ -1,170 +1,110 @@
-/* *,
-*::after,
-*::before{
-    box-sizing: border-box;
-} */
 
-
-/* LAYOUTBACKGROUNDVIDEO */
-
-.box-macro-landing-pages-BgV>video { 
-    /* background-color: blue; */
-    width: 100%;
-  }
-  .content-box-landing-pages-BgV{
-    /* border: solid thin orangered; */
-    width: 100%;
-    height: 835px;
-    position: relative;
-    bottom: 835px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-  }
-  .content-box-landing-pages-BgV>div{
-    /* border: solid thin red; */
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* padding-bottom: 50px; */
-  }
-  .content-box-landing-pages-BgV>div>h2{
-    color: white;
-    font-size: 75px;
-    margin: 0;
-  }
-  .content-box-landing-pages-BgV>div>h5{
-    color: white;
-    font-size: 20px;
-    margin: 0;
-  }
-  .content-box-landing-pages-BgV>div>img:first-of-type{
-    width: 9%;
-    margin-top: 60px;
-    margin-bottom: 60px;
-  }
-  .content-box-landing-pages-BgV>div>img:last-of-type{
-    width: 6%;
-    margin-top: 50px;
-    margin-bottom: 80px;
-  }
-  .footer-box-landing-pages-BgV{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: #383731;
-    width: 100%;
-    height: 80px;
-  }
-  .footer-box-landing-pages-BgV>div{
-    /* border: solid thin red; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 53.5%;
-  }
-  /* .footer-box-landing-pages-BgV>div>select{
-    background-image: url('../../../assets/LandingPages/BackgrondVideo/menuLineIcon.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    border: none;
-    appearance: none;
-    width: 40px;
-    height: 40px;
-    margin-right: 25px;
-  } */
-
-  .brand-name-landing-pages-BgV{
-    color: white;
-    font-size: 40px;
-    font-weight: 700;
-  }
-  /* .brand-name-landing-pages-BgV{
-    align-self: flex-end;
-  } */
-  /* .botonHomeLP {
-      position: relative;
-      background-image: url('../../../public/imagenes/Pagina/boton.home.png');
-      background-repeat:no-repeat;
-      background-color: transparent;
-      height: 22vh;
-      width: 9vw;
-      background-size: cover;
-      background-position:center;
-      border: none;
-      bottom: 110px;
-      left: 140px;
-      cursor: url("../../../public/imagenes/Pagina/cursor.pointer2.png"),pointer;
-     } */
-  
-  .videoLanding {
-      position: relative;
-      bottom: 10px;
-      right: 7px;
+.content-box-landing-pages-BgV{
+  width: 100%;
+  height: 835px;
+  position: relative;
+  bottom: 835px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
-  .footer-box-landing-pages-BgV>div>select{
-    border: none;
-    appearance: none;
-    width: 40px;
-    height: 40px;
-    margin-right: 25px;
-    background-color: transparent;
-  }
+.content-box-landing-pages-BgV>div{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-box-landing-pages-BgV>div>h2{
+  color: white;
+  font-size: 75px;
+  margin: 0;
+}
+.content-box-landing-pages-BgV>div>h5{
+  color: white;
+  font-size: 20px;
+  margin: 0;
+}
+.content-box-landing-pages-BgV>div>img:first-of-type{
+  width: 9%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.content-box-landing-pages-BgV>div>img:last-of-type{
+  width: 6%;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.footer-box-landing-pages-BgV{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #383731;
+  width: 100%;
+  height: 80px;
+}
+.footer-box-landing-pages-BgV>div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 53.5%;
+}
+.brand-name-landing-pages-BgV{
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
 
-
-  .ul-navicon-three-lines-order-and-style{
-    width: 150px;
-    height: 230px;
-    position: relative;
-    bottom: 170px;
-    left: 270px;
-    display: flex;
-    justify-content: center;
-  }
-  .ul-navicon-three-lines-order-and-style>ul{
-    background-color: rgba(255, 255, 255, 0.7);
-    width: 85%;
-    height: 95%;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
-    border-radius: 5px;
-  }
-  .ul-navicon-three-lines-order-and-style li{
-    /* border: solid; */
-    width: 85%;
-    height: 25%;
-    align-self: center;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  .ul-navicon-three-lines-order-and-style a{
-    text-decoration: none;
-    color: white;
-    font-size: 25px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  }
-  .ul-navicon-three-lines-order-and-style a:hover{
-    transform: scale(1.1);
-  }
-  .navicon-three-line-order-and-styles{
-    color: white;
-    font-size: 40px;
-    cursor: pointer;
-    margin-right: 60px;
-  }
-/* .footer-box-landing-pages-BgV>div>select>option{
+.footer-box-landing-pages-BgV>div>select{
+  border: none;
+  appearance: none;
   width: 40px;
   height: 40px;
+  margin-right: 25px;
+  background-color: transparent;
+}
+.ul-navicon-three-lines-order-and-style{
+  width: 150px;
+  height: 230px;
+  position: relative;
+  bottom: 170px;
+  left: 270px;
+  display: flex;
+  justify-content: center;
+}
+.ul-navicon-three-lines-order-and-style>ul{
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 85%;
+  height: 95%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  border-radius: 5px;
+}
+.ul-navicon-three-lines-order-and-style li{
+  width: 85%;
+  height: 25%;
+  align-self: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.ul-navicon-three-lines-order-and-style a{
+  text-decoration: none;
   color: white;
-} */
-/* .footer-box-landing-pages-BgV>div>select>option{
-  background-color: aquamarine;
-  width: 100px;
-} */
+  font-size: 25px;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.ul-navicon-three-lines-order-and-style a:hover{
+  transform: scale(1.1);
+}
+.navicon-three-line-order-and-styles{
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 60px;
+}

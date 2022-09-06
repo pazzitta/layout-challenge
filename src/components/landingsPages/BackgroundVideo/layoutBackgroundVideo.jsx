@@ -4,16 +4,13 @@ import PlayVideoIconLP from '../../../assets/LandingPages/BackgrondVideo/playVid
 import DownArrowIconLP from '../../../assets/LandingPages/BackgrondVideo/downArrowIcon.png'
 import { useState } from 'react'
 
-
 const BackgroundVideo = () => {
     
     const [menuOn, setMenuOn] = useState (false)
 
     return (
         <div className='box-macro-landing-pages-BgV'>
-            <video autoPlay loop muted>
-                <source src={Video} type="video/mp4" />
-            </video>
+            <video width='100%' autoPlay loop muted src={Video} type="video/mp4"></video>
             <div className='content-box-landing-pages-BgV'>
                 <div>
                     <h2>BUILDIN PLACES THAT INSPIRE<font color='red'>.</font></h2>
