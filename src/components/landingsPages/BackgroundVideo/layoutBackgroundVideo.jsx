@@ -2,9 +2,13 @@ import './backgroundVideo.css'
 import Video from '../../../assets/LandingPages/BackgrondVideo/backgroundV.mp4'
 import PlayVideoIconLP from '../../../assets/LandingPages/BackgrondVideo/playVideoIcon.png'
 import DownArrowIconLP from '../../../assets/LandingPages/BackgrondVideo/downArrowIcon.png'
+import { useState } from 'react'
 
 
 const BackgroundVideo = () => {
+    
+    const [menuOn, setMenuOn] = useState (false)
+
     return (
         <div className='box-macro-landing-pages-BgV'>
             <video autoPlay loop muted>
@@ -21,13 +25,20 @@ const BackgroundVideo = () => {
                 <footer className='footer-box-landing-pages-BgV'>
                     <div>
                         <h2 className='brand-name-landing-pages-BgV'>DITO<font color='red'>.</font></h2>
-                        <select name="" id="">
-                            <option selected></option>
-                            <option>Home</option>
-                            <option>About</option>
-                            <option>Services</option>
-                            <option>Contact</option>
-                        </select>
+                        <nav className='ul-navicon-three-lines-order-and-style'>
+                            {
+                                menuOn &&
+                                <ul>
+                                    <li><a href="">Home</a></li>
+                                    <li><a href="">About</a></li>
+                                    <li><a href="">Services</a></li>
+                                    <li><a href="">Contact</a></li>
+                                </ul>
+                            }
+                        </nav>
+                        <div className='navicon-three-line-order-and-styles'
+                        onMouseUp={() => setMenuOn(!menuOn)}
+                        >&#9776;</div>
                     </div>
                 </footer>
             </div>
