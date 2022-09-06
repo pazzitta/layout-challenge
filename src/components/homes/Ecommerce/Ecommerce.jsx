@@ -28,6 +28,7 @@ const EcommerceHomes = () => {
                     </div>
                 </nav>
             </header>
+            <p className='image-text-order-and-style'>New collection <br /><a href="">See more +</a></p>
             <div className="box-body-Ecommerce-homes">
                 <nav className="box-bottom-menu-Ecommerce-homes">
                     <a href="">Men</a>

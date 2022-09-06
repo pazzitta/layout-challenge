@@ -55,7 +55,6 @@
     align-items: center;
 }
 .order-main-white-rectangle-nav-product-one-detail>section{
-   /* border:solid thin #e1191c; */
    width: 350px;
    display: flex;
    justify-content: space-evenly;
@@ -66,19 +65,22 @@
     font-weight: 700;
     font-size: 15px;
 }
-.order-main-white-rectangle-nav-product-one-detail a:focus{
+.order-main-white-rectangle-nav-product-one-detail a:hover{
     text-decoration: underline;
 }
 .order-main-white-rectangle-nav-product-one-detail a>img{
-    width: 30%;
+    width: 35%;
+    align-self: center;
+    position: relative;
+    top: 2px;
 }
 .order-main-white-rectangle-nav-product-one-detail>div{
     /* border:solid thin #e1191c; */
-    width: 100px;
+    width: 90px;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    margin-right: 26px;
+    align-items: baseline;
+    margin-right: 20px;
 }
 .order-main-white-rectangle-nav-product-one-detail button{
     background-image: url('../../../assets/Details/ProductOne/magnifyingGlassBlack.png');
@@ -87,9 +89,17 @@
     background-size: cover;
     background-position:center;
     border: none;
-    width: 45px;
-    height: 26px;
+    width: 47px;
+    height: 23px;
     cursor: pointer;
+}
+.input-on-order-and-style{
+    position: relative;
+    bottom: 70px;
+    left: 430px;
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
 }
 
 .red-rectangle-nav-product-one-detail{
@@ -206,9 +216,7 @@
 .middle-rectangle-order-product-image-main-product-one-detail button:focus{
     background-color: black;
     color: white;
-}
- 
-
+} 
 .right-rectangle-order-product-image-main-product-one-detail{
     border-top: solid;
     border-right: solid;

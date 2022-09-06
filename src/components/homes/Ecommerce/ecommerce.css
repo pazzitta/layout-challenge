@@ -30,6 +30,21 @@
     justify-content: space-between;
     align-items: center;
 }
+.image-text-order-and-style{
+    width: 12%;
+    position: relative;
+    bottom: 120px;
+    left: 170px;
+    color: white;
+    text-align: start;
+    font-size: 20px;
+    font-weight: 600;
+}
+.image-text-order-and-style>a{
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+}
 .box-brand-and-sections-Ecommerce-homes{
     /* border: solid thin khaki; */
     display: flex;
@@ -83,6 +98,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    position: relative;
+    bottom: 50px;
 }
 .box-bottom-menu-Ecommerce-homes{
     /* border: solid thin lightgray; */
@@ -96,11 +113,13 @@
     color: gray;
     text-decoration: none;
     font-size: 18px;
+    height: 28px;
 }
+.box-bottom-menu-Ecommerce-homes >a:hover,
 .box-bottom-menu-Ecommerce-homes >a:focus{
     color: rgb(70, 70, 70);
-    text-decoration: underline;
-    /* falta que se separe del ancord */
+    font-weight: 600;
+    border-bottom: solid 1.7px;
 }
 .box-all-card-Ecommerce-homes{
     /* border: solid thin peru; */

@@ -46,33 +46,32 @@ const PersonalPageHome = () => {
                     </div>
                 </nav>
                 <div className='box-intenal-body-personalPage-homes'>
-                <div className='box-data-and-image-personalPage-homes'>
-                    <div className='box-data-body-personalPage-homes'>
-                        <h5>Hi There,</h5>
-                        <h1>I am Ven<font color='#de2d49'>i</font>ssa</h1>
-                        <h2>I am designer during daytime</h2>
-                        <h3>& work with batman during nigths.</h3>
-                        <button>Ask Me How</button>
-                    </div>
-                    <div className='box-background-image-personalPage-homes'>
-                        <img className='backgroun-image-personalPage-homes' src={BackgroundImagePP} alt="Imagen de ella" />
-                    </div>
-                </div>
-                <div className='box-footer-personalPage-homes'>
-                    <div>
-                        <h6>Email</h6>
-                        <p>soyunemail@gmail.com</p>
+                    <div className='box-data-and-image-personalPage-homes'>
+                        <div className='box-data-body-personalPage-homes'>
+                            <h5>Hi There,</h5>
+                            <h1>I am Ven<font color='#de2d49'>i</font>ssa</h1>
+                            <h2>I am designer during daytime</h2>
+                            <h3>& work with batman during nigths.</h3>
+                            <button>Ask Me How</button>
                         </div>
-                    <div>
-                        <h6>Phone</h6>
-                        <p>+54 11 12345678</p>
+                        <div className='box-background-image-personalPage-homes'>
+                            <img className='backgroun-image-personalPage-homes' src={BackgroundImagePP} alt="Imagen de ella" />
+                        </div>
                     </div>
-                    <div>
-                        <h6>Location</h6>
-                        <p> Avenida Siempreviva 742</p>
+                    <div className='box-footer-personalPage-homes'>
+                        <div>
+                            <h6>Email</h6>
+                            <p>soyunemail@gmail.com</p>
+                            </div>
+                        <div>
+                            <h6>Phone</h6>
+                            <p>+54 11 12345678</p>
+                        </div>
+                        <div>
+                            <h6>Location</h6>
+                            <p> Avenida Siempreviva 742</p>
+                        </div>
                     </div>
-                </div>
-
                 </div>
             </div>
         </div>

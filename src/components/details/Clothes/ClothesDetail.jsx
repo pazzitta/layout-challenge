@@ -2,8 +2,10 @@ import './productOneDetail.css'
 import IconHeartBlack from '../../../assets/Details/ProductOne/iconHeartBlack.png'
 import VerticalImageProduct from '../../../assets/Details/ProductOne/verticalImageProduct.jpg'
 import FrontImageProduct from '../../../assets/Details/ProductOne/frontImageProduct.jpg'
+import { useState } from 'react'
 
 const ClothesDetail = () => {
+    const [onInput, setOnInput] = useState(false)
     return(
         <div className='all-page-order-product-one-detail'>
             <header className='header-order-product-one-detail'>
@@ -17,16 +19,19 @@ const ClothesDetail = () => {
                             <a href="">About</a>
                             <a href="">Women</a>
                             <a href="">Men</a>
-                            <a href="">Otro3</a>
+                            <a href="">No gender</a>
                         </section>
                         <div>
-                            <button></button>
-                            {/* <input type="text" placeholder="input búsqueda" />         */}
+                            <button onClick={()=>setOnInput(!onInput)}></button>
                             <a href=""><img src={IconHeartBlack} alt="Icono 2" /></a>
                         </div>
                     </div>
                     <div className="red-rectangle-nav-product-one-detail"></div>
                 </nav>
+                {
+                onInput &&
+                <input className='input-on-order-and-style' type="text" placeholder="Search" />        
+                }
             </header>
             <main className='main-order-product-one-detail'>
                 <div className='left-vertical-rectangle-main-product-one-detail'>
@@ -50,7 +55,7 @@ const ClothesDetail = () => {
                     <section className='section-two-and-three-middle-rectangle-main-clothes-D'>
                         <ul>
                             <li>
-                                <h4>Algo</h4>
+                                <h4>No gender</h4>
                             </li>
                         </ul>
                     </section>
@@ -71,7 +76,7 @@ const ClothesDetail = () => {
                     <section  className='section-two-and-three-middle-rectangle-main-clothes-D' >
                         <ul>
                             <li>
-                                <h4>Algo 2</h4>
+                                <h4>Material: 65% polyurethane, 35% polyester</h4>
                             </li>
                         </ul>
                     </section>
