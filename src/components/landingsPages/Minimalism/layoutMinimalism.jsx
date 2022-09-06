@@ -1,5 +1,4 @@
 import './layoutMinimalism.css'
-import BackgrounImage from '../../../assets/LandingPages/Minimalism/backgroundImageMinimalism.png'
 import BackgrounImageAll from '../../../assets/LandingPages/Minimalism/backgroundImage1.png'
 
 import LogoShopfy from '../../../assets/LandingPages/Minimalism/shopifylogo.png'

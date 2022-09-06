@@ -2,7 +2,7 @@ import './layoutSectionContent.css'
 import { useLocation } from 'react-router-dom'
 import ShopifyLogo from '../../../assets/LandingPages/Minimalism/shopifylogo.png'
 import BrandLogoD from '../../../assets/Details/ProductTwo/brandLogo.png'
-import CartGreyIconD from '../../../assets/Details/ProductTwo/cartGrey.png'
+import CartGreyIconD from '../../../assets/Details/ProductTwo/cartGray.png'
 import ShortMagnifyingGlassGreyD from '../../../assets/Details/ProductTwo/shortMagnifyingGlassGrey.png'
 import StarYellowD from '../../../assets/Details/ProductTwo/starYellow.png'
 import IsologoBrandF from '../../../assets/Forms/Register/isologoWhite.png'
@@ -13,7 +13,7 @@ import PeopleIconGrayF from '../../../assets/Forms/Register/peopleIconGrayF.png'
 import EmailIconGrayF from '../../../assets/Forms/Register/emailIconGrayF.png'
 import PadLockIconGrayF from '../../../assets/Forms/Register/padLockIconGrayF.png'
 import CartWhiteH from '../../../assets/homes/Ecommerce/cartWhiteH.png'
-import BackgroundImageMinimalismLP from '../../../assets/LandingPages/Minimalism/backgroundImageMinimalism.png'
+import BackgroundImageMinimalismLP from '../../../assets/LandingPages/Minimalism/backgroundImage1.png'
 import LeftImageProductD from '../../../assets/Details/ProductTwo/leftImageProduct.jpg'
 import MiddleImageProductD from '../../../assets/Details/ProductTwo/middleImageProduct.jpg'
 import ProductFrontImageD from '../../../assets/Details/ProductTwo/productFrontImage.png'
@@ -145,8 +145,8 @@ const LayoutSectionContentTwo = () => {
                                 <div>
                                     {
                                         location.pathname === '/landingPages' ? 
-                                        <div className='assets-multimedia-minimalism-LP'>
-                                            <img src={BackgroundImageMinimalismLP} alt="backgroun image PP" />
+                                        <div>
+                                            <img width="85%" src={BackgroundImageMinimalismLP} alt="backgroun image PP" />
                                         </div> :
                                         location.pathname === '/homes' ? <div className='assets-multimedia-ecommerce-H'>
                                             <img src={BackgroundEcommerceH} alt="background ecommerce" />

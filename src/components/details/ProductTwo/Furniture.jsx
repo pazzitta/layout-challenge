@@ -1,7 +1,7 @@
 import './productTwo.css'
 import BrandLogo from '../../../assets/Details/ProductTwo/brandLogo.png'
 import ShortMangnifyingGlass from '../../../assets/Details/ProductTwo/shortMagnifyingGlassGrey.png'
-import CartGrey from '../../../assets/Details/ProductTwo/cartGrey.png'
+import CartGrey from '../../../assets/Details/ProductTwo/cartGray.png'
 import ProductFrontImage from '../../../assets/Details/ProductTwo/productFrontImage.png'
 import ProductLeftImage from '../../../assets/Details/ProductTwo/leftImageProduct.jpg'
 import ProductMiddleImage from '../../../assets/Details/ProductTwo/middleImageProduct.jpg'
