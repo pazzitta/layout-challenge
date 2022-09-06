@@ -35,20 +35,18 @@ import ResponsiveRF360x640 from '../../../assets/Forms/Register/responsiveRF360x
 import ResponsiveFC834x1194 from '../../../assets/Cards/Food/responsiveFC834x1194.jpg'
 import ResponsiveFC390x844 from '../../../assets/Cards/Food/responsiveFC390x844.jpg'
 import ResponsiveFC360x640 from '../../../assets/Cards/Food/responsiveFC360x640.jpg'
-
 import OPMinimalismLP from '../../../assets/LandingPages/LayoutSectionContent/OPMinimalismLP.jpg'
 import OPFurniture from '../../../assets/Details/ProductTwo/OPFurnitureD.jpg'
 import OPRegisterF from '../../../assets/Forms/Register/LayoutSectioContent/OPRegisterF.jpg'
 import OPFooodC from '../../../assets/Cards/LayoutSectionContent/OPFoodC.jpg'
 import OPEcommerce from '../../../assets/homes/LayoutSectionContent/OPEcommerceH.jpg'
-
 import LayoutMinimalism from '../../landingsPages/Minimalism/layoutMinimalism'
 import EcommerceHomes from '../../homes/Ecommerce/Ecommerce'
 import FurnitureDetail from '../../details/ProductTwo/Furniture'
 import RegisterForm from '../../forms/Register/registerForm'
 import FoodCard from '../../Cards/Food/Food'
-
 import BackgroundRegisterF from '../../../assets/Forms/Register/backgroundRegister.jpg'
+import IGitHub from '../../../assets/myHome/Icons/IconGitHubWhite.png'
 
 const LayoutSectionContentTwo = () => {
     const location = useLocation()
@@ -233,12 +231,43 @@ const LayoutSectionContentTwo = () => {
                 </div>
             </section>
             <section className='my-layout-section-order'>
-                <div className='section-identification-posters-order'>
-                    <h2 className='section-identification-posters-base'>MI REPRODUCCIÓN</h2>
-                    <div>
-                        <div></div>
-                        <div></div>
+            <div className='box-links-repos-and-identification-posters-order'>
+                    <div className='section-identification-posters-order'>
+                        <h2 className='section-identification-posters-base'>MI REPRODUCCIÓN</h2>
+                        <div>
+                            <div></div>
+                            <div></div>
+                        </div>
                     </div>
+                    <div className='section-link-identification-posters-order'>
+                        <h2 className='section-link-identification-posters-base'>REPO:
+                        {
+                           location.pathname === '/landingPages' ? 
+                           <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/landingsPages/Minimalism" target="_blank" rel="noreferrer">
+                            <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
+                           </a>:
+                           location.pathname === '/homes' ? 
+                           <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/homes/Ecommerce" target="_blank" rel="noreferrer">
+                            <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
+                           </a>:
+                            location.pathname === '/details' ?
+                            <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/details/ProductTwo" target="_blank" rel="noreferrer">
+                                <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
+                            </a>:
+                           location.pathname === '/forms' ?
+                           <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/forms/Register" target="_blank" rel="noreferrer">
+                            <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
+                           </a>:
+                           <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/Cards/Food" target="_blank" rel="noreferrer">
+                            <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
+                           </a>
+                        }
+                        </h2>
+                        <div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>                   
                 </div>
                 {
                     location.pathname === '/landingPages' ? <LayoutMinimalism/> : 

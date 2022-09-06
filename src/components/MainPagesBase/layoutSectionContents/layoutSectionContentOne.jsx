@@ -56,7 +56,7 @@ import PersonalPage from '../../homes/PersonalPage/PersonalPage'
 import ClothesDetail from '../../details/Clothes/ClothesDetail'
 import LoginForm from '../../forms/Login/loginForm'
 import ClothesCard from '../../Cards/Clothes/ClothesCard'
-import IGitHub from '../../../assets/myHome/Icons/gitHub.png'
+import IGitHub from '../../../assets/myHome/Icons/IconGitHubWhite.png'
 
 const LayoutSectionContentOne = () => {
     const location = useLocation()
