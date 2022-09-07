@@ -92,6 +92,7 @@
     width: 80%;
     position: relative;
     bottom: 15px;
+    left: 40px;
     align-self: center;
     display: flex;
     justify-content: space-between;
@@ -133,6 +134,7 @@
     height: 40px;
     align-self: center;
     margin-top: 8px;
+    margin-left: 28px;
     border: none;
     border-radius: 20px;
     box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.2);

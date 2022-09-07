@@ -41,14 +41,12 @@
     width: 45%;
 }
 .order-card-left-section-product-two-detail>div>section{
-    /* border: solid; */
     width: 70%;
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
 }
 .container-input-rotation{
-    /* border: solid thin; */
     width: 200px;
     height: 50px;
     display: flex;
@@ -104,7 +102,6 @@
     flex-direction: column;
 }
 .order-card-right-section-product-two-detail>nav{
-    /* border: solid; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -113,7 +110,6 @@
     margin-top: 30px;
 }
 .card-right-section-anchors-order-nav-product-two-detail{
-    /* border: solid thin hotpink; */
     width: 50%;
     display: flex;
     justify-content: space-around;
@@ -167,8 +163,6 @@
     position: absolute;
     margin-left: 120px;
     margin-top: 33px;
-    /* bottom: 33px;
-    left: 130px; */
     width: 370px;
     height: 30px;
     border: none;
@@ -176,7 +170,6 @@
     padding-left: 10px;
 }
 .card-right-section-description-order-nav-product-two-detail{
-    /* border: solid; */
     width: 64%;
     height: 550px;
     margin-top: 60px;
@@ -209,7 +202,6 @@
     font-weight: 500;
 }
 .card-right-section-description-order-nav-product-two-detail>p{
-    /* border: solid; */
     width: 75%;
     color: rgb(88, 88, 88);
     font-size: 15px;
@@ -229,7 +221,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .box-order-quantity-product-two-detail>div:first-child{
     border-left: solid thin rgb(88, 88, 88); 
     border-top: solid thin rgb(88, 88, 88); 

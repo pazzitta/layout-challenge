@@ -11,7 +11,7 @@ const LoginForm = () => {
     <div className='box-all-login-form'>
         <article>
             <h1>$ budge<font color='#4395e7'>tale</font> login</h1>
-            <p className='order-caption-login-form'>Don't have an account.Clouse your... ni leo que dice bien</p>
+            <p className='order-caption-login-form'>You do not have an account? Create your account at takes a minute</p>
             <form>
                 <div className='box-inputs-login-form'>
                     <img src={IconPerson} alt="ícono persona" />
@@ -26,9 +26,9 @@ const LoginForm = () => {
                 <div className='box-inputs-caption-login-form'>
                     <div>
                         <div><p>&#10004;</p></div>
-                        <small>soy algo</small>
+                        <small>remember me</small>
                     </div>
-                    <small>soy otro algo</small>
+                    <small>forgot password</small>
                 </div>
                 <button className='style-button-login-form' type="submit"><img src={IconLoginButton} alt="ícono ingresar" />Login</button>
             </form>

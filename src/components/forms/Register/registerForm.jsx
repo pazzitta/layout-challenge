@@ -4,11 +4,9 @@ import IconFacebookBlack from '../../../assets/Forms/Register/iconFacebookBlack.
 import IconGoogleBlack from '../../../assets/Forms/Register/iconGoogleBlack.png'
 import IconLinkedInBlack from '../../../assets/Forms/Register/iconLinkedInBlack.png'
 
-
 const RegisterForm = () => {
     return(
         <div className="box-vp-register-form">
-            {/* <img src="" alt="Imagen de fondo" /> va a ser u background en el div mayor */} 
             <div className='box-register-form'>
                 <section className='box-left-register-form'>
                     <img src={IsologoWhite} alt="Isologo" />
@@ -24,9 +22,9 @@ const RegisterForm = () => {
                        <a href=""><img src={IconLinkedInBlack} alt="ícono LinkedIn" /></a>
                     </div>
                     <p>or use your email for registration</p>
-                    <input className='input-name-resgister-F' type="text" placeholder='Name'/>
-                    <input className='input-email-resgister-F' type="text" placeholder='Email'/>
-                    <input className='input-password-resgister-F' type="password" placeholder='Password'/>
+                    <input className='input-name-resgister-F' type="text" placeholder='&#xf007; Name'/>
+                    <input className='input-email-resgister-F' type="text" placeholder=' &#9993; Email'/>
+                    <input className='input-password-resgister-F' type="password" placeholder='&#xf30d; Password'/>
                     <button>SING UP</button>
                 </section>
             </div>

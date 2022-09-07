@@ -107,15 +107,21 @@
     background-color: #f4f8f7;
     border: none;
     color: #c6c8c7;
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 20px;
-    padding-left: 40px;
+    padding-left: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 300;
+}
+.box-right-register-form >input::placeholder{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 300;
 }
 
-.input-name-resgister-F::placeholder{
+/* .input-name-resgister-F::placeholder{
     background-image: url('../../../assets/Forms/Register/peopleIconGrayF.png');
     background-size: 20px;
     background-repeat: no-repeat;
@@ -129,6 +135,12 @@
     background-image: url('../../../assets/Forms/Register/padLockIconGrayF.png');
     background-size: 20px;
     background-repeat: no-repeat;
+    
+    ASÍ NO LOS PUEDO SEPARAR DEL TEXTO
+} */
+
+.input-password-resgister-F::placeholder{
+   color: gray;
 }
 .box-right-register-form >button {
     align-self: center;
@@ -141,6 +153,7 @@
     margin-top: 20px;
     font-size: 17px;
     font-weight: 550;
+    cursor: pointer;
 }
 
 
