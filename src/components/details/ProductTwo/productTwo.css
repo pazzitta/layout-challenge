@@ -47,12 +47,53 @@
     justify-content: space-between;
     margin-top: 50px;
 }
+.container-input-rotation{
+    /* border: solid thin; */
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.container-input-rotation::before{
+   content: "";
+   position: absolute;
+   width: 12%;
+   height: 40px;
+   border-bottom: solid 2px rgb(43, 43, 43);
+   border-radius: 50%;
+   margin-bottom: 37px;
+}
+.container-input-rotation>input{
+    position: absolute;
+    appearance: none;
+}
+.button-rotation-style {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: solid thick rgb(4, 118, 224);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.container-input-rotation>p{
+    position: relative;
+    top: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* .container-input-rotation>input:checked ~ .button-rotation-style::before{
+    left: 50px;
+} NO ANDA ESTO! */ 
+
 .order-card-left-section-product-two-detail>div>section>img{
     width: 120px;
     border-radius: 20px;
+    cursor: pointer;
 }
-
-
 .order-card-right-section-product-two-detail{
     background-color:#f0f2fa;
     width:65%;
@@ -115,16 +156,30 @@
 .card-right-section-images-order-nav-product-two-detail>img{
     width: 40px;
     margin-left: 20px;
+    cursor: pointer;
 }
 .card-right-section-images-order-nav-product-two-detail>div>img{
     width: 30px;
     margin-left: 20px;
+    cursor: pointer;
+}
+.hidden-input-order-and-style{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 33px;
+    /* bottom: 33px;
+    left: 130px; */
+    width: 370px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
 }
 .card-right-section-description-order-nav-product-two-detail{
     /* border: solid; */
     width: 64%;
     height: 550px;
-    margin-top: 70px;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     align-self: center;

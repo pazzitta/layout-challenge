@@ -7,8 +7,12 @@ import ProductLeftImage from '../../../assets/Details/ProductTwo/leftImageProduc
 import ProductMiddleImage from '../../../assets/Details/ProductTwo/middleImageProduct.jpg'
 import ProductRightImage from '../../../assets/Details/ProductTwo/rightImageProduct.jpg'
 import StarYellow from '../../../assets/Details/ProductTwo/starYellow.png'
+import { useState } from 'react'
 
 const FurnitureDetail = () => {
+
+    const [onInputMF, SetOnInputMF] = useState(false)
+
     return(
         <div className='order-all-page-product-two-detail'>
             <div className='container-card-product-two-detail'>
@@ -16,7 +20,11 @@ const FurnitureDetail = () => {
                     <img src={BrandLogo} alt="Logo" />
                     <div>
                         <img src={ProductFrontImage} alt="Imagen principal" />
-                        <input type="radio" name="cambio-imagen" id="" />
+                        <label className='container-input-rotation' htmlFor="">
+                            <input type="checkbox" name="" id="" />
+                            <div className='button-rotation-style'></div>
+                            <p>Rotate</p>
+                        </label>
                         <section>
                             <img src={ProductLeftImage} alt="Imagen 1" />
                             <img src={ProductMiddleImage} alt="Imagen 2" />
@@ -34,12 +42,15 @@ const FurnitureDetail = () => {
                         </div>
                         <div className='card-right-section-images-order-nav-product-two-detail'>
                             <div>
-                                <img src={ShortMangnifyingGlass} alt="Lupa" />
-                                {/* <input type="text" placeholder="Buscar"  */}
+                                <img onMouseUp={() => SetOnInputMF (!onInputMF)} src={ShortMangnifyingGlass} alt="Lupa" />
                             </div>
                             <img src={CartGrey} alt="Carrito compras" />
                         </div>
                     </nav>
+                    {
+                        onInputMF &&
+                        <input className='hidden-input-order-and-style' type="text" placeholder="Buscar" />
+                    }
                     <div className='card-right-section-description-order-nav-product-two-detail'>
                         <small>Algo</small>
                         <h1>Drop type cusion chair</h1>
