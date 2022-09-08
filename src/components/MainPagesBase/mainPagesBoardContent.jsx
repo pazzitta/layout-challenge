@@ -54,7 +54,7 @@ const MainPagesBoardContent = () => {
                              location.pathname === "/homes" ? <h3>Personal page</h3>:
                              location.pathname === "/details" ? <h3>Clothes</h3>:
                              location.pathname === "/forms" ? <h3>Login</h3>:
-                             <h3>Clothes</h3>
+                             <h3>News</h3>
                         }
                         <div></div>
                     </div>
@@ -65,7 +65,7 @@ const MainPagesBoardContent = () => {
                              location.pathname === "/homes" ? <h3>E-commerce</h3>:
                              location.pathname === "/details" ? <h3>Furniture</h3>:
                              location.pathname === "/forms" ? <h3>Register</h3>:
-                             <h3>Food</h3>
+                             <h3>Profile</h3>
                         }
                         <div></div>
                     </div>
@@ -76,7 +76,7 @@ const MainPagesBoardContent = () => {
                              location.pathname === "/homes" ? <h3>Marketplace</h3>:
                              location.pathname === "/details" ? <h3>News</h3>:
                              location.pathname === "/forms" ? <h3>CheckOut</h3>:
-                             <h3>News</h3>
+                             <h3>Clothes</h3>
                         }
                         <div></div>
                     </div>
@@ -87,7 +87,7 @@ const MainPagesBoardContent = () => {
                              location.pathname === "/homes" ? <h3>News</h3>:
                              location.pathname === "/details" ? <h3>Profile</h3>:
                              location.pathname === "/forms" ? <h3>Contact Us</h3>:
-                             <h3>Profile</h3>
+                             <h3>Food</h3>
                         }                       
                         <div></div>
                     </div>                
@@ -98,28 +98,28 @@ const MainPagesBoardContent = () => {
                         location.pathname === "/homes" ? <img src={PersonalPageH} alt="imagen original personal page H"/>:
                         location.pathname === "/details" ? <img src={ClothesD} alt="imagen original Clothes D"/>:
                         location.pathname === "/forms" ? <img src={LoginF} alt="imagen original Login LP"/>:
-                        <img src={ClothesC} alt="imagen original Clothes C"/>
+                        <img src={NewsC} alt="imagen original Clothes C"/>
                     }
                     {
                         location.pathname === "/landingPages" ?  <img src={MinimalismLP} alt="imagen original Minimalism LP" />:
                         location.pathname === "/homes" ? <img src={ECommerceH} alt="imagen E-commerce H"/>:
                         location.pathname === "/details" ? <img src={FurnitureD} alt="imagen original Furniture D"/>:
                         location.pathname === "/forms" ? <img src={RegisterF} alt="imagen original Register F"/>:
-                        <img src={FoodC} alt="imagen original Food C"/>
+                        <img src={ProfileC} alt="imagen original Food C"/>
                     }
                     {
                         location.pathname === "/landingPages" ?   <img src={OrganicShapesLP} alt="imagen original OrganicShapes LP" />:
                         location.pathname === "/homes" ? <img src={MarketPlaceH} alt="imagen Marketplace H"/>:
                         location.pathname === "/details" ? <img src={NewsD} alt="imagen original News D"/>:
                         location.pathname === "/forms" ? <img src={CheckOutF} alt="imagen original Background Video LP"/>:
-                        <img src={NewsC} alt="imagen original Background Video LP"/>
+                        <img src={ClothesC} alt="imagen original Background Video LP"/>
                     }
                     {
                         location.pathname === "/landingPages" ? <img src={PromotionalLP} alt="imagen original Promotional LP" />:
                         location.pathname === "/homes" ? <img src={DigitalNewsPaperH} alt="imagen DigitalNewsPaper H"/>:
                         location.pathname === "/details" ? <img src={ProfileD} alt="imagen original Profile D"/>:
                         location.pathname === "/forms" ? <img src={ContactUsF} alt="imagen original Contact Us F"/>:
-                        <img src={ProfileC} alt="imagen original Profile C"/>
+                        <img src={FoodC} alt="imagen original Profile C"/>
                     }
                 </div>
                 <div className='order-box-scotch-tape-main-Pages-Base'>
@@ -155,7 +155,7 @@ const MainPagesBoardContent = () => {
                         location.pathname === "/homes" ? <a href='/homes#firstSection'><img src={PersonalPageH} alt="imagen original personal page H"/></a>:
                         location.pathname === "/details" ? <a href='/details#firstSection'><img src={ClothesD} alt="imagen original Clothes D"/></a> :
                         location.pathname === "/forms" ? <a href='/forms#firstSection'><img src={LoginF} alt="imagen original Login LP"/></a>:
-                        <a href='/cards#firstSection'><img src={ClothesC} alt="imagen original Clothes C"/></a>
+                        <a href='/cards#firstSection'><img src={NewsC} alt="imagen original Clothes C"/></a>
                     }
                     {
                         location.pathname === "/landingPages" ? <a href="/landingPages#firstSection"><h3>Descubrime</h3></a>:
@@ -171,7 +171,7 @@ const MainPagesBoardContent = () => {
                         location.pathname === "/homes" ? <a href='/homes#secondSection'><img src={ECommerceH} alt="imagen E-commerce H"/></a>:
                         location.pathname === "/details" ? <a href='/details#secondSection'><img src={FurnitureD} alt="imagen original Furniture D"/></a>:
                         location.pathname === "/forms" ? <a href='/forms#secondSection'><img src={RegisterF} alt="imagen original Register F"/></a>:
-                        <a href='/cards#secondSection'><img src={FoodC} alt="imagen original Food C"/></a>
+                        <a href='/cards#secondSection'><img src={ProfileC} alt="imagen original Food C"/></a>
                     }
                     {
                         location.pathname === "/landingPages" ? <a href='/landingPages#secondSection'><h3>Descubrime</h3></a>:
@@ -187,14 +187,14 @@ const MainPagesBoardContent = () => {
                         location.pathname === "/homes" ? <a href='/homes#thirdSection'><img src={MarketPlaceH} alt="imagen Marketplace H"/></a>:
                         location.pathname === "/details" ? <a href='/details#thirdSection'><img src={NewsD} alt="imagen original News D"/></a>:
                         location.pathname === "/forms" ? <a href='/forms#thirdSection'><img src={CheckOutF} alt="imagen original CheckOut F"/></a>:
-                        <a href='/cards#thirdSection'><img src={NewsC} alt="imagen original News C"/></a>
+                        <a href='/cards#thirdSection'><img src={ClothesC} alt="imagen original News C"/></a>
                     }
                     {
-                        location.pathname === "/landingPages" ? <a href='/landingPages#thirdSection'><h3>No disponible</h3></a> :  
-                        location.pathname === "/homes" ? <a href='/homes#thirdSection'><h3>No disponible</h3></a>:
-                        location.pathname === "/details" ? <a href='/details#thirdSection'><h3>No disponible</h3></a>:
-                        location.pathname === "/forms" ? <a href='/forms#thirdSection'><h3>No disponible</h3></a>:
-                        <a href='/cards#thirdSection'><h3>No disponible</h3></a>
+                        location.pathname === "/landingPages" ? <a href='/landingPages#thirdSection'><h3>Descubrime</h3></a> :  
+                        location.pathname === "/homes" ? <a href='/homes#thirdSection'><h3>Descubrime</h3></a>:
+                        location.pathname === "/details" ? <a href='/details#thirdSection'><h3>Descubrime</h3></a>:
+                        location.pathname === "/forms" ? <a href='/forms#thirdSection'><h3>Descubrime</h3></a>:
+                        <a href='/cards#thirdSection'><h3>Descubrime</h3></a>
 
                     }
                     </div>
@@ -204,14 +204,14 @@ const MainPagesBoardContent = () => {
                         location.pathname === "/homes" ? <a href='/homes#fourthSection'><img src={DigitalNewsPaperH} alt="imagen DigitalNewsPaper H"/></a>:
                         location.pathname === "/details" ?  <a href='/details#fourthSection'><img src={ProfileD} alt="imagen original Profile D"/></a>:
                         location.pathname === "/forms" ? <a href='/forms#fourthSection'><img src={ContactUsF} alt="imagen original Contact Us F"/></a>:
-                        <a href='/cards#fourthSection'><img src={ProfileC} alt="imagen original Profile C"/></a>
+                        <a href='/cards#fourthSection'><img src={FoodC} alt="imagen original Profile C"/></a>
                     }
                     {
-                        location.pathname === "/landingPages" ? <a href='/landingPages#fourthSection'><h3>No disponible</h3></a>:
-                        location.pathname === "/homes" ? <a href='/homes#fourthSection'><h3>No disponible</h3></a>:
-                        location.pathname === "/details" ?  <a href='/details#fourthSection'><h3>No disponible</h3></a>:
-                        location.pathname === "/forms" ? <a href='/forms#fourthSection'><h3>No disponible</h3></a>:
-                        <a href='/cards#fourthSection'><h3>No disponible</h3></a>
+                        location.pathname === "/landingPages" ? <a href='/landingPages#fourthSection'><h3>Descubrime</h3></a>:
+                        location.pathname === "/homes" ? <a href='/homes#fourthSection'><h3>Descubrime</h3></a>:
+                        location.pathname === "/details" ?  <a href='/details#fourthSection'><h3>Descubrime</h3></a>:
+                        location.pathname === "/forms" ? <a href='/forms#fourthSection'><h3>Descubrime</h3></a>:
+                        <a href='/cards#fourthSection'><h3>Descubrime</h3></a>
                     }
                     </div>
                 </div>
