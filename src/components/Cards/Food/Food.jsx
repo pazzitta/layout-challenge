@@ -27,11 +27,11 @@ const FoodCard = () => {
                 </div>
                 <div className='box-text-product-food-card'>
                     <div className='box-price-and-g-food-card'>
-                        <p>$---</p>
-                        <p>---g</p>
+                        <p>$20</p>
+                        <p>80g</p>
                     </div>
                     <div className='box-name-and-buttonAdd-food-card'>
-                        <h2 className='product-name-food-card'>Soy el nombre</h2>
+                        <h2 className='product-name-food-card'>Bagel Sesame</h2>
                         <button className='button-add-food-card'>Add</button>
                     </div>
                 </div>

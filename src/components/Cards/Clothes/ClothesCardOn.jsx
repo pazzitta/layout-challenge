@@ -1,9 +1,10 @@
 import './clothesCard.css'
 import ProductOne from '../../../assets/Cards/productOneCard.png'
-import CartBlack from '../../../assets/Cards/Clothes/cartBlack.png'
+// import CartBlack from '../../../assets/Cards/Clothes/cartBlack.png'
 
-const ClothesCard = () => {
+const ClothesCardOn = () => {
     return(
+        <div className='caja-para-ver'>
         <div className='box-macro-clothes-card'>
             <div className='box-image-product-clothes-card'>
                 <img className='image-product-clothes-card' src={ProductOne} alt="Imagen producto" />
@@ -15,6 +16,8 @@ const ClothesCard = () => {
                 <p>$185</p>
             </div>
         </div>
+
+        </div>
     )
 }
-export default ClothesCard;
+export default ClothesCardOn;

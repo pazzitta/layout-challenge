@@ -1,5 +1,5 @@
 import './layoutSectionContent.css'
-// import '../MainPagesBase/mainPagesBase.css'
+import { useState } from 'react'
 import {useLocation} from 'react-router-dom'
 import OPBackgroundVideoLP from '../../../assets/LandingPages/BackgroundVideoGif.gif'
 import OPPersonalPageH from '../../../assets/homes/LayoutSectionContent/OPPersonalPageH.jpg'
@@ -60,6 +60,7 @@ import IGitHub from '../../../assets/myHome/Icons/IconGitHubWhite.png'
 
 const LayoutSectionContentOne = () => {
     const location = useLocation()
+    const [cardOffOn, SetCardOffOn] = useState(false)
     return(
         <div className="order-all-layout-section-content">
             <section className='original-page-section-order'>
@@ -308,10 +309,18 @@ const LayoutSectionContentOne = () => {
                     location.pathname === '/homes' ? <PersonalPage/> :
                     location.pathname === '/details' ? <ClothesDetail/> :
                     location.pathname === '/forms' ? <LoginForm/> :
-                    <div className='clothes-card-order-section-content-one'>
-                        <ClothesCard/>
-                        <ClothesCard/>
-                        <ClothesCard/>
+                    <div>
+                        <div onMouseOver={() => SetCardOffOn (!cardOffOn)} className='clothes-card-order-section-content-one'>
+                                <ClothesCard/>
+                                <ClothesCard/>
+                                <ClothesCard/>
+                        </div>
+                        {
+                            cardOffOn&&
+                            <div>
+
+                            </div>
+                        }
                     </div>
                 }
             </section>
