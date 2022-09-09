@@ -32,8 +32,8 @@ const MyLayoutsSection = () => {
                     <div className='name-login-article-one'>
                         <h2>L</h2><h2>O</h2><h2>G</h2><h2>I</h2><h2>N</h2>
                     </div> :
-                    <div className='name-clothes-article-one'>
-                        <h2>C</h2><h2>L</h2><h2>O</h2><h2>T</h2><h2>H</h2><h2>E</h2><h2>S</h2>
+                    <div className='name-news-article-one'>
+                        <h2>N</h2><h2>E</h2><h2>W</h2><h2>S</h2>
                     </div> 
                 }
                 <div className="top-frame-styles-and-order-layout-section">
@@ -64,11 +64,11 @@ const MyLayoutsSection = () => {
                         <h2>F</h2><h2>U</h2><h2>R</h2><h2>N</h2><h2>I</h2><h2>T</h2><h2>U</h2><h2>R</h2><h2>E</h2>
                     </div>:
                     location.pathname === '/forms' ? 
-                    <div className='name-background-video-article-one'>
+                    <div className='name-register-article-one'>
                         <h2>R</h2><h2>E</h2><h2>G</h2><h2>I</h2><h2>S</h2><h2>T</h2><h2>E</h2><h2>R</h2>
                     </div>:
-                    <div className='name-background-video-article-one'>
-                        <h2>F</h2><h2>O</h2><h2>O</h2><h2>D</h2>
+                    <div className='name-profile-article-one'>
+                        <h2>P</h2><h2>R</h2><h2>O</h2><h2>F</h2><h2>I</h2><h2>L</h2><h2>E</h2>
                     </div>
                 }
                 <div className="top-frame-styles-and-order-layout-section">
@@ -100,19 +100,19 @@ const MyLayoutsSection = () => {
             <article id='thirdSection' className='order-all-componentes-article-three'>
             {
                     location.pathname === '/landingPages'?
-                    <div className='name-background-video-article-one'>
-                        <h2>O</h2><h2>R</h2><h2>G</h2><h2>A</h2><h2>N</h2><h2>I</h2> <h2>S</h2><h2>H</h2><h2>A</h2><h2>P</h2><h2>E</h2><h2>S</h2>
+                    <div className='name-original-shapes-article-one'>
+                        <h2>O</h2><h2>R</h2><h2>G</h2><h2>A</h2><h2>N</h2><h2>I</h2><h2>C</h2> <h2>S</h2><h2>H</h2><h2>A</h2><h2>P</h2><h2>E</h2><h2>S</h2>
                     </div>:
                     location.pathname === '/homes' ? 
-                    <div className='name-background-video-article-one'>
+                    <div className='name-marketplace-article-one'>
                         <h2>M</h2><h2>A</h2><h2>R</h2><h2>K</h2><h2>E</h2><h2>T</h2><h2>P</h2><h2>L</h2><h2>A</h2><h2>C</h2><h2>E</h2>
                     </div>:
                     location.pathname === '/details' ? 
-                    <div className='name-background-video-article-one'>
+                    <div className='name-news-article-one'>
                         <h2>N</h2><h2>E</h2><h2>W</h2><h2>S</h2>
                     </div>:
                     location.pathname === '/forms' ? 
-                    <div className='name-background-video-article-one'>
+                    <div className='name-check-out-article-one'>
                         <h2>C</h2><h2>H</h2><h2>E</h2><h2>C</h2><h2>K</h2> <h2>O</h2><h2>U</h2><h2>T</h2>
                     </div>:
                     <div className='name-clothes-article-one'>
@@ -135,22 +135,22 @@ const MyLayoutsSection = () => {
             <article id='fourthSection' className='order-all-componentes-article-four'>
             {
                     location.pathname === '/landingPages'?
-                    <div className='name-background-video-article-one'>
+                    <div className='name-promotional-article-one'>
                         <h2>P</h2><h2>R</h2><h2>O</h2><h2>M</h2><h2>O</h2><h2>T</h2><h2>I</h2><h2>O</h2><h2>N</h2><h2>A</h2><h2>L</h2>
                     </div>:
                     location.pathname === '/homes' ? 
-                    <div className='name-background-video-article-one'>
+                    <div className='name-news-article-one'>
                         <h2>N</h2><h2>E</h2><h2>W</h2><h2>S</h2>
                     </div>:
                     location.pathname === '/details' ? 
-                    <div className='name-background-video-article-one'>
+                    <div className='name-profile-article-one'>
                         <h2>P</h2><h2>R</h2><h2>O</h2><h2>F</h2><h2>I</h2><h2>L</h2><h2>E</h2>
                     </div>:
                     location.pathname === '/forms' ? 
-                    <div className='name-background-video-article-one'>
+                    <div className='name-contact-us-article-one'>
                         <h2>C</h2><h2>O</h2><h2>N</h2><h2>T</h2><h2>A</h2><h2>C</h2><h2>T</h2> <h2>U</h2><h2>S</h2>
                     </div>:
-                    <div className='name-background-video-article-one'>
+                    <div className='name-news-article-one'>
                         <h2>F</h2><h2>O</h2><h2>O</h2><h2>D</h2>
                     </div>
                 }

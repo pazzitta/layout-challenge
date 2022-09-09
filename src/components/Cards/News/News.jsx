@@ -22,8 +22,8 @@ const NewsCard = () => {
                             <div className='box-image-and-autor-news-card'>
                                 <img className='image-autor-news-card' src={ImageAutor} alt="Foto autor" />
                                 <div>
-                                    <h4 className='name-autor-news-card'>Nombre autor</h4>
-                                    <p className='profesion-autor-news-card'>Profesión</p>
+                                    <h4 className='name-autor-news-card'>Author Name</h4>
+                                    <p className='profesion-autor-news-card'>Profession</p>
                                 </div>
                             </div>
                             <button className='button-next-news-card'>&gt;</button>

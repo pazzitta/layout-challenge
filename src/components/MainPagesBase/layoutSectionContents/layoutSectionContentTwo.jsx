@@ -65,7 +65,7 @@ const LayoutSectionContentTwo = () => {
                     location.pathname === '/homes' ? <img className='original-page-section-order-two-img-ecommerce' src={OPEcommerce} alt="pág. original " /> :
                     location.pathname === '/details' ? <img className='original-page-section-order-two-img' src={OPFurniture} alt="pág. original Furniture D" /> :
                     location.pathname === '/forms' ? <img className='original-page-section-order-two-img' src={OPRegisterF} alt="pág. original Register " /> :
-                    <img  className='original-page-section-order-two-img' src={OPFooodC} alt="pág. original Food C" /> 
+                    <img  className='original-page-section-order-two-img' src="" alt="pág. original profile C" /> 
                 }
             </section>
 
@@ -160,7 +160,7 @@ const LayoutSectionContentTwo = () => {
                                         </div> :
                                         location.pathname === '/forms' ? <h4>none</h4> :
                                         <div className='assets-multimedia-food-C'>
-                                            <img src={ProductTwoC} alt="imagen bagels" />
+                                            <img src="" alt="imagen " />
                                         </div> 
                                     }
                                 </div>
@@ -222,9 +222,9 @@ const LayoutSectionContentTwo = () => {
                                 <img src={ResponsiveRF360x640} alt="diseño responsivo Register F 360x640" />
                             </div> :
                             <div>
-                                <img src={ResponsiveFC834x1194} alt="diseño responsivo Food C 834x1194" />
-                                <img src={ResponsiveFC390x844} alt="diseño responsivo Food C 390x844" />
-                                <img src={ResponsiveFC360x640} alt="diseño responsivo Food C 360x640" />
+                                <img src="" alt="diseño responsivo Profile C 834x1194" />
+                                <img src="" alt="diseño responsivo Profile C 390x844" />
+                                <img src="" alt="diseño responsivo Profile C 360x640" />
                             </div>
                         }
                         <div className='responsive-sizes-posters-order'>
@@ -269,7 +269,7 @@ const LayoutSectionContentTwo = () => {
                            <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/forms/Register" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
-                           <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/Cards/Food" target="_blank" rel="noreferrer">
+                           <a href="" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>
                         }
@@ -286,14 +286,7 @@ const LayoutSectionContentTwo = () => {
                     location.pathname === '/details' ? <FurnitureDetail/> :
                     location.pathname === '/forms' ? <RegisterForm/> :
                     <div className='food-card-order-section-content-two'>
-                        <FoodCard/>
-                        <FoodCard/>
-                        <FoodCard/>
-                        <FoodCard/>
-                        <FoodCard/>
-                        <FoodCard/>
-                        <FoodCard/>
-                        <FoodCard/>        
+                        <h2>soy el en construcción</h2>       
                     </div>
                 }
             </section>
