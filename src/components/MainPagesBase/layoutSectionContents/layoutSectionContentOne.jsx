@@ -1,11 +1,10 @@
 import './layoutSectionContent.css'
-import { useState } from 'react'
 import {useLocation} from 'react-router-dom'
 import OPBackgroundVideoLP from '../../../assets/LandingPages/BackgroundVideoGif.gif'
 import OPPersonalPageH from '../../../assets/homes/LayoutSectionContent/OPPersonalPageH.jpg'
 import OPClothesD from '../../../assets/Details/LayoutSectionContent/OPClothesD.jpg'
 import OPLoginF from '../../../assets/Forms/LayoutSectionContent/OPLoginF.jpg'
-import OPClothesC from '../../../assets/Cards/LayoutSectionContent/OPClothesC.jpg'
+import OPNewsC from '../../../assets/Cards/LayoutSectionContent/OPNewsC.jpg'
 import PlayVideoIconLP from '../../../assets/LandingPages/BackgrondVideo/playVideoIcon.png'
 import DownArrowIconLP from '../../../assets/LandingPages/BackgrondVideo/downArrowIcon.png'
 import MenuLineIconLP from '../../../assets/LandingPages/BackgrondVideo/menuLineIcon.png'
@@ -32,9 +31,7 @@ import PersonIconF from '../../../assets/Forms/Login/iconPerson.png'
 import TickIconF from '../../../assets/Forms/Login/iconTick.png'
 import TwitterIconF from '../../../assets/Forms/Login/iconTwitterWhite.png'
 import BackgroundImageLoginF from '../../../assets/Forms/Login/backgroundImageLogin.jpg'
-import CartBlackIconC from '../../../assets/Cards/Clothes/cartBlack.png'
-import CartWhiteIconC from '../../../assets/Cards/Clothes/cartWhite.png'
-import ProductClotheCart from '../../../assets/Cards/Clothes/productOneCard.png'
+import ImageNewsC from '../../../assets/Cards/News/imageNewsC.jpg'
 import ResponsiveBVLP834x1194 from '../../../assets/LandingPages/BackgrondVideo/responsiveBVLP834x1194.jpg'
 import ResponsiveBVLP390x844 from '../../../assets/LandingPages/BackgrondVideo/responsiveBVLP390x844.jpg'
 import ResponsiveBVLP360x640 from '../../../assets/LandingPages/BackgrondVideo/responsiveBVLP360x640.jpg'
@@ -47,20 +44,20 @@ import ResponsiveCD360x640 from '../../../assets/Details/ProductOne/responsiveCD
 import ResponsiveLF834x1194 from '../../../assets/Forms/Login/responsiveLF834x1194.jpg'
 import ResponsiveLF390x844 from '../../../assets/Forms/Login/responsiveLF390x844.jpg'
 import ResponsiveLF360x640 from '../../../assets/Forms/Login/responsiveLF360x640.jpg'
-import ResponsiveCC834x1194 from '../../../assets/Cards/Clothes/responsiveCC834x1194.jpg'
-import ResponsiveCC390x844 from '../../../assets/Cards/Clothes/responsiveCC390x844.jpg'
-import ResponsiveCC360x640 from '../../../assets/Cards/Clothes/responsiveCC360x640.jpg'
+import ResponsiveNC834x1194 from '../../../assets/Cards/News/responsiveNC834x1194.jpg'
+import ResponsiveNC390x844 from '../../../assets/Cards/News/responsiveNC390x844.jpg'
+import ResponsiveNC360x640 from '../../../assets/Cards/News/responsiveNC360x640.jpg'
 import VideoBackgroundVideoLP from '../../../assets/LandingPages/BackgrondVideo/backgroundV.mp4'
 import BackgroundVideo from '../../landingsPages/BackgroundVideo/layoutBackgroundVideo'
 import PersonalPage from '../../homes/PersonalPage/PersonalPage'
 import ClothesDetail from '../../details/Clothes/ClothesDetail'
 import LoginForm from '../../forms/Login/loginForm'
-import ClothesCard from '../../Cards/Clothes/ClothesCard'
+import NewsCard from '../../Cards/News/News'
 import IGitHub from '../../../assets/myHome/Icons/IconGitHubWhite.png'
 
 const LayoutSectionContentOne = () => {
     const location = useLocation()
-    const [cardOffOn, SetCardOffOn] = useState(false)
+
     return(
         <div className="order-all-layout-section-content">
             <section className='original-page-section-order'>
@@ -76,7 +73,7 @@ const LayoutSectionContentOne = () => {
                     location.pathname === '/homes' ? <img src={OPPersonalPageH} alt="pág. original Personal Page H" /> :
                     location.pathname === '/details' ? <img src={OPClothesD} alt="pág. original Clothes D" /> :
                     location.pathname === '/forms' ? <img src={OPLoginF} alt="pág. original Login F" /> :
-                    <img src={OPClothesC} alt="pág. original Clothes C" /> 
+                    <img src={OPNewsC} alt="pág. original News C" /> 
                 }
             </section>
 
@@ -151,10 +148,7 @@ const LayoutSectionContentOne = () => {
                                             <img src={GoogleIconF} alt="ícono Google +" />
                                             <img src={TwitterIconF} alt="ícono Google +" />
                                         </div> :
-                                        <div className='assets-icons-clothes-c'>
-                                            <img src={CartBlackIconC} alt="ícono carrito negro" />
-                                            <img src={CartWhiteIconC} alt="ícono cattito blanco" />
-                                        </div>
+                                        <h4>none</h4>
                                     }
                                 </div>
                                 <div>
@@ -185,7 +179,7 @@ const LayoutSectionContentOne = () => {
                                         <div className='assets-multimedia-login-F'>
                                             <img src={BackgroundImageLoginF} alt="backgroun image Login F" />
                                         </div> :
-                                        <img className='assets-multimedia-Clothes-C' src={ProductClotheCart} alt="Zapatilla adidas" />
+                                        <img width="30%" src={ImageNewsC} alt="ferris wheel london" />
                                     }
                                 </div>
                                 <div>
@@ -246,9 +240,9 @@ const LayoutSectionContentOne = () => {
                                  <img src={ResponsiveLF360x640} alt="diseño responsivo login F 360x640" />
                              </div> :
                              <div>
-                                <img src={ResponsiveCC834x1194} alt="diseño responsivo Clothes C 834x1194" />
-                                <img src={ResponsiveCC390x844} alt="diseño responsivo clothes C 390x844" />
-                                <img src={ResponsiveCC360x640} alt="diseño responsivo clothes C 360x640" />
+                                <img src={ResponsiveNC834x1194} alt="diseño responsivo News C 834x1194" />
+                                <img src={ResponsiveNC390x844} alt="diseño responsivo News C 390x844" />
+                                <img src={ResponsiveNC360x640} alt="diseño responsivo News C 360x640" />
                              </div>
                         }
                         <div className='responsive-sizes-posters-order'>
@@ -293,7 +287,7 @@ const LayoutSectionContentOne = () => {
                            <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/forms/Login" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
-                           <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/Cards/Clothes" target="_blank" rel="noreferrer">
+                           <a href="" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>
                         }
@@ -309,18 +303,8 @@ const LayoutSectionContentOne = () => {
                     location.pathname === '/homes' ? <PersonalPage/> :
                     location.pathname === '/details' ? <ClothesDetail/> :
                     location.pathname === '/forms' ? <LoginForm/> :
-                    <div>
-                        <div onMouseOver={() => SetCardOffOn (!cardOffOn)} className='clothes-card-order-section-content-one'>
-                                <ClothesCard/>
-                                <ClothesCard/>
-                                <ClothesCard/>
-                        </div>
-                        {
-                            cardOffOn&&
-                            <div>
-
-                            </div>
-                        }
+                    <div className='news-card-order-section-content-one'>
+                        <NewsCard/>
                     </div>
                 }
             </section>

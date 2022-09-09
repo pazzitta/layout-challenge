@@ -453,13 +453,20 @@
 .assets-icons-minimalism-LP>img{
     width: 60%;
 }
-.clothes-card-order-section-content-one{
+.clothes-card-order-section-content-one,
+.news-card-order-section-content-one{
     background-color: white;
     width: 100%;
     height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.clothes-card-order-section-content-one{
+    background-color: white
+}
+.news-card-order-section-content-one{
+    background-color: #f2f3f5;
 }
 .assets-multimedia-furniture-D>img:first-child,
 .assets-multimedia-furniture-D>img:nth-child(2),
@@ -470,3 +477,4 @@
 .assets-multimedia-furniture-D>img:last-child{
     width: 25%;
 }
+
