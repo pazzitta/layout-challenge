@@ -37,9 +37,9 @@ import ResponsiveFD360x640 from '../../../assets/Details/ProductTwo/responsiveFD
 import ResponsiveRF834x1194 from '../../../assets/Forms/Register/responsiveRF834x1194.jpg'
 import ResponsiveRF390x844 from '../../../assets/Forms/Register/responsiveRF390x844.jpg'
 import ResponsiveRF360x640 from '../../../assets/Forms/Register/responsiveRF360x640.jpg'
-
-
-
+import ResponsivePC834x1194 from '../../../assets/Cards/Profile/responsivePC834x1194.jpg'
+import ResponsivePC390x844 from '../../../assets/Cards/Profile/responsivePC390x844.jpg'
+import ResponsivePC360x640 from '../../../assets/Cards/Profile/responsivePC360x640.jpg'
 import OPMinimalismLP from '../../../assets/LandingPages/LayoutSectionContent/OPMinimalismLP.jpg'
 import OPFurniture from '../../../assets/Details/ProductTwo/OPFurnitureD.jpg'
 import OPRegisterF from '../../../assets/Forms/Register/LayoutSectioContent/OPRegisterF.jpg'
@@ -169,7 +169,7 @@ const LayoutSectionContentTwo = () => {
                                         </div> :
                                         location.pathname === '/forms' ? <h4>none</h4> :
                                         <div className='assets-multimedia-food-C'>
-                                            <img src={ProfileImageC} alt="imagen usuario " />
+                                            <img src={ProfileImageC} alt="imagen usuario" />
                                         </div> 
                                     }
                                 </div>
@@ -231,9 +231,9 @@ const LayoutSectionContentTwo = () => {
                                 <img src={ResponsiveRF360x640} alt="diseño responsivo Register F 360x640" />
                             </div> :
                             <div>
-                                <img src="" alt="diseño responsivo Profile C 834x1194" />
-                                <img src="" alt="diseño responsivo Profile C 390x844" />
-                                <img src="" alt="diseño responsivo Profile C 360x640" />
+                                <img src={ResponsivePC834x1194} alt="diseño responsivo Profile C 834x1194" />
+                                <img src={ResponsivePC390x844} alt="diseño responsivo Profile C 390x844" />
+                                <img src={ResponsivePC360x640}  alt="diseño responsivo Profile C 360x640" />
                             </div>
                         }
                         <div className='responsive-sizes-posters-order'>
