@@ -380,7 +380,8 @@
 .assets-icons-login-f,
 .assets-icons-clothes-c,
 .assets-icons-furniture-D,
-.assets-icons-register-F{
+.assets-icons-register-F,
+.assets-icons-profile-c{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -425,6 +426,16 @@
 .assets-icons-login-f>img:first-child{
     margin-left: 20px;
 }
+.assets-icons-profile-c>img{
+    width: 17%;
+    margin-right: 25px;
+}
+.assets-icons-profile-c>img:first-child{
+    margin-left: 20px;
+}
+.assets-icons-profile-c>img:last-child{
+    margin-left: 20px;
+}
 .assets-multimedia-personal-page-H,
 .assets-multimedia-food-C{
     display: flex;
@@ -454,7 +465,8 @@
     width: 60%;
 }
 .clothes-card-order-section-content-one,
-.news-card-order-section-content-one{
+.news-card-order-section-content-one,
+.profile-card-base-section-content-one{
     background-color: white;
     width: 100%;
     height: 90vh;
@@ -465,8 +477,17 @@
 .clothes-card-order-section-content-one{
     background-color: white
 }
-.news-card-order-section-content-one{
+.news-card-order-section-content-one,
+.profile-card-base-section-content-one{
     background-color: #f2f3f5;
+}
+.profile-card-order-section-content-one{
+   width: 70%;
+   height: 75vh;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+   align-items:center;
 }
 .assets-multimedia-furniture-D>img:first-child,
 .assets-multimedia-furniture-D>img:nth-child(2),

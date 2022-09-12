@@ -1,12 +1,12 @@
-import './styleReplicateCards.css'
-import ImageProfile from '../../../assets/Cards/imageProfileP.jpg'
-import IconPeople from '../../../assets/Cards/iconPeople.png'
-import IconViews from '../../../assets/Cards/iconViews.png'
-import IconVideos from '../../../assets/Cards/iconVideo.png'
-import IconAdd from '../../../assets/Cards/iconAdd.png'
+import './profile.css'
+import ImageProfile from '../../../assets/Cards/Profile/imageProfileP.jpg'
+import IconPeople from '../../../assets/Cards/Profile/iconPeople.png'
+import IconViews from '../../../assets/Cards/Profile/iconViews.png'
+import IconVideos from '../../../assets/Cards/Profile/iconVideo.png'
+import IconAdd from '../../../assets/Cards/Profile/iconAdd.png'
 
 
-const PeopleCard = () => {
+const ProfileCard = () => {
     return(
         <div className='caja-para-ver'>
         <div className='box-macro-people-card'>
@@ -18,7 +18,7 @@ const PeopleCard = () => {
                     <img className='image-profile-people-card' src={ImageProfile} alt="Imagen perfil" />
                 </div>
                 <div className='box-all-data-profile-people-card'>
-                    <h2 className='name-data-profile-people-card'>Nombre Apellido</h2>
+                    <h2 className='name-data-profile-people-card'>Erik Jonson</h2>
                     <div className='box-data-profile-people-card'>
                         <div>
                             <img className='icon-images-profile-people-card' src={IconPeople} alt="Ícono personas" />
@@ -54,4 +54,4 @@ const PeopleCard = () => {
         </div>
     )
 }
-export default PeopleCard;
+export default ProfileCard;

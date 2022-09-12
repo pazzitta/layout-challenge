@@ -13,13 +13,18 @@ import PeopleIconGrayF from '../../../assets/Forms/Register/peopleIconGrayF.png'
 import EmailIconGrayF from '../../../assets/Forms/Register/emailIconGrayF.png'
 import PadLockIconGrayF from '../../../assets/Forms/Register/padLockIconGrayF.png'
 import CartWhiteH from '../../../assets/homes/Ecommerce/cartWhiteH.png'
+import ProfileAddIconC from '../../../assets/Cards/Profile/iconAdd.png'
+import ProfilePeopleIconC from '../../../assets/Cards/Profile/iconPeople.png'
+import ProfilePlayIconC from '../../../assets/Cards/Profile/iconVideo.png'
+import ProfileViewsIconC from '../../../assets/Cards/Profile/iconViews.png'
+import ProfileStarC from '../../../assets/Cards/Profile/starPeople.png'
 import BackgroundImageMinimalismLP from '../../../assets/LandingPages/Minimalism/backgroundImage1.png'
 import LeftImageProductD from '../../../assets/Details/ProductTwo/leftImageProduct.jpg'
 import MiddleImageProductD from '../../../assets/Details/ProductTwo/middleImageProduct.jpg'
 import ProductFrontImageD from '../../../assets/Details/ProductTwo/productFrontImage.png'
 import RightImageProductD from '../../../assets/Details/ProductTwo/rightImageProduct.jpg'
-import ProductTwoC from '../../../assets/Cards/Food/productFood.png'
 import BackgroundEcommerceH from '../../../assets/homes/Ecommerce/backgroundEcommerce.jpg'
+import ProfileImageC from '../../../assets/Cards/Profile/imageProfileP.jpg'
 import ResponsiveMLP834x1194 from '../../../assets/LandingPages/Minimalism/responsiveMLPTablet.jpg'
 import ResponsiveMLP390x844 from '../../../assets/LandingPages/Minimalism/responsiveMLP390x844.jpg'
 import ResponsiveMLP360x640 from '../../../assets/LandingPages/Minimalism/responsiveMLP360x640.jpg'
@@ -32,19 +37,19 @@ import ResponsiveFD360x640 from '../../../assets/Details/ProductTwo/responsiveFD
 import ResponsiveRF834x1194 from '../../../assets/Forms/Register/responsiveRF834x1194.jpg'
 import ResponsiveRF390x844 from '../../../assets/Forms/Register/responsiveRF390x844.jpg'
 import ResponsiveRF360x640 from '../../../assets/Forms/Register/responsiveRF360x640.jpg'
-import ResponsiveFC834x1194 from '../../../assets/Cards/Food/responsiveFC834x1194.jpg'
-import ResponsiveFC390x844 from '../../../assets/Cards/Food/responsiveFC390x844.jpg'
-import ResponsiveFC360x640 from '../../../assets/Cards/Food/responsiveFC360x640.jpg'
+
+
+
 import OPMinimalismLP from '../../../assets/LandingPages/LayoutSectionContent/OPMinimalismLP.jpg'
 import OPFurniture from '../../../assets/Details/ProductTwo/OPFurnitureD.jpg'
 import OPRegisterF from '../../../assets/Forms/Register/LayoutSectioContent/OPRegisterF.jpg'
-import OPFooodC from '../../../assets/Cards/LayoutSectionContent/OPFoodC.jpg'
+import OPProfileC from '../../../assets/Cards/LayoutSectionContent/OPProfileC.jpg'
 import OPEcommerce from '../../../assets/homes/LayoutSectionContent/OPEcommerceH.jpg'
 import LayoutMinimalism from '../../landingsPages/Minimalism/layoutMinimalism'
 import EcommerceHomes from '../../homes/Ecommerce/Ecommerce'
 import FurnitureDetail from '../../details/ProductTwo/Furniture'
 import RegisterForm from '../../forms/Register/registerForm'
-import FoodCard from '../../Cards/Food/Food'
+import ProfileCard from '../../Cards/Profile/Profile'
 import BackgroundRegisterF from '../../../assets/Forms/Register/backgroundRegister.jpg'
 import IGitHub from '../../../assets/myHome/Icons/IconGitHubWhite.png'
 
@@ -65,7 +70,7 @@ const LayoutSectionContentTwo = () => {
                     location.pathname === '/homes' ? <img className='original-page-section-order-two-img-ecommerce' src={OPEcommerce} alt="pág. original " /> :
                     location.pathname === '/details' ? <img className='original-page-section-order-two-img' src={OPFurniture} alt="pág. original Furniture D" /> :
                     location.pathname === '/forms' ? <img className='original-page-section-order-two-img' src={OPRegisterF} alt="pág. original Register " /> :
-                    <img  className='original-page-section-order-two-img' src="" alt="pág. original profile C" /> 
+                    <img  className='original-page-section-order-two-img' src={OPProfileC} alt="pág. original profile C" /> 
                 }
             </section>
 
@@ -131,10 +136,14 @@ const LayoutSectionContentTwo = () => {
                                             <img src={EmailIconGrayF} alt="ícono Carta gris" />
                                             <img src={PadLockIconGrayF} alt="ícono Candado gris" />
                                         </div> :
-                                        <h4>none</h4>
+                                        <div className='assets-icons-profile-c'>
+                                            <img src={ProfileAddIconC} alt="ícono agregar persona" />
+                                            <img src={ProfilePeopleIconC} alt="ícono Usuario" />
+                                            <img src={ProfilePlayIconC} alt="ícono Play " />
+                                            <img src={ProfileViewsIconC} alt="ícono Ojo" />
+                                            <img src={ProfileStarC} alt="Estrella gris" />
+                                        </div> 
                                     }
-                                    {/* <img src={DownArrowIconLP} alt="" />
-                                    <img src={MenuLineIconLP} alt="" /> */}
                                 </div>
                                 <div>
                                     <div></div>
@@ -160,7 +169,7 @@ const LayoutSectionContentTwo = () => {
                                         </div> :
                                         location.pathname === '/forms' ? <h4>none</h4> :
                                         <div className='assets-multimedia-food-C'>
-                                            <img src="" alt="imagen " />
+                                            <img src={ProfileImageC} alt="imagen usuario " />
                                         </div> 
                                     }
                                 </div>
@@ -285,8 +294,13 @@ const LayoutSectionContentTwo = () => {
                     location.pathname === '/homes' ? <EcommerceHomes/> :
                     location.pathname === '/details' ? <FurnitureDetail/> :
                     location.pathname === '/forms' ? <RegisterForm/> :
-                    <div className='food-card-order-section-content-two'>
-                        <h2>soy el en construcción</h2>       
+                    <div className='profile-card-base-section-content-one'>
+                        <div className='profile-card-order-section-content-one'>
+                            <ProfileCard/>
+                            <ProfileCard/>       
+                            <ProfileCard/>       
+                            <ProfileCard/>       
+                        </div>
                     </div>
                 }
             </section>
