@@ -164,7 +164,7 @@ const LayoutSectionContentOne = () => {
                                             <video autoPlay loop muted>
                                                 <source src={VideoBackgroundVideoLP} type="video/mp4" />
                                             </video>
-                                            <p>Se utilizó otro video, ya que el orinal es propiedad de la marca.</p>
+                                            <p>Se utilizó otro video, ya que el original es propiedad de la marca.</p>
                                         </div> :
                                         location.pathname === '/homes' ? 
                                         <div className='assets-multimedia-personal-page-H'>

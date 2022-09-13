@@ -13,8 +13,8 @@
 }
 /* PORTFOLIONAME */
 .portfolio-main-name-order{
-    border: solid thin red;
-    width: 41%;
+    /* border: solid thin red; */
+    width: 45%;
     height: 130px;
     display: flex;
     font-family: 'Allerta Stencil', sans-serif;
@@ -28,7 +28,7 @@
 }
 .portfolio-main-name-order>div:last-child{
     position: relative;
-    right: 768px;
+    right: 838px;
     display: flex;
 }
 .portfolio-main-name-order>div:last-child h2{
@@ -40,6 +40,9 @@
     background-position:center;
     background-clip: text;
     color: transparent;
+}
+.portfolio-main-name-order>div:last-child h2:last-child{
+    margin-left: 50px;
 }
 .portfolio-main-name-order>div:first-child>h2:first-child,
 .portfolio-main-name-order>div:first-child>h2:nth-child(7){
@@ -83,11 +86,18 @@
     color: rgb(242, 108, 78);
     text-shadow: 2px 1px 2px rgba(242, 108, 78, 0.5);
 }
+
 .portfolio-main-name-order>div:first-child>h2:nth-child(7){
     margin: 0;
     margin-left: 20px;
     color: rgba(113, 54, 244);
     text-shadow: 2px 1px 2px rgba(113, 54, 244, 0.5);
+}
+.portfolio-main-name-order>div:first-child>h2:last-child{
+    margin: 0;
+    margin-left: 50px;
+    color: rgb(242, 108, 78);
+    text-shadow: 2px 1px 2px rgba(242, 108, 78, 0.5);
 }
 /* .portfolio-main-name-order>div:first-child>h2:nth-child(8){
     margin: 0;

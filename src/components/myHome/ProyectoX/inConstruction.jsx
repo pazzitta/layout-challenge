@@ -1,12 +1,12 @@
 import './inConstruction.css'
 import OrganizerBaseBoard from "../organizerBaseBoard";
-import PortfolioName from './portfolioName';
+import ProyectoXName from './proyectoXName';
 // import BoardContentInConstruction from './boardContentInConstruction';
 
 const InConstruction = () => {
     return(
         <div className="base-in-construction-component-order">
-            <PortfolioName/>
+            <ProyectoXName/>
             <OrganizerBaseBoard/>
             {/* <BoardContentInConstruction/> */}
         </div>

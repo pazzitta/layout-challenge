@@ -45,6 +45,10 @@ const MyLayoutsSection = () => {
                 <MyLayoutBaseBoard/>
                 <div className="botton-frame-styles-and-order-layout-section">
                     <div></div>
+                    <article className='box-two-buttons-order'>
+                        <button className='back-to-top-style'>Volver al inicio</button>
+                        <button className='go-to-the-next-style'>&#8681; Ir al siguiente</button>
+                    </article>
                     <div></div>
                 </div>
                 <LayoutSectionContentOne/>
@@ -93,6 +97,11 @@ const MyLayoutsSection = () => {
                 }
                 <div className="botton-frame-styles-and-order-layout-section">
                     <div></div>
+                    <article className='box-buttons-three-order'>
+                        <button className='back-to-top-style'>Volver al inicio</button>
+                        <button className='back-to-top-style'>&#8679; Volver a la anterior</button>
+                        <button className='go-to-the-next-style'>&#8681; Ir a la siguiente</button>
+                    </article>
                     <div></div>
                 </div>
                 <LayoutSectionContentTwo/>
@@ -128,6 +137,11 @@ const MyLayoutsSection = () => {
                 <MyLayoutBaseBoard/>
                 <div className="botton-frame-styles-and-order-layout-section">
                     <div></div>
+                    <article className='box-buttons-three-order'>
+                        <button className='back-to-top-style'>Volver al inicio</button>
+                        <button className='back-to-top-style'>&#8679; Volver a la anterior</button>
+                        <button className='go-to-the-next-style'>&#8681; Ir a la siguiente</button>
+                    </article>
                     <div></div>
                 </div>
                 <LayoutSectionContentThree/>
@@ -163,6 +177,10 @@ const MyLayoutsSection = () => {
                 <MyLayoutBaseBoard/>
                 <div className="botton-frame-styles-and-order-layout-section">
                     <div></div>
+                    <article className='box-two-buttons-order'>
+                        <button className='back-to-top-style'>Volver al inicio</button>
+                        <button className='back-to-top-style'>&#8679; Volver a la anterior</button>
+                    </article>
                     <div></div>
                 </div>
                 <LayoutSectionContentFour/>

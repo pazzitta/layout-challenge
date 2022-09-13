@@ -180,7 +180,7 @@ const AllBoardContent = () => {
                                 </div>
                                 <div className='in-process-poster-wood-order-and-style' >
                                     <div></div>
-                                    <h2>portfolio</h2>
+                                    <h2>proyecto X</h2>
                                     <div></div>
                                 </div>
                             </div>                         
