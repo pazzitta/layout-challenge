@@ -1,5 +1,6 @@
 import './myLayoutsSection.css'
 import { useLocation } from 'react-router-dom';
+import {Element} from 'react-scroll'
 // import '../myHome/baseIllustrationStyles.css'
 import MyLayoutBaseBoard from './myLayoutBaseBoard';
 import LayoutSectionContentOne from './layoutSectionContents/layoutSectionContentOne';
@@ -15,26 +16,36 @@ const MyLayoutsSection = () => {
             <article id='firstSection' className='order-all-componentes-article-one'>
                 {
                     location.pathname === '/landingPages'? 
-                    <div className='name-background-video-article-one'>
-                        <h2>B</h2><h2>A</h2><h2>C</h2><h2>K</h2><h2>G</h2><h2>R</h2><h2>O</h2><h2>U</h2>
-                        <h2>N</h2><h2>D</h2><h2>V</h2><h2>I</h2><h2>D</h2><h2>E</h2><h2>0</h2>
-                    </div>  :
+                    <Element name='sectionOne'>
+                        <div className='name-background-video-article-one'>
+                            <h2>B</h2><h2>A</h2><h2>C</h2><h2>K</h2><h2>G</h2><h2>R</h2><h2>O</h2><h2>U</h2>
+                            <h2>N</h2><h2>D</h2><h2>V</h2><h2>I</h2><h2>D</h2><h2>E</h2><h2>0</h2>
+                        </div>
+                    </Element> :
                     location.pathname === '/homes' ? 
-                    <div className='name-personal-page-article-one'>
-                        <h2>P</h2><h2>E</h2><h2>R</h2><h2>S</h2><h2>O</h2><h2>N</h2><h2>A</h2><h2>L</h2>
-                        <h2>P</h2><h2>A</h2><h2>G</h2><h2>E</h2>
-                    </div> : 
+                    <Element name='sectionOne'>
+                        <div className='name-personal-page-article-one'>
+                            <h2>P</h2><h2>E</h2><h2>R</h2><h2>S</h2><h2>O</h2><h2>N</h2><h2>A</h2><h2>L</h2>
+                            <h2>P</h2><h2>A</h2><h2>G</h2><h2>E</h2>
+                        </div> 
+                    </Element> : 
                     location.pathname === '/details' ?
-                    <div className='name-clothes-article-one'>
-                        <h2>C</h2><h2>L</h2><h2>O</h2><h2>T</h2><h2>H</h2><h2>E</h2><h2>S</h2>
-                    </div> : 
+                    <Element name='sectionOne'>
+                        <div className='name-clothes-article-one'>
+                            <h2>C</h2><h2>L</h2><h2>O</h2><h2>T</h2><h2>H</h2><h2>E</h2><h2>S</h2>
+                        </div> 
+                    </Element>: 
                     location.pathname === '/forms' ? 
-                    <div className='name-login-article-one'>
-                        <h2>L</h2><h2>O</h2><h2>G</h2><h2>I</h2><h2>N</h2>
-                    </div> :
-                    <div className='name-news-article-one'>
-                        <h2>N</h2><h2>E</h2><h2>W</h2><h2>S</h2>
-                    </div> 
+                    <Element name='sectionOne'>
+                        <div className='name-login-article-one'>
+                            <h2>L</h2><h2>O</h2><h2>G</h2><h2>I</h2><h2>N</h2>
+                        </div> 
+                    </Element> :
+                    <Element name='sectionOne'>
+                        <div className='name-news-article-one'>
+                            <h2>N</h2><h2>E</h2><h2>W</h2><h2>S</h2>
+                        </div> 
+                    </Element>
                 }
                 <div className="top-frame-styles-and-order-layout-section">
                     <div></div>
@@ -56,24 +67,34 @@ const MyLayoutsSection = () => {
             <article id='secondSection' className='order-all-componentes-article-two'>
                 {
                     location.pathname === '/landingPages'?
-                    <div className='name-background-video-article-one'>
-                        <h2>M</h2><h2>I</h2><h2>N</h2><h2>I</h2><h2>M</h2><h2>A</h2><h2>L</h2><h2>I</h2><h2>S</h2><h2>M</h2>
-                    </div>:
+                    <Element name='sectionTwo'>
+                        <div className='name-background-video-article-one'>
+                            <h2>M</h2><h2>I</h2><h2>N</h2><h2>I</h2><h2>M</h2><h2>A</h2><h2>L</h2><h2>I</h2><h2>S</h2><h2>M</h2>
+                        </div>
+                    </Element> :
                     location.pathname === '/homes' ? 
-                    <div className='name-background-video-article-one'>
-                        <h2>E</h2><h2>-</h2><h2>C</h2><h2>O</h2><h2>M</h2><h2>M</h2><h2>E</h2><h2>R</h2><h2>C</h2><h2>E</h2>
-                    </div>:
+                    <Element name='sectionTwo'>
+                        <div className='name-background-video-article-one'>
+                            <h2>E</h2><h2>-</h2><h2>C</h2><h2>O</h2><h2>M</h2><h2>M</h2><h2>E</h2><h2>R</h2><h2>C</h2><h2>E</h2>
+                        </div>
+                    </Element> :
                     location.pathname === '/details' ? 
-                    <div className='name-background-video-article-one'>
-                        <h2>F</h2><h2>U</h2><h2>R</h2><h2>N</h2><h2>I</h2><h2>T</h2><h2>U</h2><h2>R</h2><h2>E</h2>
-                    </div>:
+                    <Element name='sectionTwo'>
+                        <div className='name-background-video-article-one'>
+                            <h2>F</h2><h2>U</h2><h2>R</h2><h2>N</h2><h2>I</h2><h2>T</h2><h2>U</h2><h2>R</h2><h2>E</h2>
+                        </div>
+                    </Element> :
                     location.pathname === '/forms' ? 
-                    <div className='name-register-article-one'>
-                        <h2>R</h2><h2>E</h2><h2>G</h2><h2>I</h2><h2>S</h2><h2>T</h2><h2>E</h2><h2>R</h2>
-                    </div>:
-                    <div className='name-profile-article-one'>
-                        <h2>P</h2><h2>R</h2><h2>O</h2><h2>F</h2><h2>I</h2><h2>L</h2><h2>E</h2>
-                    </div>
+                    <Element name='sectionTwo'>
+                        <div className='name-register-article-one'>
+                            <h2>R</h2><h2>E</h2><h2>G</h2><h2>I</h2><h2>S</h2><h2>T</h2><h2>E</h2><h2>R</h2>
+                        </div>
+                    </Element> :
+                    <Element name='sectionTwo'>
+                        <div className='name-profile-article-one'>
+                            <h2>P</h2><h2>R</h2><h2>O</h2><h2>F</h2><h2>I</h2><h2>L</h2><h2>E</h2>
+                        </div>
+                    </Element>
                 }
                 <div className="top-frame-styles-and-order-layout-section">
                     <div></div>

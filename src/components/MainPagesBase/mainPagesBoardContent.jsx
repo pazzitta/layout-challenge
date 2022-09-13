@@ -1,4 +1,5 @@
 import { useLocation } from 'react-router-dom';
+import {scroller} from 'react-scroll'
 import './mainPagesBase.css'
 import RowOfPencils from '../myHome/InternalBoardComponents/rowOfPencils';
 import BackgroundVideoLP from '../../assets/LandingPages/BackgroundVideoGif.gif'
@@ -25,6 +26,13 @@ import ProfileC from '../../assets/Cards/Profile.jpg'
 
 const MainPagesBoardContent = () => {
     const location = useLocation()
+
+    const handleScrollSectionOne = () =>{
+        scroller.scrollTo("sectionOne")
+    }
+    const handleScrollSectionTwo = () =>{
+        scroller.scrollTo("sectionTwo")
+    }
 
     return(
         <>
@@ -151,34 +159,34 @@ const MainPagesBoardContent = () => {
                 <div className='my-replicas-images-order'>
                     <div>
                     {
-                        location.pathname === "/landingPages" ? <a href='/landingPages#firstSection'><img src={BackgroundVideoLP} alt="imagen original Background Video LP"/></a> :
-                        location.pathname === "/homes" ? <a href='/homes#firstSection'><img src={PersonalPageH} alt="imagen original personal page H"/></a>:
-                        location.pathname === "/details" ? <a href='/details#firstSection'><img src={ClothesD} alt="imagen original Clothes D"/></a> :
-                        location.pathname === "/forms" ? <a href='/forms#firstSection'><img src={LoginF} alt="imagen original Login LP"/></a>:
-                        <a href='/cards#firstSection'><img src={NewsC} alt="imagen original Clothes C"/></a>
+                        location.pathname === "/landingPages" ? <img onClick={handleScrollSectionOne} src={BackgroundVideoLP} alt="imagen original Background Video LP"/> :
+                        location.pathname === "/homes" ? <img onClick={handleScrollSectionOne} src={PersonalPageH} alt="imagen original personal page H"/>:
+                        location.pathname === "/details" ? <img onClick={handleScrollSectionOne} src={ClothesD} alt="imagen original Clothes D"/> :
+                        location.pathname === "/forms" ? <img onClick={handleScrollSectionOne}  src={LoginF} alt="imagen original Login LP"/>:
+                        <img onClick={handleScrollSectionOne}  src={NewsC} alt="imagen original Clothes C"/>
                     }
                     {
-                        location.pathname === "/landingPages" ? <a href="/landingPages#firstSection"><h3>Descubrime</h3></a>:
-                        location.pathname === "/homes" ? <a href='/homes#firstSection'><h3>Descubrime</h3></a>:
-                        location.pathname === "/details" ? <a href='/details#firstSection'><h3>Descubrime</h3></a> :
-                        location.pathname === "/forms" ? <a href='/forms#firstSection'><h3>Descubrime</h3></a>:
-                        <a href='/cards#firstSection'><h3>Descubrime</h3></a>
+                        location.pathname === "/landingPages" ? <h3 onClick={handleScrollSectionOne}>Descubrime</h3>:
+                        location.pathname === "/homes" ? <h3 onClick={handleScrollSectionOne}>Descubrime</h3>:
+                        location.pathname === "/details" ? <h3 onClick={handleScrollSectionOne}>Descubrime</h3> :
+                        location.pathname === "/forms" ? <h3 onClick={handleScrollSectionOne}>Descubrime</h3>:
+                        <h3 onClick={handleScrollSectionOne}>Descubrime</h3>
                     }
                     </div>
                     <div>
                     {
-                        location.pathname === "/landingPages" ? <a href='/landingPages#secondSection'><img src={MinimalismLP} alt="imagen original Minimalism LP" /></a> :
-                        location.pathname === "/homes" ? <a href='/homes#secondSection'><img src={ECommerceH} alt="imagen E-commerce H"/></a>:
-                        location.pathname === "/details" ? <a href='/details#secondSection'><img src={FurnitureD} alt="imagen original Furniture D"/></a>:
-                        location.pathname === "/forms" ? <a href='/forms#secondSection'><img src={RegisterF} alt="imagen original Register F"/></a>:
-                        <a href='/cards#secondSection'><img src={ProfileC} alt="imagen original Food C"/></a>
+                        location.pathname === "/landingPages" ? <img onClick={handleScrollSectionTwo} src={MinimalismLP} alt="imagen original Minimalism LP" /> :
+                        location.pathname === "/homes" ? <img onClick={handleScrollSectionTwo} src={ECommerceH} alt="imagen E-commerce H"/> :
+                        location.pathname === "/details" ? <img onClick={handleScrollSectionTwo} src={FurnitureD} alt="imagen original Furniture D"/>:
+                        location.pathname === "/forms" ? <img onClick={handleScrollSectionTwo} src={RegisterF} alt="imagen original Register F"/>:
+                        <img onClick={handleScrollSectionTwo} src={ProfileC} alt="imagen original Food C"/>
                     }
                     {
-                        location.pathname === "/landingPages" ? <a href='/landingPages#secondSection'><h3>Descubrime</h3></a>:
-                        location.pathname === "/homes" ? <a href='/homes#secondSection'><h3>Descubrime</h3></a>:
-                        location.pathname === "/details" ? <a href='/details#secondSection'><h3>Descubrime</h3></a>:
-                        location.pathname === "/forms" ? <a href='/forms#secondSection'><h3>Descubrime</h3></a>:
-                        <a href='/cards#secondSection'><h3>Descubrime</h3></a>                        
+                        location.pathname === "/landingPages" ? <h3 onClick={handleScrollSectionTwo}>Descubrime</h3> :
+                        location.pathname === "/homes" ? <h3 onClick={handleScrollSectionTwo}>Descubrime</h3> :
+                        location.pathname === "/details" ? <h3 onClick={handleScrollSectionTwo}>Descubrime</h3> :
+                        location.pathname === "/forms" ? <h3 onClick={handleScrollSectionTwo}>Descubrime</h3> :
+                        <h3 onClick={handleScrollSectionTwo}>Descubrime</h3>                        
                     }
                     </div>
                     <div>

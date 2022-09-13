@@ -1,4 +1,5 @@
 import './layoutSectionContent.css'
+import {Element} from 'react-scroll'
 import {useLocation} from 'react-router-dom'
 import OPBackgroundVideoLP from '../../../assets/LandingPages/BackgroundVideoGif.gif'
 import OPPersonalPageH from '../../../assets/homes/LayoutSectionContent/OPPersonalPageH.jpg'
@@ -69,7 +70,7 @@ const LayoutSectionContentOne = () => {
                     </div>
                 </div>
                 {
-                    location.pathname === '/landingPages' ? <img src={OPBackgroundVideoLP} alt="pág. original BackgroundVideo LP" /> :
+                    location.pathname === '/landingPages' ? <img  src={OPBackgroundVideoLP} alt="pág. original BackgroundVideo LP" /> :
                     location.pathname === '/homes' ? <img src={OPPersonalPageH} alt="pág. original Personal Page H" /> :
                     location.pathname === '/details' ? <img src={OPClothesD} alt="pág. original Clothes D" /> :
                     location.pathname === '/forms' ? <img src={OPLoginF} alt="pág. original Login F" /> :
