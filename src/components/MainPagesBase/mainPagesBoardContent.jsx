@@ -33,6 +33,12 @@ const MainPagesBoardContent = () => {
     const handleScrollSectionTwo = () =>{
         scroller.scrollTo("sectionTwo")
     }
+    const handleScrollSectionThree = () =>{
+        scroller.scrollTo("sectionThree")
+    }
+    const handleScrollSectionFour = () =>{
+        scroller.scrollTo("sectionFour")
+    }
 
     return(
         <>
@@ -191,35 +197,35 @@ const MainPagesBoardContent = () => {
                     </div>
                     <div>
                     {
-                        location.pathname === "/landingPages" ? <a href='/landingPages#thirdSection'><img src={OrganicShapesLP} alt="imagen original OrganicShapes LP" /></a>:
-                        location.pathname === "/homes" ? <a href='/homes#thirdSection'><img src={MarketPlaceH} alt="imagen Marketplace H"/></a>:
-                        location.pathname === "/details" ? <a href='/details#thirdSection'><img src={NewsD} alt="imagen original News D"/></a>:
-                        location.pathname === "/forms" ? <a href='/forms#thirdSection'><img src={CheckOutF} alt="imagen original CheckOut F"/></a>:
-                        <a href='/cards#thirdSection'><img src={ClothesC} alt="imagen original News C"/></a>
+                        location.pathname === "/landingPages" ? <img onClick={handleScrollSectionThree} src={OrganicShapesLP} alt="imagen original OrganicShapes LP" /> :
+                        location.pathname === "/homes" ? <img onClick={handleScrollSectionThree} src={MarketPlaceH} alt="imagen Marketplace H"/> :
+                        location.pathname === "/details" ? <img onClick={handleScrollSectionThree} src={NewsD} alt="imagen original News D"/> :
+                        location.pathname === "/forms" ? <img onClick={handleScrollSectionThree} src={CheckOutF} alt="imagen original CheckOut F"/> :
+                        <img onClick={handleScrollSectionThree}src={ClothesC} alt="imagen original News C"/>
                     }
                     {
-                        location.pathname === "/landingPages" ? <a href='/landingPages#thirdSection'><h3>Descubrime</h3></a> :  
-                        location.pathname === "/homes" ? <a href='/homes#thirdSection'><h3>Descubrime</h3></a>:
-                        location.pathname === "/details" ? <a href='/details#thirdSection'><h3>Descubrime</h3></a>:
-                        location.pathname === "/forms" ? <a href='/forms#thirdSection'><h3>Descubrime</h3></a>:
-                        <a href='/cards#thirdSection'><h3>Descubrime</h3></a>
+                        location.pathname === "/landingPages" ? <h3 onClick={handleScrollSectionThree}>Descubrime</h3> :  
+                        location.pathname === "/homes" ? <h3 onClick={handleScrollSectionThree}>Descubrime</h3>:
+                        location.pathname === "/details" ? <h3 onClick={handleScrollSectionThree}>Descubrime</h3>:
+                        location.pathname === "/forms" ? <h3 onClick={handleScrollSectionThree}>Descubrime</h3>:
+                        <h3 onClick={handleScrollSectionThree}>Descubrime</h3>
 
                     }
                     </div>
                     <div>
                     {
-                        location.pathname === "/landingPages" ? <a href='/landingPages#fourthSection'><img src={PromotionalLP} alt="imagen original Promotional LP" /></a>:
-                        location.pathname === "/homes" ? <a href='/homes#fourthSection'><img src={DigitalNewsPaperH} alt="imagen DigitalNewsPaper H"/></a>:
-                        location.pathname === "/details" ?  <a href='/details#fourthSection'><img src={ProfileD} alt="imagen original Profile D"/></a>:
-                        location.pathname === "/forms" ? <a href='/forms#fourthSection'><img src={ContactUsF} alt="imagen original Contact Us F"/></a>:
-                        <a href='/cards#fourthSection'><img src={FoodC} alt="imagen original Profile C"/></a>
+                        location.pathname === "/landingPages" ? <img onClick={handleScrollSectionFour} src={PromotionalLP} alt="imagen original Promotional LP" /> :
+                        location.pathname === "/homes" ? <img onClick={handleScrollSectionFour} src={DigitalNewsPaperH} alt="imagen DigitalNewsPaper H"/> :
+                        location.pathname === "/details" ?  <img onClick={handleScrollSectionFour} src={ProfileD} alt="imagen original Profile D"/> :
+                        location.pathname === "/forms" ? <img onClick={handleScrollSectionFour} src={ContactUsF} alt="imagen original Contact Us F"/> :
+                        <img onClick={handleScrollSectionFour} src={FoodC} alt="imagen original Profile C"/>
                     }
                     {
-                        location.pathname === "/landingPages" ? <a href='/landingPages#fourthSection'><h3>Descubrime</h3></a>:
-                        location.pathname === "/homes" ? <a href='/homes#fourthSection'><h3>Descubrime</h3></a>:
-                        location.pathname === "/details" ?  <a href='/details#fourthSection'><h3>Descubrime</h3></a>:
-                        location.pathname === "/forms" ? <a href='/forms#fourthSection'><h3>Descubrime</h3></a>:
-                        <a href='/cards#fourthSection'><h3>Descubrime</h3></a>
+                        location.pathname === "/landingPages" ? <h3 onClick={handleScrollSectionFour}>Descubrime</h3> :
+                        location.pathname === "/homes" ? <h3 onClick={handleScrollSectionFour}>Descubrime</h3> :
+                        location.pathname === "/details" ?  <h3 onClick={handleScrollSectionFour}>Descubrime</h3> :
+                        location.pathname === "/forms" ? <h3 onClick={handleScrollSectionFour}>Descubrime</h3> :
+                        <h3 onClick={handleScrollSectionFour}>Descubrime</h3>
                     }
                     </div>
                 </div>

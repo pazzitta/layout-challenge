@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 /* LANDINGPAGESNAME */
+.order-title-lp{
+    width: 58%;
+}
 .landing-pages-main-name-order{
     /* border: solid thin red; */
     width: 58%;
@@ -97,6 +100,9 @@
     text-shadow: 2px 1px 2px rgba(246, 47, 85, 0.5);
 }
 /* HOMESNAME */
+.order-title-h{
+    width: 34%;
+}
 .homes-main-name-order{
     /* border: solid thin red; */
     width: 34%;
@@ -158,6 +164,9 @@
 }
 
 /* DETAILNAME */
+.order-title-d{
+    width: 40%;
+}
 .details-main-name-order{
     /* border: solid thin red; */
     width: 40%;
@@ -227,6 +236,9 @@
 }
 
 /* FORMSNAME */
+.order-title-f{
+    width: 34%;
+}
 .forms-main-name-order{
     /* border: solid thin red; */
     width: 34%;
@@ -287,6 +299,9 @@
     text-shadow: 2px 1px 2px rgba(249, 222, 78, 0.5);
 }
 /* CARDSNAME */
+.order-title-c{
+    width: 34%;
+}
 .cards-main-name-order{
     /* border: solid thin red; */
     width: 34%;

@@ -114,6 +114,11 @@
 
 
 /* STYLESNAMES */
+/* .titel-order-BV{
+    border: solid;
+    width: 70%;
+} */
+
 .name-background-video-article-one,
 .name-personal-page-article-one,
 .name-clothes-article-one,
@@ -126,7 +131,8 @@
 .name-register-article-one,
 .name-check-out-article-one,
 .name-contact-us-article-one{
-    width: 70%;
+    /* border: solid red; */
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
