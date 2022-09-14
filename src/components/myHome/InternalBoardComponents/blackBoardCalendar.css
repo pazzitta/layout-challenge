@@ -3,7 +3,6 @@
 *::before{
     box-sizing: border-box;
 }
-
 .blackboard-order{
     width: 350px;
     height: 220px;
@@ -40,7 +39,6 @@
     /* border:solid slateblue; */
 }
 .blackboard-text-order-and-style{
-    /* border: solid thin #0DDD79; */
     font-family: 'Patrick Hand', cursive;
     font-size: 29px;
     color: white;
@@ -56,11 +54,6 @@
     bottom: 50px;
     left: 95px;
 }
-/* .order-month-and-date{
-    border: solid thin #0DDD79;
-    width: 90%;
-    height: 15%;
-} */
 .order-and-styles-row-one>td{
     border: solid thin white;
     color: white;

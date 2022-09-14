@@ -60,7 +60,6 @@ const RowOfPencils = () => {
                 <div></div>
                 <div></div>
             </div>
-
             <div className='order-a-blue-pencil'>
                 <div></div>
                 <div></div>
@@ -89,7 +88,6 @@ const RowOfPencils = () => {
                 <div></div>
                 <div></div>
             </div>
-
             <div className='order-a-green-pencil'>
                 <div></div>
                 <div></div>
@@ -118,7 +116,6 @@ const RowOfPencils = () => {
                 <div></div>
                 <div></div>
             </div>
-
             <div className='order-a-yellow-pencil'>
                 <div></div>
                 <div></div>

@@ -14,15 +14,12 @@ const LayoutFolder = () => {
                     <div className='flap-front-folder-order-and-style'>
                         <div>
                             <div></div>
-                            {/* <h4>Namename</h4> */}
                         </div>
                     </div>                
                     <div className='base-front-folder-style'></div>
                 </div>
             </div>
-            
             <img className='paper-ux-order' src={PaperUx} alt="" />
-
             <div className='box-fron-folder'>
                 <div className='front-front-cover-folde-order'>
                     <div className='flap-front-front-folder-order-and-style'></div>                
@@ -30,10 +27,8 @@ const LayoutFolder = () => {
                 </div>
                 <div className='box-paper-markets'>
                     <img src={PapersTop} alt="" />
-                </div>
-        
+                </div>        
             </div>
-
         </div>
     )
 }

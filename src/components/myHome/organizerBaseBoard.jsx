@@ -14,8 +14,7 @@ const OrganizerBaseBoard = () => {
                     <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                     <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                     <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                    <div></div><div></div><div></div>
-                    
+                    <div></div><div></div><div></div>   
                 </div>
                 <div className="circle-line-order">
                     <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
@@ -206,7 +205,6 @@ const OrganizerBaseBoard = () => {
                 <div></div>
                 <div></div>
             </div>
-
         </div>
     )
 }

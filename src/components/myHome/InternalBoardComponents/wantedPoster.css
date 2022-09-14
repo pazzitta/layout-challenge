@@ -1,6 +1,4 @@
-/* ** WantedPoster */
 .order-wanted-poster{
-    /* border:solid thin #0DDD79; */
     width: 55%;
     height: 95%;
     display: flex;
@@ -10,7 +8,6 @@
     align-self: center;
 }
 .order-scotch-tape{
-    /* border: solid; */
     width: 290px;
     display: flex;
     justify-content: space-between;
@@ -28,7 +25,6 @@
     height: 17px;
     transform: rotate(45deg);
 }
-
 .order-and-style-base-wanted-poster{
     background-color: #A08D7A;
     width: 95%;
@@ -58,7 +54,6 @@
     width: 60%;
 }
 .order-and-style-base-wanted-poster>article{
-    /* border: solid thin; */
     width: 80%;
     height: 22px;
     display: flex;

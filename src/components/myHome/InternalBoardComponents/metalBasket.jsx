@@ -19,9 +19,7 @@ const MetalBasket = () => {
                 <div></div>
                 <div></div>
             </div>
-
             <div className='bottom-line-metal-basket'></div>
-
         </div>
     )
 }

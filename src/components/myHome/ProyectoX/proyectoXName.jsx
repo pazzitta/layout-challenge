@@ -11,7 +11,7 @@ const ProyectoXName = () => {
                 <h2>C</h2>
                 <h2>T</h2>
                 <h2>O</h2>
-                <h2>X</h2>
+                <h2>P</h2>
             </div>
             <div>
                 <h2>P</h2>
@@ -22,7 +22,7 @@ const ProyectoXName = () => {
                 <h2>C</h2>
                 <h2>T</h2>
                 <h2>O</h2>
-                <h2>X</h2>
+                <h2>P</h2>
             </div>
         </div>
     )
