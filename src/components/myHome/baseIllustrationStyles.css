@@ -97,7 +97,6 @@
     flex-direction: column;
     align-items: center;
 }
-
 /* GENERAL SECTION ONE */
 .section-one{
     /* border: solid thin goldenrod; */
@@ -134,14 +133,12 @@
     display: flex;
     justify-content: center;
 }
-
 .section-one>section:last-child{
     /* border: solid thin #6b2ff6; */
     width: 66%;
     display: flex;
     flex-direction: column;
 }
-
 .order-note-scotch-tape-one{
     display: flex;
     justify-content: space-between;
@@ -172,7 +169,6 @@
     align-items: center;
     position: absolute;
     margin-left: 16px;
-
 }
 .hotpink-note-background-one>p{
     font-family: 'Abel', sans-serif;
@@ -182,7 +178,6 @@
     margin: 0;
     font-size: 40px;
 }
-
 .section-one>section:last-child>div:first-child{
    /* border:solid #E1C815; */
    width: 100%;
@@ -234,9 +229,7 @@
     align-items: center;
     justify-content: center;
 }
-.section-one>section:last-child>div:nth-child(2)>a:nth-child(2){
-    margin-left: 85px;
-}
+.section-one>section:last-child>div:nth-child(2)>a:nth-child(2),
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(3){
     margin-left: 85px;
 }
@@ -261,14 +254,6 @@
 .section-one>section:last-child>div:nth-child(2)>a:last-child:hover{
     color: #E1C815;
 }
-.anchord-portfolio-styles{
-    text-decoration: none;
-    color: black;
-}
-.anchord-portfolio-styles:hover{
-    color: black;
-    color: rgb(242, 108, 78);
-}
 .order-folders-in-back-of-metal-basket{
     /* border: solid hotpink; */
     position: absolute;
@@ -282,26 +267,26 @@
 .order-folders-in-back-of-metal-basket>div:first-child{
      /* border:solid #7136F4; */
     position: absolute;
-    margin-top: 3px;
-    right: 6px;
+    margin-top: 1px;
+    right: 8px;
 }
 .order-folders-in-back-of-metal-basket>div:nth-child(2){
     /* border:solid #36f488; */
     position: absolute;
-    margin-top: 14px;
+    margin-top: 13px;
     right: 15px;
 }
 .order-folders-in-back-of-metal-basket>div:nth-child(3){
     /* border:solid #36f488; */
     position: absolute;
-    margin-top: 27px;
-    right: 25px;
+    margin-top: 25px;
+    right: 22px;
 }
 .order-folders-in-back-of-metal-basket>div:nth-child(4){
     /* border:solid #36f488; */
     position: absolute;
-    margin-top: 40px;
-    right: 33px;
+    margin-top: 38px;
+    right: 30px;
     /* bottom: 180px;
     right: 60px; */
 }
@@ -309,7 +294,7 @@
     position: absolute;
     margin-top: 80px;
 }
-.portfolio-poster-wood-order-and-style{
+.proyect-p-poster-wood-order-and-style{
     background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
     background-size: cover;
     background-position: center;
@@ -321,13 +306,13 @@
     align-items: center;
     margin-top: 10px;
 }
-.portfolio-poster-wood-order-and-style>div{
+.proyect-p-poster-wood-order-and-style>div{
     background-color: #444444;
     width: 10px;
     height: 10px;
     border-radius: 50%;
 }
-.portfolio-poster-wood-order-and-style>h2{
+.proyect-p-poster-wood-order-and-style>h2{
     /* border: solid; */
     margin: 0;
     font-size: 26px;
@@ -336,6 +321,13 @@
     width: 220px;
     color: white;
     font-family: 'Abel', sans-serif;
+}
+.anchord-proyect-p-styles{
+    text-decoration: none;
+    color: black;
+}
+.anchord-proyect-p-styles:hover{
+    color: rgb(242, 108, 78);
 }
 .order-folders-in-back-of-metal-basket-two{
     /* border: solid green; */
@@ -381,12 +373,60 @@
     color: white;
     font-family: 'Abel', sans-serif;
 }
-
-
-
-
-
+.in-process-position-metal-baske-order{
+    /* border: solid hotpink; */
+    width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.in-process-position-metal-basket{
+    position: absolute;
+    /* border: solid red; */
+    width: 325px;
+    /* margin-top: 75px; */
+    display: flex;
+    justify-content: center;
+}
+.in-process-poster-wood-order-and-style{
+    background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.in-process-poster-wood-order-and-style>div{
+    background-color: #444444;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+.in-process-poster-wood-order-and-style>h2{
+    margin: 0;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    width: 110px;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+/* GENERAL SECTION TWO */
 .section-two{
+    width: 96.4%;
+    height: 7%;
+}
+
+
+
+
+
+/* .section-two{
     border: solid thin red;
     width: 96.4%;
     height: 56%;
@@ -419,7 +459,6 @@
     align-items: center;
 }
 .section-two>section:nth-child(4){
-    /* border: solid thin rgb(255, 165, 105); */
     width: 14.5%;
     height: 100%;
     display: flex;
@@ -432,9 +471,9 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-}
+} */
 
-/* SECTION ONE */
+
 
 
 
@@ -445,55 +484,10 @@
    color: #F62F55;
 } */
 
-/* GENERAL SECTION TWO */
-/* SECTION ONE INSIDE OF  GENERAL SECTION TWO */
-.in-process-position-metal-baske-order{
-    /* border: solid hotpink; */
-    width: 100%;
-    height: 105px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.in-process-position-metal-basket{
-    position: absolute;
-    /* border: solid red; */
-    width: 325px;
-    /* margin-top: 75px; */
-    display: flex;
-    justify-content: center;
-}
-.in-process-poster-wood-order-and-style{
-    background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 150px;
-    height: 60px;
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    /* align-self: center; */
-}
-.in-process-poster-wood-order-and-style>div{
-    background-color: #444444;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-}
-.in-process-poster-wood-order-and-style>h2{
-    margin: 0;
-    font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 4px;
-    width: 110px;
-    color: white;
-    font-family: 'Abel', sans-serif;
-}
-/* SECTION TWO INSIDE OF  GENERAL SECTION TWO */
+
+
+/* SECTION TWO INSIDE OF  GENERAL SECTION TWO
 .order-portrait-door-left-aligned{
-    /* border: solid blue; */
     width: 80%;
     height: 90px;
     display: flex;
@@ -512,7 +506,6 @@
    height: 80px;
 }
 .order-portrait-door-right-aligned{
-    /* border: solid blue; */
     width: 80%;
     height: 90px;
     margin-top: 15px;
@@ -533,10 +526,9 @@
    width: 100px;
    height: 80px;
 }
-/* SECTION THREE INSIDE OF  GENERAL SECTION TWO */
+SECTION THREE INSIDE OF  GENERAL SECTION TWO
 
 .box-metal-basquet-and-my-contact-form{
-    /* border: solid green; */
     width: 100%;
     height: 270px;
     display: flex;
@@ -545,23 +537,16 @@
     align-items: center;
 }
 .box-metal-basquet-and-my-contact-form>div:first-child{
-    /* border: solid orange; */
     position: absolute;
     width: 270px;
 }
 .box-metal-basquet-and-my-contact-form>div:last-child{
-    /* border: solid rgb(0, 145, 255); */
-    /* position: relative; */
     height: 250px;
     width: 205px;
-}
+} */
 
 /* GENERAL SECTION THREE */
-.section-three{
-    /* border: solid thin palevioletred; */
-    width: 96.4%;
-    height: 7%;
-}
+
 
 
 /* SECTION FOUR */
@@ -616,8 +601,7 @@
     margin: 0;
     font-size: 15px;
 } */
-.order-note-two{
-    /* border: solid #392323; */
+/* .order-note-two{
     width: 100%;
     height: 130px;
     display: flex;
@@ -635,10 +619,8 @@
     margin-left: 5px;
     position: absolute;
     align-self: flex-end;
-    /* no es la medida pero la tengo que ver inclinada */
 }
 .hotpink-note-background-two>p{
-    /* no es la medida pero la tengo que ver inclinada */
     font-family: 'Aladin', cursive;
     color: white;
     padding-left: 12px;
@@ -647,7 +629,6 @@
     font-size: 15px;
 }
 .order-note-scotch-tape-two{
-    /* border: solid; */
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -670,7 +651,7 @@
     height: 16px;
     background-color: #231E20;
     transform: rotate(45deg);
-}
+} */
 
 /* SECTION FIVE */
 

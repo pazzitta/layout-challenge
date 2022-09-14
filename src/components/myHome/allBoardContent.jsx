@@ -38,7 +38,6 @@ const AllBoardContent = () => {
                             <div></div>
                         </div>
                     </div>
-
                     <div>
                         <a href="/landingPages">
                             <div className='order-folders-in-back-of-metal-basket'>
@@ -160,15 +159,14 @@ const AllBoardContent = () => {
                                 <div></div>
                             </div>
                         </a>
-                    </div>
-                    
+                    </div>                  
                     <div>
-                        <div className='portfolio-poster-wood-order-and-style' >
+                        <div className='proyect-p-poster-wood-order-and-style' >
                             <div></div>
                             <h2>en construcción</h2>
                             <div></div>
                         </div>
-                        <a className='anchord-portfolio-styles' href="/inConstruction">
+                        <a className='anchord-proyect-p-styles' href="/inConstruction">
                             <div className='in-process-position-metal-baske-order'>
                                 <div className='order-folders-in-back-of-metal-basket-two'>
                                     <div>
@@ -180,7 +178,7 @@ const AllBoardContent = () => {
                                 </div>
                                 <div className='in-process-poster-wood-order-and-style' >
                                     <div></div>
-                                    <h2>proyecto X</h2>
+                                    <h2>proyecto P</h2>
                                     <div></div>
                                 </div>
                             </div>                         
@@ -381,7 +379,7 @@ const AllBoardContent = () => {
                     <WantedPoster/>
                 </section>
             </div> */}
-            <div className='section-three'>
+            <div className='section-two'>
                 <RowOfPencils/>
             </div>
 
