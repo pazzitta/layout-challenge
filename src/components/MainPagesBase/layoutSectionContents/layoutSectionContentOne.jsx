@@ -106,7 +106,7 @@ const LayoutSectionContentOne = () => {
                             <div className='order-wooden-signs-LSC'>
                                 <div>
                                     <div></div>
-                                    <h3>ILLUSTRACIONES</h3>
+                                    <h3>ILUSTRACIONES</h3>
                                     <div></div>
                                 </div>
                             </div>

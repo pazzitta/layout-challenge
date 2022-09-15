@@ -1,10 +1,11 @@
 import './layoutSectionContent.css'
-// import { useState } from 'react'
 import {useLocation} from 'react-router-dom'
+import OPOrganicShapesLP from '../../../assets/LandingPages/LayoutSectionContent/OPOrganicShapesLP.jpg'
 import OPClothesC from '../../../assets/Cards/LayoutSectionContent/OPClothesC.jpg'
 import CartBlackIconC from '../../../assets/Cards/Clothes/cartBlack.png'
 import CartWhiteIconC from '../../../assets/Cards/Clothes/cartWhite.png'
 import ProductClotheCart from '../../../assets/Cards/Clothes/productOneCard.png'
+import BackgroundImageOrganicShapesLP from '../../../assets/LandingPages/OrgenicShapes/backgroundImageOS1.png'
 import ResponsiveCC834x1194 from '../../../assets/Cards/Clothes/responsiveCC834x1194.jpg'
 import ResponsiveCC390x844 from '../../../assets/Cards/Clothes/responsiveCC390x844.jpg'
 import ResponsiveCC360x640 from '../../../assets/Cards/Clothes/responsiveCC360x640.jpg'
@@ -13,10 +14,10 @@ import IGitHub from '../../../assets/myHome/Icons/IconGitHubWhite.png'
 
 const LayoutSectionContentThree = () => {
     const location = useLocation()
-    // const [cardOffOn, SetCardOffOn] = useState(false)
+
     return(
         <div className="order-all-layout-section-content">
-            <section className='original-page-section-order'>
+            <section className='original-page-section-order-three'>
                 <div className='section-identification-posters-order'>
                     <h2 className='section-identification-posters-base'>PÁGINA ORIGINAL</h2>
                     <div> 
@@ -25,7 +26,7 @@ const LayoutSectionContentThree = () => {
                     </div>
                 </div>
                 {
-                    location.pathname === '/landingPages' ? <img src="" alt="pág. original  LP" /> :
+                    location.pathname === '/landingPages' ? <img width="65%" src={OPOrganicShapesLP} alt="pág. original Organic shapes  LP" /> :
                     location.pathname === '/homes' ? <img src="" alt="pág. original  H" /> :
                     location.pathname === '/details' ? <img src="" alt="pág. original D" /> :
                     location.pathname === '/forms' ? <img src="" alt="pág. original  F" /> :
@@ -61,7 +62,7 @@ const LayoutSectionContentThree = () => {
                             <div className='order-wooden-signs-LSC'>
                                 <div>
                                     <div></div>
-                                    <h3>ILLUSTRACIONES</h3>
+                                    <h3>ILUSTRACIONES</h3>
                                     <div></div>
                                 </div>
                             </div>
@@ -71,11 +72,7 @@ const LayoutSectionContentThree = () => {
                                 <div>
                                     {
                                         location.pathname === '/landingPages' ? 
-                                        <div className='assets-icons-background-video-LP'>
-                                            <img src="" alt="Ícono play" />
-                                            <img src="" alt="ícono flecha rosa" />
-                                            <img src="" alt="ícono 3 líneas menú" /> 
-                                        </div> :
+                                        <h4>none</h4> :
                                         location.pathname === '/homes' ? 
                                         <div className='assets-icons-minimalist-h'>
                                             <img src="" alt="Isotipo página" />
@@ -119,9 +116,7 @@ const LayoutSectionContentThree = () => {
                                 <div>
                                     {
                                         location.pathname === '/landingPages'? 
-                                        <div className='assets-multimedia-background-video-LP'>
-                                           <img src="" alt="" />
-                                        </div> :
+                                        <h4>none</h4> :
                                         location.pathname === '/homes' ? 
                                         <div className='assets-multimedia-personal-page-H'>
                                             <img src="" alt="backgroun image PP" />
@@ -146,7 +141,7 @@ const LayoutSectionContentThree = () => {
                             <div className='papers-order-and-styles'>
                                 <div>
                                     {
-                                        location.pathname === '/landingPages' ? <h4>none</h4> :
+                                        location.pathname === '/landingPages' ? <img width="60%" src={BackgroundImageOrganicShapesLP} alt="ilustración Organic Shapes LP" /> :
                                         location.pathname === '/homes' ? <h4>none</h4> :
                                         location.pathname === '/details' ? <h4>none</h4> :
                                         location.pathname === '/forms' ? <h4>none</h4> :
