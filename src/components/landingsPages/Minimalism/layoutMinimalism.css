@@ -1,96 +1,89 @@
 *,
 *::before,
 *::after{
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .box-macro-minimalist-LP{
-  /* border: solid; */
   background-color: #5c6ac4;
   width: 100%;
   height: 90vh;
 }
 .internal-box-minimalist-LP{
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
 }
-  .header-box-minimalist-LP{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 80px;
-  }
-  .logo-shopfy-minimalism-LP{
-    width: 120px;
-  }
-  .main-box-minimalist-LP{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* border: solid; */
-    /* background-color: blueviolet; */
-  }
-  .titel-main-minimalism-LP {
-    margin: 0;
-    color: white;
-    font-size: 65px;
-    font-weight: 600;
-  }
-  .description-main-minimalism-LP{
-    /* border: solid gray; */
-    margin: 0;
-    margin-top: 5px;
-    font-size: 30px;
-    color: white;
-    width: 50%;
-    line-height: 40px;
-  }
-  .input-box-main-minimalism-LP{
-    padding-top: 20px;
-  }
-  .input-main-minimalism-LP{
-    width: 370px;
-    height: 40px;
-    border-radius: 8px;
-    border: none;
-    padding-left: 20px;
-  }
-  .input-main-minimalism-LP::placeholder{
-    font-weight: 600;
-  }
-  .button-main-minimalism-LP{
-    margin-left: 5px;
-    color: white;
-    background-color: #232936;
-    width: 150px;
-    height: 40px;
-    border: none;
-    border-radius: 5px;
-    font-weight: 600;
-    cursor: pointer;
-  }
-  .description-small-main-minimalis-LP{
-    color: white;
-    /* border: solid purple; */
-    width: 29%;
-    letter-spacing: -0.2px;
-  }
-  .composition-footer-minimalism-LP{
-    /* border: solid yellow; */
-    height: 530px;
-    display: flex;
-    align-items: flex-end;
-  }
-
-  .background-white-minimalism-LP{
-    background-color: white;
-    width: 100%;
-    height: 200px;
-  }
-  .image-minimalism-LP{
-    /* border: solid; */
-    width: 1480px;
-    height: 485px;
-  }
+.header-box-minimalist-LP{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+}
+.logo-shopfy-minimalism-LP{
+  width: 120px;
+}
+.main-box-minimalist-LP{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 305px;
+}
+.titel-main-minimalism-LP {
+  margin: 0;
+  color: white;
+  font-size: 65px;
+  font-weight: 600;
+}
+.description-main-minimalism-LP{
+  margin: 0;
+  margin-top: 5px;
+  font-size: 30px;
+  color: white;
+  width: 50%;
+  line-height: 40px;
+}
+.input-box-main-minimalism-LP{
+  padding-top: 20px;
+}
+.input-main-minimalism-LP{
+  width: 370px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  padding-left: 20px;
+}
+.input-main-minimalism-LP::placeholder{
+  font-weight: 600;
+}
+.button-main-minimalism-LP{
+  margin-left: 5px;
+  color: white;
+  background-color: #232936;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.description-small-main-minimalis-LP{
+  color: white;
+  width: 29%;
+  letter-spacing: -0.2px;
+}
+.composition-footer-minimalism-LP{
+  height: 530px;
+  display: flex;
+  align-items: flex-end;
+}
+.background-white-minimalism-LP{
+  background-color: white;
+  width: 100%;
+  height: 200px;
+}
+.image-minimalism-LP{
+  width: 1490px;
+  height: 485px;
+}

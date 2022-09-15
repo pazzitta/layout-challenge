@@ -14,19 +14,16 @@ const LayoutMinimalism = () => {
                 </header>
                 <main className="main-box-minimalist-LP">
                     <h1 className='titel-main-minimalism-LP'>Sell products online with Shopify</h1>
-                    <p className='description-main-minimalism-LP'>Everything you need to sell online. Trusted by over 800,000 businesses worlwide</p>
+                    <p className='description-main-minimalism-LP'>Everything you need to sell online. Trusted by over 800,000 businesses worldwide</p>
                     <form className='input-box-main-minimalism-LP'>
-                        <input className='input-main-minimalism-LP' type="email" name="" id="" placeholder='Enter your email address' />
+                        <input className='input-main-minimalism-LP' type="email" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" size="30"  name="email" id="email" placeholder='Enter your email address' required />
                         <button className='button-main-minimalism-LP'>Start free trial</button>
                     </form>
-                    <p className='description-small-main-minimalis-LP'><small>Try Shopify free for 14 days, no credit requiered. By entering your email, you agree to receive marketing emails from Shopify</small></p>
+                    <p className='description-small-main-minimalis-LP'><small>Try Shopify free for 14 days, no credit required. By entering your email, you agree to receive marketing emails from Shopify</small></p>
                 </main>
                 <footer className='composition-footer-minimalism-LP'>
-                    {/* <div className='background-white-minimalism-LP'> */}
-                        <img className='image-minimalism-LP' src={BackgrounImageAll} alt="Ilustración landing page"/>
-                    {/* </div> */}
+                    <img className='image-minimalism-LP' src={BackgrounImageAll} alt="Ilustración landing page"/>
                 </footer>
-                {/* className="footer-box-minimalist-LP" */}
             </div>
         </div>
     )
