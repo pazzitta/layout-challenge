@@ -51,7 +51,7 @@ const PersonalPageHome = () => {
                             <h5>Hi There,</h5>
                             <h1>I am Ven<font color='#de2d49'>i</font>ssa</h1>
                             <h2>I am designer during daytime</h2>
-                            <h3>& work with batman during nigths.</h3>
+                            <h3>& work with batman during nights.</h3>
                             <button>Ask Me How</button>
                         </div>
                         <div className='box-background-image-personalPage-homes'>

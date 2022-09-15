@@ -1,5 +1,4 @@
 import './layoutSectionContent.css'
-import {Element} from 'react-scroll'
 import {useLocation} from 'react-router-dom'
 import OPBackgroundVideoLP from '../../../assets/LandingPages/BackgroundVideoGif.gif'
 import OPPersonalPageH from '../../../assets/homes/LayoutSectionContent/OPPersonalPageH.jpg'
@@ -16,6 +15,7 @@ import InstagramIconPP from '../../../assets/homes/PersonaPage/InstagramIconPP.p
 import GitHubIconPP from '../../../assets/homes/PersonaPage/GitHubIconPP.png'
 import LinkedInIconPP from '../../../assets/homes/PersonaPage/LinkedInIconPP.png'
 import PhoneIconPP from '../../../assets/homes/PersonaPage/phoneIconoPP.png'
+import MenuThreeLinePP from '../../../assets/homes/PersonaPage/menuIconPP.png'
 import BackgroundImagePP from '../../../assets/homes/PersonaPage/backgroundImagePP.jpg'
 import MagnifyingGlassD from '../../../assets/Details/ProductOne/magnifyingGlassBlack.png'
 import PreviousIconD from '../../../assets/Details/ProductOne/imagePreviousBlack.png'
@@ -130,6 +130,7 @@ const LayoutSectionContentOne = () => {
                                             <img src={GitHubIconPP} alt="ícono GitHub" />
                                             <img src={LinkedInIconPP} alt="ícono LinkedIn" /> 
                                             <img src={PhoneIconPP} alt="ícono Phone rosa" /> 
+                                            <img src={MenuThreeLinePP} alt="ícono menú tres líneas" /> 
                                         </div> :
                                         location.pathname === '/details' ? 
                                         <div className='assets-icons-clothes-D'>

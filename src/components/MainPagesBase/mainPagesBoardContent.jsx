@@ -98,7 +98,7 @@ const MainPagesBoardContent = () => {
                         <div></div>
                         {
                              location.pathname === "/landingPages" ?  <h3>Promotional</h3>:
-                             location.pathname === "/homes" ? <h3>News</h3>:
+                             location.pathname === "/homes" ? <h3>Digital newspaper</h3>:
                              location.pathname === "/details" ? <h3>Profile</h3>:
                              location.pathname === "/forms" ? <h3>Contact Us</h3>:
                              <h3>Food</h3>
