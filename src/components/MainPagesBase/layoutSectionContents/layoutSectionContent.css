@@ -389,6 +389,7 @@
 .assets-icons-register-F>img:first-child{
     width: 30%;
 }
+
 .assets-icons-furniture-D>img:first-child{
     width: 40%;
     margin-left: 45px;
@@ -446,7 +447,12 @@
     margin-right: 15px; 
 }
 .assets-icons-clothes-D>img{
-    width: 20%;  
+    width: 15%;
+    margin-right: 15px;  
+}
+
+.assets-icons-clothes-D>img:first-child{
+    margin-left: 20px;  
 }
 .assets-multimedia-clothes-D>img:first-child,
 .assets-multimedia-food-C>img{
@@ -454,7 +460,7 @@
     margin-left: 20px;
 }
 .assets-multimedia-clothes-D>img:last-child{
-    width: 25%;
+    width: 22%;
     margin-left: 20px;
 }
 .assets-multimedia-minimalism-LP>img,

@@ -10,19 +10,16 @@
     height: 225vh;
     margin-top: 30px;
     background-color: white;
-
 }
 .box-macro-Ecommerce-homes >img{
     position: absolute;
     width: 100%;
 }
 .box-header-Ecommerce-homes{
-    /* border: solid thin hotpink; */
     width: 100%;
     height: 720px;
 }
 .box-header-Ecommerce-homes >nav{
-    /* border: solid thin rgb(22, 162, 50); */
     position: relative;
     width: 100%;
     height: 100px;
@@ -46,13 +43,11 @@
     font-weight: 500;
 }
 .box-brand-and-sections-Ecommerce-homes{
-    /* border: solid thin khaki; */
     display: flex;
     align-items: center;
     justify-content: center;
     width: 55%;
     height: 100px;
-
 }
 .box-brand-and-sections-Ecommerce-homes > h1{
     color:white;
@@ -60,7 +55,6 @@
     font-weight: 400;
 }
 .box-brand-and-sections-Ecommerce-homes > div{
-    /* border:solid thin #de2d49; */
     width: 50%;
     display: flex;
     margin-left: 10px;
@@ -75,7 +69,6 @@
     width: 20px;
 }
 .box-sesion-and-contact-Ecommerce-homes{
-    /* border: solid thin sienna; */
     display: flex;
     justify-content: space-between;
     width: 18%;
@@ -92,7 +85,6 @@
     padding-right: 15px;
 }
 .box-body-Ecommerce-homes{
-    /* border: solid grey; */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -102,7 +94,6 @@
     bottom: 50px;
 }
 .box-bottom-menu-Ecommerce-homes{
-    /* border: solid thin lightgray; */
     width: 30%;
     height: 50px;
     display: flex;
@@ -122,11 +113,10 @@
     border-bottom: solid 1.7px;
 }
 .box-all-card-Ecommerce-homes{
-    /* border: solid thin peru; */
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     margin-top: 30px;
-    width: 75%;
+    width: 85%;
     height: 1250px;
 }

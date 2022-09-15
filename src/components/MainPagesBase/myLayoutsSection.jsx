@@ -211,8 +211,9 @@ const MyLayoutsSection = () => {
                     </Element> :
                     location.pathname === '/homes' ?
                     <Element name='sectionFour'>
-                        <div className='name-news-article-one'>
-                            <h2>N</h2><h2>E</h2><h2>W</h2><h2>S</h2>
+                        <div className='name-digital-newspaper-article-one'>
+                            <h2>D</h2><h2>I</h2><h2>G</h2><h2>I</h2><h2>T</h2><h2>A</h2><h2>L</h2> <h2>N</h2><h2>E</h2><h2>W</h2><h2>S</h2>
+                            <h2>P</h2><h2>A</h2><h2>P</h2><h2>E</h2><h2>R</h2>
                         </div>
                     </Element> :
                     location.pathname === '/details' ? 

@@ -6,8 +6,8 @@ const CardEcommerce = () => {
         <div className="background-Ecommerce-card">
             <img src={ProductCardEcommerce} alt="Imagen producto" />
             <section>
-                <p><b>Nombre porducto</b><small>&#65288;algo1&#65289;</small></p>
-                <p><b>$--</b></p>
+                <p><b>Round neckline t-shirt</b><small>&#65288;OZ&#65289;</small></p>
+                <p><b>$20</b></p>
             </section>
         </div>
     )

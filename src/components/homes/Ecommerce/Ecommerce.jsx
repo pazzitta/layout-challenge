@@ -45,8 +45,10 @@ const EcommerceHomes = () => {
                     <CardEcommerce/>
                     <CardEcommerce/>
                     <CardEcommerce/>
+                    <CardEcommerce/>
+                    <CardEcommerce/>
+                    <CardEcommerce/>
                 </div>
-                {/* PAGINADO */}
             </div>
         </div>
     )

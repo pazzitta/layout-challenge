@@ -138,6 +138,7 @@ const LayoutSectionContentOne = () => {
                                             <img src={PreviousIconD} alt="ícono flecha previo" />
                                             <img src={NextIconD} alt="ícono next" /> 
                                             <img src={HeartIconD} alt="ícono corazón" /> 
+                                            <img src={MenuThreeLinePP} alt="ícono menú tres líneas" /> 
                                         </div> :
                                         location.pathname === '/forms' ? 
                                         <div className='assets-icons-login-f'>

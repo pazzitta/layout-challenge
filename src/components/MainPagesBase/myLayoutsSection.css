@@ -1,5 +1,4 @@
 .general-order-my-layout-section{
-    /* border: solid hotpink; */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -83,7 +82,6 @@
 
 /* ARTICLE TWO */
 .order-all-componentes-article-two{
-    /* border: solid thin rgb(0, 255, 166); */
     width: 85%;
     display: flex;
     flex-direction: column;
@@ -93,7 +91,6 @@
 }
 /* ARTICLE THREE */
 .order-all-componentes-article-three{
-    /* border: solid thin rgb(187, 255, 0); */
     width: 85%;
     display: flex;
     flex-direction: column;
@@ -103,7 +100,6 @@
 }
 /* ARTICLE FOUR */
 .order-all-componentes-article-four{
-    /* border: solid thin rgb(255, 132, 0); */
     width: 85%;
     display: flex;
     flex-direction: column;
@@ -114,11 +110,6 @@
 
 
 /* STYLESNAMES */
-/* .titel-order-BV{
-    border: solid;
-    width: 70%;
-} */
-
 .name-background-video-article-one,
 .name-personal-page-article-one,
 .name-clothes-article-one,
@@ -130,8 +121,8 @@
 .name-profile-article-one,
 .name-register-article-one,
 .name-check-out-article-one,
-.name-contact-us-article-one{
-    /* border: solid red; */
+.name-contact-us-article-one,
+.name-digital-newspaper-article-one{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -148,7 +139,8 @@
 .name-profile-article-one>h2,
 .name-register-article-one>h2,
 .name-check-out-article-one>h2,
-.name-contact-us-article-one>h2{
+.name-contact-us-article-one>h2,
+.name-digital-newspaper-article-one>h2{
     display: flex;
     font-size: 100px;
     margin-top: 5px;
@@ -180,7 +172,11 @@
 .name-register-article-one>h2:nth-child(6),
 .name-check-out-article-one>h2:first-child,
 .name-contact-us-article-one>h2:first-child,
-.name-contact-us-article-one>h2:nth-child(6){
+.name-contact-us-article-one>h2:nth-child(6),
+.name-digital-newspaper-article-one>h2:first-child,
+.name-digital-newspaper-article-one>h2:nth-child(6),
+.name-digital-newspaper-article-one>h2:nth-child(11),
+.name-digital-newspaper-article-one>h2:last-child{
     color: #814EF2;
     text-shadow: 2px 2px 2px #7136F4;
 }
@@ -190,7 +186,8 @@
     text-shadow: 2px 2px 2px #7136F4;
     margin-left: 30px;
 }
-.name-original-shapes-article-one>h2:nth-child(8){
+.name-original-shapes-article-one>h2:nth-child(8),
+.name-digital-newspaper-article-one>h2:nth-child(8){
     color: #5058EF;
     text-shadow: 2px 2px 2px #3842F1;
     margin-left: 30px;
@@ -220,7 +217,10 @@
 .name-check-out-article-one>h2:nth-child(2),
 .name-check-out-article-one>h2:nth-child(7),
 .name-contact-us-article-one>h2:nth-child(2),
-.name-contact-us-article-one>h2:nth-child(7){
+.name-contact-us-article-one>h2:nth-child(7),
+.name-digital-newspaper-article-one>h2:nth-child(2),
+.name-digital-newspaper-article-one>h2:nth-child(7),
+.name-digital-newspaper-article-one>h2:nth-child(12){
     color: #F44D6D;
     text-shadow: 2px 2px 2px #F62F55;
 }
@@ -243,7 +243,9 @@
 .name-register-article-one>h2:last-child,
 .name-check-out-article-one>h2:nth-child(3),
 .name-check-out-article-one>h2:last-child,
-.name-contact-us-article-one>h2:nth-child(3){
+.name-contact-us-article-one>h2:nth-child(3),
+.name-digital-newspaper-article-one>h2:nth-child(3),
+.name-digital-newspaper-article-one>h2:nth-child(13){
     color: #5058EF;
     text-shadow: 2px 2px 2px #3842F1;
 }
@@ -270,7 +272,10 @@
 .name-register-article-one>h2:nth-child(4),
 .name-check-out-article-one>h2:nth-child(4),
 .name-contact-us-article-one>h2:nth-child(4),
-.name-contact-us-article-one>h2:last-child{
+.name-contact-us-article-one>h2:last-child,
+.name-digital-newspaper-article-one>h2:nth-child(4),
+.name-digital-newspaper-article-one>h2:nth-child(9),
+.name-digital-newspaper-article-one>h2:nth-child(14){
     color: #4EF2A3;
     text-shadow: 2px 2px 2px #0DDD79;
 }
@@ -290,7 +295,10 @@
 .name-profile-article-one>h2:nth-child(5),
 .name-register-article-one>h2:nth-child(5),
 .name-check-out-article-one>h2:nth-child(5),
-.name-contact-us-article-one>h2:nth-child(5){
+.name-contact-us-article-one>h2:nth-child(5),
+.name-digital-newspaper-article-one>h2:nth-child(5),
+.name-digital-newspaper-article-one>h2:nth-child(10),
+.name-digital-newspaper-article-one>h2:nth-child(15){
     color: #F2DE4E;
     text-shadow: 2px 2px 2px #E1C815;
 }
