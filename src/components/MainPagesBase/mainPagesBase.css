@@ -8,10 +8,8 @@
     flex-direction: column;
     width: 100%;
 }
-
 /* LPBOARDCONTENT */
 .order-all-board-content-section-one{
-    /* border: solid thin blue;  */
     width: 77%;
     height: 73vh;
     display: flex;
@@ -21,7 +19,6 @@
     margin-top: 170px;
 }
 .original-pages-order-and-styles{
-    /* border: solid thin hotpink; */
     width: 100%;
     height: 680px;
     display: flex;
@@ -29,7 +26,6 @@
     align-items: center;
 }
 .wooden-sing-and-poster-order{
-    /* border: solid; */
     display: flex;
     justify-content: space-between;
     width: 60%;
@@ -64,7 +60,6 @@
     width: 100%;
 }
 .poster-come-back-base-and-order{
-    /* border: solid thin red; */
     width: 220px;
     height: 80px;
     display: flex;
@@ -85,8 +80,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* color: white;
-    font-family: 'Allerta Stencil', sans-serif; */
 }
 .poster-come-back-base>h2{
     color: white;
@@ -95,9 +88,7 @@
     line-height: 31px;
     margin: 0;
 }
-
 .poster-come-back-base-and-order>div:last-child{
-    /* border: solid; */
     width: 220px;
     height: 15px;
     display: flex;
@@ -117,9 +108,7 @@
 .poster-come-back-base-and-order>div>div:last-child{
     transform: rotate(35deg);
 }
-
 .original-page-images-order{
-    /* border: solid; */
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -128,23 +117,17 @@
     width: 300px;
     height: 172px;
 }
-
 .my-replicas-order-and-styles{
-    /* border: solid thin orangered; */
     width: 100%;
     height: 580px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.pencils-size-LP{
-    width: 100%;
-}
 .order-wooden-signs{
     display: flex;
 }
 .order-wooden-signs>div{
-    /* border: solid thin salmon ; */
     background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -163,7 +146,6 @@
     border-radius: 50%;
 }
 .order-wooden-signs>div>h3{
-    /* border: solid thin white; */
     width: 160px;
     font-size: 22px;
     color: white;
@@ -171,7 +153,6 @@
 }
 
 .order-box-scotch-tape-main-Pages-Base{
-    /* border:solid thin #444444; */
     width: 100%;
     height: 20px;
     position: relative;
@@ -180,7 +161,6 @@
     justify-content: space-around;
 }
 .order-box-scotch-tape-main-Pages-Base>div{
-    /* border:solid thin #444444; */
     width: 320px;
     height: 20px;
     display: flex;
@@ -198,7 +178,6 @@
 .order-box-scotch-tape-main-Pages-Base>div>div:last-child{
     transform: rotate(40deg);
 }
-
 .wooden-sign-background-MR{
     background-image: url('../../assets/LandingPages/woodenSignBackground.jpg');
     background-size: cover;
@@ -228,26 +207,27 @@
     width: 100%;
     height: 180px;
     padding-top: 10px;
-    /* position: absolute; */
-    /* right: 150px; */
 }
 .my-replicas-images-order>div>img{
     width: 300px;
     height: 172px;
     filter: blur(5px);
-    cursor: pointer;
-    /* position: absolute; */
+    cursor: url('../../assets/myHome/AllBoardContent/magnifyingGlassCursor.png'), pointer;
 }
 .my-replicas-images-order>div>a{
    text-decoration: none;
 }
 .my-replicas-images-order>div>h3{
-    /* border: solid; */
-    cursor: pointer;
     position: relative;
     color: white;
     text-shadow: 1px 1px 2px black;
     font-family: 'Abel', sans-serif;
     font-size: 40px;
     bottom: 155px;
+    cursor: url('../../assets/myHome/AllBoardContent/magnifyingGlassCursor.png'), pointer;
+}
+.pencils-size{
+    width: 100%;
+    position: relative;
+    bottom: 1px;
 }

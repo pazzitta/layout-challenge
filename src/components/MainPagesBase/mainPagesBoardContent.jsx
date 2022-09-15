@@ -230,7 +230,7 @@ const MainPagesBoardContent = () => {
                     </div>
                 </div>
             </div>
-            <div className='pencils-size-LP'>
+            <div className='pencils-size'>
                 <RowOfPencils/>
             </div>
         </section>

@@ -13,7 +13,7 @@ const BackgroundVideo = () => {
             <video width='100%' autoPlay loop muted src={Video} type="video/mp4"></video>
             <div className='content-box-landing-pages-BgV'>
                 <div>
-                    <h2>BUILDIN PLACES THAT INSPIRE<font color='red'>.</font></h2>
+                    <h2>BUILDING PLACES THAT INSPIRE<font color='red'>.</font></h2>
                     {/* EL DE ARRIBA ES UN H1 PERO COMO ESTOY DENTRO DE OTRA PÁG. PREFIERO NO USARLO PARA QUE NO HAYA MÁS DE UNO */}
                     <h5>WASHINGTON, DC</h5>
                     <img src={PlayVideoIconLP} alt="ícono de play" />
