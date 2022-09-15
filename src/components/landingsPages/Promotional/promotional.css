@@ -1,0 +1,161 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+ .box-macro-promotional-LP{
+    /* border: solid; */
+    width: 100%;
+    height: 100vh;
+  }
+  .image-promotional-LP{
+    position: absolute;
+    right: 0;
+    width: 60%;
+  }
+  .box-header-promotional-LP{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    /* border: solid brown; */
+    width: 100%;
+    height: 80px;
+  }
+  .isologo-header-promotional-LP{
+    width: 25px;
+  }
+  .box-ancords-header-promotional-LP{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 90px;
+    /* border: solid #ff3542; */
+    width: 30%;
+  }
+  .ancords-header-organic-shapes-LP{
+    text-decoration: none;
+    color: #353535;
+    font-size: 23px;
+  }
+  .ancords-header-organic-shapes-LP:focus{
+    font-weight: 700;
+    text-decoration: underline red;
+  }
+  .ancords-header-organic-shapes-LP:active{
+    font-weight: 700;
+    text-decoration: underline red;
+  }
+  .box-search-header-promotional-LP{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: solid green; */
+    padding-right: 80px;
+    width: 10%;
+  }
+  .button-magnifying-glass-promotional-LP{
+    background-image: url('../../../assets/LandingPages/lupaP.png');
+    background-repeat:no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    background-position:center;
+    border: none;
+    width: 30px;
+    height: 30px;
+  }
+  .select-header-promotional-LP{
+    background-image: url('../../../assets/LandingPages/selectP.png');
+    background-repeat:no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    background-position:center;
+    appearance: none;
+    border: none;
+    width: 30px;
+    height: 30px;
+    /* Falta que no se ponga la opción que elijo */
+  }
+  .box-main-promotional-LP{
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 70vh;
+  }
+  .titel-main-promotional-LP{
+    /* border: solid greenyellow; */
+    color: #232323;
+    width: 80%;
+    text-align: start;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 80px;
+  }
+  .description-main-promotional-LP{
+    /* border: solid gray; */
+    color: #4a4a4a;
+    width: 80%;
+    text-align: start;
+    margin-top: 0;
+  }
+  .box-button-main-promotional-LP{
+    /* border: solid #ff3542; */
+    display: flex;
+    width: 80%;
+  }
+  .button-main-promotional-LP{
+    border: none;
+    background-color: #f2664f;
+    width: 120px;
+    height: 30px;
+    color: white;
+    font-weight: 600;
+    align-self: flex-start;
+  }
+  .box-footer-promotional-LP{
+    /* border: solid orange; */
+    display: flex;
+    position: relative;
+    width: 45%;
+    height: 21%;
+  }
+  .box-one-footer-promotional-LP{
+    /* border: solid sandybrown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 44.5%;
+    background-color: #648f98;
+  }
+  .titel-footer-promotional-LP{
+    /* border: solid; */
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    width: 70%;
+  }
+  .description-footer-promotional-LP{
+    /* border: solid; */
+    color: white;
+    width: 70%;
+  }
+  .box-two-footer-promotional-LP{
+    /* border: solid hotpink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 44.5%;
+    background-color: #648f98;
+  }
+  .box-three-footer-promotional-LP{
+    /* border: solid rgb(176, 5, 91); */
+    background-color: rgba(242, 102, 79, 0.5);
+    width: 11.4%;
+  }
+  

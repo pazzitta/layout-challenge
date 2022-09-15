@@ -1,8 +1,13 @@
 import './layoutSectionContent.css'
 import { useLocation } from 'react-router-dom'
-import ShopifyLogo from '../../../assets/LandingPages/Minimalism/shopifylogo.png'
-import BrandLogoD from '../../../assets/Details/ProductTwo/brandLogo.png'
-import CartGreyIconD from '../../../assets/Details/ProductTwo/cartGray.png'
+import OPPromotionalLP from '../../../assets/LandingPages/LayoutSectionContent/OPPromotionalLP.jpg'
+import OPFurniture from '../../../assets/Details/ProductTwo/OPFurnitureD.jpg'
+import OPRegisterF from '../../../assets/Forms/Register/LayoutSectioContent/OPRegisterF.jpg'
+import OPFooodC from '../../../assets/Cards/LayoutSectionContent/OPFoodC.jpg'
+
+import IsotypePromitionalLP from '../../../assets/LandingPages/Promotional/isoPromotion.jpg'
+import WhiteMagnifyingGlassPromotionalLP from '../../../assets/LandingPages/Promotional/lupaP.png'
+import SelectTwoLinePromotionalLP from '../../../assets/LandingPages/Promotional/selectP.png'
 import ShortMagnifyingGlassGreyD from '../../../assets/Details/ProductTwo/shortMagnifyingGlassGrey.png'
 import StarYellowD from '../../../assets/Details/ProductTwo/starYellow.png'
 import IsologoBrandF from '../../../assets/Forms/Register/isologoWhite.png'
@@ -13,7 +18,8 @@ import PeopleIconGrayF from '../../../assets/Forms/Register/peopleIconGrayF.png'
 import EmailIconGrayF from '../../../assets/Forms/Register/emailIconGrayF.png'
 import PadLockIconGrayF from '../../../assets/Forms/Register/padLockIconGrayF.png'
 import CartWhiteH from '../../../assets/homes/Ecommerce/cartWhiteH.png'
-import BackgroundImageMinimalismLP from '../../../assets/LandingPages/Minimalism/backgroundImage1.png'
+
+import BackgroundImagePromotionalLP from '../../../assets/LandingPages/Promotional/imageP.jpg'
 import LeftImageProductD from '../../../assets/Details/ProductTwo/leftImageProduct.jpg'
 import MiddleImageProductD from '../../../assets/Details/ProductTwo/middleImageProduct.jpg'
 import ProductFrontImageD from '../../../assets/Details/ProductTwo/productFrontImage.png'
@@ -35,10 +41,6 @@ import ResponsiveRF360x640 from '../../../assets/Forms/Register/responsiveRF360x
 import ResponsiveFC834x1194 from '../../../assets/Cards/Food/responsiveFC834x1194.jpg'
 import ResponsiveFC390x844 from '../../../assets/Cards/Food/responsiveFC390x844.jpg'
 import ResponsiveFC360x640 from '../../../assets/Cards/Food/responsiveFC360x640.jpg'
-import OPMinimalismLP from '../../../assets/LandingPages/LayoutSectionContent/OPMinimalismLP.jpg'
-import OPFurniture from '../../../assets/Details/ProductTwo/OPFurnitureD.jpg'
-import OPRegisterF from '../../../assets/Forms/Register/LayoutSectioContent/OPRegisterF.jpg'
-import OPFooodC from '../../../assets/Cards/LayoutSectionContent/OPFoodC.jpg'
 import OPEcommerce from '../../../assets/homes/LayoutSectionContent/OPEcommerceH.jpg'
 import LayoutMinimalism from '../../landingsPages/Minimalism/layoutMinimalism'
 import EcommerceHomes from '../../homes/Ecommerce/Ecommerce'
@@ -61,7 +63,7 @@ const LayoutSectionContentFour = () => {
                     </div>
                 </div>
                 {
-                    location.pathname === '/landingPages' ? <img className='original-page-section-order-two-img' src="" alt="pág. original Minimalism LP" /> :
+                    location.pathname === '/landingPages' ? <img className='original-page-section-order-two-img' src={OPPromotionalLP} alt="pág. original Promotional LP" /> :
                     location.pathname === '/homes' ? <img className='original-page-section-order-two-img-ecommerce' src="" alt="pág. original " /> :
                     location.pathname === '/details' ? <img className='original-page-section-order-two-img' src="" alt="pág. original Furniture D" /> :
                     location.pathname === '/forms' ? <img className='original-page-section-order-two-img' src="" alt="pág. original Register " /> :
@@ -107,9 +109,12 @@ const LayoutSectionContentFour = () => {
                                 <div>
                                     {
                                         location.pathname === '/landingPages' ?
-                                        <div className='assets-icons-minimalism-LP'>
-                                            <img src="" alt="logo marca" />
-                                        </div> :
+                                        <div className='assets-icons-promotional-order'>
+                                            <img  src={IsotypePromitionalLP} alt="isologo marca" /> 
+                                            <img  src={WhiteMagnifyingGlassPromotionalLP} alt="Lupa blanca" /> 
+                                            <img  width='15%' src={SelectTwoLinePromotionalLP} alt="Líneas de menú" />                                             
+                                        </div>
+                                        :
                                         location.pathname === '/homes' ?
                                         <div className='assets-icons-minimalism-LP'>
                                             <img src="" alt="ícono carrito" />
@@ -137,7 +142,7 @@ const LayoutSectionContentFour = () => {
                                     {
                                         location.pathname === '/landingPages' ? 
                                         <div>
-                                            <img width="85%" src="" alt="backgroun image PP" />
+                                            <img width="50%" src={BackgroundImagePromotionalLP} alt='fondo página promocional'/>
                                         </div> :
                                         location.pathname === '/homes' ? <div className='assets-multimedia-ecommerce-H'>
                                             <img src="" alt="background ecommerce" />
@@ -158,7 +163,7 @@ const LayoutSectionContentFour = () => {
                                 </div>
                             </div>
                             <div className='papers-order-and-styles'>
-                               <div className='assets-multimedia-minimalism-LP'>
+                               <div className='assets-illustration-section-four'>
                                 {
                                     location.pathname === '/landingPages' ? <h4>none</h4> :
                                     location.pathname === '/homes' ? <h4>none</h4> :

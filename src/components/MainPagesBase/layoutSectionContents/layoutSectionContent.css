@@ -259,7 +259,8 @@
 .papers-order-and-styles>div:last-child>div:last-child{
     transform: rotate(40deg);
 }
-.assets-icons-background-video-LP{
+.assets-icons-background-video-LP,
+.assets-icons-promotional-order{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -273,7 +274,9 @@
     width: 25%;
     margin-right: 30px;
 }
-.assets-icons-background-video-LP>img:last-child{
+.assets-icons-background-video-LP>img:last-child,
+.assets-icons-promotional-order>img:first-child,
+.assets-icons-promotional-order>img:nth-child(2){
     width: 15%;
     margin-right: 30px;
 }

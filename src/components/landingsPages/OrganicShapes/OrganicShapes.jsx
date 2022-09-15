@@ -1,3 +1,4 @@
+import './organicShapes.css'
 import BackgroundImageOS from '../../../assets/LandingPages/backgroundImageOS.png'
 
 const OrganicShapes = () => {

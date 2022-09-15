@@ -1,6 +1,7 @@
-import ImagePromotional from '../../../assets/LandingPages/imageP.jpg'
-import IsoPromotional from '../../../assets/LandingPages/isoPromotion.jpg'
-import LupaPromotional from '../../../assets/LandingPages/isoPromotion.jpg'
+import './promotional.css'
+import ImagePromotional from '../../../assets/LandingPages/Promotional/imageP.jpg'
+import IsoPromotional from '../../../assets/LandingPages/Promotional/isoPromotion.jpg'
+import LupaPromotional from '../../../assets/LandingPages/Promotional/lupaP.png'
 
 const Promotional= () => {
     return(
