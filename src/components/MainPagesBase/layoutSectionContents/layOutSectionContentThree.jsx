@@ -223,7 +223,7 @@ const LayoutSectionContentThree = () => {
                         <h2 className='section-link-identification-posters-base'>REPO:
                         {
                            location.pathname === '/landingPages' ? 
-                           <a href="" target="_blank" rel="noreferrer">
+                           <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/landingsPages/OrganicShapes" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
                            location.pathname === '/homes' ? 
