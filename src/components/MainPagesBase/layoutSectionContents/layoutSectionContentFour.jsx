@@ -1,27 +1,25 @@
 import './layoutSectionContent.css'
 import { useLocation } from 'react-router-dom'
 import OPPromotionalLP from '../../../assets/LandingPages/LayoutSectionContent/OPPromotionalLP.jpg'
-import OPFurniture from '../../../assets/Details/ProductTwo/OPFurnitureD.jpg'
+import OPProfileD from '../../../assets/Details/LayoutSectionContent/OPProfileD.jpg'
+
 import OPRegisterF from '../../../assets/Forms/Register/LayoutSectioContent/OPRegisterF.jpg'
 import OPFooodC from '../../../assets/Cards/LayoutSectionContent/OPFoodC.jpg'
 
 import IsotypePromitionalLP from '../../../assets/LandingPages/Promotional/isoPromotion.jpg'
 import WhiteMagnifyingGlassPromotionalLP from '../../../assets/LandingPages/Promotional/lupaP.png'
 import SelectTwoLinePromotionalLP from '../../../assets/LandingPages/Promotional/selectP.png'
-import ShortMagnifyingGlassGreyD from '../../../assets/Details/ProductTwo/shortMagnifyingGlassGrey.png'
-import StarYellowD from '../../../assets/Details/ProductTwo/starYellow.png'
-import IsologoBrandF from '../../../assets/Forms/Register/isologoWhite.png'
-import FacebookIconBlackF from '../../../assets/Forms/Register/iconFacebookBlack.png'
-import GoogleIconBlackF from '../../../assets/Forms/Register/iconGoogleBlack.png'
-import LinkedInIconBlackF from '../../../assets/Forms/Register/iconLinkedInBlack.png'
-import PeopleIconGrayF from '../../../assets/Forms/Register/peopleIconGrayF.png'
-import EmailIconGrayF from '../../../assets/Forms/Register/emailIconGrayF.png'
-import PadLockIconGrayF from '../../../assets/Forms/Register/padLockIconGrayF.png'
-import CartWhiteH from '../../../assets/homes/Ecommerce/cartWhiteH.png'
+import DarkGrayEyeProfileD from '../../../assets/Details/Profile/iconDarkGrayEye.png'
+import FavGrayProfileD from '../../../assets/Details/Profile/iconFavGray.png'
+import MessageProfileD from '../../../assets/Details/Profile/iconMessage.png'
+import PersonDarkGrayProfileD from '../../../assets/Details/Profile/iconPersonDarkGray.png'
+import LocationGrayProfileD from '../../../assets/Details/Profile/locationGray.png'
+import StarBlueProfileD from '../../../assets/Details/Profile/starBlue.png'
 
 import BackgroundImagePromotionalLP from '../../../assets/LandingPages/Promotional/imageP.jpg'
-import LeftImageProductD from '../../../assets/Details/ProductTwo/leftImageProduct.jpg'
-import MiddleImageProductD from '../../../assets/Details/ProductTwo/middleImageProduct.jpg'
+import UserBoyProfileD from '../../../assets/Details/Profile/ProfileBoy.jpg'
+import BrandLogoProfileD from '../../../assets/Details/Profile/brandLogo.png'
+
 import ProductFrontImageD from '../../../assets/Details/ProductTwo/productFrontImage.png'
 import RightImageProductD from '../../../assets/Details/ProductTwo/rightImageProduct.jpg'
 import ProductTwoC from '../../../assets/Cards/Food/productFood.png'
@@ -64,8 +62,8 @@ const LayoutSectionContentFour = () => {
                 </div>
                 {
                     location.pathname === '/landingPages' ? <img className='original-page-section-order-two-img' src={OPPromotionalLP} alt="pág. original Promotional LP" /> :
-                    location.pathname === '/homes' ? <img className='original-page-section-order-two-img-ecommerce' src="" alt="pág. original " /> :
-                    location.pathname === '/details' ? <img className='original-page-section-order-two-img' src="" alt="pág. original Furniture D" /> :
+                    location.pathname === '/homes' ? <img className='original-page-section-order-two-img-ecommerce' src="" alt="pág. original" /> :
+                    location.pathname === '/details' ? <img className='original-page-section-order-two-img' src={OPProfileD} alt="pág. original  Profile D " /> :
                     location.pathname === '/forms' ? <img className='original-page-section-order-two-img' src="" alt="pág. original Register " /> :
                     <img  className='original-page-section-order-two-img' src={OPFooodC} alt="pág. original Food C" /> 
                 }
@@ -117,11 +115,17 @@ const LayoutSectionContentFour = () => {
                                         :
                                         location.pathname === '/homes' ?
                                         <div className='assets-icons-minimalism-LP'>
-                                            <img src="" alt="ícono carrito" />
+                                            <img src="" alt="h" />
                                         </div> :
                                         location.pathname === '/details' ?
-                                        <div className='assets-icons-furniture-D'>
-                                            <img src="" alt="logo marca" />
+                                        <div className='assets-icons-profile-D'>
+                                            <img src={DarkGrayEyeProfileD} alt="ícono ojo gris" />
+                                            <img src={FavGrayProfileD} alt="ícono favorito" />
+                                            <img src={MessageProfileD} alt="ícono mensaje" />
+                                            <img src={PersonDarkGrayProfileD} alt="ícono usuario gris" />
+                                            <img src={LocationGrayProfileD} alt="ícono localización gris" />
+                                            <img src={StarBlueProfileD} alt="ícono estrella azul" />
+                                            <img src={BrandLogoProfileD} alt="ícono logo marca" /> 
                                         </div> :
                                         location.pathname === '/forms' ?
                                         <div className='assets-icons-register-F'>
@@ -147,10 +151,7 @@ const LayoutSectionContentFour = () => {
                                         location.pathname === '/homes' ? <div className='assets-multimedia-ecommerce-H'>
                                             <img src="" alt="background ecommerce" />
                                         </div> :
-                                        location.pathname === '/details' ? 
-                                        <div className='assets-multimedia-furniture-D'>
-                                            <img src="" alt="Imagen izquierda silla" />  
-                                        </div> :
+                                        location.pathname === '/details' ? <img width='35%' src={UserBoyProfileD} alt="Imagen usuario" /> :  
                                         location.pathname === '/forms' ? <h4>none</h4> :
                                         <div className='assets-multimedia-food-C'>
                                             <img src={ProductTwoC} alt="imagen bagels" />

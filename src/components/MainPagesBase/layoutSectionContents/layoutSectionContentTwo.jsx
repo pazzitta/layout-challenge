@@ -23,6 +23,7 @@ import LeftImageProductD from '../../../assets/Details/ProductTwo/leftImageProdu
 import MiddleImageProductD from '../../../assets/Details/ProductTwo/middleImageProduct.jpg'
 import ProductFrontImageD from '../../../assets/Details/ProductTwo/productFrontImage.png'
 import RightImageProductD from '../../../assets/Details/ProductTwo/rightImageProduct.jpg'
+import MenuThreeLineFD from '../../../assets/homes/PersonaPage/menuIconPP.png'
 import BackgroundEcommerceH from '../../../assets/homes/Ecommerce/backgroundEcommerce.jpg'
 import ProfileImageC from '../../../assets/Cards/Profile/imageProfileP.jpg'
 import ResponsiveMLP834x1194 from '../../../assets/LandingPages/Minimalism/responsiveMLPTablet.jpg'
@@ -53,6 +54,7 @@ import ProfileCard from '../../Cards/Profile/Profile'
 import BackgroundRegisterF from '../../../assets/Forms/Register/backgroundRegister.jpg'
 import IGitHub from '../../../assets/myHome/Icons/IconGitHubWhite.png'
 
+
 const LayoutSectionContentTwo = () => {
     const location = useLocation()
     return(
@@ -73,7 +75,6 @@ const LayoutSectionContentTwo = () => {
                     <img  className='original-page-section-order-two-img' src={OPProfileC} alt="pág. original profile C" /> 
                 }
             </section>
-
             <section className='assets-section-order'>
                 <div className='top-box-assets-section-order'>
                     <div className='section-identification-posters-order'>
@@ -124,6 +125,7 @@ const LayoutSectionContentTwo = () => {
                                             <img src={BrandLogoD} alt="logo marca" />
                                             <img src={CartGreyIconD} alt="ícono carrito gris" />
                                             <img src={ShortMagnifyingGlassGreyD} alt="ícono lupa gris" />
+                                            <img width='15%' src={MenuThreeLineFD} alt="estrella amarilla" />
                                             <img src={StarYellowD} alt="estrella amarilla" />
                                         </div> :
                                         location.pathname === '/forms' ?

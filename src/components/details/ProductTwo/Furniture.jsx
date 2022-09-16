@@ -75,7 +75,6 @@ const FurnitureDetail = () => {
                             </div>
                             <div>
                                 <p>Algo3</p>
-                                {/* <hr/> */}
                             </div>
                         </div>
                         <h2>$265.50</h2>
