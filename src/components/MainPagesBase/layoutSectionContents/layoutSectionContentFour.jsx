@@ -24,18 +24,7 @@ import ProductFrontImageD from '../../../assets/Details/ProductTwo/productFrontI
 import RightImageProductD from '../../../assets/Details/ProductTwo/rightImageProduct.jpg'
 import ProductTwoC from '../../../assets/Cards/Food/productFood.png'
 import BackgroundEcommerceH from '../../../assets/homes/Ecommerce/backgroundEcommerce.jpg'
-import ResponsiveMLP834x1194 from '../../../assets/LandingPages/Minimalism/responsiveMLPTablet.jpg'
-import ResponsiveMLP390x844 from '../../../assets/LandingPages/Minimalism/responsiveMLP390x844.jpg'
-import ResponsiveMLP360x640 from '../../../assets/LandingPages/Minimalism/responsiveMLP360x640.jpg'
-import ResponsiveECH834x1194 from '../../../assets/homes/Ecommerce/responsiveECH834x1194.jpg'
-import ResponsiveECH390x844 from '../../../assets/homes/Ecommerce/responsiveECH390x844.jpg'
-import ResponsiveECH360x640 from '../../../assets/homes/Ecommerce/responsiveECH360x640.jpg'
-import ResponsiveFD834x1194 from '../../../assets/Details/ProductTwo/responsiveFD834x1194.jpg'
-import ResponsiveFD390x844 from '../../../assets/Details/ProductTwo/responsiveFD390x844.jpg'
-import ResponsiveFD360x640 from '../../../assets/Details/ProductTwo/responsiveFD360x640.jpg'
-import ResponsiveRF834x1194 from '../../../assets/Forms/Register/responsiveRF834x1194.jpg'
-import ResponsiveRF390x844 from '../../../assets/Forms/Register/responsiveRF390x844.jpg'
-import ResponsiveRF360x640 from '../../../assets/Forms/Register/responsiveRF360x640.jpg'
+import GifResponsive from '../../../assets/myHome/responsiveGif.gif'
 import ResponsiveFC834x1194 from '../../../assets/Cards/Food/responsiveFC834x1194.jpg'
 import ResponsiveFC390x844 from '../../../assets/Cards/Food/responsiveFC390x844.jpg'
 import ResponsiveFC360x640 from '../../../assets/Cards/Food/responsiveFC360x640.jpg'
@@ -189,36 +178,36 @@ const LayoutSectionContentFour = () => {
                             <div></div>
                         </div>
                     </div>
-                    <div className='responsive-section-order'>
+                    <div className='responsive-section-order-gif'>
                         {
                             location.pathname === '/landingPages' ? 
                             <div>
-                                <img src="" alt="diseño responsivo minimalism LP 834x1194" />
-                                <img src="" alt="diseño responsivo minimalism LP 390x844" />
-                                <img src="" alt="diseño responsivo minimalism  LP 360x640" />
+                                <img src={GifResponsive} alt="diseño responsivo LP 834x1194" />
+                                <img src={GifResponsive} alt="diseño responsivo LP 390x844" />
+                                <img src={GifResponsive} alt="diseño responsivo  LP 360x640" />
                             </div> :
                             location.pathname === '/homes' ? 
                             <div>
-                                <img src="" alt="diseño responsivo e-commerce H 834x1194" />
-                                <img src="" alt="diseño responsivo e-commerce H 390x844" />
-                                <img src="" alt="diseño responsivo e-commerce H 360x640" />
+                                <img src={GifResponsive} alt="diseño responsivo H 834x1194" />
+                                <img src={GifResponsive} alt="diseño responsivo  H 390x844" />
+                                <img src={GifResponsive} alt="diseño responsivo H 360x640" />
                             </div> :
                             location.pathname === '/details' ? 
                             <div>
-                                <img src="" alt="diseño responsivo Furniture D 834x1194" />
-                                <img src="" alt="diseño responsivo Furniture D 390x844" />
-                                <img src="" alt="diseño responsivo Furniture D 360x640" />
+                                <img src={GifResponsive} alt="diseño responsivo D 834x1194" />
+                                <img src={GifResponsive} alt="diseño responsivo  D 390x844" />
+                                <img src={GifResponsive} alt="diseño responsivo D 360x640" />
                             </div> :
                             location.pathname === '/forms' ? 
                             <div>
-                                <img src="" alt="diseño responsivo Register F 834x1194" />
-                                <img src="" alt="diseño responsivo Register F 390x844" />
-                                <img src="" alt="diseño responsivo Register F 360x640" />
+                                <img src={GifResponsive} alt="diseño responsivo F 834x1194" />
+                                <img src={GifResponsive} alt="diseño responsivo  F 390x844" />
+                                <img src={GifResponsive} alt="diseño responsivo F 360x640" />
                             </div> :
                             <div>
-                                <img src={ResponsiveFC834x1194} alt="diseño responsivo Food C 834x1194" />
-                                <img src={ResponsiveFC390x844} alt="diseño responsivo Food C 390x844" />
-                                <img src={ResponsiveFC360x640} alt="diseño responsivo Food C 360x640" />
+                                <img src={GifResponsive} alt="diseño responsivo Food C 834x1194" />
+                                <img src={GifResponsive} alt="diseño responsivo Food C 390x844" />
+                                <img src={GifResponsive} alt="diseño responsivo Food C 360x640" />
                             </div>
                         }
                         <div className='responsive-sizes-posters-order'>
