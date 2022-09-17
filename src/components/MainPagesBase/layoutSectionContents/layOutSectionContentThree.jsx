@@ -10,6 +10,8 @@ import ResponsiveCC834x1194 from '../../../assets/Cards/Clothes/responsiveCC834x
 import ResponsiveCC390x844 from '../../../assets/Cards/Clothes/responsiveCC390x844.jpg'
 import ResponsiveCC360x640 from '../../../assets/Cards/Clothes/responsiveCC360x640.jpg'
 import GifResponsive from '../../../assets/myHome/responsiveGif.gif'
+import GifLayout from '../../../assets/myHome/layoutGif.gif'
+import GifLayoutT from '../../../assets/myHome/layoutGifT.gif'
 // import ClothesCard from '../../Cards/Clothes/ClothesCard'
 import IGitHub from '../../../assets/myHome/Icons/IconGitHubWhite.png'
 
@@ -251,11 +253,11 @@ const LayoutSectionContentThree = () => {
                     </div>                   
                 </div>
                 {
-                    location.pathname === '/landingPages' ? <h2>SOY EL GIF DE EN CONSTRUCCIÓN</h2> : 
-                    location.pathname === '/homes' ? <h2>SOY EL GIF DE EN CONSTRUCCIÓN</h2> :
-                    location.pathname === '/details' ? <h2>SOY EL GIF DE EN CONSTRUCCIÓN</h2> :
-                    location.pathname === '/forms' ? <h2>SOY EL GIF DE EN CONSTRUCCIÓN</h2> :
-                    <h2>SOY EL GIF DE EN CONSTRUCCIÓN</h2>
+                    location.pathname === '/landingPages' ? <img width="55%" src={GifLayout} alt='gif Working'></img> : 
+                    location.pathname === '/homes' ? <img width="55%" src={GifLayout} alt='gif Working'></img> :
+                    location.pathname === '/details' ? <img width="55%" src={GifLayout} alt='gif Working'></img> :
+                    location.pathname === '/forms' ? <img width="55%" src={GifLayout} alt='gif Working'></img> :
+                    <img width="55%" src={GifLayout} alt='gif Working'></img>
                     // <div>
                     //     <div className='clothes-card-order-section-content-one'>
                     //             <ClothesCard/>

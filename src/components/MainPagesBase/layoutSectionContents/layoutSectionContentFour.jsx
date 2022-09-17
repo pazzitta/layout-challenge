@@ -36,6 +36,7 @@ import RegisterForm from '../../forms/Register/registerForm'
 import FoodCard from '../../Cards/Food/Food'
 import BackgroundRegisterF from '../../../assets/Forms/Register/backgroundRegister.jpg'
 import IGitHub from '../../../assets/myHome/Icons/IconGitHubWhite.png'
+import GifLayout from '../../../assets/myHome/layoutGif.gif'
 
 const LayoutSectionContentFour = () => {
     const location = useLocation()
@@ -264,11 +265,11 @@ const LayoutSectionContentFour = () => {
                     </div>                   
                 </div>
                 {
-                    location.pathname === '/landingPages' ? <h2>SOY LA ANIMACIÓN DE EN CONTRUCCIÓN</h2> : 
-                    location.pathname === '/homes' ? <h2>SOY LA ANIMACIÓN DE EN CONTRUCCIÓN</h2> :
-                    location.pathname === '/details' ? <h2>SOY LA ANIMACIÓN DE EN CONTRUCCIÓN</h2> :
-                    location.pathname === '/forms' ? <h2>SOY LA ANIMACIÓN DE EN CONTRUCCIÓN</h2> :
-                    <h2>SOY LA ANIMACIÓN DE EN CONTRUCCIÓN</h2>
+                    location.pathname === '/landingPages' ? <img width="55%" src={GifLayout} alt='gif Working'></img> : 
+                    location.pathname === '/homes' ? <img width="55%" src={GifLayout} alt='gif Working'></img> :
+                    location.pathname === '/details' ? <img width="55%" src={GifLayout} alt='gif Working'></img> :
+                    location.pathname === '/forms' ? <img width="55%" src={GifLayout} alt='gif Working'></img> :
+                    <img width="55%" src={GifLayout} alt='gif Working'></img>
                     // <div className='food-card-order-section-content-two'>
                     //     <FoodCard/>
                     //     <FoodCard/>
