@@ -1,5 +1,5 @@
 import './profile.css'
-import ImageProfile from '../../../assets/Cards/Profile/imageProfileP.jpg'
+import ImageProfile from '../../../assets/Cards/Profile/imageProfileC.jpg'
 import IconPeople from '../../../assets/Cards/Profile/iconPeople.png'
 import IconViews from '../../../assets/Cards/Profile/iconViews.png'
 import IconVideos from '../../../assets/Cards/Profile/iconVideo.png'

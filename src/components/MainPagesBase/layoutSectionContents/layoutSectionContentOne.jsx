@@ -33,6 +33,7 @@ import TickIconF from '../../../assets/Forms/Login/iconTick.png'
 import TwitterIconF from '../../../assets/Forms/Login/iconTwitterWhite.png'
 import BackgroundImageLoginF from '../../../assets/Forms/Login/backgroundImageLogin.jpg'
 import ImageNewsC from '../../../assets/Cards/News/imageNewsC.jpg'
+import ImageProfileC from '../../../assets/Cards/Profile/imageProfileC.jpg'
 import ResponsiveBVLP834x1194 from '../../../assets/LandingPages/BackgrondVideo/responsiveBVLP834x1194.jpg'
 import ResponsiveBVLP390x844 from '../../../assets/LandingPages/BackgrondVideo/responsiveBVLP390x844.jpg'
 import ResponsiveBVLP360x640 from '../../../assets/LandingPages/BackgrondVideo/responsiveBVLP360x640.jpg'
@@ -182,7 +183,10 @@ const LayoutSectionContentOne = () => {
                                         <div className='assets-multimedia-login-F'>
                                             <img src={BackgroundImageLoginF} alt="backgroun image Login F" />
                                         </div> :
-                                        <img width="30%" src={ImageNewsC} alt="ferris wheel london" />
+                                        <div className='assets-multimedia-profile-C'>
+                                            <img src={ImageProfileC} alt='imagen del autor'></img>
+                                            <img src={ImageNewsC} alt="ferris wheel london" />
+                                        </div>
                                     }
                                 </div>
                                 <div>

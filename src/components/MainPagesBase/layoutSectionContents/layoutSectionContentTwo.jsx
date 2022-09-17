@@ -25,7 +25,7 @@ import ProductFrontImageD from '../../../assets/Details/ProductTwo/productFrontI
 import RightImageProductD from '../../../assets/Details/ProductTwo/rightImageProduct.jpg'
 import MenuThreeLineFD from '../../../assets/homes/PersonaPage/menuIconPP.png'
 import BackgroundEcommerceH from '../../../assets/homes/Ecommerce/backgroundEcommerce.jpg'
-import ProfileImageC from '../../../assets/Cards/Profile/imageProfileP.jpg'
+import ProfileImageC from '../../../assets/Cards/Profile/imageProfileC.jpg'
 import ResponsiveMLP834x1194 from '../../../assets/LandingPages/Minimalism/responsiveMLPTablet.jpg'
 import ResponsiveMLP390x844 from '../../../assets/LandingPages/Minimalism/responsiveMLP390x844.jpg'
 import ResponsiveMLP360x640 from '../../../assets/LandingPages/Minimalism/responsiveMLP360x640.jpg'
@@ -280,7 +280,7 @@ const LayoutSectionContentTwo = () => {
                            <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/forms/Register" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
-                           <a href="" target="_blank" rel="noreferrer">
+                           <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/Cards/Profile" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>
                         }

@@ -457,7 +457,8 @@
 }
 .assets-multimedia-personal-page-H,
 .assets-multimedia-food-C,
-.assets-multimedia-contact-us-F{
+.assets-multimedia-contact-us-F,
+.assets-multimedia-profile-C{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -496,6 +497,12 @@
 }
 .assets-multimedia-contact-us-F>img:last-child{
     margin-top: 10px;
+}
+.assets-multimedia-profile-C>img{
+    width: 30%;
+}
+.assets-multimedia-profile-C>img:last-child{
+    margin-left: 20px;
 }
 .clothes-card-order-section-content-one,
 .news-card-order-section-content-one,
