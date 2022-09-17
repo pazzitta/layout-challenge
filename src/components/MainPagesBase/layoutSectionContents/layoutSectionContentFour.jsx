@@ -2,9 +2,9 @@ import './layoutSectionContent.css'
 import { useLocation } from 'react-router-dom'
 import OPPromotionalLP from '../../../assets/LandingPages/LayoutSectionContent/OPPromotionalLP.jpg'
 import OPProfileD from '../../../assets/Details/LayoutSectionContent/OPProfileD.jpg'
-
-import OPRegisterF from '../../../assets/Forms/Register/LayoutSectioContent/OPRegisterF.jpg'
+import OPContactUsF from '../../../assets/Forms/LayoutSectionContent/OPContactUsF.jpg'
 import OPFooodC from '../../../assets/Cards/LayoutSectionContent/OPFoodC.jpg'
+
 
 import IsotypePromitionalLP from '../../../assets/LandingPages/Promotional/isoPromotion.jpg'
 import WhiteMagnifyingGlassPromotionalLP from '../../../assets/LandingPages/Promotional/lupaP.png'
@@ -15,34 +15,34 @@ import MessageProfileD from '../../../assets/Details/Profile/iconMessage.png'
 import PersonDarkGrayProfileD from '../../../assets/Details/Profile/iconPersonDarkGray.png'
 import LocationGrayProfileD from '../../../assets/Details/Profile/locationGray.png'
 import StarBlueProfileD from '../../../assets/Details/Profile/starBlue.png'
+import EmailGoldenIconF from '../../../assets/Forms/ContactUs/iconEmailGolden.png'
+import InstagramBlackIconF from '../../../assets/Forms/ContactUs/iconInstagramBlack.png'
+import LocationGoldenIconF from '../../../assets/Forms/ContactUs/iconLocationGolden.png'
+import PhoneGoldenIconF from '../../../assets/Forms/ContactUs/iconPhoneGolden.png'
+import PinteresBlackIconF from '../../../assets/Forms/ContactUs/iconPinterestBlack.png'
+import TwitterBlackIconF from '../../../assets/Forms/ContactUs/iconTwitterBlack0.png'
+import MenuImageIconF from '../../../assets/Forms/ContactUs/imageMenu.png'
+import FacebookIconBlackF from '../../../assets/Forms/Register/iconFacebookBlack.png'
+import LinkedInIconBlackF from '../../../assets/Forms/Register/iconLinkedInBlack.png'
 
 import BackgroundImagePromotionalLP from '../../../assets/LandingPages/Promotional/imageP.jpg'
 import UserBoyProfileD from '../../../assets/Details/Profile/ProfileBoy.jpg'
 import BrandLogoProfileD from '../../../assets/Details/Profile/brandLogo.png'
+import ImageHeaderF from '../../../assets/Forms/ContactUs/backgroundHeader.jpg'
+import ImageLocationF from '../../../assets/Forms/ContactUs/locationMap.jpg'
+import LogoWithBackground from '../../../assets/Forms/ContactUs/logoWithBackground.jpg'
 
-import ProductFrontImageD from '../../../assets/Details/ProductTwo/productFrontImage.png'
-import RightImageProductD from '../../../assets/Details/ProductTwo/rightImageProduct.jpg'
 import ProductTwoC from '../../../assets/Cards/Food/productFood.png'
-import BackgroundEcommerceH from '../../../assets/homes/Ecommerce/backgroundEcommerce.jpg'
+
 import GifResponsive from '../../../assets/myHome/responsiveGif.gif'
-import ResponsiveFC834x1194 from '../../../assets/Cards/Food/responsiveFC834x1194.jpg'
-import ResponsiveFC390x844 from '../../../assets/Cards/Food/responsiveFC390x844.jpg'
-import ResponsiveFC360x640 from '../../../assets/Cards/Food/responsiveFC360x640.jpg'
-import OPEcommerce from '../../../assets/homes/LayoutSectionContent/OPEcommerceH.jpg'
-import LayoutMinimalism from '../../landingsPages/Minimalism/layoutMinimalism'
-import EcommerceHomes from '../../homes/Ecommerce/Ecommerce'
-import FurnitureDetail from '../../details/ProductTwo/Furniture'
-import RegisterForm from '../../forms/Register/registerForm'
-import FoodCard from '../../Cards/Food/Food'
-import BackgroundRegisterF from '../../../assets/Forms/Register/backgroundRegister.jpg'
-import IGitHub from '../../../assets/myHome/Icons/IconGitHubWhite.png'
 import GifLayout from '../../../assets/myHome/layoutGif.gif'
+import IGitHub from '../../../assets/myHome/Icons/IconGitHubWhite.png'
 
 const LayoutSectionContentFour = () => {
     const location = useLocation()
     return(
         <div className="order-all-layout-section-content">
-            <section className='original-page-section-order-two'>
+            <section className='original-page-section-order-four'>
                 <div className='section-identification-posters-order'>
                     <h2 className='section-identification-posters-base'>PÁGINA ORIGINAL</h2>
                     <div> 
@@ -54,7 +54,7 @@ const LayoutSectionContentFour = () => {
                     location.pathname === '/landingPages' ? <img className='original-page-section-order-two-img' src={OPPromotionalLP} alt="pág. original Promotional LP" /> :
                     location.pathname === '/homes' ? <img className='original-page-section-order-two-img-ecommerce' src="" alt="pág. original" /> :
                     location.pathname === '/details' ? <img className='original-page-section-order-two-img' src={OPProfileD} alt="pág. original  Profile D " /> :
-                    location.pathname === '/forms' ? <img className='original-page-section-order-two-img' src="" alt="pág. original Register " /> :
+                    location.pathname === '/forms' ? <img className='original-page-section-four-order-three-img-big' src={OPContactUsF} alt="pág. original Contact Us F " /> :
                     <img  className='original-page-section-order-two-img' src={OPFooodC} alt="pág. original Food C" /> 
                 }
             </section>
@@ -118,8 +118,16 @@ const LayoutSectionContentFour = () => {
                                             <img src={BrandLogoProfileD} alt="ícono logo marca" /> 
                                         </div> :
                                         location.pathname === '/forms' ?
-                                        <div className='assets-icons-register-F'>
-                                            <img src="" alt="Isologo marca" />
+                                        <div className='assets-icons-contact-us-F'>
+                                            <img src={EmailGoldenIconF} alt="ícono email dorado" />
+                                            <img src={LocationGoldenIconF} alt="ícono localización dorado" />
+                                            <img src={PhoneGoldenIconF} alt="ícono celular dorado" />
+                                            <img src={InstagramBlackIconF} alt="ícono Instagram Negro" />
+                                            <img src={PinteresBlackIconF} alt="ícono Pinterest negro" />
+                                            <img src={TwitterBlackIconF} alt="ícono Twitter negro" />
+                                            <img src={FacebookIconBlackF} alt="ícono Facebook negro" />
+                                            <img src={LinkedInIconBlackF} alt="ícono LinkedIn negro" />
+                                            <img src={MenuImageIconF} alt="ícono menú blanco" /> 
                                         </div> :
                                         <h4>none</h4>
                                     }
@@ -142,7 +150,12 @@ const LayoutSectionContentFour = () => {
                                             <img src="" alt="background ecommerce" />
                                         </div> :
                                         location.pathname === '/details' ? <img width='35%' src={UserBoyProfileD} alt="Imagen usuario" /> :  
-                                        location.pathname === '/forms' ? <h4>none</h4> :
+                                        location.pathname === '/forms' ? 
+                                        <div className='assets-multimedia-contact-us-F'>
+                                            <img src={ImageHeaderF} alt="imagen cabecera de página" />
+                                            <img src={ImageLocationF} alt="mapa" />
+                                            <img src={LogoWithBackground} alt="logo con fondo" />
+                                        </div> :
                                         <div className='assets-multimedia-food-C'>
                                             <img src={ProductTwoC} alt="imagen bagels" />
                                         </div> 
@@ -159,7 +172,7 @@ const LayoutSectionContentFour = () => {
                                     location.pathname === '/landingPages' ? <h4>none</h4> :
                                     location.pathname === '/homes' ? <h4>none</h4> :
                                     location.pathname === '/details' ? <h4>none</h4> :
-                                    location.pathname === '/forms' ? <img src="" alt="Imagen del medio silla" /> :
+                                    location.pathname === '/forms' ?  <h4>none</h4> :
                                     <h4>none</h4> 
                                 }
                                </div>
@@ -250,7 +263,7 @@ const LayoutSectionContentFour = () => {
                                 <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                             </a>:
                            location.pathname === '/forms' ?
-                           <a href="" target="_blank" rel="noreferrer">
+                           <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/forms/ContactUs" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
                            <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/Cards/Food" target="_blank" rel="noreferrer">

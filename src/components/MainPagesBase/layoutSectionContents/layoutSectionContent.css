@@ -383,7 +383,8 @@
 .assets-icons-furniture-D,
 .assets-icons-register-F,
 .assets-icons-profile-c,
-.assets-icons-profile-D{
+.assets-icons-profile-D,
+.assets-icons-contact-us-F{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -433,12 +434,14 @@
     margin-right: 20px;
 }
 .assets-icons-minimalist-h>img,
-.assets-icons-login-f>img{
+.assets-icons-login-f>img,
+.assets-icons-contact-us-F>img{
     width: 15%;
     margin-right: 20px;
 }
 .assets-icons-minimalist-h>img:first-child,
-.assets-icons-login-f>img:first-child{
+.assets-icons-login-f>img:first-child,
+.assets-icons-contact-us-F>img:first-child{
     margin-left: 20px;
 }
 .assets-icons-profile-c>img{
@@ -453,10 +456,12 @@
     margin-left: 20px;
 }
 .assets-multimedia-personal-page-H,
-.assets-multimedia-food-C{
+.assets-multimedia-food-C,
+.assets-multimedia-contact-us-F{
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
+    flex-wrap: wrap;   
 }
 .assets-multimedia-personal-page-H>img{
     width: 30%; 
@@ -484,6 +489,13 @@
 .assets-multimedia-Clothes-C,
 .assets-icons-minimalism-LP>img{
     width: 60%;
+}
+.assets-multimedia-contact-us-F>img{
+    width: 45%;
+    margin-right: 10px;
+}
+.assets-multimedia-contact-us-F>img:last-child{
+    margin-top: 10px;
 }
 .clothes-card-order-section-content-one,
 .news-card-order-section-content-one,
@@ -521,7 +533,8 @@
 }
 
 /* LAYOUT SECTION CONTENT THREE */
-.original-page-section-order-three{
+.original-page-section-order-three,
+.original-page-section-order-four{
     height: 670px;
 }
 .original-page-section-order-three-img-normal{
@@ -533,4 +546,11 @@
     position: relative;
     bottom: 40px
 }
+.original-page-section-four-order-three-img-big{
+    width: 25%;
+    position: relative;
+    bottom: 40px
+}
+
+
 
