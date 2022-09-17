@@ -2,10 +2,15 @@ import './layoutSectionContent.css'
 import {useLocation} from 'react-router-dom'
 import OPOrganicShapesLP from '../../../assets/LandingPages/LayoutSectionContent/OPOrganicShapesLP.jpg'
 import OPClothesC from '../../../assets/Cards/LayoutSectionContent/OPClothesC.jpg'
+import OPCheckOutF from '../../../assets/Forms/LayoutSectionContent/OPCheckOutF.jpg'
 import CartBlackIconC from '../../../assets/Cards/Clothes/cartBlack.png'
 import CartWhiteIconC from '../../../assets/Cards/Clothes/cartWhite.png'
+import CardIconWCheckOutF from '../../../assets/Forms/CheckOut/iconCardWhite.png'
+
 import ProductClotheCart from '../../../assets/Cards/Clothes/productOneCard.png'
 import BackgroundImageOrganicShapesLP from '../../../assets/LandingPages/OrgenicShapes/backgroundImageOS1.png'
+import RoomImageCheckOutF from '../../../assets/Forms/CheckOut/imageRoom.jpg'
+
 import ResponsiveCC834x1194 from '../../../assets/Cards/Clothes/responsiveCC834x1194.jpg'
 import ResponsiveCC390x844 from '../../../assets/Cards/Clothes/responsiveCC390x844.jpg'
 import ResponsiveCC360x640 from '../../../assets/Cards/Clothes/responsiveCC360x640.jpg'
@@ -29,10 +34,10 @@ const LayoutSectionContentThree = () => {
                     </div>
                 </div>
                 {
-                    location.pathname === '/landingPages' ? <img width="65%" src={OPOrganicShapesLP} alt="pág. original Organic shapes  LP" /> :
+                    location.pathname === '/landingPages' ? <img className='original-page-section-order-three-img-normal' src={OPOrganicShapesLP} alt="pág. original Organic shapes  LP" /> :
                     location.pathname === '/homes' ? <img src="" alt="pág. original  H" /> :
                     location.pathname === '/details' ? <img src="" alt="pág. original D" /> :
-                    location.pathname === '/forms' ? <img src="" alt="pág. original  F" /> :
+                    location.pathname === '/forms' ? <img className='original-page-section-order-three-img-big' src={OPCheckOutF} alt="pág. original CheckOut F" /> :
                     <img src={OPClothesC} alt="pág. original Clothes C" /> 
                 }
             </section>
@@ -94,16 +99,7 @@ const LayoutSectionContentThree = () => {
                                             <img src="" alt="ícono corazón" /> 
                                         </div> :
                                         location.pathname === '/forms' ? 
-                                        <div className='assets-icons-login-f'>
-                                            <img src="" alt="Isotipo persona" />
-                                            <img src="" alt="ícono tick ok" />
-                                            <img src="" alt="ícono Candado" />
-                                            <img src="" alt="ícono Ojo bloqueado" />
-                                            <img src="" alt="ícono inicio sesión" />
-                                            <img src="" alt="ícono Facebook" /> 
-                                            <img src="" alt="ícono Google +" />
-                                            <img src="" alt="ícono Google +" />
-                                        </div> :
+                                        <img width='40%' src={CardIconWCheckOutF} alt="Ícono tarjeta de crédito" /> :
                                         <div className='assets-icons-clothes-c'>
                                             <img src={CartBlackIconC} alt="ícono carrito negro" />
                                             <img src={CartWhiteIconC} alt="ícono cattito blanco" />
@@ -130,9 +126,7 @@ const LayoutSectionContentThree = () => {
                                             <img src="" alt="imagen vertical producto" />
                                         </div> :
                                         location.pathname === '/forms' ? 
-                                        <div className='assets-multimedia-login-F'>
-                                            <img src="" alt="backgroun image Login F" />
-                                        </div> :
+                                        <img width='50%' src={RoomImageCheckOutF} alt="imagen habitación Check Out F" /> :
                                         <img className='assets-multimedia-Clothes-C' src={ProductClotheCart} alt="Zapatilla adidas" />
                                     }
                                 </div>
@@ -238,7 +232,7 @@ const LayoutSectionContentThree = () => {
                                 <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                             </a>:
                            location.pathname === '/forms' ?
-                           <a href="" target="_blank" rel="noreferrer">
+                           <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/forms/CheckOut" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
                            <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/Cards/Clothes" target="_blank" rel="noreferrer">

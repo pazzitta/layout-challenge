@@ -524,8 +524,13 @@
 .original-page-section-order-three{
     height: 670px;
 }
-.original-page-section-order-three>img{
+.original-page-section-order-three-img-normal{
     width: 65%;
     margin-top: 20px;
+}
+.original-page-section-order-three-img-big{
+    width: 28%;
+    position: relative;
+    bottom: 40px
 }
 

@@ -77,7 +77,6 @@
   margin: 0;
 }
 .box-right-register-form>div{
-    /* border: solid; */
     display: flex;
     justify-content: space-between;
     width: 28%;
@@ -100,7 +99,9 @@
 .box-right-register-form >p{
     color: #acacac;
 }
-.box-right-register-form >input{
+.input-name-resgister-F,
+.input-email-resgister-F,
+.input-password-resgister-F{
     align-self: center;
     width: 60%;
     height: 50px;
@@ -109,38 +110,35 @@
     color: #c6c8c7;
     font-size: 15px;
     margin-bottom: 20px;
-    padding-left: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 300;
+    padding: 0.25em 0.6em;
 }
-.box-right-register-form >input::placeholder{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 300;
+.input-name-resgister-F,
+.input-email-resgister-F,
+.input-password-resgister-F{
+    outline: none;
 }
-
-/* .input-name-resgister-F::placeholder{
+.input-name-resgister-F::placeholder,
+.input-email-resgister-F::placeholder,
+.input-password-resgister-F::placeholder{
+    font-size: 17px;
+    padding-left: 25px;
+    background-position: left 2px;
+    color: #9FA3A2;
+}
+.input-name-resgister-F::placeholder{
     background-image: url('../../../assets/Forms/Register/peopleIconGrayF.png');
-    background-size: 20px;
-    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;  
 }
 .input-email-resgister-F::placeholder{
     background-image: url('../../../assets/Forms/Register/emailIconGrayF.png');
-    background-size: 20px;
+    background-size: 15px 12px;
     background-repeat: no-repeat;
 }
 .input-password-resgister-F::placeholder{
     background-image: url('../../../assets/Forms/Register/padLockIconGrayF.png');
-    background-size: 20px;
+    background-size: 14px 15px;
     background-repeat: no-repeat;
-    
-    ASÍ NO LOS PUEDO SEPARAR DEL TEXTO
-} */
-
-.input-password-resgister-F::placeholder{
-   color: gray;
 }
 .box-right-register-form >button {
     align-self: center;

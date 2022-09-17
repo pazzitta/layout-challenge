@@ -11,7 +11,6 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .box-all-login-form >article{
     width: 27%;
     height: 63vh;
@@ -88,7 +87,6 @@
     height: 30px;
 }
 .box-inputs-caption-login-form{
-    /* border: solid thin green; */
     width: 80%;
     position: relative;
     bottom: 15px;
@@ -99,7 +97,6 @@
     align-items: center;
 }
 .box-inputs-caption-login-form>div{
-    /* border: solid thin rgb(133, 82, 10); */
     display: flex;
     align-items: center;
 }
@@ -115,7 +112,7 @@
 }
 .box-inputs-caption-login-form>div small{
     font-size: 12px;
- }
+}
 .box-inputs-caption-login-form>div button{
     background-color: transparent;
     font-size: 9px;
@@ -137,10 +134,8 @@
     border: none;
 }
 .box-inputs-caption-login-form>small{
-    /* border: solid thin rgb(133, 82, 10); */
     font-size: 12px;
 }
-
 .style-button-login-form{
     display: flex;
     justify-content: center;
