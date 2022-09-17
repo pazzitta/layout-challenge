@@ -2,6 +2,7 @@ import './layoutSectionContent.css'
 import {useLocation} from 'react-router-dom'
 import OPOrganicShapesLP from '../../../assets/LandingPages/LayoutSectionContent/OPOrganicShapesLP.jpg'
 import OPClothesC from '../../../assets/Cards/LayoutSectionContent/OPClothesC.jpg'
+import OPNewsD from '../../../assets/Details/LayoutSectionContent/OPNewsD.jpg'
 import OPCheckOutF from '../../../assets/Forms/LayoutSectionContent/OPCheckOutF.jpg'
 import CartBlackIconC from '../../../assets/Cards/Clothes/cartBlack.png'
 import CartWhiteIconC from '../../../assets/Cards/Clothes/cartWhite.png'
@@ -36,7 +37,7 @@ const LayoutSectionContentThree = () => {
                 {
                     location.pathname === '/landingPages' ? <img className='original-page-section-order-three-img-normal' src={OPOrganicShapesLP} alt="pág. original Organic shapes  LP" /> :
                     location.pathname === '/homes' ? <img src="" alt="pág. original  H" /> :
-                    location.pathname === '/details' ? <img src="" alt="pág. original D" /> :
+                    location.pathname === '/details' ? <img width='23.5%' src={OPNewsD} alt="pág. original News D" /> :
                     location.pathname === '/forms' ? <img className='original-page-section-order-three-img-big' src={OPCheckOutF} alt="pág. original CheckOut F" /> :
                     <img src={OPClothesC} alt="pág. original Clothes C" /> 
                 }
@@ -228,7 +229,7 @@ const LayoutSectionContentThree = () => {
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
                             location.pathname === '/details' ?
-                            <a href="" target="_blank" rel="noreferrer">
+                            <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/details/News" target="_blank" rel="noreferrer">
                                 <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                             </a>:
                            location.pathname === '/forms' ?
