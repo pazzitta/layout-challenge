@@ -15,17 +15,17 @@ const LoginForm = () => {
             <form>
                 <div className='box-inputs-login-form'>
                     <img src={IconPerson} alt="ícono persona" />
-                    <input type="text" placeholder='Your email'/>
+                    <input type="email" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" size="30"  name="email" id="email" placeholder='Your email' required/>
                     <button className='button-password-ok-login-form'></button>
                 </div>
                 <div className='box-inputs-login-form'>
                     <img src={IconPadlock} alt="ícono candado" />
-                    <input type="password" name="" id="" placeholder='Password' />
+                    <input type="password"  name="" id="" placeholder='Password' required />
                     <button className='button-password-off-login-form'></button>
                 </div>
-                <div className='box-inputs-caption-login-form'>
+                <div className='box-inputs-caption-login-form' >
                     <div>
-                        <div><p>&#10004;</p></div>
+                        <div><button>&#10004;</button></div>
                         <small>remember me</small>
                     </div>
                     <small>forgot password</small>
@@ -38,7 +38,7 @@ const LoginForm = () => {
                 <button className='style-button-google-login-form'><img src={IconGoogleWhite} alt="Iso Google+" /></button>
                 <button className='style-button-twitter-login-form'><img src={IcontwitterWhite} alt="Iso Twitter" /></button>
             </div>
-            <p className='order-copyright-login-form'>Lorem ipsum dolor sit amet consectetur <br />adipisicing elit. Maiores vitae dolor eaque consequuntur.</p>
+            <p className='order-copyright-login-form'>&#169; Copyright 2000 BudgetTale-Drivester Ltd <br />666, 5TH Avenue, 35th Floor, New York, NY 10103</p>
         </article>
     </div>
 
