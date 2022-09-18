@@ -248,7 +248,7 @@ const LayoutSectionContentThree = () => {
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
                            location.pathname === '/homes' ? 
-                           <a href="" target="_blank" rel="noreferrer">
+                           <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/homes/Marketplace" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
                             location.pathname === '/details' ?

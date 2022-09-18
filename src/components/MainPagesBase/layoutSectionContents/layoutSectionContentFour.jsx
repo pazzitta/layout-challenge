@@ -4,8 +4,8 @@ import OPPromotionalLP from '../../../assets/LandingPages/LayoutSectionContent/O
 import OPProfileD from '../../../assets/Details/LayoutSectionContent/OPProfileD.jpg'
 import OPContactUsF from '../../../assets/Forms/LayoutSectionContent/OPContactUsF.jpg'
 import OPFooodC from '../../../assets/Cards/LayoutSectionContent/OPFoodC.jpg'
-
-
+import OPDigitalNewspaperOneH from '../../../assets/homes/LayoutSectionContent/OPDigitalNewspaper1H.jpg'
+import OPDigitalNewspaperTwoH from '../../../assets/homes/LayoutSectionContent/OPDigitalNewspaper2H.jpg'
 import IsotypePromitionalLP from '../../../assets/LandingPages/Promotional/isoPromotion.jpg'
 import WhiteMagnifyingGlassPromotionalLP from '../../../assets/LandingPages/Promotional/lupaP.png'
 import SelectTwoLinePromotionalLP from '../../../assets/LandingPages/Promotional/selectP.png'
@@ -24,15 +24,26 @@ import TwitterBlackIconF from '../../../assets/Forms/ContactUs/iconTwitterBlack0
 import MenuImageIconF from '../../../assets/Forms/ContactUs/imageMenu.png'
 import FacebookIconBlackF from '../../../assets/Forms/Register/iconFacebookBlack.png'
 import LinkedInIconBlackF from '../../../assets/Forms/Register/iconLinkedInBlack.png'
-
+import IsotypeBrandH from '../../../assets/homes/DigitalNewsPaper/isotypeDNP.png'
+import WorldIconH from '../../../assets/homes/DigitalNewsPaper/iconWorldDNP.png'
+import AtomIcondH from '../../../assets/homes/DigitalNewsPaper/iconAtomDNP.png'
+import PieChartIcondH from '../../../assets/homes/DigitalNewsPaper/iconPieChartDNP.png'
+import HandIcondH from '../../../assets/homes/DigitalNewsPaper/iconHand2DNP.png'
+import BallIcondH from '../../../assets/homes/DigitalNewsPaper/iconBallDNP.png'
+import MagnifyingGlassGrayH from '../../../assets/homes/DigitalNewsPaper/iconMagnifyingGlassDNP.png'
 import BackgroundImagePromotionalLP from '../../../assets/LandingPages/Promotional/imageP.jpg'
 import UserBoyProfileD from '../../../assets/Details/Profile/ProfileBoy.jpg'
 import BrandLogoProfileD from '../../../assets/Details/Profile/brandLogo.png'
 import ImageHeaderF from '../../../assets/Forms/ContactUs/backgroundHeader.jpg'
 import ImageLocationF from '../../../assets/Forms/ContactUs/locationMap.jpg'
 import LogoWithBackground from '../../../assets/Forms/ContactUs/logoWithBackground.jpg'
-
 import ProductTwoC from '../../../assets/Cards/Food/productFood.png'
+import ImageSectionTwoH from '../../../assets/homes/DigitalNewsPaper/imageSectionTwo.png'
+import ImageSectionThreeH from '../../../assets/homes/DigitalNewsPaper/imageSectionThree.jpg'
+import ImageSectionFiveH from '../../../assets/homes/DigitalNewsPaper/imageSectionFive.png'
+import ImageSectionSevenH from '../../../assets/homes/DigitalNewsPaper/imageSectionSeven.png'
+import LogoTeamOneH from '../../../assets/homes/DigitalNewsPaper/teamOneShield.png'
+import LogoTeamTwoH from '../../../assets/homes/DigitalNewsPaper/teamTwoShield.png'
 
 import GifResponsive from '../../../assets/myHome/responsiveGif.gif'
 import GifLayout from '../../../assets/myHome/layoutGif.gif'
@@ -52,7 +63,11 @@ const LayoutSectionContentFour = () => {
                 </div>
                 {
                     location.pathname === '/landingPages' ? <img className='original-page-section-order-two-img' src={OPPromotionalLP} alt="pág. original Promotional LP" /> :
-                    location.pathname === '/homes' ? <img className='original-page-section-order-two-img-ecommerce' src="" alt="pág. original" /> :
+                    location.pathname === '/homes' ? 
+                    <div className='box-digital-newspaper-images'>
+                        <img  src={OPDigitalNewspaperOneH} alt="pág. original Digital Newspaper uno" /> 
+                        <img  src={OPDigitalNewspaperTwoH} alt="pág. original Digital Newspaper dos" /> 
+                    </div> :
                     location.pathname === '/details' ? <img className='original-page-section-order-two-img' src={OPProfileD} alt="pág. original  Profile D " /> :
                     location.pathname === '/forms' ? <img className='original-page-section-four-order-three-img-big' src={OPContactUsF} alt="pág. original Contact Us F " /> :
                     <img  className='original-page-section-order-two-img' src={OPFooodC} alt="pág. original Food C" /> 
@@ -104,8 +119,14 @@ const LayoutSectionContentFour = () => {
                                         </div>
                                         :
                                         location.pathname === '/homes' ?
-                                        <div className='assets-icons-minimalism-LP'>
-                                            <img src="" alt="h" />
+                                        <div className='assets-icons-login-f'>
+                                            <img src={IsotypeBrandH} alt="Isotipo marca" />
+                                            <img src={WorldIconH} alt="ícono Mundo" />
+                                            <img src={AtomIcondH} alt="ícono átomo" />
+                                            <img src={PieChartIcondH} alt="ícono Grafico de torta" />
+                                            <img src={HandIcondH} alt="ícono Manos" />
+                                            <img src={BallIcondH} alt="ícono Pelota" /> 
+                                            <img src={MagnifyingGlassGrayH} alt="ícono Lupa gris" />
                                         </div> :
                                         location.pathname === '/details' ?
                                         <div className='assets-icons-profile-D'>
@@ -146,8 +167,14 @@ const LayoutSectionContentFour = () => {
                                         <div>
                                             <img width="50%" src={BackgroundImagePromotionalLP} alt='fondo página promocional'/>
                                         </div> :
-                                        location.pathname === '/homes' ? <div className='assets-multimedia-ecommerce-H'>
-                                            <img src="" alt="background ecommerce" />
+                                        location.pathname === '/homes' ? 
+                                        <div className='assets-multimedia-digital-newspaper-H'>
+                                            <img src={ImageSectionTwoH} alt="Imagen noticia sección dos" />
+                                            <img src={ImageSectionThreeH} alt="Imagen noticia sección tres" />   
+                                            <img src={ImageSectionSevenH} alt="Imagen noticia sección siete" />  
+                                            <img src={ImageSectionFiveH} alt="Imagen noticia sección cinco" />   
+                                            <img src={LogoTeamOneH} alt="Imagen escudo equipo uno" />   
+                                            <img src={LogoTeamTwoH} alt="Imagen escudo equipo dos" /> 
                                         </div> :
                                         location.pathname === '/details' ? <img width='35%' src={UserBoyProfileD} alt="Imagen usuario" /> :  
                                         location.pathname === '/forms' ? 
@@ -255,7 +282,7 @@ const LayoutSectionContentFour = () => {
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
                            location.pathname === '/homes' ? 
-                           <a href="" target="_blank" rel="noreferrer">
+                           <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/homes/DigitalNewspaper" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
                             location.pathname === '/details' ?
