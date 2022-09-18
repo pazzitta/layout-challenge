@@ -1,4 +1,5 @@
-import CardOneDN from "./Cards/DigitalNewspaper/CardOneDN";
+import './digitalNewspaper.css'
+import CardOneDN from "../AllHomes/Cards/DigitalNewspaper/CardOneDN";
 import IsologoDNP from '../../../assets/homes/DigitalNewsPaper/isologoDNP.png'
 import AutorImage from '../../../assets/Cards/imageProfileP.jpg'
 import IconWordlDNP from '../../../assets/homes/DigitalNewsPaper/iconWorldDNP.png'

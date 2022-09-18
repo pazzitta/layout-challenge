@@ -1,12 +1,28 @@
 import './layoutSectionContent.css'
 import {useLocation} from 'react-router-dom'
 import OPOrganicShapesLP from '../../../assets/LandingPages/LayoutSectionContent/OPOrganicShapesLP.jpg'
+import OPMarketplaceH from '../../../assets/homes/LayoutSectionContent/OPMarketplaceH.jpg'
 import OPClothesC from '../../../assets/Cards/LayoutSectionContent/OPClothesC.jpg'
 import OPNewsD from '../../../assets/Details/LayoutSectionContent/OPNewsD.jpg'
 import OPCheckOutF from '../../../assets/Forms/LayoutSectionContent/OPCheckOutF.jpg'
 import CartBlackIconC from '../../../assets/Cards/Clothes/cartBlack.png'
 import CartWhiteIconC from '../../../assets/Cards/Clothes/cartWhite.png'
 import CardIconWCheckOutF from '../../../assets/Forms/CheckOut/iconCardWhite.png'
+import LogoMarketplaceH from '../../../assets/homes/Marketplace/isologoMp.png'
+import MagnifyingGlassWhiteH from '../../../assets/homes/Marketplace/iconMagnifyingGlassMP.png'
+import HeartIconWhiteH from '../../../assets/homes/Marketplace/iconHeartM.png'
+import CartIconWhiteH from '../../../assets/homes/Marketplace/iconCartWhiteMP.png'
+import LetterIconWhiteH from '../../../assets/homes/Marketplace/iconLetterMp.png'
+import PaperPlaneIconWhiteH from '../../../assets/homes/Marketplace/iconPaperPlaneMp.png'
+import FacebookIconBlackH from '../../../assets/Forms/Register/iconFacebookBlack.png'
+import TwitterBlackIconH from '../../../assets/Forms/ContactUs/iconTwitterBlack0.png'
+import LocationBlackIconH from '../../../assets/homes/Marketplace/iconUbicationMp2.png'
+import InstagramBlackIconH from '../../../assets/Forms/ContactUs/iconInstagramBlack.png'
+import CardOneIconH from '../../../assets/homes/Marketplace/iconCardOneMp.png'
+import CardTwoIconH from '../../../assets/homes/Marketplace/iconCardTwoMp.png'
+import LocationIconWhiteH from '../../../assets/homes/Marketplace/iconUbicationWhiteMp.png'
+import PhoneIconWhiteH from '../../../assets/homes/Marketplace/iconPhoneWhiteMp.png'
+import EmailIconWhiteH from '../../../assets/homes/Marketplace/iconEmailWhiteMp.png'
 
 import ProductClotheCart from '../../../assets/Cards/Clothes/productOneCard.png'
 import BackgroundImageOrganicShapesLP from '../../../assets/LandingPages/OrgenicShapes/backgroundImageOS1.png'
@@ -36,7 +52,7 @@ const LayoutSectionContentThree = () => {
                 </div>
                 {
                     location.pathname === '/landingPages' ? <img className='original-page-section-order-three-img-normal' src={OPOrganicShapesLP} alt="pág. original Organic shapes  LP" /> :
-                    location.pathname === '/homes' ? <img src="" alt="pág. original  H" /> :
+                    location.pathname === '/homes' ? <img className='original-page-section-order-three-img-big' src={OPMarketplaceH} alt="pág. original Marketplace  H" /> :
                     location.pathname === '/details' ? <img width='23.5%' src={OPNewsD} alt="pág. original News D" /> :
                     location.pathname === '/forms' ? <img className='original-page-section-order-three-img-big' src={OPCheckOutF} alt="pág. original CheckOut F" /> :
                     <img src={OPClothesC} alt="pág. original Clothes C" /> 
@@ -83,14 +99,23 @@ const LayoutSectionContentThree = () => {
                                         location.pathname === '/landingPages' ? 
                                         <h4>none</h4> :
                                         location.pathname === '/homes' ? 
-                                        <div className='assets-icons-minimalist-h'>
-                                            <img src="" alt="Isotipo página" />
-                                            <img src="" alt="ícono twitter" />
-                                            <img src="" alt="ícono Behance" />
-                                            <img src="" alt="ícono Instagram" />
-                                            <img src="" alt="ícono GitHub" />
-                                            <img src="" alt="ícono LinkedIn" /> 
-                                            <img src="" alt="ícono Phone rosa" /> 
+                                        <div className='assets-icons-marketplace-H'>
+                                            <img src={LogoMarketplaceH} alt="Isologo marca" />
+                                            <img src={MagnifyingGlassWhiteH} alt="ícono lupa blanca" />
+                                            <img src={HeartIconWhiteH} alt="ícono Corazón" />
+                                            <img src={CartIconWhiteH} alt="ícono Carrito de compras" />
+                                            <img src={LetterIconWhiteH} alt="ícono Sobre correo" />
+                                            <img src={PaperPlaneIconWhiteH} alt="ícono Avión de papel" /> 
+                                            <img src={FacebookIconBlackH} alt="ícono Facebook negro" />
+                                            <img src={TwitterBlackIconH} alt="ícono Twitter negro" />
+                                            <img src={LocationBlackIconH} alt="ícono Localización negro" /> 
+                                            <img src={InstagramBlackIconH} alt="ícono Instagram negro" />
+                                            <img src={CardOneIconH} alt="ícono Tarjeta de crédito 1" />
+                                            <img src={CardTwoIconH} alt="ícono Tarjeta de crédito 2" />
+                                            <img src={LocationIconWhiteH} alt="ícono localización blanco" />
+                                            <img src={PhoneIconWhiteH} alt="ícono teléfono blanco" />
+                                            {/* <img src="" alt="ícono no sé " />  */}
+                                            <img src={EmailIconWhiteH} alt="ícono Correo blanco" />  
                                         </div> :
                                         location.pathname === '/details' ? 
                                         <div className='assets-icons-clothes-D'>
@@ -118,9 +143,7 @@ const LayoutSectionContentThree = () => {
                                         location.pathname === '/landingPages'? 
                                         <h4>none</h4> :
                                         location.pathname === '/homes' ? 
-                                        <div className='assets-multimedia-personal-page-H'>
-                                            <img src="" alt="backgroun image PP" />
-                                        </div> :
+                                        <h4>...</h4> :
                                         location.pathname === '/details' ? 
                                         <div className='assets-multimedia-clothes-D'>
                                             <img src="" alt="imagen frontal producto" />

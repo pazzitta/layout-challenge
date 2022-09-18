@@ -1,8 +1,9 @@
-import VerticalProductCard from "./Cards/Marketplace/VerticalProductCard";
-import CardTestimonials from "./Cards/Marketplace/CardTestimonials";
-import CardProductTwo from "./Cards/Marketplace/CardProductTwo";
-import CardProductsThree from "./Cards/Marketplace/CardProductThree";
-import CardProductsFour from "./Cards/Marketplace/CardProductsFour";
+import './marketplace.css'
+import VerticalProductCard from "../AllHomes/Cards/Marketplace/VerticalProductCard";
+import CardTestimonials from "../AllHomes/Cards/Marketplace/CardTestimonials";
+import CardProductTwo from "../AllHomes/Cards/Marketplace/CardProductTwo";
+import CardProductsThree from "../AllHomes/Cards/Marketplace/CardProductThree";
+import CardProductsFour from "../AllHomes/Cards/Marketplace/CardProductsFour";
 import IsologoMp from '../../../assets/homes/isologoMp.png'
 import MagnifyingGlassMp from '../../../assets/LandingPages/lupaP.png'
 import IconLetterMp from '../../../assets/homes/icons/iconLetterMp.png'

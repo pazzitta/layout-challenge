@@ -458,7 +458,8 @@
 .assets-multimedia-personal-page-H,
 .assets-multimedia-food-C,
 .assets-multimedia-contact-us-F,
-.assets-multimedia-profile-C{
+.assets-multimedia-profile-C,
+.assets-icons-marketplace-H{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -471,6 +472,32 @@
 .assets-icons-clothes-D>img{
     width: 15%;
     margin-right: 15px;  
+}
+.assets-icons-marketplace-H>img{
+    width: 13%;
+    margin-right: 15px;
+}
+.assets-icons-marketplace-H>img:first-child{
+    width: 20%;
+    margin-left: 10px;
+}
+.assets-icons-marketplace-H>img:nth-child(2),
+.assets-icons-marketplace-H>img:nth-child(5),
+.assets-icons-marketplace-H>img:nth-child(6){
+    width: 10%;
+}
+.assets-icons-marketplace-H>img:nth-child(9),
+.assets-icons-marketplace-H>img:nth-child(13),
+.assets-icons-marketplace-H>img:nth-child(14),
+.assets-icons-marketplace-H>img:nth-child(15){
+    width: 9%;
+}
+.assets-icons-marketplace-H>img:nth-child(6){
+    margin-right: 5px;
+    margin-left: 8px;
+}
+.assets-icons-marketplace-H>img:nth-child(7){
+    margin-right: 5px;
 }
 
 .assets-icons-clothes-D>img:first-child{
