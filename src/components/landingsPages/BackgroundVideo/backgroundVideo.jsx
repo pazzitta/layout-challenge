@@ -1,8 +1,8 @@
-import './backgroundVideo.css'
-import Video from '../../../assets/LandingPages/BackgrondVideo/backgroundV.mp4'
-import PlayVideoIconLP from '../../../assets/LandingPages/BackgrondVideo/playVideoIcon.png'
-import DownArrowIconLP from '../../../assets/LandingPages/BackgrondVideo/downArrowIcon.png'
-import { useState } from 'react'
+import './backgroundVideo.css';
+import { useState } from 'react';
+import Video from '../../../assets/LandingPages/BackgrondVideo/backgroundV.mp4';
+import PlayVideoIconLP from '../../../assets/LandingPages/BackgrondVideo/playVideoIcon.png';
+import DownArrowIconLP from '../../../assets/LandingPages/BackgrondVideo/downArrowIcon.png';
 
 const BackgroundVideo = () => {
     
@@ -26,10 +26,10 @@ const BackgroundVideo = () => {
                             {
                                 menuOn &&
                                 <ul>
-                                    <li><a href="">Home</a></li>
-                                    <li><a href="">About</a></li>
-                                    <li><a href="">Services</a></li>
-                                    <li><a href="">Contact</a></li>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/">About</a></li>
+                                    <li><a href="/">Services</a></li>
+                                    <li><a href="/">Contact</a></li>
                                 </ul>
                             }
                         </nav>

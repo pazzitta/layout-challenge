@@ -1,7 +1,6 @@
 import './myLayoutsSection.css'
 import { useLocation } from 'react-router-dom';
 import {Element, scroller} from 'react-scroll'
-// import '../myHome/baseIllustrationStyles.css'
 import MyLayoutBaseBoard from './myLayoutBaseBoard';
 import LayoutSectionContentOne from './layoutSectionContents/layoutSectionContentOne';
 import LayoutSectionContentTwo from './layoutSectionContents/layoutSectionContentTwo';

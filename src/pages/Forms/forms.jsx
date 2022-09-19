@@ -1,6 +1,6 @@
 import './forms.css'
 import '../../components/MainPagesBase/mainPagesBoardContent.css'
-import FormsName from '../../components/MainPagesBase/formsName';
+import FormsName from '../../components/MainPagesBase/AllNames/formsName';
 import OrganizingBoardBase from "../../components/myHome/organizingBoardBase";
 import MainPagesBoardContent from '../../components/MainPagesBase/mainPagesBoardContent';
 import MyLayoutsSection from '../../components/MainPagesBase/myLayoutsSection';

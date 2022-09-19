@@ -1,6 +1,6 @@
 import './cards.css'
 import '../../components/MainPagesBase/mainPagesBoardContent.css'
-import CardsName from '../../components/MainPagesBase/cardName';
+import CardsName from '../../components/MainPagesBase/AllNames/cardName';
 import OrganizingBoardBase from "../../components/myHome/organizingBoardBase";
 import MainPagesBoardContent from '../../components/MainPagesBase/mainPagesBoardContent';
 import MyLayoutsSection from '../../components/MainPagesBase/myLayoutsSection';

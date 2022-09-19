@@ -1,4 +1,4 @@
-import '../MainPagesBase/allNamesStyles.css'
+import './allNamesStyles.css'
 import {Element} from 'react-scroll'
 const LandingPageName = () => {
     return(

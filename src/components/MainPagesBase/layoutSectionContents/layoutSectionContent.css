@@ -1,21 +1,16 @@
 *,
 *::after,
 *::before{
-    box-sizing: border-box;
+    box-sizing: border-box
 }
+/* ALLSECTIONCONTENT */
 .order-all-layout-section-content{
-    /* border: solid thin rgb(25, 179, 185);  */
     width: 92%;
     height: 2315px;
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
     position: absolute;
-    margin-top: 200px;
-}
-.original-page-section-order{
-    width: 100%;
-    height: 670px;
+    margin-top: 200px
 }
 .section-identification-posters-order{
     width: 250px;
@@ -25,7 +20,7 @@
     justify-content: flex-end;
     position: relative;
     top: 15px;
-    transform: rotate(-5deg);
+    transform: rotate(-5deg)
 }
 .section-identification-posters-base{
     background-color: #F62F55;
@@ -37,41 +32,64 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.box-links-repos-and-identification-posters-order{
-    /* border: solid; */
-    display: flex;
-    justify-content: space-between;
-}
-
-.section-identification-posters-base{
     color: white;
     font-family: 'Patrick Hand', cursive;
     font-size: 30px;
     line-height: 30px;
-    margin: 0;
+    margin: 0
 }
 .section-identification-posters-order>div:last-child{
-    /* border: solid; */
     width: 220px;
     height: 15px;
     display: flex;
     justify-content: space-between;
     position: relative;
     bottom: 60px;
-    align-self: center;
+    align-self: center
 }
 .section-identification-posters-order>div>div{
    background-color: #231E20;
     width: 30px;
-    height: 10px;
+    height: 10px
 }
 .section-identification-posters-order>div>div:first-child{
-    transform: rotate(-35deg);
+    transform: rotate(-35deg)
 }
 .section-identification-posters-order>div>div:last-child{
-    transform: rotate(35deg);
+    transform: rotate(35deg)
 }
+.assets-section-order{
+    width: 100%;
+    height: 700px
+}
+.top-box-assets-section-order{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column
+}
+.top-box-assets-section-order>div:nth-child(2){
+    width: 95%;
+    height: 70%;
+    align-self: center;
+    margin-top: 25px
+}
+/* LAYOUTSECTIONCONTENTONE */
+.original-page-section-order-one{
+    width: 100%;
+    height: 670px;
+}
+/* LAYOUTSECTIONCONTENTTWO */
+/* LAYOUTSECTIONCONTENTTHREE */
+/* LAYOUTSECTIONCONTENTFOUR */
+
+.box-links-repos-and-identification-posters-order{
+    /* border: solid; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
 .section-link-identification-posters-order{
     /* border: solid thin red; */
     width: 250px;
@@ -148,26 +166,7 @@
     margin-top: 20px;
 }
 
-.assets-section-order{
-    /* border: solid; */
-    width: 100%;
-    height: 700px;
 
-}
-.top-box-assets-section-order{
-    /* border: solid thin hotpink;  */
-    width: 100%;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-}
-.top-box-assets-section-order>div:nth-child(2){
-    /* border: solid; */
-    width: 95%;
-    height: 70%;
-    align-self: center;
-    margin-top: 25px;
-}
 .order-all-wooden-signs-LSC{
    /* border: solid; */
    display: flex;

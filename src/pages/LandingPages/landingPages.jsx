@@ -1,7 +1,7 @@
 import './landingPages.css'
 import '../../components/MainPagesBase/mainPagesBoardContent.css'
 import OrganizingBoardBase from "../../components/myHome/organizingBoardBase";
-import LandingPageName from '../../components/landingsPages/landingPagesName';
+import LandingPageName from '../../components/MainPagesBase/AllNames/landingPagesName';
 import MainPagesBoardContent from '../../components/MainPagesBase/mainPagesBoardContent';
 import MyLayoutsSection from '../../components/MainPagesBase/myLayoutsSection';
 const LandingPages = () => {

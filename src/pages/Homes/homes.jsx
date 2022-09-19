@@ -2,7 +2,7 @@ import './homes.css'
 import '../../components/MainPagesBase/mainPagesBoardContent.css'
 import OrganizingBoardBase from '../../components/myHome/organizingBoardBase'
 import MainPagesBoardContent from '../../components/MainPagesBase/mainPagesBoardContent'
-import HomesName from '../../components/MainPagesBase/homesName'
+import HomesName from '../../components/MainPagesBase/AllNames/homesName'
 import MyLayoutsSection from '../../components/MainPagesBase/myLayoutsSection'
 
 const Homes = () => {

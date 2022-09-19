@@ -50,7 +50,7 @@ import ResponsiveNC834x1194 from '../../../assets/Cards/News/responsiveNC834x119
 import ResponsiveNC390x844 from '../../../assets/Cards/News/responsiveNC390x844.jpg'
 import ResponsiveNC360x640 from '../../../assets/Cards/News/responsiveNC360x640.jpg'
 import VideoBackgroundVideoLP from '../../../assets/LandingPages/BackgrondVideo/backgroundV.mp4'
-import BackgroundVideo from '../../landingsPages/BackgroundVideo/layoutBackgroundVideo'
+import BackgroundVideo from '../../landingsPages/BackgroundVideo/backgroundVideo'
 import PersonalPage from '../../homes/PersonalPage/PersonalPage'
 import ClothesDetail from '../../details/Clothes/ClothesDetail'
 import LoginForm from '../../forms/Login/loginForm'
@@ -58,11 +58,11 @@ import NewsCard from '../../Cards/News/News'
 import IGitHub from '../../../assets/myHome/Icons/IconGitHubWhite.png'
 
 const LayoutSectionContentOne = () => {
-    const location = useLocation()
+    const { pathname } = useLocation()
 
     return(
         <div className="order-all-layout-section-content">
-            <section className='original-page-section-order'>
+            <section className='original-page-section-order-one'>
                 <div className='section-identification-posters-order'>
                     <h2 className='section-identification-posters-base'>PÁGINA ORIGINAL</h2>
                     <div> 
@@ -71,14 +71,13 @@ const LayoutSectionContentOne = () => {
                     </div>
                 </div>
                 {
-                    location.pathname === '/landingPages' ? <img  src={OPBackgroundVideoLP} alt="pág. original BackgroundVideo LP" /> :
-                    location.pathname === '/homes' ? <img src={OPPersonalPageH} alt="pág. original Personal Page H" /> :
-                    location.pathname === '/details' ? <img src={OPClothesD} alt="pág. original Clothes D" /> :
-                    location.pathname === '/forms' ? <img src={OPLoginF} alt="pág. original Login F" /> :
+                    pathname === '/landingPages' ? <img  src={OPBackgroundVideoLP} alt="pág. original BackgroundVideo LP" /> :
+                    pathname === '/homes' ? <img src={OPPersonalPageH} alt="pág. original Personal Page H" /> :
+                    pathname === '/details' ? <img src={OPClothesD} alt="pág. original Clothes D" /> :
+                    pathname === '/forms' ? <img src={OPLoginF} alt="pág. original Login F" /> :
                     <img src={OPNewsC} alt="pág. original News C" /> 
                 }
             </section>
-
             <section className='assets-section-order'>
                 <div className='top-box-assets-section-order'>
                     <div className='section-identification-posters-order'>
@@ -116,13 +115,13 @@ const LayoutSectionContentOne = () => {
                             <div className='papers-order-and-styles'>
                                 <div>
                                     {
-                                        location.pathname === '/landingPages' ? 
+                                        pathname === '/landingPages' ? 
                                         <div className='assets-icons-background-video-LP'>
                                             <img src={PlayVideoIconLP} alt="Ícono play" />
                                             <img src={DownArrowIconLP} alt="ícono flecha rosa" />
                                             <img src={MenuLineIconLP} alt="ícono 3 líneas menú" /> 
                                         </div> :
-                                        location.pathname === '/homes' ? 
+                                        pathname === '/homes' ? 
                                         <div className='assets-icons-minimalist-h'>
                                             <img src={IsotipoPP} alt="Isotipo página" />
                                             <img src={TwitteIconPP} alt="ícono twitter" />
@@ -133,7 +132,7 @@ const LayoutSectionContentOne = () => {
                                             <img src={PhoneIconPP} alt="ícono Phone rosa" /> 
                                             <img src={MenuThreeLinePP} alt="ícono menú tres líneas" /> 
                                         </div> :
-                                        location.pathname === '/details' ? 
+                                        pathname === '/details' ? 
                                         <div className='assets-icons-clothes-D'>
                                             <img src={MagnifyingGlassD} alt="Ícono lupa" />
                                             <img src={PreviousIconD} alt="ícono flecha previo" />
@@ -141,7 +140,7 @@ const LayoutSectionContentOne = () => {
                                             <img src={HeartIconD} alt="ícono corazón" /> 
                                             <img src={MenuThreeLinePP} alt="ícono menú tres líneas" /> 
                                         </div> :
-                                        location.pathname === '/forms' ? 
+                                        pathname === '/forms' ? 
                                         <div className='assets-icons-login-f'>
                                             <img src={PersonIconF} alt="Isotipo persona" />
                                             <img src={TickIconF} alt="ícono tick ok" />
@@ -163,23 +162,23 @@ const LayoutSectionContentOne = () => {
                             <div className='papers-order-and-styles'>
                                 <div>
                                     {
-                                        location.pathname === '/landingPages'? 
+                                        pathname === '/landingPages'? 
                                         <div className='assets-multimedia-background-video-LP'>
                                             <video autoPlay loop muted>
                                                 <source src={VideoBackgroundVideoLP} type="video/mp4" />
                                             </video>
                                             <p>Se utilizó otro video, ya que el original es propiedad de la marca.</p>
                                         </div> :
-                                        location.pathname === '/homes' ? 
+                                        pathname === '/homes' ? 
                                         <div className='assets-multimedia-personal-page-H'>
                                             <img src={BackgroundImagePP} alt="backgroun image PP" />
                                         </div> :
-                                        location.pathname === '/details' ? 
+                                        pathname === '/details' ? 
                                         <div className='assets-multimedia-clothes-D'>
                                             <img src={FrontImageClothesD} alt="imagen frontal producto" />
                                             <img src={VerticalImageClothesD} alt="imagen vertical producto" />
                                         </div> :
-                                        location.pathname === '/forms' ? 
+                                        pathname === '/forms' ? 
                                         <div className='assets-multimedia-login-F'>
                                             <img src={BackgroundImageLoginF} alt="backgroun image Login F" />
                                         </div> :
@@ -197,10 +196,10 @@ const LayoutSectionContentOne = () => {
                             <div className='papers-order-and-styles'>
                                 <div>
                                     {
-                                        location.pathname === '/landingPages' ? <h4>none</h4> :
-                                        location.pathname === '/homes' ? <h4>none</h4> :
-                                        location.pathname === '/details' ? <h4>none</h4> :
-                                        location.pathname === '/forms' ? <h4>none</h4> :
+                                        pathname === '/landingPages' ? <h4>none</h4> :
+                                        pathname === '/homes' ? <h4>none</h4> :
+                                        pathname === '/details' ? <h4>none</h4> :
+                                        pathname === '/forms' ? <h4>none</h4> :
                                         <h4>none</h4>
                                     }
                                 </div>
@@ -222,25 +221,25 @@ const LayoutSectionContentOne = () => {
                     </div>
                     <div className='responsive-section-order'>
                         {
-                            location.pathname === '/landingPages' ? 
+                            pathname === '/landingPages' ? 
                             <div>
                                 <img src={ResponsiveBVLP834x1194} alt="diseño responsivo background video LP 834x1194" />
                                 <img src={ResponsiveBVLP390x844} alt="diseño responsivo background video LP 390x844" />
                                 <img src={ResponsiveBVLP360x640} alt="diseño responsivo background video LP 360x640" />
                             </div> :
-                            location.pathname === '/homes' ? 
+                            pathname === '/homes' ? 
                             <div>
                                 <img src={ResponsivePPH834x1194} alt="diseño responsivo personal page H 834x1194" />
                                 <img src={ResponsivePPH390x844} alt="diseño responsivo personal page H 390x844" />
                                 <img src={ResponsivePPH360x640} alt="diseño responsivo personal page H 360x640" />
                             </div> :
-                            location.pathname === '/details' ? 
+                            pathname === '/details' ? 
                             <div>
                                 <img src={ResponsiveCD834x1194} alt="diseño responsivo clothes D 834x1194" />
                                 <img src={ResponsiveCD390x844} alt="diseño responsivo clothes D 390x844" />
                                 <img src={ResponsiveCD360x640} alt="diseño responsivo clothes D 360x640" />
                             </div> :
-                             location.pathname === '/forms' ? 
+                             pathname === '/forms' ? 
                              <div>
                                  <img src={ResponsiveLF834x1194} alt="diseño responsivo login F 834x1194" />
                                  <img src={ResponsiveLF390x844} alt="diseño responsivo login F 390x844" />
@@ -278,19 +277,19 @@ const LayoutSectionContentOne = () => {
                     <div className='section-link-identification-posters-order'>
                         <h2 className='section-link-identification-posters-base'>REPO:
                         {
-                           location.pathname === '/landingPages' ? 
+                           pathname === '/landingPages' ? 
                            <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/landingsPages/BackgroundVideo" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
-                           location.pathname === '/homes' ? 
+                           pathname === '/homes' ? 
                            <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/homes/PersonalPage" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
-                            location.pathname === '/details' ?
+                            pathname === '/details' ?
                             <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/details/Clothes" target="_blank" rel="noreferrer">
                                 <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                             </a>:
-                           location.pathname === '/forms' ?
+                           pathname === '/forms' ?
                            <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/forms/Login" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
@@ -306,10 +305,10 @@ const LayoutSectionContentOne = () => {
                     </div>                   
                 </div>
                 {
-                    location.pathname === '/landingPages' ? <BackgroundVideo/> : 
-                    location.pathname === '/homes' ? <PersonalPage/> :
-                    location.pathname === '/details' ? <ClothesDetail/> :
-                    location.pathname === '/forms' ? <LoginForm/> :
+                    pathname === '/landingPages' ? <BackgroundVideo/> : 
+                    pathname === '/homes' ? <PersonalPage/> :
+                    pathname === '/details' ? <ClothesDetail/> :
+                    pathname === '/forms' ? <LoginForm/> :
                     <div className='news-card-order-section-content-one'>
                         <NewsCard/>
                     </div>
