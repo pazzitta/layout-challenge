@@ -1,5 +1,5 @@
 import './landingPages.css'
-import '../../components/MainPagesBase/mainPagesBase.css'
+import '../../components/MainPagesBase/mainPagesBoardContent.css'
 import OrganizingBoardBase from "../../components/myHome/organizingBoardBase";
 import LandingPageName from '../../components/landingsPages/landingPagesName';
 import MainPagesBoardContent from '../../components/MainPagesBase/mainPagesBoardContent';

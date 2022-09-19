@@ -1,35 +1,35 @@
 *,
 *::after,
 *::before{
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 .order-all-mains{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100%
 }
-/* LPBOARDCONTENT */
+/* MAINPAGESBOARDCONTENT */
 .order-all-board-content-section-one{
+    position: absolute;
     width: 77%;
     height: 73vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    margin-top: 170px;
+    margin-top: 170px
 }
 .original-pages-order-and-styles{
     width: 100%;
     height: 680px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center
 }
 .wooden-sing-and-poster-order{
     display: flex;
     justify-content: space-between;
     width: 60%;
-    align-self: flex-end;
+    align-self: flex-end
 }
 .wooden-sign-background{
     display: flex;
@@ -40,13 +40,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 300px;
-    height: 70px;
+    height: 70px
 }
 .wooden-sign-background>div{
     background-color: #444444;
     width: 15px;
     height: 15px;
-    border-radius: 50%;
+    border-radius: 50%
 }
 .wooden-sign-background>h2{
     color: white;
@@ -57,75 +57,59 @@
 .order-wooden-signs{
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 100%
 }
 .poster-come-back-base-and-order{
+    position: relative;
     width: 220px;
     height: 80px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    position: relative;
     top: 15px;
     right: 30px;
-    transform: rotate(5deg);
+    transform: rotate(5deg)
 }
 .poster-come-back-base{
+    position: absolute;
     background-color: #F62F55;
     width: 200px;
     height: 75px;
     align-self: center;
-    position: absolute;
     text-decoration: none;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 .poster-come-back-base>h2{
     color: white;
     font-family: 'Patrick Hand', cursive;
     font-size: 35px;
     line-height: 31px;
-    margin: 0;
+    margin: 0
 }
 .poster-come-back-base-and-order>div:last-child{
+    position: relative;
     width: 220px;
     height: 15px;
     display: flex;
     justify-content: space-between;
-    position: relative;
     bottom: 60px;
-    align-self: center;
+    align-self: center
 }
 .poster-come-back-base-and-order>div>div{
    background-color: #231E20;
     width: 30px;
-    height: 10px;
+    height: 10px
 }
 .poster-come-back-base-and-order>div>div:first-child{
-    transform: rotate(-35deg);
+    transform: rotate(-35deg)
 }
 .poster-come-back-base-and-order>div>div:last-child{
-    transform: rotate(35deg);
-}
-.original-page-images-order{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
-.original-page-images-order>img{
-    width: 300px;
-    height: 172px;
-}
-.my-replicas-order-and-styles{
-    width: 100%;
-    height: 580px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    transform: rotate(35deg)
 }
 .order-wooden-signs{
-    display: flex;
+    display: flex
 }
 .order-wooden-signs>div{
     background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
@@ -137,46 +121,61 @@
     margin-bottom: 10px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center
 }
 .order-wooden-signs>div>div{
     background-color: #444444;
     width: 10px;
     height: 10px;
-    border-radius: 50%;
+    border-radius: 50%
 }
 .order-wooden-signs>div>h3{
     width: 160px;
     font-size: 22px;
     color: white;
-    font-family: 'Abel', sans-serif;
+    font-family: 'Abel', sans-serif
 }
-
-.order-box-scotch-tape-main-Pages-Base{
-    width: 100%;
-    height: 20px;
-    position: relative;
-    bottom: 175px;
+.original-page-images-order{
     display: flex;
     justify-content: space-around;
+    width: 100%
+}
+.original-page-images-order>img{
+    width: 300px;
+    height: 172px
+}
+.order-box-scotch-tape-main-Pages-Base{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    bottom: 175px;
+    display: flex;
+    justify-content: space-around
 }
 .order-box-scotch-tape-main-Pages-Base>div{
     width: 320px;
     height: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center
 }
 .order-box-scotch-tape-main-Pages-Base>div>div{
-   background-color: #F62F55;
+    background-color: #F62F55;
     width: 40px;
-    height: 15px;
+    height: 15px
 }
 .order-box-scotch-tape-main-Pages-Base>div>div:first-child{
-    transform: rotate(-40deg);
+    transform: rotate(-40deg)
 }
 .order-box-scotch-tape-main-Pages-Base>div>div:last-child{
-    transform: rotate(40deg);
+    transform: rotate(40deg)
+}
+.my-replicas-order-and-styles{
+    width: 100%;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
 }
 .wooden-sign-background-MR{
     background-image: url('../../assets/LandingPages/woodenSignBackground.jpg');
@@ -187,35 +186,35 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }
 .wooden-sign-background-MR>div{
     background-color: #444444;
     width: 15px;
     height: 15px;
-    border-radius: 50%;
+    border-radius: 50%
 }
 .wooden-sign-background-MR>h2{
     color: white;
     margin: 0;
     font-size: 40px;
-    font-family: 'Abel', sans-serif;
+    font-family: 'Abel', sans-serif
 }
 .my-replicas-images-order{
     display: flex;
     justify-content: space-around;
     width: 100%;
     height: 180px;
-    padding-top: 10px;
+    padding-top: 10px
 }
 .my-replicas-images-order>div>img{
     width: 300px;
     height: 172px;
     filter: blur(5px);
-    cursor: url('../../assets/myHome/AllBoardContent/magnifyingGlassCursor.png'), pointer;
+    cursor: url('../../assets/myHome/AllBoardContent/magnifyingGlassCursor.png'), pointer
 }
 .my-replicas-images-order>div>a{
-   text-decoration: none;
+   text-decoration: none
 }
 .my-replicas-images-order>div>h3{
     position: relative;
@@ -224,10 +223,10 @@
     font-family: 'Abel', sans-serif;
     font-size: 40px;
     bottom: 155px;
-    cursor: url('../../assets/myHome/AllBoardContent/magnifyingGlassCursor.png'), pointer;
+    cursor: url('../../assets/myHome/AllBoardContent/magnifyingGlassCursor.png'), pointer
 }
 .pencils-size{
-    width: 100%;
     position: relative;
-    bottom: 1px;
+    width: 100%;
+    bottom: 1px
 }

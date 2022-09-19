@@ -1,5 +1,5 @@
 import './homes.css'
-import '../../components/MainPagesBase/mainPagesBase.css'
+import '../../components/MainPagesBase/mainPagesBoardContent.css'
 import OrganizingBoardBase from '../../components/myHome/organizingBoardBase'
 import MainPagesBoardContent from '../../components/MainPagesBase/mainPagesBoardContent'
 import HomesName from '../../components/MainPagesBase/homesName'

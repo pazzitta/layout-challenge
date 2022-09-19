@@ -1,5 +1,5 @@
 import './details.css'
-import '../../components/MainPagesBase/mainPagesBase.css'
+import '../../components/MainPagesBase/mainPagesBoardContent.css'
 import DetailName from '../../components/MainPagesBase/detailName';
 import OrganizingBoardBase from '../../components/myHome/organizingBoardBase';
 import MainPagesBoardContent from '../../components/MainPagesBase/mainPagesBoardContent';

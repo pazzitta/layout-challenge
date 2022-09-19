@@ -1,5 +1,5 @@
 import './cards.css'
-import '../../components/MainPagesBase/mainPagesBase.css'
+import '../../components/MainPagesBase/mainPagesBoardContent.css'
 import CardsName from '../../components/MainPagesBase/cardName';
 import OrganizingBoardBase from "../../components/myHome/organizingBoardBase";
 import MainPagesBoardContent from '../../components/MainPagesBase/mainPagesBoardContent';
