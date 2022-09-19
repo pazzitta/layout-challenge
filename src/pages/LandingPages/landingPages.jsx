@@ -1,6 +1,6 @@
 import './landingPages.css'
 import '../../components/MainPagesBase/mainPagesBase.css'
-import OrganizerBaseBoard from "../../components/myHome/organizerBaseBoard";
+import OrganizingBoardBase from "../../components/myHome/organizingBoardBase";
 import LandingPageName from '../../components/landingsPages/landingPagesName';
 import MainPagesBoardContent from '../../components/MainPagesBase/mainPagesBoardContent';
 import MyLayoutsSection from '../../components/MainPagesBase/myLayoutsSection';
@@ -9,7 +9,7 @@ const LandingPages = () => {
         <div className='order-all-mains'>
             <div className="base-illustration-component-order-landin-pages">
                 <LandingPageName/>
-                <OrganizerBaseBoard/>
+                <OrganizingBoardBase/>
                 <MainPagesBoardContent/>
             </div>                
             <MyLayoutsSection/>

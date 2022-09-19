@@ -1,6 +1,6 @@
 import './homes.css'
 import '../../components/MainPagesBase/mainPagesBase.css'
-import OrganizerBaseBoard from '../../components/myHome/organizerBaseBoard'
+import OrganizingBoardBase from '../../components/myHome/organizingBoardBase'
 import MainPagesBoardContent from '../../components/MainPagesBase/mainPagesBoardContent'
 import HomesName from '../../components/MainPagesBase/homesName'
 import MyLayoutsSection from '../../components/MainPagesBase/myLayoutsSection'
@@ -10,7 +10,7 @@ const Homes = () => {
         <div className='order-all-mains'>
             <div className="base-illustration-component-order-homes">
                 <HomesName/>
-                <OrganizerBaseBoard/>
+                <OrganizingBoardBase/>
                 <MainPagesBoardContent/>
             </div>
             <MyLayoutsSection/>

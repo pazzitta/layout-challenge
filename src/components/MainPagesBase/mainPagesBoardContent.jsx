@@ -1,7 +1,7 @@
 import { useLocation } from 'react-router-dom';
 import {scroller} from 'react-scroll'
 import './mainPagesBase.css'
-import RowOfPencils from '../myHome/InternalBoardComponents/rowOfPencils';
+import RowOfPencils from '../myHome/InternalBoardComponents/RowOfPencils/rowOfPencils'
 import BackgroundVideoLP from '../../assets/LandingPages/BackgroundVideoGif.gif'
 import MinimalismLP from '../../assets/LandingPages/Minimalism.jpg'
 import OrganicShapesLP from '../../assets/LandingPages/OrganicShapes.jpg'

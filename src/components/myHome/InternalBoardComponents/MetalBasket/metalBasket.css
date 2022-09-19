@@ -1,31 +1,31 @@
 *,
 *::after,
 *::before{
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 .metal-basket-container{
     width: 260px;
     height: 100px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column
 }
 .top-line-metal-basket{
     border: solid;
-    width: 100%;
+    width: 100%
 }
 .middle-box-metal-basket{
     width: 90%;
     height: 85px;
     align-self: center;
     display: flex;
-    position: relative;
+    position: relative
 }
 .middle-box-metal-basket>div:first-child{
     border-left: solid;
     width: 1px;
     border-width: 5px;
     height: 90px;
-    transform: rotate(-15deg);
+    transform: rotate(-15deg)
 }
 .middle-box-metal-basket>div:nth-child(2){
     border-left: solid;
@@ -33,7 +33,7 @@
     width: 30px;
     margin-left: 10px;
     border-width: 5px;
-    height: 85px;
+    height: 85px
 }
 .middle-box-metal-basket>div:nth-child(3),
 .middle-box-metal-basket>div:nth-child(4),
@@ -43,49 +43,49 @@
     border-right: solid;
     width: 30px;
     border-width: 5px;
-    height: 85px;
+    height: 85px
 }
 .middle-box-metal-basket>div:nth-child(8){
     border-right: solid;
     width: 30px;
     margin-right: 10px;
     border-width: 5px;
-    height: 85px;
+    height: 85px
 }
 .middle-box-metal-basket>div:last-child{
     border-left: solid;
     width: 1px;
     border-width: 5px;
     height: 90px;
-    transform: rotate(15deg);
+    transform: rotate(15deg)
 }
 
 .internal-middle-box-metal-basket{
+    position: absolute;
     width: 250px;
     height: 100px;
     align-self: center;
     display: flex;
-    flex-direction: column;
-    position: absolute;
+    flex-direction: column
 }
 .internal-middle-box-metal-basket>div:first-child{
+    position: relative;
     border: solid;
     width: 240px;
     height: 1px;
-    position: relative;
     top: 31px;
-    align-self: center;
+    align-self: center
 }
 .internal-middle-box-metal-basket>div:last-child{
+    align-self: center;
+    position: relative;
     border: solid;
     width: 217px;
     height: 1px;
-    position: relative;
     top: 57px;
-    align-self: center;
 }
 .bottom-line-metal-basket{
+    align-self: center;
     border: solid;
     width: 80%;
-    align-self: center;
 }

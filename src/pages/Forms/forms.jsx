@@ -1,7 +1,7 @@
 import './forms.css'
 import '../../components/MainPagesBase/mainPagesBase.css'
 import FormsName from '../../components/MainPagesBase/formsName';
-import OrganizerBaseBoard from "../../components/myHome/organizerBaseBoard";
+import OrganizingBoardBase from "../../components/myHome/organizingBoardBase";
 import MainPagesBoardContent from '../../components/MainPagesBase/mainPagesBoardContent';
 import MyLayoutsSection from '../../components/MainPagesBase/myLayoutsSection';
 const Forms = () => {
@@ -9,7 +9,7 @@ const Forms = () => {
         <div>
             <div className="base-illustration-component-order-forms">
                 <FormsName/>
-                <OrganizerBaseBoard/>
+                <OrganizingBoardBase/>
                 <MainPagesBoardContent/>
             </div>
             <MyLayoutsSection/>

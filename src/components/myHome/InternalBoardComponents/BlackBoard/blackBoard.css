@@ -9,23 +9,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    border: solid green;
+    align-items: center
 }
 .blackboard-order>div:first-child{
     width: 350px;
     height: 220px;
-    background-image: url('../../../assets/myHome/AllBoardContent/colorBackgroundBoard.jpg');
+    background-image: url('../../../../assets/myHome/AllBoardContent/colorBackgroundBoard.jpg');
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center;
-    position: absolute;
+    position: absolute
 }
 .blackboard-order>div:nth-child(2){
     width: 335px;
     height: 200px;
     background-color: #212121;
-    position: absolute;
+    position: absolute
 }
 .blackboard-order>div:last-child{
     width: 310px;
@@ -35,37 +34,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5px;
-    /* border:solid slateblue; */
+    margin-top: 5px
 }
 .blackboard-text-order-and-style{
     font-family: 'Patrick Hand', cursive;
     font-size: 29px;
     color: white;
     width: 100%;
-    height: 95%;
+    height: 95%
 }
 .blackboard-text-order-and-style>p{
     margin: 0;
-    font-family: 'Patrick Hand', cursive;
     font-size: 50px;
+    font-weight: 600;
     color: white;
     position: relative;
-    bottom: 50px;
-    left: 95px;
-}
-.order-and-styles-row-one>td{
-    border: solid thin white;
-    color: white;
-    font-family: 'Abel', sans-serif;
-    font-weight: 600;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-.order-and-styles-row-two>td{
-    border: solid thin white;
-    width: 20px;
-    color: white;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 10px;
+    bottom: 32px;
+    left: 130px;
 }

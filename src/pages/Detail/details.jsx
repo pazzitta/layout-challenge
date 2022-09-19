@@ -1,7 +1,7 @@
 import './details.css'
 import '../../components/MainPagesBase/mainPagesBase.css'
 import DetailName from '../../components/MainPagesBase/detailName';
-import OrganizerBaseBoard from '../../components/myHome/organizerBaseBoard';
+import OrganizingBoardBase from '../../components/myHome/organizingBoardBase';
 import MainPagesBoardContent from '../../components/MainPagesBase/mainPagesBoardContent';
 import MyLayoutsSection from '../../components/MainPagesBase/myLayoutsSection';
 
@@ -10,7 +10,7 @@ const Details = () => {
         <div className='order-all-mains'>
             <div className='base-illustration-component-order-details'>
                 <DetailName/>
-                <OrganizerBaseBoard/>
+                <OrganizingBoardBase/>
                 <MainPagesBoardContent/>
             </div>
             <MyLayoutsSection/>

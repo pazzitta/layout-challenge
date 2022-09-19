@@ -1,7 +1,7 @@
 import './wantedPoster.css'
-import MyPicture from '../../../assets/myHome/AllBoardContent/myPicture.jpg'
-import LinkedInIcon from '../../../assets/myHome/AllBoardContent/linkedInBlack.png'
-import GitHubIcon from '../../../assets/myHome/AllBoardContent/gitHubBlack.png'
+import MyPicture from '../../../../assets/myHome/AllBoardContent/myPicture.jpg'
+import LinkedInIcon from '../../../../assets/myHome/AllBoardContent/linkedInBlack.png'
+import GitHubIcon from '../../../../assets/myHome/AllBoardContent/gitHubBlack.png'
 
 const WantedPoster = () => {
     return(
@@ -15,12 +15,11 @@ const WantedPoster = () => {
                     <a href="https://www.linkedin.com/in/paz-zitta/" target="_blank" rel="noreferrer"><img src={LinkedInIcon} alt="iso linkedIn" /></a>
                     <a href="https://github.com/pazzitta" target="_blank" rel="noreferrer"><img src={GitHubIcon} alt="iso gitHub" /></a>
                 </article>
-            <div className='order-scotch-tape'>
-                <div></div>
-                <div></div>
+                <div className='order-scotch-tape'>
+                    <div></div>
+                    <div></div>
+                </div>
             </div>
-            </div>
-
         </div>
     )
 }

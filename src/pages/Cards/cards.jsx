@@ -1,7 +1,7 @@
 import './cards.css'
 import '../../components/MainPagesBase/mainPagesBase.css'
 import CardsName from '../../components/MainPagesBase/cardName';
-import OrganizerBaseBoard from "../../components/myHome/organizerBaseBoard";
+import OrganizingBoardBase from "../../components/myHome/organizingBoardBase";
 import MainPagesBoardContent from '../../components/MainPagesBase/mainPagesBoardContent';
 import MyLayoutsSection from '../../components/MainPagesBase/myLayoutsSection';
 
@@ -10,7 +10,7 @@ const Cards = () =>{
         <div className='order-all-mains'>
             <div className="base-illustration-component-order-cards">
                 <CardsName/>
-                <OrganizerBaseBoard/>
+                <OrganizingBoardBase/>
                 <MainPagesBoardContent/>
             </div>
             <MyLayoutsSection/>

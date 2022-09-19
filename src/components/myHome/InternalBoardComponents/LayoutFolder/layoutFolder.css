@@ -1,18 +1,17 @@
 *,
 *::after,
 *::before{
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 .box-layout-folder{
     width: 200px;
     height: 135px;
-    display: flex;
+    display: flex
 }
-.box-back-folder{
-    position: absolute;
-}
-.back-folde-order{
-    position: absolute;
+.box-back-folder,
+.back-folde-order,
+.front-folde-order{
+    position: absolute
 }
 .flap-folder-order-and-style{
     width: 90px;
@@ -21,16 +20,12 @@
     border-left: 15px solid transparent;
     border-bottom: 30px solid #F6B14C;
     margin-left: 8px;
-    /* ver cómo redondearle el borde interno */
 }
 .base-folder-style{
     background-color: #F6B14C;
     width: 195px;
     height: 100px;
     border-radius: 10px;
-}
-.front-folde-order{
-    position: absolute;
 }
 .flap-front-folder-order-and-style{
     width: 90px;
@@ -40,7 +35,6 @@
     border-bottom: 30px solid #D68D23;
     margin-left: 10px;
     padding-top: 3px;
-    /* ver cómo redondearle el borde interno */
 }
 .flap-front-folder-order-and-style>div{
     background-color: white;
@@ -101,14 +95,14 @@
     align-self: flex-end;
 }
 .box-paper-markets{
+    position: relative;
     width: 60px;
     height: 55px;
-    position: relative;
     top: 37px;
 }
 .box-paper-markets>img{
-    width: 100%;
     position: relative;
+    width: 100%;
     right: 5px;
 }
 .paper-ux-order{

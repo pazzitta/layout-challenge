@@ -1,6 +1,6 @@
 import './baseIllustrationStyles.css'
 
-const OrganizerBaseBoard = () => {
+const OrganizingBoardBase = () => {
     return(
         <div className="order-all-componentes-board">
             <div className="top-frame-styles-and-order">
@@ -208,4 +208,4 @@ const OrganizerBaseBoard = () => {
         </div>
     )
 }
-export default OrganizerBaseBoard;
+export default OrganizingBoardBase;

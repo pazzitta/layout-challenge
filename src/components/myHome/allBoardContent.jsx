@@ -1,9 +1,9 @@
 import './baseIllustrationStyles.css'
-import RowOfPencils from './InternalBoardComponents/rowOfPencils';
-import BlackboardCalendar from './InternalBoardComponents/blackboardCalendar';
-import WantedPoster from './InternalBoardComponents/wantedPoster';
-import MetalBasket from './InternalBoardComponents/metalBasket';
-import LayoutFolder from './InternalBoardComponents/layoutFolder';
+import RowOfPencils from '../myHome/InternalBoardComponents/RowOfPencils/rowOfPencils'
+import Blackboard from './InternalBoardComponents/BlackBoard/blackboard';
+import WantedPoster from './InternalBoardComponents/WantedPoster/wantedPoster';
+import MetalBasket from './InternalBoardComponents/MetalBasket/metalBasket';
+import LayoutFolder from './InternalBoardComponents/LayoutFolder/layoutFolder';
 
 const AllBoardContent = () => {
     return (
@@ -11,7 +11,7 @@ const AllBoardContent = () => {
             <div className='section-one'>
                 <section>
                     <div>
-                        <BlackboardCalendar/>
+                        <Blackboard/>
                     </div>
                     <div>
                         <div className='hotpink-note-background-one'>
@@ -188,4 +188,4 @@ const AllBoardContent = () => {
         </div>
     )
 }
- export default AllBoardContent;
+export default AllBoardContent;

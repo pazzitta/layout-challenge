@@ -20,6 +20,5 @@ const CreateName = () => {
             </div>
         </div>
     )
-
 }
 export default CreateName;

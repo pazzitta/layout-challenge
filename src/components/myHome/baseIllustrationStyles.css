@@ -6,7 +6,7 @@
 *,
 *::after,
 *::before{
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
 /* ORGANIZERBASEBOARD.JSX */
@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
+    position: relative
 }
 .top-frame-styles-and-order{
     background-image: url('../../assets/myHome/OrganizerBaseBoard/woodenTopFrame.jpg');
@@ -27,19 +27,19 @@
     height: 5%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center
 }
 .top-frame-styles-and-order>div{
     background-color: #555555;
     width: 15px;
     height: 15px;
-    border-radius: 50%;
+    border-radius: 50%
 }
 .top-frame-styles-and-order>div:first-child{
-    margin-left: 15px;
+    margin-left: 15px
 }
 .top-frame-styles-and-order>div:last-child{
-    margin-right: 15px;
+    margin-right: 15px
 }
 .board-base-style{
     background-color: #505F71;
@@ -48,18 +48,18 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: center
 }
 .circle-line-order{
     width: 95%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 .circle-line-order>div{
     background-color: white;
     width: 7px;
     height: 7px;
-    border-radius: 50%;
+    border-radius: 50%
 }
 .botton-frame-styles-and-order{
     background-image: url('../../assets/myHome/OrganizerBaseBoard/woodenBottomFrame.jpg');
@@ -70,20 +70,21 @@
     height: 7%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center
 }
 .botton-frame-styles-and-order>div{
     background-color: #555555;
     width: 15px;
     height: 15px;
-    border-radius: 50%;
+    border-radius: 50%
 }
 .botton-frame-styles-and-order>div:first-child{
-    margin-left: 15px;
+    margin-left: 15px
 }
 .botton-frame-styles-and-order>div:last-child{
-    margin-right: 15px;
+    margin-right: 15px
 }
+
 /* ALLBOARDCONTENT.JSX */
 .order-all-board-content{
     width: 80%;
@@ -92,65 +93,33 @@
     top: 175px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center
 }
-/* GENERAL SECTION ONE */
+/* General section one */
 .section-one{
-    /* border: solid thin goldenrod; */
     width: 96.4%;
     height: 92.5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
+   /* Label section one */
 .section-one>section:first-child{
     width: 34%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column
 }
 .section-one>section:first-child>div:first-child{
     width: 100%;
     height: 41%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center
 }
 .section-one>section:first-child>div:nth-child(2){
     width: 100%;
     height: 9%;
     display: flex;
-    align-items: flex-end;
-}
-.section-one>section:first-child>div:last-child{
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-}
-.section-one>section:last-child{
-    width: 66%;
-    display: flex;
-    flex-direction: column;
-}
-.order-note-scotch-tape-one{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    width: 245px;
-    height: 40px;
-    right: -3px;
-    bottom: 8px;
-}
-.order-note-scotch-tape-one>div:first-child{
-    width: 35px;
-    height: 12px;
-    background-color: #231E20;
-    transform: rotate(-50deg);
-}
-.order-note-scotch-tape-one>div:last-child{
-    width: 35px;
-    height: 12px;
-    background-color: #231E20;
-    transform: rotate(45deg);
+    align-items: flex-end
 }
 .hotpink-note-background-one{
     background-color: #F44D6D;
@@ -160,7 +129,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    margin-left: 16px;
+    margin-left: 16px
 }
 .hotpink-note-background-one>p{
     font-family: 'Abel', sans-serif;
@@ -168,12 +137,45 @@
     padding-left: 12px;
     padding-right: 12px;
     margin: 0;
-    font-size: 40px;
+    font-size: 40px
+}
+.order-note-scotch-tape-one{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 245px;
+    height: 40px;
+    right: -3px;
+    bottom: 8px
+}
+.order-note-scotch-tape-one>div:first-child{
+    width: 35px;
+    height: 12px;
+    background-color: #231E20;
+    transform: rotate(-50deg)
+}
+.order-note-scotch-tape-one>div:last-child{
+    width: 35px;
+    height: 12px;
+    background-color: #231E20;
+    transform: rotate(45deg)
+}
+.section-one>section:first-child>div:last-child{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center
+}
+   /* Label section two */
+.section-one>section:last-child{
+    width: 66%;
+    display: flex;
+    flex-direction: column
 }
 .section-one>section:last-child>div:first-child{
    width: 100%;
    display: flex;
-   justify-content: center;
+   justify-content: center
 }
 .layouts-poster-wood-order-and-style{
     background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
@@ -184,13 +186,13 @@
     height: 80px;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center
 }
 .layouts-poster-wood-order-and-style>div{
     background-color: #444444;
     width: 10px;
     height: 10px;
-    border-radius: 50%;
+    border-radius: 50%
 }
 .layouts-poster-wood-order-and-style>h2{
     margin: 0;
@@ -199,14 +201,14 @@
     letter-spacing: 4px;
     width: 270px;
     color: white;
-    font-family: 'Abel', sans-serif;
+    font-family: 'Abel', sans-serif
 }
 .section-one>section:last-child>div:nth-child(2){
     width: 100%;
     height: 60%;
     flex-wrap: wrap;
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 .section-one>section:last-child>div:nth-child(2)>a{
     color: black;
@@ -216,32 +218,32 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: url('../../assets/myHome/Create/brushPointer.png'), pointer;
+    cursor: url('../../assets/myHome/Create/brushPointer.png'), pointer
 }
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(2),
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(3){
-    margin-left: 85px;
+    margin-left: 85px
 }
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(4){
-    margin-right:50px ;
+    margin-right:50px
 }
 .section-one>section:last-child>div:nth-child(2)>a:last-child{
-    margin-left: 50px;
+    margin-left: 50px
 }
 .section-one>section:last-child>div:nth-child(2)>a:first-child:hover{
-    color: #7136F4;
+    color: #7136F4
 }
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(2):hover{
-    color: #F62F55;
+    color: #F62F55
 }
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(3):hover{
-    color: #3842F1;
+    color: #3842F1
 }
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(4):hover{
-    color: #0DDD79;
+    color: #0DDD79
 }
 .section-one>section:last-child>div:nth-child(2)>a:last-child:hover{
-    color: #E1C815;
+    color: #E1C815
 }
 .order-folders-in-back-of-metal-basket{
     position: absolute;
@@ -250,31 +252,60 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    align-self: flex-end;
+    align-self: flex-end
 }
+
 .order-folders-in-back-of-metal-basket>div:first-child{
     position: absolute;
     margin-top: 1px;
-    right: 8px;
+    right: 8px
 }
 .order-folders-in-back-of-metal-basket>div:nth-child(2){
     position: absolute;
     margin-top: 13px;
-    right: 15px;
+    right: 15px
 }
 .order-folders-in-back-of-metal-basket>div:nth-child(3){
     position: absolute;
     margin-top: 25px;
-    right: 22px;
+    right: 22px
 }
 .order-folders-in-back-of-metal-basket>div:nth-child(4){
     position: absolute;
     margin-top: 38px;
-    right: 30px;
+    right: 30px
 }
 .position-metal-basket{
     position: absolute;
-    margin-top: 80px;
+    margin-top: 80px
+}
+.poster-wood-order-and-style{
+    background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px
+}
+.poster-wood-order-and-style>div{
+    background-color: #444444;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%
+}
+.poster-wood-order-and-style>h2{
+    margin: 0;
+    font-size: 27px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    width: 110px;
+    color: white;
+    font-family: 'Abel', sans-serif
 }
 .proyect-p-poster-wood-order-and-style{
     background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
@@ -308,7 +339,7 @@
     color: black;
     width: 280px;
     height: 110px;
-    cursor: url('../../assets/myHome/Create/brushPointer.png'), pointer;
+    cursor: url('../../assets/myHome/AllBoardContent/magnifyingGlassCursor.png'), pointer;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -317,6 +348,13 @@
 }
 .anchord-proyect-p-styles:hover{
     color: rgb(242, 108, 78);
+}
+.in-process-position-metal-baske-order{
+    width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .order-folders-in-back-of-metal-basket-two{
     position: absolute;
@@ -331,41 +369,6 @@
     position: absolute;
     right: 20px;
     margin-top: 5px;
- }
-.poster-wood-order-and-style{
-    background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 150px;
-    height: 60px;
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 80px;
-}
-.poster-wood-order-and-style>div{
-    background-color: #444444;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-}
-.poster-wood-order-and-style>h2{
-    margin: 0;
-    font-size: 27px;
-    line-height: 24px;
-    letter-spacing: 4px;
-    width: 110px;
-    color: white;
-    font-family: 'Abel', sans-serif;
-}
-.in-process-position-metal-baske-order{
-    width: 100%;
-    height: 105px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .in-process-position-metal-basket{
     position: absolute;
@@ -400,7 +403,7 @@
     color: white;
     font-family: 'Abel', sans-serif;
 }
-/* GENERAL SECTION TWO */
+/* General section two */
 .section-two{
     width: 96.4%;
     height: 7%;
