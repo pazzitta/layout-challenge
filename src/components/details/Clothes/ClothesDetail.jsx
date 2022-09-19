@@ -38,9 +38,17 @@ const ClothesDetail = () => {
                     <div className='black-left-vertical-rectangle-main-product-one-detail'></div>
                 </div>
                 <div className="left-rectangle-order-product-image-main-product-one-detail">
-                    <button className='previous-button-product-image-main-product-one-detail'></button>
-                    <img src={VerticalImageProduct} alt="Imagen zapatilla vista uno" />
-                    <button className='next-button-product-image-main-product-one-detail'></button>
+                    <div>
+                        <button className='previous-button-product-image-main-product-one-detail'></button>
+                        <img src={VerticalImageProduct} alt="Imagen zapatilla vista uno" />
+                        <button className='next-button-product-image-main-product-one-detail'></button>
+                    </div>
+                    <div>
+                        <input type="radio" name="pag" id="" />
+                        <input type="radio" name="pag" id="" />
+                        <input type="radio" name="pag" id="" />
+                        <input type="radio" name="pag" id="" />
+                    </div>
                 </div>
                 <div className="middle-rectangle-order-product-image-main-product-one-detail">
                     <div className="top-grey-rectangle-middle-rectangle-main-product-one-detail"></div>

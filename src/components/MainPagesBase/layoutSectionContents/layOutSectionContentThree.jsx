@@ -23,10 +23,16 @@ import CardTwoIconH from '../../../assets/homes/Marketplace/iconCardTwoMp.png'
 import LocationIconWhiteH from '../../../assets/homes/Marketplace/iconUbicationWhiteMp.png'
 import PhoneIconWhiteH from '../../../assets/homes/Marketplace/iconPhoneWhiteMp.png'
 import EmailIconWhiteH from '../../../assets/homes/Marketplace/iconEmailWhiteMp.png'
+import FavInconWineD from '../../../assets/Details/News/iconFavWine.png'
+import UserInconWineD from '../../../assets/Details/News/iconUserWineN.png'
+import WorldInconWineD from '../../../assets/Details/News/iconWorldWineN.png'
+import HeartIconRedD from '../../../assets/Details/News/iconHeartRedN.png'
 
 import ProductClotheCart from '../../../assets/Cards/Clothes/productOneCard.png'
 import BackgroundImageOrganicShapesLP from '../../../assets/LandingPages/OrgenicShapes/backgroundImageOS1.png'
 import RoomImageCheckOutF from '../../../assets/Forms/CheckOut/imageRoom.jpg'
+import ImageOneD from '../../../assets/Details/News/imageOneN.jpg'
+import ImageTwoD from '../../../assets/Details/News/imageTwoN.jpg'
 
 import ResponsiveCC834x1194 from '../../../assets/Cards/Clothes/responsiveCC834x1194.jpg'
 import ResponsiveCC390x844 from '../../../assets/Cards/Clothes/responsiveCC390x844.jpg'
@@ -119,10 +125,12 @@ const LayoutSectionContentThree = () => {
                                         </div> :
                                         location.pathname === '/details' ? 
                                         <div className='assets-icons-clothes-D'>
-                                            <img src="" alt="Ícono lupa" />
-                                            <img src="" alt="ícono flecha previo" />
-                                            <img src="" alt="ícono next" /> 
-                                            <img src="" alt="ícono corazón" /> 
+                                            <img src="" alt="Ícono ni idea" />
+                                            <img src={UserInconWineD} alt="ícono user bordó" />
+                                            <img src="" alt="ícono ni idea dos" /> 
+                                            <img src={FavInconWineD} alt="ícono favorito bordó" />
+                                            <img src={WorldInconWineD} alt="ícono Mundo bordó" /> 
+                                            <img src={HeartIconRedD} alt="ícono corazón rojo" /> 
                                         </div> :
                                         location.pathname === '/forms' ? 
                                         <img width='40%' src={CardIconWCheckOutF} alt="Ícono tarjeta de crédito" /> :
@@ -145,9 +153,9 @@ const LayoutSectionContentThree = () => {
                                         location.pathname === '/homes' ? 
                                         <h4>...</h4> :
                                         location.pathname === '/details' ? 
-                                        <div className='assets-multimedia-clothes-D'>
-                                            <img src="" alt="imagen frontal producto" />
-                                            <img src="" alt="imagen vertical producto" />
+                                        <div className='assets-multimedia-News-D'>
+                                            <img src={ImageTwoD} alt="imagen vertical producto" />
+                                            <img src={ImageOneD} alt="imagen frontal producto" />
                                         </div> :
                                         location.pathname === '/forms' ? 
                                         <img width='50%' src={RoomImageCheckOutF} alt="imagen habitación Check Out F" /> :

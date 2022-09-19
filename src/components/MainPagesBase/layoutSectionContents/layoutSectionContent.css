@@ -460,7 +460,8 @@
 .assets-multimedia-food-C,
 .assets-multimedia-contact-us-F,
 .assets-multimedia-profile-C,
-.assets-multimedia-digital-newspaper-H{
+.assets-multimedia-digital-newspaper-H,
+.assets-multimedia-News-D{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -519,9 +520,13 @@
 .assets-icons-minimalism-LP>img{
     width: 60%;
 }
-.assets-multimedia-contact-us-F>img{
+.assets-multimedia-contact-us-F>img,
+.assets-multimedia-News-D>img{
     width: 45%;
     margin-right: 10px;
+}
+.assets-multimedia-News-D>img:first-child{
+    margin-left: 7px;
 }
 .assets-multimedia-contact-us-F>img:last-child{
     margin-top: 10px;
