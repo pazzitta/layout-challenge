@@ -1,5 +1,5 @@
 import './ecommerce.css'
-import CardEcommerce from "../AllHomes/Cards/CardEcommerce"
+import CardEcommerce from "../Cards/CardEcommerce"
 import BackgroundEcommerce from '../../../assets/homes/Ecommerce/backgroundEcommerce.jpg'
 import CartWhiteH from '../../../assets/homes/Ecommerce/cartWhiteH.png'
 

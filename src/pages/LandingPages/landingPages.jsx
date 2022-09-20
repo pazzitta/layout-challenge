@@ -4,6 +4,7 @@ import OrganizingBoardBase from "../../components/myHome/organizingBoardBase";
 import LandingPageName from '../../components/MainPagesBase/AllNames/landingPagesName';
 import MainPagesBoardContent from '../../components/MainPagesBase/mainPagesBoardContent';
 import MyLayoutsSection from '../../components/MainPagesBase/myLayoutsSection';
+
 const LandingPages = () => {
     return(
         <div className='order-all-mains'>

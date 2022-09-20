@@ -1,5 +1,5 @@
 import './styleCardsHomes.css'
-import ProductCardEcommerce from '../../../../assets/homes/T-shirtCardE.png'
+import ProductCardEcommerce from '../../../assets/homes/T-shirtCardE.png'
 
 const CardEcommerce = () => {
     return(

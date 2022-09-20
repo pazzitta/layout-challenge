@@ -9,29 +9,28 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center
 }
-/* PORTFOLIONAME */
-.portfolio-main-name-order{
-    /* border: solid thin red; */
+/* PROYECTOPNAME */
+.proyect-p-main-name-order{
     width: 45%;
     height: 130px;
     display: flex;
     font-family: 'Allerta Stencil', sans-serif;
-    font-size: 70px ;
+    font-size: 70px
 }
-.portfolio-main-name-order>div:first-child{
+.proyect-p-main-name-order>div:first-child{
     position: relative;
     display: flex;
     left: 0px;
-    top: 2px;
+    top: 2px
 }
-.portfolio-main-name-order>div:last-child{
+.proyect-p-main-name-order>div:last-child{
     position: relative;
-    right: 838px;
-    display: flex;
+    right: 829px;
+    display: flex
 }
-.portfolio-main-name-order>div:last-child h2{
+.proyect-p-main-name-order>div:last-child h2{
     margin: 0;
     margin-left: 20px;
     background-image: url('../../../assets/myHome/Create/colorBackgroundLetters.jpg');
@@ -39,69 +38,64 @@
     background-repeat:no-repeat;
     background-position:center;
     background-clip: text;
-    color: transparent;
+    color: transparent
 }
-.portfolio-main-name-order>div:last-child h2:last-child{
-    margin-left: 50px;
+.proyect-p-main-name-order>div:last-child h2:last-child{
+    margin-left: 50px
 }
-.portfolio-main-name-order>div:first-child>h2:first-child,
-.portfolio-main-name-order>div:first-child>h2:nth-child(7){
+.proyect-p-main-name-order>div:first-child>h2:first-child,
+.proyect-p-main-name-order>div:first-child>h2:nth-child(7){
     margin: 0;
     margin-left: 20px;
     color: rgba(113, 54, 244);
-    text-shadow: 2px 1px 2px rgba(113, 54, 244, 0.5);
+    text-shadow: 2px 1px 2px rgba(113, 54, 244, 0.5)
 }
-.portfolio-main-name-order>div:first-child>h2:nth-child(2),
-.portfolio-main-name-order>div:first-child>h2:nth-child(8){
+.proyect-p-main-name-order>div:first-child>h2:nth-child(2),
+.proyect-p-main-name-order>div:first-child>h2:nth-child(8){
     margin: 0;
     margin-left: 20px;
     color: rgb(246, 47, 85);
-    text-shadow: 2px 1px 2px rgba(246, 47, 85, 0.5);
+    text-shadow: 2px 1px 2px rgba(246, 47, 85, 0.5)
 }
-.portfolio-main-name-order>div:first-child>h2:nth-child(3),
-.portfolio-main-name-order>div:first-child>h2:nth-child(9){
+.proyect-p-main-name-order>div:first-child>h2:nth-child(3),
+.proyect-p-main-name-order>div:first-child>h2:nth-child(9){
     margin: 0;
     margin-left: 20px;
     color: rgb(80, 88, 239);
-    text-shadow: 2px 1px 2px rgba(80, 88, 239, 0.5);
+    text-shadow: 2px 1px 2px rgba(80, 88, 239, 0.5)
 }
-.portfolio-main-name-order>div:first-child>h2:nth-child(4),
-.portfolio-main-name-order>div:first-child>h2:nth-child(10){
+.proyect-p-main-name-order>div:first-child>h2:nth-child(4),
+.proyect-p-main-name-order>div:first-child>h2:nth-child(10){
     margin: 0;
     margin-left: 20px;
     color: rgb(13, 221, 121);
-    text-shadow: 2px 1px 2px rgba(13, 221, 121, 0.5);
+    text-shadow: 2px 1px 2px rgba(13, 221, 121, 0.5)
 }
-.portfolio-main-name-order>div:first-child>h2:nth-child(5),
-.portfolio-main-name-order>div:first-child>h2:nth-child(11){
+.proyect-p-main-name-order>div:first-child>h2:nth-child(5),
+.proyect-p-main-name-order>div:first-child>h2:nth-child(11){
     margin: 0;
     margin-left: 20px;
     color: rgb(249, 222, 78);
-    text-shadow: 2px 1px 2px rgba(249, 222, 78, 0.5);
+    text-shadow: 2px 1px 2px rgba(249, 222, 78, 0.5)
 }
-.portfolio-main-name-order>div:first-child>h2:nth-child(6),
-.portfolio-main-name-order>div:first-child>h2:last-child{
+.proyect-p-main-name-order>div:first-child>h2:nth-child(6),
+.proyect-p-main-name-order>div:first-child>h2:last-child{
     margin: 0;
     margin-left: 20px;
     color: rgb(242, 108, 78);
-    text-shadow: 2px 1px 2px rgba(242, 108, 78, 0.5);
+    text-shadow: 2px 1px 2px rgba(242, 108, 78, 0.5)
 }
 
-.portfolio-main-name-order>div:first-child>h2:nth-child(7){
+.proyect-p-main-name-order>div:first-child>h2:nth-child(7){
     margin: 0;
     margin-left: 20px;
     color: rgba(113, 54, 244);
-    text-shadow: 2px 1px 2px rgba(113, 54, 244, 0.5);
+    text-shadow: 2px 1px 2px rgba(113, 54, 244, 0.5)
 }
-.portfolio-main-name-order>div:first-child>h2:last-child{
+.proyect-p-main-name-order>div:first-child>h2:last-child{
     margin: 0;
     margin-left: 50px;
     color: rgb(242, 108, 78);
-    text-shadow: 2px 1px 2px rgba(242, 108, 78, 0.5);
+    text-shadow: 2px 1px 2px rgba(242, 108, 78, 0.5)
 }
-/* .portfolio-main-name-order>div:first-child>h2:nth-child(8){
-    margin: 0;
-    margin-left: 60px;
-    color: rgb(246, 47, 85);
-    text-shadow: 2px 1px 2px rgba(246, 47, 85, 0.5);
-} */
+

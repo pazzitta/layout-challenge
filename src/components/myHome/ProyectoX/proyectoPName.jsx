@@ -1,7 +1,8 @@
 import './inConstruction.css'
-const ProyectoXName = () => {
+
+const ProyectoPName = () => {
     return(
-        <div className='portfolio-main-name-order'>
+        <div className='proyect-p-main-name-order'>
             <div>
                 <h2>P</h2>
                 <h2>R</h2>
@@ -28,4 +29,4 @@ const ProyectoXName = () => {
     )
 
 }
-export default ProyectoXName;
+export default ProyectoPName;
