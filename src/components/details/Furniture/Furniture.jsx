@@ -1,4 +1,5 @@
-import './productTwo.css'
+import './furniture.css'
+import { useState } from 'react'
 import BrandLogo from '../../../assets/Details/ProductTwo/brandLogo.png'
 import ShortMangnifyingGlass from '../../../assets/Details/ProductTwo/shortMagnifyingGlassGrey.png'
 import CartGrey from '../../../assets/Details/ProductTwo/cartGray.png'
@@ -7,7 +8,6 @@ import ProductLeftImage from '../../../assets/Details/ProductTwo/leftImageProduc
 import ProductMiddleImage from '../../../assets/Details/ProductTwo/middleImageProduct.jpg'
 import ProductRightImage from '../../../assets/Details/ProductTwo/rightImageProduct.jpg'
 import StarYellow from '../../../assets/Details/ProductTwo/starYellow.png'
-import { useState } from 'react'
 
 const FurnitureDetail = () => {
 
@@ -35,10 +35,10 @@ const FurnitureDetail = () => {
                 <section className='order-card-right-section-product-two-detail'>
                     <nav>
                         <div className='card-right-section-anchors-order-nav-product-two-detail'>
-                            <a href="">Home</a>
-                            <a href="">Furniture</a>
-                            <a href="">Product</a>
-                            <a href="">Store</a>
+                            <a href="/">Home</a>
+                            <a href="/">Furniture</a>
+                            <a href="/">Product</a>
+                            <a href="/">Store</a>
                         </div>
                         <div className='card-right-section-images-order-nav-product-two-detail'>
                             <div>

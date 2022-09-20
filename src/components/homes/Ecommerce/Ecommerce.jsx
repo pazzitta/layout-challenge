@@ -12,28 +12,28 @@ const EcommerceHomes = () => {
                     <div className="box-brand-and-sections-Ecommerce-homes">
                         <h1>UGMONK</h1>
                         <div>
-                            <a href="">Men</a>
-                            <a href="">Women</a>
-                            <a href="">Objets</a>
-                            <a href="">Journal</a>
+                            <a href="/">Men</a>
+                            <a href="/">Women</a>
+                            <a href="/">Objets</a>
+                            <a href="/">Journal</a>
                         </div>
                     </div>
                     <div className="box-sesion-and-contact-Ecommerce-homes">
-                        <a href="">Login</a>
-                        <a href="">Help</a>
-                        <a href="">Contact Us</a>
-                        <a href="">
+                        <a href="/">Login</a>
+                        <a href="/">Help</a>
+                        <a href="/">Contact Us</a>
+                        <a href="/">
                             <img src={CartWhiteH} alt="Carrito" />
                         </a>
                     </div>
                 </nav>
             </header>
-            <p className='image-text-order-and-style'>New collection <br /><a href="">See more +</a></p>
+            <p className='image-text-order-and-style'>New collection <br/><a href="/">See more +</a></p>
             <div className="box-body-Ecommerce-homes">
                 <nav className="box-bottom-menu-Ecommerce-homes">
-                    <a href="">Men</a>
-                    <a href="">Women</a>
-                    <a href="">Objets</a>
+                    <a href="/">Men</a>
+                    <a href="/">Women</a>
+                    <a href="/">Objets</a>
                 </nav>
                 <div className="box-all-card-Ecommerce-homes">
                     <CardEcommerce/>

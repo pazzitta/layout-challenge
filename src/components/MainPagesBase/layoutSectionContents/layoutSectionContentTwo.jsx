@@ -46,17 +46,16 @@ import OPFurniture from '../../../assets/Details/ProductTwo/OPFurnitureD.jpg'
 import OPRegisterF from '../../../assets/Forms/Register/LayoutSectioContent/OPRegisterF.jpg'
 import OPProfileC from '../../../assets/Cards/LayoutSectionContent/OPProfileC.jpg'
 import OPEcommerce from '../../../assets/homes/LayoutSectionContent/OPEcommerceH.jpg'
-import LayoutMinimalism from '../../landingsPages/Minimalism/layoutMinimalism'
+import MinimalismLP from '../../landingsPages/Minimalism/minimalism'
 import EcommerceHomes from '../../homes/Ecommerce/Ecommerce'
-import FurnitureDetail from '../../details/ProductTwo/Furniture'
+import FurnitureDetail from '../../details/Furniture/Furniture'
 import RegisterForm from '../../forms/Register/registerForm'
 import ProfileCard from '../../Cards/Profile/Profile'
 import BackgroundRegisterF from '../../../assets/Forms/Register/backgroundRegister.jpg'
 import IGitHub from '../../../assets/myHome/Icons/IconGitHubWhite.png'
 
-
 const LayoutSectionContentTwo = () => {
-    const location = useLocation()
+    const { pathname } = useLocation()
     return(
         <div className="order-all-layout-section-content">
             <section className='original-page-section-order-two'>
@@ -68,10 +67,10 @@ const LayoutSectionContentTwo = () => {
                     </div>
                 </div>
                 {
-                    location.pathname === '/landingPages' ? <img className='original-page-section-order-two-img' src={OPMinimalismLP} alt="pág. original Minimalism LP" /> :
-                    location.pathname === '/homes' ? <img className='original-page-section-order-two-img-ecommerce' src={OPEcommerce} alt="pág. original " /> :
-                    location.pathname === '/details' ? <img className='original-page-section-order-two-img' src={OPFurniture} alt="pág. original Furniture D" /> :
-                    location.pathname === '/forms' ? <img className='original-page-section-order-two-img' src={OPRegisterF} alt="pág. original Register " /> :
+                    pathname === '/landingPages' ? <img className='original-page-section-order-two-img' src={OPMinimalismLP} alt="pág. original Minimalism LP" /> :
+                    pathname === '/homes' ? <img className='original-page-section-order-two-img-ecommerce' src={OPEcommerce} alt="pág. original " /> :
+                    pathname === '/details' ? <img className='original-page-section-order-two-img' src={OPFurniture} alt="pág. original Furniture D" /> :
+                    pathname === '/forms' ? <img className='original-page-section-order-two-img' src={OPRegisterF} alt="pág. original Register " /> :
                     <img  className='original-page-section-order-two-img' src={OPProfileC} alt="pág. original profile C" /> 
                 }
             </section>
@@ -112,15 +111,15 @@ const LayoutSectionContentTwo = () => {
                             <div className='papers-order-and-styles'>
                                 <div>
                                     {
-                                        location.pathname === '/landingPages' ?
+                                        pathname === '/landingPages' ?
                                         <div className='assets-icons-minimalism-LP'>
                                             <img src={ShopifyLogo} alt="logo marca" />
                                         </div> :
-                                        location.pathname === '/homes' ?
+                                        pathname === '/homes' ?
                                         <div className='assets-icons-minimalism-LP'>
                                             <img src={CartWhiteH} alt="ícono carrito" />
                                         </div> :
-                                        location.pathname === '/details' ?
+                                        pathname === '/details' ?
                                         <div className='assets-icons-furniture-D'>
                                             <img src={BrandLogoD} alt="logo marca" />
                                             <img src={CartGreyIconD} alt="ícono carrito gris" />
@@ -128,7 +127,7 @@ const LayoutSectionContentTwo = () => {
                                             <img width='15%' src={MenuThreeLineFD} alt="estrella amarilla" />
                                             <img src={StarYellowD} alt="estrella amarilla" />
                                         </div> :
-                                        location.pathname === '/forms' ?
+                                        pathname === '/forms' ?
                                         <div className='assets-icons-register-F'>
                                             <img src={IsologoBrandF} alt="Isologo marca" />
                                             <img src={FacebookIconBlackF} alt="ícono Facebook negro" />
@@ -155,21 +154,21 @@ const LayoutSectionContentTwo = () => {
                             <div className='papers-order-and-styles'>
                                 <div>
                                     {
-                                        location.pathname === '/landingPages' ? 
+                                        pathname === '/landingPages' ? 
                                         <div>
-                                            <img width="85%" src={BackgroundImageMinimalismLP} alt="backgroun image PP" />
+                                            <img width="85%" src={BackgroundImageMinimalismLP} alt="fondo de PP" />
                                         </div> :
-                                        location.pathname === '/homes' ? <div className='assets-multimedia-ecommerce-H'>
+                                        pathname === '/homes' ? <div className='assets-multimedia-ecommerce-H'>
                                             <img src={BackgroundEcommerceH} alt="background ecommerce" />
                                         </div> :
-                                        location.pathname === '/details' ? 
+                                        pathname === '/details' ? 
                                         <div className='assets-multimedia-furniture-D'>
                                             <img src={LeftImageProductD} alt="Imagen izquierda silla" />
                                             <img src={MiddleImageProductD} alt="Imagen del medio silla" />   
                                             <img src={RightImageProductD} alt="Imagen izquierda silla" />   
                                             <img src={ProductFrontImageD} alt="Imagen izquierda silla" />   
                                         </div> :
-                                        location.pathname === '/forms' ? <h4>none</h4> :
+                                        pathname === '/forms' ? <h4>none</h4> :
                                         <div className='assets-multimedia-food-C'>
                                             <img src={ProfileImageC} alt="imagen usuario" />
                                         </div> 
@@ -183,10 +182,10 @@ const LayoutSectionContentTwo = () => {
                             <div className='papers-order-and-styles'>
                                <div className='assets-multimedia-minimalism-LP'>
                                 {
-                                    location.pathname === '/landingPages' ? <h4>none</h4> :
-                                    location.pathname === '/homes' ? <h4>none</h4> :
-                                    location.pathname === '/details' ? <h4>none</h4> :
-                                    location.pathname === '/forms' ? <img src={BackgroundRegisterF} alt="Imagen del medio silla" /> :
+                                    pathname === '/landingPages' ? <h4>none</h4> :
+                                    pathname === '/homes' ? <h4>none</h4> :
+                                    pathname === '/details' ? <h4>none</h4> :
+                                    pathname === '/forms' ? <img src={BackgroundRegisterF} alt="Imagen del medio silla" /> :
                                     <h4>none</h4> 
                                 }
                                </div>
@@ -208,25 +207,25 @@ const LayoutSectionContentTwo = () => {
                     </div>
                     <div className='responsive-section-order'>
                         {
-                            location.pathname === '/landingPages' ? 
+                            pathname === '/landingPages' ? 
                             <div>
                                 <img src={ResponsiveMLP834x1194} alt="diseño responsivo minimalism LP 834x1194" />
                                 <img src={ResponsiveMLP390x844} alt="diseño responsivo minimalism LP 390x844" />
                                 <img src={ResponsiveMLP360x640} alt="diseño responsivo minimalism  LP 360x640" />
                             </div> :
-                            location.pathname === '/homes' ? 
+                            pathname === '/homes' ? 
                             <div>
                                 <img src={ResponsiveECH834x1194} alt="diseño responsivo e-commerce H 834x1194" />
                                 <img src={ResponsiveECH390x844} alt="diseño responsivo e-commerce H 390x844" />
                                 <img src={ResponsiveECH360x640} alt="diseño responsivo e-commerce H 360x640" />
                             </div> :
-                            location.pathname === '/details' ? 
+                            pathname === '/details' ? 
                             <div>
                                 <img src={ResponsiveFD834x1194} alt="diseño responsivo Furniture D 834x1194" />
                                 <img src={ResponsiveFD390x844} alt="diseño responsivo Furniture D 390x844" />
                                 <img src={ResponsiveFD360x640} alt="diseño responsivo Furniture D 360x640" />
                             </div> :
-                            location.pathname === '/forms' ? 
+                            pathname === '/forms' ? 
                             <div>
                                 <img src={ResponsiveRF834x1194} alt="diseño responsivo Register F 834x1194" />
                                 <img src={ResponsiveRF390x844} alt="diseño responsivo Register F 390x844" />
@@ -264,19 +263,19 @@ const LayoutSectionContentTwo = () => {
                     <div className='section-link-identification-posters-order'>
                         <h2 className='section-link-identification-posters-base'>REPO:
                         {
-                           location.pathname === '/landingPages' ? 
+                           pathname === '/landingPages' ? 
                            <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/landingsPages/Minimalism" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
-                           location.pathname === '/homes' ? 
+                           pathname === '/homes' ? 
                            <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/homes/Ecommerce" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
-                            location.pathname === '/details' ?
+                            pathname === '/details' ?
                             <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/details/ProductTwo" target="_blank" rel="noreferrer">
                                 <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                             </a>:
-                           location.pathname === '/forms' ?
+                           pathname === '/forms' ?
                            <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/forms/Register" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
@@ -292,10 +291,10 @@ const LayoutSectionContentTwo = () => {
                     </div>                   
                 </div>
                 {
-                    location.pathname === '/landingPages' ? <LayoutMinimalism/> : 
-                    location.pathname === '/homes' ? <EcommerceHomes/> :
-                    location.pathname === '/details' ? <FurnitureDetail/> :
-                    location.pathname === '/forms' ? <RegisterForm/> :
+                    pathname === '/landingPages' ? <MinimalismLP/> : 
+                    pathname === '/homes' ? <EcommerceHomes/> :
+                    pathname === '/details' ? <FurnitureDetail/> :
+                    pathname === '/forms' ? <RegisterForm/> :
                     <div className='profile-card-base-section-content-one'>
                         <div className='profile-card-order-section-content-one'>
                             <ProfileCard/>
@@ -306,7 +305,6 @@ const LayoutSectionContentTwo = () => {
                     </div>
                 }
             </section>
-
         </div>
     )
 }

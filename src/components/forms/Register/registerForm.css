@@ -1,7 +1,7 @@
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 .box-vp-register-form{
     background-image: url('../../../assets/Forms/Register/backgroundRegister1.jpg');
@@ -12,14 +12,14 @@
     height: 90vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 .box-register-form{
     background-color: rgba(255, 255, 255, 0.2);
     width: 85%;
     height: 80vh;
     display: flex;
-    border-radius: 20px;
+    border-radius: 20px
 }
 .box-left-register-form{
     background-color: rgba(58, 177, 155, 0.9);
@@ -27,18 +27,18 @@
     border-top-left-radius: 20px;
     width: 40%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column
 }
 .box-left-register-form >img {
     width: 24%;
     align-self: flex-start;
-    margin: 20px;
+    margin: 20px
 }
 .box-left-register-form >h2 {
     color: white;
     font-size: 50px;
     margin: 0;
-    padding-top: 170px;
+    padding-top: 170px
 }
 .box-left-register-form >p {
     color: white;
@@ -46,7 +46,7 @@
     width: 60%;
     align-self: center;
     margin-top: 10px;
-    font-weight: 350;
+    font-weight: 350
 }
 .box-left-register-form >button {
     align-self: center;
@@ -59,7 +59,7 @@
     margin-top: 30px;
     font-size: 17px;
     font-weight: 550;
-    cursor: pointer;
+    cursor: pointer
 }
 .box-right-register-form{
     background-color: white;
@@ -69,12 +69,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 .box-right-register-form >h1{
   color: #3aaf9f;
   font-size: 50px;
-  margin: 0;
+  margin: 0
 }
 .box-right-register-form>div{
     display: flex;
@@ -82,7 +82,7 @@
     width: 28%;
     align-self: center;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 30px
 }
 .box-right-register-form a{
     display: flex;
@@ -91,13 +91,13 @@
     border: solid thin #c6c8c7;
     width: 60px;
     height: 60px;
-    border-radius: 50%;
+    border-radius: 50%
 }
 .box-right-register-form a>img{
-    width: 60%;
+    width: 60%
 }
 .box-right-register-form >p{
-    color: #acacac;
+    color: #acacac
 }
 .input-name-resgister-F,
 .input-email-resgister-F,
@@ -110,12 +110,12 @@
     color: #c6c8c7;
     font-size: 15px;
     margin-bottom: 20px;
-    padding: 0.25em 0.6em;
+    padding: 0.25em 0.6em
 }
 .input-name-resgister-F,
 .input-email-resgister-F,
 .input-password-resgister-F{
-    outline: none;
+    outline: none
 }
 .input-name-resgister-F::placeholder,
 .input-email-resgister-F::placeholder,
@@ -123,22 +123,22 @@
     font-size: 17px;
     padding-left: 25px;
     background-position: left 2px;
-    color: #9FA3A2;
+    color: #9FA3A2
 }
 .input-name-resgister-F::placeholder{
     background-image: url('../../../assets/Forms/Register/peopleIconGrayF.png');
     background-size: 15px 15px;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat  
 }
 .input-email-resgister-F::placeholder{
     background-image: url('../../../assets/Forms/Register/emailIconGrayF.png');
     background-size: 15px 12px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat
 }
 .input-password-resgister-F::placeholder{
     background-image: url('../../../assets/Forms/Register/padLockIconGrayF.png');
     background-size: 14px 15px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat
 }
 .box-right-register-form >button {
     align-self: center;
@@ -151,7 +151,7 @@
     margin-top: 20px;
     font-size: 17px;
     font-weight: 550;
-    cursor: pointer;
+    cursor: pointer
 }
 
 

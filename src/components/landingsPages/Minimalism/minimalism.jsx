@@ -1,4 +1,4 @@
-import './layoutMinimalism.css'
+import './minimalism.css'
 import BackgrounImageAll from '../../../assets/LandingPages/Minimalism/backgroundImage1.png'
 import LogoShopfy from '../../../assets/LandingPages/Minimalism/shopifylogo.png'
 
@@ -7,7 +7,7 @@ const LayoutMinimalism = () => {
         <div className="box-macro-minimalist-LP">
             <div className="internal-box-minimalist-LP">
                 <header className="header-box-minimalist-LP">
-                    <a href="">
+                    <a href="/">
                         <img className='logo-shopfy-minimalism-LP' src={LogoShopfy} alt="Logo de Shopify"/>
                     </a>
                 </header>
