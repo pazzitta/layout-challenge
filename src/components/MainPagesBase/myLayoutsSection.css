@@ -2,9 +2,8 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center
 }
-
 /* ARTICLE ONE */
 .order-all-componentes-article-one{
     width: 85%;
@@ -12,74 +11,40 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 20px
 }
-/* .order-all-componentes-article-one>h2{
-    font-size: 100px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-family: 'Allerta Stencil', sans-serif;
-    text-transform: uppercase;
-    background: linear-gradient(219deg,
-    #F2DE4E 19%,
-    transparent 19%, transparent 19%,
-    #F44D6D 20%, #F44D6D 39%,
-    transparent 39%, transparent 40%,
-    #5058EF 40%, #5058EF 59%,
-    transparent 59%, transparent 60%,
-    #4EF2A3 60%, #4EF2A3 79%,
-    transparent 79%, transparent 80%,
-    #814EF2 80%);
-    background-clip: text;
-    color: transparent;
-} */
-.top-frame-styles-and-order-layout-section{
+.top-frame-styles-and-order-layout-section,
+.botton-frame-styles-and-order-layout-section{
     background-image: url('../../assets/myHome/OrganizerBaseBoard/woodenTopFrame.jpg');
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center;
     width: 100%;
-    height: 40px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center
 }
-.top-frame-styles-and-order-layout-section>div{
-    background-color: #555555;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
+.top-frame-styles-and-order-layout-section{
+    height: 40px
 }
-.top-frame-styles-and-order-layout-section>div:first-child{
-    margin-left: 15px;
-}
-.top-frame-styles-and-order-layout-section>div:last-child{
-    margin-right: 15px;
-}
-.botton-frame-styles-and-order-layout-section{
-    background-image: url('../../assets/myHome/OrganizerBaseBoard/woodenBottomFrame.jpg');
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position:center;
-    width: 100%;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+.top-frame-styles-and-order-layout-section>div,
 .botton-frame-styles-and-order-layout-section>div{
     background-color: #555555;
     width: 15px;
     height: 15px;
-    border-radius: 50%;
+    border-radius: 50%
 }
+.top-frame-styles-and-order-layout-section>div:first-child,
 .botton-frame-styles-and-order-layout-section>div:first-child{
-    margin-left: 15px;
+    margin-left: 15px
 }
+.top-frame-styles-and-order-layout-section>div:last-child,
 .botton-frame-styles-and-order-layout-section>div:last-child{
-    margin-right: 15px;
+    margin-right: 15px
 }
-
+.botton-frame-styles-and-order-layout-section{
+    height: 60px
+}
 /* ARTICLE TWO */
 .order-all-componentes-article-two{
     width: 85%;
@@ -107,8 +72,6 @@
     position: relative;
     margin-bottom: 20px;
 }
-
-
 /* STYLESNAMES */
 .name-background-video-article-one,
 .name-personal-page-article-one,
@@ -313,7 +276,6 @@
 .big-base-board{
     width: 100%;
 }
-
 /* BUTTONS BACK */
 .box-two-buttons-order{
     width: 400px;

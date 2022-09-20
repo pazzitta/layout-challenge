@@ -9,7 +9,7 @@ import LayoutSectionContentFour from './layoutSectionContents/layoutSectionConte
 
 const MyLayoutsSection = () => {
     
-    const location = useLocation();
+    const { pathname } = useLocation();
 
     const handleScrollStart = () =>{
         scroller.scrollTo('start')
@@ -37,27 +37,27 @@ const MyLayoutsSection = () => {
         <div className='general-order-my-layout-section'>
             <article id='firstSection' className='order-all-componentes-article-one'>
                 {
-                    location.pathname === '/landingPages'? 
+                    pathname === '/landingPages'? 
                     <Element className='titel-order-BV' name='sectionOne'>
                         <div className='name-background-video-article-one'>
                             <h2>B</h2><h2>A</h2><h2>C</h2><h2>K</h2><h2>G</h2><h2>R</h2><h2>O</h2><h2>U</h2>
                             <h2>N</h2><h2>D</h2><h2>V</h2><h2>I</h2><h2>D</h2><h2>E</h2><h2>0</h2>
                         </div>
                     </Element> :
-                    location.pathname === '/homes' ? 
+                    pathname === '/homes' ? 
                     <Element name='sectionOne'>
                         <div className='name-personal-page-article-one'>
                             <h2>P</h2><h2>E</h2><h2>R</h2><h2>S</h2><h2>O</h2><h2>N</h2><h2>A</h2><h2>L</h2>
                             <h2>P</h2><h2>A</h2><h2>G</h2><h2>E</h2>
                         </div> 
                     </Element> : 
-                    location.pathname === '/details' ?
+                    pathname === '/details' ?
                     <Element name='sectionOne'>
                         <div className='name-clothes-article-one'>
                             <h2>C</h2><h2>L</h2><h2>O</h2><h2>T</h2><h2>H</h2><h2>E</h2><h2>S</h2>
                         </div> 
                     </Element>: 
-                    location.pathname === '/forms' ? 
+                    pathname === '/forms' ? 
                     <Element name='sectionOne'>
                         <div className='name-login-article-one'>
                             <h2>L</h2><h2>O</h2><h2>G</h2><h2>I</h2><h2>N</h2>
@@ -88,25 +88,25 @@ const MyLayoutsSection = () => {
             </article>
             <article id='secondSection' className='order-all-componentes-article-two'>
                 {
-                    location.pathname === '/landingPages'?
+                    pathname === '/landingPages'?
                     <Element name='sectionTwo'>
                         <div className='name-background-video-article-one'>
                             <h2>M</h2><h2>I</h2><h2>N</h2><h2>I</h2><h2>M</h2><h2>A</h2><h2>L</h2><h2>I</h2><h2>S</h2><h2>M</h2>
                         </div>
                     </Element> :
-                    location.pathname === '/homes' ? 
+                    pathname === '/homes' ? 
                     <Element name='sectionTwo'>
                         <div className='name-background-video-article-one'>
                             <h2>E</h2><h2>-</h2><h2>C</h2><h2>O</h2><h2>M</h2><h2>M</h2><h2>E</h2><h2>R</h2><h2>C</h2><h2>E</h2>
                         </div>
                     </Element> :
-                    location.pathname === '/details' ? 
+                    pathname === '/details' ? 
                     <Element name='sectionTwo'>
                         <div className='name-background-video-article-one'>
                             <h2>F</h2><h2>U</h2><h2>R</h2><h2>N</h2><h2>I</h2><h2>T</h2><h2>U</h2><h2>R</h2><h2>E</h2>
                         </div>
                     </Element> :
-                    location.pathname === '/forms' ? 
+                    pathname === '/forms' ? 
                     <Element name='sectionTwo'>
                         <div className='name-register-article-one'>
                             <h2>R</h2><h2>E</h2><h2>G</h2><h2>I</h2><h2>S</h2><h2>T</h2><h2>E</h2><h2>R</h2>
@@ -123,7 +123,7 @@ const MyLayoutsSection = () => {
                     <div></div>
                 </div>
                 {
-                    location.pathname === '/homes' ?
+                    pathname === '/homes' ?
                      <div className='big-base-board'>
                         <MyLayoutBaseBoard/>
                         <MyLayoutBaseBoard/>
@@ -151,26 +151,26 @@ const MyLayoutsSection = () => {
             </article>
             <article id='thirdSection' className='order-all-componentes-article-three'>
             {
-                    location.pathname === '/landingPages'?
+                    pathname === '/landingPages'?
                     <Element name='sectionThree'>
                         <div className='name-original-shapes-article-one'>
                             <h2>O</h2><h2>R</h2><h2>G</h2><h2>A</h2><h2>N</h2><h2>I</h2><h2>C</h2> <h2>S</h2><h2>H</h2><h2>A</h2><h2>P</h2><h2>E</h2><h2>S</h2>
                         </div>
                     </Element> :
-                    location.pathname === '/homes' ? 
+                    pathname === '/homes' ? 
                     <Element name='sectionThree'>
                         <div className='name-marketplace-article-one'>
                             <h2>M</h2><h2>A</h2><h2>R</h2><h2>K</h2><h2>E</h2><h2>T</h2><h2>P</h2><h2>L</h2><h2>A</h2><h2>C</h2><h2>E</h2>
                         </div>
                     </Element>
                     :
-                    location.pathname === '/details' ? 
+                    pathname === '/details' ? 
                     <Element name='sectionThree'>
                         <div className='name-news-article-one'>
                             <h2>N</h2><h2>E</h2><h2>W</h2><h2>S</h2>
                         </div>
                     </Element> :
-                    location.pathname === '/forms' ? 
+                    pathname === '/forms' ? 
                     <Element name='sectionThree'>
                         <div className='name-check-out-article-one'>
                             <h2>C</h2><h2>H</h2><h2>E</h2><h2>C</h2><h2>K</h2> <h2>O</h2><h2>U</h2><h2>T</h2>
@@ -202,26 +202,26 @@ const MyLayoutsSection = () => {
             </article>
             <article id='fourthSection' className='order-all-componentes-article-four'>
             {
-                    location.pathname === '/landingPages'?
+                    pathname === '/landingPages'?
                     <Element name='sectionFour'>
                         <div className='name-promotional-article-one'>
                             <h2>P</h2><h2>R</h2><h2>O</h2><h2>M</h2><h2>O</h2><h2>T</h2><h2>I</h2><h2>O</h2><h2>N</h2><h2>A</h2><h2>L</h2>
                         </div>
                     </Element> :
-                    location.pathname === '/homes' ?
+                    pathname === '/homes' ?
                     <Element name='sectionFour'>
                         <div className='name-digital-newspaper-article-one'>
                             <h2>D</h2><h2>I</h2><h2>G</h2><h2>I</h2><h2>T</h2><h2>A</h2><h2>L</h2> <h2>N</h2><h2>E</h2><h2>W</h2><h2>S</h2>
                             <h2>P</h2><h2>A</h2><h2>P</h2><h2>E</h2><h2>R</h2>
                         </div>
                     </Element> :
-                    location.pathname === '/details' ? 
+                    pathname === '/details' ? 
                     <Element name='sectionFour'>
                         <div className='name-profile-article-one'>
                             <h2>P</h2><h2>R</h2><h2>O</h2><h2>F</h2><h2>I</h2><h2>L</h2><h2>E</h2>
                         </div>
                     </Element> :
-                    location.pathname === '/forms' ? 
+                    pathname === '/forms' ? 
                     <Element name='sectionFour'>
                         <div className='name-contact-us-article-one'>
                             <h2>C</h2><h2>O</h2><h2>N</h2><h2>T</h2><h2>A</h2><h2>C</h2><h2>T</h2> <h2>U</h2><h2>S</h2>
