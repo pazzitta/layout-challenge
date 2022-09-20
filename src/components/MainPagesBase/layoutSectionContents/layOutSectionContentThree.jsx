@@ -27,24 +27,22 @@ import FavInconWineD from '../../../assets/Details/News/iconFavWine.png'
 import UserInconWineD from '../../../assets/Details/News/iconUserWineN.png'
 import WorldInconWineD from '../../../assets/Details/News/iconWorldWineN.png'
 import HeartIconRedD from '../../../assets/Details/News/iconHeartRedN.png'
-
 import ProductClotheCart from '../../../assets/Cards/Clothes/productOneCard.png'
 import BackgroundImageOrganicShapesLP from '../../../assets/LandingPages/OrgenicShapes/backgroundImageOS1.png'
 import RoomImageCheckOutF from '../../../assets/Forms/CheckOut/imageRoom.jpg'
 import ImageOneD from '../../../assets/Details/News/imageOneN.jpg'
 import ImageTwoD from '../../../assets/Details/News/imageTwoN.jpg'
-
-import ResponsiveCC834x1194 from '../../../assets/Cards/Clothes/responsiveCC834x1194.jpg'
-import ResponsiveCC390x844 from '../../../assets/Cards/Clothes/responsiveCC390x844.jpg'
-import ResponsiveCC360x640 from '../../../assets/Cards/Clothes/responsiveCC360x640.jpg'
+// import ResponsiveCC834x1194 from '../../../assets/Cards/Clothes/responsiveCC834x1194.jpg'
+// import ResponsiveCC390x844 from '../../../assets/Cards/Clothes/responsiveCC390x844.jpg'
+// import ResponsiveCC360x640 from '../../../assets/Cards/Clothes/responsiveCC360x640.jpg'
 import GifResponsive from '../../../assets/myHome/responsiveGif.gif'
 import GifLayout from '../../../assets/myHome/layoutGif.gif'
-import GifLayoutT from '../../../assets/myHome/layoutGifT.gif'
+// import GifLayoutT from '../../../assets/myHome/layoutGifT.gif'
 // import ClothesCard from '../../Cards/Clothes/ClothesCard'
 import IGitHub from '../../../assets/myHome/Icons/IconGitHubWhite.png'
 
 const LayoutSectionContentThree = () => {
-    const location = useLocation()
+    const { pathname } = useLocation()
 
     return(
         <div className="order-all-layout-section-content">
@@ -57,14 +55,13 @@ const LayoutSectionContentThree = () => {
                     </div>
                 </div>
                 {
-                    location.pathname === '/landingPages' ? <img className='original-page-section-order-three-img-normal' src={OPOrganicShapesLP} alt="pág. original Organic shapes  LP" /> :
-                    location.pathname === '/homes' ? <img className='original-page-section-order-three-img-big' src={OPMarketplaceH} alt="pág. original Marketplace  H" /> :
-                    location.pathname === '/details' ? <img width='23.5%' src={OPNewsD} alt="pág. original News D" /> :
-                    location.pathname === '/forms' ? <img className='original-page-section-order-three-img-big' src={OPCheckOutF} alt="pág. original CheckOut F" /> :
+                    pathname === '/landingPages' ? <img className='original-page-section-order-three-img-normal' src={OPOrganicShapesLP} alt="pág. original Organic shapes  LP" /> :
+                    pathname === '/homes' ? <img className='original-page-section-order-three-img-big' src={OPMarketplaceH} alt="pág. original Marketplace  H" /> :
+                    pathname === '/details' ? <img width='23.5%' src={OPNewsD} alt="pág. original News D" /> :
+                    pathname === '/forms' ? <img className='original-page-section-order-three-img-big' src={OPCheckOutF} alt="pág. original CheckOut F" /> :
                     <img src={OPClothesC} alt="pág. original Clothes C" /> 
                 }
             </section>
-
             <section className='assets-section-order'>
                 <div className='top-box-assets-section-order'>
                     <div className='section-identification-posters-order'>
@@ -102,9 +99,9 @@ const LayoutSectionContentThree = () => {
                             <div className='papers-order-and-styles'>
                                 <div>
                                     {
-                                        location.pathname === '/landingPages' ? 
+                                        pathname === '/landingPages' ? 
                                         <h4>none</h4> :
-                                        location.pathname === '/homes' ? 
+                                        pathname === '/homes' ? 
                                         <div className='assets-icons-marketplace-H'>
                                             <img src={LogoMarketplaceH} alt="Isologo marca" />
                                             <img src={MagnifyingGlassWhiteH} alt="ícono lupa blanca" />
@@ -123,7 +120,7 @@ const LayoutSectionContentThree = () => {
                                             {/* <img src="" alt="ícono no sé " />  */}
                                             <img src={EmailIconWhiteH} alt="ícono Correo blanco" />  
                                         </div> :
-                                        location.pathname === '/details' ? 
+                                        pathname === '/details' ? 
                                         <div className='assets-icons-clothes-D'>
                                             <img src="" alt="Ícono ni idea" />
                                             <img src={UserInconWineD} alt="ícono user bordó" />
@@ -132,7 +129,7 @@ const LayoutSectionContentThree = () => {
                                             <img src={WorldInconWineD} alt="ícono Mundo bordó" /> 
                                             <img src={HeartIconRedD} alt="ícono corazón rojo" /> 
                                         </div> :
-                                        location.pathname === '/forms' ? 
+                                        pathname === '/forms' ? 
                                         <img width='40%' src={CardIconWCheckOutF} alt="Ícono tarjeta de crédito" /> :
                                         <div className='assets-icons-clothes-c'>
                                             <img src={CartBlackIconC} alt="ícono carrito negro" />
@@ -148,16 +145,16 @@ const LayoutSectionContentThree = () => {
                             <div className='papers-order-and-styles'>
                                 <div>
                                     {
-                                        location.pathname === '/landingPages'? 
+                                        pathname === '/landingPages'? 
                                         <h4>none</h4> :
-                                        location.pathname === '/homes' ? 
+                                        pathname === '/homes' ? 
                                         <h4>...</h4> :
-                                        location.pathname === '/details' ? 
+                                        pathname === '/details' ? 
                                         <div className='assets-multimedia-News-D'>
                                             <img src={ImageTwoD} alt="imagen vertical producto" />
                                             <img src={ImageOneD} alt="imagen frontal producto" />
                                         </div> :
-                                        location.pathname === '/forms' ? 
+                                        pathname === '/forms' ? 
                                         <img width='50%' src={RoomImageCheckOutF} alt="imagen habitación Check Out F" /> :
                                         <img className='assets-multimedia-Clothes-C' src={ProductClotheCart} alt="Zapatilla adidas" />
                                     }
@@ -170,10 +167,10 @@ const LayoutSectionContentThree = () => {
                             <div className='papers-order-and-styles'>
                                 <div>
                                     {
-                                        location.pathname === '/landingPages' ? <img width="60%" src={BackgroundImageOrganicShapesLP} alt="ilustración Organic Shapes LP" /> :
-                                        location.pathname === '/homes' ? <h4>none</h4> :
-                                        location.pathname === '/details' ? <h4>none</h4> :
-                                        location.pathname === '/forms' ? <h4>none</h4> :
+                                        pathname === '/landingPages' ? <img width="60%" src={BackgroundImageOrganicShapesLP} alt="ilustración Organic Shapes LP" /> :
+                                        pathname === '/homes' ? <h4>none</h4> :
+                                        pathname === '/details' ? <h4>none</h4> :
+                                        pathname === '/forms' ? <h4>none</h4> :
                                         <h4>none</h4>
                                     }
                                 </div>
@@ -195,25 +192,25 @@ const LayoutSectionContentThree = () => {
                     </div>
                     <div className='responsive-section-order-gif'>
                         {
-                            location.pathname === '/landingPages' ? 
+                            pathname === '/landingPages' ? 
                             <div>
                                 <img src={GifResponsive} alt="diseño responsivo  LP 834x1194" />
                                 <img src={GifResponsive} alt="diseño responsivo  LP 390x844" />
                                 <img src={GifResponsive} alt="diseño responsivo LP 360x640" />
                             </div> :
-                            location.pathname === '/homes' ? 
+                            pathname === '/homes' ? 
                             <div>
                                 <img src={GifResponsive} alt="diseño responsivo  H 834x1194" />
                                 <img src={GifResponsive} alt="diseño responsivo H 390x844" />
                                 <img src={GifResponsive} alt="diseño responsivo H 360x640" />
                             </div> :
-                            location.pathname === '/details' ? 
+                            pathname === '/details' ? 
                             <div>
                                 <img src={GifResponsive} alt="diseño responsivo D 834x1194" />
                                 <img src={GifResponsive} alt="diseño responsivo  D 390x844" />
                                 <img src={GifResponsive} alt="diseño responsivo  D 360x640" />
                             </div> :
-                             location.pathname === '/forms' ? 
+                             pathname === '/forms' ? 
                              <div>
                                  <img src={GifResponsive} alt="diseño responsivo F 834x1194" />
                                  <img src={GifResponsive} alt="diseño responsivo F 390x844" />
@@ -251,19 +248,19 @@ const LayoutSectionContentThree = () => {
                     <div className='section-link-identification-posters-order'>
                         <h2 className='section-link-identification-posters-base'>REPO:
                         {
-                           location.pathname === '/landingPages' ? 
+                           pathname === '/landingPages' ? 
                            <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/landingsPages/OrganicShapes" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
-                           location.pathname === '/homes' ? 
+                           pathname === '/homes' ? 
                            <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/homes/Marketplace" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
-                            location.pathname === '/details' ?
+                            pathname === '/details' ?
                             <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/details/News" target="_blank" rel="noreferrer">
                                 <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                             </a>:
-                           location.pathname === '/forms' ?
+                           pathname === '/forms' ?
                            <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/forms/CheckOut" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
@@ -279,27 +276,13 @@ const LayoutSectionContentThree = () => {
                     </div>                   
                 </div>
                 {
-                    location.pathname === '/landingPages' ? <img width="55%" src={GifLayout} alt='gif Working'></img> : 
-                    location.pathname === '/homes' ? <img width="55%" src={GifLayout} alt='gif Working'></img> :
-                    location.pathname === '/details' ? <img width="55%" src={GifLayout} alt='gif Working'></img> :
-                    location.pathname === '/forms' ? <img width="55%" src={GifLayout} alt='gif Working'></img> :
+                    pathname === '/landingPages' ? <img width="55%" src={GifLayout} alt='gif Working'></img> : 
+                    pathname === '/homes' ? <img width="55%" src={GifLayout} alt='gif Working'></img> :
+                    pathname === '/details' ? <img width="55%" src={GifLayout} alt='gif Working'></img> :
+                    pathname === '/forms' ? <img width="55%" src={GifLayout} alt='gif Working'></img> :
                     <img width="55%" src={GifLayout} alt='gif Working'></img>
-                    // <div>
-                    //     <div className='clothes-card-order-section-content-one'>
-                    //             <ClothesCard/>
-                    //             <ClothesCard/>
-                    //             <ClothesCard/>
-                    //     </div>
-                    //     {
-                    //         cardOffOn&&
-                    //         <div>
-
-                    //         </div>
-                    //     }
-                    // </div>
                 }
             </section>
-
         </div>
     )
 }

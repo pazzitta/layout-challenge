@@ -458,9 +458,70 @@
     justify-content: space-around;
     align-items:center
 }
- 
 /* LAYOUTSECTIONCONTENTTHREE */
-
+.original-page-section-order-three{
+    height: 670px
+}
+.original-page-section-order-three-img-normal{
+    width: 65%;
+    margin-top: 20px
+}
+.original-page-section-order-three-img-big{
+    width: 28%;
+    position: relative;
+    bottom: 40px
+}
+.assets-icons-marketplace-H,
+.assets-icons-clothes-c,
+.assets-multimedia-News-D{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+}
+.assets-icons-marketplace-H>img{
+    width: 13%;
+    margin-right: 15px
+}
+.assets-icons-marketplace-H>img:first-child{
+    width: 20%;
+    margin-left: 10px
+}
+.assets-icons-marketplace-H>img:nth-child(2),
+.assets-icons-marketplace-H>img:nth-child(5),
+.assets-icons-marketplace-H>img:nth-child(6){
+    width: 10%
+}
+.assets-icons-marketplace-H>img:nth-child(9),
+.assets-icons-marketplace-H>img:nth-child(13),
+.assets-icons-marketplace-H>img:nth-child(14),
+.assets-icons-marketplace-H>img:nth-child(15){
+    width: 9%
+}
+.assets-icons-marketplace-H>img:nth-child(6){
+    margin-right: 5px;
+    margin-left: 8px
+}
+.assets-icons-marketplace-H>img:nth-child(7){
+    margin-right: 5px
+}
+.assets-icons-clothes-c>img {
+    width: 30%
+}
+.assets-icons-clothes-c>img:first-child{
+    margin-right: 20px
+}
+.assets-multimedia-News-D>img:first-child{
+    margin-left: 7px;
+}
+.assets-multimedia-News-D>img{
+    width: 45%;
+    margin-right: 10px;
+}
+.assets-multimedia-Clothes-C,
+.assets-icons-minimalism-LP>img{
+    width: 60%;
+}
 /* LAYOUTSECTIONCONTENTFOUR */
 
 .assets-icons-promotional-order{
@@ -479,22 +540,14 @@
 } */
 
 
-
-
-.assets-icons-clothes-c,
 .assets-icons-profile-c,
 .assets-icons-profile-D,
-.assets-icons-contact-us-F,
-.assets-icons-marketplace-H{
+.assets-icons-contact-us-F{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-.assets-icons-clothes-c>img {
-    width: 30%;
-}
-
 
 .assets-icons-profile-D>img{
     width: 20%;
@@ -504,9 +557,6 @@
     width: 40%;
 }
 
-.assets-icons-clothes-c>img:first-child{
-    margin-right: 20px;
-}
 .assets-icons-contact-us-F>img{
     width: 15%;
     margin-right: 20px;
@@ -525,8 +575,7 @@
     margin-left: 20px;
 }
 .assets-multimedia-contact-us-F,
-.assets-multimedia-digital-newspaper-H,
-.assets-multimedia-News-D{
+.assets-multimedia-digital-newspaper-H{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -534,46 +583,15 @@
 }
 
 
-.assets-icons-marketplace-H>img{
-    width: 13%;
-    margin-right: 15px;
-}
-.assets-icons-marketplace-H>img:first-child{
-    width: 20%;
-    margin-left: 10px;
-}
-.assets-icons-marketplace-H>img:nth-child(2),
-.assets-icons-marketplace-H>img:nth-child(5),
-.assets-icons-marketplace-H>img:nth-child(6){
-    width: 10%;
-}
-.assets-icons-marketplace-H>img:nth-child(9),
-.assets-icons-marketplace-H>img:nth-child(13),
-.assets-icons-marketplace-H>img:nth-child(14),
-.assets-icons-marketplace-H>img:nth-child(15){
-    width: 9%;
-}
-.assets-icons-marketplace-H>img:nth-child(6){
-    margin-right: 5px;
-    margin-left: 8px;
-}
-.assets-icons-marketplace-H>img:nth-child(7){
-    margin-right: 5px;
-}
 
 
-.assets-multimedia-Clothes-C,
-.assets-icons-minimalism-LP>img{
-    width: 60%;
-}
-.assets-multimedia-contact-us-F>img,
-.assets-multimedia-News-D>img{
+
+
+.assets-multimedia-contact-us-F>img{
     width: 45%;
     margin-right: 10px;
 }
-.assets-multimedia-News-D>img:first-child{
-    margin-left: 7px;
-}
+
 .assets-multimedia-contact-us-F>img:last-child{
     margin-top: 10px;
 }
@@ -595,23 +613,8 @@
 
 
 /* LAYOUT SECTION CONTENT THREE */
-.original-page-section-order-three,
 .original-page-section-order-four{
     height: 670px;
-}
-.original-page-section-order-three-img-normal{
-    width: 65%;
-    margin-top: 20px;
-}
-.original-page-section-order-three-img-big{
-    width: 28%;
-    position: relative;
-    bottom: 40px
-}
-.original-page-section-four-order-three-img-big{
-    width: 25%;
-    position: relative;
-    bottom: 40px
 }
 .box-digital-newspaper-images{
     width: 100%;
@@ -646,4 +649,9 @@
 .assets-multimedia-digital-newspaper-H>img:first-child{
     margin-left: 10px;
     margin-top: 5px;
+}
+.original-page-section-four-order-three-img-big{
+    width: 25%;
+    position: relative;
+    bottom: 40px
 }
