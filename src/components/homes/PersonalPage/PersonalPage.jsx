@@ -34,11 +34,11 @@ const PersonalPageHome = () => {
             <div className='box-body-personalPage-homes'>
                 <nav className='horizontal-nav-personalPage-homes'>
                     <div className='box-ancords-horizontal-nav-personalPage-homes'>
-                        <a href="">portfolio</a>
-                        <a href="">about me</a>
-                        <a href="">my blog</a>
-                        <a href="">reviews</a>
-                        <a href="">contact me</a>
+                        <a href="/">portfolio</a>
+                        <a href="/">about me</a>
+                        <a href="/">my blog</a>
+                        <a href="/">reviews</a>
+                        <a href="/">contact me</a>
                     </div>
                     <div className='box-phone-horizontal-nav-personalPage-homes'>
                         <img src={PhoneIconPP} alt="ícono telefono" />

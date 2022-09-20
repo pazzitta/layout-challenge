@@ -171,7 +171,7 @@ const LayoutSectionContentOne = () => {
                                         </div> :
                                         pathname === '/homes' ? 
                                         <div className='assets-multimedia-personal-page-H'>
-                                            <img src={BackgroundImagePP} alt="backgroun image PP" />
+                                            <img src={BackgroundImagePP} alt="imagen de fondo del PP" />
                                         </div> :
                                         pathname === '/details' ? 
                                         <div className='assets-multimedia-clothes-D'>
@@ -180,7 +180,7 @@ const LayoutSectionContentOne = () => {
                                         </div> :
                                         pathname === '/forms' ? 
                                         <div className='assets-multimedia-login-F'>
-                                            <img src={BackgroundImageLoginF} alt="backgroun image Login F" />
+                                            <img src={BackgroundImageLoginF} alt="imagen de fondo del Login F" />
                                         </div> :
                                         <div className='assets-multimedia-profile-C'>
                                             <img src={ImageProfileC} alt='imagen del autor'></img>
@@ -314,7 +314,6 @@ const LayoutSectionContentOne = () => {
                     </div>
                 }
             </section>
-
         </div>
     )
 }

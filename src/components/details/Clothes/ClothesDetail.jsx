@@ -1,8 +1,8 @@
-import './productOneDetail.css'
+import './clothesDetail.css'
+import { useState } from 'react'
 import IconHeartBlack from '../../../assets/Details/ProductOne/iconHeartBlack.png'
 import VerticalImageProduct from '../../../assets/Details/ProductOne/verticalImageProduct.jpg'
 import FrontImageProduct from '../../../assets/Details/ProductOne/frontImageProduct.jpg'
-import { useState } from 'react'
 
 const ClothesDetail = () => {
     const [onInput, setOnInput] = useState(false)
@@ -15,15 +15,15 @@ const ClothesDetail = () => {
                     <div className="yellow-rectangle-nav-product-one-detail"></div>
                     <div className="order-main-white-rectangle-nav-product-one-detail">
                         <section>
-                            <a href="">Home</a>
-                            <a href="">About</a>
-                            <a href="">Women</a>
-                            <a href="">Men</a>
-                            <a href="">No gender</a>
+                            <a href="/">Home</a>
+                            <a href="/">About</a>
+                            <a href="/">Women</a>
+                            <a href="/">Men</a>
+                            <a href="/">No gender</a>
                         </section>
                         <div>
                             <button onClick={()=>setOnInput(!onInput)}></button>
-                            <a href=""><img src={IconHeartBlack} alt="Icono 2" /></a>
+                            <a href="/"><img src={IconHeartBlack} alt="ícono corazón" /></a>
                         </div>
                     </div>
                     <div className="red-rectangle-nav-product-one-detail"></div>
@@ -51,7 +51,7 @@ const ClothesDetail = () => {
                     </div>
                 </div>
                 <div className="middle-rectangle-order-product-image-main-product-one-detail">
-                    <div className="top-grey-rectangle-middle-rectangle-main-product-one-detail"></div>
+                    <div className="top-gray-rectangle-middle-rectangle-main-product-one-detail"></div>
                     <section className='section-one-middle-rectangle-main-clothes-D'>
                         <ul>
                             <li>

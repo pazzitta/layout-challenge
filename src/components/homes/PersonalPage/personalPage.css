@@ -1,13 +1,13 @@
 *,
 *::before,
 *::after{
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 .box-macro-personalPage-homes{
     background-color: white;
     display: flex;
     width: 100%;
-    height: 850px;
+    height: 850px
 }
 .vertical-nav-personalPage-homes{
     display: flex;
@@ -15,12 +15,12 @@
     justify-content: space-between;
     align-items: center;
     border-right: solid thin rgb(224, 224, 224);
-    width: 5%;
+    width: 5%
 }
 .isologo-vertical-nav-personalPage-homes{
     margin-top: 20px;
     width: 50px;
-    height: 50px;
+    height: 50px
 }
 .box-ancords-vertical-nav-personalPage-homes{
     display: flex;
@@ -28,66 +28,66 @@
     justify-content: space-around;
     margin-bottom: 40px;
     width: 100%;
-    height: 250px;
+    height: 250px
 }
 .box-ancords-vertical-nav-personalPage-homes img {
     width: 20px;
-    height: 20px;
+    height: 20px
 }
 .box-body-personalPage-homes{
     width: 95%;
-    height: 850px;
+    height: 850px
 }
 .horizontal-nav-personalPage-homes{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 90px;
+    height: 90px
 }
 .box-ancords-horizontal-nav-personalPage-homes{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 50%;
-    height: 90px;
+    height: 90px
 }
 .box-ancords-horizontal-nav-personalPage-homes >a{
     text-decoration: none;
     font-size: 20px;
     color: black;
     font-weight: 600;
-    height: 35px;
+    height: 35px
 }
 .box-ancords-horizontal-nav-personalPage-homes > a:hover,
 .box-ancords-horizontal-nav-personalPage-homes > a:focus,
 .box-ancords-horizontal-nav-personalPage-homes > a:active{
-    border-bottom: solid;
+    border-bottom: solid
 }
 .box-phone-horizontal-nav-personalPage-homes{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 15%;
-    height: 90px;
+    height: 90px
 }
 .box-phone-horizontal-nav-personalPage-homes > img{
     margin-right: 15px;
-    width: 10%;
+    width: 10%
 }
 .box-phone-horizontal-nav-personalPage-homes > a{
     text-decoration: none;
     color: #de2d49;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 600
 }
 .box-intenal-body-personalPage-homes{
     width: 100%;
-    height: 81vh;
+    height: 81vh
 }
 .box-data-and-image-personalPage-homes{
     display: flex;
     width: 100%;
-    height: 66vh;
+    height: 66vh
 }
 .box-data-body-personalPage-homes{
     display: flex;
@@ -98,28 +98,28 @@
     width: 60%;
     height: 35vh;
     align-self: center;
-    color: #3a3a3a;
+    color: #3a3a3a
 }
 .box-data-body-personalPage-homes >h5{
     font-size: 20px;
-    margin: 0;
+    margin: 0
 }
 .box-data-body-personalPage-homes >h1{
     font-size: 110px;
     margin: 0;
-    line-height: 90px;
+    line-height: 90px
 }
 .box-data-body-personalPage-homes >h2{
     font-size: 50px;
     margin: 0;
     text-align: start;
-    font-weight: 600;
+    font-weight: 600
 }
 .box-data-body-personalPage-homes >h3{
     font-size: 30px;
     margin: 0;
     text-align: start;
-    font-weight: 600;
+    font-weight: 600
 }
 .box-data-body-personalPage-homes >button{
     background-color: #de2d49;
@@ -129,24 +129,24 @@
     margin-top: 40px;
     color: white;
     font-size: 20px;
-    cursor: pointer;
+    cursor: pointer
 }
 .box-background-image-personalPage-homes{
     display: flex;
     justify-content: flex-start;
     width: 50%;
-    height: 100%;
+    height: 100%
 }
 .backgroun-image-personalPage-homes{
-    width: 69%;
+    width: 69%
 }
 .box-footer-personalPage-homes{
+    position: relative;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 70%;
-    height: 16.5%;
-    position: relative;
+    height: 16.5%
 }
 .box-footer-personalPage-homes >div:first-child,
 .box-footer-personalPage-homes >div:nth-child(2) {
@@ -157,7 +157,7 @@
     border-right: solid thin rgb(102, 102, 102);
     width: 25%;
     height: 70px;
-    color: #3a3a3a;
+    color: #3a3a3a
 }
 .box-footer-personalPage-homes >div:last-child {
     display: flex;
@@ -166,13 +166,13 @@
     align-items: flex-start;
     width: 25%;
     height: 70px;
-    color: #3a3a3a;
+    color: #3a3a3a
 }
 .box-footer-personalPage-homes h6{
     font-size: 20px;
-    margin: 0;
+    margin: 0
 }
 .box-footer-personalPage-homes p{
     margin: 0;
-    font-weight: 500;
+    font-weight: 500
 }

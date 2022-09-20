@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after{
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 .box-macro-news-card{
     display: flex;
@@ -10,13 +10,13 @@
     width:900px;
     height: 550px;
     border-radius: 20px;
-    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.3) ; 
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.3) 
 }
 .image-news-card {
     width: 43%;
     height: 550px;
     border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 20px
 }
 .box-text-news-card{
     display: flex;
@@ -24,7 +24,7 @@
     justify-content: center;
     align-items: center;
     width: 60%;
-    height: 450px;
+    height: 450px
 }
 .internal-box-text-news-card{
     display: flex;
@@ -32,28 +32,28 @@
     justify-content: flex-start;
     align-items: flex-start;
     width: 80%;
-    height: 400px;
+    height: 400px
 }
 .section-text-news-card{
     align-self: start;
     margin: 0;
     color: #828282;
-    font-weight: 600;
+    font-weight: 600
 }
 .titel-text-news-card{
     color: #575757;
-    font-weight: 600;
+    font-weight: 600
 }
 .decription-text-news-card{
     text-align: start;
     margin: 0;
     font-size: 13px;
-    line-height: 22px;
+    line-height: 22px
 }
 .decription2-text-news-card{
     text-align: start;
     font-size: 13px;
-    line-height: 22px;
+    line-height: 22px
 }
 .box-autor-text-news-card{
     display: flex;
@@ -61,26 +61,26 @@
     align-items: center;
     width: 100%;
     height: 50px;
-    margin-top: 30px;
+    margin-top: 30px
 }
 .box-image-and-autor-news-card{
-    /* border: solid thin pink; */
     display: flex;
     align-items: center;
     width: 40%;
-    height: 50px;
+    height: 50px
 }
 .image-autor-news-card{
     height: 50px;
     width: 50px;
-    border-radius: 50%;
+    border-radius: 50%
 }
-.name-autor-news-card, .profesion-autor-news-card{
+.name-autor-news-card, 
+.profesion-autor-news-card{
     margin: 0;
     font-size: 12px;
     text-align: start;
     padding-left: 7px;
-    color: #575757;
+    color: #575757
 }
 .button-next-news-card{
     height: 49px;
@@ -92,5 +92,5 @@
     font-size: 18px;
     font-weight: 600;
     color: #a7a7a7;
-    cursor: pointer;
+    cursor: pointer
 }

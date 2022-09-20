@@ -1,7 +1,7 @@
 *,
 *::after,
 *::before{
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 .box-all-login-form{
     height: 91vh;
@@ -9,7 +9,7 @@
     background-image: url('../../../assets/Forms/Login/backgroundImageLogin.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center
 }
 .box-all-login-form >article{
     width: 27%;
@@ -18,30 +18,30 @@
     top:110px;
     left: 280px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column
 }
 .box-all-login-form h1{
    font-size: 60px;
    font-weight: 800;
    color: #4f5965;
    margin: 0;
-   line-height: 90px;
+   line-height: 90px
 }
 .box-all-login-form h1::first-letter{
     font-weight: 600;
-    color: #3294f5;
+    color: #3294f5
 }
 .order-caption-login-form{
     width: 70%;
     align-self: center;
     color: #4f5965;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 14px
 }
 .box-inputs-login-form{
     align-self: center;
     display: flex;
-    align-items: baseline;
+    align-items: baseline
 }
 .box-inputs-login-form >input{
     width: 350px;
@@ -50,41 +50,34 @@
     border: none;
     margin-bottom: 20px;
     box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.2);
-    padding-left: 50px;
+    padding-left: 50px
 }
 .box-inputs-login-form >img{
     position: relative;
     left: 40px;
     top: 10px;
     width: 30px;
-    height: 30px;
+    height: 30px
 }
-.button-password-off-login-form{
-    position: relative;
-    right: 35px;
-    top: 10px;
-    background-image: url('../../../assets/Forms/Login/iconeye.png');
-    background-repeat:no-repeat;
-    background-color: transparent;
-    background-size: cover;
-    background-position:center;
-    border: none;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-}
+.button-password-off-login-form,
 .button-password-ok-login-form{
     position: relative;
     right: 35px;
     top: 10px;
-    background-image: url('../../../assets/Forms/Login/iconTick.png');
     background-repeat:no-repeat;
     background-color: transparent;
     background-size: cover;
     background-position:center;
     border: none;
     width: 30px;
-    height: 30px;
+    height: 30px
+}
+.button-password-off-login-form{
+    background-image: url('../../../assets/Forms/Login/iconeye.png');
+    cursor: pointer
+}
+.button-password-ok-login-form{
+    background-image: url('../../../assets/Forms/Login/iconTick.png')
 }
 .box-inputs-caption-login-form{
     width: 80%;
@@ -94,11 +87,11 @@
     align-self: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center
 }
 .box-inputs-caption-login-form>div{
     display: flex;
-    align-items: center;
+    align-items: center
 }
 .box-inputs-caption-login-form>div div{
    border: solid thin;
@@ -108,10 +101,10 @@
    border-radius: 50%;
    display: flex;
    justify-content: center;
-   align-items: center;
+   align-items: center
 }
 .box-inputs-caption-login-form>div small{
-    font-size: 12px;
+    font-size: 12px
 }
 .box-inputs-caption-login-form>div button{
     background-color: transparent;
@@ -124,17 +117,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+    cursor: pointer
 }
 .box-inputs-caption-login-form>div button:hover,
 .box-inputs-caption-login-form>div button:focus,
 .box-inputs-caption-login-form>div button:active{
     background-color: rgb(9, 163, 50);
     color:white;
-    border: none;
+    border: none
 }
 .box-inputs-caption-login-form>small{
-    font-size: 12px;
+    font-size: 12px
 }
 .style-button-login-form{
     display: flex;
@@ -151,15 +144,14 @@
     box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.2);
     color: white;
     font-size: 20px;
-    cursor: pointer;
+    cursor: pointer
 }
 .style-button-login-form>img{
     width: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-right: 10px;
+    margin-right: 10px
 }
-
 .style-caption-button-login-form {
     color: #4f5965;
     font-size: 18px;
@@ -167,7 +159,7 @@
     width: 75%;
     align-self: center;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }
 .style-button-facebook-login-form{
     background-color: #137eff;
@@ -175,13 +167,13 @@
     height: 40px;
     border: none;
     border-radius: 20px;
-    cursor: pointer;
+    cursor: pointer
 }
 .style-button-facebook-login-form>img,
 .style-button-google-login-form>img,
 .style-button-twitter-login-form>img{
     width: 30px;
-    cursor: pointer;
+    cursor: pointer
 }
 .style-button-google-login-form{
     background-color: #f23c39;
@@ -191,7 +183,7 @@
     border-radius: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    cursor: pointer;
+    cursor: pointer
 }
 .style-button-twitter-login-form{
     background-color: #1ee7ff;
@@ -199,7 +191,7 @@
     height: 40px;
     border: none;
     border-radius: 20px;
-    cursor: pointer;
+    cursor: pointer
 }
 .order-copyright-login-form{
     margin-top: 20px;
@@ -207,5 +199,5 @@
     width: 100%;
     color: #41474f;
     align-self: center;
-    font-weight: 450;
+    font-weight: 450
 }
