@@ -4,16 +4,17 @@
     box-sizing: border-box;
 }
 .blackboard-order{
-    width: 350px;
-    height: 220px;
+    width: 72%;
+    height: 24vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    border: solid salmon;
 }
 .blackboard-order>div:first-child{
-    width: 350px;
-    height: 220px;
+    width: 23%;
+    height: 24vh;
     background-image: url('../../../../assets/myHome/AllBoardContent/colorBackgroundBoard.jpg');
     background-repeat:no-repeat;
     background-size: cover;
@@ -21,20 +22,19 @@
     position: absolute
 }
 .blackboard-order>div:nth-child(2){
-    width: 335px;
-    height: 200px;
+    width: 22%;
+    height: 22vh;
     background-color: #212121;
     position: absolute
 }
 .blackboard-order>div:last-child{
-    width: 310px;
-    height: 180px;
+    width: 20%;
+    height: 20vh;
     position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5px
 }
 .blackboard-text-order-and-style{
     font-family: 'Patrick Hand', cursive;

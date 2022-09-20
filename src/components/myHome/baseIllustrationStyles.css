@@ -17,7 +17,6 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    border:solid
 }
 .top-frame-styles-and-order{
     background-image: url('../../assets/myHome/OrganizerBaseBoard/woodenTopFrame.jpg');
@@ -120,20 +119,29 @@
     width: 96.4%;
     height: 92.5%;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    border:solid red
 }
    /* Label section one */
+
+   /* .section-one>section{
+    border:solid rebeccapurple;
+    width: 100%;
+   } */
+
 .section-one>section:first-child{
     width: 34%;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    border:solid rebeccapurple;
 }
 .section-one>section:first-child>div:first-child{
     width: 100%;
     height: 41%;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    border: solid thin #F62F55;
 }
 .section-one>section:first-child>div:nth-child(2){
     width: 100%;
@@ -190,7 +198,8 @@
 .section-one>section:last-child{
     width: 66%;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    border:solid rgb(61, 13, 108);
 }
 .section-one>section:last-child>div:first-child{
    width: 100%;
@@ -430,4 +439,5 @@
 .section-two{
     width: 96.4%;
     height: 7%;
+    border:solid green
 }
