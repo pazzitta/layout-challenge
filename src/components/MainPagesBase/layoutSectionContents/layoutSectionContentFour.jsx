@@ -44,13 +44,13 @@ import ImageSectionFiveH from '../../../assets/homes/DigitalNewsPaper/imageSecti
 import ImageSectionSevenH from '../../../assets/homes/DigitalNewsPaper/imageSectionSeven.png'
 import LogoTeamOneH from '../../../assets/homes/DigitalNewsPaper/teamOneShield.png'
 import LogoTeamTwoH from '../../../assets/homes/DigitalNewsPaper/teamTwoShield.png'
-
 import GifResponsive from '../../../assets/myHome/responsiveGif.gif'
 import GifLayout from '../../../assets/myHome/layoutGif.gif'
 import IGitHub from '../../../assets/myHome/Icons/IconGitHubWhite.png'
 
 const LayoutSectionContentFour = () => {
-    const location = useLocation()
+    const {pathname} = useLocation()
+    
     return(
         <div className="order-all-layout-section-content">
             <section className='original-page-section-order-four'>
@@ -62,14 +62,14 @@ const LayoutSectionContentFour = () => {
                     </div>
                 </div>
                 {
-                    location.pathname === '/landingPages' ? <img className='original-page-section-order-two-img' src={OPPromotionalLP} alt="pág. original Promotional LP" /> :
-                    location.pathname === '/homes' ? 
+                    pathname === '/landingPages' ? <img className='original-page-section-order-two-img' src={OPPromotionalLP} alt="pág. original Promotional LP" /> :
+                    pathname === '/homes' ? 
                     <div className='box-digital-newspaper-images'>
                         <img  src={OPDigitalNewspaperOneH} alt="pág. original Digital Newspaper uno" /> 
                         <img  src={OPDigitalNewspaperTwoH} alt="pág. original Digital Newspaper dos" /> 
                     </div> :
-                    location.pathname === '/details' ? <img className='original-page-section-order-two-img' src={OPProfileD} alt="pág. original  Profile D " /> :
-                    location.pathname === '/forms' ? <img className='original-page-section-four-order-three-img-big' src={OPContactUsF} alt="pág. original Contact Us F " /> :
+                    pathname === '/details' ? <img className='original-page-section-order-two-img' src={OPProfileD} alt="pág. original  Profile D " /> :
+                    pathname === '/forms' ? <img className='original-page-section-four-order-three-img-big' src={OPContactUsF} alt="pág. original Contact Us F " /> :
                     <img  className='original-page-section-order-two-img' src={OPFooodC} alt="pág. original Food C" /> 
                 }
             </section>
@@ -111,14 +111,14 @@ const LayoutSectionContentFour = () => {
                             <div className='papers-order-and-styles'>
                                 <div>
                                     {
-                                        location.pathname === '/landingPages' ?
+                                        pathname === '/landingPages' ?
                                         <div className='assets-icons-promotional-order'>
                                             <img  src={IsotypePromitionalLP} alt="isologo marca" /> 
                                             <img  src={WhiteMagnifyingGlassPromotionalLP} alt="Lupa blanca" /> 
                                             <img  width='15%' src={SelectTwoLinePromotionalLP} alt="Líneas de menú" />                                             
                                         </div>
                                         :
-                                        location.pathname === '/homes' ?
+                                        pathname === '/homes' ?
                                         <div className='assets-icons-login-f'>
                                             <img src={IsotypeBrandH} alt="Isotipo marca" />
                                             <img src={WorldIconH} alt="ícono Mundo" />
@@ -128,7 +128,7 @@ const LayoutSectionContentFour = () => {
                                             <img src={BallIcondH} alt="ícono Pelota" /> 
                                             <img src={MagnifyingGlassGrayH} alt="ícono Lupa gris" />
                                         </div> :
-                                        location.pathname === '/details' ?
+                                        pathname === '/details' ?
                                         <div className='assets-icons-profile-D'>
                                             <img src={DarkGrayEyeProfileD} alt="ícono ojo gris" />
                                             <img src={FavGrayProfileD} alt="ícono favorito" />
@@ -138,7 +138,7 @@ const LayoutSectionContentFour = () => {
                                             <img src={StarBlueProfileD} alt="ícono estrella azul" />
                                             <img src={BrandLogoProfileD} alt="ícono logo marca" /> 
                                         </div> :
-                                        location.pathname === '/forms' ?
+                                        pathname === '/forms' ?
                                         <div className='assets-icons-contact-us-F'>
                                             <img src={EmailGoldenIconF} alt="ícono email dorado" />
                                             <img src={LocationGoldenIconF} alt="ícono localización dorado" />
@@ -152,8 +152,6 @@ const LayoutSectionContentFour = () => {
                                         </div> :
                                         <h4>none</h4>
                                     }
-                                    {/* <img src={DownArrowIconLP} alt="" />
-                                    <img src={MenuLineIconLP} alt="" /> */}
                                 </div>
                                 <div>
                                     <div></div>
@@ -163,11 +161,11 @@ const LayoutSectionContentFour = () => {
                             <div className='papers-order-and-styles'>
                                 <div>
                                     {
-                                        location.pathname === '/landingPages' ? 
+                                        pathname === '/landingPages' ? 
                                         <div>
                                             <img width="50%" src={BackgroundImagePromotionalLP} alt='fondo página promocional'/>
                                         </div> :
-                                        location.pathname === '/homes' ? 
+                                        pathname === '/homes' ? 
                                         <div className='assets-multimedia-digital-newspaper-H'>
                                             <img src={ImageSectionTwoH} alt="Imagen noticia sección dos" />
                                             <img src={ImageSectionThreeH} alt="Imagen noticia sección tres" />   
@@ -176,8 +174,8 @@ const LayoutSectionContentFour = () => {
                                             <img src={LogoTeamOneH} alt="Imagen escudo equipo uno" />   
                                             <img src={LogoTeamTwoH} alt="Imagen escudo equipo dos" /> 
                                         </div> :
-                                        location.pathname === '/details' ? <img width='35%' src={UserBoyProfileD} alt="Imagen usuario" /> :  
-                                        location.pathname === '/forms' ? 
+                                        pathname === '/details' ? <img width='35%' src={UserBoyProfileD} alt="Imagen usuario" /> :  
+                                        pathname === '/forms' ? 
                                         <div className='assets-multimedia-contact-us-F'>
                                             <img src={ImageHeaderF} alt="imagen cabecera de página" />
                                             <img src={ImageLocationF} alt="mapa" />
@@ -196,10 +194,10 @@ const LayoutSectionContentFour = () => {
                             <div className='papers-order-and-styles'>
                                <div className='assets-illustration-section-four'>
                                 {
-                                    location.pathname === '/landingPages' ? <h4>none</h4> :
-                                    location.pathname === '/homes' ? <h4>none</h4> :
-                                    location.pathname === '/details' ? <h4>none</h4> :
-                                    location.pathname === '/forms' ?  <h4>none</h4> :
+                                    pathname === '/landingPages' ? <h4>none</h4> :
+                                    pathname === '/homes' ? <h4>none</h4> :
+                                    pathname === '/details' ? <h4>none</h4> :
+                                    pathname === '/forms' ?  <h4>none</h4> :
                                     <h4>none</h4> 
                                 }
                                </div>
@@ -221,25 +219,25 @@ const LayoutSectionContentFour = () => {
                     </div>
                     <div className='responsive-section-order-gif'>
                         {
-                            location.pathname === '/landingPages' ? 
+                            pathname === '/landingPages' ? 
                             <div>
                                 <img src={GifResponsive} alt="diseño responsivo LP 834x1194" />
                                 <img src={GifResponsive} alt="diseño responsivo LP 390x844" />
                                 <img src={GifResponsive} alt="diseño responsivo  LP 360x640" />
                             </div> :
-                            location.pathname === '/homes' ? 
+                            pathname === '/homes' ? 
                             <div>
                                 <img src={GifResponsive} alt="diseño responsivo H 834x1194" />
                                 <img src={GifResponsive} alt="diseño responsivo  H 390x844" />
                                 <img src={GifResponsive} alt="diseño responsivo H 360x640" />
                             </div> :
-                            location.pathname === '/details' ? 
+                            pathname === '/details' ? 
                             <div>
                                 <img src={GifResponsive} alt="diseño responsivo D 834x1194" />
                                 <img src={GifResponsive} alt="diseño responsivo  D 390x844" />
                                 <img src={GifResponsive} alt="diseño responsivo D 360x640" />
                             </div> :
-                            location.pathname === '/forms' ? 
+                            pathname === '/forms' ? 
                             <div>
                                 <img src={GifResponsive} alt="diseño responsivo F 834x1194" />
                                 <img src={GifResponsive} alt="diseño responsivo  F 390x844" />
@@ -277,19 +275,19 @@ const LayoutSectionContentFour = () => {
                     <div className='section-link-identification-posters-order'>
                         <h2 className='section-link-identification-posters-base'>REPO:
                         {
-                           location.pathname === '/landingPages' ? 
+                           pathname === '/landingPages' ? 
                            <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/landingsPages/Promotional" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
-                           location.pathname === '/homes' ? 
+                           pathname === '/homes' ? 
                            <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/homes/DigitalNewspaper" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
-                            location.pathname === '/details' ?
+                            pathname === '/details' ?
                             <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/details/Profile" target="_blank" rel="noreferrer">
                                 <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                             </a>:
-                           location.pathname === '/forms' ?
+                           pathname === '/forms' ?
                            <a href="https://github.com/pazzitta/layout-challenge/tree/main/src/components/forms/ContactUs" target="_blank" rel="noreferrer">
                             <img className='image-links-all-views' src={IGitHub} alt="Ícono GitHub" />
                            </a>:
@@ -305,21 +303,11 @@ const LayoutSectionContentFour = () => {
                     </div>                   
                 </div>
                 {
-                    location.pathname === '/landingPages' ? <img width="55%" src={GifLayout} alt='gif Working'></img> : 
-                    location.pathname === '/homes' ? <img width="55%" src={GifLayout} alt='gif Working'></img> :
-                    location.pathname === '/details' ? <img width="55%" src={GifLayout} alt='gif Working'></img> :
-                    location.pathname === '/forms' ? <img width="55%" src={GifLayout} alt='gif Working'></img> :
+                    pathname === '/landingPages' ? <img width="55%" src={GifLayout} alt='gif Working'></img> : 
+                    pathname === '/homes' ? <img width="55%" src={GifLayout} alt='gif Working'></img> :
+                    pathname === '/details' ? <img width="55%" src={GifLayout} alt='gif Working'></img> :
+                    pathname === '/forms' ? <img width="55%" src={GifLayout} alt='gif Working'></img> :
                     <img width="55%" src={GifLayout} alt='gif Working'></img>
-                    // <div className='food-card-order-section-content-two'>
-                    //     <FoodCard/>
-                    //     <FoodCard/>
-                    //     <FoodCard/>
-                    //     <FoodCard/>
-                    //     <FoodCard/>
-                    //     <FoodCard/>
-                    //     <FoodCard/>
-                    //     <FoodCard/>        
-                    // </div>
                 }
             </section>
 

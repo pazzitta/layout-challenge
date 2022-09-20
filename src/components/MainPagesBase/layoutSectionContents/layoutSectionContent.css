@@ -385,7 +385,9 @@
 }
 .assets-icons-furniture-D,
 .assets-icons-register-F,
-.assets-multimedia-food-C{
+.assets-multimedia-food-C,
+.assets-icons-profile-c,
+.assets-multimedia-ecommerce-H{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -414,11 +416,6 @@
 }
 .assets-icons-register-F>img:first-child{
     width: 30%
-}
-.assets-multimedia-ecommerce-H{
-    display: flex;
-    justify-content: center;
-    align-items: center
 }
 .assets-multimedia-ecommerce-H>img{
    width: 70%
@@ -505,6 +502,16 @@
 .assets-icons-marketplace-H>img:nth-child(7){
     margin-right: 5px
 }
+.assets-icons-profile-c>img{
+    width: 17%;
+    margin-right: 25px
+}
+.assets-icons-profile-c>img:first-child{
+    margin-left: 20px
+}
+.assets-icons-profile-c>img:last-child{
+    margin-left: 20px
+}
 .assets-icons-clothes-c>img {
     width: 30%
 }
@@ -516,142 +523,102 @@
 }
 .assets-multimedia-News-D>img{
     width: 45%;
-    margin-right: 10px;
+    margin-right: 10px
 }
 .assets-multimedia-Clothes-C,
 .assets-icons-minimalism-LP>img{
-    width: 60%;
+    width: 60%
 }
 /* LAYOUTSECTIONCONTENTFOUR */
-
-.assets-icons-promotional-order{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.assets-icons-promotional-order>img:first-child,
-.assets-icons-promotional-order>img:nth-child(2){
-    width: 15%;
-    margin-right: 30px;
-}
-/* .papers-order-and-styles>div:first-child>img:last-of-type{
-    width: 50%;
-} */
-
-
-.assets-icons-profile-c,
-.assets-icons-profile-D,
-.assets-icons-contact-us-F{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.assets-icons-profile-D>img{
-    width: 20%;
-    margin-left: 20px;
-}
-.assets-icons-profile-D>img:last-child{
-    width: 40%;
-}
-
-.assets-icons-contact-us-F>img{
-    width: 15%;
-    margin-right: 20px;
-}
-.assets-icons-contact-us-F>img:first-child{
-    margin-left: 20px;
-}
-.assets-icons-profile-c>img{
-    width: 17%;
-    margin-right: 25px;
-}
-.assets-icons-profile-c>img:first-child{
-    margin-left: 20px;
-}
-.assets-icons-profile-c>img:last-child{
-    margin-left: 20px;
-}
-.assets-multimedia-contact-us-F,
-.assets-multimedia-digital-newspaper-H{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;   
-}
-
-
-
-
-
-
-.assets-multimedia-contact-us-F>img{
-    width: 45%;
-    margin-right: 10px;
-}
-
-.assets-multimedia-contact-us-F>img:last-child{
-    margin-top: 10px;
-}
-
-.clothes-card-order-section-content-one{
-    background-color: white;
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.clothes-card-order-section-content-one{
-    background-color: white
-}
-
-
-
-
-/* LAYOUT SECTION CONTENT THREE */
 .original-page-section-order-four{
-    height: 670px;
-}
-.box-digital-newspaper-images{
-    width: 100%;
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.box-digital-newspaper-images>img{
-    position: relative;
-    bottom:20px;
-}
-
-.box-digital-newspaper-images>img:first-child{
-    width: 17%;
-    margin-right: 10px;
-    position: relative;
-    bottom:20px;
-}
-.box-digital-newspaper-images>img:last-child{
-    width: 16%;
-    margin-left: 10px;
-}
-.assets-multimedia-digital-newspaper-H>img{
-    width: 20%;
-    margin-right: 15px;
-}
-.assets-multimedia-digital-newspaper-H>img:nth-child(3){
-    width: 17%;
-    margin-top: 5px;
-}
-.assets-multimedia-digital-newspaper-H>img:first-child{
-    margin-left: 10px;
-    margin-top: 5px;
+    height: 670px
 }
 .original-page-section-four-order-three-img-big{
     width: 25%;
     position: relative;
     bottom: 40px
 }
+.box-digital-newspaper-images{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.box-digital-newspaper-images>img{
+    position: relative;
+    bottom:20px
+}
+.box-digital-newspaper-images>img:first-child{
+    width: 17%;
+    margin-right: 10px;
+    position: relative;
+    bottom:20px
+}
+.box-digital-newspaper-images>img:last-child{
+    width: 16%;
+    margin-left: 10px
+}
+.assets-icons-promotional-order,
+.assets-icons-profile-D,
+.assets-icons-contact-us-F,
+.assets-multimedia-digital-newspaper-H,
+.assets-multimedia-contact-us-F{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+}
+.assets-icons-promotional-order>img:first-child,
+.assets-icons-promotional-order>img:nth-child(2){
+    width: 15%;
+    margin-right: 30px
+}
+.assets-icons-profile-D>img{
+    width: 20%;
+    margin-left: 20px
+}
+.assets-icons-profile-D>img:last-child{
+    width: 40%
+}
+.assets-icons-contact-us-F>img{
+    width: 15%;
+    margin-right: 20px
+}
+.assets-icons-contact-us-F>img:first-child{
+    margin-left: 20px
+}
+.assets-multimedia-digital-newspaper-H>img{
+    width: 20%;
+    margin-right: 15px
+}
+.assets-multimedia-digital-newspaper-H>img:nth-child(3){
+    width: 17%;
+    margin-top: 5px
+}
+.assets-multimedia-digital-newspaper-H>img:first-child{
+    margin-left: 10px;
+    margin-top: 5px
+}
+.assets-multimedia-contact-us-F>img{
+    width: 45%;
+    margin-right: 10px
+}
+.assets-multimedia-contact-us-F>img:last-child{
+    margin-top: 10px
+}
+
+/* .clothes-card-order-section-content-one{
+    background-color: white;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.clothes-card-order-section-content-one{
+    background-color: white
+} */
+
+
+
