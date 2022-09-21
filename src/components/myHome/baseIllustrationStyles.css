@@ -342,8 +342,8 @@
 }
 /* PC AND NOTEBOOKS */
 /* 1728x1117 */
-/* 1512x982 */
-@media(max-width: 1512px){
+/* 1600x900 */
+@media(max-width: 1600px){
     .order-note-scotch-tape-one{
         right: -6px;
     }
@@ -380,6 +380,9 @@
     .in-process-poster-wood-order-and-style>h2{
         font-size: 1.1em;
     }
+}
+/* 1512x982 */
+@media(max-width: 1512px){
    
 }
 /* 1440x1024 */

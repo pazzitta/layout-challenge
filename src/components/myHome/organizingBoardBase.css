@@ -97,6 +97,15 @@
 }
 /* PC AND NOTEBOOKS */
 /* 1728x1117 */
+/* 1600x900 */
+@media(max-width: 1600px){
+    .circle-line-order>div{
+        background-color: white;
+        width: 6px;
+        height: 6px;
+        margin-left: 19.2px;
+    }
+}
 /* 1512x982 */
 @media(max-width: 1512px){
     .circle-line-order>div{
