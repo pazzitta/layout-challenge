@@ -8,7 +8,7 @@
     height: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end
+    align-items: flex-end;
 }
 .order-a-purple-pencil,
 .order-a-hotpink-pencil,
@@ -36,35 +36,35 @@
 .order-a-blue-pencil>div:last-child,
 .order-a-green-pencil>div:last-child,
 .order-a-yellow-pencil>div:last-child{
-    width: 15px;
-    height: 40px;
+    width: 75%;
+    height: 3.5vh;
 }
 .order-a-purple-pencil>div:first-child{
-    border-bottom: 15px solid #7136F4
+    border-bottom: 14px solid #7136F4
 }
 .order-a-purple-pencil>div:last-child{
     background-color: #814EF2
 }
 .order-a-hotpink-pencil>div:first-child{
-    border-bottom: 15px solid #F62F55
+    border-bottom: 14px solid #F62F55
 }
 .order-a-hotpink-pencil>div:last-child{
     background-color: #F44D6D
 }
 .order-a-blue-pencil>div:first-child{
-    border-bottom: 15px solid #3842F1
+    border-bottom: 14px solid #3842F1
 }
 .order-a-blue-pencil>div:last-child{
     background-color: #5058EF
 }
 .order-a-green-pencil>div:first-child{
-    border-bottom: 15px solid #0DDD79
+    border-bottom: 14px solid #0DDD79
 }
 .order-a-green-pencil>div:last-child{
     background-color: #4EF2A3
 }
 .order-a-yellow-pencil>div:first-child{
-    border-bottom: 15px solid #E1C815
+    border-bottom: 14px solid #E1C815
 }
 .order-a-yellow-pencil>div:last-child{
     background-color: #F2DE4E

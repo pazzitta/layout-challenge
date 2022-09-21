@@ -8,390 +8,15 @@
 *::before{
     box-sizing: border-box
 }
-
-/* ORGANIZERBASEBOARD.JSX */
-.order-all-componentes-board{
-    width: 85%;
-    height: 83vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-}
-.botton-frame-styles-and-order,
-.top-frame-styles-and-order{
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position:center;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.top-frame-styles-and-order{
-    background-image: url('../../assets/myHome/OrganizerBaseBoard/woodenTopFrame.jpg');
-    height: 5%;
-}
-.top-frame-styles-and-order>div,
-.botton-frame-styles-and-order>div{
-    background-color: #555555;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%
-}
-.top-frame-styles-and-order>div:first-child,
-.botton-frame-styles-and-order>div:first-child{
-    margin-left: 15px
-}
-.top-frame-styles-and-order>div:last-child,
-.botton-frame-styles-and-order>div:last-child{
-    margin-right: 15px
-}
-.board-base-style{
-    background-color: #505F71;
-    width: 95%;
-    height: 88%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-.circle-line-order{
-    width: 96%;
-    height: 70vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-.circle-line-order>div{
-    background-color: white;
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    margin-left: 23.2px;
-}
-.circle-line-order>div:first-child,
-.circle-line-order>div:nth-child(51),
-.circle-line-order>div:nth-child(101),
-.circle-line-order>div:nth-child(151),
-.circle-line-order>div:nth-child(201),
-.circle-line-order>div:nth-child(251),
-.circle-line-order>div:nth-child(301),
-.circle-line-order>div:nth-child(351),
-.circle-line-order>div:nth-child(401),
-.circle-line-order>div:nth-child(451),
-.circle-line-order>div:nth-child(501),
-.circle-line-order>div:nth-child(551),
-.circle-line-order>div:nth-child(601),
-.circle-line-order>div:nth-child(651),
-.circle-line-order>div:nth-child(701),
-.circle-line-order>div:nth-child(751),
-.circle-line-order>div:nth-child(801),
-.circle-line-order>div:nth-child(851),
-.circle-line-order>div:nth-child(901),
-.circle-line-order>div:nth-child(951),
-.circle-line-order>div:nth-child(1001),
-.circle-line-order>div:nth-child(1051),
-.circle-line-order>div:nth-child(1101),
-.circle-line-order>div:nth-child(1151){
-    margin-left: 0px;
-}
-.botton-frame-styles-and-order{
-    background-image: url('../../assets/myHome/OrganizerBaseBoard/woodenBottomFrame.jpg');
-    height: 7%;
-}
-
-/* PC AND NOTEBOOKS */
-/* 1728x1117 */
-/* 1512x982 */
-@media(max-width: 1512px){
-    .circle-line-order>div{
-        background-color: white;
-        width: 6px;
-        height: 6px;
-        margin-left: 17.7px;
-    }
-}
-/* 1440x1024 */
-@media(max-width: 1440px){
-    .circle-line-order>div{
-        background-color: white;
-        margin-left: 16.6px;
-    }
-}
-/* 1366x768 */
-@media(max-width: 1366px){
-    .circle-line-order>div{
-        background-color: white;
-        margin-left: 15.4px;
-    }
-}
-/* TABLES */
-/* 1024X1366 */
-@media(max-width: 1024px){
-    .order-all-componentes-board{
-        width: 90%;
-        height: 1627px;
-    }
-    .circle-line-order{
-        width: 92%;
-        height: 1520px;
-    }
-    .board-base-style{
-        background-color: #505F71;
-        height: 1627px;
-    }
-    .circle-line-order>div{
-        margin-left: 35.8px;
-    }
-    .circle-line-order>div:first-child,
-    .circle-line-order>div:nth-child(21),
-    .circle-line-order>div:nth-child(41),
-    .circle-line-order>div:nth-child(61),
-    .circle-line-order>div:nth-child(81),
-    .circle-line-order>div:nth-child(101),
-    .circle-line-order>div:nth-child(121),
-    .circle-line-order>div:nth-child(141),
-    .circle-line-order>div:nth-child(161),
-    .circle-line-order>div:nth-child(181),
-    .circle-line-order>div:nth-child(201),
-    .circle-line-order>div:nth-child(221),
-    .circle-line-order>div:nth-child(241),
-    .circle-line-order>div:nth-child(261),
-    .circle-line-order>div:nth-child(281),
-    .circle-line-order>div:nth-child(301),
-    .circle-line-order>div:nth-child(321),
-    .circle-line-order>div:nth-child(341),
-    .circle-line-order>div:nth-child(361),
-    .circle-line-order>div:nth-child(381),
-    .circle-line-order>div:nth-child(401),
-    .circle-line-order>div:nth-child(421),
-    .circle-line-order>div:nth-child(441),
-    .circle-line-order>div:nth-child(461),
-    .circle-line-order>div:nth-child(481),
-    .circle-line-order>div:nth-child(501),
-    .circle-line-order>div:nth-child(521),
-    .circle-line-order>div:nth-child(541),
-    .circle-line-order>div:nth-child(561),
-    .circle-line-order>div:nth-child(581),
-    .circle-line-order>div:nth-child(601),
-    .circle-line-order>div:nth-child(621),
-    .circle-line-order>div:nth-child(641),
-    .circle-line-order>div:nth-child(661),
-    .circle-line-order>div:nth-child(681),
-    .circle-line-order>div:nth-child(701),
-    .circle-line-order>div:nth-child(721),
-    .circle-line-order>div:nth-child(741),
-    .circle-line-order>div:nth-child(761),
-    .circle-line-order>div:nth-child(781),
-    .circle-line-order>div:nth-child(801),
-    .circle-line-order>div:nth-child(821),
-    .circle-line-order>div:nth-child(841),
-    .circle-line-order>div:nth-child(861),
-    .circle-line-order>div:nth-child(881),
-    .circle-line-order>div:nth-child(901),
-    .circle-line-order>div:nth-child(921),
-    .circle-line-order>div:nth-child(941),
-    .circle-line-order>div:nth-child(961),
-    .circle-line-order>div:nth-child(981),
-    .circle-line-order>div:nth-child(1001),
-    .circle-line-order>div:nth-child(1021),
-    .circle-line-order>div:nth-child(1041),
-    .circle-line-order>div:nth-child(1061),
-    .circle-line-order>div:nth-child(1081),
-    .circle-line-order>div:nth-child(1101),
-    .circle-line-order>div:nth-child(1121),
-    .circle-line-order>div:nth-child(1141),
-    .circle-line-order>div:nth-child(1161),
-    .circle-line-order>div:nth-child(1181){
-        margin-left: 0px;
-    }
-    .circle-line-order>div:nth-child(51),
-    .circle-line-order>div:nth-child(151),
-    .circle-line-order>div:nth-child(251),
-    .circle-line-order>div:nth-child(351),
-    .circle-line-order>div:nth-child(451),
-    .circle-line-order>div:nth-child(551),
-    .circle-line-order>div:nth-child(651),
-    .circle-line-order>div:nth-child(751),
-    .circle-line-order>div:nth-child(851),
-    .circle-line-order>div:nth-child(951),
-    .circle-line-order>div:nth-child(1051),
-    .circle-line-order>div:nth-child(1151){
-        margin-left: 35.5px;
-    }
-    .top-frame-styles-and-order{
-        height: 2%;
-    }
-    .top-frame-styles-and-order>div,
-    .botton-frame-styles-and-order>div{
-        width: 10px;
-        height: 10px;
-    }
-    .top-frame-styles-and-order>div:first-child,
-    .botton-frame-styles-and-order>div:first-child{
-        margin-left: 10px
-    }
-    .top-frame-styles-and-order>div:last-child,
-    .botton-frame-styles-and-order>div:last-child{
-        margin-right: 10px
-    }
-    .botton-frame-styles-and-order{
-        height: 3%;
-    }
-}
-/* CELULALARES */
-/* 390x844 */
-@media(max-width: 390px){
-    .order-all-componentes-board{
-        width: 90%;
-        height: 1270px;
-    }
-    .circle-line-order{
-        width: 96%;
-        height: 1200px;
-    }
-    .board-base-style{
-        background-color: #505F71;
-        height: 1266px;
-    }
-    .circle-line-order>div{
-        width: 3px;
-        height: 3px;
-        margin-left: 13.7px;
-    }
-    .circle-line-order>div:first-child,
-    .circle-line-order>div:nth-child(21),
-    .circle-line-order>div:nth-child(41),
-    .circle-line-order>div:nth-child(61),
-    .circle-line-order>div:nth-child(81),
-    .circle-line-order>div:nth-child(101),
-    .circle-line-order>div:nth-child(121),
-    .circle-line-order>div:nth-child(141),
-    .circle-line-order>div:nth-child(161),
-    .circle-line-order>div:nth-child(181),
-    .circle-line-order>div:nth-child(201),
-    .circle-line-order>div:nth-child(221),
-    .circle-line-order>div:nth-child(241),
-    .circle-line-order>div:nth-child(261),
-    .circle-line-order>div:nth-child(281),
-    .circle-line-order>div:nth-child(301),
-    .circle-line-order>div:nth-child(321),
-    .circle-line-order>div:nth-child(341),
-    .circle-line-order>div:nth-child(361),
-    .circle-line-order>div:nth-child(381),
-    .circle-line-order>div:nth-child(401),
-    .circle-line-order>div:nth-child(421),
-    .circle-line-order>div:nth-child(441),
-    .circle-line-order>div:nth-child(461),
-    .circle-line-order>div:nth-child(481),
-    .circle-line-order>div:nth-child(501),
-    .circle-line-order>div:nth-child(521),
-    .circle-line-order>div:nth-child(541),
-    .circle-line-order>div:nth-child(561),
-    .circle-line-order>div:nth-child(581),
-    .circle-line-order>div:nth-child(601),
-    .circle-line-order>div:nth-child(621),
-    .circle-line-order>div:nth-child(641),
-    .circle-line-order>div:nth-child(661),
-    .circle-line-order>div:nth-child(681),
-    .circle-line-order>div:nth-child(701),
-    .circle-line-order>div:nth-child(721),
-    .circle-line-order>div:nth-child(741),
-    .circle-line-order>div:nth-child(761),
-    .circle-line-order>div:nth-child(781),
-    .circle-line-order>div:nth-child(801),
-    .circle-line-order>div:nth-child(821),
-    .circle-line-order>div:nth-child(841),
-    .circle-line-order>div:nth-child(861),
-    .circle-line-order>div:nth-child(881),
-    .circle-line-order>div:nth-child(901),
-    .circle-line-order>div:nth-child(921),
-    .circle-line-order>div:nth-child(941),
-    .circle-line-order>div:nth-child(961),
-    .circle-line-order>div:nth-child(981),
-    .circle-line-order>div:nth-child(1001),
-    .circle-line-order>div:nth-child(1021),
-    .circle-line-order>div:nth-child(1041),
-    .circle-line-order>div:nth-child(1061),
-    .circle-line-order>div:nth-child(1081),
-    .circle-line-order>div:nth-child(1101),
-    .circle-line-order>div:nth-child(1121),
-    .circle-line-order>div:nth-child(1141),
-    .circle-line-order>div:nth-child(1161),
-    .circle-line-order>div:nth-child(1181){
-        margin-left: 0px;
-        width: 3px;
-        height: 3px;
-    }
-    .circle-line-order>div:nth-child(51),
-    .circle-line-order>div:nth-child(151),
-    .circle-line-order>div:nth-child(251),
-    .circle-line-order>div:nth-child(351),
-    .circle-line-order>div:nth-child(451),
-    .circle-line-order>div:nth-child(551),
-    .circle-line-order>div:nth-child(651),
-    .circle-line-order>div:nth-child(751),
-    .circle-line-order>div:nth-child(851),
-    .circle-line-order>div:nth-child(951),
-    .circle-line-order>div:nth-child(1051),
-    .circle-line-order>div:nth-child(1151){
-        margin-left: 13.7px;
-    }
-    .top-frame-styles-and-order{
-        height: 2%;
-    }
-    .top-frame-styles-and-order>div,
-    .botton-frame-styles-and-order>div{
-        width: 5px;
-        height: 5px;
-    }
-    .top-frame-styles-and-order>div:first-child,
-    .botton-frame-styles-and-order>div:first-child{
-        margin-left: 5px
-    }
-    .top-frame-styles-and-order>div:last-child,
-    .botton-frame-styles-and-order>div:last-child{
-        margin-right: 5px
-    }
-    .botton-frame-styles-and-order{
-        height: 3%;
-    }
-}
-/* 360x640 */
-@media(max-width: 360px){
-    .order-all-componentes-board{
-        width: 90%;
-        height: 1200px;
-    }
-    .circle-line-order{
-        width: 96%;
-        height: 1100px;
-    }
-    .board-base-style{
-        background-color: #505F71;
-        height: 1150px;
-    }
-    .circle-line-order>div{
-        width: 3px;
-        height: 3px;
-        margin-left: 12.3px;
-    }
-    .botton-frame-styles-and-order{
-        height: 2.5%;
-    }
-}
-
 /* ALLBOARDCONTENT.JSX */
 .order-all-board-content{
     width: 80%;
-    height: 680px;
+    height: 74vh;
     position: absolute;
     top: 175px;
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
 }
 /* General section one */
 .section-one{
@@ -399,14 +24,13 @@
     height: 92.5%;
     display: flex;
     justify-content: space-between;
-    border:solid red
 }
    /* Label section one */
 .section-one>section:first-child{
     width: 34%;
     display: flex;
     flex-direction: column;
-    border:solid rebeccapurple;
+    /* border:solid rebeccapurple; */
 }
 .section-one>section:first-child>div:first-child{
     width: 100%;
@@ -468,20 +92,20 @@
     width: 66%;
     display: flex;
     flex-direction: column;
-    border:solid rgb(61, 13, 108);
+    /* border:solid rgb(61, 13, 108); */
 }
 .section-one>section:last-child>div:first-child{
    width: 100%;
    height: 9vh;
    display: flex;
    justify-content: center;
-   border: solid blue;
+   /* border: solid blue; */
 }
 .section-one>section:last-child>div:last-child{
     width: 100%;
     height: 17vh;
     display: flex;
-    border: solid rgb(32, 135, 32);
+    /* border: solid rgb(32, 135, 32); */
 }
 .layouts-poster-wood-order-and-style{
     background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
@@ -490,6 +114,7 @@
     background-repeat: no-repeat;
     width: 35%;
     height: 8vh;
+    margin-top: 12px;
     display: flex;
     justify-content: space-evenly;
     align-items: center
@@ -502,30 +127,30 @@
 }
 .layouts-poster-wood-order-and-style>h2{
     margin: 0;
-    font-size: 35px;
-    line-height: 35px;
+    font-size: 2em;
+    line-height: 1em;
     letter-spacing: 4px;
-    width: 270px;
+    width: 85%;
     color: white;
-    font-family: 'Abel', sans-serif
+    font-family: 'Abel', sans-serif;
 }
 .section-one>section:last-child>div:nth-child(2){
     width: 100%;
-    height: 40vh;
+    height: 42vh;
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
-    border: solid brown;
+    /* border: solid brown; */
 }
 .section-one>section:last-child>div:nth-child(2)>a{
     color: black;
-    height: 180px;
-    width: 260px;
+    width: 27%;
+    height: 20vh;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: url('../../assets/myHome/Create/brushPointer.png'), pointer
+    cursor: url('../../assets/myHome/Create/brushPointer.png'), pointer;
 }
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(2),
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(3){
@@ -592,13 +217,13 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 150px;
-    height: 60px;
+    width: 60%;
+    height: 7vh;
     position: relative;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 80px
+    margin-top: 80px;
 }
 .poster-wood-order-and-style>div{
     background-color: #444444;
@@ -608,20 +233,20 @@
 }
 .poster-wood-order-and-style>h2{
     margin: 0;
-    font-size: 27px;
+    font-size: 1.8em;
     line-height: 24px;
     letter-spacing: 4px;
-    width: 110px;
+    width: 80%;
     color: white;
-    font-family: 'Abel', sans-serif
+    font-family: 'Abel', sans-serif;
 }
 .proyect-p-poster-wood-order-and-style{
     background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 280px;
-    height: 50px;
+    width: 30%;
+    height: 5vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -635,10 +260,9 @@
 }
 .proyect-p-poster-wood-order-and-style>h2{
     margin: 0;
-    font-size: 26px;
-    line-height: 35px;
+    font-size: 1.6em;
     letter-spacing: 4px;
-    width: 220px;
+    width: 80%;
     color: white;
     font-family: 'Abel', sans-serif;
 }
@@ -654,7 +278,6 @@
     position: relative;
     left: 8%;
 }
-
 .anchord-proyect-p-styles:hover{
     color: rgb(242, 108, 78);
 }
@@ -677,7 +300,6 @@
 .order-folders-in-back-of-metal-basket-two>div{
     position: absolute;
     right: 35px;
-    /* margin-top: 5px; */
     width: 72%;
 }
 .in-process-position-metal-basket{
@@ -686,13 +308,14 @@
     display: flex;
     justify-content: center;
 }
+
 .in-process-poster-wood-order-and-style{
     background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 150px;
-    height: 60px;
+    width: 60%;
+    height: 6vh;
     position: relative;
     display: flex;
     justify-content: space-evenly;
@@ -706,10 +329,9 @@
 }
 .in-process-poster-wood-order-and-style>h2{
     margin: 0;
-    font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 4px;
-    width: 110px;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    width: 80%;
     color: white;
     font-family: 'Abel', sans-serif;
 }
@@ -717,5 +339,99 @@
 .section-two{
     width: 96.4%;
     height: 7%;
-    border:solid green
+}
+/* PC AND NOTEBOOKS */
+/* 1728x1117 */
+/* 1512x982 */
+@media(max-width: 1512px){
+    .order-note-scotch-tape-one{
+        right: -6px;
+    }
+    .layouts-poster-wood-order-and-style>h2{
+        font-size: 1.8em;
+        line-height: 1em;
+        letter-spacing: 3px;
+        width: 80%;
+    }
+    .proyect-p-poster-wood-order-and-style>h2{
+        font-size: 1.4em;
+        letter-spacing: 3px;
+    }
+    .section-one>section:last-child>div:nth-child(2)>a:nth-child(2),
+    .section-one>section:last-child>div:nth-child(2)>a:nth-child(3){
+        margin-left: 70px
+    }
+    .section-one>section:last-child>div:nth-child(2)>a:nth-child(4){
+        margin-right:40px;
+    }
+    .section-one>section:last-child>div:nth-child(2)>a:last-child{
+        margin-left: 40px;
+    }
+    .poster-wood-order-and-style>h2{
+        font-size: 1.6em;
+        letter-spacing: 3px;
+        width: 80%;
+    }
+    .poster-wood-order-and-style>div,
+    .in-process-poster-wood-order-and-style>div{
+        width: 6px;
+        height: 6px;
+    }
+    .in-process-poster-wood-order-and-style>h2{
+        font-size: 1.1em;
+    }
+   
+}
+/* 1440x1024 */
+@media(max-width: 1440px){
+    .order-note-scotch-tape-one{
+        right: -7px;
+    }
+    .layouts-poster-wood-order-and-style>h2{
+        font-size: 1.7em;
+    }
+    .proyect-p-poster-wood-order-and-style>h2{
+        font-size: 1.3em;
+    }
+    .proyect-p-poster-wood-order-and-style>div{
+        width: 8px;
+        height: 8px;
+    }
+    .section-one>section:last-child>div:nth-child(2)>a:nth-child(2),
+    .section-one>section:last-child>div:nth-child(2)>a:nth-child(3){
+        margin-left: 60px
+    }
+    .section-one>section:last-child>div:nth-child(2)>a:nth-child(4){
+        margin-right:30px;
+    }
+    .section-one>section:last-child>div:nth-child(2)>a:last-child{
+        margin-left: 30px;
+    }
+    .in-process-poster-wood-order-and-style>h2{
+        font-size: 1em;
+    }
+}
+/* 1366x768 */
+@media(max-width: 1366px){
+    .order-note-scotch-tape-one{
+        right: -8px;
+    }
+    .layouts-poster-wood-order-and-style>h2{
+        font-size: 1.5em;
+        line-height: 1.2em;
+    }
+    .proyect-p-poster-wood-order-and-style>h2{
+        font-size: 1.2em;
+    }
+    .proyect-p-poster-wood-order-and-style>div{
+        width: 7px;
+        height: 7px;
+    }
+    .poster-wood-order-and-style>h2{
+        font-size: 1.4em;
+    }
+    .in-process-poster-wood-order-and-style>h2{
+        font-size: 0.9em;
+    }
+
 }
