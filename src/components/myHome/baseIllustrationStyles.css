@@ -17,6 +17,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    border: solid palegreen;
 }
 .top-frame-styles-and-order{
     background-image: url('../../assets/myHome/OrganizerBaseBoard/woodenTopFrame.jpg');
@@ -28,6 +29,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: solid #F62F55;
 }
 .top-frame-styles-and-order>div{
     background-color: #555555;
@@ -48,21 +50,166 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center
+    align-items: center;
+    border:solid thin red;
 }
 .circle-line-order{
-    width: 95%;
+    width: 96%;
+    height: 70vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    border: solid thin blue;
 }
 .circle-line-order>div{
     background-color: white;
     width: 7px;
     height: 7px;
-    border-radius: 50%
+    border-radius: 50%;
+    margin-left: 23px;
+}
+.circle-line-order>div:first-child,
+.circle-line-order>div:nth-child(51),
+.circle-line-order>div:nth-child(101),
+.circle-line-order>div:nth-child(151),
+.circle-line-order>div:nth-child(201),
+.circle-line-order>div:nth-child(251),
+.circle-line-order>div:nth-child(301),
+.circle-line-order>div:nth-child(351),
+.circle-line-order>div:nth-child(401),
+.circle-line-order>div:nth-child(451),
+.circle-line-order>div:nth-child(501),
+.circle-line-order>div:nth-child(551),
+.circle-line-order>div:nth-child(601),
+.circle-line-order>div:nth-child(651),
+.circle-line-order>div:nth-child(701),
+.circle-line-order>div:nth-child(751),
+.circle-line-order>div:nth-child(801),
+.circle-line-order>div:nth-child(851),
+.circle-line-order>div:nth-child(901),
+.circle-line-order>div:nth-child(951),
+.circle-line-order>div:nth-child(1001),
+.circle-line-order>div:nth-child(1051),
+.circle-line-order>div:nth-child(1101),
+.circle-line-order>div:nth-child(1151){
+    margin-left: 0px;
+}
+
+@media(max-width: 1440px){
+    .circle-line-order>div{
+        background-color: white;
+        width: 6px;
+        height: 6px;
+        margin-left: 16.4px;
+    }
+}
+@media(max-width: 1512px){
+    .circle-line-order>div{
+        background-color: white;
+        width: 6px;
+        height: 6px;
+        margin-left: 17.5px;
+    }
 }
 /* 390x844 */
 @media(max-width: 390px){
+    .order-all-componentes-board{
+        width: 90%;
+        height: 1310px;
+        border: solid palegreen;
+    }
+    .circle-line-order{
+        width: 96%;
+        height: 1200px;
+        border: solid thin blue;
+    }
+    .board-base-style{
+        background-color: #505F71;
+        height: 1266px;
+        border:solid thin red;
+    }
+    .circle-line-order>div:first-child,
+    .circle-line-order>div:nth-child(25),
+    .circle-line-order>div:nth-child(49),
+    .circle-line-order>div:nth-child(73),
+    .circle-line-order>div:nth-child(97),
+    .circle-line-order>div:nth-child(121),
+    .circle-line-order>div:nth-child(145),
+    .circle-line-order>div:nth-child(169),
+    .circle-line-order>div:nth-child(193),
+    .circle-line-order>div:nth-child(217),
+    .circle-line-order>div:nth-child(241),
+    .circle-line-order>div:nth-child(265),
+    .circle-line-order>div:nth-child(289),
+    .circle-line-order>div:nth-child(313),
+    .circle-line-order>div:nth-child(337),
+    .circle-line-order>div:nth-child(361),
+    .circle-line-order>div:nth-child(385),
+    .circle-line-order>div:nth-child(409),
+    .circle-line-order>div:nth-child(433),
+    .circle-line-order>div:nth-child(457),
+    .circle-line-order>div:nth-child(481),
+    .circle-line-order>div:nth-child(505),
+    .circle-line-order>div:nth-child(529),
+    .circle-line-order>div:nth-child(553),
+    .circle-line-order>div:nth-child(577),
+    .circle-line-order>div:nth-child(601),
+    .circle-line-order>div:nth-child(625),
+    .circle-line-order>div:nth-child(649),
+    .circle-line-order>div:nth-child(673),
+    .circle-line-order>div:nth-child(697),
+    .circle-line-order>div:nth-child(721),
+    .circle-line-order>div:nth-child(745),
+    .circle-line-order>div:nth-child(769),
+    .circle-line-order>div:nth-child(793),
+    .circle-line-order>div:nth-child(817),
+    .circle-line-order>div:nth-child(841),
+    .circle-line-order>div:nth-child(865),
+    .circle-line-order>div:nth-child(889),
+    .circle-line-order>div:nth-child(913),
+    .circle-line-order>div:nth-child(937),
+    .circle-line-order>div:nth-child(961),
+    .circle-line-order>div:nth-child(985),
+    .circle-line-order>div:nth-child(1009),
+    .circle-line-order>div:nth-child(1033),
+    .circle-line-order>div:nth-child(1057),
+    .circle-line-order>div:nth-child(1081),
+    .circle-line-order>div:nth-child(1105),
+    .circle-line-order>div:nth-child(1129),
+    .circle-line-order>div:nth-child(1153),
+    .circle-line-order>div:nth-child(1177){
+        margin-left: 0px;
+    }
+    .circle-line-order>div:nth-child(51),
+    .circle-line-order>div:nth-child(101),
+    .circle-line-order>div:nth-child(151),
+    .circle-line-order>div:nth-child(201),
+    .circle-line-order>div:nth-child(251),
+    .circle-line-order>div:nth-child(301),
+    .circle-line-order>div:nth-child(351),
+    .circle-line-order>div:nth-child(401),
+    .circle-line-order>div:nth-child(451),
+    .circle-line-order>div:nth-child(501),
+    .circle-line-order>div:nth-child(551),
+    .circle-line-order>div:nth-child(651),
+    .circle-line-order>div:nth-child(701),
+    .circle-line-order>div:nth-child(751),
+    .circle-line-order>div:nth-child(801),
+    .circle-line-order>div:nth-child(851),
+    .circle-line-order>div:nth-child(901),
+    .circle-line-order>div:nth-child(951),
+    .circle-line-order>div:nth-child(1001),
+    .circle-line-order>div:nth-child(1051),
+    .circle-line-order>div:nth-child(1101),
+    .circle-line-order>div:nth-child(1151){
+        margin-left: 10.3px;
+    }
+    .circle-line-order>div{
+        width: 3.5px;
+        height: 3.5px;
+        margin-left: 10.3px;
+    }
     .top-frame-styles-and-order>div{
         width: 5px;
         height: 5px;
