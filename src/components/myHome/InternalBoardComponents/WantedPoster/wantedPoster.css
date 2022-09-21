@@ -88,3 +88,46 @@
 .order-and-style-base-wanted-poster>article>a>img:hover{
     transform:scale(1.3)
 }
+/* PC AND NOTEBOOKS */
+/* 1728x1117 */
+/* 1600x900 */
+@media(max-width: 1600px){
+    .order-wanted-poster{
+        width: 60%;
+    }
+    .order-and-style-base-wanted-poster>article>p{
+        font-size: 0.85em;
+        margin-right: 5px;
+    }
+}
+/* 1512x982 */
+@media(max-width: 1512px){
+    .order-wanted-poster{
+        width: 65%;
+    }
+}
+/* 1440x1024 */
+@media(max-width: 1440px){
+    .order-and-style-base-wanted-poster>article>p{
+        font-size: 0.84em;
+    }
+    .order-and-style-base-wanted-poster>h3{
+        font-size: 2.9em; 
+    }
+   
+}
+/* 1366x768 */
+@media(max-width: 1366px){
+    .order-and-style-base-wanted-poster>article>p{
+        font-size: 0.75em;
+        margin-right: 2px;
+    }
+    .order-and-style-base-wanted-poster>img{
+        width: 66%
+    }
+    .order-and-style-base-wanted-poster>h3{
+        font-size: 2.8em; 
+        margin-top: 9px;
+    }
+    
+}

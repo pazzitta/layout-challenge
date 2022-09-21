@@ -6,9 +6,9 @@ import AllBoardContent from '../../components/myHome/allBoardContent';
 const MyHome = () => {
     return(
         <div className='base-illustration-component-order'>
-            {/* <CreateName/> */}
+            <CreateName/>
             <OrganizingBoardBase/>
-            {/* <AllBoardContent/> */}
+            <AllBoardContent/>
         </div>
     )
 }

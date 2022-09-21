@@ -42,12 +42,7 @@
     width: 100%;
     height: 95%
 }
-/* @media(max-width: 1440px){
-    .blackboard-text-order-and-style{
-        font-size: 19px;
-    }
-    esto anda..
-} */
+
 .blackboard-text-order-and-style>p{
     margin: 0;
     font-size: 2em;
@@ -56,4 +51,36 @@
     position: relative;
     bottom: 32px;
     left: 130px;
+}
+/* PC AND NOTEBOOKS */
+/* 1728x1117 */
+/* 1600x900 */
+@media(max-width: 1600px){
+    .blackboard-text-order-and-style{
+        font-size: 1.65em;
+    }
+    .blackboard-text-order-and-style>p{
+        bottom: 54px;
+        left: 90px;
+    } 
+}
+/* 1512x982 */
+@media(max-width: 1512px){
+    .blackboard-text-order-and-style{
+        font-size: 1.55em;
+    } 
+}
+/* 1440x1024 */
+@media(max-width: 1440px){
+    .blackboard-text-order-and-style{
+        font-size: 1.5em;
+    }
+    .blackboard-text-order-and-style>p{
+        bottom: 24px;
+        left: 90px;
+    }
+}
+/* 1366x768 */
+@media(max-width: 1366px){
+   
 }
