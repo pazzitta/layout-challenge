@@ -191,16 +191,24 @@
 }
 .section-one>section:last-child>div:first-child{
    width: 100%;
+   height: 9vh;
    display: flex;
-   justify-content: center
+   justify-content: center;
+   border: solid blue;
+}
+.section-one>section:last-child>div:last-child{
+    width: 100%;
+    height: 17vh;
+    display: flex;
+    border: solid rgb(32, 135, 32);
 }
 .layouts-poster-wood-order-and-style{
     background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 330px;
-    height: 80px;
+    width: 35%;
+    height: 8vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center
@@ -222,10 +230,11 @@
 }
 .section-one>section:last-child>div:nth-child(2){
     width: 100%;
-    height: 60%;
+    height: 40vh;
     flex-wrap: wrap;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    border: solid brown;
 }
 .section-one>section:last-child>div:nth-child(2)>a{
     color: black;
@@ -272,7 +281,6 @@
     align-items: flex-end;
     align-self: flex-end
 }
-
 .order-folders-in-back-of-metal-basket>div{
     width: 80%;
     position: absolute;
@@ -357,14 +365,15 @@
     text-decoration: none;
     color: black;
     width: 28%;
-    height: 110px;
+    height: 16.5vh;
     cursor: url('../../assets/myHome/AllBoardContent/magnifyingGlassCursor.png'), pointer;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     position: relative;
-    left: 350px;
+    left: 8%;
 }
+
 .anchord-proyect-p-styles:hover{
     color: rgb(242, 108, 78);
 }
@@ -373,7 +382,7 @@
     height: 105px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 .order-folders-in-back-of-metal-basket-two{
     position: absolute;
@@ -387,7 +396,7 @@
 .order-folders-in-back-of-metal-basket-two>div{
     position: absolute;
     right: 35px;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     width: 72%;
 }
 .in-process-position-metal-basket{
