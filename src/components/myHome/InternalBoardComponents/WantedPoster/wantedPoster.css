@@ -50,7 +50,7 @@
    margin-top: 8px  
 }
 .order-and-style-base-wanted-poster>p{
-    font-size: 0.63em;
+    font-size: .63em;
     width: 90%;
     font-weight: 550;
     margin-bottom: 10px
@@ -96,15 +96,21 @@
         width: 60%;
     }
     .order-and-style-base-wanted-poster>h3{
-        font-size: 2.6em;
-        margin-top: 3px  
-     }
-    .order-and-style-base-wanted-poster>article>p{
-        font-size: 0.6em;
-        margin-right: 5px;
+        font-size: 2.9em;
+    }
+    .order-and-style-base-wanted-poster>p{
+        font-size: .62em;
+        margin-top: 5px
     }
     .order-and-style-base-wanted-poster>img{
-        width: 55%
+        width: 62%
+    }
+    .order-and-style-base-wanted-poster>article{
+        width: 85%;
+    }
+    .order-and-style-base-wanted-poster>article>p{
+        font-size: 0.8em;
+        margin-right: 2px;
     }
 }
 /* 1512x982 */
@@ -112,29 +118,56 @@
     .order-wanted-poster{
         width: 65%;
     }
+    .order-and-style-base-wanted-poster{
+        height: 95%;
+    }
+    .order-and-style-base-wanted-poster>h3{
+        margin-top: 10px;
+    }
+    .order-and-style-base-wanted-poster>p{
+        font-size: .65em;
+    }
+    .order-and-style-base-wanted-poster>img{
+        width: 65%
+    }
 }
 /* 1440x1024 */
 @media(max-width: 1440px){
-    .order-and-style-base-wanted-poster>article>p{
-        font-size: 0.84em;
-    }
     .order-and-style-base-wanted-poster>h3{
         font-size: 2.9em; 
     }
-   
+    .order-wanted-poster{
+        width: 70%;
+    }
+    .order-and-style-base-wanted-poster{
+        height: 93%;
+    }
+    .order-and-style-base-wanted-poster>img{
+        width: 67%
+    }
+    .order-and-style-base-wanted-poster>article>p{
+        font-size: 0.84em;
+    }
+    
 }
 /* 1366x768 */
 @media(max-width: 1366px){
-    .order-and-style-base-wanted-poster>article>p{
-        font-size: 0.75em;
-        margin-right: 2px;
-    }
-    .order-and-style-base-wanted-poster>img{
-        width: 66%
+    .order-wanted-poster{
+        width: 62%;
     }
     .order-and-style-base-wanted-poster>h3{
-        font-size: 2.8em; 
-        margin-top: 9px;
+        font-size: 2.6em; 
+        margin: 2px;
+    }
+    .order-and-style-base-wanted-poster>p{
+        font-size: .54em;
+        margin-top: 0;
+    }
+    .order-and-style-base-wanted-poster>img{
+        width: 57%
+    }
+    .order-and-style-base-wanted-poster>article>p{
+        font-size: 0.7em;
     }
     
 }

@@ -34,15 +34,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* border: solid thin red; */
 }
 .blackboard-text-order-and-style{
     font-family: 'Patrick Hand', cursive;
     font-size: 1.8em;
     color: white;
     width: 100%;
-    height: 95%
+    height: 95%;
 }
-
 .blackboard-text-order-and-style>p{
     margin: 0;
     font-size: 2em;
@@ -57,24 +57,53 @@
 /* 1600x900 */
 @media(max-width: 1600px){
     .blackboard-text-order-and-style{
-        font-size: 1.6em;
+        font-size: 1.64em;
     }
     .blackboard-text-order-and-style>p{
-        bottom: 40px;
-        left: 90px;
+        bottom: 57px;
+        left: 95px;
     } 
 }
 /* 1512x982 */
 @media(max-width: 1512px){
+    .blackboard-order{
+        width:80%;
+        height: 23vh;
+    }
+    .blackboard-order>div:first-child{
+        width: 24.3%;
+        height: 23vh;
+    }
+    .blackboard-order>div:nth-child(2){
+        width: 23%;
+        height: 21vh;
+    }
+    .blackboard-order>div:last-child{
+        width: 21.5%;
+        height: 19.5vh;
+    }
     .blackboard-text-order-and-style{
-        font-size: 1.55em;
+        font-size: 1.68em;
     } 
 }
 /* 1440x1024 */
 @media(max-width: 1440px){
-    .blackboard-text-order-and-style{
-        font-size: 1.5em;
+    .blackboard-order{
+        width:85%;
     }
+    .blackboard-order>div:first-child{
+        width: 26%;
+    }
+    .blackboard-order>div:nth-child(2){
+        width: 24.7%;
+    }
+    .blackboard-order>div:last-child{
+        width: 22.5%;
+        height: 16vh;
+    }
+    .blackboard-text-order-and-style{
+        font-size: 1.64em;
+    } 
     .blackboard-text-order-and-style>p{
         bottom: 24px;
         left: 90px;
@@ -82,5 +111,14 @@
 }
 /* 1366x768 */
 @media(max-width: 1366px){
+    .blackboard-order>div:last-child{
+        height: 20vh;
+    }
+    .blackboard-text-order-and-style{
+        font-size: 1.5em;
+    } 
+    .blackboard-text-order-and-style>p{
+        bottom: 30px;
+    }
    
 }

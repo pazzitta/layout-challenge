@@ -11,40 +11,44 @@
 /* ALLBOARDCONTENT.JSX */
 .order-all-board-content{
     width: 80%;
-    height: 74vh;
+    height: 73.3vh;
     position: absolute;
-    top: 175px;
+    top: 180px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* border:solid */
 }
 /* General section one */
 .section-one{
     width: 96.4%;
     height: 92.5%;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    /* border: solid thin goldenrod */
 }
    /* Label section one */
 .section-one>section:first-child{
     width: 34%;
     display: flex;
     flex-direction: column;
+    /* border: solid thin rgb(128, 0, 119); */
 }
 .section-one>section:first-child>div:first-child{
     width: 100%;
-    height: 27vh;
+    height: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* border:solid thin #0DDD79; */
 }
 .section-one>section:first-child>div:nth-child(2){
     width: 100%;
-    height: 6vh;
+    height: 9%;
     display: flex;
     align-items: flex-end;
+    /* border: solid thin skyblue; */
 }
-
 .hotpink-note-background-one{
     background-color: #F44D6D;
     width: 14.5%;
@@ -83,16 +87,17 @@
 }
 .section-one>section:first-child>div:last-child{
     width: 100%;
-    height: 35vh;
+    height: 51%;
     display: flex;
     justify-content: center;
+    /* border: solid thin khaki; */
 }
    /* Label section two */
 .section-one>section:last-child{
     width: 66%;
     display: flex;
     flex-direction: column;
-    /* border:solid rgb(61, 13, 108); */
+    border:solid thin rgb(61, 13, 108);
 }
 .section-one>section:last-child>div:first-child{
    width: 100%;
@@ -345,10 +350,16 @@
 /* 1600x900 */
 @media(max-width: 1600px){
     .section-one{
-        height: 89%;
+        height: 91.5%;
     }
     .order-note-scotch-tape-one{
-        right: -6px;
+        left: 6px;
+        width:53%;
+    }
+    .order-note-scotch-tape-one>div:first-child,
+    .order-note-scotch-tape-one>div:last-child{
+    width: 16%;
+    height: 1.2vh;
     }
     .layouts-poster-wood-order-and-style>h2{
         font-size: 1.8em;
@@ -386,13 +397,28 @@
     .layouts-poster-wood-order-and-style{
         margin-top: 0px;
     }
+    .section-one>section:first-child{
+        width: 32%;
+    }
+    .section-one>section:last-child{
+        width: 68%;
+    }
 }
 /* 1512x982 */
 @media(max-width: 1512px){
-   
+    .section-one{
+        height: 92.3%;
+    }
 }
 /* 1440x1024 */
 @media(max-width: 1440px){
+    .section-one{
+        height: 92.4%;
+    }
+    .order-all-board-content{
+        width: 81%;
+        top: 188px;
+    }
     .order-note-scotch-tape-one{
         right: -7px;
     }
@@ -422,6 +448,9 @@
 }
 /* 1366x768 */
 @media(max-width: 1366px){
+    .order-all-board-content{
+        top: 140px;
+    }
     .order-note-scotch-tape-one{
         right: -8px;
     }
