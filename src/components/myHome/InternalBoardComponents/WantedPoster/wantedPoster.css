@@ -46,8 +46,8 @@
     margin: 0
 }
 .order-and-style-base-wanted-poster>h3{
-   font-size: 3em;
-   margin-top: 5px  
+   font-size: 3.1em;
+   margin-top: 8px  
 }
 .order-and-style-base-wanted-poster>p{
     font-size: 0.63em;
@@ -56,14 +56,14 @@
     margin-bottom: 10px
 }
 .order-and-style-base-wanted-poster>img{
-    width: 60%
+    width: 65%
 }
 .order-and-style-base-wanted-poster>article{
     width: 82%;
     height: 3vh;
     display: flex;
     align-items: center;
-    margin-top: 8px
+    margin-top: 8px;
 }
 .order-and-style-base-wanted-poster>article>p{
     margin: 0;
@@ -95,9 +95,16 @@
     .order-wanted-poster{
         width: 60%;
     }
+    .order-and-style-base-wanted-poster>h3{
+        font-size: 2.6em;
+        margin-top: 3px  
+     }
     .order-and-style-base-wanted-poster>article>p{
-        font-size: 0.85em;
+        font-size: 0.6em;
         margin-right: 5px;
+    }
+    .order-and-style-base-wanted-poster>img{
+        width: 55%
     }
 }
 /* 1512x982 */
