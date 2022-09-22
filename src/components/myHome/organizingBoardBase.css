@@ -60,10 +60,10 @@
 }
 .circle-line-order>div{
     background-color: white;
-    width: 7px;
-    height: 7px;
+    width: .35vw;
+    height: .35vw;
     border-radius: 50%;
-    margin-left: 23.2px;
+    margin-left: 1.22vw;
 }
 .circle-line-order>div:first-child,
 .circle-line-order>div:nth-child(51),
@@ -99,35 +99,17 @@
 /* 1728x1117 */
 /* 1600x900 */
 @media(max-width: 1600px){
-    .circle-line-order>div{
-        background-color: white;
-        width: 6px;
-        height: 6px;
-        margin-left: 19.2px;
-    }
 }
 /* 1512x982 */
 @media(max-width: 1512px){
-    .circle-line-order>div{
-        background-color: white;
-        width: 6px;
-        height: 6px;
-        margin-left: 17.7px;
-    }
+
 }
 /* 1440x1024 */
 @media(max-width: 1440px){
-    .circle-line-order>div{
-        background-color: white;
-        margin-left: 16.6px;
-    }
 }
 /* 1366x768 */
 @media(max-width: 1366px){
-    .circle-line-order>div{
-        background-color: white;
-        margin-left: 15.4px;
-    }
+    
 }
 /* TABLES */
 /* 1024X1366 */
@@ -135,7 +117,6 @@
     .order-all-componentes-board{
         width: 90%;
         height: 1627px;
-        margin-top: 140px;
     }
     .circle-line-order{
         width: 92%;
@@ -146,7 +127,9 @@
         height: 1627px;
     }
     .circle-line-order>div{
-        margin-left: 35.8px;
+        width: .75vw;
+        height: .75vw;
+        margin-left: 3.35vw;
     }
     .circle-line-order>div:first-child,
     .circle-line-order>div:nth-child(21),
@@ -222,7 +205,7 @@
     .circle-line-order>div:nth-child(951),
     .circle-line-order>div:nth-child(1051),
     .circle-line-order>div:nth-child(1151){
-        margin-left: 35.5px;
+        margin-left: 3.35vw;
     }
     .top-frame-styles-and-order{
         height: 2%;
@@ -241,7 +224,7 @@
         margin-right: 10px
     }
     .botton-frame-styles-and-order{
-        height: 3%;
+        height: 3.2%;
     }
 }
 /* CELULALARES */
@@ -250,7 +233,6 @@
     .order-all-componentes-board{
         width: 90%;
         height: 1270px;
-        margin-top: 65px;
     }
     .circle-line-order{
         width: 96%;
@@ -261,9 +243,9 @@
         height: 1266px;
     }
     .circle-line-order>div{
-        width: 3px;
-        height: 3px;
-        margin-left: 13.7px;
+        width: .78vw;
+        height: .78vw;
+        margin-left: 3.5vw;
     }
     .circle-line-order>div:first-child,
     .circle-line-order>div:nth-child(21),
@@ -326,10 +308,8 @@
     .circle-line-order>div:nth-child(1161),
     .circle-line-order>div:nth-child(1181){
         margin-left: 0px;
-        width: 3px;
-        height: 3px;
     }
-    .circle-line-order>div:nth-child(51),
+    /* .circle-line-order>div:nth-child(51),
     .circle-line-order>div:nth-child(151),
     .circle-line-order>div:nth-child(251),
     .circle-line-order>div:nth-child(351),
@@ -342,7 +322,7 @@
     .circle-line-order>div:nth-child(1051),
     .circle-line-order>div:nth-child(1151){
         margin-left: 13.7px;
-    }
+    } */
     .top-frame-styles-and-order{
         height: 2%;
     }
@@ -371,16 +351,11 @@
     }
     .circle-line-order{
         width: 96%;
-        height: 1100px;
+        height: 1140px;
     }
     .board-base-style{
         background-color: #505F71;
         height: 1150px;
-    }
-    .circle-line-order>div{
-        width: 3px;
-        height: 3px;
-        margin-left: 12.3px;
     }
     .botton-frame-styles-and-order{
         height: 2.5%;
