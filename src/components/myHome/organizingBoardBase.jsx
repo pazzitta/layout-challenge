@@ -141,6 +141,7 @@ const OrganizingBoardBase = () => {
                     <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                     <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                     <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                     <div></div><div></div><div></div>
                 </div>              
             </div>

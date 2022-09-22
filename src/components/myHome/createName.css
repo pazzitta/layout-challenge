@@ -11,6 +11,7 @@
     align-self: center;
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 4.5em ;
+    /* border: solid; */
 }
 .main-name-order>div:first-child,
 .main-name-order>div:last-child{
@@ -63,8 +64,15 @@
 /* 1600x900 */
 @media(max-width: 1600px){
     .main-name-order{
-        height: 16vh;
+        height: 15vh;
     }
+}
+/* 1512x982 */
+@media(max-width: 1512px){
+    .main-name-order{
+        height: 14vh;
+    }
+
 }
 /* 1440x1024 */
 @media(max-width: 1440px){
@@ -79,12 +87,35 @@
         margin-left: 40px;
     }
 }
+/* 1366x768 */
+@media(max-width: 1366px){
+    .main-name-order{
+        width: 50%;
+        font-size: 3.8em;
+    }
+    .main-name-order>div:last-child h2{
+        margin-left: 30px;
+    }
+    .main-name-order>div:first-child>h2{
+        margin-left: 30px;
+    }
+    
+}
+/* TABLES */
+/* 1024X1366 */
+@media(max-width: 1024px){
+    .main-name-order{
+        width: 55%;
+        font-size: 3.8em;
+        height: 9vh;
+    }
+}
 /* CELULALARES */
 /* 390x844 */
 @media(max-width: 390px){
     .main-name-order{
         width: 80%;
-        height: 15vh;
+        height: 8vh;
         font-size: 2.2em ;
     }
     .main-name-order>div:last-child h2{
@@ -93,4 +124,11 @@
     .main-name-order>div:first-child>h2{
         margin-left: 10px;
     }
+}
+/* 360x640 */
+@media(max-width: 360px){
+    .main-name-order{
+        height: 11vh;
+    }
+ 
 }
