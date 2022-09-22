@@ -309,7 +309,6 @@
     display: flex;
     justify-content: center;
 }
-
 .in-process-poster-wood-order-and-style{
     background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
     background-size: cover;
@@ -384,8 +383,8 @@
     .in-process-poster-wood-order-and-style>h2{
         font-size: 1.1em;
     }
-    .order-folders-in-back-of-metal-basket{
-        height: 27vh
+    .layouts-poster-wood-order-and-style{
+        margin-top: 0px;
     }
 }
 /* 1512x982 */
