@@ -17,7 +17,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border:solid */
 }
 /* General section one */
 .section-one{
@@ -25,14 +24,13 @@
     height: 92.5%;
     display: flex;
     justify-content: space-between;
-    /* border: solid thin goldenrod */
 }
    /* Label section one */
 .section-one>section:first-child{
     width: 34%;
     display: flex;
     flex-direction: column;
-    /* border: solid thin rgb(128, 0, 119); */
+    border: solid thin rgb(128, 0, 119);
 }
 .section-one>section:first-child>div:first-child{
     width: 100%;
@@ -97,20 +95,19 @@
     width: 66%;
     display: flex;
     flex-direction: column;
-    /* border:solid thin rgb(61, 13, 108); */
+    border:solid thin rgb(61, 13, 108);
 }
 .section-one>section:last-child>div:first-child{
    width: 100%;
    height: 14%;
    display: flex;
    justify-content: center;
-   /* border: solid blue; */
 }
 .section-one>section:last-child>div:nth-child(2){
     width: 100%;
     height: 62%;
-    flex-wrap: wrap;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .section-one>section:last-child>div:last-child{
@@ -280,8 +277,8 @@
 .anchord-proyect-p-styles{
     text-decoration: none;
     color: black;
-    width: 28%;
-    height: 16.5vh;
+    width: 27%;
+    height: 8vw;
     cursor: url('../../assets/myHome/AllBoardContent/magnifyingGlassCursor.png'), pointer;
     display: flex;
     align-items: flex-end;
@@ -295,10 +292,11 @@
 }
 .in-process-position-metal-baske-order{
     width: 100%;
-    height: 105px;
+    height:5.2vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border:solid thin orangered */
 }
 .order-folders-in-back-of-metal-basket-two{
     position: absolute;
@@ -314,6 +312,8 @@
     position: absolute;
     right: 35px;
     width: 72%;
+    height: 7vw;
+    /* border: solid thin #0DDD79; */
 }
 .in-process-position-metal-basket{
     position: absolute;
@@ -434,7 +434,11 @@
         height: 8vw;
         /* border: solid thin violet; */
     }
-    
+    .anchord-proyect-p-styles{
+        width: 27%;
+        height: 8vw;
+        left: 8%;
+    }  
 }
 /* 1512x982 */
 @media(max-width: 1512px){
@@ -550,5 +554,102 @@
     .section-one>section:last-child>div:nth-child(2){
         padding-top: 0;
     }
+}
 
+/* TABLES */
+/* 1024X1366 */
+@media(max-width: 1024px){ 
+    .order-all-board-content{
+        height:1618px;
+    } 
+    .section-one{
+        width: 97%;
+        flex-direction: column;
+        justify-content: space-between;
+        border: solid thin goldenrod
+    }
+    .section-two{
+        width: 97%;
+        height: 4%;
+    }
+    .section-one>section:first-child{
+        position: absolute;
+        width: 97%;
+        height:1480px;
+        flex-direction: column;
+        border: solid thin rgb(128, 0, 119);
+    }
+    .section-one>section:first-child>div:first-child{
+        height: 25%;
+        /* border:solid thin #0DDD79; */
+        margin-bottom: 95%;
+    }
+    .section-one>section:first-child>div:nth-child(2){
+        width: 100%;
+        height: 4%;
+        border: solid thin skyblue;
+    }
+    .section-one>section:first-child>div:last-child{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        border: solid thin khaki;
+    }
+    .section-one>section:last-child{
+        width: 100%;
+        height: 51%;
+        border:solid thin rgb(61, 13, 108);
+        position: relative;
+        top:20%
+    }
+    .section-one>section:last-child>div:first-child{
+        height: 11%;
+    }
+    .section-one>section:last-child>div:nth-child(2){
+        width: 100%;
+        height: 64%;
+        border:solid #0DDD79;
+    }
+    .section-one>section:last-child>div:last-child{
+        width: 100%;
+        height: 24%;
+        display: flex;
+        border: solid rgb(32, 135, 32);
+    }
+    .layouts-poster-wood-order-and-style{
+        width: 50%;
+        height: 6vw;
+        margin-top: 1vw;
+    }
+    .layouts-poster-wood-order-and-style>h2{
+        font-size: 1.65em;
+        width: 90%;
+    }
+    .hotpink-note-background-one{
+        width: 30%;
+        height: 4vh;
+        margin-left: 14px;
+    }
+    .hotpink-note-background-one>p{
+        font-size: 3em
+    }
+    .order-note-scotch-tape-one{
+        width:32%;
+        height: 4vh;
+    }
+    .order-note-scotch-tape-one>div:first-child,
+    .order-note-scotch-tape-one>div:last-child{
+        width: 16%;
+        height: 1vh;
+    }
+}
+/* CELULALARES */
+/* 390x844 */
+@media(max-width: 390px){
+    
+}
+/* 360x640 */
+@media(max-width: 360px){
+    
 }

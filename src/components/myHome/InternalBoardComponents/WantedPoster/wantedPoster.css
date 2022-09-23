@@ -168,6 +168,37 @@
     }
     .order-and-style-base-wanted-poster>article>p{
         font-size: 0.7em;
+    }    
+}
+/* TABLES */
+/* 1024X1366 */
+@media(max-width: 1024px){ 
+    .order-wanted-poster{
+        width: 40%;
+        height: 95%;
     }
+    .order-scotch-tape>div:first-child,
+    .order-scotch-tape>div:last-child{
+        background-color: #F62F55;
+        width: 17%;
+        height: 1.5vh;
+    }
+    .order-scotch-tape{
+        width: 110%;
+    }
+    .order-and-style-base-wanted-poster>h3{
+        font-size: 3.5em; 
+        margin: 2px;
+    }
+    .order-and-style-base-wanted-poster>p{
+        font-size: .7em;
+        margin-top: 0;
+    }
+    .order-and-style-base-wanted-poster>img{
+        width: 57%
+    }
+    .order-and-style-base-wanted-poster>article>p{
+        font-size: 1.1em;
+    }    
     
 }

@@ -34,7 +34,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: solid thin red; */
 }
 .blackboard-text-order-and-style{
     font-family: 'Patrick Hand', cursive;
@@ -122,3 +121,33 @@
     }
    
 }
+/* TABLES */
+/* 1024X1366 */
+@media(max-width: 1024px){ 
+    .blackboard-order{
+        width: 65%;
+        height: 24vw;
+    }
+    .blackboard-order>div:first-child{
+        width:  64%;
+        height: 23vw;
+    }
+    .blackboard-order>div:nth-child(2){
+        width: 60%;
+        height: 21vw;
+    }
+    .blackboard-order>div:last-child{
+        width: 55%;
+        height: 19vw;
+    }
+    .blackboard-text-order-and-style{
+        font-size: 2em;
+    }
+    .blackboard-text-order-and-style>p{
+        transform: rotate(90deg);
+        font-size: 1.6em;
+        bottom: 0px;
+        left: 0px;
+    }
+}
+
