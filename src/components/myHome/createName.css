@@ -65,6 +65,8 @@
 @media(max-width: 1600px){
     .main-name-order{
         height: 15vh;
+        font-size:3.8em;
+        width: 40%;
     }
 }
 /* 1512x982 */

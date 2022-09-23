@@ -95,18 +95,24 @@
     .order-wanted-poster{
         width: 60%;
     }
-    .order-and-style-base-wanted-poster>h3{
-        font-size: 2.9em;
-    }
-    .order-and-style-base-wanted-poster>p{
-        font-size: .62em;
+    .order-scotch-tape{
         margin-top: 5px
     }
+    .order-and-style-base-wanted-poster>h3{
+        font-size: 2.9em;
+        margin-top: 2px  
+    }
+    .order-and-style-base-wanted-poster>p{
+        font-size: .6em;
+        margin-top: 0px
+    }
     .order-and-style-base-wanted-poster>img{
-        width: 62%
+        width: 55%
     }
     .order-and-style-base-wanted-poster>article{
         width: 85%;
+        height: 2.8vh;
+        margin-top: 5px;
     }
     .order-and-style-base-wanted-poster>article>p{
         font-size: 0.8em;

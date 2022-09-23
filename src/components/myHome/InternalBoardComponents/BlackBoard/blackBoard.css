@@ -56,10 +56,11 @@
 /* 1600x900 */
 @media(max-width: 1600px){
     .blackboard-text-order-and-style{
-        font-size: 1.64em;
+        font-size: 1.55em;
+        line-height: 1.3em;
     }
     .blackboard-text-order-and-style>p{
-        bottom: 57px;
+        bottom: 12px;
         left: 95px;
     } 
 }

@@ -17,6 +17,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* border: solid gray; */
+    
 }
 /* General section one */
 .section-one{
@@ -102,6 +104,7 @@
    height: 14%;
    display: flex;
    justify-content: center;
+   border: solid thin #E1C815;
 }
 .section-one>section:last-child>div:nth-child(2){
     width: 100%;
@@ -109,12 +112,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border: solid thin #1593e1;
 }
 .section-one>section:last-child>div:last-child{
     width: 100%;
     height: 24%;
     display: flex;
-    /* border: solid rgb(32, 135, 32); */
+    border: solid thin rgb(32, 135, 32);
 }
 .layouts-poster-wood-order-and-style{
     background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
@@ -355,7 +359,15 @@
 /* PC AND NOTEBOOKS */
 /* 1728x1117 */
 /* 1600x900 */
+@media (device-aspect-ratio: 16/9){
+
+}
 @media(max-width: 1600px){
+    .order-all-board-content{
+        width: 80%;
+        height: 73.3vh;
+        top: 151px;
+    }
     .section-one{
         height: 91.5%;
     }
@@ -365,8 +377,8 @@
     }
     .order-note-scotch-tape-one>div:first-child,
     .order-note-scotch-tape-one>div:last-child{
-    width: 16%;
-    height: 1.2vh;
+        width: 16%;
+        height: 1.2vh;
     }
     .layouts-poster-wood-order-and-style{
        align-self: flex-end;
@@ -380,6 +392,10 @@
     .proyect-p-poster-wood-order-and-style>h2{
         font-size: 1.4em;
         letter-spacing: 3px;
+    }
+    .section-one>section:last-child>div:nth-child(2)>a{
+        width: 26%;
+        height: 9vw;
     }
     .section-one>section:last-child>div:nth-child(2)>a:nth-child(2),
     .section-one>section:last-child>div:nth-child(2)>a:nth-child(3){
@@ -417,27 +433,37 @@
     .order-folders-in-back-of-metal-basket{
         /* border: solid orange; */
         width: 16.2%;
+        height: 9.3vw;
     }
+    .section-one>section:last-child>div:first-child{
+        height: 13%;
+     }
     .order-folders-in-back-of-metal-basket>div:first-child{
-        right: 6px
+        right: 6px;
+        margin-top: 7px;
     }
     .order-folders-in-back-of-metal-basket>div:nth-child(2){
-        right: 13px
+        right: 13px;
+        margin-top: 20px;
     }
     .order-folders-in-back-of-metal-basket>div:nth-child(3){
-        right: 20px
+        right: 20px;
+        margin-top: 33px;
     }
     .order-folders-in-back-of-metal-basket>div:nth-child(4){
         right: 27px
     }
     .order-folders-in-back-of-metal-basket-two{
-        height: 8vw;
-        /* border: solid thin violet; */
+        height: 7vw;
     }
     .anchord-proyect-p-styles{
-        width: 27%;
-        height: 8vw;
-        left: 8%;
+        width: 26%;
+        height: 7vw;
+        top: 5px;
+        /* border: solid thin darkblue; */
+    }
+    .section-one>section:last-child>div:nth-child(2){
+        height: 63%;
     }  
 }
 /* 1512x982 */

@@ -138,7 +138,9 @@
         height: 2.7vw;
         top: 30px; 
     }
-   
+    .base-front-front-folder-style{
+        height: 3.35vw;
+    }
 }
 /* 1512x982 */
 @media(max-width: 1512px){
