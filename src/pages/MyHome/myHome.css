@@ -22,6 +22,7 @@
 @media(max-width: 390px){
     .base-illustration-component-order{
         height: 1360px;
+        /* border: solid; */
     }  
 }
 /* 360x640 */
