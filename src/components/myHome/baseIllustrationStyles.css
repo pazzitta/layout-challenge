@@ -156,8 +156,7 @@
     align-items: center;
     justify-content: center;
     cursor: url('../../assets/myHome/Create/brushPointer.png'), pointer;
-    /* border:solid orangered */
-
+    border:solid orangered
 }
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(2),
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(3){
@@ -222,7 +221,7 @@
     width: 17%;
     height: 5.2vw;
     margin-top: 80px;
-    /* border:solid thin orangered */
+    border:solid thin orangered
 }
 .poster-wood-order-and-style{
     background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
@@ -312,6 +311,7 @@
     align-self: flex-end;
     /* border: solid thin violet; */
 }
+
 .order-folders-in-back-of-metal-basket-two>div{
     position: absolute;
     right: 35px;
@@ -669,6 +669,39 @@
         width: 16%;
         height: 1vh;
     }
+    .section-one>section:last-child>div:nth-child(2)>a{
+        color: black;
+        width: 27%;
+        height: 18vw;
+    }
+    .position-metal-basket{
+        position: absolute;
+        width: 26%;
+        height: 7vw;
+        margin-top: 80px;
+        border:solid thin orangered
+    }
+    /* .anchord-proyect-p-styles{
+        text-decoration: none;
+        color: black;
+        width: 27%;
+        height: 15vw;
+        border: solid thin #E1C815;
+    }
+    .in-process-position-metal-baske-order{
+        height:10vw;
+        border:solid thin orangered
+    }
+    .order-folders-in-back-of-metal-basket-two{
+        position: absolute;
+        width: 100%;
+        height: 10vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        align-self: flex-end;
+        border: solid thin violet;
+    } */
 }
 /* CELULALARES */
 /* 390x844 */
