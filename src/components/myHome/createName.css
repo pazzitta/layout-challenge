@@ -4,36 +4,37 @@
     box-sizing: border-box;
 }
 .main-name-order{
-    width: 50%;
+    width: 60%;
     height: 15vh;
     display: flex;
     justify-content:center ;
     align-self: center;
     font-family: 'Allerta Stencil', sans-serif;
-    font-size: 4.5em ;
-    /* border: solid; */
+    border: solid;
 }
 .main-name-order>div:first-child,
 .main-name-order>div:last-child{
     position: absolute;
-    display: flex;
+    display: flex; 
 }
 .main-name-order>div:last-child h2{
     margin: 0;
-    margin-left: 50px;
+    margin-left: 1.5vw;
     background-image: url('../../assets/myHome/Create/colorBackgroundLetters.jpg');
     background-size: cover;
     background-repeat:no-repeat;
     background-position:center;
     background-clip: text;
     color: transparent;
-}
-.main-name-order>div:last-child h2:first-child{
-    margin-left: 0px;
+    font-size: clamp(2em, 12vw, 7em);
 }
 .main-name-order>div:first-child>h2{
     margin: 0;
-    margin-left: 50px;
+    margin-left: 1.5vw;
+    font-size: clamp(2em, 12vw, 7em);    
+}
+.main-name-order>div:last-child h2:first-child{
+    margin-left: 0px;
 }
 .main-name-order>div:first-child>h2:first-child{
     color: rgba(113, 54, 244);
@@ -60,6 +61,33 @@
     color: rgb(242, 108, 78);
     text-shadow: 2px 1px 2px rgba(242, 108, 78, 0.5);
 }
+
+@media screen and (max-width: 64em) and (orientation: portrait) {
+    .main-name-order{
+        height: 11vh;
+    }
+}
+@media screen and (max-width: 48em) and (orientation: portrait) {
+    .main-name-order{
+        height: 12vh;
+    }
+}
+@media screen and (max-width: 37.5em) and (orientation: portrait) {
+    .main-name-order{
+        height: 10vh;
+    }
+}
+@media screen and (max-width: 30em) and (orientation:landscape) {
+    .main-name-order{
+        height: 9vh;
+    }
+}
+@media screen and (max-width: 20em) and (orientation: portrait) {
+    /* .main-name-order{
+        height: 12vh;
+    } */
+}
+
 /* PC AND NOTEBOOKS
 1600x900
 @media(max-width: 1600px){

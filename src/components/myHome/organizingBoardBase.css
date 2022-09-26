@@ -6,11 +6,12 @@
 
 .order-all-componentes-board{
     width: 85%;
-    height: 83vh;
+    height: 83%;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
+    border: solid thin red;
 }
 .botton-frame-styles-and-order,
 .top-frame-styles-and-order{
