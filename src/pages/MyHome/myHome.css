@@ -10,25 +10,24 @@
     flex-direction: column;
     align-items: center
 }
-/* TABLES */
-/* 1024X1366 */
+/* TABLES
+1024X1366
 @media(max-width: 1024px){
     .base-illustration-component-order{
         height: 1780px;
     }
 }
-/* CELULALARES */
-/* 390x844 */
+CELULALARES 
+390x844 
 @media(max-width: 390px){
     .base-illustration-component-order{
         height: 1360px;
-        /* border: solid; */
     }  
 }
-/* 360x640 */
+360x640
 @media(max-width: 360px){
     .base-illustration-component-order{
         height: 1280px;
     }
-}
+}  */
 

@@ -89,21 +89,21 @@
     border: solid;
     width: 80%;
 }
-/* PC AND NOTEBOOKS */
-/* 1728x1117 */
-/* 1600x900 */
+/* PC AND NOTEBOOKS 
+1728x1117 
+1600x900 
 @media(max-width: 1600px){
 
 }
-/* 1512x982 */
+1512x982
 @media(max-width: 1512px){
 
 }
-/* 1440x1024 */
+1440x1024
 @media(max-width: 1440px){
     
 }
-/* 1366x768 */
+1366x768
 @media(max-width: 1366px){
     
 
@@ -113,4 +113,4 @@
         height: 7vw;
     }
 
-}
+} */

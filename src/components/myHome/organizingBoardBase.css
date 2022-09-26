@@ -95,23 +95,23 @@
     background-image: url('../../assets/myHome/OrganizerBaseBoard/woodenBottomFrame.jpg');
     height: 7%;
 }
-/* PC AND NOTEBOOKS */
-/* 1728x1117 */
-/* 1600x900 */
+/* PC AND NOTEBOOKS
+1728x1117
+1600x900 
 @media(max-width: 1600px){
 }
-/* 1512x982 */
+1512x982
 @media(max-width: 1512px){
 }
-/* 1440x1024 */
+1440x1024 
 @media(max-width: 1440px){
 }
-/* 1366x768 */
+1366x768 
 @media(max-width: 1366px){
     
 }
-/* TABLES */
-/* 1024X1366 */
+TABLES
+1024X1366
 @media(max-width: 1024px){
     .order-all-componentes-board{
         width: 90%;
@@ -226,8 +226,8 @@
         height: 3.2%;
     }
 }
-/* CELULALARES */
-/* 390x844 */
+CELULALARES
+390x844 
 @media(max-width: 390px){
     .order-all-componentes-board{
         width: 90%;
@@ -308,20 +308,6 @@
     .circle-line-order>div:nth-child(1181){
         margin-left: 0px;
     }
-    /* .circle-line-order>div:nth-child(51),
-    .circle-line-order>div:nth-child(151),
-    .circle-line-order>div:nth-child(251),
-    .circle-line-order>div:nth-child(351),
-    .circle-line-order>div:nth-child(451),
-    .circle-line-order>div:nth-child(551),
-    .circle-line-order>div:nth-child(651),
-    .circle-line-order>div:nth-child(751),
-    .circle-line-order>div:nth-child(851),
-    .circle-line-order>div:nth-child(951),
-    .circle-line-order>div:nth-child(1051),
-    .circle-line-order>div:nth-child(1151){
-        margin-left: 13.7px;
-    } */
     .top-frame-styles-and-order{
         height: 2%;
     }
@@ -342,7 +328,7 @@
         height: 3%;
     }
 }
-/* 360x640 */
+360x640 
 @media(max-width: 360px){
     .order-all-componentes-board{
         width: 90%;
@@ -359,4 +345,4 @@
     .botton-frame-styles-and-order{
         height: 2.5%;
     }
-}
+} */
