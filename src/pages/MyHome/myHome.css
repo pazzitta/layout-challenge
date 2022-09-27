@@ -18,13 +18,13 @@
     --yellow-shadow:rgba(249, 222, 78, 0.5);
     --orange-color:rgb(242, 108, 78);
     --orange-shadow:rgba(242, 108, 78, 0.5);
+    --background-color-board:  #505F71;
+    --light-fuchsia-color:  #F44D6D;
 }
 
 .base-illustration-component-order{
     width: 100%;
     height: 100vh;
-    /* min-height: 100vh;
-    max-height: 200vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,45 +33,17 @@
 @media screen and (max-width: 48em) and (orientation: portrait) {
     .base-illustration-component-order{
         height: 200vh;
-        border: solid green;
     }
 }
 @media screen and (max-width: 37.5em) and (orientation: portrait) {
     .base-illustration-component-order{
         height: 200vh;
-        border: solid green;
     }
 }
-/* @media screen and (max-width: 30em) and (orientation:landscape) {
-    .base-illustration-component-order{
-        height: 150vh;
-        border: solid blue;
-    }
-} */
 @media screen and (max-width: 20em) and (orientation: portrait) {
     .base-illustration-component-order{
         height: 200vh;
-        border: solid red;
     }
 }
-/* TABLES
-1024X1366
-@media(max-width: 1024px){
-    .base-illustration-component-order{
-        height: 1780px;
-    }
-}
-CELULALARES 
-390x844 
-@media(max-width: 390px){
-    .base-illustration-component-order{
-        height: 1360px;
-    }  
-}
-360x640
-@media(max-width: 360px){
-    .base-illustration-component-order{
-        height: 1280px;
-    }
-}  */
+
 

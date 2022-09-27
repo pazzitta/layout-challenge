@@ -5,13 +5,13 @@
 }
 
 .order-all-componentes-board{
-    width: 85%;
+    width: 70%;
     height: 83%;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    border: solid thin red;
+    /* border: solid thin red; */
 }
 .botton-frame-styles-and-order,
 .top-frame-styles-and-order{
@@ -26,26 +26,28 @@
 .top-frame-styles-and-order{
     background-image: url('../../assets/myHome/OrganizerBaseBoard/woodenTopFrame.jpg');
     height: 5%;
+    height: clamp(18px, 4vh, 42px);
 }
 .top-frame-styles-and-order>div,
 .botton-frame-styles-and-order>div{
     background-color: #555555;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%
+    width: clamp(9px, 1vw, 15px);
+    height: clamp(9px, 1vw, 15px);
+    border-radius: 50%;
 }
 .top-frame-styles-and-order>div:first-child,
 .botton-frame-styles-and-order>div:first-child{
-    margin-left: 15px
+    margin-left: .9vw;
+
 }
 .top-frame-styles-and-order>div:last-child,
 .botton-frame-styles-and-order>div:last-child{
-    margin-right: 15px
+    margin-right: .9vw;
 }
 .board-base-style{
-    background-color: #505F71;
+    background-color:var(--background-color-board);
     width: 95%;
-    height: 88%;
+    height: 87%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -54,296 +56,36 @@
 .circle-line-order{
     width: 96%;
     height: 70vh;
+    height: 95%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin-right: 1vw;
 }
 .circle-line-order>div{
     background-color: white;
     width: .35vw;
     height: .35vw;
     border-radius: 50%;
-    margin-left: 1.22vw;
-}
-.circle-line-order>div:first-child,
-.circle-line-order>div:nth-child(51),
-.circle-line-order>div:nth-child(101),
-.circle-line-order>div:nth-child(151),
-.circle-line-order>div:nth-child(201),
-.circle-line-order>div:nth-child(251),
-.circle-line-order>div:nth-child(301),
-.circle-line-order>div:nth-child(351),
-.circle-line-order>div:nth-child(401),
-.circle-line-order>div:nth-child(451),
-.circle-line-order>div:nth-child(501),
-.circle-line-order>div:nth-child(551),
-.circle-line-order>div:nth-child(601),
-.circle-line-order>div:nth-child(651),
-.circle-line-order>div:nth-child(701),
-.circle-line-order>div:nth-child(751),
-.circle-line-order>div:nth-child(801),
-.circle-line-order>div:nth-child(851),
-.circle-line-order>div:nth-child(901),
-.circle-line-order>div:nth-child(951),
-.circle-line-order>div:nth-child(1001),
-.circle-line-order>div:nth-child(1051),
-.circle-line-order>div:nth-child(1101),
-.circle-line-order>div:nth-child(1151){
-    margin-left: 0px;
+    margin-left: 0.96vw;
 }
 .botton-frame-styles-and-order{
     background-image: url('../../assets/myHome/OrganizerBaseBoard/woodenBottomFrame.jpg');
-    height: 7%;
+    height: clamp(22px, 5vh, 52px);
 }
-/* PC AND NOTEBOOKS
-1728x1117
-1600x900 
-@media(max-width: 1600px){
-}
-1512x982
-@media(max-width: 1512px){
-}
-1440x1024 
-@media(max-width: 1440px){
-}
-1366x768 
-@media(max-width: 1366px){
-    
-}
-TABLES
-1024X1366
-@media(max-width: 1024px){
+
+@media screen and (max-width: 64em) and (orientation: portrait) {
     .order-all-componentes-board{
         width: 90%;
-        height: 1627px;
     }
     .circle-line-order{
-        width: 92%;
-        height: 1520px;
-    }
-    .board-base-style{
-        background-color: #505F71;
-        height: 1627px;
+        margin-right: 2.7vw;
     }
     .circle-line-order>div{
-        width: .75vw;
-        height: .75vw;
-        margin-left: 3.35vw;
-    }
-    .circle-line-order>div:first-child,
-    .circle-line-order>div:nth-child(21),
-    .circle-line-order>div:nth-child(41),
-    .circle-line-order>div:nth-child(61),
-    .circle-line-order>div:nth-child(81),
-    .circle-line-order>div:nth-child(101),
-    .circle-line-order>div:nth-child(121),
-    .circle-line-order>div:nth-child(141),
-    .circle-line-order>div:nth-child(161),
-    .circle-line-order>div:nth-child(181),
-    .circle-line-order>div:nth-child(201),
-    .circle-line-order>div:nth-child(221),
-    .circle-line-order>div:nth-child(241),
-    .circle-line-order>div:nth-child(261),
-    .circle-line-order>div:nth-child(281),
-    .circle-line-order>div:nth-child(301),
-    .circle-line-order>div:nth-child(321),
-    .circle-line-order>div:nth-child(341),
-    .circle-line-order>div:nth-child(361),
-    .circle-line-order>div:nth-child(381),
-    .circle-line-order>div:nth-child(401),
-    .circle-line-order>div:nth-child(421),
-    .circle-line-order>div:nth-child(441),
-    .circle-line-order>div:nth-child(461),
-    .circle-line-order>div:nth-child(481),
-    .circle-line-order>div:nth-child(501),
-    .circle-line-order>div:nth-child(521),
-    .circle-line-order>div:nth-child(541),
-    .circle-line-order>div:nth-child(561),
-    .circle-line-order>div:nth-child(581),
-    .circle-line-order>div:nth-child(601),
-    .circle-line-order>div:nth-child(621),
-    .circle-line-order>div:nth-child(641),
-    .circle-line-order>div:nth-child(661),
-    .circle-line-order>div:nth-child(681),
-    .circle-line-order>div:nth-child(701),
-    .circle-line-order>div:nth-child(721),
-    .circle-line-order>div:nth-child(741),
-    .circle-line-order>div:nth-child(761),
-    .circle-line-order>div:nth-child(781),
-    .circle-line-order>div:nth-child(801),
-    .circle-line-order>div:nth-child(821),
-    .circle-line-order>div:nth-child(841),
-    .circle-line-order>div:nth-child(861),
-    .circle-line-order>div:nth-child(881),
-    .circle-line-order>div:nth-child(901),
-    .circle-line-order>div:nth-child(921),
-    .circle-line-order>div:nth-child(941),
-    .circle-line-order>div:nth-child(961),
-    .circle-line-order>div:nth-child(981),
-    .circle-line-order>div:nth-child(1001),
-    .circle-line-order>div:nth-child(1021),
-    .circle-line-order>div:nth-child(1041),
-    .circle-line-order>div:nth-child(1061),
-    .circle-line-order>div:nth-child(1081),
-    .circle-line-order>div:nth-child(1101),
-    .circle-line-order>div:nth-child(1121),
-    .circle-line-order>div:nth-child(1141),
-    .circle-line-order>div:nth-child(1161),
-    .circle-line-order>div:nth-child(1181){
-        margin-left: 0px;
-    }
-    .circle-line-order>div:nth-child(51),
-    .circle-line-order>div:nth-child(151),
-    .circle-line-order>div:nth-child(251),
-    .circle-line-order>div:nth-child(351),
-    .circle-line-order>div:nth-child(451),
-    .circle-line-order>div:nth-child(551),
-    .circle-line-order>div:nth-child(651),
-    .circle-line-order>div:nth-child(751),
-    .circle-line-order>div:nth-child(851),
-    .circle-line-order>div:nth-child(951),
-    .circle-line-order>div:nth-child(1051),
-    .circle-line-order>div:nth-child(1151){
-        margin-left: 3.35vw;
-    }
-    .top-frame-styles-and-order{
-        height: 2%;
-    }
-    .top-frame-styles-and-order>div,
-    .botton-frame-styles-and-order>div{
-        width: 10px;
-        height: 10px;
-    }
-    .top-frame-styles-and-order>div:first-child,
-    .botton-frame-styles-and-order>div:first-child{
-        margin-left: 10px
-    }
-    .top-frame-styles-and-order>div:last-child,
-    .botton-frame-styles-and-order>div:last-child{
-        margin-right: 10px
-    }
-    .botton-frame-styles-and-order{
-        height: 3.2%;
-    }
+        background-color: white;
+        width: .71vw;
+        height: .71vw;
+        margin-left: 2.6vw;
+    } 
 }
-CELULALARES
-390x844 
-@media(max-width: 390px){
-    .order-all-componentes-board{
-        width: 90%;
-        height: 1270px;
-    }
-    .circle-line-order{
-        width: 96%;
-        height: 1200px;
-    }
-    .board-base-style{
-        background-color: #505F71;
-        height: 1266px;
-    }
-    .circle-line-order>div{
-        width: .78vw;
-        height: .78vw;
-        margin-left: 3.5vw;
-    }
-    .circle-line-order>div:first-child,
-    .circle-line-order>div:nth-child(21),
-    .circle-line-order>div:nth-child(41),
-    .circle-line-order>div:nth-child(61),
-    .circle-line-order>div:nth-child(81),
-    .circle-line-order>div:nth-child(101),
-    .circle-line-order>div:nth-child(121),
-    .circle-line-order>div:nth-child(141),
-    .circle-line-order>div:nth-child(161),
-    .circle-line-order>div:nth-child(181),
-    .circle-line-order>div:nth-child(201),
-    .circle-line-order>div:nth-child(221),
-    .circle-line-order>div:nth-child(241),
-    .circle-line-order>div:nth-child(261),
-    .circle-line-order>div:nth-child(281),
-    .circle-line-order>div:nth-child(301),
-    .circle-line-order>div:nth-child(321),
-    .circle-line-order>div:nth-child(341),
-    .circle-line-order>div:nth-child(361),
-    .circle-line-order>div:nth-child(381),
-    .circle-line-order>div:nth-child(401),
-    .circle-line-order>div:nth-child(421),
-    .circle-line-order>div:nth-child(441),
-    .circle-line-order>div:nth-child(461),
-    .circle-line-order>div:nth-child(481),
-    .circle-line-order>div:nth-child(501),
-    .circle-line-order>div:nth-child(521),
-    .circle-line-order>div:nth-child(541),
-    .circle-line-order>div:nth-child(561),
-    .circle-line-order>div:nth-child(581),
-    .circle-line-order>div:nth-child(601),
-    .circle-line-order>div:nth-child(621),
-    .circle-line-order>div:nth-child(641),
-    .circle-line-order>div:nth-child(661),
-    .circle-line-order>div:nth-child(681),
-    .circle-line-order>div:nth-child(701),
-    .circle-line-order>div:nth-child(721),
-    .circle-line-order>div:nth-child(741),
-    .circle-line-order>div:nth-child(761),
-    .circle-line-order>div:nth-child(781),
-    .circle-line-order>div:nth-child(801),
-    .circle-line-order>div:nth-child(821),
-    .circle-line-order>div:nth-child(841),
-    .circle-line-order>div:nth-child(861),
-    .circle-line-order>div:nth-child(881),
-    .circle-line-order>div:nth-child(901),
-    .circle-line-order>div:nth-child(921),
-    .circle-line-order>div:nth-child(941),
-    .circle-line-order>div:nth-child(961),
-    .circle-line-order>div:nth-child(981),
-    .circle-line-order>div:nth-child(1001),
-    .circle-line-order>div:nth-child(1021),
-    .circle-line-order>div:nth-child(1041),
-    .circle-line-order>div:nth-child(1061),
-    .circle-line-order>div:nth-child(1081),
-    .circle-line-order>div:nth-child(1101),
-    .circle-line-order>div:nth-child(1121),
-    .circle-line-order>div:nth-child(1141),
-    .circle-line-order>div:nth-child(1161),
-    .circle-line-order>div:nth-child(1181){
-        margin-left: 0px;
-    }
-    .top-frame-styles-and-order{
-        height: 2%;
-    }
-    .top-frame-styles-and-order>div,
-    .botton-frame-styles-and-order>div{
-        width: 5px;
-        height: 5px;
-    }
-    .top-frame-styles-and-order>div:first-child,
-    .botton-frame-styles-and-order>div:first-child{
-        margin-left: 5px
-    }
-    .top-frame-styles-and-order>div:last-child,
-    .botton-frame-styles-and-order>div:last-child{
-        margin-right: 5px
-    }
-    .botton-frame-styles-and-order{
-        height: 3%;
-    }
-}
-360x640 
-@media(max-width: 360px){
-    .order-all-componentes-board{
-        width: 90%;
-        height: 1200px;
-    }
-    .circle-line-order{
-        width: 96%;
-        height: 1140px;
-    }
-    .board-base-style{
-        background-color: #505F71;
-        height: 1150px;
-    }
-    .botton-frame-styles-and-order{
-        height: 2.5%;
-    }
-} */

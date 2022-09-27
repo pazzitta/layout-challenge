@@ -10,14 +10,14 @@
 }
 /* ALLBOARDCONTENT.JSX */
 .order-all-board-content{
-    width: 80%;
+    width: 66%;
     height: 73.3vh;
     position: absolute;
     top: 180px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: solid gray; */
+    border: solid gray;
     
 }
 /* General section one */
@@ -32,7 +32,7 @@
     width: 34%;
     display: flex;
     flex-direction: column;
-    border: solid thin rgb(128, 0, 119);
+    /* border: solid thin rgb(128, 0, 119); */
 }
 .section-one>section:first-child>div:first-child{
     width: 100%;
@@ -50,7 +50,7 @@
     /* border: solid thin skyblue; */
 }
 .hotpink-note-background-one{
-    background-color: #F44D6D;
+    background-color:var(--light-fuchsia-color);
     width: 14.5%;
     height: 5.5vh;
     display: flex;
@@ -62,7 +62,7 @@
 .hotpink-note-background-one>p{
     font-family: 'Abel', sans-serif;
     color: white;
-    font-size: 2.4em
+    font-size: 2.4em;
 }
 .order-note-scotch-tape-one{
     display: flex;
@@ -77,13 +77,13 @@
     width: 14%;
     height: 1.3vh;
     background-color: #231E20;
-    transform: rotate(-50deg)
+    transform: rotate(-50deg);
 }
 .order-note-scotch-tape-one>div:first-child{
-    transform: rotate(-50deg)
+    transform: rotate(-50deg);
 }
 .order-note-scotch-tape-one>div:last-child{
-    transform: rotate(45deg)
+    transform: rotate(45deg);
 }
 .section-one>section:first-child>div:last-child{
     width: 100%;
@@ -97,14 +97,14 @@
     width: 66%;
     display: flex;
     flex-direction: column;
-    border:solid thin rgb(61, 13, 108);
+    /* border:solid thin rgb(61, 13, 108); */
 }
 .section-one>section:last-child>div:first-child{
    width: 100%;
    height: 14%;
    display: flex;
    justify-content: center;
-   border: solid thin #E1C815;
+   /* border: solid thin #E1C815; */
 }
 .section-one>section:last-child>div:nth-child(2){
     width: 100%;
@@ -112,13 +112,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: solid thin #1593e1;
+    /* border: solid thin #1593e1; */
 }
 .section-one>section:last-child>div:last-child{
     width: 100%;
     height: 24%;
     display: flex;
-    border: solid thin rgb(32, 135, 32);
+    /* border: solid thin rgb(32, 135, 32); */
 }
 .layouts-poster-wood-order-and-style{
     background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
@@ -136,7 +136,7 @@
     background-color: #444444;
     width: 10px;
     height: 10px;
-    border-radius: 50%
+    border-radius: 50%;
 }
 .layouts-poster-wood-order-and-style>h2{
     margin: 0;
@@ -156,32 +156,32 @@
     align-items: center;
     justify-content: center;
     cursor: url('../../assets/myHome/Create/brushPointer.png'), pointer;
-    border:solid orangered
+    /* border:solid orangered */
 }
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(2),
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(3){
     margin-left: 85px;
 }
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(4){
-    margin-right:50px
+    margin-right:50px;
 }
 .section-one>section:last-child>div:nth-child(2)>a:last-child{
-    margin-left: 50px
+    margin-left: 50px;
 }
 .section-one>section:last-child>div:nth-child(2)>a:first-child:hover{
-    color: #7136F4
+    color: var(--purple-color);
 }
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(2):hover{
-    color: #F62F55
+    color: var(--fuchsia-color);
 }
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(3):hover{
-    color: #3842F1
+    color: var(--blue-color);
 }
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(4):hover{
-    color: #0DDD79
+    color: var(--green-color);
 }
 .section-one>section:last-child>div:nth-child(2)>a:last-child:hover{
-    color: #E1C815
+    color: var(--yellow-color);
 }
 /* order-folders-in-back-of-metal-basket */
 .order-folders-in-back-of-metal-basket{
@@ -192,7 +192,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    align-self: flex-end
+    align-self: flex-end;
 }
 .order-folders-in-back-of-metal-basket>div{
     width: 80%;
@@ -202,26 +202,26 @@
 }
 .order-folders-in-back-of-metal-basket>div:first-child{
     margin-top: 6px;
-    right: 9px
+    right: 9px;
 }
 .order-folders-in-back-of-metal-basket>div:nth-child(2){
     margin-top: 19px;
-    right: 16px
+    right: 16px;
 }
 .order-folders-in-back-of-metal-basket>div:nth-child(3){
     margin-top: 32px;
-    right: 23px
+    right: 23px;
 }
 .order-folders-in-back-of-metal-basket>div:nth-child(4){
     margin-top: 46px;
-    right: 31px
+    right: 31px;
 }
 .position-metal-basket{
     position: absolute;
     width: 17%;
     height: 5.2vw;
     margin-top: 80px;
-    border:solid thin orangered
+    /* border:solid thin orangered */
 }
 .poster-wood-order-and-style{
     background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
@@ -240,7 +240,7 @@
     background-color: #444444;
     width: 8px;
     height: 8px;
-    border-radius: 50%
+    border-radius: 50%;
 }
 .poster-wood-order-and-style>h2{
     margin: 0;
@@ -291,7 +291,7 @@
     /* border: solid #E1C815; */
 }
 .anchord-proyect-p-styles:hover{
-    color: rgb(242, 108, 78);
+    color:var(--orange-color);
 }
 .in-process-position-metal-baske-order{
     width: 100%;
