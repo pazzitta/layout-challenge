@@ -4,9 +4,21 @@
     box-sizing: border-box;
     font-size: 16px;
 }
-/* @link 
-https://utopia.fyi/type/calculator?c=320,21,1.2,1140,24,1.25,5,2,&s=0.75|0.5|0.25,1.5|
-2|3|4|6,s-l */
+:root{
+    --name-text-shadow: .1vw .1vw .2vw;
+    --purple-color: rgb(113, 54, 244);
+    --purple-shadow: rgba(113, 54, 244, 0.5);
+    --fuchsia-color:rgb(246, 47, 85);
+    --fuchsia-shadow:rgba(246, 47, 85, 0.5);
+    --blue-color:rgb(80, 88, 239);
+    --blue-shadow:rgba(80, 88, 239, 0.5);
+    --green-color:rgb(13, 221, 121);
+    --green-shadow: rgba(13, 221, 121, 0.5);
+    --yellow-color:rgb(249, 222, 78);
+    --yellow-shadow:rgba(249, 222, 78, 0.5);
+    --orange-color:rgb(242, 108, 78);
+    --orange-shadow:rgba(242, 108, 78, 0.5);
+}
 
 .base-illustration-component-order{
     width: 100%;
