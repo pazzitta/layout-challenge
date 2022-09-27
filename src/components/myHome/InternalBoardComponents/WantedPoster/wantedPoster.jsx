@@ -8,7 +8,7 @@ const WantedPoster = () => {
         <div className='order-wanted-poster'>
             <div className='order-and-style-base-wanted-poster'>
                 <h3>WANTED</h3>
-                <p>SE BUSCA POR EL CRIMEN DE SUFRIR SÍNDROME DEL IMPOSTOR EN ENTREVISTA TÉCNICA Y HACER CHISTE MALOS PARA DESVIAR LA ATENCIÓN</p>
+                <p>SE BUSCA POR EL CRIMEN DE SUFRIR SÍNDROME DEL IMPOSTOR EN ENTREVISTAS DE TRABAJO Y HACER CHISTES MALOS PARA DESVIAR LA ATENCIÓN</p>
                 <img src={MyPicture} alt="imagen mía" />
                 <article>
                     <p>reclamar recompensa</p>
