@@ -198,7 +198,7 @@
 .order-folders-in-back-of-metal-basket>div{
     width: 80%;
     position: absolute;
-    /* border:solid #3842F1; */
+    border:solid #3842F1;
 }
 .order-folders-in-back-of-metal-basket>div:first-child{
     margin-top: 6px;
@@ -318,7 +318,7 @@
     right: 35px;
     width: 72%;
     height: 7vw;
-    /* border: solid thin #0DDD79; */
+    border: solid thin #0DDD79;
 }
 .in-process-position-metal-basket{
     position: absolute;
