@@ -5,37 +5,37 @@
 }
 .metal-basket-container{
     width: 100%;
-    height: 5.5vw;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    border: solid thin red;
 }
 .top-line-metal-basket{
     border: solid;
-    width: 100%
+    width: 100%;
+    border-radius: .3vw;
 }
 .middle-box-metal-basket{
-    width: 90%;
+    width: 89%;
     height: 4.8vw;
     align-self: center;
     display: flex;
     position: relative;
-    /* border: solid thin hotpink; */
 }
 .middle-box-metal-basket>div:first-child{
     border-left: solid;
-    width: 1px;
-    border-width: 5px;
-    height: 5vw;
-    transform: rotate(-15deg)
+    width: .1vw;
+    border-width: .35vw;
+    height: 105%;
+    transform: rotate(-14deg);
+    border-radius: .5vw;
 }
 .middle-box-metal-basket>div:nth-child(2){
     border-left: solid;
     border-right: solid;
-    width: 30px;
+    width: 3vw;
     margin-left: 10px;
-    border-width: 5px;
-    height: 4.8vw;
+    border-width: .35vw;
+    height: 100%;
 }
 .middle-box-metal-basket>div:nth-child(3),
 .middle-box-metal-basket>div:nth-child(4),
@@ -43,23 +43,24 @@
 .middle-box-metal-basket>div:nth-child(6),
 .middle-box-metal-basket>div:nth-child(7){
     border-right: solid;
-    width: 30px;
-    border-width: 5px;
-    height: 4.8vw;
+    width: 3vw;
+    border-width: .35vw;
+    height: 100%;
 }
 .middle-box-metal-basket>div:nth-child(8){
     border-right: solid;
-    width: 30px;
+    width: 3vw;
     margin-right: 10px;
-    border-width: 5px;
-    height: 4.8vw;
+    border-width: .35vw;
+    height: 100%;
 }
 .middle-box-metal-basket>div:last-child{
     border-left: solid;
-    width: 1px;
-    border-width: 5px;
-    height: 5vw;
-    transform: rotate(15deg)
+    width: .1vw;
+    border-width: .35vw;
+    height: 105%;
+    transform: rotate(14deg);
+    border-radius: .5vw;
 }
 .internal-middle-box-metal-basket{
     position: absolute;
@@ -74,43 +75,19 @@
     position: relative;
     border: solid;
     width: 90%;
-    height: 1px;
-    align-self: center
+    height: .1vw;
+    align-self: center;
 }
 .internal-middle-box-metal-basket>div:last-child{
     align-self: center;
     position: relative;
     border: solid;
-    width: 85%;
-    height: 1px;
+    width: 83%;
+    height: .1vw;
 }
 .bottom-line-metal-basket{
     align-self: center;
     border: solid;
-    width: 80%;
+    width: 77%;
+    border-radius: .7vw;
 }
-/* PC AND NOTEBOOKS 
-1728x1117 
-1600x900 
-@media(max-width: 1600px){
-
-}
-1512x982
-@media(max-width: 1512px){
-
-}
-1440x1024
-@media(max-width: 1440px){
-    
-}
-1366x768
-@media(max-width: 1366px){
-    
-
-}
-@media(max-width: 1024px){
-    .metal-basket-container{
-        height: 7vw;
-    }
-
-} */

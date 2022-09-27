@@ -10,10 +10,15 @@
 }
 /* ALLBOARDCONTENT.JSX */
 .order-all-board-content{
-    width: 80%;
-    height: 73.3vh;
     position: absolute;
+    /* top: 180px; */
+    /* top: 19vh; */
     top: 180px;
+    /* top: 138px;
+    top: clamp(138px, 19%, 180px);
+    top: 9vw; */
+    width: 66%;
+    height: 73%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,33 +31,31 @@
     height: 92.5%;
     display: flex;
     justify-content: space-between;
+    /* border: solid thin red; */
 }
    /* Label section one */
 .section-one>section:first-child{
-    width: 34%;
+    width: 33.333333333333333333333333333333%;
     display: flex;
     flex-direction: column;
-    border: solid thin rgb(128, 0, 119);
 }
 .section-one>section:first-child>div:first-child{
     width: 100%;
-    height: 40%;
+    height: 45%;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border:solid thin #0DDD79; */
 }
 .section-one>section:first-child>div:nth-child(2){
     width: 100%;
-    height: 9%;
+    height: 8%;
     display: flex;
     align-items: flex-end;
-    /* border: solid thin skyblue; */
 }
 .hotpink-note-background-one{
-    background-color: #F44D6D;
+    background-color:var(--light-fuchsia-color);
     width: 14.5%;
-    height: 5.5vh;
+    height: 7%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,53 +65,51 @@
 .hotpink-note-background-one>p{
     font-family: 'Abel', sans-serif;
     color: white;
-    font-size: 2.4em
+    font-size: clamp(1em, 2vw, 4em);
 }
 .order-note-scotch-tape-one{
     display: flex;
     justify-content: space-between;
     position: relative;
     width:50%;
-    right: -3px;
-    height: 5.3vh;
+    left: 2%;
+    height: 100%;
 }
 .order-note-scotch-tape-one>div:first-child,
 .order-note-scotch-tape-one>div:last-child{
     width: 14%;
-    height: 1.3vh;
+    height: 20%;
     background-color: #231E20;
-    transform: rotate(-50deg)
+    transform: rotate(-50deg);
 }
 .order-note-scotch-tape-one>div:first-child{
-    transform: rotate(-50deg)
+    transform: rotate(-50deg);
 }
 .order-note-scotch-tape-one>div:last-child{
-    transform: rotate(45deg)
+    transform: rotate(50deg);
 }
 .section-one>section:first-child>div:last-child{
     width: 100%;
-    height: 51%;
+    height: 47%;
     display: flex;
     justify-content: center;
-    /* border: solid thin khaki; */
 }
    /* Label section two */
 .section-one>section:last-child{
-    width: 66%;
+    width: 66.666666666666666666666666666667%;
     display: flex;
     flex-direction: column;
     border:solid thin rgb(61, 13, 108);
 }
 .section-one>section:last-child>div:first-child{
    width: 100%;
-   height: 14%;
+   height: 12%;
    display: flex;
    justify-content: center;
-   border: solid thin #E1C815;
 }
 .section-one>section:last-child>div:nth-child(2){
     width: 100%;
-    height: 62%;
+    height: 63%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -116,7 +117,7 @@
 }
 .section-one>section:last-child>div:last-child{
     width: 100%;
-    height: 24%;
+    height: 25%;
     display: flex;
     border: solid thin rgb(32, 135, 32);
 }
@@ -125,23 +126,23 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 35%;
-    height: 7.8vh;
-    margin-top: 1vw;
+    width: 40%;
+    height: 80%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    align-self: flex-end;
 }
 .layouts-poster-wood-order-and-style>div{
-    background-color: #444444;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%
+    background-color: var(--dark-gray-color);
+    width: .5vw;
+    height: .5vw;
+    border-radius: 50%;
 }
 .layouts-poster-wood-order-and-style>h2{
     margin: 0;
-    font-size: 2em;
-    line-height: 1em;
+    font-size: 1.4vw;
+    line-height: 1.4vw;
     letter-spacing: 4px;
     width: 85%;
     color: white;
@@ -150,38 +151,38 @@
 .section-one>section:last-child>div:nth-child(2)>a{
     color: black;
     width: 27%;
-    height: 10vw;
+    height: clamp(100px, 10vw, 17em);
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: url('../../assets/myHome/Create/brushPointer.png'), pointer;
-    border:solid orangered
+    /* border:solid thin orangered */
 }
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(2),
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(3){
-    margin-left: 85px;
+    margin-left:3vw;
 }
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(4){
-    margin-right:50px
+    margin-right:1.5vw;
 }
 .section-one>section:last-child>div:nth-child(2)>a:last-child{
-    margin-left: 50px
+    margin-left:1.5vw;
 }
 .section-one>section:last-child>div:nth-child(2)>a:first-child:hover{
-    color: #7136F4
+    color: var(--purple-color);
 }
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(2):hover{
-    color: #F62F55
+    color: var(--fuchsia-color);
 }
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(3):hover{
-    color: #3842F1
+    color: var(--blue-color);
 }
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(4):hover{
-    color: #0DDD79
+    color: var(--green-color);
 }
 .section-one>section:last-child>div:nth-child(2)>a:last-child:hover{
-    color: #E1C815
+    color: var(--yellow-color);
 }
 /* order-folders-in-back-of-metal-basket */
 .order-folders-in-back-of-metal-basket{
@@ -192,62 +193,63 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    align-self: flex-end
+    align-self: flex-end;
 }
 .order-folders-in-back-of-metal-basket>div{
     width: 80%;
     position: absolute;
-    /* border:solid #3842F1; */
-
+    border:solid #3842F1;
 }
 .order-folders-in-back-of-metal-basket>div:first-child{
     margin-top: 6px;
-    right: 9px
+    right: 9px;
 }
 .order-folders-in-back-of-metal-basket>div:nth-child(2){
     margin-top: 19px;
-    right: 16px
+    right: 16px;
 }
 .order-folders-in-back-of-metal-basket>div:nth-child(3){
     margin-top: 32px;
-    right: 23px
+    right: 23px;
 }
 .order-folders-in-back-of-metal-basket>div:nth-child(4){
     margin-top: 46px;
-    right: 31px
+    right: 31px;
 }
 .position-metal-basket{
     position: absolute;
     width: 17%;
-    height: 5.2vw;
-    margin-top: 80px;
-    border:solid thin orangered
+    height: 5.6vw;
+    margin-top: 4vw;
+    /* border:solid thin gold */
 }
-.poster-wood-order-and-style{
+.poster-wood-order-and-style,
+.in-process-poster-wood-order-and-style{
     background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 60%;
-    height: 3.5vw;
+    height: 3.3vw;
     position: relative;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 4vw;
 }
-.poster-wood-order-and-style>div{
-    background-color: #444444;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%
+.poster-wood-order-and-style>div,
+.in-process-poster-wood-order-and-style>div{
+    background-color: var(--dark-gray-color);
+    width: .3vw;
+    height: .3vw;
+    border-radius: 50%;
 }
 .poster-wood-order-and-style>h2{
     margin: 0;
-    font-size: 1.8em;
-    line-height: 24px;
-    letter-spacing: 4px;
-    width: 80%;
+    font-size: 1.2vw;
+    line-height: 1.1vw;
+    letter-spacing: .2vw;
+    width: 75%;
     color: white;
     font-family: 'Abel', sans-serif;
 }
@@ -257,23 +259,22 @@
     background-position: center;
     background-repeat: no-repeat;
     width: 30%;
-    height: 5vh;
+    height: 2.5vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 10px;
 }
 .proyect-p-poster-wood-order-and-style>div{
-    background-color: #444444;
-    width: 10px;
-    height: 10px;
+    background-color: var(--dark-gray-color);
+    width: .5vw;
+    height: .5vw;
     border-radius: 50%;
 }
 .proyect-p-poster-wood-order-and-style>h2{
     margin: 0;
-    font-size: 1.6em;
-    letter-spacing: 4px;
-    width: 80%;
+    font-size: 1.3vw;
+    letter-spacing: .2vw;
+    width: 70%;
     color: white;
     font-family: 'Abel', sans-serif;
 }
@@ -281,7 +282,7 @@
     text-decoration: none;
     color: black;
     width: 27%;
-    height: 8vw;
+    height: clamp(80px, 8vw, 15em);
     cursor: url('../../assets/myHome/AllBoardContent/magnifyingGlassCursor.png'), pointer;
     display: flex;
     align-items: flex-end;
@@ -291,7 +292,7 @@
     /* border: solid #E1C815; */
 }
 .anchord-proyect-p-styles:hover{
-    color: rgb(242, 108, 78);
+    color:var(--orange-color);
 }
 .in-process-position-metal-baske-order{
     width: 100%;
@@ -317,37 +318,24 @@
     right: 35px;
     width: 72%;
     height: 7vw;
-    /* border: solid thin #0DDD79; */
+    border: solid thin #0DDD79;
 }
 .in-process-position-metal-basket{
     position: absolute;
     width: 95%;
+    height: 5.1vw;
     display: flex;
     justify-content: center;
+    /* border:solid thin gold */
 }
 .in-process-poster-wood-order-and-style{
-    background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 60%;
-    height: 3.3vw;
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.in-process-poster-wood-order-and-style>div{
-    background-color: #444444;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
+    margin-top: 0;
 }
 .in-process-poster-wood-order-and-style>h2{
     margin: 0;
-    font-size: 1.5em;
-    letter-spacing: 3px;
-    width: 80%;
+    font-size: .9vw;
+    letter-spacing: .1vw;
+    width: 75%;
     color: white;
     font-family: 'Abel', sans-serif;
 }

@@ -4,151 +4,49 @@
     box-sizing: border-box;
 }
 .blackboard-order{
-    width: 72%;
-    height: 24vh;
+    width: 90%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* border: solid thin orange; */
 }
 .blackboard-order>div:first-child{
-    width: 23%;
-    height: 24vh;
+    position: absolute;
+    width: 28.5%;
+    height: 34%;
     background-image: url('../../../../assets/myHome/AllBoardContent/colorBackgroundBoard.jpg');
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center;
-    position: absolute
 }
 .blackboard-order>div:nth-child(2){
-    width: 22%;
-    height: 22vh;
-    background-color: #212121;
-    position: absolute
-}
-.blackboard-order>div:last-child{
-    width: 20%;
-    height: 20vh;
     position: absolute;
+    width: 27%;
+    height: 31.5%;
+    background-color: #212121;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .blackboard-text-order-and-style{
     font-family: 'Patrick Hand', cursive;
     font-size: 1.8em;
+    font-size: clamp(1em, 1.6vw, 3em);
     color: white;
-    width: 100%;
+    width: 90%;
     height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .blackboard-text-order-and-style>p{
     margin: 0;
     font-size: 2em;
     font-weight: 600;
     color: white;
-    position: relative;
-    bottom: 32px;
-    left: 130px;
+    line-height: .5em;
+    width: 25%;
+    align-self: flex-end;
 }
-/* PC AND NOTEBOOKS
-1728x1117 
-1600x900
-@media(max-width: 1600px){
-    .blackboard-text-order-and-style{
-        font-size: 1.55em;
-        line-height: 1.3em;
-    }
-    .blackboard-text-order-and-style>p{
-        bottom: 12px;
-        left: 95px;
-    } 
-}
-1512x982 
-@media(max-width: 1512px){
-    .blackboard-order{
-        width:80%;
-        height: 23vh;
-    }
-    .blackboard-order>div:first-child{
-        width: 24.3%;
-        height: 23vh;
-    }
-    .blackboard-order>div:nth-child(2){
-        width: 23%;
-        height: 21vh;
-    }
-    .blackboard-order>div:last-child{
-        width: 21.5%;
-        height: 19.5vh;
-    }
-    .blackboard-text-order-and-style{
-        font-size: 1.68em;
-    } 
-}
-1440x1024 
-@media(max-width: 1440px){
-    .blackboard-order{
-        width:85%;
-    }
-    .blackboard-order>div:first-child{
-        width: 26%;
-    }
-    .blackboard-order>div:nth-child(2){
-        width: 24.7%;
-    }
-    .blackboard-order>div:last-child{
-        width: 22.5%;
-        height: 16vh;
-    }
-    .blackboard-text-order-and-style{
-        font-size: 1.64em;
-    } 
-    .blackboard-text-order-and-style>p{
-        bottom: 24px;
-        left: 90px;
-    }
-}
-1366x768 
-@media(max-width: 1366px){
-    .blackboard-order>div:last-child{
-        height: 20vh;
-    }
-    .blackboard-text-order-and-style{
-        font-size: 1.5em;
-    } 
-    .blackboard-text-order-and-style>p{
-        bottom: 30px;
-    }
-   
-}
-TABLES 
-1024X1366 
-@media(max-width: 1024px){ 
-    .blackboard-order{
-        width: 65%;
-        height: 24vw;
-    }
-    .blackboard-order>div:first-child{
-        width:  64%;
-        height: 23vw;
-    }
-    .blackboard-order>div:nth-child(2){
-        width: 60%;
-        height: 21vw;
-    }
-    .blackboard-order>div:last-child{
-        width: 55%;
-        height: 19vw;
-    }
-    .blackboard-text-order-and-style{
-        font-size: 2em;
-    }
-    .blackboard-text-order-and-style>p{
-        transform: rotate(90deg);
-        font-size: 1.6em;
-        bottom: 0px;
-        left: 0px;
-    }
-} */
-
