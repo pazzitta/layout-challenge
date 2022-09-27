@@ -159,7 +159,7 @@ const AllBoardContent = () => {
                     <div>
                         <div className='proyect-p-poster-wood-order-and-style' >
                             <div></div>
-                            <h2>en construcción</h2>
+                            <h2>trabajando...</h2>
                             <div></div>
                         </div>
                         <a className='anchord-proyect-p-styles' href="/inConstruction">
