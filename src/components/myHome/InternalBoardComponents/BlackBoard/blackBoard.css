@@ -51,9 +51,9 @@
     bottom: 32px;
     left: 130px;
 }
-/* PC AND NOTEBOOKS */
-/* 1728x1117 */
-/* 1600x900 */
+/* PC AND NOTEBOOKS
+1728x1117 
+1600x900
 @media(max-width: 1600px){
     .blackboard-text-order-and-style{
         font-size: 1.55em;
@@ -64,7 +64,7 @@
         left: 95px;
     } 
 }
-/* 1512x982 */
+1512x982 
 @media(max-width: 1512px){
     .blackboard-order{
         width:80%;
@@ -86,7 +86,7 @@
         font-size: 1.68em;
     } 
 }
-/* 1440x1024 */
+1440x1024 
 @media(max-width: 1440px){
     .blackboard-order{
         width:85%;
@@ -109,7 +109,7 @@
         left: 90px;
     }
 }
-/* 1366x768 */
+1366x768 
 @media(max-width: 1366px){
     .blackboard-order>div:last-child{
         height: 20vh;
@@ -122,8 +122,8 @@
     }
    
 }
-/* TABLES */
-/* 1024X1366 */
+TABLES 
+1024X1366 
 @media(max-width: 1024px){ 
     .blackboard-order{
         width: 65%;
@@ -150,5 +150,5 @@
         bottom: 0px;
         left: 0px;
     }
-}
+} */
 

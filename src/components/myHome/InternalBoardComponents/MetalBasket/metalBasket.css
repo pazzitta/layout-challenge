@@ -8,7 +8,7 @@
     height: 5.5vw;
     display: flex;
     flex-direction: column;
-    /* border: solid thin red; */
+    border: solid thin red;
 }
 .top-line-metal-basket{
     border: solid;
@@ -89,22 +89,28 @@
     border: solid;
     width: 80%;
 }
-/* PC AND NOTEBOOKS */
-/* 1728x1117 */
-/* 1600x900 */
+/* PC AND NOTEBOOKS 
+1728x1117 
+1600x900 
 @media(max-width: 1600px){
 
 }
-/* 1512x982 */
+1512x982
 @media(max-width: 1512px){
 
 }
-/* 1440x1024 */
+1440x1024
 @media(max-width: 1440px){
     
 }
-/* 1366x768 */
+1366x768
 @media(max-width: 1366px){
     
 
 }
+@media(max-width: 1024px){
+    .metal-basket-container{
+        height: 7vw;
+    }
+
+} */

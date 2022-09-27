@@ -129,9 +129,9 @@
     left: 10px;
     
 }
-/* PC AND NOTEBOOKS */
-/* 1728x1117 */
-/* 1600x900 */
+/* PC AND NOTEBOOKS
+1728x1117 
+1600x900 
 @media(max-width: 1600px){
     .box-paper-markets{
         width: 3vw;
@@ -142,22 +142,22 @@
         height: 3.35vw;
     }
 }
-/* 1512x982 */
+1512x982
 @media(max-width: 1512px){
     .base-front-front-folder-style{
         height: 3.5vw;
     }
     
 }
-/* 1440x1024 */
+1440x1024
 @media(max-width: 1440px){
     .front-front-cover-folde-order{
        margin-top: 2px;
     }
     
 }
-/* 1366x768 */
+1366x768 
 @media(max-width: 1366px){
 
 
-}
+} */
