@@ -77,14 +77,26 @@
 @media screen and (max-width: 64em) and (orientation: portrait) {
     .order-all-componentes-board{
         width: 90%;
+        height: 93%;
     }
     .circle-line-order{
         margin-right: 2.7vw;
     }
     .circle-line-order>div{
-        background-color: white;
         width: .71vw;
         height: .71vw;
         margin-left: 2.6vw;
     } 
+    .board-base-style{
+        height: 93%;
+    }
+}
+@media screen and (max-width: 48em) and (orientation: portrait) {
+
+}
+@media screen and (max-width: 37.5em) and (orientation: portrait) {
+
+}
+@media screen and (max-width: 20em) and (orientation: portrait) {
+    
 }
