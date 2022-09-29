@@ -6,20 +6,25 @@
 }
 :root{
     --name-text-shadow: .1vw .1vw .2vw;
+    --folder-shadow:.05vw .05vw .1vw;
     --purple-color: rgb(113, 54, 244);
+    --light-purple-color: #814EF2;
     --purple-shadow: rgba(113, 54, 244, 0.5);
     --fuchsia-color:rgb(246, 47, 85);
+    --light-fuchsia-color:  #F44D6D;
     --fuchsia-shadow:rgba(246, 47, 85, 0.5);
     --blue-color:rgb(80, 88, 239);
+    --dark-blue-color:  #3842F1;
     --blue-shadow:rgba(80, 88, 239, 0.5);
     --green-color:rgb(13, 221, 121);
+    --light-green-color: #4EF2A3;
     --green-shadow: rgba(13, 221, 121, 0.5);
     --yellow-color:rgb(249, 222, 78);
+    --dark-yellow-color: #E1C815;
     --yellow-shadow:rgba(249, 222, 78, 0.5);
     --orange-color:rgb(242, 108, 78);
     --orange-shadow:rgba(242, 108, 78, 0.5);
     --background-color-board:  #505F71;
-    --light-fuchsia-color:  #F44D6D;
     --letter-black-color: #231E20;
     --dark-gray-color:  #444444;
 }

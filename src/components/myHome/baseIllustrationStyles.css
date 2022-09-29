@@ -11,19 +11,12 @@
 /* ALLBOARDCONTENT.JSX */
 .order-all-board-content{
     position: absolute;
-    /* top: 180px; */
-    /* top: 19vh; */
-    top: 180px;
-    /* top: 138px;
-    top: clamp(138px, 19%, 180px);
-    top: 9vw; */
+    top: 9.3vw;
     width: 66%;
     height: 73%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: solid gray; */
-    
 }
 /* General section one */
 .section-one{
@@ -31,7 +24,6 @@
     height: 92.5%;
     display: flex;
     justify-content: space-between;
-    /* border: solid thin red; */
 }
    /* Label section one */
 .section-one>section:first-child{
@@ -99,7 +91,6 @@
     width: 66.666666666666666666666666666667%;
     display: flex;
     flex-direction: column;
-    border:solid thin rgb(61, 13, 108);
 }
 .section-one>section:last-child>div:first-child{
    width: 100%;
@@ -113,13 +104,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: solid thin #1593e1;
 }
 .section-one>section:last-child>div:last-child{
     width: 100%;
     height: 25%;
     display: flex;
-    border: solid thin rgb(32, 135, 32);
 }
 .layouts-poster-wood-order-and-style{
     background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
@@ -157,7 +146,6 @@
     align-items: center;
     justify-content: center;
     cursor: url('../../assets/myHome/Create/brushPointer.png'), pointer;
-    /* border:solid thin orangered */
 }
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(2),
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(3){
@@ -184,44 +172,41 @@
 .section-one>section:last-child>div:nth-child(2)>a:last-child:hover{
     color: var(--yellow-color);
 }
-/* order-folders-in-back-of-metal-basket */
 .order-folders-in-back-of-metal-basket{
-    /* border: solid orange; */
     position: absolute;
     width: 16.8%;
-    height: 9.5vw;
+    height: 10vw;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     align-self: flex-end;
 }
 .order-folders-in-back-of-metal-basket>div{
-    width: 80%;
     position: absolute;
-    border:solid #3842F1;
+    width: 75%;
+    height: 65%;
 }
 .order-folders-in-back-of-metal-basket>div:first-child{
-    margin-top: 6px;
-    right: 9px;
+    margin-top: .6vw;
+    right: .5vw;
 }
 .order-folders-in-back-of-metal-basket>div:nth-child(2){
-    margin-top: 19px;
-    right: 16px;
+    margin-top: 1.3vw;
+    right: .9vw;
 }
 .order-folders-in-back-of-metal-basket>div:nth-child(3){
-    margin-top: 32px;
-    right: 23px;
+    margin-top: 2vw;
+    right: 1.3vw;
 }
 .order-folders-in-back-of-metal-basket>div:nth-child(4){
-    margin-top: 46px;
-    right: 31px;
+    margin-top: 2.8vw;
+    right: 1.7vw;
 }
 .position-metal-basket{
     position: absolute;
     width: 17%;
     height: 5.6vw;
     margin-top: 4vw;
-    /* border:solid thin gold */
 }
 .poster-wood-order-and-style,
 .in-process-poster-wood-order-and-style{
@@ -289,7 +274,6 @@
     justify-content: center;
     position: relative;
     left: 8%;
-    /* border: solid #E1C815; */
 }
 .anchord-proyect-p-styles:hover{
     color:var(--orange-color);
@@ -300,25 +284,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border:solid thin orangered */
 }
 .order-folders-in-back-of-metal-basket-two{
     position: absolute;
     width: 100%;
-    height: 7vw;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     align-self: flex-end;
-    /* border: solid thin violet; */
 }
 
 .order-folders-in-back-of-metal-basket-two>div{
     position: absolute;
-    right: 35px;
     width: 72%;
-    height: 7vw;
-    border: solid thin #0DDD79;
+    height: 6.3vw;
+    margin-top: 1.4vw;
+    right: 1.6vw;
 }
 .in-process-position-metal-basket{
     position: absolute;
@@ -326,7 +308,6 @@
     height: 5.1vw;
     display: flex;
     justify-content: center;
-    /* border:solid thin gold */
 }
 .in-process-poster-wood-order-and-style{
     margin-top: 0;
@@ -342,337 +323,16 @@
 /* General section two */
 .section-two{
     width: 96.4%;
-    height: 7%;
-}
-/* PC AND NOTEBOOKS 
-1728x1117
-1600x900
-@media (device-aspect-ratio: 16/9){
-
-}
-@media(max-width: 1600px){
-    .order-all-board-content{
-        width: 80%;
-        height: 73.3vh;
-        top: 151px;
-    }
-    .section-one{
-        height: 91.5%;
-    }
-    .order-note-scotch-tape-one{
-        left: 6px;
-        width:53%;
-    }
-    .order-note-scotch-tape-one>div:first-child,
-    .order-note-scotch-tape-one>div:last-child{
-        width: 16%;
-        height: 1.2vh;
-    }
-    .layouts-poster-wood-order-and-style{
-       align-self: flex-end;
-    }
-    .layouts-poster-wood-order-and-style>h2{
-        font-size: 1.8em;
-        line-height: 1em;
-        letter-spacing: 3px;
-        width: 80%;
-    }
-    .proyect-p-poster-wood-order-and-style>h2{
-        font-size: 1.4em;
-        letter-spacing: 3px;
-    }
-    .section-one>section:last-child>div:nth-child(2)>a{
-        width: 26%;
-        height: 9vw;
-    }
-    .section-one>section:last-child>div:nth-child(2)>a:nth-child(2),
-    .section-one>section:last-child>div:nth-child(2)>a:nth-child(3){
-        margin-left: 70px;
-    }
-    .section-one>section:last-child>div:nth-child(2)>a:nth-child(4){
-        margin-right:40px;
-    }
-    .section-one>section:last-child>div:nth-child(2)>a:last-child{
-        margin-left: 40px;
-    }
-    .poster-wood-order-and-style>h2{
-        font-size: 1.6em;
-        line-height: .8em;
-        letter-spacing: 3px;
-        width: 80%;
-    }
-    .poster-wood-order-and-style>div,
-    .in-process-poster-wood-order-and-style>div{
-        width: 6px;
-        height: 6px;
-    }
-    .in-process-poster-wood-order-and-style>h2{
-        font-size: 1.1em;
-    }
-    .layouts-poster-wood-order-and-style{
-        margin-top: 0px;
-    }
-    .section-one>section:first-child{
-        width: 32%;
-    }
-    .section-one>section:last-child{
-        width: 68%;
-    }
-    .order-folders-in-back-of-metal-basket{
-        width: 16.2%;
-        height: 9.3vw;
-    }
-    .section-one>section:last-child>div:first-child{
-        height: 13%;
-     }
-    .order-folders-in-back-of-metal-basket>div:first-child{
-        right: 6px;
-        margin-top: 7px;
-    }
-    .order-folders-in-back-of-metal-basket>div:nth-child(2){
-        right: 13px;
-        margin-top: 20px;
-    }
-    .order-folders-in-back-of-metal-basket>div:nth-child(3){
-        right: 20px;
-        margin-top: 33px;
-    }
-    .order-folders-in-back-of-metal-basket>div:nth-child(4){
-        right: 27px
-    }
-    .order-folders-in-back-of-metal-basket-two{
-        height: 7vw;
-    }
-    .anchord-proyect-p-styles{
-        width: 26%;
-        height: 7vw;
-        top: 5px;
-    }
-    .section-one>section:last-child>div:nth-child(2){
-        height: 63%;
-    }  
-}
-1512x982
-@media(max-width: 1512px){
-    .section-one{
-        height: 92.3%;
-    }
-    .poster-wood-order-and-style>h2{
-        font-size: 1.5em;
-        line-height: .75em;
-    }
-    .order-folders-in-back-of-metal-basket{
-        height: 9.6vw;
-    }
-    .order-folders-in-back-of-metal-basket>div:nth-child(3){
-        right: 18px
-    }
-    .order-folders-in-back-of-metal-basket>div:nth-child(4){
-        right: 25px
-    }
-    .section-one>section:last-child>div:first-child{
-        height: 16%;
-     }
-     .section-one>section:last-child>div:nth-child(2){
-        height: 60%;
-     }
-     .section-one>section:last-child>div:nth-child(2){
-        padding-top: 1vw;
-     }     
-}
-1440x1024
-@media(max-width: 1440px){
-    .section-one{
-        height: 92.4%;
-    }
-    .order-all-board-content{
-        width: 81%;
-        top: 188px;
-    }
-    .order-note-scotch-tape-one{
-        right: -7px;
-    }
-    .layouts-poster-wood-order-and-style>h2{
-        font-size: 1.7em;
-    }
-    .proyect-p-poster-wood-order-and-style>h2{
-        font-size: 1.3em;
-    }
-    .proyect-p-poster-wood-order-and-style>div{
-        width: 8px;
-        height: 8px;
-    }
-    .poster-wood-order-and-style>h2{
-        font-size: 1.45em;
-    }
-    .section-one>section:last-child>div:nth-child(2)>a:nth-child(2),
-    .section-one>section:last-child>div:nth-child(2)>a:nth-child(3){
-        margin-left: 60px
-    }
-    .section-one>section:last-child>div:nth-child(2)>a:nth-child(4){
-        margin-right:30px;
-    }
-    .section-one>section:last-child>div:nth-child(2)>a:last-child{
-        margin-left: 30px;
-    }
-    .in-process-poster-wood-order-and-style>h2{
-        font-size: 1em;
-    }
-    .order-folders-in-back-of-metal-basket>div:first-child{
-        margin-top: 1px;
-        right: 3px
-    }
-    .order-folders-in-back-of-metal-basket>div:nth-child(2){
-        margin-top: 14px;
-        right: 12px
-    }
-    .order-folders-in-back-of-metal-basket>div:nth-child(3){
-        margin-top: 27px;
-        right: 19px
-    }
-    .order-folders-in-back-of-metal-basket>div:nth-child(4){
-        margin-top: 41px;
-        right: 27px
-    }
-    .section-one>section:last-child>div:nth-child(2){
-       padding-top: 2vw;
-    }
-}
-1366x768
-@media(max-width: 1366px){
-    .order-all-board-content{
-        top: 140px;
-    }
-    .order-note-scotch-tape-one{
-        right: -8px;
-    }
-    .layouts-poster-wood-order-and-style>h2{
-        font-size: 1.5em;
-        line-height: 1.2em;
-    }
-    .proyect-p-poster-wood-order-and-style>h2{
-        font-size: 1.2em;
-    }
-    .proyect-p-poster-wood-order-and-style>div{
-        width: 7px;
-        height: 7px;
-    }
-    .poster-wood-order-and-style>h2{
-        font-size: 1.4em;
-    }
-    .in-process-poster-wood-order-and-style>h2{
-        font-size: 0.9em;
-    }
-    .section-one>section:last-child>div:nth-child(2){
-        padding-top: 0;
-    }
+    height: 6.8%;
 }
 
-TABLES
-1024X1366
-@media(max-width: 1024px){ 
+@media screen and (max-width: 100em) and (orientation: landscape) {
     .order-all-board-content{
-        height:1618px;
-    } 
-    .section-one{
-        width: 97%;
-        flex-direction: column;
-        justify-content: space-between;
-        border: solid thin goldenrod
-    }
-    .section-two{
-        width: 97%;
-        height: 4%;
-    }
-    .section-one>section:first-child{
-        position: absolute;
-        width: 97%;
-        height:1480px;
-        flex-direction: column;
-        border: solid thin rgb(128, 0, 119);
-    }
-    .section-one>section:first-child>div:first-child{
-        height: 25%;
-        margin-bottom: 95%;
-    }
-    .section-one>section:first-child>div:nth-child(2){
-        width: 100%;
-        height: 4%;
-        border: solid thin skyblue;
-    }
-    .section-one>section:first-child>div:last-child{
-        width: 100%;
-        height: 30%;
-        display: flex;
-        justify-content: center;
-        border: solid thin khaki;
-    }
-    .section-one>section:last-child{
-        width: 100%;
-        height: 51%;
-        border:solid thin rgb(61, 13, 108);
-        position: relative;
-        top:20%
-    }
-    .section-one>section:last-child>div:first-child{
-        height: 11%;
-    }
-    .section-one>section:last-child>div:nth-child(2){
-        width: 100%;
-        height: 64%;
-        border:solid #0DDD79;
-    }
-    .section-one>section:last-child>div:last-child{
-        width: 100%;
-        height: 24%;
-        display: flex;
-        border: solid rgb(32, 135, 32);
-    }
-    .layouts-poster-wood-order-and-style{
-        width: 50%;
-        height: 6vw;
-        margin-top: 1vw;
-    }
-    .layouts-poster-wood-order-and-style>h2{
-        font-size: 1.65em;
-        width: 90%;
-    }
-    .hotpink-note-background-one{
-        width: 30%;
-        height: 4vh;
-        margin-left: 14px;
-    }
-    .hotpink-note-background-one>p{
-        font-size: 3em
-    }
-    .order-note-scotch-tape-one{
-        width:32%;
-        height: 4vh;
-    }
-    .order-note-scotch-tape-one>div:first-child,
-    .order-note-scotch-tape-one>div:last-child{
-        width: 16%;
-        height: 1vh;
-    }
-    .section-one>section:last-child>div:nth-child(2)>a{
-        color: black;
-        width: 27%;
-        height: 18vw;
-    }
-    .position-metal-basket{
-        position: absolute;
-        width: 26%;
-        height: 7vw;
-        margin-top: 80px;
-        border:solid thin orangered
+        top: 10.1vw;
     }
 }
-CELULALARES 
-390x844
-@media(max-width: 390px){
-    
+@media screen and (max-width: 85.375em) and (orientation: landscape) {
+    .order-all-board-content{
+        top: 10.1vw;
+    }
 }
-360x640 
-@media(max-width: 360px){
-    
-} */
