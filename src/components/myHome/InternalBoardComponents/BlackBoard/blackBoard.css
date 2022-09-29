@@ -10,21 +10,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: solid thin orange; */
 }
-.blackboard-order>div:first-child{
-    position: absolute;
-    width: 28.5%;
-    height: 34%;
+.blackboard-order>div{
+    width: 100%;
+    height: 100%;
     background-image: url('../../../../assets/myHome/AllBoardContent/colorBackgroundBoard.jpg');
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.blackboard-order>div:nth-child(2){
-    position: absolute;
-    width: 27%;
-    height: 31.5%;
+.blackboard-order>div>div{
+    width:95%;
+    height: 95%;
     background-color: #212121;
     display: flex;
     justify-content: center;
@@ -32,8 +32,7 @@
 }
 .blackboard-text-order-and-style{
     font-family: 'Patrick Hand', cursive;
-    font-size: 1.8em;
-    font-size: clamp(1em, 1.6vw, 3em);
+    font-size: clamp(1.2em, 1.6vw, 3em);
     color: white;
     width: 90%;
     height: 95%;
@@ -49,4 +48,19 @@
     line-height: .5em;
     width: 25%;
     align-self: flex-end;
+}
+@media screen and (max-width: 64em) and (orientation: portrait) {
+    .blackboard-text-order-and-style{
+        font-size: clamp(1.2em, 4.5vw, 6em);
+    }
+    .blackboard-text-order-and-style>p{
+        font-size: 1.3em;
+        line-height: .1em;
+        width: 10%;
+        position: relative;
+        right: 4vw;
+        bottom: 2.5vw;
+        transform: rotate(90deg);
+    }
+    
 }

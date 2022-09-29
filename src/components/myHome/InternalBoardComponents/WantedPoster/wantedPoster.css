@@ -99,5 +99,16 @@
     .order-and-style-base-wanted-poster>img{
         width: 65%;
         height: auto;
+    }  
+}
+@media screen and (max-width: 64em) and (orientation: portrait) {
+    .order-and-style-base-wanted-poster>h3{
+        font-size:5.4vw; 
+    }
+    .order-and-style-base-wanted-poster>p{
+        font-size: 1.1vw;
+    }
+    .order-and-style-base-wanted-poster>article>p{
+        font-size: 1.6vw;
     }
 }
