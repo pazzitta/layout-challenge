@@ -6,6 +6,7 @@
 }
 :root{
     --name-text-shadow: .1vw .1vw .2vw;
+    --folder-shadow:.05vw .05vw .1vw;
     --purple-color: rgb(113, 54, 244);
     --purple-shadow: rgba(113, 54, 244, 0.5);
     --fuchsia-color:rgb(246, 47, 85);

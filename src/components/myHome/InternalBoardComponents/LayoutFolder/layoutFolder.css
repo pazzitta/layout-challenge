@@ -5,7 +5,7 @@
 }
 .box-layout-folder{
     width: 100%;
-    height: 7.1vw;
+    height: 100%;
     display: flex;
 }
 .box-back-folder,
@@ -16,73 +16,77 @@
 .box-back-folder{
     width: 100%;
     height: 100%;
+    /* border: solid; */
 }
 .back-folde-order{
     width: 100%;
     height: 100%;
-    /* border: solid teal; */
 }
-.front-folde-order{
-    width: 98%;
-}
-.flap-folder-order-and-style{
+
+.flap-folder-order-and-style,
+.flap-front-folder-order-and-style{
     width: 46%;
     height: 0px;
-    border-right: 15px solid transparent;
-    border-left: 15px solid transparent;
-    border-bottom: 30px solid #F6B14C;
-    margin-left: 8px
+    border-right: .8vw solid transparent;
+    border-left: .8vw solid transparent;
+    margin-left: .4vw;
+}
+.flap-folder-order-and-style{
+    border-bottom: 1.5vw solid #F6B14C;
 }
 .base-folder-style{
     background-color: #F6B14C;
     width: 100%;
-    height: 5vw;
-    border-radius: 10px;
+    height: 75%;
+    border-radius: .5vw;
+}
+.front-folde-order{
+    width: 98%;
+    height: 98%;
 }
 .flap-front-folder-order-and-style{
-    width: 45%;
-    height: 0px;
-    border-right: 15px solid transparent;
-    border-left: 15px solid transparent;
-    border-bottom: 30px solid #D68D23;
-    margin-left: 10px;
-    padding-top: 3px;
+    border-bottom: 1.5vw solid #D68D23;
+    padding-top: .1vw;
 }
 .flap-front-folder-order-and-style>div{
     background-color: white;
-    width: 95%;
-    height: .8vw;
+    width: 100%;
+    height: .7vw;
     display: flex;
     align-items: center;
-    margin-top: 6px;
-    border-radius: 2px;
+    margin-top: .4vw;
+    border-radius: .1vw;
 }
 .flap-front-folder-order-and-style>div>div{
     background-color: #F62F55;
-    width: 0.8vw;
-    height: .8vw;
+    width: 30%;
+    height: .7vw;
     display: flex;
-    border-bottom-left-radius: 2px;
-    border-top-left-radius: 2px;
-}
-.flap-front-folder-order-and-style>div>h4{
-    font-size: 8px;
+    border-bottom-left-radius: .1vw;
+    border-top-left-radius: .1vw;
 }
 .base-front-folder-style{
     background-color: #D68D23;
     width: 100%;
-    height: 5vw;
-    border-radius: 10px;
-    margin-left: 3px;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    height:74.5%;
+    border-radius: .5vw;
+    margin-left: .13vw;
+    box-shadow: var(--folder-shadow) rgba(0, 0, 0, 0.5);
+}
+.paper-ux-order{
+    position:absolute;
+    width: 90%;
+    height: 64%;
+    border-bottom-left-radius: .5vw;
+    border-bottom-right-radius: .5vw;
+    margin-top: 2vw;
+    left: .5vw;   
 }
 .box-fron-folder{
     width: 100%;
-    height: 5vw;
+    height: 73%;
     align-self:flex-end ;
     position: relative;
-    /* border: solid thin; */
-    
 }
 .front-front-cover-folde-order{
     display: flex;
@@ -93,71 +97,31 @@
 }
 .flap-front-front-folder-order-and-style{
     background-color: #F6B14C;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-top-right-radius: .5vw;
+    border-top-left-radius: .5vw;
     width: 55%;
-    height: 1.4vw;
+    height: 25%;
     align-self: flex-end;
-    margin-top: 2px;
-    box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.1);
+    margin-top: .1vw;
 }
 .base-front-front-folder-style{
     background-color: #F6B14C;
     width: 100%;
-    height: 3.02vw;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 5px;
+    height: 73%;
+    border-bottom-left-radius: .5vw;
+    border-bottom-right-radius: .5vw;
+    border-top-left-radius: .25vw;
     align-self: flex-end;
 }
 .box-paper-markets{
     position: relative;
-    width: 3vw;
-    height: 2.7vw;
-    top: 37px; 
+    width: 30%;
+    height: 51%;
+    top: 1.8vw;
 }
 .box-paper-markets>img{
     position: relative;
     width: 100%;
-    right: 5px;
+    height: auto;
+    right: .2vw;
 }
-.paper-ux-order{
-    position:absolute;
-    width: 90%;
-    height: 4.5vw ;
-    margin-top: 40px;
-    left: 10px;
-    
-}
-/* PC AND NOTEBOOKS
-1728x1117 
-1600x900 
-@media(max-width: 1600px){
-    .box-paper-markets{
-        width: 3vw;
-        height: 2.7vw;
-        top: 30px; 
-    }
-    .base-front-front-folder-style{
-        height: 3.35vw;
-    }
-}
-1512x982
-@media(max-width: 1512px){
-    .base-front-front-folder-style{
-        height: 3.5vw;
-    }
-    
-}
-1440x1024
-@media(max-width: 1440px){
-    .front-front-cover-folde-order{
-       margin-top: 2px;
-    }
-    
-}
-1366x768 
-@media(max-width: 1366px){
-
-
-} */
