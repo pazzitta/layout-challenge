@@ -27,9 +27,9 @@
 .order-a-yellow-pencil>div:first-child{
     width: 0;
     height: 0;
-    border-right: 10px solid transparent;
-    border-top: 10px solid transparent;
-    border-left: 10px solid transparent;
+    border-right: .5vw solid transparent;
+    border-top: .5vw solid transparent;
+    border-left: .5vw solid transparent;
 }
 .order-a-purple-pencil>div:last-child,
 .order-a-hotpink-pencil>div:last-child,
@@ -40,32 +40,32 @@
     height: 3.5vh;
 }
 .order-a-purple-pencil>div:first-child{
-    border-bottom: 14px solid #7136F4
+    border-bottom: .7vw solid var(--purple-color);
 }
 .order-a-purple-pencil>div:last-child{
-    background-color: #814EF2
+    background-color: var(--light-purple-color);
 }
 .order-a-hotpink-pencil>div:first-child{
-    border-bottom: 14px solid #F62F55
+    border-bottom: .7vw solid var(--fuchsia-color);
 }
 .order-a-hotpink-pencil>div:last-child{
-    background-color: #F44D6D
+    background-color: var( --light-fuchsia-color);
 }
 .order-a-blue-pencil>div:first-child{
-    border-bottom: 14px solid #3842F1
+    border-bottom: .7vw solid var(--dark-blue-color);
 }
 .order-a-blue-pencil>div:last-child{
-    background-color: #5058EF
+    background-color: var(--blue-color);
 }
 .order-a-green-pencil>div:first-child{
-    border-bottom: 14px solid #0DDD79
+    border-bottom: .7vw solid  var(--green-color);
 }
 .order-a-green-pencil>div:last-child{
-    background-color: #4EF2A3
+    background-color: var(--light-green-color);
 }
 .order-a-yellow-pencil>div:first-child{
-    border-bottom: 14px solid #E1C815
+    border-bottom: .7vw solid var(--dark-yellow-color)
 }
 .order-a-yellow-pencil>div:last-child{
-    background-color: #F2DE4E
+    background-color: var(--yellow-color);
 }
