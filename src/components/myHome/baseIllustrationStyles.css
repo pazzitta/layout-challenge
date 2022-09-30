@@ -374,9 +374,6 @@
     .hotpink-note-background-one{
         width: 25%;
         height: 4.5%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         margin-left: 16px;
     }
     .order-note-scotch-tape-one{
@@ -386,7 +383,7 @@
     }
     .section-one>section:last-child>div:nth-child(2)>a{
         width:25%;
-        height: clamp(100px, 13.5vw, 17em)
+        height: clamp(100px, 13.5vw, 17em);
     }
     .position-metal-basket{
         width: 22%;
@@ -412,7 +409,7 @@
         margin-top: 5.5vw;
     }
     .layouts-poster-wood-order-and-style>h2{
-        font-size:19px
+        font-size: 1.4vh;
     }
     .poster-wood-order-and-style>h2{
         font-size: 1.9vw;
@@ -447,5 +444,118 @@
     }
     .proyect-p-poster-wood-order-and-style>h2{
         font-size: 1.5vh;
+    }
+}
+@media screen and (max-width: 48em) and (orientation: portrait) {
+    .order-all-board-content{
+        top: 12vw;
+        width: 88%;
+        height: 85%;
+    }
+    .layouts-poster-wood-order-and-style>h2{
+        font-size: 1.1vh;
+    }
+    .hotpink-note-background-one>p{
+        font-size: 3vh;
+    }
+}
+@media screen and (max-width: 37.5em) and (orientation: portrait) {
+    .order-all-board-content{
+        top: 16.9vw;
+        width: 88%;
+        height: 130%;
+    }
+    .hotpink-note-background-one>p{
+        font-size: 3vh;
+    }
+    .section-one>section:first-child>div:first-child{
+        height:25%;
+        margin-bottom: 66vh;
+    }
+    .section-one>section:first-child>div:nth-child(2){
+        height: 4%;
+    }
+    .section-one>section:first-child>div:last-child{
+        width:55%;
+        height: 20%;
+    }
+    .hotpink-note-background-one{
+        height: 3.2%;
+        margin-left: 10px;
+    }
+    .section-one>section:last-child{
+        height: 54%;
+        margin-top: 28vh;
+    }
+    .section-one>section:last-child>div:nth-child(2)>a{
+        width:40%;
+        height: 13vh;
+    }
+    .section-one>section:last-child>div:nth-child(2)>a:first-child{
+        margin-right: 2vw;
+    }
+    .section-one>section:last-child>div:nth-child(2)>a:nth-child(3){
+        margin-left: 1vw;
+    }
+    .section-one>section:last-child>div:nth-child(2)>a:nth-child(2){
+        margin-left:0vw;
+    }
+    .section-one>section:last-child>div:nth-child(2)>a:nth-child(4){
+        margin-left:2vw;
+    }
+    .section-one>section:last-child>div:nth-child(2)>a:last-child{
+       top: 100px;
+    }
+    .section-one>section:last-child>div:nth-child(2){
+        height: 68%;
+    }
+    .section-one>section:last-child>div:last-child{
+        height: 20%;
+    }
+    .layouts-poster-wood-order-and-style>h2{
+        font-size: 1.7vh;
+        line-height: 1.7vh;
+    }
+    .position-metal-basket{
+        width: 30%;
+        height: 6.5vh;
+        margin-top: 6vh;
+    }
+    .order-folders-in-back-of-metal-basket{
+        width: 25%;
+        margin-bottom: 0vh;
+    }
+    .poster-wood-order-and-style,
+    .in-process-poster-wood-order-and-style{
+        height: 3.5vh;
+        width: 50%;
+        margin-top: 5.5vh;
+    }
+    .anchord-proyect-p-styles{
+        width:40%;
+        height: 9vh;
+        left: 4%;
+        top: 4vw;
+    }
+    .in-process-position-metal-basket{
+        width: 85%;
+        height: 7vh;
+        margin-bottom: 1vh;
+    }
+    .order-folders-in-back-of-metal-basket-two>div{
+        width: 65%;
+        height: 9vh;
+        right: 5.7vw;
+    }
+    .in-process-position-metal-baske-order>div:last-child{
+        margin-bottom: 1vh;
+    }
+    .poster-wood-order-and-style>h2{
+        font-size: 1.6vh;
+        width: 85%;
+        line-height: 1.5vh;
+    }
+    .in-process-poster-wood-order-and-style>h2{
+        font-size: 1.6vh;
     }
 }

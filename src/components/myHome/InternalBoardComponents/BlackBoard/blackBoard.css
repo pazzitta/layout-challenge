@@ -51,7 +51,7 @@
 }
 @media screen and (max-width: 64em) and (orientation: portrait) {
     .blackboard-text-order-and-style{
-        font-size: clamp(1.2em, 4.5vw, 6em);
+        font-size: clamp(2.12em, 4.5vw, 6em);
     }
     .blackboard-text-order-and-style>p{
         font-size: 1.3em;

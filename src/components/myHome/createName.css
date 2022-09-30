@@ -5,12 +5,11 @@
 }
 .main-name-order{
     width: 60%;
-    height: clamp(50px, 8vw, 9rem);
+    height: clamp(63px, 8vw, 9rem);
     display: flex;
     justify-content:center ;
     align-self: center;
     font-family: 'Allerta Stencil', sans-serif;
-    /* border: solid; */
 }
 .main-name-order>div:first-child,
 .main-name-order>div:last-child{
@@ -26,12 +25,12 @@
     background-position:center;
     background-clip: text;
     color: transparent;
-    font-size: clamp(2em, 6vw, 8em);
+    font-size: clamp(3em, 6vw, 8em);
 }
 .main-name-order>div:first-child>h2{
     margin: 0;
     margin-left: 1.5vw;
-    font-size: clamp(2em, 6vw, 8em);    
+    font-size: clamp(3em, 6vw, 8em);    
 }
 .main-name-order>div:last-child h2:first-child{
     margin-left: 0px;
@@ -61,3 +60,4 @@
     color: var(--orange-color);
     text-shadow: var(--name-text-shadow) var(--orange-shadow);
 }
+

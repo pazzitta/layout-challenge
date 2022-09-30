@@ -93,6 +93,11 @@
 }
 @media screen and (max-width: 64em) and (orientation: portrait) {
     .internal-middle-box-metal-basket{
-        height:7.5vw;
+        height:5.3vh;
+    }
+}
+@media screen and (max-width: 37.5em) and (orientation: portrait) {
+    .internal-middle-box-metal-basket{
+        height:6.4vh;
     }
 }
