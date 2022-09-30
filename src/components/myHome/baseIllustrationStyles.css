@@ -565,17 +565,26 @@
         width: 88%;
         height: 130%;
     }
+    .section-one>section:last-child>div:first-child{
+        height: 9%;
+    }
+    .section-one>section:last-child>div:nth-child(2){
+        height: 66%;
+    }
     .layouts-poster-wood-order-and-style{
         width: 50%;
     }
     .proyect-p-poster-wood-order-and-style{
         width: 30%;
-        margin-left: 0%;
+        margin-left: 2%;
     }
     .in-process-position-metal-basket{
         width: 85%;
         height: 6vh;
         margin-bottom: 1vh;
+    }
+    .anchord-proyect-p-styles{
+        left: 0%;
     }
     .order-folders-in-back-of-metal-basket-two>div{
         height: 7.2vh;
@@ -613,10 +622,25 @@
         margin-top: 2vh;
     }
 }
+@media screen and (max-width: 22.5em) and (orientation: portrait) {
+    .order-all-board-content{
+        height: 130.6%;
+    }
+    .hotpink-note-background-one{
+        width: 29%;
+    }
+    .section-one>section:first-child>div:last-child{
+        height: 23%;
+    }
+    .order-note-scotch-tape-one{
+        height: 85%;
+    }
+}
 @media screen and (max-width: 20em) and (orientation: portrait) {
     .order-all-board-content{
         top:25.3vw;
         width: 88%;
         height: 175%;
     }
+   
 }

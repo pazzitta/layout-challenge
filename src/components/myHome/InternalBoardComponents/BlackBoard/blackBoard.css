@@ -77,3 +77,12 @@
         transform: rotate(90deg);
     }
 }
+@media screen and (max-width: 22.5em) and (orientation: portrait) {
+    .blackboard-text-order-and-style{
+        font-size:1.3em;
+    }
+    .blackboard-text-order-and-style>p{
+        right: 13.5vh;
+        top: 1.5vh;
+    }
+}
