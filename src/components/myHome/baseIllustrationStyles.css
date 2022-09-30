@@ -131,7 +131,7 @@
 }
 .layouts-poster-wood-order-and-style>h2{
     margin: 0;
-    font-size: 1.4vw;
+    font-size: (100px, 1.4vw, 1.6vw);
     line-height: 1.4vw;
     letter-spacing: 4px;
     width: 85%;
@@ -140,7 +140,7 @@
 }
 .section-one>section:last-child>div:nth-child(2)>a{
     color: black;
-    width: 27%;
+    width:27%;
     height: clamp(100px, 10vw, 17em);
     text-decoration: none;
     display: flex;
@@ -385,5 +385,26 @@
         width:27%;
         height: 90%;
         left: 1%;
+    }
+    .section-one>section:last-child>div:nth-child(2)>a{
+        width:25%;
+        height: clamp(100px, 13.5vw, 17em)
+    }
+    .position-metal-basket{
+        width: 22%;
+        height: 5.5vh;
+        margin-top: 5.5vw;
+    }
+    .layouts-poster-wood-order-and-style{
+        align-self: flex-start;
+    }
+    .order-folders-in-back-of-metal-basket{
+        width: 18%;
+        height: 9vh;
+        margin-left: 1vw ;
+    }
+    .order-folders-in-back-of-metal-basket>div{
+        width: 90%;
+        height: 70%;
     }
 }

@@ -16,7 +16,7 @@
 }
 .middle-box-metal-basket{
     width: 89%;
-    height: 4.8vw;
+    height: 9.3vh;
     align-self: center;
     display: flex;
     position: relative;
@@ -24,7 +24,7 @@
 .middle-box-metal-basket>div:first-child{
     border-left: solid;
     width: .1vw;
-    border-width: .35vw;
+    border-width: clamp(.5vh, .35vw, .4vw);
     height: 105%;
     transform: rotate(-14deg);
     border-radius: .5vw;
@@ -34,7 +34,7 @@
     border-right: solid;
     width: 3vw;
     margin-left: 10px;
-    border-width: .35vw;
+    border-width: clamp(.5vh, .35vw, .4vw);
     height: 100%;
 }
 .middle-box-metal-basket>div:nth-child(3),
@@ -44,20 +44,20 @@
 .middle-box-metal-basket>div:nth-child(7){
     border-right: solid;
     width: 3vw;
-    border-width: .35vw;
+    border-width: clamp(.5vh, .35vw, .4vw);
     height: 100%;
 }
 .middle-box-metal-basket>div:nth-child(8){
     border-right: solid;
     width: 3vw;
     margin-right: 10px;
-    border-width: .35vw;
+    border-width: clamp(.5vh, .35vw, .4vw);
     height: 100%;
 }
 .middle-box-metal-basket>div:last-child{
     border-left: solid;
     width: .1vw;
-    border-width: .35vw;
+    border-width: clamp(.5vh, .35vw, .4vw);
     height: 105%;
     transform: rotate(14deg);
     border-radius: .5vw;
@@ -90,4 +90,9 @@
     border: solid;
     width: 77%;
     border-radius: .7vw;
+}
+@media screen and (max-width: 64em) and (orientation: portrait) {
+    .internal-middle-box-metal-basket{
+        height:7.5vw;
+    }
 }

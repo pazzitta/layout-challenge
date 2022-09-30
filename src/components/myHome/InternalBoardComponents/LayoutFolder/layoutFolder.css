@@ -30,6 +30,7 @@
     border-right: .8vw solid transparent;
     border-left: .8vw solid transparent;
     margin-left: .4vw;
+    /* margin-left: .4vh; */
 }
 .flap-folder-order-and-style{
     border-bottom: 1.5vw solid #F6B14C;
