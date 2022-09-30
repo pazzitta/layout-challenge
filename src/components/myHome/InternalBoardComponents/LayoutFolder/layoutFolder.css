@@ -16,7 +16,6 @@
 .box-back-folder{
     width: 100%;
     height: 100%;
-    /* border: solid; */
 }
 .back-folde-order{
     width: 100%;
@@ -40,6 +39,7 @@
     width: 100%;
     height: 75%;
     border-radius: .5vw;
+    /* border: solid; */
 }
 .front-folde-order{
     width: 98%;
@@ -73,6 +73,7 @@
     border-radius: .5vw;
     margin-left: .13vw;
     box-shadow: var(--folder-shadow) rgba(0, 0, 0, 0.5);
+  
 }
 .paper-ux-order{
     position:absolute;
@@ -125,4 +126,31 @@
     width: 100%;
     height: auto;
     right: .2vw;
+}
+@media screen and (max-width: 64em) and (orientation: portrait) {
+    .flap-folder-order-and-style{
+        border-bottom: 2.6vw solid #F6B14C;
+    }
+    .flap-front-folder-order-and-style{
+        border-bottom: 2.4vw solid #D68D23;
+        padding-top: .2vw;
+    }
+    .flap-front-folder-order-and-style>div{
+        width: 95%;
+        height: 1.2vw;
+        margin-top: .6vw;
+    }
+    .flap-front-folder-order-and-style>div>div{
+        height: 1.2vw;
+    }
+    .paper-ux-order{
+        margin-top: 2.5vh;
+        left: .6vh;   
+    }
+    .box-paper-markets{
+        top: 2.5vh;
+    }
+    .box-paper-markets>img{
+        right: .5vw;
+    }
 }
