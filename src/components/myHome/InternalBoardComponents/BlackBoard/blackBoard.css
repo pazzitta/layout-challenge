@@ -62,5 +62,18 @@
         bottom: 2.5vw;
         transform: rotate(90deg);
     }
-    
+}
+@media screen and (max-width: 30em) and (orientation: portrait) {
+    .blackboard-text-order-and-style{
+        justify-content: flex-start;
+        margin-top: 2vh;
+    }
+    .blackboard-text-order-and-style{
+        font-size:1.5em;
+    }
+    .blackboard-text-order-and-style>p{
+        right: 12vh;
+        top: 1.5vh;
+        transform: rotate(90deg);
+    }
 }

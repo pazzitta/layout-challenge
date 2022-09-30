@@ -91,12 +91,8 @@
         height: 93%;
     }
 }
-@media screen and (max-width: 48em) and (orientation: portrait) {
-
-}
-@media screen and (max-width: 37.5em) and (orientation: portrait) {
-
-}
-@media screen and (max-width: 20em) and (orientation: portrait) {
-    
+@media screen and (max-width: 30em) and (orientation: portrait) {
+    .board-base-style{
+        height: 94%;
+    }
 }
