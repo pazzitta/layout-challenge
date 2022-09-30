@@ -386,7 +386,7 @@
     }
     .section-one>section:last-child>div:nth-child(2)>a{
         width:25%;
-        height: clamp(100px, 13.5vw, 17em)
+        height: clamp(100px, 13.5vw, 17em);
     }
     .position-metal-basket{
         width: 22%;
@@ -412,7 +412,7 @@
         margin-top: 5.5vw;
     }
     .layouts-poster-wood-order-and-style>h2{
-        font-size:19px
+        font-size: 1.4vh;
     }
     .poster-wood-order-and-style>h2{
         font-size: 1.9vw;
@@ -447,5 +447,18 @@
     }
     .proyect-p-poster-wood-order-and-style>h2{
         font-size: 1.5vh;
+    }
+}
+@media screen and (max-width: 48em) and (orientation: portrait) {
+    .order-all-board-content{
+        top: 12vw;
+        width: 88%;
+        height: 85%;
+    }
+    .layouts-poster-wood-order-and-style>h2{
+        font-size: 1.1vh;
+    }
+    .hotpink-note-background-one>p{
+        font-size: 3vh;
     }
 }
