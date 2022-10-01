@@ -51,7 +51,7 @@
 }
 @media screen and (max-width: 64em) and (orientation: portrait) {
     .blackboard-text-order-and-style{
-        font-size: clamp(2.12em, 4.5vw, 6em);
+        font-size: 4.5vw;
     }
     .blackboard-text-order-and-style>p{
         font-size: 1.3em;
@@ -67,22 +67,30 @@
     .blackboard-text-order-and-style{
         justify-content: flex-start;
         margin-top: 2vh;
-    }
-    .blackboard-text-order-and-style{
-        font-size:1.5em;
+        font-size:2.8vh;
     }
     .blackboard-text-order-and-style>p{
-        right: 12vh;
+        right: 27vw;
         top: 1.5vh;
-        transform: rotate(90deg);
     }
 }
 @media screen and (max-width: 22.5em) and (orientation: portrait) {
     .blackboard-text-order-and-style{
-        font-size:1.3em;
-    }
+        margin-top: 0vh;
+        font-size:3.2vh;
+        line-height: 1.2em;
+    }  
     .blackboard-text-order-and-style>p{
-        right: 13.5vh;
-        top: 1.5vh;
-    }
+        font-size: 1em;
+    } 
+}
+@media screen and (max-width: 20em) and (orientation: portrait) {
+    .blackboard-text-order-and-style{
+        width: 80%;
+        margin-top: .8vh;
+    }  
+    .blackboard-text-order-and-style>p{
+        right: 24.5vw;
+        top:2vh;
+    } 
 }
