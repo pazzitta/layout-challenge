@@ -565,17 +565,26 @@
         width: 88%;
         height: 130%;
     }
+    .section-one>section:last-child>div:first-child{
+        height: 9%;
+    }
+    .section-one>section:last-child>div:nth-child(2){
+        height: 66%;
+    }
     .layouts-poster-wood-order-and-style{
         width: 50%;
     }
     .proyect-p-poster-wood-order-and-style{
         width: 30%;
-        margin-left: 0%;
+        margin-left: 2%;
     }
     .in-process-position-metal-basket{
         width: 85%;
         height: 6vh;
         margin-bottom: 1vh;
+    }
+    .anchord-proyect-p-styles{
+        left: 0%;
     }
     .order-folders-in-back-of-metal-basket-two>div{
         height: 7.2vh;
@@ -613,10 +622,70 @@
         margin-top: 2vh;
     }
 }
+@media screen and (max-width: 22.5em) and (orientation: portrait) {
+    .order-all-board-content{
+        height: 130.6%;
+        top:24.5vw;
+    }
+    .position-metal-basket{
+        height: 6.5vh;
+    }
+    .hotpink-note-background-one{
+        width: 29%;
+    }
+    .order-note-scotch-tape-one{
+        height: 85%;
+    }
+    .order-folders-in-back-of-metal-basket{
+        height: 10vh;
+    }
+    .order-folders-in-back-of-metal-basket-two>div{
+        height: 8vh;
+        top: 1vh;
+    }
+    .section-one>section:first-child>div:last-child{
+        width:70%;
+        height: 23%;
+        margin-top: 1vh;
+    }
+}
 @media screen and (max-width: 20em) and (orientation: portrait) {
     .order-all-board-content{
         top:25.3vw;
-        width: 88%;
-        height: 175%;
+        height: 157%;
     }
+    .section-one>section:first-child>div:first-child{
+        height:20%;
+        margin-bottom: 83vh;
+    }
+    .section-one>section:first-child>div:last-child{
+        width:65%;
+        height: 23%;
+    }
+    .section-one>section:last-child{
+        height: 56%;
+        margin-top: 27vh;
+    }
+    .position-metal-basket{
+        height: 7.5vh;
+    }
+    .order-folders-in-back-of-metal-basket{
+        width: 27%;
+        height: 12vh;
+    }
+    .in-process-position-metal-basket{
+        width: 80%;
+        height: 8vh;
+        margin-bottom: 1vh;
+    }
+    .order-folders-in-back-of-metal-basket-two>div{
+        width: 62%;
+        height: 10vh;
+        top: 0vh;
+        right: 6.5vw;
+    }
+    .hotpink-note-background-one>p{
+        font-size: 3vh;
+    }
+   
 }

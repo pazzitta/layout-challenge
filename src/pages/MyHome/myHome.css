@@ -44,7 +44,7 @@
 }
 @media screen and (max-width: 20em) and (orientation: portrait) {
     .base-illustration-component-order{
-        height: 200vh;
+        height: 180vh;
     }
 }
 
