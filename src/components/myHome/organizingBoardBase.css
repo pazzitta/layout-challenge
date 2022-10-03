@@ -55,7 +55,7 @@
 .circle-line-order{
     width: 96%;
     height: 70vh;
-    height: 95%;
+    height: 97%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -68,6 +68,10 @@
     height: .35vw;
     border-radius: 50%;
     margin-left: 0.96vw;
+}
+.board-base-style>div:last-child{
+    height: 3%;
+    width: 96%;
 }
 .botton-frame-styles-and-order{
     background-image: url('../../assets/myHome/OrganizerBaseBoard/woodenBottomFrame.jpg');

@@ -1,7 +1,10 @@
 import './organizingBoardBase.css'
+import RowOfPencils from './InternalBoardComponents/RowOfPencils/rowOfPencils';
+import AllBoardContent from './allBoardContent';
 
 const OrganizingBoardBase = () => {
     return(
+        <>
         <div className="order-all-componentes-board">
             <div className="top-frame-styles-and-order">
                 <div></div>
@@ -143,13 +146,18 @@ const OrganizingBoardBase = () => {
                     <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                     <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                     <div></div><div></div><div></div>
-                </div>              
+                </div>
+                <div>
+                    <RowOfPencils/>              
+                </div>
             </div>
             <div className="botton-frame-styles-and-order">
                 <div></div>
                 <div></div>
             </div>
         </div>
+        <AllBoardContent/>
+        </>
     )
 }
 export default OrganizingBoardBase;
