@@ -1,5 +1,4 @@
 import './baseIllustrationStyles.css'
-import RowOfPencils from '../myHome/InternalBoardComponents/RowOfPencils/rowOfPencils'
 import Blackboard from './InternalBoardComponents/BlackBoard/blackboard';
 import WantedPoster from './InternalBoardComponents/WantedPoster/wantedPoster';
 import MetalBasket from './InternalBoardComponents/MetalBasket/metalBasket';
@@ -181,9 +180,6 @@ const AllBoardContent = () => {
                         </a>
                     </div>
                 </section>
-            </div>
-            <div className='section-two'>
-                <RowOfPencils/>
             </div>
         </div>
     )
