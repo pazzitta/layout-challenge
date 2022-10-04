@@ -338,7 +338,6 @@
         top: 9%;
         width: 85%;
         height: 86.2%;
-        border: solid thin red;
     }
     .section-one{
         height: 94%;
@@ -447,7 +446,7 @@
     }
     .section-one>section:first-child>div:first-child{
         height:23%;
-        margin-bottom: 128%;
+        margin-bottom: 128%;      
     }
     .section-one>section:first-child>div:nth-child(2){
         height: 4%;
