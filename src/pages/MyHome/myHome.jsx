@@ -8,7 +8,7 @@ const MyHome = () => {
         <div className='base-illustration-component-order'>
             <CreateName/>
             <OrganizingBoardBase/>
-            {/* <AllBoardContent/> */}
+            <AllBoardContent/>
         </div>
     )
 }
