@@ -54,45 +54,30 @@
 @media screen and (max-width: 64em) and (orientation: portrait) {
     .blackboard-text-order-and-style{
         font-size: 4.5vw;
+        line-height: 3.5vh;
     }
     .blackboard-text-order-and-style>p{
-        font-size: 1.3em;
-        line-height: .1em;
-        width: 10%;
-        position: relative;
-        right: 4vw;
-        bottom: 2.5vw;
+        font-size: 5vw;
         transform: rotate(90deg);
     }
 }
-@media screen and (max-width: 30em) and (orientation: portrait) {
+@media screen and (max-width: 37.5em) and (orientation: portrait){
     .blackboard-text-order-and-style{
-        justify-content: flex-start;
-        margin-top: 2vh;
-        font-size:2.8vh;
+        font-size: 5.5vw;
     }
     .blackboard-text-order-and-style>p{
-        right: 27vw;
+        position: relative;
+        right: 22vw;
         top: 1.5vh;
-    }
-}
-@media screen and (max-width: 22.5em) and (orientation: portrait) {
-    .blackboard-text-order-and-style{
-        margin-top: 0vh;
-        font-size:3.2vh;
-        line-height: 1.2em;
-    }  
-    .blackboard-text-order-and-style>p{
-        font-size: 1em;
     } 
 }
 @media screen and (max-width: 20em) and (orientation: portrait) {
-    .blackboard-text-order-and-style{
+    /* .blackboard-text-order-and-style{
         width: 80%;
         margin-top: .8vh;
     }  
     .blackboard-text-order-and-style>p{
         right: 24.5vw;
         top:2vh;
-    } 
+    }  */
 }
