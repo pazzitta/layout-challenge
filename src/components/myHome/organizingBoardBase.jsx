@@ -4,7 +4,6 @@ import AllBoardContent from './allBoardContent';
 
 const OrganizingBoardBase = () => {
     return(
-        <>
         <div className="order-all-componentes-board">
             <div className="top-frame-styles-and-order">
                 <div></div>
@@ -155,9 +154,8 @@ const OrganizingBoardBase = () => {
                 <div></div>
                 <div></div>
             </div>
+            {/* <AllBoardContent/> */}
         </div>
-        <AllBoardContent/>
-        </>
     )
 }
 export default OrganizingBoardBase;
