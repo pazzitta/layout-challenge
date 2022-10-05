@@ -13,6 +13,7 @@
     --fuchsia-color:rgb(246, 47, 85);
     --light-fuchsia-color:  #F44D6D;
     --fuchsia-shadow:rgba(246, 47, 85, 0.5);
+    --fuchsia-personal-page: #de2d49;
     --blue-color:rgb(80, 88, 239);
     --dark-blue-color:  #3842F1;
     --blue-shadow:rgba(80, 88, 239, 0.5);
@@ -27,6 +28,8 @@
     --background-color-board:  #505F71;
     --letter-black-color: #231E20;
     --dark-gray-color:  #444444;
+    --gray-layout-background-video:#383731;
+    --gray-text-personal-page:#3a3a3a;
 }
 
 .base-illustration-component-order{

@@ -4,80 +4,83 @@
     box-sizing: border-box
 }
 .all-page-order-product-one-detail{
-   background-color: white;
+    background-color: white;
     width: 100%;
-    height: 91vh;
+    height: 100%;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 .header-order-product-one-detail{
     width: 100%;
-    height: 10%
+    height: 10%;
 }
 .header-order-product-one-detail>nav{
-    display: flex
+    display: flex;
+    width: 100%;
+    height: 100%;
 }
 .left-white-rectangle-nav-product-one-detail{
     border-right: solid;
     border-bottom: solid;
-    width: 43px;
-    height: 93px
+    width: 2.2%;
+    height: 100%;
 }
 .brand-white-rectangle-nav-product-one-detail{
     border-right: solid;
     border-bottom: solid;
-    width: 397px;
-    height: 89px;
+    width: 23%;
+    height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 .brand-white-rectangle-nav-product-one-detail>h2{
-  letter-spacing: 1px;
-  font-size: 33px
+  letter-spacing: .1vw;
+  font-size: 1.7vw;
 }
 .yellow-rectangle-nav-product-one-detail{
     border-right: solid;
     border-bottom: solid;
-    width: 78px;
-    height: 89px;
-    background-color: #ffd300
+    width: 3%;
+    height: 100%;
+    background-color: #ffd300;
 }
 .order-main-white-rectangle-nav-product-one-detail{
     border-bottom: solid;
-    width: 1430px;
-    height: 89px;
+    width: 68.7%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
 }
 .order-main-white-rectangle-nav-product-one-detail>section{
-   width: 350px;
+   width: 45%;
    display: flex;
-   justify-content: space-evenly
+   justify-content: space-evenly;
 }
 .order-main-white-rectangle-nav-product-one-detail a{
     text-decoration: none;
     color: black;
     font-weight: 700;
-    font-size: 15px
+    font-size: .7vw;
 }
 .order-main-white-rectangle-nav-product-one-detail a:hover{
-    text-decoration: underline
+    text-decoration: underline;
 }
 .order-main-white-rectangle-nav-product-one-detail a>img{
     width: 35%;
+    height: auto;
     align-self: center;
     position: relative;
-    top: 2px
+    top: .1vw;
 }
 .order-main-white-rectangle-nav-product-one-detail>div{
-    width: 90px;
+    width: 12%;
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
-    margin-right: 20px
+    margin-right: 2vw;
 }
 .order-main-white-rectangle-nav-product-one-detail button{
     background-image: url('../../../assets/Details/ProductOne/magnifyingGlassBlack.png');
@@ -86,63 +89,68 @@
     background-size: cover;
     background-position:center;
     border: none;
-    width: 47px;
-    height: 23px;
-    cursor: pointer
+    width: 45%;
+    height: 1.3vw;
+    cursor: pointer;
 }
 .input-on-order-and-style{
     position: relative;
-    bottom: 70px;
-    left: 430px;
-    width: 250px;
-    height: 40px;
-    border-radius: 8px
+    bottom: 3.1vw;
+    left: 14.3vw;
+    width: 15vw;
+    height: 2vw;
+    border-radius: .4vw;
 }
 .red-rectangle-nav-product-one-detail{
     border-left: solid;
     border-bottom: solid;
     background-color: #e1191c;
-    width: 65px;
-    height: 89px
+    width: 3.2%;
+    height: 100%;
 }
 .main-order-product-one-detail{
     width: 100%;
     height: 84%;
     display: flex;
-    flex-direction: row
+    flex-direction: row;
 }
 .left-vertical-rectangle-main-product-one-detail{
     border-top: solid;
     border-right: solid;
     border-bottom: solid;
-    width: 42px
+    width: 2.2%;
+    height: 100%;
 }
 .black-left-vertical-rectangle-main-product-one-detail{
     background-color: black;
-    height: 200px
+    height: 30%;
+    width:100%;
 }
 .left-rectangle-order-product-image-main-product-one-detail{
     border-top: solid;
     border-right: solid;
     border-bottom: solid;
-    width: 350px;
+    width: 26%;
+    height: 100%;
     display: flex;
     flex-direction: column;   
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 .left-rectangle-order-product-image-main-product-one-detail>div:first-child{
-    width: 450px;
+    width: 100%;
+    height: 60%;
     display: flex;   
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 .left-rectangle-order-product-image-main-product-one-detail>div:last-child input{
-    width: 10px;
-    height: 10px
+    width: .5vw;
+    height: .5vw;
 }
 .left-rectangle-order-product-image-main-product-one-detail img{
-    width: 60%   
+    width: 70%;
+    height: auto;   
 }
 .previous-button-product-image-main-product-one-detail,
 .next-button-product-image-main-product-one-detail{
@@ -151,115 +159,124 @@
     border: none;
     background-color: transparent;
     background-position:center;
-    width: 20px;
-    height: 20px;
-    cursor: pointer
+    width: 1.3vw;
+    height: 1.3vw;
+    cursor: pointer;
 }
 .previous-button-product-image-main-product-one-detail{
-    background-image: url('../../../assets/Details/ProductOne/imagePreviousBlack.png')
+    background-image: url('../../../assets/Details/ProductOne/imagePreviousBlack.png');
 }
 .next-button-product-image-main-product-one-detail{
-    background-image: url('../../../assets/Details/ProductOne/imageNextBlack.png')
+    background-image: url('../../../assets/Details/ProductOne/imageNextBlack.png');
 }
 .middle-rectangle-order-product-image-main-product-one-detail{
     border-top: solid;
     border-right: solid;
     border-bottom: solid;
-    width: 313px;
+    width: 17%;
+    height: 100%;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 .top-gray-rectangle-middle-rectangle-main-product-one-detail{
     background-color: #cfcfcf;
     border-bottom: solid;
-    height: 70px
+    height: 8%;
+    width: 100%;
 }
 .section-one-middle-rectangle-main-clothes-D,
 .section-two-and-three-middle-rectangle-main-clothes-D{
     border-bottom: solid;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start
+    justify-content: flex-start;
+    width: 100%;
+}
+.section-one-middle-rectangle-main-clothes-D h4{
+    font-size: .8vw;
+    text-align: start;
+    margin-bottom: 0;
 }
 .section-one-middle-rectangle-main-clothes-D>p{
     margin-top: 0;
-    margin-bottom:10px;
+    margin-bottom:2vw;
     text-align: start;
-    margin-left: 25px
-}
-.section-one-middle-rectangle-main-clothes-D h4{
-    text-align: start;
-    margin-bottom: 5px
+    padding-left: 1vw;
+    font-size: .8vw;
 }
 .section-two-and-three-middle-rectangle-main-clothes-D h4{
-    text-align: start
+    text-align: start;
+    font-size: .8vw;
 }
 .middle-rectangle-order-product-image-main-product-one-detail>section>div{
     position: relative;
-    bottom: 30px;
+    bottom: 1.6vw;
     width: 85%;
     align-self: center;
-    display: flex
+    display: flex;
+    justify-content: space-between;
 }
 .middle-rectangle-order-product-image-main-product-one-detail button{
    border: solid thin;
    background-color: transparent;
-   width: 35px;
-   height: 33px;
-   margin-right: 10px;
-   font-size: 17px;
+   width: 1.3vw;
+   height: 1.3vw;
+   font-size: .8vw;
    font-weight: 600;
-   cursor: pointer
+   cursor: pointer;
 }
 .middle-rectangle-order-product-image-main-product-one-detail button:active,
 .middle-rectangle-order-product-image-main-product-one-detail button:focus{
     background-color: black;
-    color: white
+    color: white;
 } 
 .right-rectangle-order-product-image-main-product-one-detail{
     border-top: solid;
     border-right: solid;
     border-bottom: solid;
-    width: 1045px;
+    width:51.8%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
 }
 .right-rectangle-order-product-image-main-product-one-detail>img{
-    width: 70%;
-    align-self: center
+    width: 80%;
+    height: auto;
+    align-self: center;
 }
-.right-rectangle-order-product-image-main-product-one-detail>h1{
+.right-rectangle-order-product-image-main-product-one-detail>h2{
     width: 75%;
     align-self: flex-start;
-    font-size: 50px;
-    margin-bottom: 8px;
-    margin-top: 0
+    font-size: 2vw;
+    margin-bottom: .8vw;
+    margin-top: 0;
 }
 .right-rectangle-order-product-image-main-product-one-detail>small{
     margin: 0;
     width: 60%;
     align-self: flex-start;
-    margin-bottom: 30px;
-    padding-left: 22px
+    margin-bottom: 1.5vw;
+    padding-left: .5vw;
+    font-size: .6vw;
+    text-align: start;
+    margin-left: 2.8vw;
+    font-weight: 600;
 }
-.right-rectangle-order-product-image-main-product-one-detail>h2{
-    font-size: 50px;
+.right-rectangle-order-product-image-main-product-one-detail>h3{
+    font-size: 2.1vw;
     align-self: flex-start;
     width: 45%;
-    margin-top: 15px
+    margin-top: 2vw;
 }
 .right-right-rectangle-order-product-image-main-product-one-detail{
+    border-top: solid;
     border-bottom: solid;
-    width: 60px;
+    width: 3%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end
-}
-.right-rectangle-order-product-image-main-product-one-detail>small{
-    text-align: start;
-    margin-left: 55px;
-    font-weight: 600
+    justify-content: flex-end;
 }
 .right-right-rectangle-order-product-image-main-product-one-detail>button{
     background-image: url('../../../assets/Details/ProductOne/imageNextBlack.png');
@@ -268,45 +285,47 @@
     border: none;
     background-color: transparent;
     background-position:center;
-    width: 47px;
-    height: 45px;
-    cursor: pointer
+    width: 100%;
+    height: 5%;
+    cursor: pointer;
 }
 .footer-order-product-one-detail{
     width: 100%;
     height: 8%;
-    display: flex
+    display: flex;
 }
 .left-white-rectangle-footer-product-one-detail{
     border-right: solid;
-    width: 40px;
-    height: 69px
+    width: 1.45vw;
+    height: 100%;
 }
 .blue-rectangle-footer-product-one-detail{
     border-right: solid;
     background-color: #006bb6;
-    width: 434px
+    width: 26.6%;
 }
 .text-rectangle-footer-product-one-detail{
     border-right: solid;
-    width: 301px;
+    width: 17.5%;
     display: flex;
     align-items: center;
     justify-content: center
 }
 .text-rectangle-footer-product-one-detail>p{
-   font-weight: 700
+   font-weight: 700;
+   font-size: .8vw;
 }
 .yellow-rectangle-footer-product-one-detail{
     border-right: solid;
     background-color: #ffd300;
-    width: 799px
+    width: 39.4%;
 }
 .right-white-rectangle-footer-product-one-detail{
     border-right: solid;
-    width: 208px
+    width: 13.8%;
+
 }
 .right-white-no-line-rectangle-footer-product-one-detail{
     color: white;
-    width: 57px
+    width: 3%;
 }
