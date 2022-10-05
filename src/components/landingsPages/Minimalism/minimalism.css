@@ -85,5 +85,7 @@
 }
 .image-minimalism-LP{
   width: 1490px;
-  height: 485px
+  height: 485px;
+  width:100%;
+  height: auto;
 }
