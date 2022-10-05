@@ -62,13 +62,14 @@
 .poster-come-back-base-and-order{
     position: relative;
     width: 20%;
-    height: 85%;
+    height: 75%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     transform: rotate(5deg);
-    top: .2vw;
+    top: .8vw;
     right: 1.2vw;
+    border: solid thin;
 }
 .poster-come-back-base{
     position: absolute;
