@@ -253,13 +253,13 @@ const LayoutSectionContentOne = () => {
                         }
                         <div className='responsive-sizes-posters-order'>
                             <div className='responsive-sizes-posters-internal-order'>
-                                <h2 className='responsive-sizes-posters-base'>834x1194 px</h2>
+                                <h2 className='responsive-sizes-posters-base'>Tablet</h2>
                             </div>
                             <div className='responsive-sizes-posters-internal-order'>
-                                <h2 className='responsive-sizes-posters-base'>390x844 px</h2>
+                                <h2 className='responsive-sizes-posters-base'>Mobile M</h2>
                             </div>
                             <div className='responsive-sizes-posters-internal-order-last'>
-                                <h2 className='responsive-sizes-posters-base'>360x640 px</h2>
+                                <h2 className='responsive-sizes-posters-base'>Mobile S</h2>
                             </div>
                         </div>
                     </div>
@@ -304,15 +304,17 @@ const LayoutSectionContentOne = () => {
                         </div>
                     </div>                   
                 </div>
-                {
-                    pathname === '/landingPages' ? <BackgroundVideo/> : 
-                    pathname === '/homes' ? <PersonalPage/> :
-                    pathname === '/details' ? <ClothesDetail/> :
-                    pathname === '/forms' ? <LoginForm/> :
-                    <div className='news-card-order-section-content-one'>
-                        <NewsCard/>
-                    </div>
-                }
+                <div className='box-standard-layouts'>
+                    {
+                        pathname === '/landingPages' ? <BackgroundVideo/> : 
+                        pathname === '/homes' ? <PersonalPage/> :
+                        pathname === '/details' ? <ClothesDetail/> :
+                        pathname === '/forms' ? <LoginForm/> :
+                        <div className='news-card-order-section-content-one'>
+                            <NewsCard/>
+                        </div>
+                    }
+                </div>
             </section>
         </div>
     )

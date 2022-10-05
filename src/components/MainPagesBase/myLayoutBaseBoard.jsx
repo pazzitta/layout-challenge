@@ -8,121 +8,84 @@ const MyLayoutBaseBoard = () => {
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-            </div>
-            <div className="circle-line-order-modal">
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-            </div>
-            <div className="circle-line-order-modal">
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>        
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-            </div>
-            <div className="circle-line-order-modal">
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-            </div>
-            <div className="circle-line-order-modal">
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-            </div>
-            <div className="circle-line-order-modal">
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-            </div>
-            <div className="circle-line-order-modal">
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-            </div>
-            <div className="circle-line-order-modal">
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>          
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-            </div>
-            <div className="circle-line-order-modal">
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>           
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-            </div>
-            <div className="circle-line-order-modal">
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-            </div>
-            <div className="circle-line-order-modal">
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-            </div>
-            <div className="circle-line-order-modal">
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>        
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-            </div>
-            <div className="circle-line-order-modal">
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-            </div>
-            <div className="circle-line-order-modal">
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-            </div>
-            <div className="circle-line-order-modal">
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-            </div>
-            <div className="circle-line-order-modal">
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-            </div>
-            <div className="circle-line-order-modal">
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-            </div>
-            <div className="circle-line-order-modal">
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-            </div>
-            <div className="circle-line-order-modal">
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-            </div>
-            <div className="circle-line-order-modal">
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
                 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div>
             </div> 
         </div>
     </div>

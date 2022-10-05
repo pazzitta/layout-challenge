@@ -6,26 +6,27 @@
 /* ALLSECTIONCONTENT */
 .order-all-layout-section-content{
     width: 92%;
-    height: 2315px;
+    height: 240vh;
     display: flex;
     flex-direction: column;
     position: absolute;
-    margin-top: 200px
+    margin-top: 10vw;
+    border: solid thin rebeccapurple;
 }
 .section-identification-posters-order{
-    width: 250px;
-    height: 80px;
+    width: 12vw;
+    height: 4vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     position: relative;
-    top: 15px;
-    transform: rotate(-5deg)
+    top: 3%;
+    transform: rotate(-5deg);
 }
 .section-identification-posters-base{
-    background-color: #F62F55;
-    width: 200px;
-    height: 75px;
+    background-color: var(--fuchsia-color);
+    width: 87%;
+    height: 95%;
     align-self: center;
     position: absolute;
     text-decoration: none;
@@ -34,132 +35,133 @@
     align-items: center;
     color: white;
     font-family: 'Patrick Hand', cursive;
-    font-size: 30px;
-    line-height: 30px;
-    margin: 0
+    font-size: clamp(1.3em, 1.4vw, 1.7vw);
+    line-height: 1vw;
+    margin: 0;
 }
 .section-identification-posters-order>div:last-child{
-    width: 220px;
-    height: 15px;
+    width: 95%;
+    height: 20%;
     display: flex;
     justify-content: space-between;
     position: relative;
-    bottom: 60px;
-    align-self: center
+    bottom: 75%;
+    align-self: center;
 }
 .section-identification-posters-order>div>div{
-   background-color: #231E20;
-    width: 30px;
-    height: 10px
+   background-color: var(--letter-black-color);
+    width: 15%;
+    height: 80%;
 }
 .section-identification-posters-order>div>div:first-child{
-    transform: rotate(-35deg)
+    transform: rotate(-45deg)
 }
 .section-identification-posters-order>div>div:last-child{
-    transform: rotate(35deg)
+    transform: rotate(45deg)
 }
 .assets-section-order{
     width: 100%;
-    height: 700px
+    height: 31%;
 }
 .top-box-assets-section-order{
     width: 100%;
     height: 50%;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 .top-box-assets-section-order>div:nth-child(2){
     width: 95%;
-    height: 70%;
+    height: 71%;
     align-self: center;
-    margin-top: 25px
+    margin-top: 2%;
 }
 .order-all-wooden-signs-LSC{
    display: flex;
    justify-content: space-around;
-   width: 100%
+   width: 100%;
+   height: 20%;
 }
 .order-wooden-signs-LSC{
-    display: flex
+    display: flex;
+    width: 18%;
 }
 .order-wooden-signs-LSC>div{
     background-image: url('../../../assets/LandingPages/SmallWoodenSignBackground.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 216px;
-    height: 42px;
-    margin-bottom: 10px;
+    width: 100%;
+    height: 95%;
     display: flex;
     justify-content: space-around;
-    align-items: center
+    align-items: center;
 }
 .order-wooden-signs-LSC>div>div{
-    background-color: #444444;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%
+    background-color: var(--dark-gray-color);
+    width: .4vw;
+    height: .4vw;
+    border-radius: 50%;
 }
 .order-wooden-signs-LSC>div>h3{
-    width: 160px;
-    font-size: 22px;
+    width: 75%;
+    font-size: clamp(1.2em, 1.2vw, 1.5vw);
     color: white;
-    font-family: 'Abel', sans-serif
+    font-family: 'Abel', sans-serif;
 }
 .order-papers-assets{
     display: flex;
     justify-content: space-around;
     align-items:center;
     width: 100%;
-    height: 78%
+    height: 78%;
 }
 .papers-order-and-styles{
     width: 30%;
     height: 90%;
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
 }
 .papers-order-and-styles>div:first-child{
     background-color: #2c2b2b;
     width: 27%;
-    height: 180px;
+    height: 9.5vw;
     position: absolute;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: center
+    justify-content: center;
 }
 .papers-order-and-styles>div:first-child>h4{
     color: white;
     font-family: 'Patrick Hand', cursive;
-    font-size: 40px;
+    font-size: clamp(1.5em, 2vw, 2.1vw);
     margin: 0;
-    letter-spacing: 3px
+    letter-spacing: .2vw;
 }
 .papers-order-and-styles>div:last-child{
-   width: 420px;
-   height: 25px;
+   width: 105%;
+   height: 13%;
    position: relative;
    display: flex;
    justify-content: space-between;
-   align-items: center
+   align-items: center;
 }
 .papers-order-and-styles>div:last-child>div{
-    background-color: #F62F55;
-    width: 50px;
-    height: 20px
+    background-color: var(--fuchsia-color);
+    width: 13%;
+    height: 70%;
  }
 .papers-order-and-styles>div:last-child>div:first-child{
-    transform: rotate(-40deg);
+    transform: rotate(-45deg);
 }
 .papers-order-and-styles>div:last-child>div:last-child{
-    transform: rotate(40deg)
+    transform: rotate(45deg);
 }
 .botton-box-assets-section-order{
     width: 100%;
     height: 50%;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 .responsive-section-order,
 .responsive-section-order-gif{
@@ -167,130 +169,155 @@
     height: 75%;
     align-self: center;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
-.responsive-section-order>div,
-.responsive-section-order-gif>div{
-    /* border:solid #F62F55; */
+.responsive-section-order>div:first-child,
+.responsive-section-order-gif>div,
+.responsive-sizes-posters-order{
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
     width: 100%;
-    height: 100%;
+}
+
+.responsive-section-order>div:first-child,
+.responsive-section-order-gif>div{
+    height: 85%;
+}
+.responsive-sizes-posters-order{
+    height: 15%;
 }
 .responsive-section-order>div>img:first-child,
 .responsive-section-order-gif>div>img{
-    width: 12%;
+    width: 13.5%;
+    height: auto;
 }
 .responsive-section-order>div>img:nth-child(2){
-    width: 7.5%;
+    width: 8.5%;
+    height: auto;
 }
 .responsive-section-order>div>img:last-child{
-    width: 8%;
+    width: 9%;
+    height: auto;
 }
 .responsive-sizes-posters-internal-order,
 .responsive-sizes-posters-internal-order-last{
-    width: 150px;
-    height: 25px;
+    width: 14%;
+    height: 85%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    position: relative
+    position: relative;
 }
 .responsive-sizes-posters-internal-order{
-    left: 27px
+    left: 1.5vw;
 }
 .responsive-sizes-posters-base{
-    background-color: #F62F55;
-    width: 150px;
-    height: 30px;
+    background-color: var(--fuchsia-color);
+    width: 100%;
+    height: 100%;
     align-self: center;
     position: absolute;
     text-decoration: none;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 .responsive-sizes-posters-base{
     color: white;
     font-family: 'Patrick Hand', cursive;
     font-size: 23px;
-    margin: 0
+    font-size: clamp(1.2em, 1.3vw, 1.6vw);
+    margin: 0;
 }
-
 .my-layout-section-order{
     width: 100%;
-    height: 920px
+    height: 40%;
+    border: solid red;
 }
 .box-links-repos-and-identification-posters-order{
+    width: 100%;
+    height: 8%;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+}
+.box-standard-layouts{
+    width: 100%;
+    height: 92%;
 }
 .section-link-identification-posters-order{
-    width: 250px;
-    height: 80px;
+    width: 12vw;
+    height: 4vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     position: relative;
-    top: 15px;
-    transform: rotate(5deg)
+    top: 3%;
+    transform: rotate(5deg);
 }
 .section-link-identification-posters-base{
-    background-color: #F62F55;
-    width: 200px;
-    height: 75px;
+    background-color: var(--fuchsia-color);
     align-self: center;
     position: absolute;
     text-decoration: none;
     display: flex;
-    align-items: center
+    align-items: center;
+    width: 87%;
+    height: 95%;
 }
 .section-link-identification-posters-base{
     color: white;
     font-family: 'Patrick Hand', cursive;
-    font-size: 30px;
-    line-height: 30px;
     margin: 0;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    font-size: clamp(1.3em, 1.5vw, 1.7vw);
+    line-height: 1vw;
 }
 .section-link-identification-posters-order>div:last-child{
-    width: 220px;
-    height: 15px;
+    width: 95%;
+    height: 15%;
     display: flex;
     justify-content: space-between;
     position: relative;
-    bottom: 60px;
-    align-self: center
+    bottom: 75%;
+    align-self:center;
 }
 .section-link-identification-posters-order>div>div{
-   background-color: #231E20;
-    width: 30px;
-    height: 10px
+    background-color: var(--letter-black-color);
+    width: 15%;
+    height: 90%;
 }
 .section-link-identification-posters-order>div>div:first-child{
-    transform: rotate(-35deg)
+    transform: rotate(-45deg);
 }
 .section-link-identification-posters-order>div>div:last-child{
-    transform: rotate(35deg)
+    transform: rotate(45deg);
 }
 .section-link-identification-posters-base>a{
     width: 35%;
-    height: 75%
+    height: 75%;
 }
 .section-link-identification-posters-base>a>img{
     width: 80%;
+    height: auto;
     transition: transform 0.4s;
     transform-style: preserve-3d
 }
 .section-link-identification-posters-base>a>img:hover{
     transform:scale(1.1)
 }
+
 /* LAYOUTSECTIONCONTENTONE */
 .original-page-section-order-one{
     width: 100%;
-    height: 670px
+    height: 27.5%;
+    margin-top: 1%;
+}
+.original-page-section-order-one img,
+.assets-multimedia-login-F>img{
+    width: 70%;
+    height: auto;
 }
 .assets-icons-background-video-LP,
 .assets-icons-minimalist-h,
@@ -302,83 +329,93 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap  
+    flex-wrap: wrap;
 }
-.assets-icons-background-video-LP>img:first-child{
-    width: 25%;
-    margin-left: 20px;
-    margin-right:30px
-}
+.assets-icons-background-video-LP>img:first-child,
 .assets-icons-background-video-LP>img:nth-child(2){
     width: 25%;
-    margin-right: 30px
+    height: auto;
+    margin-right: .9vw;
+}
+.assets-icons-background-video-LP>img:first-child{
+    margin-left: 1vw;
 }
 .assets-icons-background-video-LP>img:last-child{
     width: 15%;
-    margin-right: 30px
+    height: auto;
+    margin-right: .9vw;
 }
 .assets-icons-minimalist-h>img,
 .assets-icons-login-f>img {
     width: 15%;
-    margin-right: 20px
+    height: auto;
+    margin-right: .9vw;
 }
 .assets-icons-minimalist-h>img:first-child,
 .assets-icons-login-f>img:first-child,
 .assets-icons-minimalist-h>img:nth-child(5),
 .assets-icons-clothes-D>img:first-child,
 .assets-multimedia-profile-C>img:last-child{
-    margin-left: 20px
+    margin-left: .9vw;
 }
 .assets-multimedia-background-video-LP>video{
-    width: 70%;
-    position: absolute
+    width: 75%;
+    height: auto;
+    position: absolute;
 }
 .assets-multimedia-background-video-LP>p{
    position: relative;
-   top: 56px;
+   top: 2.3vw;
    color: white;
-   width: 65%;
-   font-weight: 600;
-   line-height: 17px
+   width: 75%;
+   font-size:clamp(.5em, .8vw, 1vw) ;
+   font-weight: 500;
+   line-height: .9vw;
 }
 .assets-multimedia-personal-page-H>img{
-    width: 30%; 
-    margin-right: 15px 
+    width: 30%;
+    height: auto; 
+    /* margin-right: .7vw; */
 }
 .assets-icons-clothes-D>img{
     width: 15%;
-    margin-right: 15px  
+    height: auto;
+    margin-right: .6vw;  
+}
+.assets-multimedia-clothes-D>img:first-child,
+.assets-multimedia-clothes-D>img:last-child{
+    height: auto;
 }
 .assets-multimedia-clothes-D>img:first-child{
-    width: 40%;
-    margin-left: 20px
+    width: 42%;
+    margin-left: 0vw;
 }
 .assets-multimedia-clothes-D>img:last-child{
-    width: 22%;
-    margin-left: 20px
-}
-.assets-multimedia-login-F>img{
-    width: 60%
+    width: 23%;
+    margin-left: .9vw;
 }
 .assets-multimedia-profile-C>img{
-    width: 30%
+    width: 30%;
+    height: auto;
 }
 .news-card-order-section-content-one {
-    background-color: white;
+    background-color: #f2f3f5;
     width: 100%;
-    height: 90vh;
+    height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
-.news-card-order-section-content-one{
-    background-color: #f2f3f5
-}
+/* quedé acá */
 /* LAYOUTSECTIONCONTENTTWO */
 .original-page-section-order-two-img{
     align-self: center;
     width: 65%;
-    margin-top: 20px
+    margin-top: 20px;
+    /* width: 100%;
+    height: 27.5%;
+    margin-top: 1%;
+    border: solid green; */
 }
 .original-page-section-order-two-img-ecommerce{
     width: 35%
