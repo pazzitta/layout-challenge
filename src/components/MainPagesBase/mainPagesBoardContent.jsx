@@ -42,69 +42,69 @@ const MainPagesBoardContent = () => {
     return(
         <>
         <section className='order-all-board-content-section-one'>
+            <div className='wooden-sing-and-poster-order'>
+                <div className='wooden-sign-background'>
+                    <div></div>
+                    <h2>Página original</h2>
+                    <div></div>
+                </div>
+                <div className='poster-come-back-base-and-order'>
+                    <a href='/' className='poster-come-back-base'>
+                        <h2>VOLVER AL INICIO</h2>
+                    </a>
+                    <div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div className='order-wooden-signs'>
+                <div>
+                    <div></div>
+                    { 
+                        pathname === "/landingPages" ? <h3>Background video</h3>:
+                        pathname === "/homes" ? <h3>Personal page</h3>:
+                        pathname === "/details" ? <h3>Clothes</h3>:
+                        pathname === "/forms" ? <h3>Login</h3>:
+                        <h3>News</h3>
+                    }
+                    <div></div>
+                </div>
+                <div>
+                    <div></div>
+                    {
+                        pathname === "/landingPages" ? <h3>Minimalism</h3>:
+                        pathname === "/homes" ? <h3>E-commerce</h3>:
+                        pathname === "/details" ? <h3>Furniture</h3>:
+                        pathname === "/forms" ? <h3>Register</h3>:
+                        <h3>Profile</h3>
+                    }
+                    <div></div>
+                </div>
+                <div>
+                    <div></div>
+                    {
+                        pathname === "/landingPages" ?  <h3>Organic Shapes</h3>:
+                        pathname === "/homes" ? <h3>Marketplace</h3>:
+                        pathname === "/details" ? <h3>News</h3>:
+                        pathname === "/forms" ? <h3>Check Out</h3>:
+                        <h3>Clothes</h3>
+                    }
+                    <div></div>
+                </div>
+                <div>
+                    <div></div>
+                    {
+                        pathname === "/landingPages" ?  <h3>Promotional</h3>:
+                        pathname === "/homes" ? <h3>Digital newspaper</h3>:
+                        pathname === "/details" ? <h3>Profile</h3>:
+                        pathname === "/forms" ? <h3>Contact Us</h3>:
+                        <h3>Food</h3>
+                    }                       
+                    <div></div>
+                </div>                
+            </div>
             <div className='original-pages-order-and-styles'>
-                <div className='wooden-sing-and-poster-order'>
-                    <div className='wooden-sign-background'>
-                        <div></div>
-                        <h2>Página original</h2>
-                        <div></div>
-                    </div>
-                    <div className='poster-come-back-base-and-order'>
-                        <a href='/' className='poster-come-back-base'>
-                            <h2>VOLVER AL INICIO</h2>
-                        </a>
-                        <div> 
-                            <div></div>
-                            <div></div>
-                        </div>
-                    </div>
-                </div>
-                <div className='order-wooden-signs'>
-                    <div>
-                        <div></div>
-                        { 
-                            pathname === "/landingPages" ? <h3>Background video</h3>:
-                            pathname === "/homes" ? <h3>Personal page</h3>:
-                            pathname === "/details" ? <h3>Clothes</h3>:
-                            pathname === "/forms" ? <h3>Login</h3>:
-                            <h3>News</h3>
-                        }
-                        <div></div>
-                    </div>
-                    <div>
-                        <div></div>
-                        {
-                            pathname === "/landingPages" ? <h3>Minimalism</h3>:
-                            pathname === "/homes" ? <h3>E-commerce</h3>:
-                            pathname === "/details" ? <h3>Furniture</h3>:
-                            pathname === "/forms" ? <h3>Register</h3>:
-                            <h3>Profile</h3>
-                        }
-                        <div></div>
-                    </div>
-                    <div>
-                        <div></div>
-                        {
-                            pathname === "/landingPages" ?  <h3>Organic Shapes</h3>:
-                            pathname === "/homes" ? <h3>Marketplace</h3>:
-                            pathname === "/details" ? <h3>News</h3>:
-                            pathname === "/forms" ? <h3>Check Out</h3>:
-                            <h3>Clothes</h3>
-                        }
-                        <div></div>
-                    </div>
-                    <div>
-                        <div></div>
-                        {
-                            pathname === "/landingPages" ?  <h3>Promotional</h3>:
-                            pathname === "/homes" ? <h3>Digital newspaper</h3>:
-                            pathname === "/details" ? <h3>Profile</h3>:
-                            pathname === "/forms" ? <h3>Contact Us</h3>:
-                            <h3>Food</h3>
-                        }                       
-                        <div></div>
-                    </div>                
-                </div>
                 <div className='original-page-images-order'>
                     {
                         pathname === "/landingPages" ?  <img src={BackgroundVideoLP} alt="imagen original Background Video LP"/>:
@@ -155,12 +155,12 @@ const MainPagesBoardContent = () => {
 
                 </div>
             </div>
+            <div className='wooden-sign-background-MR'>
+                <div></div>
+                <h2>Mi reproducción</h2>
+                <div></div>
+            </div>
             <div className='my-replicas-order-and-styles'>
-                <div className='wooden-sign-background-MR'>
-                    <div></div>
-                    <h2>Mi reproducción</h2>
-                    <div></div>
-                </div>
                 <div className='my-replicas-images-order'>
                     <div>
                     {
@@ -229,9 +229,9 @@ const MainPagesBoardContent = () => {
                     </div>
                 </div>
             </div>
-            <div className='pencils-size'>
+            {/* <div className='pencils-size'>
                 <RowOfPencils/>
-            </div>
+            </div> */}
         </section>
         </>
     )

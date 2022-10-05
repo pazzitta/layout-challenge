@@ -6,163 +6,168 @@
 .order-all-mains{
     display: flex;
     flex-direction: column;
-    width: 100%
+    width: 100%;
 }
 /* MAINPAGESBOARDCONTENT */
 .order-all-board-content-section-one{
     position: absolute;
-    width: 77%;
-    height: 73vh;
+    width: 63%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 170px
-}
-.original-pages-order-and-styles{
-    width: 100%;
-    height: 680px;
-    display: flex;
-    flex-direction: column;
-    align-items: center
+    margin-top: 10%;
+    border: solid thin;
 }
 .wooden-sing-and-poster-order{
     display: flex;
     justify-content: space-between;
-    width: 60%;
-    align-self: flex-end
+    width: 63%;
+    height: 13%;
+    align-self: flex-end;
+}
+.original-pages-order-and-styles{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border:solid red; */
 }
 .wooden-sign-background{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 10px;
     background-image: url('../../assets/LandingPages/woodenSignBackground.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 300px;
-    height: 70px
+    width: 40%;
+    height: 80%;
+    align-self: center;
 }
 .wooden-sign-background>div{
-    background-color: #444444;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%
+    background-color: var(--dark-gray-color);
+    width: .6vw;
+    height: .6vw;
+    border-radius: 50%;
 }
 .wooden-sign-background>h2{
     color: white;
-    margin: 0;
-    font-size: 40px;
     font-family: 'Abel', sans-serif;
-}
-.order-wooden-signs{
-    display: flex;
-    justify-content: space-around;
-    width: 100%
+    margin: 0;
+    font-size:1.6vw;
+    letter-spacing: .2vw;
+    width: 80%;
 }
 .poster-come-back-base-and-order{
     position: relative;
-    width: 220px;
-    height: 80px;
+    width: 20%;
+    height: 75%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    top: 15px;
-    right: 30px;
-    transform: rotate(5deg)
+    transform: rotate(5deg);
+    top: .8vw;
+    right: 1.2vw;
+    border: solid thin;
 }
 .poster-come-back-base{
     position: absolute;
     background-color: #F62F55;
-    width: 200px;
-    height: 75px;
+    width:100%;
+    height: 85%;
     align-self: center;
     text-decoration: none;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 .poster-come-back-base>h2{
     color: white;
     font-family: 'Patrick Hand', cursive;
-    font-size: 35px;
-    line-height: 31px;
-    margin: 0
+    font-size: 1.2vw;
+    line-height: 1.1vw;
+    margin: 0;
 }
 .poster-come-back-base-and-order>div:last-child{
     position: relative;
-    width: 220px;
-    height: 15px;
+    width: 115%;
+    height: 10%;
     display: flex;
     justify-content: space-between;
-    bottom: 60px;
-    align-self: center
+    align-self: center;
+    bottom: 2.6vw;
 }
 .poster-come-back-base-and-order>div>div{
    background-color: #231E20;
-    width: 30px;
-    height: 10px
+    width: 18%;
+    height: 150%;
 }
 .poster-come-back-base-and-order>div>div:first-child{
-    transform: rotate(-35deg)
+    transform: rotate(-45deg)
 }
 .poster-come-back-base-and-order>div>div:last-child{
-    transform: rotate(35deg)
+    transform: rotate(45deg)
 }
 .order-wooden-signs{
-    display: flex
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+    height: 13%;
+    /* border: solid saddlebrown; */
 }
 .order-wooden-signs>div{
     background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 216px;
-    height: 42px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    width: 18%;
+    height: 60%;
     display: flex;
     justify-content: space-around;
-    align-items: center
+    align-items: center;
+    align-self: center;
 }
 .order-wooden-signs>div>div{
-    background-color: #444444;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%
+    background-color: var(--dark-gray-color);
+    width: .4vw;
+    height: .4vw;
+    border-radius: 50%;
 }
 .order-wooden-signs>div>h3{
-    width: 160px;
-    font-size: 22px;
+    width: 80%;
+    font-size: 1.2vw;
     color: white;
-    font-family: 'Abel', sans-serif
+    font-family: 'Abel', sans-serif;
 }
 .original-page-images-order{
     display: flex;
     justify-content: space-around;
-    width: 100%
+    width: 100%;
 }
 .original-page-images-order>img{
-    width: 300px;
-    height: 172px
+    width: 22%;
+    height: auto;
 }
 .order-box-scotch-tape-main-Pages-Base{
     position: relative;
     width: 100%;
-    height: 20px;
-    bottom: 175px;
+    height: 5%;
+    bottom: 7.8vw;
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
 }
 .order-box-scotch-tape-main-Pages-Base>div{
-    width: 320px;
-    height: 20px;
+    width: 25%;
+    height: 120%;
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
 }
 .order-box-scotch-tape-main-Pages-Base>div>div{
     background-color: #F62F55;
-    width: 40px;
-    height: 15px
+    width: 13%;
+    height: 120%;
 }
 .order-box-scotch-tape-main-Pages-Base>div>div:first-child{
     transform: rotate(-40deg)
@@ -172,46 +177,52 @@
 }
 .my-replicas-order-and-styles{
     width: 100%;
-    height: 580px;
+    height:25%;
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
+    /* border:solid green; */
 }
 .wooden-sign-background-MR{
     background-image: url('../../assets/LandingPages/woodenSignBackground.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 300px;
-    height: 70px;
+    width: 25%;
+    height: 10%;
+    margin-bottom: 1%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 10px
 }
 .wooden-sign-background-MR>div{
-    background-color: #444444;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%
+    background-color: var(--dark-gray-color);
+    width: .6vw;
+    height: .6vw;
+    border-radius: 50%;
 }
 .wooden-sign-background-MR>h2{
     color: white;
     margin: 0;
-    font-size: 40px;
+    font-size:1.5vw;
+    letter-spacing: .2vw;
+    width: 80%;
     font-family: 'Abel', sans-serif
 }
 .my-replicas-images-order{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 180px;
-    padding-top: 10px
+    height: 100%;
+}
+.my-replicas-images-order>div{
+    width: 23%;
+    height: 100%;
 }
 .my-replicas-images-order>div>img{
-    width: 300px;
-    height: 172px;
+    width: 100%;
+    height: auto;
     filter: blur(5px);
-    cursor: url('../../assets/myHome/AllBoardContent/magnifyingGlassCursor.png'), pointer
+    cursor: url('../../assets/myHome/AllBoardContent/magnifyingGlassCursor.png'), pointer;
 }
 .my-replicas-images-order>div>a{
    text-decoration: none
@@ -219,14 +230,9 @@
 .my-replicas-images-order>div>h3{
     position: relative;
     color: white;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: var(--name-text-shadow) black;
     font-family: 'Abel', sans-serif;
-    font-size: 40px;
-    bottom: 155px;
-    cursor: url('../../assets/myHome/AllBoardContent/magnifyingGlassCursor.png'), pointer
-}
-.pencils-size{
-    position: relative;
-    width: 100%;
-    bottom: 1px
+    font-size: 2vw;
+    bottom: 7.5vw;
+    cursor: url('../../assets/myHome/AllBoardContent/magnifyingGlassCursor.png'), pointer;
 }

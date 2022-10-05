@@ -5,359 +5,145 @@
 }
 /* LANDINGPAGESNAME */
 .order-title-lp{
-    width: 58%;
-}
-.landing-pages-main-name-order{
-    /* border: solid thin red; */
-    width: 58%;
-    height: 130px;
-    display: flex;
-    font-family: 'Allerta Stencil', sans-serif;
-    font-size: 70px ;
-}
-.landing-pages-main-name-order>div:first-child{
-    position: relative;
-    display: flex;
-    left: 0px;
-    top: 2px;
-}
-.landing-pages-main-name-order>div:last-child{
-    position: relative;
-    right: 1083px;
-    display: flex;
-}
-.landing-pages-main-name-order>div:last-child h2{
-    margin: 0;
-    margin-left: 20px;
-    background-image: url('../../../assets/myHome/Create/colorBackgroundLetters.jpg');
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position:center;
-    background-clip: text;
-    color: transparent;
-}
-.landing-pages-main-name-order>div:last-child h2:nth-child(8){
-    margin: 0;
-    margin-left: 60px;
-    background-image: url('../../../assets/myHome/Create/colorBackgroundLetters.jpg');
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position:center;
-    background-clip: text;
-    color: transparent;
-}
-.landing-pages-main-name-order>div:first-child>h2:first-child,
-.landing-pages-main-name-order>div:first-child>h2:nth-child(7){
-    margin: 0;
-    margin-left: 20px;
-    color: rgba(113, 54, 244);
-    text-shadow: 2px 1px 2px rgba(113, 54, 244, 0.5);
-}
-.landing-pages-main-name-order>div:first-child>h2:nth-child(2){
-    margin: 0;
-    margin-left: 20px;
-    color: rgb(246, 47, 85);
-    text-shadow: 2px 1px 2px rgba(246, 47, 85, 0.5);
-}
-.landing-pages-main-name-order>div:first-child>h2:nth-child(3),
-.landing-pages-main-name-order>div:first-child>h2:nth-child(9){
-    margin: 0;
-    margin-left: 20px;
-    color: rgb(80, 88, 239);
-    text-shadow: 2px 1px 2px rgba(80, 88, 239, 0.5);
-}
-.landing-pages-main-name-order>div:first-child>h2:nth-child(4),
-.landing-pages-main-name-order>div:first-child>h2:nth-child(10){
-    margin: 0;
-    margin-left: 20px;
-    color: rgb(13, 221, 121);
-    text-shadow: 2px 1px 2px rgba(13, 221, 121, 0.5);
-}
-.landing-pages-main-name-order>div:first-child>h2:nth-child(5),
-.landing-pages-main-name-order>div:first-child>h2:nth-child(11){
-    margin: 0;
-    margin-left: 20px;
-    color: rgb(249, 222, 78);
-    text-shadow: 2px 1px 2px rgba(249, 222, 78, 0.5);
-}
-.landing-pages-main-name-order>div:first-child>h2:nth-child(6),
-.landing-pages-main-name-order>div:first-child>h2:last-child{
-    margin: 0;
-    margin-left: 20px;
-    color: rgb(242, 108, 78);
-    text-shadow: 2px 1px 2px rgba(242, 108, 78, 0.5);
-}
-.landing-pages-main-name-order>div:first-child>h2:nth-child(7){
-    margin: 0;
-    margin-left: 20px;
-    color: rgba(113, 54, 244);
-    text-shadow: 2px 1px 2px rgba(113, 54, 244, 0.5);
-}
-.landing-pages-main-name-order>div:first-child>h2:nth-child(8){
-    margin: 0;
-    margin-left: 60px;
-    color: rgb(246, 47, 85);
-    text-shadow: 2px 1px 2px rgba(246, 47, 85, 0.5);
+    width: 60%;
 }
 /* HOMESNAME */
 .order-title-h{
     width: 34%;
 }
-.homes-main-name-order{
-    /* border: solid thin red; */
-    width: 34%;
-    height: 130px;
-    display: flex;
-    font-family: 'Allerta Stencil', sans-serif;
-    font-size: 70px ;
-}
-.homes-main-name-order>div:first-child{
-    position: relative;
-    display: flex;
-    left: 0px;
-    top: 2px;
-}
-.homes-main-name-order>div:last-child{
-    position: relative;
-    right: 611px;
-    display: flex;
-}
-.homes-main-name-order>div:last-child h2{
-    margin: 0;
-    margin-left: 50px;
-    background-image: url('../../../assets/myHome/Create/colorBackgroundLetters.jpg');
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position:center;
-    background-clip: text;
-    color: transparent;
-}
-.homes-main-name-order>div:first-child>h2:first-child{
-    margin: 0;
-    margin-left: 50px;
-    color: rgba(113, 54, 244);
-    text-shadow: 2px 1px 2px rgba(113, 54, 244, 0.5);
-}
-.homes-main-name-order>div:first-child>h2:nth-child(2){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(246, 47, 85);
-    text-shadow: 2px 1px 2px rgba(246, 47, 85, 0.5);
-}
-.homes-main-name-order>div:first-child>h2:nth-child(3){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(80, 88, 239);
-    text-shadow: 2px 1px 2px rgba(80, 88, 239, 0.5);
-}
-.homes-main-name-order>div:first-child>h2:nth-child(4){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(13, 221, 121);
-    text-shadow: 2px 1px 2px rgba(13, 221, 121, 0.5);
-}
-.homes-main-name-order>div:first-child>h2:last-child{
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(249, 222, 78);
-    text-shadow: 2px 1px 2px rgba(249, 222, 78, 0.5);
-}
-
 /* DETAILNAME */
 .order-title-d{
     width: 40%;
 }
-.details-main-name-order{
-    /* border: solid thin red; */
-    width: 40%;
-    height: 130px;
-    display: flex;
-    font-family: 'Allerta Stencil', sans-serif;
-    font-size: 70px ;
-}
-.details-main-name-order>div:first-child{
-    position: relative;
-    display: flex;
-    right: 37px;
-    top: 2px;
-}
-.details-main-name-order>div:last-child{
-    position: relative;
-    right: 826px;
-    display: flex;
-}
-.details-main-name-order>div:last-child h2{
-    margin: 0;
-    margin-left: 50px;
-    background-image: url('../../../assets/myHome/Create/colorBackgroundLetters.jpg');
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position:center;
-    background-clip: text;
-    color: transparent;
-}
-
-.details-main-name-order>div:first-child>h2:first-child,
-.details-main-name-order>div:first-child>h2:last-child{
-    margin: 0;
-    margin-left: 50px;
-    color: rgba(113, 54, 244);
-    text-shadow: 2px 1px 2px rgba(113, 54, 244, 0.5);
-}
-.details-main-name-order>div:first-child>h2:nth-child(2){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(246, 47, 85);
-    text-shadow: 2px 1px 2px rgba(246, 47, 85, 0.5);
-}
-.details-main-name-order>div:first-child>h2:nth-child(3){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(80, 88, 239);
-    text-shadow: 2px 1px 2px rgba(80, 88, 239, 0.5);
-}
-.details-main-name-order>div:first-child>h2:nth-child(4){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(13, 221, 121);
-    text-shadow: 2px 1px 2px rgba(13, 221, 121, 0.5);
-}
-.details-main-name-order>div:first-child>h2:nth-child(5){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(249, 222, 78);
-    text-shadow: 2px 1px 2px rgba(249, 222, 78, 0.5);
-}
-.details-main-name-order>div:first-child>h2:nth-child(6){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(242, 108, 78);
-    text-shadow: 2px 1px 2px rgba(242, 108, 78, 0.5);
-}
-
 /* FORMSNAME */
 .order-title-f{
     width: 34%;
-}
-.forms-main-name-order{
-    /* border: solid thin red; */
-    width: 34%;
-    height: 130px;
-    display: flex;
-    font-family: 'Allerta Stencil', sans-serif;
-    font-size: 70px ;
-}
-.forms-main-name-order>div:first-child{
-    position: relative;
-    display: flex;
-    left: 7px;
-    top: 2px;
-}
-.forms-main-name-order>div:last-child{
-    position: relative;
-    right: 590px;
-    display: flex;
-}
-.forms-main-name-order>div:last-child h2{
-    margin: 0;
-    margin-left: 50px;
-    background-image: url('../../../assets/myHome/Create/colorBackgroundLetters.jpg');
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position:center;
-    background-clip: text;
-    color: transparent;
-}
-.forms-main-name-order>div:first-child>h2:first-child{
-    margin: 0;
-    margin-left: 50px;
-    color: rgba(113, 54, 244);
-    text-shadow: 2px 1px 2px rgba(113, 54, 244, 0.5);
-}
-.forms-main-name-order>div:first-child>h2:nth-child(2){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(246, 47, 85);
-    text-shadow: 2px 1px 2px rgba(246, 47, 85, 0.5);
-}
-.forms-main-name-order>div:first-child>h2:nth-child(3){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(80, 88, 239);
-    text-shadow: 2px 1px 2px rgba(80, 88, 239, 0.5);
-}
-.forms-main-name-order>div:first-child>h2:nth-child(4){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(13, 221, 121);
-    text-shadow: 2px 1px 2px rgba(13, 221, 121, 0.5);
-}
-.forms-main-name-order>div:first-child>h2:last-child{
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(249, 222, 78);
-    text-shadow: 2px 1px 2px rgba(249, 222, 78, 0.5);
 }
 /* CARDSNAME */
 .order-title-c{
     width: 34%;
 }
+/* ALL NAMES */
+.landing-pages-main-name-order,
+.homes-main-name-order,
+.details-main-name-order,
+.forms-main-name-order,
 .cards-main-name-order{
-    /* border: solid thin red; */
-    width: 34%;
-    height: 130px;
+    width: 100%;
+    height: clamp(63px, 7.5vw, 9rem);
     display: flex;
+    justify-content:center ;
+    align-self: center;
     font-family: 'Allerta Stencil', sans-serif;
-    font-size: 70px ;
 }
-.cards-main-name-order>div:first-child{
-    position: relative;
-    display: flex;
-    left: 7px;
-    top: 2px;
-}
+.landing-pages-main-name-order>div:first-child,
+.landing-pages-main-name-order>div:last-child,
+.homes-main-name-order>div:first-child,
+.homes-main-name-order>div:last-child,
+.details-main-name-order>div:first-child,
+.details-main-name-order>div:last-child,
+.forms-main-name-order>div:first-child,
+.forms-main-name-order>div:last-child,
+.cards-main-name-order>div:first-child,
 .cards-main-name-order>div:last-child{
-    position: relative;
-    right: 593px;
-    display: flex;
+    position: absolute;
+    display: flex; 
 }
+.landing-pages-main-name-order>div:first-child>h2,
+.homes-main-name-order>div:first-child>h2,
+.details-main-name-order>div:first-child>h2,
+.forms-main-name-order>div:first-child>h2,
+.cards-main-name-order>div:first-child>h2{
+    margin: 0;
+    margin-left: 1.2vw;
+    font-size: clamp(3em, 5.3vw, 8em);    
+}
+.landing-pages-main-name-order>div:last-child h2,
+.homes-main-name-order>div:last-child h2,
+.details-main-name-order>div:last-child h2,
+.forms-main-name-order>div:last-child h2,
 .cards-main-name-order>div:last-child h2{
     margin: 0;
-    margin-left: 50px;
+    margin-left: 1.2vw;
     background-image: url('../../../assets/myHome/Create/colorBackgroundLetters.jpg');
     background-size: cover;
     background-repeat:no-repeat;
     background-position:center;
     background-clip: text;
     color: transparent;
+    font-size: clamp(3em, 5.3vw, 8em);
 }
+.landing-pages-main-name-order>div:last-child h2:first-child,
+.homes-main-name-order>div:last-child h2:first-child,
+.details-main-name-order>div:last-child h2:first-child,
+.forms-main-name-order>div:last-child h2:first-child,
+.cards-main-name-order>div:last-child h2:first-child{
+    margin-left: 0px;
+}
+.landing-pages-main-name-order>div:last-child h2:nth-child(8){
+    margin-left: 3vw;
+}
+.landing-pages-main-name-order>div:first-child>h2:first-child,
+.homes-main-name-order>div:first-child>h2:first-child,
+.details-main-name-order>div:first-child>h2:first-child,
+.landing-pages-main-name-order>div:first-child>h2:last-child,
+.forms-main-name-order>div:first-child>h2:first-child,
 .cards-main-name-order>div:first-child>h2:first-child{
-    margin: 0;
-    margin-left: 50px;
-    color: rgba(113, 54, 244);
-    text-shadow: 2px 1px 2px rgba(113, 54, 244, 0.5);
+    color: var(--purple-color);
+    text-shadow: var(--name-text-shadow) var(--purple-shadow);
+    margin-left: .2vw;
 }
+.details-main-name-order>div:first-child>h2:last-child{
+    color: var(--purple-color);
+    text-shadow: var(--name-text-shadow) var(--purple-shadow);
+}
+.landing-pages-main-name-order>div:first-child>h2:nth-child(2),
+.homes-main-name-order>div:first-child>h2:nth-child(2),
+.details-main-name-order>div:first-child>h2:nth-child(2),
+.forms-main-name-order>div:first-child>h2:nth-child(2),
 .cards-main-name-order>div:first-child>h2:nth-child(2){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(246, 47, 85);
-    text-shadow: 2px 1px 2px rgba(246, 47, 85, 0.5);
+    color: var(--fuchsia-color);
+    text-shadow: var(--name-text-shadow) var(--fuchsia-shadow);
 }
+.landing-pages-main-name-order>div:first-child>h2:nth-child(3),
+.landing-pages-main-name-order>div:first-child>h2:nth-child(9),
+.homes-main-name-order>div:first-child>h2:nth-child(3),
+.details-main-name-order>div:first-child>h2:nth-child(3),
+.forms-main-name-order>div:first-child>h2:nth-child(3),
 .cards-main-name-order>div:first-child>h2:nth-child(3){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(80, 88, 239);
-    text-shadow: 2px 1px 2px rgba(80, 88, 239, 0.5);
+    color: var(--blue-color);
+    text-shadow: var(--name-text-shadow) var(--blue-shadow);
 }
+.landing-pages-main-name-order>div:first-child>h2:nth-child(4),
+.landing-pages-main-name-order>div:first-child>h2:nth-child(10),
+.homes-main-name-order>div:first-child>h2:nth-child(4),
+.details-main-name-order>div:first-child>h2:nth-child(4),
+.forms-main-name-order>div:first-child>h2:nth-child(4),
 .cards-main-name-order>div:first-child>h2:nth-child(4){
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(13, 221, 121);
-    text-shadow: 2px 1px 2px rgba(13, 221, 121, 0.5);
+    color: var(--green-color);
+    text-shadow: var(--name-text-shadow) var(--green-shadow);
 }
+.landing-pages-main-name-order>div:first-child>h2:nth-child(5),
+.landing-pages-main-name-order>div:first-child>h2:nth-child(11),
+.homes-main-name-order>div:first-child>h2:nth-child(5),
+.details-main-name-order>div:first-child>h2:nth-child(5),
+.forms-main-name-order>div:first-child>h2:last-child,
 .cards-main-name-order>div:first-child>h2:last-child{
-    margin: 0;
-    margin-left: 50px;
-    color: rgb(249, 222, 78);
-    text-shadow: 2px 1px 2px rgba(249, 222, 78, 0.5);
+    color: var(--yellow-color);
+    text-shadow: var(--name-text-shadow) var(--yellow-shadow);
+}
+.landing-pages-main-name-order>div:first-child>h2:nth-child(6),
+.landing-pages-main-name-order>div:first-child>h2:last-child,
+.details-main-name-order>div:first-child>h2:nth-child(6){
+    color: var(--orange-color);
+    text-shadow: var(--name-text-shadow) var(--orange-shadow);
+}
+.landing-pages-main-name-order>div:first-child>h2:nth-child(7){
+    color: var(--purple-color);
+    text-shadow: var(--name-text-shadow) var(--purple-shadow);
+}
+.landing-pages-main-name-order>div:first-child>h2:nth-child(8){
+    margin-left: 3vw;
+    color: var(--fuchsia-color);
+    text-shadow: var(--name-text-shadow) var(--fuchsia-shadow)
 }
