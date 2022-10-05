@@ -90,10 +90,10 @@ const ClothesDetail = () => {
                     </section>
                 </div>               
                 <div className="right-rectangle-order-product-image-main-product-one-detail">
-                    <h1>TRIPLE S TRAINERS</h1>
-                    <small> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</small>
+                    <h2>TRIPLE S TRAINERS</h2>
+                    <small> Lorem ipsum, dolor sit amet consectetur.</small>
                     <img src={FrontImageProduct} alt="Imagen del producto" />
-                    <h2>$850</h2>
+                    <h3>$850</h3>
                 </div>
                 <div className="right-right-rectangle-order-product-image-main-product-one-detail">
                     <button></button>
