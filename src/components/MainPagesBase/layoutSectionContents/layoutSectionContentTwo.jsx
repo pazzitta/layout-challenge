@@ -290,11 +290,12 @@ const LayoutSectionContentTwo = () => {
                         </div>
                     </div>                   
                 </div>
+
                 {
-                    pathname === '/landingPages' ? <MinimalismLP/> : 
-                    pathname === '/homes' ? <EcommerceHomes/> :
-                    pathname === '/details' ? <FurnitureDetail/> :
-                    pathname === '/forms' ? <RegisterForm/> :
+                    pathname === '/landingPages' ? <div className='box-standard-layouts'><MinimalismLP/></div> : 
+                    pathname === '/homes' ? <div className='box-large-layouts'><EcommerceHomes/></div> :
+                    pathname === '/details' ? <div className='box-standard-layouts'><FurnitureDetail/></div> :
+                    pathname === '/forms' ? <div className='box-standard-layouts'><RegisterForm/></div>:
                     <div className='profile-card-base-section-content-one'>
                         <div className='profile-card-order-section-content-one'>
                             <ProfileCard/>

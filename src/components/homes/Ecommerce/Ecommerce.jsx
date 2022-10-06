@@ -10,7 +10,7 @@ const EcommerceHomes = () => {
             <header className="box-header-Ecommerce-homes">
                 <nav>
                     <div className="box-brand-and-sections-Ecommerce-homes">
-                        <h1>UGMONK</h1>
+                        <h2>UGMONK</h2>
                         <div>
                             <a href="/">Men</a>
                             <a href="/">Women</a>

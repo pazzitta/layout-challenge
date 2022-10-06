@@ -4,88 +4,89 @@
   box-sizing: border-box
 }
 .box-macro-minimalist-LP{
-  background-color: #5c6ac4;
+  background-color: var(--violet-background-minimalism);
   width: 100%;
-  height: 90vh
+  height: 100%;
 }
 .internal-box-minimalist-LP{
   width: 100%;
-  height: 90vh;
+  height: 100%;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
 .header-box-minimalist-LP{
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 80px
+  height: 8%;
 }
 .logo-shopfy-minimalism-LP{
-  width: 120px
+  width: 20%;
+  height: auto;
 }
 .main-box-minimalist-LP{
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 305px
+  height: 38%;
 }
 .titel-main-minimalism-LP {
   margin: 0;
   color: white;
-  font-size: 65px;
-  font-weight: 600
+  font-size: 2.5vw;
+  font-weight: 600;
 }
 .description-main-minimalism-LP{
   margin: 0;
-  margin-top: 5px;
-  font-size: 30px;
+  margin-top: .7vw;
+  font-size: 1.3vw;
   color: white;
   width: 50%;
-  line-height: 40px
+  line-height: 2vw;
 }
 .input-box-main-minimalism-LP{
-  padding-top: 20px
+  width: 43%;
+  height:5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.input-main-minimalism-LP,
+.button-main-minimalism-LP{
+  border-radius: .5vw;
+  border: none;
+  height: 2.3vw;
 }
 .input-main-minimalism-LP{
-  width: 370px;
-  height: 40px;
-  border-radius: 8px;
-  border: none;
-  padding-left: 20px
+  width: 68%;
+  padding-left: 1vw;
 }
-.input-main-minimalism-LP::placeholder{
-  font-weight: 600
+.input-main-minimalism-LP::placeholder,
+.button-main-minimalism-LP{
+  font-weight: 600;
+  font-size: .9vw;
 }
 .button-main-minimalism-LP{
-  margin-left: 5px;
   color: white;
-  background-color: #232936;
-  width: 150px;
-  height: 40px;
-  border: none;
-  border-radius: 5px;
-  font-weight: 600;
+  background-color: var(--dark-blue-minimalism-button);
+  width: 30%;
   cursor: pointer
 }
 .description-small-main-minimalis-LP{
   color: white;
-  width: 29%;
-  letter-spacing: -0.2px
+  width: 45%;
+  height: 20%;
+  letter-spacing: .05vw;
+  font-size: .7vw;
 }
 .composition-footer-minimalism-LP{
-  height: 530px;
-  display: flex;
-  align-items: flex-end
-}
-.background-white-minimalism-LP{
-  background-color: white;
   width: 100%;
-  height: 200px
+  height: 54%;
+  display: flex;
+  align-items: flex-end;
 }
 .image-minimalism-LP{
-  width: 1490px;
-  height: 485px;
   width:100%;
   height: auto;
 }

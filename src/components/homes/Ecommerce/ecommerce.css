@@ -7,38 +7,41 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 225vh;
-    margin-top: 30px;
-    background-color: white
+    height: 100%;
+    background-color: white;
 }
-.box-macro-Ecommerce-homes >img{
+.box-macro-Ecommerce-homes>img{
     position: absolute;
-    width: 100%
+    width: 99%;
+    height: auto;
 }
 .box-header-Ecommerce-homes{
     width: 100%;
-    height: 720px
+    height: 26%;
+    border: solid thin gold;
 }
 .box-header-Ecommerce-homes >nav{
     position: relative;
     width: 100%;
-    height: 100px;
+    height: 15%;
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    border: solid thin rgb(0, 255, 21);
 }
 .image-text-order-and-style{
     width: 12%;
     position: relative;
-    bottom: 120px;
-    left: 170px;
+    bottom: 4.5vw;
+    left: 4.5vw;
     color: white;
     text-align: start;
-    font-size: 20px;
-    font-weight: 600
+    font-size: .9vw;
+    font-weight: 600;
+    border: solid thin rgb(4, 98, 11);
 }
 .image-text-order-and-style>a{
-    font-size: 17px;
+    font-size: .8vw;
     color: white;
     font-weight: 500;
 }
@@ -47,32 +50,38 @@
     align-items: center;
     justify-content: center;
     width: 55%;
-    height: 100px
+    height: 100%;
+    border: solid thin rgb(46, 4, 98);
 }
-.box-brand-and-sections-Ecommerce-homes > h1{
+.box-brand-and-sections-Ecommerce-homes>h2{
     color:white;
-    font-size: 50px;
-    font-weight: 400
+    font-size: 2vw;
+    font-weight: 400;
+
 }
-.box-brand-and-sections-Ecommerce-homes > div{
+.box-brand-and-sections-Ecommerce-homes>div{
     width: 50%;
     display: flex;
-    margin-left: 10px;
-    justify-content: space-evenly
+    margin-left: 2vw;
+    justify-content: space-evenly;
+    border: solid thin orangered;
 }
 .box-brand-and-sections-Ecommerce-homes a{
     color: white;
     text-decoration: none;
-    font-size: 17px
+    font-size: .9vw;
 }
 .box-sesion-and-contact-Ecommerce-homes>a>img{
-    width: 20px
+    width: 40%;
+    height: auto;
+    border: solid thin salmon;
 }
 .box-sesion-and-contact-Ecommerce-homes{
     display: flex;
     justify-content: space-between;
-    width: 18%;
-    margin-right: 100px
+    width: 20%;
+    margin-right: 4vw;
+    border: solid thin khaki;
 }
 .box-sesion-and-contact-Ecommerce-homes >a:first-child,
 .box-sesion-and-contact-Ecommerce-homes >a:nth-child(2),
@@ -80,9 +89,13 @@
     color: white;
     text-decoration: none;
     border-right: solid thin white ;
-    height: 20px;
-    font-size: 17px;
-    padding-right: 15px
+    height: 1vw;
+    font-size: .7vw;
+    padding-right: .8vw;
+}
+.box-sesion-and-contact-Ecommerce-homes >a:nth-child(2),
+.box-sesion-and-contact-Ecommerce-homes >a:nth-child(3){
+    padding-left: .3vw;
 }
 .box-body-Ecommerce-homes{
     width: 100%;
