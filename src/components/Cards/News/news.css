@@ -7,16 +7,16 @@
     display: flex;
     align-items: center;
     background-color:#f2f3f5;
-    width:900px;
-    height: 550px;
-    border-radius: 20px;
-    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.3) 
+    width: 45vw;
+    height: 26.2vw;
+    border-radius: 1vw;
+    box-shadow: .2vw .3vw .4vw rgba(0, 0, 0, 0.3);
 }
 .image-news-card {
     width: 43%;
-    height: 550px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px
+    height: auto;
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;
 }
 .box-text-news-card{
     display: flex;
@@ -24,7 +24,7 @@
     justify-content: center;
     align-items: center;
     width: 60%;
-    height: 450px
+    height: 75%;
 }
 .internal-box-text-news-card{
     display: flex;
@@ -32,7 +32,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     width: 80%;
-    height: 400px
+    height: 100%;
 }
 .section-text-news-card{
     align-self: start;
@@ -42,55 +42,57 @@
 }
 .titel-text-news-card{
     color: #575757;
-    font-weight: 600
+    font-weight: 600;
+    font-size: .9vw;
+}
+.decription-text-news-card,
+.decription2-text-news-card{
+    font-size: .65vw;
+    line-height: 1.1vw;
+    text-align: start;
 }
 .decription-text-news-card{
-    text-align: start;
     margin: 0;
-    font-size: 13px;
-    line-height: 22px
 }
 .decription2-text-news-card{
-    text-align: start;
-    font-size: 13px;
-    line-height: 22px
+    margin-bottom: 0;
 }
 .box-autor-text-news-card{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 50px;
-    margin-top: 30px
+    height: 15%;
+    margin-top: 1.4vw;
 }
 .box-image-and-autor-news-card{
     display: flex;
     align-items: center;
     width: 40%;
-    height: 50px
+    height: 100%;
 }
 .image-autor-news-card{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%
+    width: 32%;
+    height: auto;
+    border-radius: 50%;
 }
 .name-autor-news-card, 
 .profesion-autor-news-card{
     margin: 0;
-    font-size: 12px;
+    font-size: .6vw;
     text-align: start;
-    padding-left: 7px;
-    color: #575757
+    padding-left: .7vw;
+    color: #575757;
 }
 .button-next-news-card{
-    height: 49px;
-    width: 49px;
+    height: 2.5vw;
+    width: 2.5vw;
     border-radius: 50%;
     background-color:#f2f3f5;
     border: none;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    font-size: 18px;
+    box-shadow: .1vw .1vw .1vw .05vw rgba(0, 0, 0, 0.2);
+    font-size: 1vw;
     font-weight: 600;
     color: #a7a7a7;
-    cursor: pointer
+    cursor: pointer;
 }

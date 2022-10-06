@@ -1,0 +1,33 @@
+:root{
+    --name-text-shadow: .1vw .1vw .2vw;
+    --folder-shadow:.05vw .05vw .1vw;
+    --purple-color: rgb(113, 54, 244);
+    --light-purple-color: #814EF2;
+    --purple-shadow: rgba(113, 54, 244, 0.5);
+    --fuchsia-color:rgb(246, 47, 85);
+    --light-fuchsia-color:  #F44D6D;
+    --fuchsia-shadow:rgba(246, 47, 85, 0.5);
+    --fuchsia-personal-page: #de2d49;
+    --blue-color:rgb(80, 88, 239);
+    --dark-blue-color:  #3842F1;
+    --blue-shadow:rgba(80, 88, 239, 0.5);
+    --gray-blue-text-login: #4f5965;
+    --blue-text-login: #3294f5;
+    --blue-Facebook: #137eff;
+    --light-blue-Twitter: #1ee7ff;
+    --green-color:rgb(13, 221, 121);
+    --light-green-color: #4EF2A3;
+    --green-shadow: rgba(13, 221, 121, 0.5);
+    --green-button-login-tick: rgb(9, 163, 50);
+    --yellow-color:rgb(249, 222, 78);
+    --dark-yellow-color: #E1C815;
+    --yellow-shadow:rgba(249, 222, 78, 0.5);
+    --orange-color:rgb(242, 108, 78);
+    --orange-shadow:rgba(242, 108, 78, 0.5);
+    --background-color-board:  #505F71;
+    --letter-black-color: #231E20;
+    --dark-gray-color:  #444444;
+    --gray-layout-background-video:#383731;
+    --gray-text-personal-page:#3a3a3a;
+    --red-Google-plus: #f23c39;
+}
