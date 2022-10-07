@@ -10,22 +10,26 @@ const RegisterForm = () => {
             <div className='box-register-form'>
                 <section className='box-left-register-form'>
                     <img src={IsologoWhite} alt="Isologo" />
-                    <h2>Welcome Back!</h2>
-                    <p>To keep connected with us please login with your personal info</p>
-                    <button>SING IN</button>
+                    <div>
+                        <h2>Welcome Back!</h2>
+                        <p>To keep connected with us please login with your personal info</p>
+                        <button>SING IN</button>
+                    </div>
                 </section>
                 <section className='box-right-register-form'>
-                    <h1>Create Account</h1>
                     <div>
-                       <a href=""><img src={IconFacebookBlack} alt="ícono Facebook" /></a>
-                       <a href=""><img src={IconGoogleBlack} alt="ícono Google" /></a>
-                       <a href=""><img src={IconLinkedInBlack} alt="ícono LinkedIn" /></a>
+                        <h2>Create Account</h2>
+                        <div>
+                            <a href=""><img src={IconFacebookBlack} alt="ícono Facebook" /></a>
+                            <a href=""><img src={IconGoogleBlack} alt="ícono Google" /></a>
+                            <a href=""><img src={IconLinkedInBlack} alt="ícono LinkedIn" /></a>
+                        </div>
+                        <p>or use your email for registration</p>
+                        <input className='input-name-resgister-F' type="text" placeholder='Name' required/>
+                        <input className='input-email-resgister-F' type="email" placeholder='Email' required/>
+                        <input className='input-password-resgister-F' type="password" placeholder='Password' required/>
+                        <button>SING UP</button>
                     </div>
-                    <p>or use your email for registration</p>
-                    <input className='input-name-resgister-F' type="text" placeholder='Name' required/>
-                    <input className='input-email-resgister-F' type="email" placeholder='Email' required/>
-                    <input className='input-password-resgister-F' type="password" placeholder='Password' required/>
-                    <button>SING UP</button>
                 </section>
             </div>
         </div>
