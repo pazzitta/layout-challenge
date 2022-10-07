@@ -7,11 +7,12 @@
 .order-all-layout-section-content{
     width: 92%;
     height: 240vh;
+    height: 89%;
     display: flex;
     flex-direction: column;
     position: absolute;
     margin-top: 10vw;
-    border: solid thin rebeccapurple;
+    border: solid  rebeccapurple;
 }
 .section-identification-posters-order{
     width: 12vw;
@@ -61,7 +62,8 @@
 }
 .assets-section-order{
     width: 100%;
-    height: 31%;
+    height: 37vw;
+    border: solid fuchsia;
 }
 .top-box-assets-section-order{
     width: 100%;
@@ -233,7 +235,7 @@
 .my-layout-section-order{
     width: 100%;
     height: 40%;
-    border: solid red;
+    border: solid rgb(0, 255, 128);
 }
 .box-links-repos-and-identification-posters-order{
     width: 100%;
@@ -314,6 +316,7 @@
     height: 27.5%;
     margin-top: 1%;
 }
+
 .original-page-section-order-one img,
 .assets-multimedia-login-F>img{
     width: 70%;
@@ -398,6 +401,7 @@
     width: 30%;
     height: auto;
 }
+
 .news-card-order-section-content-one {
     background-color: #f2f3f5;
     width: 100%;
@@ -408,17 +412,22 @@
 }
 /* quedé acá */
 /* LAYOUTSECTIONCONTENTTWO */
-.original-page-section-order-two-img{
-    align-self: center;
-    width: 65%;
-    margin-top: 20px;
-    /* width: 100%;
-    height: 27.5%;
+.original-page-section-order-two{
+    width: 100%;
+    height: 32vw;
     margin-top: 1%;
-    border: solid green; */
+    border: solid rgb(128, 0, 21);
+}
+.original-page-section-order-two-img{
+    width: 70%;
+    height: auto;
 }
 .original-page-section-order-two-img-ecommerce{
-    width: 35%
+    width: 35%;
+    height: auto;
+}
+.box-large-layouts{
+    height: 148.5%;
 }
 .assets-icons-furniture-D,
 .assets-icons-register-F,
@@ -432,20 +441,23 @@
 }
 .assets-icons-furniture-D>img:first-child{
     width: 40%;
-    margin-left: 45px
+    height: auto;
+    margin-left: 1vw;
 }
 .assets-icons-furniture-D>img:nth-child(2),
 .assets-icons-furniture-D>img:last-child{
     width: 20%;
-    margin-right: 20px
+    height: auto;
+    margin-right: .8vw;
 }
 .assets-icons-furniture-D>img:nth-child(3){
     width: 15%;
-    margin-right: 35px
+    height: auto;
+    margin-right: 1vw;
 }
 .assets-icons-furniture-D>img:nth-child(4){
-    margin-left: 40px;
-    margin-right: 20px
+    margin-left: 1vw;
+    margin-right: .8vw;
 }
 .assets-icons-register-F>img{
     width: 15%;
@@ -455,16 +467,19 @@
     width: 30%
 }
 .assets-multimedia-ecommerce-H>img{
-   width: 70%
+   width: 70%;
+   height: auto;
 }
 .assets-multimedia-furniture-D>img:first-child,
 .assets-multimedia-furniture-D>img:nth-child(2),
 .assets-multimedia-furniture-D>img:nth-child(3){
     width: 20%;
-    margin-right: 15px
+    height: auto;
+    margin-right: .5vw
 }
 .assets-multimedia-furniture-D>img:last-child{
-    width: 25%
+    width: 25%;
+    height: auto;
 }
 .assets-multimedia-food-C>img{
     width: 40%;
@@ -564,7 +579,8 @@
 }
 .assets-multimedia-Clothes-C,
 .assets-icons-minimalism-LP>img{
-    width: 60%
+    width: 60%;
+    height: auto;
 }
 /* LAYOUTSECTIONCONTENTFOUR */
 .original-page-section-order-four{

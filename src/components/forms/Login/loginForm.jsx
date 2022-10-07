@@ -10,7 +10,7 @@ const LoginForm = () => {
     return (
     <div className='box-all-login-form'>
         <article>
-            <h1>$ budge<font color='#4395e7'>tale</font> login</h1>
+            <h2>$ budge<font color='#4395e7'>tale</font> login</h2>
             <p className='order-caption-login-form'>You do not have an account? Create your account at takes a minute</p>
             <form>
                 <div className='box-inputs-login-form'>

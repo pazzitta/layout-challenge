@@ -53,7 +53,7 @@ const FurnitureDetail = () => {
                     }
                     <div className='card-right-section-description-order-nav-product-two-detail'>
                         <small>Algo</small>
-                        <h1>Drop type cusion chair</h1>
+                        <h2>Drop type cusion chair</h2>
                         <div className='order-score-box-product-two-detail'>
                             <img src={StarYellow} alt="Estrellita ícono" />
                             <h4>8/10</h4>

@@ -18,7 +18,7 @@ const LayoutMinimalism = () => {
                         <input className='input-main-minimalism-LP' type="email" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" size="30"  name="email" id="email" placeholder='Enter your email address' required />
                         <button className='button-main-minimalism-LP'>Start free trial</button>
                     </form>
-                    <p className='description-small-main-minimalis-LP'><small>Try Shopify free for 14 days, no credit required. By entering your email, you agree to receive marketing emails from Shopify</small></p>
+                    <p className='description-small-main-minimalis-LP'>Try Shopify free for 14 days, no credit required. By entering your email, you agree to receive marketing emails from Shopify</p>
                 </main>
                 <footer className='composition-footer-minimalism-LP'>
                     <img className='image-minimalism-LP' src={BackgrounImageAll} alt="Ilustración landing page"/>
