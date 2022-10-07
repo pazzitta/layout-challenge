@@ -32,13 +32,9 @@ import BackgroundImageOrganicShapesLP from '../../../assets/LandingPages/Orgenic
 import RoomImageCheckOutF from '../../../assets/Forms/CheckOut/imageRoom.jpg'
 import ImageOneD from '../../../assets/Details/News/imageOneN.jpg'
 import ImageTwoD from '../../../assets/Details/News/imageTwoN.jpg'
-// import ResponsiveCC834x1194 from '../../../assets/Cards/Clothes/responsiveCC834x1194.jpg'
-// import ResponsiveCC390x844 from '../../../assets/Cards/Clothes/responsiveCC390x844.jpg'
-// import ResponsiveCC360x640 from '../../../assets/Cards/Clothes/responsiveCC360x640.jpg'
 import GifResponsive from '../../../assets/myHome/responsiveGif.gif'
 import GifLayout from '../../../assets/myHome/layoutGif.gif'
 // import GifLayoutT from '../../../assets/myHome/layoutGifT.gif'
-// import ClothesCard from '../../Cards/Clothes/ClothesCard'
 import IGitHub from '../../../assets/myHome/Icons/IconGitHubWhite.png'
 
 const LayoutSectionContentThree = () => {
