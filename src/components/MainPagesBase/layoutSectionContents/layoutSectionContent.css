@@ -428,7 +428,6 @@
 }
 .box-large-layouts{
     height: 148.5%;
-    border: solid;
 }
 .assets-icons-furniture-D,
 .assets-icons-register-F,
@@ -442,20 +441,23 @@
 }
 .assets-icons-furniture-D>img:first-child{
     width: 40%;
-    margin-left: 45px
+    height: auto;
+    margin-left: 1vw;
 }
 .assets-icons-furniture-D>img:nth-child(2),
 .assets-icons-furniture-D>img:last-child{
     width: 20%;
-    margin-right: 20px
+    height: auto;
+    margin-right: .8vw;
 }
 .assets-icons-furniture-D>img:nth-child(3){
     width: 15%;
-    margin-right: 35px
+    height: auto;
+    margin-right: 1vw;
 }
 .assets-icons-furniture-D>img:nth-child(4){
-    margin-left: 40px;
-    margin-right: 20px
+    margin-left: 1vw;
+    margin-right: .8vw;
 }
 .assets-icons-register-F>img{
     width: 15%;
@@ -472,10 +474,12 @@
 .assets-multimedia-furniture-D>img:nth-child(2),
 .assets-multimedia-furniture-D>img:nth-child(3){
     width: 20%;
-    margin-right: 15px
+    height: auto;
+    margin-right: .5vw
 }
 .assets-multimedia-furniture-D>img:last-child{
-    width: 25%
+    width: 25%;
+    height: auto;
 }
 .assets-multimedia-food-C>img{
     width: 40%;
