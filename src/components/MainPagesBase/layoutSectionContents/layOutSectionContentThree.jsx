@@ -55,7 +55,7 @@ const LayoutSectionContentThree = () => {
                     pathname === '/homes' ? <img className='original-page-section-order-three-img-big' src={OPMarketplaceH} alt="pág. original Marketplace  H" /> :
                     pathname === '/details' ? <img width='23.5%' src={OPNewsD} alt="pág. original News D" /> :
                     pathname === '/forms' ? <img className='original-page-section-order-three-img-big' src={OPCheckOutF} alt="pág. original CheckOut F" /> :
-                    <img src={OPClothesC} alt="pág. original Clothes C" /> 
+                    <img className='original-page-section-order-three-img-normal'src={OPClothesC} alt="pág. original Clothes C" /> 
                 }
             </section>
             <section className='assets-section-order'>

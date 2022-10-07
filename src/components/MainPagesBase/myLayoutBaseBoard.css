@@ -31,8 +31,18 @@
 }
 .circle-line-order-modal>div{
     background-color: white;
-    width: .7vw;
-    height: .7vw;
+    width: .6vw;
+    height: .6vw;
     border-radius: 50%;
-    margin-left: 0.96vw;
+    margin-left: 1.5vw;
+}
+@media screen and (max-width: 64em) and (orientation: portrait) {
+    .board-base-style-modal{
+        height: 40vh;
+    }
+    .circle-line-order-modal>div{
+        width: .7vw;
+        height: .7vw;
+        margin-left:2vw;
+    }
 }

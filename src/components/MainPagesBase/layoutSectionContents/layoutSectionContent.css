@@ -36,7 +36,7 @@
     align-items: center;
     color: white;
     font-family: 'Patrick Hand', cursive;
-    font-size: clamp(1.3em, 1.4vw, 1.7vw);
+    font-size: clamp(1em, 1.4vw, 1.7vw);
     line-height: 1vw;
     margin: 0;
 }
@@ -105,7 +105,7 @@
 }
 .order-wooden-signs-LSC>div>h3{
     width: 75%;
-    font-size: clamp(1.2em, 1.2vw, 1.5vw);
+    font-size: clamp(1.1em, 1.2vw, 1.5vw);
     color: white;
     font-family: 'Abel', sans-serif;
 }
@@ -228,8 +228,7 @@
 .responsive-sizes-posters-base{
     color: white;
     font-family: 'Patrick Hand', cursive;
-    font-size: 23px;
-    font-size: clamp(1.2em, 1.3vw, 1.6vw);
+    font-size: clamp(1em, 1.3vw, 1.6vw);
     margin: 0;
 }
 .my-layout-section-order{
@@ -273,7 +272,7 @@
     margin: 0;
     display: flex;
     justify-content: center;
-    font-size: clamp(1.3em, 1.5vw, 1.7vw);
+    font-size: clamp(1.1em, 1.5vw, 1.7vw);
     line-height: 1vw;
 }
 .section-link-identification-posters-order>div:last-child{
@@ -662,6 +661,36 @@
 }
 .assets-multimedia-contact-us-F>img:last-child{
     margin-top: .2vw;
+}
+@media screen and (max-width: 64em) and (orientation: portrait) {
+    .order-all-layout-section-content{
+        height: 92%;
+    }
+    .original-page-section-order-one{
+        height: 25%;
+        border: solid;
+    }
+    .assets-section-order{
+        height: 42vw;
+    }
+    .section-identification-posters-base{
+        line-height: 1.5vw;
+    }
+    .papers-order-and-styles>div:first-child{
+        height: 11vw;
+    }
+    .my-layout-section-order{
+        height: 50%;
+    }
+    .original-page-section-order-two{
+        height: 40vw;
+    }
+    .original-page-section-order-three{
+        height: 40vw;
+    }
+    .original-page-section-order-four{
+        height: 40vw;
+    }
 }
 
 

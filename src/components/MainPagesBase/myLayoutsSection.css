@@ -303,3 +303,12 @@
     line-height: 1vw;
     border-radius: .3vw;
 }
+
+@media screen and (max-width: 64em) and (orientation: portrait) {
+    .order-all-componentes-article-one,
+    .order-all-componentes-article-two,
+    .order-all-componentes-article-three,
+    .order-all-componentes-article-four{
+        width: 90%;
+    }   
+}
