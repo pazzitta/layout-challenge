@@ -410,7 +410,6 @@
     justify-content: center;
     align-items: center;
 }
-/* quedé acá */
 /* LAYOUTSECTIONCONTENTTWO */
 .original-page-section-order-two{
     width: 100%;
@@ -466,6 +465,17 @@
 .assets-icons-register-F>img:first-child{
     width: 30%
 }
+.assets-icons-profile-c>img{
+    width: 17%;
+    height: auto;
+    margin-right: 1.2vw;
+}
+.assets-icons-profile-c>img:first-child{
+    margin-left: 1vw;
+}
+.assets-icons-profile-c>img:nth-child(4){
+    margin-left: 1vw;
+}
 .assets-multimedia-ecommerce-H>img{
    width: 70%;
    height: auto;
@@ -483,29 +493,27 @@
 }
 .assets-multimedia-food-C>img{
     width: 40%;
-    margin-left: 20px
+    height: auto;
+    /* margin-left: 1vw; */
 }
 .assets-multimedia-minimalism-LP>img{
     width: 60%
 }
 .profile-card-base-section-content-one{
-    background-color: white;
+    background-color: #f2f3f5;
     width: 100%;
-    height: 90vh;
+    height:92%;
     display: flex;
     justify-content: center;
-    align-items: center
-}
-.profile-card-base-section-content-one{
-    background-color: #f2f3f5
+    align-items: center;
 }
 .profile-card-order-section-content-one{
     width: 70%;
-    height: 75vh;
+    height: 80%;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: wrap;
     justify-content: space-around;
-    align-items:center
+    align-items:center;
 }
 /* LAYOUTSECTIONCONTENTTHREE */
 .original-page-section-order-three{
@@ -553,16 +561,6 @@
 }
 .assets-icons-marketplace-H>img:nth-child(7){
     margin-right: 5px
-}
-.assets-icons-profile-c>img{
-    width: 17%;
-    margin-right: 25px
-}
-.assets-icons-profile-c>img:first-child{
-    margin-left: 20px
-}
-.assets-icons-profile-c>img:last-child{
-    margin-left: 20px
 }
 .assets-icons-clothes-c>img {
     width: 30%

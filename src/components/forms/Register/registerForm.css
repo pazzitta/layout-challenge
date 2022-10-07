@@ -9,149 +9,170 @@
     background-size: cover;
     background-position:center; 
     width: 100%;
-    height: 90vh;
+    height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 .box-register-form{
     background-color: rgba(255, 255, 255, 0.2);
     width: 85%;
-    height: 80vh;
+    height: 85%;
     display: flex;
-    border-radius: 20px
+    border-radius: 1.3vw;
 }
 .box-left-register-form{
-    background-color: rgba(58, 177, 155, 0.9);
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
+    background-color: var(--watergreen-background-register);
+    border-bottom-left-radius: 1.3vw;
+    border-top-left-radius: 1.3vw;
     width: 40%;
+    height: 100%;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    align-items: center;
 }
-.box-left-register-form >img {
+.box-left-register-form>img {
     width: 24%;
+    height: auto;
     align-self: flex-start;
-    margin: 20px
+    margin: 1.5vw;
+    margin-bottom: 0;
 }
-.box-left-register-form >h2 {
+.box-left-register-form>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    height: 40%;
+    margin-top: 35%;
+}
+.box-left-register-form>div>h2 {
     color: white;
-    font-size: 50px;
+    font-size: 2.4vw;
     margin: 0;
-    padding-top: 170px
 }
-.box-left-register-form >p {
+.box-left-register-form>div>p {
     color: white;
-    font-size: 20px;
-    width: 60%;
+    font-size: .9vw;
+    line-height: 1.5vw;
+    width: 90%;
     align-self: center;
-    margin-top: 10px;
-    font-weight: 350
+    font-weight: 350;
 }
-.box-left-register-form >button {
+.box-left-register-form>div>button {
     align-self: center;
     color: white;
     background-color: transparent;
     border: solid white;
-    border-radius: 30px;
-    width: 50%;
-    height: 60px;
-    margin-top: 30px;
-    font-size: 17px;
+    border-radius: 1.5vw;
+    width: 70%;
+    height: 18%;
+    font-size: 1vw;
     font-weight: 550;
-    cursor: pointer
+    cursor: pointer;
 }
 .box-right-register-form{
     background-color: white;
     width: 60%;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
+    height: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center
-}
-.box-right-register-form >h1{
-  color: #3aaf9f;
-  font-size: 50px;
-  margin: 0
+    align-items: center;
+    border-bottom-right-radius: 1.3vw;
+    border-top-right-radius: 1.3vw;
 }
 .box-right-register-form>div{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.box-right-register-form>div>h2{
+  color: var(--watergreen-text-register);
+  font-size: 2.4vw;
+  margin: 0;
+}
+.box-right-register-form>div>div{
     display: flex;
     justify-content: space-between;
-    width: 28%;
+    width: 40%;
+    height: 12%;
     align-self: center;
-    margin-top: 30px;
-    margin-bottom: 30px
+    margin-top: 5%;
+    margin-bottom: 4%;
 }
 .box-right-register-form a{
     display: flex;
     justify-content: center;
     align-items: center;
     border: solid thin #c6c8c7;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
 }
 .box-right-register-form a>img{
-    width: 60%
+    width: 60%;
+    height: auto;
 }
-.box-right-register-form >p{
-    color: #acacac
+.box-right-register-form>div>p{
+    color: #acacac;
+    font-size: .7vw;
 }
 .input-name-resgister-F,
 .input-email-resgister-F,
 .input-password-resgister-F{
     align-self: center;
-    width: 60%;
-    height: 50px;
+    width: 90%;
+    height: 10%;
     background-color: #f4f8f7;
     border: none;
     color: #c6c8c7;
-    font-size: 15px;
-    margin-bottom: 20px;
-    padding: 0.25em 0.6em
+    font-size: .9vw;
+    margin-bottom: 1vw;
+    padding: 0.25em 0.6em;
 }
 .input-name-resgister-F,
 .input-email-resgister-F,
 .input-password-resgister-F{
-    outline: none
+    outline: none;
 }
 .input-name-resgister-F::placeholder,
 .input-email-resgister-F::placeholder,
 .input-password-resgister-F::placeholder{
-    font-size: 17px;
-    padding-left: 25px;
-    background-position: left 2px;
-    color: #9FA3A2
+    font-size: .8vw;
+    padding-left: 1.3vw;
+    background-position: left .1vw;
+    color: #9FA3A2;
 }
 .input-name-resgister-F::placeholder{
     background-image: url('../../../assets/Forms/Register/peopleIconGrayF.png');
-    background-size: 15px 15px;
-    background-repeat: no-repeat  
+    background-size: .8vw .8vw;
+    background-repeat: no-repeat;
 }
 .input-email-resgister-F::placeholder{
     background-image: url('../../../assets/Forms/Register/emailIconGrayF.png');
-    background-size: 15px 12px;
-    background-repeat: no-repeat
+    background-size: .8vw .7vw;
+    background-repeat: no-repeat;
 }
 .input-password-resgister-F::placeholder{
     background-image: url('../../../assets/Forms/Register/padLockIconGrayF.png');
-    background-size: 14px 15px;
-    background-repeat: no-repeat
+    background-size: .7vw .8vw;
+    background-repeat: no-repeat;
 }
-.box-right-register-form >button {
+.box-right-register-form>div>button{
     align-self: center;
     color: white;
-    background-color: #3aaf9f;
+    background-color: var(--watergreen-text-register);
     border: none;
-    border-radius: 30px;
-    width: 35%;
-    height: 60px;
-    margin-top: 20px;
-    font-size: 17px;
+    border-radius: 1.5vw;
+    width: 53%;
+    height: 11%;
+    margin-top: 4%;
+    font-size: 1vw;
     font-weight: 550;
-    cursor: pointer
+    cursor: pointer; 
 }
 
 
