@@ -24,6 +24,7 @@
     width: 63%;
     height: 13%;
     align-self: flex-end;
+    border: solid thin rgb(132, 255, 0);
 }
 .original-pages-order-and-styles{
     width: 100%;
@@ -31,7 +32,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border:solid red; */
+    border:solid thin red;
 }
 .wooden-sign-background{
     display: flex;

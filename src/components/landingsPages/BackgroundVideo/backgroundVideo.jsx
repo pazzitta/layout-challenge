@@ -10,7 +10,7 @@ const BackgroundVideo = () => {
 
     return (
         <div className='box-macro-landing-pages-BgV'>
-            <video width='100%' autoPlay loop muted src={Video} type="video/mp4"></video>
+            <video className='style-video-bv' autoPlay loop muted src={Video} type="video/mp4"></video>
             <div className='content-box-landing-pages-BgV'>
                 <div>
                     <h2>BUILDING PLACES THAT INSPIRE<font color='red'>.</font></h2>
