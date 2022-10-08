@@ -308,7 +308,6 @@
 .section-link-identification-posters-base>a>img:hover{
     transform:scale(1.1)
 }
-
 /* LAYOUTSECTIONCONTENTONE */
 .original-page-section-order-one{
     width: 100%;
@@ -400,7 +399,6 @@
     width: 30%;
     height: auto;
 }
-
 .news-card-order-section-content-one {
     background-color: #f2f3f5;
     width: 100%;
@@ -673,6 +671,11 @@
     .assets-section-order{
         height: 42vw;
     }
+    .box-standard-layouts{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
     .section-identification-posters-base{
         line-height: 1.5vw;
     }
@@ -690,6 +693,10 @@
     }
     .original-page-section-order-four{
         height: 40vw;
+    }
+    .news-card-order-section-content-one {
+        width: 70%;
+        height: 90%;
     }
 }
 

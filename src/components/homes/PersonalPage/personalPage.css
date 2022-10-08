@@ -184,3 +184,109 @@
     font-weight: 500;
     font-size: .8vw;
 }
+@media screen and (max-width: 64em) and (orientation: portrait) {
+    .box-macro-personalPage-homes{
+        width: 70%;
+        height: 95%;
+    }
+    .vertical-nav-personalPage-homes{
+        width: 10%;
+    }
+    .box-ancords-vertical-nav-personalPage-homes{
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 24%;
+        margin-bottom: 4vw;
+        width: 25%;
+        height: 2%;
+    }
+    .box-ancords-vertical-nav-personalPage-homes img{
+        width: 35%;
+        height: auto;
+    }
+    .box-body-personalPage-homes{
+        height: 95%;
+        border-bottom: solid thin rgb(224, 224, 224);
+    }
+    .box-ancords-horizontal-nav-personalPage-homes{
+        width: 100%;
+        margin-left: 0;
+    }
+    .box-ancords-horizontal-nav-personalPage-homes>a{
+        font-size: 1vh;
+    }
+    .box-ancords-horizontal-nav-personalPage-homes>a:hover,
+    .box-ancords-horizontal-nav-personalPage-homes>a:focus,
+    .box-ancords-horizontal-nav-personalPage-homes>a:active{
+        border-bottom: solid;
+    }
+    .box-phone-horizontal-nav-personalPage-homes{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 10%;
+        height: 2%;
+        margin-right:20%;
+        margin-bottom: 5%;
+    }
+    .box-phone-horizontal-nav-personalPage-homes>img{
+        width: 20%;
+    }
+    .box-phone-horizontal-nav-personalPage-homes>a{
+        font-size: .9vh;
+    }
+    .box-intenal-body-personalPage-homes{
+        width: 100%;
+        height: 90.5%;
+    }
+    .box-data-and-image-personalPage-homes{
+        display: flex;
+        width: 100%;
+        height: 82%;
+    }
+    .box-data-body-personalPage-homes{
+        padding-left: 1vh;
+    }
+    .box-data-body-personalPage-homes>h5,
+    .box-data-body-personalPage-homes>h2,
+    .box-data-body-personalPage-homes>h3,
+    .box-data-body-personalPage-homes>h4{
+        margin: 0;
+    }
+    .box-data-body-personalPage-homes>h5{
+        font-size: 1vw;
+    }
+    .box-data-body-personalPage-homes>h2{
+        font-size: 4vw;
+        line-height: 5vh;
+    }
+    .box-data-body-personalPage-homes>h2>font{
+        font-size: 4vw;
+    }
+    .box-data-body-personalPage-homes>h3,
+    .box-data-body-personalPage-homes>h4{
+        text-align: start;
+        font-weight: 600;
+    }
+    .box-data-body-personalPage-homes>h3{
+        font-size: 1.9vw;
+    }
+    .box-background-image-personalPage-homes{
+        align-items: center;
+    }
+    .backgroun-image-personalPage-homes{
+        width: 80%;
+        height: 80%;
+    }
+    .box-footer-personalPage-homes{
+        width: 100%;
+    }
+    .box-footer-personalPage-homes h6{
+        font-size: 1.4vw;
+    }
+    .box-footer-personalPage-homes p{
+        font-size: 1vw;
+    }
+}

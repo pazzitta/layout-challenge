@@ -96,3 +96,30 @@
     color: #a7a7a7;
     cursor: pointer;
 }
+@media screen and (max-width: 64em) and (orientation: portrait) {
+    .box-macro-news-card{
+        width: 50vw;
+        height: 30vw;
+    }
+    .image-news-card {
+        width: 44.5%;
+    }
+    .box-text-news-card{
+        height: 80%;
+    }
+    .internal-box-text-news-card{
+        width: 85%;
+    }
+    .titel-text-news-card{
+        font-size: 1.1vw;
+    }
+    .decription-text-news-card,
+    .decription2-text-news-card{
+        font-size: .8vw;
+        line-height: 1.2vw;
+    }
+    .name-autor-news-card, 
+    .profesion-autor-news-card{
+        font-size: .8vw;
+    }
+}
