@@ -107,53 +107,58 @@ const MainPagesBoardContent = () => {
             <div className='order-box-images'>
                 <div className='original-pages-order-and-styles'>
                     <div className='original-page-images-order'>
-                        {
-                            pathname === "/landingPages" ?  <img src={BackgroundVideoLP} alt="imagen original Background Video LP"/>:
-                            pathname === "/homes" ? <img src={PersonalPageH} alt="imagen original personal page H"/>:
-                            pathname === "/details" ? <img src={ClothesD} alt="imagen original Clothes D"/>:
-                            pathname === "/forms" ? <img src={LoginF} alt="imagen original Login LP"/>:
-                            <img src={NewsC} alt="imagen original Clothes C"/>
-                        }
-                        {
-                            pathname === "/landingPages" ?  <img src={MinimalismLP} alt="imagen original Minimalism LP" />:
-                            pathname === "/homes" ? <img src={ECommerceH} alt="imagen E-commerce H"/>:
-                            pathname === "/details" ? <img src={FurnitureD} alt="imagen original Furniture D"/>:
-                            pathname === "/forms" ? <img src={RegisterF} alt="imagen original Register F"/>:
-                            <img src={ProfileC} alt="imagen original Food C"/>
-                        }
-                        {
-                            pathname === "/landingPages" ?   <img src={OrganicShapesLP} alt="imagen original OrganicShapes LP" />:
-                            pathname === "/homes" ? <img src={MarketPlaceH} alt="imagen Marketplace H"/>:
-                            pathname === "/details" ? <img src={NewsD} alt="imagen original News D"/>:
-                            pathname === "/forms" ? <img src={CheckOutF} alt="imagen original Background Video LP"/>:
-                            <img src={ClothesC} alt="imagen original Background Video LP"/>
-                        }
-                        {
-                            pathname === "/landingPages" ? <img src={PromotionalLP} alt="imagen original Promotional LP" />:
-                            pathname === "/homes" ? <img src={DigitalNewsPaperH} alt="imagen DigitalNewsPaper H"/>:
-                            pathname === "/details" ? <img src={ProfileD} alt="imagen original Profile D"/>:
-                            pathname === "/forms" ? <img src={ContactUsF} alt="imagen original Contact Us F"/>:
-                            <img src={FoodC} alt="imagen original Profile C"/>
-                        }
-                    </div>
-                    <div className='order-box-scotch-tape-main-Pages-Base'>
                         <div>
-                            <div></div>
-                            <div></div>
+                            {
+                                pathname === "/landingPages" ?  <img src={BackgroundVideoLP} alt="imagen original Background Video LP"/>:
+                                pathname === "/homes" ? <img src={PersonalPageH} alt="imagen original personal page H"/>:
+                                pathname === "/details" ? <img src={ClothesD} alt="imagen original Clothes D"/>:
+                                pathname === "/forms" ? <img src={LoginF} alt="imagen original Login LP"/>:
+                                <img src={NewsC} alt="imagen original Clothes C"/>
+                            }
+                            <div className='order-box-scotch-tape-main-Pages-Base'>
+                                <div></div>
+                                <div></div>
+                            </div>
                         </div>
                         <div>
-                            <div></div>
-                            <div></div>
+                            {
+                                pathname === "/landingPages" ?  <img src={MinimalismLP} alt="imagen original Minimalism LP" />:
+                                pathname === "/homes" ? <img src={ECommerceH} alt="imagen E-commerce H"/>:
+                                pathname === "/details" ? <img src={FurnitureD} alt="imagen original Furniture D"/>:
+                                pathname === "/forms" ? <img src={RegisterF} alt="imagen original Register F"/>:
+                                <img src={ProfileC} alt="imagen original Food C"/>
+                            }
+                            <div className='order-box-scotch-tape-main-Pages-Base'>
+                                <div></div>
+                                <div></div>
+                            </div>
                         </div>
                         <div>
-                            <div></div>
-                            <div></div>
+                            {
+                                pathname === "/landingPages" ?   <img src={OrganicShapesLP} alt="imagen original OrganicShapes LP" />:
+                                pathname === "/homes" ? <img src={MarketPlaceH} alt="imagen Marketplace H"/>:
+                                pathname === "/details" ? <img src={NewsD} alt="imagen original News D"/>:
+                                pathname === "/forms" ? <img src={CheckOutF} alt="imagen original Background Video LP"/>:
+                                <img src={ClothesC} alt="imagen original Background Video LP"/>
+                            }
+                            <div className='order-box-scotch-tape-main-Pages-Base'>
+                                <div></div>
+                                <div></div>
+                            </div>
                         </div>
                         <div>
-                            <div></div>
-                            <div></div>
+                            {
+                                pathname === "/landingPages" ? <img src={PromotionalLP} alt="imagen original Promotional LP" />:
+                                pathname === "/homes" ? <img src={DigitalNewsPaperH} alt="imagen DigitalNewsPaper H"/>:
+                                pathname === "/details" ? <img src={ProfileD} alt="imagen original Profile D"/>:
+                                pathname === "/forms" ? <img src={ContactUsF} alt="imagen original Contact Us F"/>:
+                                <img src={FoodC} alt="imagen original Profile C"/>
+                            }
+                            <div className='order-box-scotch-tape-main-Pages-Base'>
+                                <div></div>
+                                <div></div>                    
+                            </div>
                         </div>
-
                     </div>
                 </div>
                 <div className='my-replicas-order-and-styles'>

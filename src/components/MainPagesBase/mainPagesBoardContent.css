@@ -18,6 +18,7 @@
     align-items: center;
     margin-top: 10%;
 }
+
 .wooden-sing-and-poster-order{
     display: flex;
     justify-content: space-between;
@@ -110,7 +111,7 @@
     justify-content: space-around;
     /* align-items: flex-end; */
     width: 100%;
-    height: 13%;
+    height: 13%
 }
 .order-wooden-signs>div{
     background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
@@ -145,36 +146,36 @@
 .original-page-images-order{
     display: flex;
     justify-content: space-around;
-    width: 100%;
 }
-.original-page-images-order>img{
-    width: 22%;
+.original-page-images-order>div{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.original-page-images-order>div>img{
+    width: 100%;
     height: auto;
 }
 .order-box-scotch-tape-main-Pages-Base{
     position: relative;
-    width: 100%;
-    height: 5%;
-    bottom: 7.8vw;
-    display: flex;
-    justify-content: space-around;
-}
-.order-box-scotch-tape-main-Pages-Base>div{
-    width: 25%;
-    height: 120%;
+    width: 105%;
+    height: .6vw;
+    bottom: 91%;
+    right: 2%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
-.order-box-scotch-tape-main-Pages-Base>div>div{
+.order-box-scotch-tape-main-Pages-Base>div{
     background-color: var(--fuchsia-color);
-    width: 13%;
+    width: 15%;
     height: 120%;
 }
-.order-box-scotch-tape-main-Pages-Base>div>div:first-child{
+.order-box-scotch-tape-main-Pages-Base>div:first-child{
     transform: rotate(-40deg)
 }
-.order-box-scotch-tape-main-Pages-Base>div>div:last-child{
+.order-box-scotch-tape-main-Pages-Base>div:last-child{
     transform: rotate(40deg)
 }
 .my-replicas-order-and-styles{
@@ -242,7 +243,7 @@
 @media screen and (max-width: 64em) and (orientation: portrait) {
     .order-all-board-content-section-one{
         width: 85%;
-        height: 87%;
+        height: 85%;
     }
     .wooden-sing-and-poster-order{
         justify-content: space-between;
@@ -320,14 +321,22 @@
         width: 100%;
     }
     .original-page-images-order{
-        height: 96%;
+        height: 98%;
     }
     .my-replicas-images-order{
         height: 100%;
     }
-    .original-page-images-order>img{
-        width: 60%;
-        height: auto;
+    .original-page-images-order>div{
+        width: 62%;
+        height: 18%;
+    }
+    .order-box-scotch-tape-main-Pages-Base{
+        height: 20vw;
+        bottom: 92%;
+    }
+    .order-box-scotch-tape-main-Pages-Base>div{
+        width: 13%;
+        height: 150%;
     }
     .my-replicas-images-order>div{
         width: 60%;
@@ -336,23 +345,6 @@
     .my-replicas-images-order>div>h3{
         font-size: 4vw;
         bottom: 14vw;
-    }
-    .order-box-scotch-tape-main-Pages-Base{
-        position: absolute;
-        width: 50%;
-        height: 76.5%;
-        bottom: 7vw;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .order-box-scotch-tape-main-Pages-Base>div{
-        width: 65%;
-        height: 16%;
-        align-items: flex-start;
-    }
-    .order-box-scotch-tape-main-Pages-Base>div>div{
-        height: 10%;
     }
 }
 @media screen and (max-width: 37.5em) and (orientation: portrait) {
@@ -385,11 +377,9 @@
     .order-box-images{
         margin-top: 13%;
     }
-    .original-pages-order-and-styles{
-        height: 97%;
-    }
-    .original-page-images-order>img{
-        width: 70%;
+    .original-page-images-order>div{
+        width: 72%;
+        height: 20%;
     }
     .my-replicas-images-order>div{
         width: 70%;
@@ -399,14 +389,18 @@
         bottom: 15.5vw;
     }
     .order-box-scotch-tape-main-Pages-Base{
-        bottom: 11.5vw;
-        height: 75%;
+        bottom: 79%;
     }
     .order-box-scotch-tape-main-Pages-Base>div{
-        width: 75%;
+        width: 15%;
+        height: 40%;
     }
 }
 @media screen and (max-width: 30em) and (orientation: portrait){
+    .order-all-board-content-section-one{
+        width: 85%;
+        height: 87%;  
+    }
     .wooden-sign-background{
         height: 34%;
         margin-left: 12%;
@@ -425,22 +419,25 @@
         right: 2vw;
     }
     .poster-come-back-base-and-order>div:last-child{
-        bottom: 5vw;
+        bottom: 70%;
     }
     .order-box-images{
         margin-top: 5%;
     }
     .order-wooden-signs{
         justify-content: space-between;
-        height: 60%;
-        bottom:25%;
+        height: 64%;
+        bottom:22%;
     }
     .order-wooden-signs>div{
         height: 6%;
     }
     .original-pages-order-and-styles{
-        height: 97%;
-        justify-content: flex-end;
+        height: 100%;
+    }
+    .original-page-images-order>div{
+        width: 75%;
+        height: 18.3vw;
     }
     .original-page-images-order{
         height: 100%;
@@ -450,24 +447,25 @@
         width: 75%;
     }
     .my-replicas-images-order{
-        height: 97%;
+        height: 100%;
         justify-content: space-around;
     }
     .my-replicas-images-order>div{
         width: 75%;
-        height: 13%;
+        height: 18vw;
+    }
+    .my-replicas-images-order>div>img{
+        filter: blur(3px);
     }
     .my-replicas-images-order>div>h3{
-        bottom: 17vw;
+        bottom: 18vw;
+        font-size: 5vw;
     }
     .order-box-scotch-tape-main-Pages-Base{
-        bottom: 14vw;
-        height: 77%;
-        justify-content: space-around;
+        bottom: 90%;
     }
     .order-box-scotch-tape-main-Pages-Base>div{
-        width: 80%;
-        height: 13%;
+        width: 18%;
+        height: 100%;
     }
-
 }
