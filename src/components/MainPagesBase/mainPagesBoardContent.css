@@ -245,7 +245,6 @@
         height: 87%;
     }
     .wooden-sing-and-poster-order{
-        display: flex;
         justify-content: space-between;
         width: 100%;
         height: 10%;
@@ -355,4 +354,120 @@
     .order-box-scotch-tape-main-Pages-Base>div>div{
         height: 10%;
     }
+}
+@media screen and (max-width: 37.5em) and (orientation: portrait) {
+    .order-all-board-content-section-one{
+        margin-top: 14%;
+    }
+    .wooden-sign-background{
+        height: 60%;
+        margin-left: 12%;
+    }
+    .wooden-sign-background>h2,
+    .wooden-sign-background-MR>h2{
+        font-size:2.3vw;
+    }
+    .wooden-sign-background-MR{
+        height: 6%;
+        top: 4%;
+        right: 12%;
+    }
+    .poster-come-back-base-and-order{
+        height: 50%;
+        top: 16vw;
+    }
+    .poster-come-back-base-and-order>div:last-child{
+        bottom: 6vw;
+    }
+    .order-wooden-signs>div{
+        height: 4%;
+    }
+    .order-box-images{
+        margin-top: 13%;
+    }
+    .original-pages-order-and-styles{
+        height: 97%;
+    }
+    .original-page-images-order>img{
+        width: 70%;
+    }
+    .my-replicas-images-order>div{
+        width: 70%;
+        height: 21.5%;
+    }
+    .my-replicas-images-order>div>h3{
+        bottom: 15.5vw;
+    }
+    .order-box-scotch-tape-main-Pages-Base{
+        bottom: 11.5vw;
+        height: 75%;
+    }
+    .order-box-scotch-tape-main-Pages-Base>div{
+        width: 75%;
+    }
+}
+@media screen and (max-width: 30em) and (orientation: portrait){
+    .wooden-sign-background{
+        height: 34%;
+        margin-left: 12%;
+    }
+    .wooden-sing-and-poster-order{
+        height: 13%;
+    }
+    .wooden-sign-background-MR{
+        height: 4.4%;
+        top: 8.5%;
+    }
+    .poster-come-back-base-and-order{
+        height: 30%;
+        width: 20%;
+        top: 3vw;
+        right: 2vw;
+    }
+    .poster-come-back-base-and-order>div:last-child{
+        bottom: 5vw;
+    }
+    .order-box-images{
+        margin-top: 5%;
+    }
+    .order-wooden-signs{
+        justify-content: space-between;
+        height: 60%;
+        bottom:25%;
+    }
+    .order-wooden-signs>div{
+        height: 6%;
+    }
+    .original-pages-order-and-styles{
+        height: 97%;
+        justify-content: flex-end;
+    }
+    .original-page-images-order{
+        height: 100%;
+        justify-content: space-around;
+    }
+    .original-page-images-order>img{
+        width: 75%;
+    }
+    .my-replicas-images-order{
+        height: 97%;
+        justify-content: space-around;
+    }
+    .my-replicas-images-order>div{
+        width: 75%;
+        height: 13%;
+    }
+    .my-replicas-images-order>div>h3{
+        bottom: 17vw;
+    }
+    .order-box-scotch-tape-main-Pages-Base{
+        bottom: 14vw;
+        height: 77%;
+        justify-content: space-around;
+    }
+    .order-box-scotch-tape-main-Pages-Base>div{
+        width: 80%;
+        height: 13%;
+    }
+
 }

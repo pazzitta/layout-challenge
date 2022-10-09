@@ -312,3 +312,20 @@
         width: 90%;
     }   
 }
+@media screen and (max-width: 30em) and (orientation: portrait) {
+    .name-background-video-article-one>h2,
+    .name-personal-page-article-one>h2,
+    .name-clothes-article-one>h2,
+    .name-login-article-one>h2,
+    .name-news-article-one>h2,
+    .name-original-shapes-article-one>h2,
+    .name-promotional-article-one>h2,
+    .name-marketplace-article-one>h2,
+    .name-profile-article-one>h2,
+    .name-register-article-one>h2,
+    .name-check-out-article-one>h2,
+    .name-contact-us-article-one>h2,
+    .name-digital-newspaper-article-one>h2{
+        font-size: 7vw;
+    }
+}
