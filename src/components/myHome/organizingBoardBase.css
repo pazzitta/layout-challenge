@@ -94,6 +94,14 @@
         height: 93%;
     }
 }
+@media screen and (max-width: 37.5em) and (orientation: portrait) {
+    .top-frame-styles-and-order{
+        height: 4vw;
+    }
+    .botton-frame-styles-and-order{
+        height: 5vw;
+    }  
+}
 @media screen and (max-width: 30em) and (orientation: portrait) {
     .board-base-style{
         height: 94%;
