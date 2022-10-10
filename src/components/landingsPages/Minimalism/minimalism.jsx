@@ -21,7 +21,7 @@ const LayoutMinimalism = () => {
                     <p className='description-small-main-minimalis-LP'>Try Shopify free for 14 days, no credit required. By entering your email, you agree to receive marketing emails from Shopify</p>
                 </main>
                 <footer className='composition-footer-minimalism-LP'>
-                    <img className='image-minimalism-LP' src={BackgrounImageAll} alt="Ilustración landing page"/>
+                    {/* <img className='image-minimalism-LP' src={BackgrounImageAll} alt="Ilustración landing page"/> */}
                 </footer>
             </div>
         </div>
