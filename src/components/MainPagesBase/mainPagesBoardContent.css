@@ -64,7 +64,7 @@
 }
 .poster-come-back-base{
     position: absolute;
-    background-color: #F62F55;
+    background-color: var(--fuchsia-color);
     width:100%;
     height: 85%;
     align-self: center;
@@ -90,7 +90,7 @@
     bottom: 2.6vw;
 }
 .poster-come-back-base-and-order>div>div{
-   background-color: #231E20;
+    background-color:var(--letter-black-color);
     width: 18%;
     height: 150%;
 }
@@ -109,9 +109,8 @@
 .order-wooden-signs{
     display: flex;
     justify-content: space-around;
-    /* align-items: flex-end; */
     width: 100%;
-    height: 13%
+    height: 13%;
 }
 .order-wooden-signs>div{
     background-image: url('../../assets/LandingPages/SmallWoodenSignBackground.jpg');
@@ -210,7 +209,7 @@
     font-size:1.5vw;
     letter-spacing: .2vw;
     width: 80%;
-    font-family: 'Abel', sans-serif
+    font-family: 'Abel', sans-serif;
 }
 .my-replicas-images-order{
     display: flex;
@@ -437,7 +436,7 @@
     }
     .original-page-images-order>div{
         width: 75%;
-        height: 18.3vw;
+        height: 19vw;
     }
     .original-page-images-order{
         height: 100%;
@@ -452,7 +451,7 @@
     }
     .my-replicas-images-order>div{
         width: 75%;
-        height: 18vw;
+        height: 19.5vw;
     }
     .my-replicas-images-order>div>img{
         filter: blur(3px);
@@ -463,6 +462,8 @@
     }
     .order-box-scotch-tape-main-Pages-Base{
         bottom: 90%;
+        width: 110%;
+        right: 4%;
     }
     .order-box-scotch-tape-main-Pages-Base>div{
         width: 18%;
