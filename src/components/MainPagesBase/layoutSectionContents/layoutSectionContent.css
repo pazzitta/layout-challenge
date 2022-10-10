@@ -12,7 +12,6 @@
     flex-direction: column;
     position: absolute;
     margin-top: 10vw;
-    border: solid  rebeccapurple;
 }
 .section-identification-posters-order{
     width: 12vw;
@@ -36,7 +35,7 @@
     align-items: center;
     color: white;
     font-family: 'Patrick Hand', cursive;
-    font-size: clamp(1em, 1.4vw, 1.7vw);
+    font-size: clamp(.8em, 1.4vw, 1.7vw);
     line-height: 1vw;
     margin: 0;
 }
@@ -63,7 +62,6 @@
 .assets-section-order{
     width: 100%;
     height: 37vw;
-    border: solid fuchsia;
 }
 .top-box-assets-section-order{
     width: 100%;
@@ -105,7 +103,7 @@
 }
 .order-wooden-signs-LSC>div>h3{
     width: 75%;
-    font-size: clamp(1.1em, 1.2vw, 1.5vw);
+    font-size: clamp(.9em, 1.2vw, 1.5vw);
     color: white;
     font-family: 'Abel', sans-serif;
 }
@@ -228,7 +226,7 @@
 .responsive-sizes-posters-base{
     color: white;
     font-family: 'Patrick Hand', cursive;
-    font-size: clamp(1em, 1.3vw, 1.6vw);
+    font-size: clamp(.9em, 1.3vw, 1.6vw);
     margin: 0;
 }
 .my-layout-section-order{
@@ -272,7 +270,7 @@
     margin: 0;
     display: flex;
     justify-content: center;
-    font-size: clamp(1.1em, 1.5vw, 1.7vw);
+    font-size: clamp(1em, 1.5vw, 1.7vw);
     line-height: 1vw;
 }
 .section-link-identification-posters-order>div:last-child{
@@ -580,13 +578,16 @@
     width: 60%;
     height: auto;
 }
+.size-working-gif{
+    width: 60%;
+    height: auto;
+}
 
 /* LAYOUTSECTIONCONTENTFOUR */
 .original-page-section-order-four{
     width: 100%;
     height: 32vw;
     margin-top: 1%;
-    border: solid orange;
 }
 .original-page-section-four-order-three-img-big{
     width: 27%;
@@ -666,7 +667,6 @@
     }
     .original-page-section-order-one{
         height: 25%;
-        border: solid;
     }
     .assets-section-order{
         height: 42vw;
@@ -685,12 +685,8 @@
     .my-layout-section-order{
         height: 50%;
     }
-    .original-page-section-order-two{
-        height: 40vw;
-    }
-    .original-page-section-order-three{
-        height: 40vw;
-    }
+    .original-page-section-order-two,
+    .original-page-section-order-three,
     .original-page-section-order-four{
         height: 40vw;
     }
@@ -698,8 +694,55 @@
         width: 70%;
         height: 90%;
     }
+    .size-working-gif{
+        width: 80%;
+        height: auto;
+    }
 }
-
-
-
-
+@media screen and (max-width: 37.5em) and (orientation: portrait) {
+    .order-all-layout-section-content{
+        border: solid  rebeccapurple;
+    }
+    .original-page-section-order-one{
+        height: 25%;
+        border: solid;
+    }
+    .original-page-section-order-one img{
+        width: 80%;
+    }
+    .assets-section-order{
+        height: 47vw;
+        border: solid fuchsia;
+    }
+    .section-identification-posters-base{
+        font-size: 1.4vw;
+    }
+    .section-link-identification-posters-base{
+        font-size: 1.8vw;
+    }
+    .papers-order-and-styles>div:first-child>h4{
+        font-size: 3vw;
+    }
+    .order-wooden-signs-LSC>div>h3,
+    .responsive-sizes-posters-base{
+        font-size: 1.6vw;
+    }
+    .original-page-section-order-two,
+    .original-page-section-order-three,
+    .original-page-section-order-four{
+        height: 50vw;
+    }
+    /* .news-card-order-section-content-one {
+        width: 70%;
+        height: 90%;
+    } */
+    .size-working-gif{
+        width: 90%;
+        height: auto;
+    }
+    .assets-multimedia-background-video-LP>p{
+        top: 2.9vw;
+        font-size: 1vw ;
+        line-height: 1vw;
+    }
+}

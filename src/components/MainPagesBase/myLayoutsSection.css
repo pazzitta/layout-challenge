@@ -312,6 +312,23 @@
         width: 90%;
     }   
 }
+@media screen and (max-width: 37.5em) and (orientation: portrait) {
+    .box-two-buttons-order{
+        width: 40%;
+        height: 85%;
+    }
+    .box-buttons-three-order{
+        width: 55%;
+        height: 85%;
+    }
+    .back-to-top-style,
+    .go-to-the-next-style{
+        font-size: 1.5vw;
+        width: 15vw;
+        line-height: 1.2vw;
+    }
+   
+}
 @media screen and (max-width: 30em) and (orientation: portrait) {
     .name-background-video-article-one>h2,
     .name-personal-page-article-one>h2,
