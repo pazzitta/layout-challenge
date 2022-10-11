@@ -181,3 +181,34 @@
     margin-right: 2.8vh;
   }
 }
+@media screen and (max-width: 37.5em) and (orientation: portrait) {
+  .style-video-bv{
+    min-height: 270%;
+    min-width: 270%;
+  }
+  .content-box-landing-pages-BgV>div{
+    height: 60%;
+  }
+  .content-box-landing-pages-BgV>div>h2,
+  .content-box-landing-pages-BgV>div>h2>font{
+    font-size:5.2vw;
+  }
+  .content-box-landing-pages-BgV>div>img:first-of-type{
+    margin-top: 8vw;
+    margin-bottom: 9vw;
+  }
+  .brand-name-landing-pages-BgV{
+    font-size: 4vw;
+  }
+  .brand-name-landing-pages-BgV>font{
+    font-size: 4vw;
+  }
+  .footer-box-landing-pages-BgV>div{
+    width: 56%;
+  }
+  .ul-navicon-three-lines-order-and-style{
+    bottom: 10.5vh;
+    left: 3vh;
+  }
+ 
+}
