@@ -32,6 +32,7 @@ const PersonalPageHome = () => {
                 </div>
             </nav>
             <div className='box-body-personalPage-homes'>
+                <div className='navicon-three-line-order-and-styles-PP'>&#9776;</div>
                 <nav className='horizontal-nav-personalPage-homes'>
                     <div className='box-ancords-horizontal-nav-personalPage-homes'>
                         <a href="/">portfolio</a>
@@ -41,7 +42,7 @@ const PersonalPageHome = () => {
                         <a href="/">contact me</a>
                     </div>
                     <div className='box-phone-horizontal-nav-personalPage-homes'>
-                        <img src={PhoneIconPP} alt="ícono telefono" />
+                        <a href="tel:3536272883"><img href="tel:3536272883" src={PhoneIconPP} alt="ícono telefono" /></a>
                         <a href="tel:3536272883">Call me</a>
                     </div>
                 </nav>
