@@ -41,6 +41,18 @@
 .background-Ecommerce-card p>small{
     font-size: .6vw;
 }
+@media screen and (max-width: 64em) and (orientation: portrait){
+    .background-Ecommerce-card{
+        width: 32%;
+        height: 19.5%;
+    }
+    .background-Ecommerce-card p{
+        font-size: 1.5vw;
+    }
+    .background-Ecommerce-card p>b{
+        font-size: 1vw;
+    }
+}
 
 /* CARD MARKETPLACE */
 /* VerticalProductCard */

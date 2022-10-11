@@ -149,7 +149,6 @@
         height: 30%;
         margin-top: .5vw;
         margin-right: 3vw;
-
     }
     .box-sesion-and-contact-Ecommerce-homes >a:first-child,
     .box-sesion-and-contact-Ecommerce-homes >a:nth-child(2),
@@ -160,9 +159,8 @@
         height: 75%;
     }
     .box-bottom-menu-Ecommerce-homes>a{
-        height: 2vw;    
-    }
+        height: 2vw;        }
     .box-all-card-Ecommerce-homes{
-        height: 90%;
+        height: 100%;
     }
 }
