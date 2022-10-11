@@ -6,7 +6,7 @@ import CartWhiteH from '../../../assets/homes/Ecommerce/cartWhiteH.png'
 const EcommerceHomes = () => {
     return(
         <div className="box-macro-Ecommerce-homes">
-            <img src={BackgroundEcommerce} alt="Foto fondo" />
+            {/* <img src={BackgroundEcommerce} alt="Foto fondo" /> */}
             <header className="box-header-Ecommerce-homes">
                 <nav>
                     <div className="box-brand-and-sections-Ecommerce-homes">

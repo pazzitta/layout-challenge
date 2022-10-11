@@ -326,8 +326,7 @@
         font-size: 1.5vw;
         width: 15vw;
         line-height: 1.2vw;
-    }
-   
+    } 
 }
 @media screen and (max-width: 30em) and (orientation: portrait) {
     .name-background-video-article-one>h2,
