@@ -6,7 +6,7 @@ const NewsCard = () => {
     return(
         <div className='caja-para-ver'>
             <div className='box-macro-news-card'>
-                <img className='image-news-card' src={ImageNews} alt="Imagen ilustrativa" />
+                <div className='image-news-card'></div>
                 <div className='box-text-news-card'>
                     <div className='internal-box-text-news-card'>
                         <p className='section-text-news-card'>Travel</p>

@@ -765,4 +765,8 @@
         font-size: 1vw ;
         line-height: 1vw;
     }
+    .profile-card-order-section-content-one{
+        width: 80%;
+        height:77%;
+    }
 }

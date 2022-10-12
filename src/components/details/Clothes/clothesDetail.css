@@ -59,28 +59,29 @@
    display: flex;
    justify-content: space-evenly;
 }
-.order-main-white-rectangle-nav-product-one-detail a{
+
+.order-main-white-rectangle-nav-product-one-detail>section>a{
     text-decoration: none;
     color: black;
     font-weight: 700;
     font-size: .7vw;
 }
-.order-main-white-rectangle-nav-product-one-detail a:hover{
+.order-main-white-rectangle-nav-product-one-detail>section>a:hover{
     text-decoration: underline;
 }
-.order-main-white-rectangle-nav-product-one-detail a>img{
-    width: 35%;
-    height: auto;
-    align-self: center;
-    position: relative;
-    top: .1vw;
-}
-.order-main-white-rectangle-nav-product-one-detail>div{
+.order-main-white-rectangle-nav-product-one-detail>article{
     width: 12%;
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
     margin-right: 2vw;
+}
+.order-main-white-rectangle-nav-product-one-detail>article>a>img{
+    width: 35%;
+    height: auto;
+    align-self: center;
+    position: relative;
+    top: .1vw;
 }
 .order-main-white-rectangle-nav-product-one-detail button{
     background-image: url('../../../assets/Details/ProductOne/magnifyingGlassBlack.png');
@@ -352,16 +353,17 @@
     .order-main-white-rectangle-nav-product-one-detail>section{
        width: 75%;
     }
-    .order-main-white-rectangle-nav-product-one-detail a{
+    .order-main-white-rectangle-nav-product-one-detail>section>a{
         font-size: 1vw;
     }
-    .order-main-white-rectangle-nav-product-one-detail a>img{
-        width: 50%;
+    .order-main-white-rectangle-nav-product-one-detail>article{
+        width: 14%;
     }
-    .order-main-white-rectangle-nav-product-one-detail>div{
-        width: 15%;
+    .order-main-white-rectangle-nav-product-one-detail>article>a>img{
+        width: 65%;
     }
     .order-main-white-rectangle-nav-product-one-detail button{
+        margin-right: .2vw;
         width: 100%;
         height: 2vw;
     }
@@ -470,58 +472,11 @@
     }
     .brand-white-rectangle-nav-product-one-detail>h2{
       font-size: 3vw;
-      margin-left: 4.5vw;
+      margin-left: 8vw;
     }
     .yellow-rectangle-nav-product-one-detail{
         display: none;
     }
-    .order-main-white-rectangle-nav-product-one-detail{
-        width: 12%;
-        border: solid thin blueviolet;
-    }
-    /* DESDE ACÁ! HAY QUE REESTRUCTURAR DESDE ARRIBA */
-    .order-main-white-rectangle-nav-product-one-detail>section{
-       display: none;
-    }
-    .navicon-clothes-less-601px{
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        right: 30vw;
-        margin-top: 6vw;
-        width: 20%;
-        height: 9%;
-        margin-left: 0;
-        background-color: rgba(1, 1, 1, .7);
-        border-radius: .3vw;
-    }
-    .navicon-clothes-less-601px a{
-        font-size: 2vw;
-        color: white;
-        text-decoration: none;
-        font-weight: 600;
-        height: 1.7vw;
-     }
-     .order-main-white-rectangle-nav-product-one-detail>div>a{
-        width:  80%;
-        height: 50%;
-        border: solid;
-    }
-    .order-main-white-rectangle-nav-product-one-detail a{
-        font-size: 1vw;
-    }
-    .order-main-white-rectangle-nav-product-one-detail>div>a>img{
-        width: 50%;
-    }
-    .order-main-white-rectangle-nav-product-one-detail>div{
-        width: 15%;
-    }
-    .order-main-white-rectangle-nav-product-one-detail button{
-        width: 100%;
-        height: 2vw;
-    }
-
     .navicon-order-and-styles-Clothe-D{
         position: absolute;
         display: flex;
@@ -530,53 +485,67 @@
         left: 16vw;
         top: 107.5vw;
     }
+    .navicon-clothes-less-601px{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        right: 53.6vw;
+        margin-top: 29vw;
+        width: 15%;
+        height: 12%;
+        margin-left: 0;
+        background-color: rgba(1, 1, 1, .9);
+        border-radius:.7vw;
+    }
+    .navicon-clothes-less-601px a{
+        font-size: 2vw;
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        height: 1.7vw;
+    }
+    .order-main-white-rectangle-nav-product-one-detail{
+        width: 16%;
+    }
+    .order-main-white-rectangle-nav-product-one-detail>section{
+        display: none;
+    }
+    .order-main-white-rectangle-nav-product-one-detail>article{
+        width: 100%;
+    }
+    .order-main-white-rectangle-nav-product-one-detail>article>a>img{
+        width: 70%;
+        top: .4vw;
+    }
+    .order-main-white-rectangle-nav-product-one-detail button{
+        margin-right: .3vw;
+    }
     .input-on-order-and-style{
-        bottom: 4.7vw;
-        left: 6vw;
-        width: 25vw;
-        height: 2.5vw;
+        bottom: 6.5vw;
+        left: .5vw;
+        width: 35vw;
+        height: 4vw;
         border-radius: .6vw;
     }
     .input-on-order-and-style::placeholder{
-        font-size: 1.1vw;
+        font-size: 1.6vw;
     }
-    .main-order-product-one-detail{
-        flex-direction: column-reverse;
-    }
-    .left-rectangle-order-product-image-main-product-one-detail{
-        display: none;
-    }
-    .left-vertical-rectangle-main-product-one-detail{
-        display: none;
-    }
-    .middle-rectangle-order-product-image-main-product-one-detail{
-        border: none;
-        border-bottom: solid;
-        width: 100%;
-        height: 30%;
-        flex-direction: row;
-    }
-    .top-gray-rectangle-middle-rectangle-main-product-one-detail{
-        border:none;
-        border-right: solid;
-        height: 100%;
-        width: 3%;
-    }
-    .section-one-middle-rectangle-main-clothes-D,
-    .section-two-and-three-middle-rectangle-main-clothes-D{
-        justify-content: flex-start;
-        border: none;
-        border-right: solid;
-        width: 23.5%;
+/* Hay que arreglar a mi responsive, hay un tema con los display creo  */
+    .section-one-middle-rectangle-main-clothes-D>ul,
+    .section-two-and-three-middle-rectangle-main-clothes-D>ul{
+        position: relative;
+        right: 2.4vw;
     }
     .section-one-middle-rectangle-main-clothes-D h4,
     .section-two-and-three-middle-rectangle-main-clothes-D h4{
         font-size: 1.2vw;
     }
     .section-one-middle-rectangle-main-clothes-D>p{
-        padding-left: 1.3vw;
-        padding-right: .2vw;
-        font-size: .9vw;
+        font-size: 1vw;
+    }
+    .middle-rectangle-order-product-image-main-product-one-detail{
+        height: 40%;
     }
     .middle-rectangle-order-product-image-main-product-one-detail>section>div{
         bottom: .5vw;
@@ -587,44 +556,32 @@
        height: 2vw;
        font-size: 1vw;
     }
+    /* Hay que arreglar a mi responsive, hay un tema con los display creo  */
     .right-rectangle-order-product-image-main-product-one-detail{
-        width:100%;
-        height:70%;
+        height:64%;
     }
     .right-rectangle-order-product-image-main-product-one-detail>img{
-        width: 65%;
+        width: 70%;
     }
     .right-rectangle-order-product-image-main-product-one-detail>h2{
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
     .right-rectangle-order-product-image-main-product-one-detail>small{
-        width: 50%;
-        font-size: .9vw;
-        margin-left: 8vw;
+        font-size: 1vw;
+        margin-left: 5vw;
     }
     .right-rectangle-order-product-image-main-product-one-detail>h3{
-        font-size: 2.5vw;
-        margin-top: 2vw;
+        font-size: 3vw;
     }
     .right-right-rectangle-order-product-image-main-product-one-detail{
         display: none;
     }
     .footer-order-product-one-detail{
-        border-top: solid;
-    }
-    .text-rectangle-footer-product-one-detail{
-        width: 24%;
+        width: 100%;
+        height: 6%;
+        display: flex;
     }
     .text-rectangle-footer-product-one-detail>p{
-       font-size: .9vw;
+       font-size: 1.3vw;
     }
-    .yellow-rectangle-footer-product-one-detail{
-        width: 34%;
-    }
-    .left-white-rectangle-footer-product-one-detail{
-        width: 3%;
-    }
-    .blue-rectangle-footer-product-one-detail{
-        width: 24%;
-    }   
 }

@@ -34,10 +34,10 @@ const ClothesDetail = () => {
                                 <a href="/">No gender</a>
                             </div>
                         }
-                        <div>
+                        <article>
                             <button onClick={()=>setOnInput(!onInput)}></button>
                             <a href="/"><img src={IconHeartBlack} alt="ícono corazón" /></a>
-                        </div>
+                        </article>
                     </div>
                     <div className="red-rectangle-nav-product-one-detail"></div>
                 </nav>
