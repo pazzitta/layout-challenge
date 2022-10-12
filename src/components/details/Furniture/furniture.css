@@ -295,7 +295,6 @@
     .container-card-product-two-detail{
         flex-direction: column;
         height: 85%;
-        border: solid;
     }
     .order-card-left-section-product-two-detail{
         width: 100%;

@@ -320,27 +320,37 @@
     .box-body-personalPage-homes{
         height: 90%;
         border: none;
-        /* ok  */
     }
     .navicon-three-line-order-and-styles-PP{
-        display: none;
-    }
-    .box-ancords-horizontal-nav-personalPage-homes{
         position: absolute;
+        display: flex;
+        font-size: 4vw;
+        font-weight: 600;
+        left: 39.5vw;
+        top: 107vw;
+    }
+    .box-ancords-horizontal-nav-personalPage-homes-less-601px{
+        position: absolute;
+        display: flex;
         flex-direction: column;
         justify-content: space-around;
         right: 30vw;
         margin-top: 6vw;
         width: 25%;
-        height: 11%;
+        height: 9%;
         margin-left: 0;
         background-color: rgba(1, 1, 1, .7);
         border-radius: .3vw;
-        /* ok, falta que aparezca y desaparezca  */
     }
-    .box-ancords-horizontal-nav-personalPage-homes>a{
+    .box-ancords-horizontal-nav-personalPage-homes-less-601px>a{
         font-size: 2vw;
         color: white;
+        text-decoration: none;
+        font-weight: 600;
+        height: 1.7vw;
+    }
+    .box-ancords-horizontal-nav-personalPage-homes{
+        display: none;
     }
     .box-phone-horizontal-nav-personalPage-homes{
         width: 10%;
@@ -358,7 +368,7 @@
         display: none;
     }
     .box-data-and-image-personalPage-homes{
-        margin-top: 10vw;
+        margin-top: 8vw;
     }
     .box-data-body-personalPage-homes{
         position: relative;
@@ -384,7 +394,7 @@
         font-size: 1.8vw;
         margin-bottom: 1vw;
     }
-    .box-data-body-personalPage-homes >button{
+    .box-data-body-personalPage-homes>button{
         width: 50%;
         height: 4.5vw;
         font-size: 1.8vw;
@@ -392,13 +402,12 @@
     .backgroun-image-personalPage-homes{
         position: absolute;
         left: 24vw;
-        bottom: 20vw;
+        bottom: 24vw;
         width: 40%;
         height: auto;
         opacity: .1;
     }
     .box-footer-personalPage-homes{
         display: none;
-        /* ok */
     }
 }

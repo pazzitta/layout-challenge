@@ -1,4 +1,5 @@
 import './personalPage.css'
+import { useState } from 'react';
 import IsotipoPP from '../../../assets/homes/PersonaPage/isotipoPP.png'
 import TwitterIconPP from '../../../assets/homes/PersonaPage/twitterIconPP.png'
 import BehanceIconPP from '../../../assets/homes/PersonaPage/BehanceIconPP.png'
@@ -9,6 +10,7 @@ import PhoneIconPP from '../../../assets/homes/PersonaPage/phoneIconoPP.png'
 import BackgroundImagePP from '../../../assets/homes/PersonaPage/backgroundImagePP.jpg'
 
 const PersonalPageHome = () => {
+    const [naviconOn, setNaviconOn] = useState (false)
     return(
         <div className='box-macro-personalPage-homes'>
             <nav className='vertical-nav-personalPage-homes'>
@@ -32,7 +34,8 @@ const PersonalPageHome = () => {
                 </div>
             </nav>
             <div className='box-body-personalPage-homes'>
-                <div className='navicon-three-line-order-and-styles-PP'>&#9776;</div>
+                <div className='navicon-three-line-order-and-styles-PP'
+                 onMouseUp={() => setNaviconOn(!naviconOn)}>&#9776;</div>
                 <nav className='horizontal-nav-personalPage-homes'>
                     <div className='box-ancords-horizontal-nav-personalPage-homes'>
                         <a href="/">portfolio</a>
@@ -41,6 +44,16 @@ const PersonalPageHome = () => {
                         <a href="/">reviews</a>
                         <a href="/">contact me</a>
                     </div>
+                    {
+                        naviconOn &&
+                        <div className='box-ancords-horizontal-nav-personalPage-homes-less-601px'>
+                            <a href="/">portfolio</a>
+                            <a href="/">about me</a>
+                            <a href="/">my blog</a>
+                            <a href="/">reviews</a>
+                            <a href="/">contact me</a>
+                        </div>
+                    }
                     <div className='box-phone-horizontal-nav-personalPage-homes'>
                         <a href="tel:3536272883"><img href="tel:3536272883" src={PhoneIconPP} alt="ícono telefono" /></a>
                         <a href="tel:3536272883">Call me</a>
