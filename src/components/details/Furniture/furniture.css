@@ -16,6 +16,9 @@
     width: 85%;
     height: 80%;
 }
+.navicon-furniture-order-and-styles{
+    display: none;
+}
 .order-card-left-section-product-two-detail{
     background-color: white;
     width: 45%;
@@ -305,7 +308,7 @@
     }
     .order-card-left-section-product-two-detail>img{
         width: 20%;
-        margin-left: 3vw;
+        margin-left: 3vw;  
     }
     .order-card-left-section-product-two-detail>div{
         height: 80%;
@@ -411,6 +414,130 @@
         height: 3vw;
         margin-right: 1vw;
         font-size: 1.3vw;
+    }
+}
+@media screen and (max-width:37.5em) and (orientation: portrait){
+    .container-input-rotation>p{
+        left: 2.7vw;
+        font-size: 1.1vw;
+    }
+    .order-card-left-section-product-two-detail{
+        display: flex;
+        align-items: center;
+    }
+    .order-card-left-section-product-two-detail>img{
+        margin-left: 0vw;
+    }
+    .navicon-furniture-order-and-styles{
+        position: absolute;
+        display: flex;
+        font-size: 3vw;
+        font-weight: 600;
+        left: 21vw;
+        top: 114vw;
+    }
+    .navicon-furniture-less-601px{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        right: 30vw;
+        margin-top: 21vw;
+        width: 11vw;
+        height: 16vw;
+        margin-left: 0;
+        background-color: rgba(33, 48, 71, 0.9);
+        border-radius:.7vw;
+    }
+    .navicon-furniture-less-601px a{
+        font-size: 2vw;
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        height: 1.7vw;
+    }
+    .order-card-right-section-product-two-detail>nav{
+        position: absolute;
+        width: 8%;
+        right: 20vw;
+        top: 113vw;
+    }
+    .card-right-section-anchors-order-nav-product-two-detail{
+        display: none;
+    }
+    .hidden-input-order-and-style{
+        width: 30%;
+        height: 3vw;
+        right: 28.5vw;
+        top: 113.5vw;
+    }
+    .hidden-input-order-and-style::placeholder{
+        font-size: 1.5vw;
+    }
+    .card-right-section-images-order-nav-product-two-detail>img{
+        width: 2.5vw;
+    }
+    .card-right-section-images-order-nav-product-two-detail>div>img{
+        width: 2vw;
+    }
+
+    .card-right-section-description-order-nav-product-two-detail{
+        width: 70%;
+        height: 85%;
+    }
+    .order-score-box-product-two-detail>img{
+        width: 6%;
+    }
+    .order-score-box-product-two-detail>h4{
+        font-size: 1.5vw;
+    }
+    .card-right-section-description-order-nav-product-two-detail>h2{
+        font-size: 2.9vw;
+    }
+    .order-box-counter-product-two-detail>div{
+        margin-left: 1vw;
+        margin-right: 1vw;
+        font-size: 1.8vw;
+    }
+    .card-right-section-description-order-nav-product-two-detail>div:nth-of-type(2)>button{
+        width: 1.6vw;
+        height: 1.8vw;
+    }
+    .card-right-section-description-order-nav-product-two-detail>div:nth-of-type(2)>button:first-child:hover,
+    .card-right-section-description-order-nav-product-two-detail>div:nth-of-type(2)>button:first-child:focus,
+    .card-right-section-description-order-nav-product-two-detail>div:nth-of-type(2)>button:last-child:hover,
+    .card-right-section-description-order-nav-product-two-detail>div:nth-of-type(2)>button:last-child:focus{
+        border:solid white .5vw;
+        width: 3vw;
+        height: 3vw;
+    }
+    .card-right-section-description-order-nav-product-two-detail>p{
+        width: 95%;
+        font-size: 1.2vw;
+        line-height: 1.6vw;
+    }
+    .box-order-quantity-product-two-detail h4,
+    .box-order-quantity-product-two-detail small,
+    .box-order-quantity-product-two-detail p{
+        margin: 0;
+        font-size: 1vw;
+    }
+    .plus-button-product-two-detail,
+    .less-button-product-two-detail{
+        width: 3vw;
+        height: 3vw;
+        font-size: 2vw;
+    }
+    .add-button-product-two-detail,
+    .buy-button-product-two-detail{
+        width: 45%;
+        height: 3.5vw;
+        margin-right: 1vw;
+        font-size: 1.3vw;
+    }
+    .card-right-section-description-order-nav-product-two-detail>div:last-of-type{
+        position: relative;
+        bottom:1vw;
     }
 }
 

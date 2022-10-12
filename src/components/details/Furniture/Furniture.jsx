@@ -12,6 +12,7 @@ import StarYellow from '../../../assets/Details/ProductTwo/starYellow.png'
 const FurnitureDetail = () => {
 
     const [onInputMF, SetOnInputMF] = useState(false)
+    const [naviconFOn, setNaviconFOn] = useState (false)
 
     return(
         <div className='order-all-page-product-two-detail'>
@@ -33,6 +34,8 @@ const FurnitureDetail = () => {
                     </div>
                 </section>
                 <section className='order-card-right-section-product-two-detail'>
+                <div className='navicon-furniture-order-and-styles'
+                 onMouseUp={() => setNaviconFOn(!naviconFOn)}>&#9776;</div>
                     <nav>
                         <div className='card-right-section-anchors-order-nav-product-two-detail'>
                             <a href="/">Home</a>
@@ -40,6 +43,15 @@ const FurnitureDetail = () => {
                             <a href="/">Product</a>
                             <a href="/">Store</a>
                         </div>
+                        {
+                            naviconFOn &&
+                            <div className='navicon-furniture-less-601px'>
+                                <a href="/">Home</a>
+                                <a href="/">Furniture</a>
+                                <a href="/">Product</a>
+                                <a href="/">Store</a>
+                            </div>
+                        }
                         <div className='card-right-section-images-order-nav-product-two-detail'>
                             <div>
                                 <img onMouseUp={() => SetOnInputMF (!onInputMF)} src={ShortMangnifyingGlass} alt="Lupa" />

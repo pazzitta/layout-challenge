@@ -255,5 +255,47 @@
         margin-top: 4%;
     }
 }
+@media screen and (max-width: 37.5em) and (orientation: portrait){
+    .box-left-register-form>div{
+        height: 65%;
+        margin-top: 1vw;
+    }
+    .box-left-register-form>div>p {
+        font-size: 1.5vw;
+        line-height: 1.4vw;
+        width: 75%;
+    }
+    .box-left-register-form>div>button {
+        font-size: 1.5vw;
+        border-radius: 3vw;
+        border: solid thin;
+    }
+    .box-right-register-form>div{
+        width: 75%;
+    }
+    .box-right-register-form>div>p{
+        font-size: 1.2vw;
+    }
+    .input-name-resgister-F::placeholder,
+    .input-email-resgister-F::placeholder,
+    .input-password-resgister-F::placeholder{
+        font-size: 1.3vw;
+        padding-left: 2vw;
+
+    }
+    .input-name-resgister-F::placeholder{
+        background-size: 1.2vw 1.2vw;
+    }
+    .input-email-resgister-F::placeholder{
+        background-size: 1.1vw 1vw;
+    }
+    .input-password-resgister-F::placeholder{
+        background-size: 1vw 1.1vw;
+    }
+    .box-right-register-form>div>button{
+        border-radius: 3vw;
+        font-size: 1.5vw;
+    }
+}
 
 
