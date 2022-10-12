@@ -122,22 +122,9 @@ const MyLayoutsSection = () => {
                     <div></div>
                     <div></div>
                 </div>
-                {
-                    pathname === '/homes' ?
-                     <div className='big-base-board'>
-                        <MyLayoutBaseBoard/>
-                        <MyLayoutBaseBoard/>
-                        <MyLayoutBaseBoard/>
-                        <MyLayoutBaseBoard/>
-                        <MyLayoutBaseBoard/>
-
-                    </div>:
-                    <div className='normal-base-board'>
-                        <MyLayoutBaseBoard/>
-                        <MyLayoutBaseBoard/>
-                        <MyLayoutBaseBoard/>
-                    </div>
-                }
+                <MyLayoutBaseBoard/>
+                <MyLayoutBaseBoard/>
+                <MyLayoutBaseBoard/>
                 <div className="botton-frame-styles-and-order-layout-section">
                     <div></div>
                     <article className='box-buttons-three-order'>

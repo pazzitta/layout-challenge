@@ -6,9 +6,12 @@ import FrontImageProduct from '../../../assets/Details/ProductOne/frontImageProd
 
 const ClothesDetail = () => {
     const [onInput, setOnInput] = useState(false)
+    const [naviconDOn, setNaviconDOn] = useState (false)
     return(
         <div className='all-page-order-product-one-detail'>
             <header className='header-order-product-one-detail'>
+            <div className='navicon-order-and-styles-Clothe-D'
+                 onMouseUp={() => setNaviconDOn(!naviconDOn)}>&#9776;</div>
                 <nav>
                     <div className="left-white-rectangle-nav-product-one-detail"></div>
                     <div className="brand-white-rectangle-nav-product-one-detail"><h2>BALENCIAGA</h2></div>
@@ -21,10 +24,20 @@ const ClothesDetail = () => {
                             <a href="/">Men</a>
                             <a href="/">No gender</a>
                         </section>
-                        <div>
+                        {
+                            naviconDOn &&
+                            <div className='navicon-clothes-less-601px'>
+                                <a href="/">Home</a>
+                                <a href="/">About</a>
+                                <a href="/">Women</a>
+                                <a href="/">Men</a>
+                                <a href="/">No gender</a>
+                            </div>
+                        }
+                        <article>
                             <button onClick={()=>setOnInput(!onInput)}></button>
                             <a href="/"><img src={IconHeartBlack} alt="ícono corazón" /></a>
-                        </div>
+                        </article>
                     </div>
                     <div className="red-rectangle-nav-product-one-detail"></div>
                 </nav>
