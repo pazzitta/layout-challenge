@@ -303,6 +303,7 @@
     }
     .box-inputs-login-form>input{
         width: 90%;
+        font-size: 2vw;
     }
     .box-inputs-login-form>input::placeholder{
         font-size: 2vw;
@@ -357,7 +358,7 @@
     .style-button-facebook-login-form>img,
     .style-button-google-login-form>img,
     .style-button-twitter-login-form>img{
-        width: 25px;
+        width: 3.5vw;
     }
     .order-copyright-login-form{
         font-size: 1.3vw;
