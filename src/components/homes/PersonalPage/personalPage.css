@@ -414,3 +414,22 @@
         display: none;
     }
 }
+@media screen and (max-width: 30em) and (orientation: portrait) {
+    .isologo-vertical-nav-personalPage-homes{
+        margin-top: 3vw;
+        margin-left: 4vw ;
+        width: 100%;
+    }
+    .box-ancords-horizontal-nav-personalPage-homes-less-601px{
+        right: 31vw;
+        margin-top: 8vw;
+    }
+    .box-phone-horizontal-nav-personalPage-homes{
+        width: 8%;
+        height: 3%;
+        right: 15vw;
+    }
+    .box-phone-horizontal-nav-personalPage-homes>a:first-child{
+        width: 80%;
+    }
+}

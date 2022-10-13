@@ -225,6 +225,8 @@
    font-size: .8vw;
    font-weight: 600;
    cursor: pointer;
+   display: flex;
+   justify-content: center;
 }
 .middle-rectangle-order-product-image-main-product-one-detail button:active,
 .middle-rectangle-order-product-image-main-product-one-detail button:focus{
@@ -526,6 +528,7 @@
         width: 35vw;
         height: 4vw;
         border-radius: .6vw;
+        font-size: 1.5vw;
     }
     .input-on-order-and-style::placeholder{
         font-size: 1.6vw;
@@ -533,7 +536,6 @@
     .top-gray-rectangle-middle-rectangle-main-product-one-detail{
         display: none;
     }
-/* Hay que arreglar a mi responsive, hay un tema con los display creo  */
     .middle-rectangle-order-product-image-main-product-one-detail{
         height: 41%;
         width: 100%;
@@ -595,7 +597,7 @@
     }
     .right-rectangle-order-product-image-main-product-one-detail>small{
         font-size: 1vw;
-        margin-left: 5vw;
+        margin-left: 5.6vw;
     }
     .right-rectangle-order-product-image-main-product-one-detail>h3{
         font-size: 3vw;
@@ -611,5 +613,35 @@
     }
     .text-rectangle-footer-product-one-detail>p{
        font-size: 1.3vw;
+    }
+}
+@media screen and (max-width: 30em) and (orientation: portrait){
+    .navicon-order-and-styles-Clothe-D{
+        top: 107vw;
+    }
+    .navicon-clothes-less-601px{
+        right: 54vw;
+    }
+    .input-on-order-and-style{
+      font-size: 1.5vw;
+      bottom: 7.5vw;
+    }
+    .section-one-middle-rectangle-main-clothes-D>ul,
+    .section-two-and-three-middle-rectangle-main-clothes-D>ul{
+        bottom: 2vw;
+    }
+    .section-one-middle-rectangle-main-clothes-D h4,
+    .section-two-and-three-middle-rectangle-main-clothes-D h4{
+        font-size: 1.8vw;
+    }
+    .section-one-middle-rectangle-main-clothes-D>p{
+        bottom: 3.4vw;
+        padding-left: 3.8vw;
+    }
+    .middle-rectangle-order-product-image-main-product-one-detail>section>div{
+        top: .5vw;
+    }
+    .text-rectangle-footer-product-one-detail>p{
+       font-size: 1.4vw;
     }
 }

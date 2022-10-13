@@ -379,4 +379,12 @@
     .name-digital-newspaper-article-one>h2{
         font-size: 7vw;
     }
+    .botton-frame-styles-and-order-layout-section{
+        height: 5vw;
+    }
+    .back-to-top-style,
+    .go-to-the-next-style{
+        font-size: 1.7vw;
+        line-height: 1.7vw;
+    } 
 }
