@@ -526,6 +526,9 @@
     position: relative;
     bottom: 1.9vw;
 }
+.op-News-details{
+    width:23.5%; 
+}
 .assets-icons-marketplace-H,
 .assets-icons-clothes-c,
 .assets-multimedia-News-D{
@@ -665,6 +668,7 @@
 @media screen and (max-width: 64em) and (orientation: portrait) {
     .order-all-layout-section-content{
         height: 92%;
+        margin-top: 13vw;
     }
     .original-page-section-order-one{
         height: 25%;
@@ -728,8 +732,12 @@
         height: 25%;
         /* border: solid; */
     }
-    .original-page-section-order-one img{
+    .original-page-section-order-two-img,
+    .original-page-section-order-three-img-normal,
+    .original-page-section-order-one img
+    {
         width: 80%;
+        margin-top: 4vw;
     }
     .assets-section-order{
         height: 47vw;
@@ -769,6 +777,9 @@
     .original-page-section-four-order-three-img-big{
         width: 32%;
         bottom: 2vw;
+    }
+    .op-News-details{
+        width:30%; 
     }
     /* .news-card-order-section-content-one {
         width: 70%;

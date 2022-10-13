@@ -12,7 +12,7 @@
 }
 .header-order-product-one-detail{
     width: 100%;
-    height: 10%;
+    height: 10%;  
 }
 .header-order-product-one-detail>nav{
     display: flex;
@@ -313,7 +313,7 @@
     width: 17.5%;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 .text-rectangle-footer-product-one-detail>p{
    font-weight: 700;
@@ -327,7 +327,6 @@
 .right-white-rectangle-footer-product-one-detail{
     border-right: solid;
     width: 13.8%;
-
 }
 .right-white-no-line-rectangle-footer-product-one-detail{
     color: white;
@@ -531,34 +530,62 @@
     .input-on-order-and-style::placeholder{
         font-size: 1.6vw;
     }
+    .top-gray-rectangle-middle-rectangle-main-product-one-detail{
+        display: none;
+    }
 /* Hay que arreglar a mi responsive, hay un tema con los display creo  */
+    .middle-rectangle-order-product-image-main-product-one-detail{
+        height: 41%;
+        width: 100%;
+        flex-direction: column;
+        border: none;
+    }
+    .section-one-middle-rectangle-main-clothes-D{
+        border-bottom: solid;
+        border-right:none ;
+        flex-direction: column;
+        width: 100%;
+        height: 40%;
+    }
+    .section-two-and-three-middle-rectangle-main-clothes-D{
+        border-bottom: solid;
+        border-right: none;
+        flex-direction: row;
+        width: 100%;
+        height: 20%;
+    }
     .section-one-middle-rectangle-main-clothes-D>ul,
     .section-two-and-three-middle-rectangle-main-clothes-D>ul{
         position: relative;
-        right: 2.4vw;
+        bottom: 1vw;
+        margin-top: 0;
     }
     .section-one-middle-rectangle-main-clothes-D h4,
     .section-two-and-three-middle-rectangle-main-clothes-D h4{
         font-size: 1.2vw;
     }
     .section-one-middle-rectangle-main-clothes-D>p{
-        font-size: 1vw;
-    }
-    .middle-rectangle-order-product-image-main-product-one-detail{
-        height: 40%;
+        position: relative;
+        bottom: 1vw;
+        font-size: 1.3vw;
+        margin-bottom:0;
+        padding-left: 3.3vw;
+        padding-right: 2vw;
     }
     .middle-rectangle-order-product-image-main-product-one-detail>section>div{
-        bottom: .5vw;
-        width: 90%;
+        bottom:0;
+        left: 2vw;
+        width: 50%;  
     }
     .middle-rectangle-order-product-image-main-product-one-detail button{
-       width: 2vw;
-       height: 2vw;
-       font-size: 1vw;
+       width: 3vw;
+       height: 3vw;
+       font-size: 1.5vw;
     }
-    /* Hay que arreglar a mi responsive, hay un tema con los display creo  */
     .right-rectangle-order-product-image-main-product-one-detail{
         height:64%;
+        border: none;
+        border-bottom: solid;
     }
     .right-rectangle-order-product-image-main-product-one-detail>img{
         width: 70%;
@@ -580,6 +607,7 @@
         width: 100%;
         height: 6%;
         display: flex;
+        border:none;
     }
     .text-rectangle-footer-product-one-detail>p{
        font-size: 1.3vw;

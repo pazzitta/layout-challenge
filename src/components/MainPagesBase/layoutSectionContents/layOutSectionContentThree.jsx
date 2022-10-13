@@ -53,7 +53,7 @@ const LayoutSectionContentThree = () => {
                 {
                     pathname === '/landingPages' ? <img className='original-page-section-order-three-img-normal' src={OPOrganicShapesLP} alt="pág. original Organic shapes  LP" /> :
                     pathname === '/homes' ? <img className='original-page-section-order-three-img-big' src={OPMarketplaceH} alt="pág. original Marketplace  H" /> :
-                    pathname === '/details' ? <img width='23.5%' src={OPNewsD} alt="pág. original News D" /> :
+                    pathname === '/details' ? <img className='op-News-details' src={OPNewsD} alt="pág. original News D" /> :
                     pathname === '/forms' ? <img className='original-page-section-order-three-img-big' src={OPCheckOutF} alt="pág. original CheckOut F" /> :
                     <img className='original-page-section-order-three-img-normal'src={OPClothesC} alt="pág. original Clothes C" /> 
                 }
@@ -118,9 +118,9 @@ const LayoutSectionContentThree = () => {
                                         </div> :
                                         pathname === '/details' ? 
                                         <div className='assets-icons-clothes-D'>
-                                            <img src="" alt="Ícono ni idea" />
+                                            {/* <img src="" alt="Ícono ni idea" /> */}
                                             <img src={UserInconWineD} alt="ícono user bordó" />
-                                            <img src="" alt="ícono ni idea dos" /> 
+                                            {/* <img src="" alt="ícono ni idea dos" />  */}
                                             <img src={FavInconWineD} alt="ícono favorito bordó" />
                                             <img src={WorldInconWineD} alt="ícono Mundo bordó" /> 
                                             <img src={HeartIconRedD} alt="ícono corazón rojo" /> 
