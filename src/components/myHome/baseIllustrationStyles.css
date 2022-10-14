@@ -440,19 +440,34 @@
 }
 @media screen and (max-width: 37.5em) and (orientation: portrait) {
     .order-all-board-content{
-        height: 130%;
+        height: 125%;
         top: 10%;
+        border: solid hotpink;
     }
+    .section-one>section:first-child{
+        border: solid firebrick;
+        display: flex;
+        height: 98%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    /* .section-one{
+        border: solid;
+    } */
     .section-one>section:first-child>div:first-child{
         height:23%;
-        margin-bottom: 128%;      
+        border: solid green;
+        margin-bottom: 0;
+        /* margin-bottom: 128%;       */
     }
     .section-one>section:first-child>div:nth-child(2){
         height: 4%;
+        border: solid red;
     }
     .section-one>section:first-child>div:last-child{
         width:60%;
         height: 22%;
+        border: solid yellow;
     }
     .hotpink-note-background-one{
         height: 3%;
