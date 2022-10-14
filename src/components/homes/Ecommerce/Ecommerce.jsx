@@ -9,8 +9,6 @@ const EcommerceHomes = () => {
     return(
         <div className="box-macro-Ecommerce-homes">
             <header className="box-header-Ecommerce-homes">
-            <div className='navicon-Ecommerce-order-and-styles'
-                 onMouseUp={() => setNaviconEOn(!naviconEOn)}>&#9776;</div>
                 <nav>
                     <div className="box-brand-and-sections-Ecommerce-homes">
                         <h2>UGMONK</h2>
@@ -42,6 +40,8 @@ const EcommerceHomes = () => {
                     }
                 </nav>
             </header>
+            <div className='navicon-Ecommerce-order-and-styles'
+                 onMouseUp={() => setNaviconEOn(!naviconEOn)}>&#9776;</div>
             <p className='image-text-order-and-style'>New collection <br/><a href="/">See more +</a></p>
             <div className="box-body-Ecommerce-homes">
                 <nav className="box-bottom-menu-Ecommerce-homes">

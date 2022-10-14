@@ -242,11 +242,6 @@
     .box-right-register-form>div>p{
         font-size: 1vw;
     }
-    .input-name-resgister-F,
-    .input-email-resgister-F,
-    .input-password-resgister-F{
-        outline: none;
-    }
     .box-right-register-form>div>button{
         border-radius: 1.5vw;
         width: 50%;
@@ -262,7 +257,7 @@
     }
     .box-left-register-form>div>p {
         font-size: 1.5vw;
-        line-height: 1.4vw;
+        line-height: 1.7vw;
         width: 75%;
     }
     .box-left-register-form>div>button {
@@ -276,12 +271,16 @@
     .box-right-register-form>div>p{
         font-size: 1.2vw;
     }
+    .input-name-resgister-F,
+    .input-email-resgister-F,
+    .input-password-resgister-F{
+        font-size: 1.4vw;
+    }
     .input-name-resgister-F::placeholder,
     .input-email-resgister-F::placeholder,
     .input-password-resgister-F::placeholder{
         font-size: 1.3vw;
         padding-left: 2vw;
-
     }
     .input-name-resgister-F::placeholder{
         background-size: 1.2vw 1.2vw;

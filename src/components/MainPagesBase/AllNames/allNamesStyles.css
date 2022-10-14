@@ -56,7 +56,7 @@
 .cards-main-name-order>div:first-child>h2{
     margin: 0;
     margin-left: 1.2vw;
-    font-size: clamp(3em, 5.3vw, 8em);    
+    font-size: clamp(3.5em, 5.3vw, 8em);    
 }
 .landing-pages-main-name-order>div:last-child h2,
 .homes-main-name-order>div:last-child h2,
@@ -71,7 +71,7 @@
     background-position:center;
     background-clip: text;
     color: transparent;
-    font-size: clamp(3em, 5.3vw, 8em);
+    font-size: clamp(3.5em, 5.3vw, 8em);
 }
 .landing-pages-main-name-order>div:last-child h2:first-child,
 .homes-main-name-order>div:last-child h2:first-child,

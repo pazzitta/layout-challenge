@@ -269,6 +269,8 @@
     border-radius: .5vw;
     font-size: 1vw;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
 }
 .plus-button-product-two-detail{
     background-color:var(--dark-blue-furniture);
@@ -470,6 +472,8 @@
         height: 3vw;
         right: 28.5vw;
         top: 113.5vw;
+        font-size: 1.5vw;
+        color: white;
     }
     .hidden-input-order-and-style::placeholder{
         font-size: 1.5vw;
@@ -480,7 +484,6 @@
     .card-right-section-images-order-nav-product-two-detail>div>img{
         width: 2vw;
     }
-
     .card-right-section-description-order-nav-product-two-detail{
         width: 70%;
         height: 85%;
@@ -538,6 +541,42 @@
     .card-right-section-description-order-nav-product-two-detail>div:last-of-type{
         position: relative;
         bottom:1vw;
+    }
+}
+@media screen and (max-width:30em) and (orientation: portrait){
+    .container-input-rotation>p{
+        left: 3vw;
+        font-size: 1.2vw;
+    }
+    .order-card-left-section-product-two-detail>img{
+        margin-left: 0vw;
+        margin-top: 1.5vw;
+    }
+    .navicon-furniture-less-601px{
+        right: 31vw;
+    }
+    .button-rotation-style {
+        border: solid 2px rgb(4, 118, 224);
+    }
+    .card-right-section-description-order-nav-product-two-detail{
+        height: 95%;
+        position: relative;
+        bottom: 1vw;
+    }
+    .card-right-section-description-order-nav-product-two-detail>div:nth-of-type(2)>button{
+        height: 2.2vw;
+    }
+    .card-right-section-description-order-nav-product-two-detail>div:nth-of-type(2)>button:first-child:hover,
+    .card-right-section-description-order-nav-product-two-detail>div:nth-of-type(2)>button:first-child:focus,
+    .card-right-section-description-order-nav-product-two-detail>div:nth-of-type(2)>button:last-child:hover,
+    .card-right-section-description-order-nav-product-two-detail>div:nth-of-type(2)>button:last-child:focus{
+        width: 3.4vw;
+        height: 3.4vw;
+    }
+    .box-order-quantity-product-two-detail h4,
+    .box-order-quantity-product-two-detail small,
+    .box-order-quantity-product-two-detail p{
+        font-size: 1.2vw;
     }
 }
 

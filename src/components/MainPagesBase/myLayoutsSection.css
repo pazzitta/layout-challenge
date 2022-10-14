@@ -310,6 +310,36 @@
     .order-all-componentes-article-three,
     .order-all-componentes-article-four{
         width: 90%;
+    }
+    .name-background-video-article-one,
+    .name-personal-page-article-one,
+    .name-clothes-article-one,
+    .name-login-article-one,
+    .name-news-article-one,
+    .name-original-shapes-article-one,
+    .name-promotional-article-one,
+    .name-marketplace-article-one,
+    .name-profile-article-one,
+    .name-register-article-one,
+    .name-check-out-article-one,
+    .name-contact-us-article-one,
+    .name-digital-newspaper-article-one{
+        height: 10vw;
+    }
+    .name-background-video-article-one>h2,
+    .name-personal-page-article-one>h2,
+    .name-clothes-article-one>h2,
+    .name-login-article-one>h2,
+    .name-news-article-one>h2,
+    .name-original-shapes-article-one>h2,
+    .name-promotional-article-one>h2,
+    .name-marketplace-article-one>h2,
+    .name-profile-article-one>h2,
+    .name-register-article-one>h2,
+    .name-check-out-article-one>h2,
+    .name-contact-us-article-one>h2,
+    .name-digital-newspaper-article-one>h2{
+        font-size: 7vw;
     } 
     .back-to-top-style,
     .go-to-the-next-style{
@@ -349,4 +379,12 @@
     .name-digital-newspaper-article-one>h2{
         font-size: 7vw;
     }
+    .botton-frame-styles-and-order-layout-section{
+        height: 5vw;
+    }
+    .back-to-top-style,
+    .go-to-the-next-style{
+        font-size: 1.7vw;
+        line-height: 1.7vw;
+    } 
 }

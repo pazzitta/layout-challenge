@@ -526,6 +526,9 @@
     position: relative;
     bottom: 1.9vw;
 }
+.op-News-details{
+    width:23.5%; 
+}
 .assets-icons-marketplace-H,
 .assets-icons-clothes-c,
 .assets-multimedia-News-D{
@@ -665,6 +668,7 @@
 @media screen and (max-width: 64em) and (orientation: portrait) {
     .order-all-layout-section-content{
         height: 92%;
+        margin-top: 13vw;
     }
     .original-page-section-order-one{
         height: 25%;
@@ -721,19 +725,18 @@
     }
 }
 @media screen and (max-width: 37.5em) and (orientation: portrait) {
-    /* .order-all-layout-section-content{
-        border: solid  rebeccapurple;
-    } */
     .original-page-section-order-one{
         height: 25%;
-        /* border: solid; */
     }
-    .original-page-section-order-one img{
+    .original-page-section-order-two-img,
+    .original-page-section-order-three-img-normal,
+    .original-page-section-order-one img
+    {
         width: 80%;
+        margin-top: 4vw;
     }
     .assets-section-order{
         height: 47vw;
-        /* border: solid fuchsia; */
     }
     .section-identification-posters-base{
         font-size: 1.4vw;
@@ -770,10 +773,9 @@
         width: 32%;
         bottom: 2vw;
     }
-    /* .news-card-order-section-content-one {
-        width: 70%;
-        height: 90%;
-    } */
+    .op-News-details{
+        width:30%; 
+    }
     .size-working-gif{
         width: 90%;
         height: auto;
@@ -786,5 +788,13 @@
     .profile-card-order-section-content-one{
         width: 80%;
         height:77%;
+    }
+}
+@media screen and (max-width: 30em) and (orientation: portrait) {
+    .profile-card-base-section-content-one{
+        overflow: scroll;
+    }
+    .profile-card-order-section-content-one{
+        height:200%;
     }
 }
