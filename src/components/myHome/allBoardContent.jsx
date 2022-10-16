@@ -13,16 +13,18 @@ const AllBoardContent = () => {
                         <Blackboard/>
                     </div>
                     <div>
-                        <div className='hotpink-note-background-one'>
-                            <p>Contacto</p>
+                        <div>
+                            <div className='hotpink-note-background-one'>
+                                <p>Contacto</p>
+                            </div>
+                            <div className='order-note-scotch-tape-one'>
+                                <div></div>
+                                <div></div>
+                            </div>
                         </div>
-                        <div className='order-note-scotch-tape-one'>
-                            <div></div>
-                            <div></div>
+                        <div>
+                            <WantedPoster/>
                         </div>
-                    </div>
-                    <div>
-                        <WantedPoster/>
                     </div>
                 </section>
                 <section>
