@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     width: 95%;
     height: 97%;
 }
@@ -136,13 +136,16 @@
     .order-and-style-base-wanted-poster>div:first-child>article>p{
         font-size: 1.2vh;
     }
+    .order-and-style-base-wanted-poster>div:first-child>img{
+        width: 55%;
+    }
 }
 @media screen and (max-width: 20em) and (orientation: portrait) {
     .order-and-style-base-wanted-poster>div:first-child>h3{
-        font-size:7.5vw; 
+        font-size:8vw; 
     }
     .order-and-style-base-wanted-poster>div:first-child>p{
-        font-size: 1.5vw;
+        font-size: 1.3vw;
     }
     .order-and-style-base-wanted-poster>div:first-child>article>p{
         font-size: 2vw;

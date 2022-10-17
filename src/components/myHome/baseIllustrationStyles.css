@@ -607,11 +607,19 @@
 }
 @media screen and (max-width: 22.5em) and (orientation: portrait){
     .order-all-board-content{
-        height: 145%;
+        height: 155%;
         top: 14%;
+    }
+    .order-folders-in-back-of-metal-basket{
+        height: 11vh;
+        margin-bottom: .6vh;
+    }
+    .order-folders-in-back-of-metal-basket>div{
+        height: 85%;
     }
     .section-one>section:last-child{
         margin-top: 32vh;
+        height: 53%;
     }
     .section-one>section:first-child>div:last-child>div:last-child{
         width: 75%;

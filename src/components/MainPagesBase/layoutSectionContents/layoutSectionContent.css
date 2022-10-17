@@ -692,7 +692,6 @@
     }
     .my-layout-section-order{
         height: 50%;
-        /* border: solid rgb(0, 255, 128); */
     }
     .original-page-section-order-two,
     .original-page-section-order-three,
@@ -798,3 +797,12 @@
         height:200%;
     }
 }
+@media screen and (max-width: 22.5em) and (orientation: portrait) {
+    .my-layout-section-order{
+        height: 44%;
+    }
+    .size-working-gif{
+        width: 82%;
+    }
+}
+

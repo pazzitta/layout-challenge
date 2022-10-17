@@ -221,3 +221,20 @@
   }
  
 }
+@media screen and (max-width: 22.5em) and (orientation: portrait) {
+  .style-video-bv{
+    min-height: 210%;
+    min-width: 210%;
+  }
+  .ul-navicon-three-lines-order-and-style{
+    bottom: 11vh;
+  }
+  .content-box-landing-pages-BgV>div{
+    height: 40%;
+    margin-bottom: 20vw ;
+  }
+  /* .footer-box-landing-pages-BgV{
+    border: solid;
+  } */
+ 
+}
