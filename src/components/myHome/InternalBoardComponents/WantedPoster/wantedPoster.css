@@ -114,7 +114,7 @@
 }
 @media screen and (max-width: 37.5em) and (orientation: portrait) {
     .order-and-style-base-wanted-poster>div:first-child>h3{
-        font-size:3.6vh; 
+        font-size:3.6vh;
     }
     .order-and-style-base-wanted-poster>div:first-child>p{
         font-size: .73vh;
@@ -126,8 +126,22 @@
         width: 60%;
     }
 }
-@media screen and (max-width: 22.5em) and (orientation: portrait){
+@media screen and (max-width: 30em) and (orientation: portrait) {
     .order-and-style-base-wanted-poster>div:first-child>h3{
+        font-size:1.7em;
+    }
+    .order-and-style-base-wanted-poster>div:first-child>p{
+        font-size: .4em;
+    }
+    .order-and-style-base-wanted-poster>div:first-child>article>p{
+        font-size: .5em;
+    }
+    .order-and-style-base-wanted-poster>div:first-child>img{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 22.5em) and (orientation: portrait){
+    /* .order-and-style-base-wanted-poster>div:first-child>h3{
         font-size:4vh; 
     }
     .order-and-style-base-wanted-poster>div:first-child>p{
@@ -136,12 +150,13 @@
     .order-and-style-base-wanted-poster>div:first-child>article>p{
         font-size: 1.2vh;
     }
+     */
     .order-and-style-base-wanted-poster>div:first-child>img{
         width: 55%;
     }
 }
 @media screen and (max-width: 20em) and (orientation: portrait) {
-    .order-and-style-base-wanted-poster>div:first-child>h3{
+    /* .order-and-style-base-wanted-poster>div:first-child>h3{
         font-size:8vw; 
     }
     .order-and-style-base-wanted-poster>div:first-child>p{
@@ -149,5 +164,11 @@
     }
     .order-and-style-base-wanted-poster>div:first-child>article>p{
         font-size: 2vw;
+    } */
+    .order-and-style-base-wanted-poster>div:first-child>h3{
+        font-size:1.6em;
+    }
+    .order-and-style-base-wanted-poster>div:first-child>p{
+        font-size: .3em;
     }
 }

@@ -804,5 +804,42 @@
     .size-working-gif{
         width: 82%;
     }
+    /* .section-identification-posters-base{
+        font-size: 1.4vw;
+    }
+    .section-link-identification-posters-base{
+        font-size: 1.8vw;
+    }
+    .papers-order-and-styles>div:first-child>h4{
+        font-size: 3vw;
+    }
+    .order-wooden-signs-LSC>div>h3,
+    .responsive-sizes-posters-base{
+        font-size: 1.6vw;
+    } */
 }
-
+@media screen and (max-width: 20em) and (orientation: portrait) {
+    .original-page-section-order-two-img,
+    .original-page-section-order-three-img-normal,
+    .original-page-section-order-one img {
+        width: 70%;
+        margin-top: 4vw;
+    }
+    .my-layout-section-order{
+        height: 44%;
+    }
+    .size-working-gif{
+        width: 78%;
+    }
+    .section-identification-posters-base{
+        font-size: 1.3vw;
+    }
+    .section-link-identification-posters-base{
+        font-size: 1.7vw;
+    }
+    .order-wooden-signs-LSC>div>h3,
+    .responsive-sizes-posters-base{
+        font-size: 1.45vw;
+    }
+}
+/* en mi cel sigue viendose grande el gif, la letra del cartel sigue grande ver de poner un clamp, no entra todo el el carte. */
