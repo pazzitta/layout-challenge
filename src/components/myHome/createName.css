@@ -61,3 +61,16 @@
     text-shadow: var(--name-text-shadow) var(--orange-shadow);
 }
 
+@media screen and (max-width: 90em) and (orientation: portrait) {
+    .main-name-order{
+        width: 70%;
+        height:  clamp(63px, 15vw, 16vw);
+    }
+    .main-name-order>div:last-child h2{
+        font-size: clamp(3em, 12vw, 11em);
+    }
+    .main-name-order>div:first-child>h2{
+        font-size: clamp(3em, 12vw, 11em);    
+    }
+}
+

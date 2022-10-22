@@ -340,6 +340,132 @@
     color: white;
     font-family: 'Abel', sans-serif;
 }
+@media screen and (max-width: 90em) and (orientation: portrait) {
+    .order-all-board-content{
+        top: 9%;
+        width: 85%;
+        height: 86.2%;
+    }
+    .section-one{
+        width: 96.4%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: solid;
+    }
+    .section-one>section:first-child{
+        position: absolute;
+        justify-content: space-between;
+        width: 96%;
+        height: 95%;
+        border: solid red;
+    }
+    .section-one>section:first-child>div:first-child{
+        height:25%;
+        border: solid green;
+    }
+    .section-one>section:first-child>div:last-child{
+        height: 28%;
+        border: solid hotpink;
+    }
+    .section-one>section:first-child>div:last-child>div:first-child{
+        height: 12%;
+    }
+    .section-one>section:first-child>div:last-child>div:last-child{
+        width: 55%;
+        height: 88%;
+        align-self: center;
+    }
+    .section-one>section:last-child{
+        width: 100%;
+        height: 47%;
+        margin-top: 42vw;
+        border: solid ;
+    }
+    .hotpink-note-background-one{
+        width: 25%;
+        height: 3.3%;
+        margin-left: 2%;
+    }
+    .hotpink-note-background-one>p{
+        font-size:2.2vh;
+    }
+    .order-note-scotch-tape-one{
+        width:27%;
+        height: 90%;
+    }
+    .section-one>section:last-child>div:nth-child(2)>a{
+        width:25%;
+        height: clamp(100px, 15vw, 17em);
+        /* border: solid orange; */
+    }
+    .position-metal-basket{
+        width: 23%;
+        height: 4.8vh;
+        margin-top: 5.5vw;
+        /* border: solid khaki; */
+    }
+    .order-folders-in-back-of-metal-basket{
+        width: 18%;
+        height: 7.5vh;
+        margin-left: 1vw;
+        margin-bottom: 0;
+        /* border: solid; */
+    }
+    .order-folders-in-back-of-metal-basket>div{
+        width: 90%;
+        height: 80%;
+    }
+    .poster-wood-order-and-style,
+    .in-process-poster-wood-order-and-style{
+        height: 4.5vw;
+        margin-top: 5.5vw;
+    }
+    .layouts-poster-wood-order-and-style>h2{
+        font-size: 1.6vh;
+        line-height: 3.3vw;
+    }
+    .poster-wood-order-and-style>h2{
+        font-size: 1.9vw;
+        width: 85%;
+        line-height: 2vw;
+    }
+    .anchord-proyect-p-styles{
+        width: 25%;
+        left: 10%;
+        height: 7.5vh;
+        /* border: solid blue; */
+    }
+    .in-process-position-metal-basket{
+        width: 100%;
+        height: 4.8vh;
+        margin-bottom: 3vw;
+        /* border: solid rgb(0, 255, 136); */
+    }
+    .order-folders-in-back-of-metal-basket-two>div{
+        width: 75%;
+        height: 6vh;
+        margin-top: 3vw;
+        right: 2.3vw;
+    }
+    .in-process-position-metal-baske-order>div:last-child{
+        margin-top: 0;
+        margin-bottom: 2vw;
+    }
+    .in-process-poster-wood-order-and-style>h2{
+        font-size: 1.7vw;
+    }
+    .proyect-p-poster-wood-order-and-style{
+        width: 25%;
+        margin-left: 3%;
+        height: 2.8vh;
+    }
+    .proyect-p-poster-wood-order-and-style>h2{
+        font-size: 1.5vh;
+    }
+    
+}
 
 @media screen and (max-width: 64em) and (orientation: portrait) {
     .section-one{
