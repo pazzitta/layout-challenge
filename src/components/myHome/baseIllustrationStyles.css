@@ -530,7 +530,8 @@
     }
 }
 
-/* 
+
+
 @media screen and (max-width: 37.5em) and (orientation: portrait) {
     .section-one{
         height: 100%;
@@ -700,4 +701,4 @@
         width: 75%;
         height: 70%;
     }
-} */
+}
