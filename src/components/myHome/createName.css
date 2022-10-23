@@ -73,4 +73,15 @@
         font-size: clamp(3em, 12vw, 11em);    
     }
 }
+@media screen and (max-width: 64em) and (orientation: portrait) {
+    .main-name-order{
+        height: 10vw;
+    }
+    .main-name-order>div:last-child h2{
+        font-size: 9vw;
+    }
+    .main-name-order>div:first-child>h2{
+        font-size: 9vw;    
+    }
+}
 

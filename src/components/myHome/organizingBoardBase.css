@@ -93,24 +93,13 @@
         height: 93%;
     }
 }
-
 @media screen and (max-width: 64em) and (orientation: portrait) {
     .order-all-componentes-board{
-        width: 90%;
-        height: 93%;
-    }
-    .circle-line-order{
-        margin-right: 2.7vw;
-    }
-    .circle-line-order>div{
-        width: .71vw;
-        height: .71vw;
-        margin-left: 2.6vw;
-    } 
-    .board-base-style{
-        height: 93%;
+        height: 90%;
     }
 }
+
+/* 
 @media screen and (max-width: 37.5em) and (orientation: portrait) {
     .top-frame-styles-and-order{
         height: 4vw;
@@ -123,4 +112,4 @@
     .board-base-style{
         height: 94%;
     }
-}
+} */
