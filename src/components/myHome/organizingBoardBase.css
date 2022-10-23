@@ -76,8 +76,7 @@
     background-image: url('../../assets/myHome/OrganizerBaseBoard/woodenBottomFrame.jpg');
     height: clamp(22px, 5vh, 52px);
 }
-
-@media screen and (max-width: 64em) and (orientation: portrait) {
+@media screen and (max-width: 90em) and (orientation: portrait) {
     .order-all-componentes-board{
         width: 90%;
         height: 93%;
@@ -94,6 +93,13 @@
         height: 93%;
     }
 }
+@media screen and (max-width: 64em) and (orientation: portrait) {
+    .order-all-componentes-board{
+        height: 90%;
+    }
+}
+
+/* 
 @media screen and (max-width: 37.5em) and (orientation: portrait) {
     .top-frame-styles-and-order{
         height: 4vw;
@@ -106,4 +112,4 @@
     .board-base-style{
         height: 94%;
     }
-}
+} */
