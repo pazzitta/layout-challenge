@@ -162,7 +162,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: url('../../assets/myHome/Create/brushPointer.png'), pointer;
+    cursor: url('../../assets/myHome/Create/brushPointer32.png'), pointer;
     /* border: solid orangered; */
 }
 .section-one>section:last-child>div:nth-child(2)>a:nth-child(2),
@@ -287,7 +287,7 @@
     color: black;
     width: 27%;
     height:7.5vw;
-    cursor: url('../../assets/myHome/AllBoardContent/magnifyingGlassCursor.png'), pointer;
+    cursor: url('../../assets/myHome/AllBoardContent/magnifyingGlassCursor32.png'), pointer;
     display: flex;
     align-items: flex-end;
     justify-content: center;

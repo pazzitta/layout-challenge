@@ -267,10 +267,11 @@
     width: 2vw;
     height: 2vw;
     border-radius: .5vw;
-    font-size: 1vw;
+    font-size: 1.2vw;
     cursor: pointer;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .plus-button-product-two-detail{
     background-color:var(--dark-blue-furniture);
