@@ -59,23 +59,23 @@
 }
 .box-inputs-login-form>img{
     position: relative;
-    left: 1.8vw;
-    top: .4vw;
-    width: 7%;
+    left: 1.6vw;
+    top: .2vw;
+    width: 5.5%;
     height: auto;
 }
 .button-password-off-login-form,
 .button-password-ok-login-form{
     position: relative;
-    right:1.8vw;
-    top: .4vw;
+    right:1.6vw;
+    top: .2vw;
     background-repeat:no-repeat;
     background-color: transparent;
     background-size: cover;
     background-position:center;
     border: none;
-    width:1.4vw;
-    height: 1.4vw;
+    width:1.2vw;
+    height: 1.2vw;
 }
 .button-password-off-login-form{
     background-image: url('../../../assets/Forms/Login/iconeye.png');
@@ -148,12 +148,13 @@
     border-radius: 1vw;
     box-shadow: .1vw .1vw .4vw .1vw rgba(0, 0, 0, 0.2);
     color: white;
-    font-size: 1.2vw;
+    font-size: .9vw;
     cursor: pointer;
 }
 .style-button-login-form>img{
-    width: 9%;
+    width: 7%;
     height: auto;
+    margin-right: .4vw;
 }
 .style-caption-button-login-form {
     color: var(--gray-blue-text-login);

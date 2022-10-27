@@ -34,7 +34,7 @@ import ImageOneD from '../../../assets/Details/News/imageOneN.jpg'
 import ImageTwoD from '../../../assets/Details/News/imageTwoN.jpg'
 import GifResponsive from '../../../assets/myHome/responsiveGif.gif'
 import GifLayout from '../../../assets/myHome/layoutGif.gif'
-// import GifLayoutT from '../../../assets/myHome/layoutGifT.gif'
+import GifLayoutT from '../../../assets/myHome/layoutGifT.gif'
 import IGitHub from '../../../assets/myHome/Icons/IconGitHubWhite.png'
 
 const LayoutSectionContentThree = () => {
@@ -144,7 +144,7 @@ const LayoutSectionContentThree = () => {
                                         pathname === '/landingPages'? 
                                         <h4>none</h4> :
                                         pathname === '/homes' ? 
-                                        <h4>...</h4> :
+                                        <img className='assets-gif-working-marketplaces' src={GifLayoutT} alt="gif working" /> :
                                         pathname === '/details' ? 
                                         <div className='assets-multimedia-News-D'>
                                             <img src={ImageTwoD} alt="imagen vertical producto" />

@@ -488,7 +488,8 @@
     width: 25%;
     height: auto;
 }
-.assets-multimedia-food-C>img{
+.assets-multimedia-food-C>img,
+.assets-icons-minimalism-LP>img{
     width: 40%;
     height: auto;
 }
@@ -569,6 +570,10 @@
 .assets-icons-clothes-c>img:first-child{
     margin-right: 1vw;
 }
+.assets-gif-working-marketplaces{
+    width: 45%;
+    height: auto;
+}
 .assets-multimedia-News-D>img:first-child{
     margin-left: .4vw;
 }
@@ -577,8 +582,7 @@
     height: auto;
     margin-right: .5vw
 }
-.assets-multimedia-Clothes-C,
-.assets-icons-minimalism-LP>img{
+.assets-multimedia-Clothes-C{
     width: 60%;
     height: auto;
 }
