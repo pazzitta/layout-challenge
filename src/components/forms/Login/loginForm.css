@@ -56,6 +56,7 @@
     border: none;
     box-shadow: .1vw .1vw .4vw .1vw rgba(0, 0, 0, 0.2);
     padding-left: 2vw;
+    font-size: .9vw;
 }
 .box-inputs-login-form>img{
     position: relative;
@@ -180,7 +181,7 @@
 .style-button-facebook-login-form>img,
 .style-button-google-login-form>img,
 .style-button-twitter-login-form>img{
-    width: 30px;
+    width: 1.5vw;
     cursor: pointer;
 }
 .style-button-google-login-form{

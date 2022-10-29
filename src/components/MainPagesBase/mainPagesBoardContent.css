@@ -224,7 +224,7 @@
 .my-replicas-images-order>div>img{
     width: 100%;
     height: auto;
-    filter: blur(5px);
+    filter: blur(.3vw);
     cursor: url('../../assets/myHome/AllBoardContent/magnifyingGlassCursor32.png'), pointer;
 }
 .my-replicas-images-order>div>a{
