@@ -13,6 +13,7 @@ const FurnitureDetail = () => {
 
     const [onInputMF, SetOnInputMF] = useState(false)
     const [naviconFOn, setNaviconFOn] = useState (false)
+    const [count, setCount] = useState (1)
 
     return(
         <div className='order-all-page-product-two-detail'>
@@ -91,9 +92,9 @@ const FurnitureDetail = () => {
                         </div>
                         <h2>$265.50</h2>
                         <div className='order-box-counter-product-two-detail'>
-                            <button className='less-button-product-two-detail'>-</button>
-                            <div>1</div>
-                            <button className='plus-button-product-two-detail'>+</button>
+                            <button onClick={()=> setCount (count - 1)}  className='less-button-product-two-detail'>-</button>
+                            <div> {count} </div>
+                            <button onClick={()=> setCount (count + 1)} className='plus-button-product-two-detail'>+</button>
                         </div>
                         <div>
                             <button className='add-button-product-two-detail'>ADD TO CART</button>

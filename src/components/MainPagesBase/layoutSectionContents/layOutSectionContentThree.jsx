@@ -36,6 +36,7 @@ import GifResponsive from '../../../assets/myHome/responsiveGif.gif'
 import GifLayout from '../../../assets/myHome/layoutGif.gif'
 import GifLayoutT from '../../../assets/myHome/layoutGifT.gif'
 import IGitHub from '../../../assets/myHome/Icons/IconGitHubWhite.png'
+import OrganicShapes from '../../landingsPages/OrganicShapes/OrganicShapes'
 
 const LayoutSectionContentThree = () => {
     const { pathname } = useLocation()
