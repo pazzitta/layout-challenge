@@ -273,7 +273,11 @@ const LayoutSectionContentThree = () => {
                     </div>                   
                 </div>
                 {
-                    pathname === '/landingPages' ? <img className='size-working-gif' src={GifLayout} alt='gif Working'></img> : 
+                    pathname === '/landingPages' ? 
+                    <div>
+                        <img className='size-working-gif-yes-pc' src={GifLayout} alt='gif Working'></img>
+                        <div className='box-standard-layouts-no-responsive'><OrganicShapes/></div> 
+                    </div> :
                     pathname === '/homes' ? <img className='size-working-gif' src={GifLayout} alt='gif Working'></img> :
                     pathname === '/details' ? <img className='size-working-gif' src={GifLayout} alt='gif Working'></img> :
                     pathname === '/forms' ? <img className='size-working-gif' src={GifLayout} alt='gif Working'></img> :

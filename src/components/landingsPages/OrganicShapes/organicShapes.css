@@ -4,101 +4,94 @@
     box-sizing: border-box;
 }
 .box-macro-organic-shapes-LP{
-    /* border: solid; */
+    background-color: white;
     width: 100%;
-    height: 100vh;
+    height: 42vw;
+    margin-top: .5vw;
   }
   .box-header-organic-shapes-LP{
     display: flex;  
     position: relative;
-    /* border: solid red; */
     width: 100%;
-    height: 80px;
+    height: 10%;
   }
   .box-name-header-organic-shapes-LP{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* border: solid rebeccapurple; */
-    flex-grow: 4;  
+    flex-grow: 2; 
   }
   .name-header-organic-shapes-LP{
     align-self: flex-start;
-    padding-left: 150px;
+    padding-left: 5vw;
     color: orangered;
-    font-size: 27px;
+    font-size: 1.5vw;
   }
   .box-ancords-header-organic-shapes-LP{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    /* border: solid palevioletred; */
     width: 30%;
-    padding-right:150px ;
+    flex-grow: 0.2;
+    padding-right:6vw;
   }
   .style-ancords-header-organic-shapes-LP{
     text-decoration: none;
     color: white;
-    font-size: 18px;
-    /* es blanco el color */
+    font-size: .87vw;
   }
   .box-main-organic-shapes-LP{
     display: flex;
-    /* border: solid hotpink; */
     width: 100%;
-    height: 852px;
+    height: 90%;
   }
   .box-text-main-organic-shapes-LP{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    /* border: solid yellow; */
     width: 45%;
+    height: 85%;
+    margin-left: 2vw;
   }
   .titel-main-organic-shapes-LP{
-    width: 60%;
+    width: 80%;
     color: #363c46;
     text-align: start;
-    /* border: solid gray; */
-    font-size: 45px;
-    line-height: 45px;
+    font-size: 1.8vw;
+    line-height: 2.3vw;
     font-style: oblique;
   }
   .description-main-organic-shapes-LP{
     text-align: start;
-    /* border: solid gray; */
-    width: 60%;
+    width: 80%;
     color: #363c46;
     font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 1.2px;
+    font-size: .8vw;
+    letter-spacing:.05vw;
   }
   .box-button-main-organic-shapes-LP{
     display: flex;
-    margin-top: 19px;
-    /* border: solid purple; */
-    width: 60%;
+    margin-top: 1vw;
+    width: 80%;
   }
   .button-main-organic-shapes-LP{
     background-color: #ff3542;
-    border-radius: 20px;
+    border-radius: 1.2vw;
     border: none;
     align-self: flex-start;
     width: 35%;
-    height: 45px;
+    height: 2.2vw;
     color: white;
-    font-size: 15px;
+    font-size: .9vw;
     font-weight: 600;
-  }
-  .box-image-main-organic-shapes-LP{
-    border: solid orange;
-    width: 60%;
+    cursor: pointer;
   }
   .image-main-organic-shapes-LP{
     position: absolute;
     right: 0px;
-    width: 70%;
+    width: 76%;
+    height: 36%;
   }
   
  

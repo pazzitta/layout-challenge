@@ -9,7 +9,7 @@
     box-sizing: border-box
 }
 /* ALLBOARDCONTENT.JSX */
-.order-all-board-content{
+/* .order-all-board-content{
     position: absolute;
     top: 18.5%;
     bottom: 0;
@@ -18,11 +18,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: solid green;
+} */
+.order-all-board-content{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid green;
 }
 /* General section one */
 .section-one{
     width: 96.4%;
-    height: 95%;
+    height: 90%;
     display: flex;
     justify-content: space-between;
 }

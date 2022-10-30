@@ -1,8 +1,10 @@
 import './organizingBoardBase.css'
+import { useLocation } from 'react-router-dom';
 import RowOfPencils from './InternalBoardComponents/RowOfPencils/rowOfPencils';
 import AllBoardContent from './allBoardContent';
 
 const OrganizingBoardBase = () => {
+    const { pathname } = useLocation();
     return(
         <div className="order-all-componentes-board">
             <div className="top-frame-styles-and-order">
@@ -154,7 +156,9 @@ const OrganizingBoardBase = () => {
                 <div></div>
                 <div></div>
             </div>
-            {/* <AllBoardContent/> */}
+            {
+                pathname === '/' ? <AllBoardContent/> : <div></div>
+            }
         </div>
     )
 }

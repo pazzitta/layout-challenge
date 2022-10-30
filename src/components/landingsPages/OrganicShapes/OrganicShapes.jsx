@@ -1,5 +1,5 @@
 import './organicShapes.css'
-import BackgroundImageOS from '../../../assets/LandingPages/backgroundImageOS.png'
+import BackgroundImageOS from '../../../assets/LandingPages/OrganicShapes/backgroundImageOS2.png'
 
 const OrganicShapes = () => {
     return(
@@ -20,7 +20,7 @@ const OrganicShapes = () => {
                     <h1 className="titel-main-organic-shapes-LP">Welcome to The Galaxy, Enjoy Your Space Trip</h1>
                     <p className="description-main-organic-shapes-LP">A vacations is something you want tom make sore you're paying for exactly what you get, and that means booking through a webside you trust.</p>
                     <div className="box-button-main-organic-shapes-LP">
-                        <button className="button-main-organic-shapes-LP">LETS GO</button>
+                        <button className="button-main-organic-shapes-LP">LET'S GO</button>
                     </div>
                 </div>
                 {/* <div className="box-image-main-organic-shapes-LP">
