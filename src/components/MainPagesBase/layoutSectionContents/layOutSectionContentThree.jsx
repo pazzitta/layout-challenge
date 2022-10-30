@@ -28,7 +28,7 @@ import UserInconWineD from '../../../assets/Details/News/iconUserWineN.png'
 import WorldInconWineD from '../../../assets/Details/News/iconWorldWineN.png'
 import HeartIconRedD from '../../../assets/Details/News/iconHeartRedN.png'
 import ProductClotheCart from '../../../assets/Cards/Clothes/productOneCard.png'
-import BackgroundImageOrganicShapesLP from '../../../assets/LandingPages/OrgenicShapes/backgroundImageOS1.png'
+import BackgroundImageOrganicShapesLP from '../../../assets/LandingPages/OrganicShapes/backgroundImageOS1.png'
 import RoomImageCheckOutF from '../../../assets/Forms/CheckOut/imageRoom.jpg'
 import ImageOneD from '../../../assets/Details/News/imageOneN.jpg'
 import ImageTwoD from '../../../assets/Details/News/imageTwoN.jpg'
@@ -37,6 +37,7 @@ import GifLayout from '../../../assets/myHome/layoutGif.gif'
 import GifLayoutT from '../../../assets/myHome/layoutGifT.gif'
 import IGitHub from '../../../assets/myHome/Icons/IconGitHubWhite.png'
 import OrganicShapes from '../../landingsPages/OrganicShapes/OrganicShapes'
+
 
 const LayoutSectionContentThree = () => {
     const { pathname } = useLocation()

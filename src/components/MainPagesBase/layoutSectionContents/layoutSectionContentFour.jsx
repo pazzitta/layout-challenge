@@ -47,6 +47,7 @@ import LogoTeamTwoH from '../../../assets/homes/DigitalNewsPaper/teamTwoShield.p
 import GifResponsive from '../../../assets/myHome/responsiveGif.gif'
 import GifLayout from '../../../assets/myHome/layoutGif.gif'
 import IGitHub from '../../../assets/myHome/Icons/IconGitHubWhite.png'
+import Promotional from '../../landingsPages/Promotional/Promotional'
 
 const LayoutSectionContentFour = () => {
     const {pathname} = useLocation()
@@ -303,7 +304,11 @@ const LayoutSectionContentFour = () => {
                     </div>                   
                 </div>
                 {
-                    pathname === '/landingPages' ? <img className='size-working-gif' src={GifLayout} alt='gif Working'></img> : 
+                    pathname === '/landingPages' ? 
+                    <div>
+                        <img className='size-working-gif-yes-pc' src={GifLayout} alt='gif Working'></img>
+                        <div className='box-standard-layouts-no-responsive'> <Promotional/> </div>  
+                    </div> :
                     pathname === '/homes' ? <img className='size-working-gif' src={GifLayout} alt='gif Working'></img> :
                     pathname === '/details' ? <img className='size-working-gif' src={GifLayout} alt='gif Working'></img> :
                     pathname === '/forms' ? <img className='size-working-gif' src={GifLayout} alt='gif Working'></img> :
