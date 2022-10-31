@@ -1,7 +1,7 @@
 <h1>PORTFOLIO DE MAQUETACIONES Y ESTILIZADO HTML CSS</h1>
 
 <h3>Objetivos del Proyecto</h3>
-✔ Elegir varias páginas de diferentes estilos para replicarlas en HTML y CSS.
+✔ Elegir varias páginas de diferentes estilos para replicarlas en HTML y CSS.</br>
 ✔ Maquetar en HTML y CSS hasta aprender de memoria flexbox y buenas prácticas, para estar preparada para cuando aparezca nuevamente Voldemort (el síndrome del impostor). </br>
 ✔ Utilizar React y JS solo para la funcionalidad de la página que aloja las maquetaciones, las maquetaciones en sí no hacen nada, es solo maquetación y estilizado. </br>
 ✔ Aprender a ilustrar en CSS, usar menos del 10% de imágenes para el diseño base de la página que aloja a las maquetaciones.</br>
