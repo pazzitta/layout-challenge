@@ -17,6 +17,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 10%;
+    border: solid goldenrod;
 }
 
 .wooden-sing-and-poster-order{
@@ -239,7 +240,118 @@
     bottom: 7.5vw;
     cursor: url('../../assets/myHome/AllBoardContent/magnifyingGlassCursor32.png'), pointer;
 }
-@media screen and (max-width: 64em) and (orientation: portrait) {
+@media screen and (max-width: 90em) and (orientation: portrait){
+    .order-all-board-content-section-one{
+        width: 85%;
+        height: 85%;
+    }
+    .wooden-sing-and-poster-order{
+        justify-content: space-between;
+        width: 100%;
+        height: 10%;
+    }
+    .wooden-sign-background{
+        width: 25%;
+        height: 50%;
+        align-self: flex-end;
+        margin-left: 10%;
+    }
+    .wooden-sign-background>h2,
+    .wooden-sign-background-MR>h2{
+        font-size:2.3vw;
+    }
+    .wooden-sign-background-MR{
+        width: 25%;
+        height: 5%;
+        top: 4.9%;
+        right: 13%;
+    }
+    .poster-come-back-base-and-order{
+        width: 20%;
+        height: 60%;
+        top: 18vw;
+    }
+    .poster-come-back-base{
+        height: 60%;
+    }
+    .poster-come-back-base>h2{
+        font-size: 2vw;
+        line-height: 2vw;
+    }
+    .poster-come-back-base-and-order>div:last-child{
+        bottom: 5vw;
+    }
+    .order-wooden-signs{
+        position: absolute;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 25%;
+        height: 95%;
+        bottom:8vw;
+    }
+    .order-wooden-signs>div{
+        width: 90%;
+        height: 5%;
+        align-self: center;
+    }
+    .order-wooden-signs>div>h3{
+        font-size: 2vw;
+    }
+    .order-box-images{
+        flex-direction: row;
+        width: 100%;
+        height: 80%;
+        margin-top: 16%;
+    }
+    .original-pages-order-and-styles{
+        width: 50%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .my-replicas-order-and-styles{
+        width: 50%;
+        height:100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .original-page-images-order,
+    .my-replicas-images-order{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .original-page-images-order{
+        height: 98%;
+    }
+    .my-replicas-images-order{
+        height: 100%;
+    }
+    .original-page-images-order>div{
+        width: 62%;
+        height: 11.5%;
+    }
+    .order-box-scotch-tape-main-Pages-Base{
+        height: 20vw;
+        bottom: 92%;
+    }
+    .order-box-scotch-tape-main-Pages-Base>div{
+        width: 13%;
+        height: 150%;
+    }
+    .my-replicas-images-order>div{
+        width: 60%;
+        height: 11%;
+    }
+    .my-replicas-images-order>div>h3{
+        font-size: 4vw;
+        bottom: 14vw;
+    }
+
+}
+/* @media screen and (max-width: 64em) and (orientation: portrait) {
     .order-all-board-content-section-one{
         width: 85%;
         height: 85%;
@@ -469,4 +581,4 @@
         width: 18%;
         height: 100%;
     }
-}
+} */

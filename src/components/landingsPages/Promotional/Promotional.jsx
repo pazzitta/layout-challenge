@@ -1,9 +1,13 @@
 import './promotional.css'
 import ImagePromotional from '../../../assets/LandingPages/Promotional/imageP.jpg'
 import IsoPromotional from '../../../assets/LandingPages/Promotional/isoPromotion.jpg'
-import LupaPromotional from '../../../assets/LandingPages/Promotional/lupaP.png'
+// import LupaPromotional from '../../../assets/LandingPages/Promotional/lupaP.png'
+import { useState } from 'react';
+
 
 const Promotional= () => {
+    const [menuOn, setMenuOn] = useState (false)
+    const [onInput, setOnInput] = useState(false)
     return(
         <div className='box-macro-promotional-LP'>
             <img className='image-promotional-LP' src={ImagePromotional} alt="Imagen diseño interior"/>
@@ -16,15 +20,25 @@ const Promotional= () => {
                 </div>
                 <div className='box-search-header-promotional-LP'>
                     <div>
-                        <button className='button-magnifying-glass-promotional-LP'></button>
-                        {/* <input type="text" /> */}
-                    </div>                
-                    <select className='select-header-promotional-LP' name="" id="">
-                        <option selected></option>
-                        <option>Interior 1</option>
-                        <option>Interior 2</option>
-                    </select>
+                        <button onClick={()=>setOnInput(!onInput)} className='button-magnifying-glass-promotional-LP'></button>
+                        <div className='navicon-two-line-order-and-styles' onMouseUp={() => setMenuOn(!menuOn)}></div> 
+                    </div> 
+                   
+                    <nav className='ul-navicon-two-lines-order-and-style'>
+                            {
+                                menuOn &&
+                                <ul>
+                                    <li><a href="/">Minimalist</a></li>
+                                    <li><a href="/">Industrial</a></li>
+                                    <li><a href="/">Nordic</a></li>
+                                </ul>
+                            }
+                    </nav>              
                 </div>
+                    {
+                        onInput &&
+                        <input className='input-on-promotional-order-and-style' type="text" placeholder="Search" />
+                    }
             </header>
             <main className='box-main-promotional-LP'>
                     <h1 className='titel-main-promotional-LP'>Interior design for you</h1>
@@ -40,7 +54,7 @@ const Promotional= () => {
                 </div>
                 <div className='box-two-footer-promotional-LP' >
                     <h5 className='titel-footer-promotional-LP'>Adaptation</h5>
-                    <p className='description-footer-promotional-LP'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p className='description-footer-promotional-LP'>Lorem ipsum dolor sit amet, consectetur.</p>
                 </div>
                 <div className='box-three-footer-promotional-LP'>
                     <h6>NEXT FACTORY</h6>

@@ -146,7 +146,29 @@
     color: var(--fuchsia-color);
     text-shadow: var(--name-text-shadow) var(--fuchsia-shadow)
 }
-
+@media screen and (max-width: 90em) and (orientation: portrait){
+    .landing-pages-main-name-order,
+    .homes-main-name-order,
+    .details-main-name-order,
+    .forms-main-name-order,
+    .cards-main-name-order{
+        height: 10vw;
+    }
+    .landing-pages-main-name-order>div:first-child>h2,
+    .homes-main-name-order>div:first-child>h2,
+    .details-main-name-order>div:first-child>h2,
+    .forms-main-name-order>div:first-child>h2,
+    .cards-main-name-order>div:first-child>h2{
+        font-size: 7vw;    
+    }
+    .landing-pages-main-name-order>div:last-child h2,
+    .homes-main-name-order>div:last-child h2,
+    .details-main-name-order>div:last-child h2,
+    .forms-main-name-order>div:last-child h2,
+    .cards-main-name-order>div:last-child h2{
+        font-size: 7vw;
+    }
+}
 @media screen and (max-width: 30em) and (orientation: portrait){
     .landing-pages-main-name-order,
     .homes-main-name-order,

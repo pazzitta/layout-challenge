@@ -32,7 +32,7 @@
 }
 .blackboard-text-order-and-style{
     font-family: 'Patrick Hand', cursive;
-    font-size: clamp(1.4em, 1.4vw, 2.5em);
+    font-size: clamp(1.4em, 1.35vw, 2.5em);
     line-height: 1.7vw;
     color: white;
     width: 90%;
@@ -53,12 +53,15 @@
 }
 @media screen and (max-width: 90em) and (orientation: portrait) {
     .blackboard-text-order-and-style{
-        font-size: 4.5vw;
-        line-height: 3.5vh;
+        font-size: 4vw;
+        line-height: 3vh;
     }
     .blackboard-text-order-and-style>p{
         font-size: 5vw;
         transform: rotate(90deg);
+        position: relative;
+        top:3vw;
+        right: 20vw;
     }
 }
 /* @media screen and (max-width: 64em) and (orientation: portrait) {

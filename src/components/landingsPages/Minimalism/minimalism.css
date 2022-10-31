@@ -95,7 +95,49 @@
   width:100%;
   height: auto;
 } */
-@media screen and (max-width: 64em) and (orientation: portrait) {
+@media screen and (max-width: 90em) and (orientation: portrait) {
+  .box-macro-minimalist-LP{
+    width: 70%;
+    height: 95%;
+  }
+  .header-box-minimalist-LP{
+    height: 10%;
+  }
+  .main-box-minimalist-LP{
+    height: 50%;
+  }
+  .titel-main-minimalism-LP {
+    font-size: 5.2vw;
+    line-height: 6vw;
+  }
+  .description-main-minimalism-LP{
+    margin-top: 2vw;
+    font-size: 2vw;
+    width: 70%;
+    line-height: 2.5vw;
+  }
+  .input-box-main-minimalism-LP{
+    width: 66%;
+    height:7vw;
+  }
+  .input-main-minimalism-LP,
+  .button-main-minimalism-LP{
+    height: 3.5vw;
+  }
+  .input-main-minimalism-LP::placeholder,
+  .button-main-minimalism-LP{
+    font-size: 1.2vw;
+  }
+  .description-small-main-minimalis-LP{
+    width: 65%;
+    height: 15%;
+    font-size: 1vw;
+  }
+  .composition-footer-minimalism-LP{
+    height: 40%;
+  }
+}
+/* @media screen and (max-width: 64em) and (orientation: portrait) {
   .box-macro-minimalist-LP{
     width: 70%;
     height: 95%;
@@ -151,4 +193,4 @@
   .titel-main-minimalism-LP {
     margin-top: 4vw;
   }
-}
+} */
