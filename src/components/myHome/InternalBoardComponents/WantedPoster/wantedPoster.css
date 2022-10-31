@@ -103,14 +103,11 @@
         font-size:5.3vw; 
     }
     .order-and-style-base-wanted-poster>div:first-child>p{
-        font-size: 1.2vw;
+        font-size: 1.3vw;
     }
     .order-and-style-base-wanted-poster>div:first-child>article>p{
         font-size: 1.6vw;
     }
-    .order-and-style-base-wanted-poster>div:first-child>img{
-        width: 55%;
-    } 
 }
 @media screen and (max-width: 80.25em) and (orientation: portrait) {
     .order-and-style-base-wanted-poster>div:first-child>h3{

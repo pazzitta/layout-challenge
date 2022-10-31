@@ -124,7 +124,82 @@
    width: 18%;
    height: auto;
 }
-@media screen and (max-width: 64em) and (orientation: portrait){
+@media screen and (max-width: 90em) and (orientation: portrait){
+    .box-macro-people-card{
+        width: 19vw;
+        height: 30vw;
+    }
+    .box-header-people-card{
+        height: 12%;
+    }
+    .box-button-header-people-card{
+        border-left: 3vw solid  #e2e5ee;
+        border-top: 3vw solid transparent;
+        border-bottom: 3vw solid transparent; 
+        bottom: 2vw;
+        left: .6vw;
+    }
+    .button-star-header-people-card{
+        width: 1.7vw;
+        height: 1.7vw;
+        bottom:1.3vw;
+        right: 2.6vw;
+    }
+    .box-profile-data-people-card{
+        flex-direction: column;
+    }
+    .box-image-profile-people-card{
+        align-self: center;
+        width: 50%;
+        height: 40%;
+    }
+    .image-profile-people-card{
+        width: 100%;
+        height: auto;
+        border-radius: 50%
+    }
+    .box-all-data-profile-people-card{
+        width: 60%;
+        height: 60%;
+        margin-left: 1vw;
+    }
+    .name-data-profile-people-card{
+        font-size: 1.3vw;
+        padding-top: .5vw;
+    }
+    .box-data-profile-people-card>div{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 33.33%;
+    }
+    .icon-images-profile-people-card{
+        width: 24%;
+    }
+    .box-statistics-profile-people-card{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .box-statistics-profile-people-card>p,
+    .box-statistics-profile-people-card>h3 {
+        font-size: 1vw;
+    }
+    .box-buttons-footer-people-card{
+        height: 15%;
+    }
+    .box-buttons-footer-people-card>button{
+        height: 75%;
+        border-radius: .5vw;
+        font-size: 1vw;
+    }
+    .box-buttons-footer-people-card>button:nth-child(2)>img{
+       width: 40%;
+    }
+}
+
+/* @media screen and (max-width: 64em) and (orientation: portrait){
     .box-macro-people-card{
         width: 25vw;
         height: 15.5vw;
@@ -247,5 +322,5 @@
     .box-buttons-footer-people-card>button:nth-child(2)>img{
        width: 32%;
     }
-}
+} */
 

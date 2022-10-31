@@ -174,7 +174,83 @@
     font-weight: 550;
     cursor: pointer; 
 }
-@media screen and (max-width: 64em) and (orientation: portrait){
+@media screen and (max-width: 90em) and (orientation: portrait){
+    .box-vp-register-form{
+        background-position:right; 
+        width: 70%;
+        height: 95%;
+    }
+    .box-register-form{
+        background-color: rgba(255, 255, 255, 0.2);
+        width: 85%;
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 1.5vw;
+    }
+    .box-left-register-form{
+        border-radius: 0;
+        border-top-right-radius: 1.5vw;
+        border-top-left-radius: 1.5vw;
+        width: 100%;
+        height: 40%;
+    }
+    .box-left-register-form>img {
+        width: 20%;
+    }
+    .box-left-register-form>div{
+        width: 70%;
+        height: 70%;
+        margin-top: 0;
+    }
+    .box-left-register-form>div>h2 {
+        font-size: 4vw;
+        line-height: 3vw;
+    }
+    .box-left-register-form>div>p {
+        font-size: 1.4vw;
+        line-height: 1.3vw;
+        width: 70%;
+    }
+    .box-left-register-form>div>button {
+        width: 50%;
+        height: 23%;
+        font-size: 1.3vw;
+    }
+    .box-right-register-form{
+        width: 100%;
+        height: 60%;
+        border-radius: 0;
+        border-bottom-right-radius: 1.5vw;
+        border-bottom-left-radius: 1.5vw;
+    }
+    .box-right-register-form>div{
+        width: 70%;
+        height: 90%;
+    }
+    .box-right-register-form>div>h2{
+        font-size: 4vw;
+    }
+    .box-right-register-form>div>div{
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+    .box-right-register-form a{
+        width: 4vw;
+        height: 4vw;
+    }
+    .box-right-register-form>div>p{
+        font-size: 1vw;
+    }
+    .box-right-register-form>div>button{
+        border-radius: 1.5vw;
+        width: 50%;
+        height: 11%;
+        font-size: 1.3vw;
+        margin-top: 4%;
+    }
+}
+/* @media screen and (max-width: 64em) and (orientation: portrait){
     .box-vp-register-form{
         background-position:right; 
         width: 70%;
@@ -295,6 +371,6 @@
         border-radius: 3vw;
         font-size: 1.5vw;
     }
-}
+} */
 
 

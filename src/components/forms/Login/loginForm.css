@@ -200,7 +200,7 @@
     align-self: center;
     font-weight: 450;
 }
-@media screen and (max-width: 64em) and (orientation: portrait){
+@media screen and (max-width: 90em) and (orientation: portrait){
     .box-all-login-form{
         width: 70%;
         height: 95%;
@@ -215,8 +215,106 @@
         left: 0;
         display: flex;
         flex-direction: column;
-        /* border: solid thin; */
     }
+    .box-all-login-form h2>font,
+    .box-all-login-form h2{
+        font-size: 7.5vw;
+    }
+    .box-all-login-form h2{
+        line-height: 9vw;
+    }
+    .order-caption-login-form{
+        font-size: 1.5vw;
+    }
+    .box-inputs-login-form{
+        height: 55%;
+        justify-content: center;
+    }
+    .box-inputs-login-form>input{
+        width: 85%;
+        border-radius: 2vw;
+        padding-left: 4vw;
+    }
+    .box-inputs-login-form>img{
+        left: 3.2vw;
+        top: .5vw;
+        width: 5%;
+    }
+    .button-password-off-login-form,
+    .button-password-ok-login-form{
+        position: relative;
+        right:2.5vw;
+        top: .5vw;
+        width: 2vw;
+        height: 2vw;
+    }
+    .box-inputs-caption-login-form{
+        bottom: 1.5vw;
+        left: 5vw;
+    }
+    .box-inputs-caption-login-form>div div{
+       border: solid thin;
+       width: 1.4vw;
+       height: 1.4vw;
+    }
+    .box-inputs-caption-login-form>div small,
+    .box-inputs-caption-login-form>small{
+        font-size: 1vw;
+    }
+    .box-inputs-caption-login-form>div button{
+        font-size: .8vw;
+        width: 1.4vw;
+        height: 1.4vw;
+    }
+    .style-button-login-form{
+        width: 80%;
+        height: 4vw;
+        margin-top: .5vw;
+        margin-left: 4.8vw;
+        border-radius: 2vw;
+        font-size: 2vw;
+    }
+    .style-caption-button-login-form {
+        font-size: 1.5vw;
+        padding-left: 2.5vw;
+        margin-top: 10vw;
+    }
+    .style-button-facebook-login-form,
+    .style-button-google-login-form,
+    .style-button-twitter-login-form{
+        width: 20%;
+        height: 3.5vw;
+        border-radius: 2vw;
+    }
+    .order-copyright-login-form{
+        margin-top: 1.6vw;
+        font-size: 1vw;
+    }
+    .style-button-facebook-login-form>img,
+    .style-button-google-login-form>img,
+    .style-button-twitter-login-form>img{
+        width: 2.5vw;
+        cursor: pointer;
+    }
+}
+/* @media screen and (max-width: 64em) and (orientation: portrait){
+    .box-all-login-form{
+        width: 70%;
+        height: 95%;
+        background-image: none;
+        background-color: var(--gray-background-login);
+        justify-content: center;
+    }
+    .box-all-login-form >article{
+        width: 80%;
+        height: 85%;
+        position: none;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        /* border: solid thin; 
+    }
+    lo de arriba estaba comentado
     .box-all-login-form h2>font,
     .box-all-login-form h2{
         font-size: 7.5vw;
@@ -365,4 +463,4 @@
     .order-copyright-login-form{
         font-size: 1.3vw;
     }
-}
+} */

@@ -36,7 +36,17 @@
     border-radius: 50%;
     margin-left: 1.5vw;
 }
-@media screen and (max-width: 64em) and (orientation: portrait) {
+@media screen and (max-width: 90em) and (orientation: portrait) {
+    .board-base-style-modal{
+        height: 60vw;
+    }
+    .circle-line-order-modal>div{
+        width: .7vw;
+        height: .7vw;
+        margin-left:2vw;
+    }
+}
+/* @media screen and (max-width: 64em) and (orientation: portrait) {
     .board-base-style-modal{
         height: 40vh;
     }
@@ -45,4 +55,4 @@
         height: .7vw;
         margin-left:2vw;
     }
-}
+} */

@@ -132,7 +132,42 @@
     width: 85%;
     height: 85%;
 }
-@media screen and (max-width: 64em) and (orientation: portrait){
+@media screen and (max-width: 90em) and (orientation: portrait){
+    .box-macro-Ecommerce-homes{
+        width: 70%;
+        height: 200%;
+    }
+    .box-header-Ecommerce-homes{
+        height: 20%;
+    }
+    .box-header-Ecommerce-homes >nav{
+        height: 15%;
+    }
+    .box-sesion-and-contact-Ecommerce-homes>a>img{
+        margin-bottom: .8vw;
+    }
+    .box-sesion-and-contact-Ecommerce-homes{
+        width: 25%;
+        height: 30%;
+        margin-top: .5vw;
+        margin-right: 3vw;
+    }
+    .box-sesion-and-contact-Ecommerce-homes >a:first-child,
+    .box-sesion-and-contact-Ecommerce-homes >a:nth-child(2),
+    .box-sesion-and-contact-Ecommerce-homes >a:nth-child(3){
+        font-size: .9vw;
+    }
+    .box-body-Ecommerce-homes{
+        height: 75%;
+    }
+    .box-bottom-menu-Ecommerce-homes>a{
+        height: 2vw;        
+    }
+    .box-all-card-Ecommerce-homes{
+        height: 100%;
+    }
+}
+/* @media screen and (max-width: 64em) and (orientation: portrait){
     .box-macro-Ecommerce-homes{
         width: 70%;
         height: 200%;
@@ -237,7 +272,6 @@
     .navicon-Ecommerce-less-601px a:last-child{
         margin-bottom: .5vw;
     }
-    /* no aparce el navicon */
     .box-brand-and-sections-Ecommerce-homes>div{
        display: none;
     }
@@ -315,7 +349,7 @@
     .navicon-Ecommerce-less-601px a:last-child{
         margin-bottom: .5vw;
     }
-    /* no aparce el navicon */
+    no aparce el navicon 
     .box-brand-and-sections-Ecommerce-homes>div{
        display: none;
     }
@@ -351,4 +385,4 @@
     .box-all-card-Ecommerce-homes{
         height: 100%;
     }
-}
+} */

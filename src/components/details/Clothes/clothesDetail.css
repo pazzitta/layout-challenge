@@ -334,7 +334,139 @@
     color: white;
     width: 3%;
 }
-@media screen and (max-width: 64em) and (orientation: portrait){
+@media screen and (max-width: 90em) and (orientation: portrait){
+    .all-page-order-product-one-detail{
+        width: 70%;
+        height: 95%;
+    }
+    .brand-white-rectangle-nav-product-one-detail{
+        width: 30%;
+    }
+    .brand-white-rectangle-nav-product-one-detail>h2{
+      font-size: 2vw;
+    }
+    .yellow-rectangle-nav-product-one-detail{
+        width: 4%;
+    }
+    .order-main-white-rectangle-nav-product-one-detail{
+        width: 61%;
+    }
+    .order-main-white-rectangle-nav-product-one-detail>section{
+       width: 75%;
+    }
+    .order-main-white-rectangle-nav-product-one-detail>section>a{
+        font-size: 1vw;
+    }
+    .order-main-white-rectangle-nav-product-one-detail>article{
+        width: 14%;
+    }
+    .order-main-white-rectangle-nav-product-one-detail>article>a>img{
+        width: 65%;
+    }
+    .order-main-white-rectangle-nav-product-one-detail button{
+        margin-right: .2vw;
+        width: 100%;
+        height: 2vw;
+    }
+    .input-on-order-and-style{
+        bottom: 4.7vw;
+        left: 6vw;
+        width: 25vw;
+        height: 2.5vw;
+        border-radius: .6vw;
+    }
+    .input-on-order-and-style::placeholder{
+        font-size: 1.1vw;
+    }
+    .main-order-product-one-detail{
+        flex-direction: column-reverse;
+    }
+    .left-rectangle-order-product-image-main-product-one-detail{
+        display: none;
+    }
+    .left-vertical-rectangle-main-product-one-detail{
+        display: none;
+    }
+    .middle-rectangle-order-product-image-main-product-one-detail{
+        border: none;
+        border-bottom: solid;
+        width: 100%;
+        height: 30%;
+        flex-direction: row;
+    }
+    .top-gray-rectangle-middle-rectangle-main-product-one-detail{
+        border:none;
+        border-right: solid;
+        height: 100%;
+        width: 3%;
+    }
+    .section-one-middle-rectangle-main-clothes-D,
+    .section-two-and-three-middle-rectangle-main-clothes-D{
+        justify-content: flex-start;
+        border: none;
+        border-right: solid;
+        width: 23.5%;
+    }
+    .section-one-middle-rectangle-main-clothes-D h4,
+    .section-two-and-three-middle-rectangle-main-clothes-D h4{
+        font-size: 1.2vw;
+    }
+    .section-one-middle-rectangle-main-clothes-D>p{
+        padding-left: 1.3vw;
+        padding-right: .2vw;
+        font-size: .9vw;
+    }
+    .middle-rectangle-order-product-image-main-product-one-detail>section>div{
+        bottom: .5vw;
+        width: 90%;
+    }
+    .middle-rectangle-order-product-image-main-product-one-detail button{
+       width: 2vw;
+       height: 2vw;
+       font-size: 1vw;
+    }
+    .right-rectangle-order-product-image-main-product-one-detail{
+        width:100%;
+        height:70%;
+    }
+    .right-rectangle-order-product-image-main-product-one-detail>img{
+        width: 65%;
+    }
+    .right-rectangle-order-product-image-main-product-one-detail>h2{
+        font-size: 3vw;
+    }
+    .right-rectangle-order-product-image-main-product-one-detail>small{
+        width: 50%;
+        font-size: .9vw;
+        margin-left: 8vw;
+    }
+    .right-rectangle-order-product-image-main-product-one-detail>h3{
+        font-size: 2.5vw;
+        margin-top: 2vw;
+    }
+    .right-right-rectangle-order-product-image-main-product-one-detail{
+        display: none;
+    }
+    .footer-order-product-one-detail{
+        border-top: solid;
+    }
+    .text-rectangle-footer-product-one-detail{
+        width: 24%;
+    }
+    .text-rectangle-footer-product-one-detail>p{
+       font-size: .9vw;
+    }
+    .yellow-rectangle-footer-product-one-detail{
+        width: 34%;
+    }
+    .left-white-rectangle-footer-product-one-detail{
+        width: 3%;
+    }
+    .blue-rectangle-footer-product-one-detail{
+        width: 24%;
+    }
+}
+/* @media screen and (max-width: 64em) and (orientation: portrait){
     .all-page-order-product-one-detail{
         width: 70%;
         height: 95%;
@@ -644,4 +776,4 @@
     .text-rectangle-footer-product-one-detail>p{
        font-size: 1.4vw;
     }
-}
+} */
