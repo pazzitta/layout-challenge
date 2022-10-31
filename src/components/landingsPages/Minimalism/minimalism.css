@@ -137,6 +137,16 @@
     height: 40%;
   }
 }
+@media screen and (max-width:33.75em) and (orientation: portrait) {
+  .input-main-minimalism-LP{
+    font-size: 1.4vw;
+  }
+  .input-main-minimalism-LP::placeholder,
+  .button-main-minimalism-LP{
+    font-size: 1.3vw;
+  }
+  
+}
 /* @media screen and (max-width: 64em) and (orientation: portrait) {
   .box-macro-minimalist-LP{
     width: 70%;

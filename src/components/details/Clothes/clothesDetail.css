@@ -624,6 +624,34 @@
         bottom: 3vw;
     }
 }
+@media screen and (max-width: 33.75em) and (orientation: portrait){
+    .input-on-order-and-style{
+        bottom: 6.3vw;
+    }
+}
+@media screen and (max-width: 30em) and (orientation: portrait){
+    .navicon-clothes-less-601px{
+        margin-top: 26vw;
+    }
+    .input-on-order-and-style{
+      font-size: 1.5vw;
+      bottom: 7vw;
+    }
+    .section-one-middle-rectangle-main-clothes-D>ul,
+    .section-two-and-three-middle-rectangle-main-clothes-D>ul{
+        bottom: 2.7vw;
+    }
+    .section-one-middle-rectangle-main-clothes-D>p{
+        bottom: 5.3vw;
+        padding-left: 3.8vw;
+    }
+    .middle-rectangle-order-product-image-main-product-one-detail>section>div{
+        top: .5vw;
+    }
+    .text-rectangle-footer-product-one-detail>p{
+       font-size: 1.4vw;
+    }
+}
 /* 
 @media screen and (max-width: 37.5em) and (orientation: portrait){
     .brand-white-rectangle-nav-product-one-detail{
