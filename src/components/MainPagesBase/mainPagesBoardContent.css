@@ -387,9 +387,6 @@
     }
 }
 @media screen and (max-width: 46.875em) and (orientation: portrait){
-    .order-all-board-content-section-one{
-        border: solid;
-    }
     .wooden-sign-background{
         margin-left: 12%;
     }
@@ -405,7 +402,7 @@
         bottom: 6vw;
     }
     .order-wooden-signs{
-        bottom: 4vw;
+        bottom: 7vw;
     }
     .order-wooden-signs>div{
         height: 4%;
@@ -429,6 +426,134 @@
         width: 20%;
         height: 40%;
         border: solid var(--fuchsia-color);
+    }
+}
+@media screen and (max-width: 40em) and (orientation: portrait) {
+    .order-all-board-content-section-one{
+        margin-top: 14%;
+    }
+    .poster-come-back-base-and-order>div:last-child{
+        bottom: 6vw;
+    }
+    .order-box-images{
+        margin-top: 15%;
+    }
+    .my-replicas-images-order>div{
+        height: 16%;
+    }
+    .order-box-scotch-tape-main-Pages-Base{
+        bottom: 95%;
+    }
+    .order-box-scotch-tape-main-Pages-Base>div{
+        width: 15%;
+    }
+}
+@media screen and (max-width:33.75em) and (orientation: portrait) {
+    .order-all-board-content-section-one{
+        width: 85%;
+        height: 87%;
+    }
+    .wooden-sign-background{
+        height: 34%;
+        margin-left: 12%;
+    }
+    .wooden-sing-and-poster-order{
+        height: 13%;
+    }
+    .wooden-sign-background-MR{
+        height: 4.4%;
+        top: 8.5%;
+    }
+    .poster-come-back-base-and-order{
+        height: 30%;
+        width: 20%;
+        top: 3vw;
+        right: 2vw;
+    }
+    .poster-come-back-base-and-order>div:last-child{
+        bottom: 70%;
+    }
+    .order-box-images{
+        margin-top: 9%;
+    }
+    .order-wooden-signs{
+        justify-content: space-between;
+        height: 60%;
+        bottom:25.5%;
+    }
+    .order-wooden-signs>div{
+        height: 6%;
+    }
+    .original-pages-order-and-styles{
+        height: 100%;
+    }
+    .original-page-images-order>div{
+        width: 65%;
+        height: 19vw;
+    }
+    .original-page-images-order{
+        height: 100%;
+        justify-content: space-around;
+    }
+    .original-page-images-order>img{
+        width: 75%;
+    }
+    .my-replicas-images-order{
+        height: 100%;
+        justify-content: space-around;
+    }
+    .my-replicas-images-order>div{
+        width: 65%;
+        height: 19.5vw;
+    }
+    .my-replicas-images-order>div>img{
+        filter: blur(3px);
+    }
+    .my-replicas-images-order>div>h3{
+        bottom: 17vw;
+        font-size: 5vw;
+    }
+    .order-box-scotch-tape-main-Pages-Base{
+        bottom: 82%;
+        width: 110%;
+        right: 4%;
+    }
+    .order-box-scotch-tape-main-Pages-Base>div{
+        width: 18%;
+        height: 40%;
+        border: none;
+    }
+}
+@media screen and (max-width: 20em) and (orientation: portrait){
+    .order-all-board-content-section-one{
+        height: 85%;
+    }
+    .order-box-images{
+        margin-top: 8%;
+    }
+    .order-wooden-signs{
+        height: 60%;
+        bottom:24%;
+    }
+    .original-page-images-order>div{
+        width: 60%;
+        height: 16vw;
+    }
+    .my-replicas-images-order>div{
+        width: 60%;
+        height: 16vw;
+    }
+    .my-replicas-images-order>div>img{
+        filter: blur(2px);
+    }
+    .my-replicas-images-order>div>h3{
+        bottom: 15.5vw;
+        font-size: 4.5vw;
+    }
+    .order-box-scotch-tape-main-Pages-Base{
+        bottom: 82%;
+        width: 110%;
+        right: 4%;
     }
 }
 /*

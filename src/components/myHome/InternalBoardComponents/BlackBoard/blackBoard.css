@@ -70,6 +70,16 @@
         top: 2vw;
     }
 }
+@media screen and (max-width: 60em) and (orientation: landscape) {
+    .blackboard-text-order-and-style{
+        font-size: 1.5vw;
+        line-height: 3vh;
+    }
+    .blackboard-text-order-and-style>p{
+        font-size: 3.5vw;
+        top: 2vw;
+    }
+}
 @media screen and (max-width: 46.875em) and (orientation: portrait){
     .blackboard-text-order-and-style{
         font-size: 5.3vw;
@@ -78,6 +88,15 @@
     .blackboard-text-order-and-style>p{
         font-size: 4vw;
         top: 3vw;
+    } 
+}
+@media screen and (max-width: 20em) and (orientation: portrait) {
+    .blackboard-text-order-and-style{
+        font-size: 4.8vw;
+        line-height: 6.1vw;
+    }  
+    .blackboard-text-order-and-style>p{
+        right: 22vw;
     } 
 }
 /* 

@@ -134,7 +134,7 @@
 .papers-order-and-styles>div:first-child>h4{
     color: white;
     font-family: 'Patrick Hand', cursive;
-    font-size: clamp(1.5em, 2vw, 2.1vw);
+    font-size: clamp(1em, 2vw, 2.1vw);
     margin: 0;
     letter-spacing: .2vw;
 }
@@ -461,7 +461,7 @@
 }
 .assets-icons-register-F>img{
     width: 15%;
-    margin-right: 20px
+    margin-right: 2vw
 }
 .assets-icons-register-F>img:first-child{
     width: 30%
@@ -770,7 +770,22 @@
     .section-link-identification-posters-base{
         font-size: 1.8vw;
     }
+    .profile-card-order-section-content-one{
+        width: 80%;
+        height:230%;
+    }
+    .profile-card-base-section-content-one{
+        overflow: scroll;
+    }
 }
+@media screen and (max-width: 33.75em) and (orientation: portrait) {
+    .assets-multimedia-background-video-LP>p{
+        top: 2.9vw;
+        font-size: 1vw ;
+        line-height: 1vw;
+    }
+}
+
 /* 
 VER SI VOLVER A HACER O SEGUIR COMO ESTA
 @media screen and (max-width: 64em) and (orientation: portrait) {

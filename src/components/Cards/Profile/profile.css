@@ -198,6 +198,44 @@
        width: 40%;
     }
 }
+@media screen and (max-width:40em) and (orientation: portrait){
+    .box-macro-people-card{
+        width: 30vw;
+        height: 40vw;
+    }
+    .box-button-header-people-card{
+        border-left: 3.5vw solid  #e2e5ee;
+        border-top: 3.5vw solid transparent;
+        border-bottom: 3.5vw solid transparent; 
+        bottom: 2.3vw;
+    }
+    .button-star-header-people-card{
+        height: 2.1vw;
+        bottom:2.4vw;
+        right: 3.3vw;
+    }
+    .box-all-data-profile-people-card{
+        margin-top: 2vw;
+    }
+    .name-data-profile-people-card{
+        font-size: 1.7vw;
+        padding-top: 0;
+    }
+    .icon-images-profile-people-card{
+        width: 20%;
+    }
+    .box-statistics-profile-people-card>p,
+    .box-statistics-profile-people-card>h3 {
+        font-size: 1.3vw;
+        padding-left: 1.5vw;
+    }
+    .box-buttons-footer-people-card>button{
+        font-size: 1.3vw;
+    }
+    .box-buttons-footer-people-card>button:nth-child(2)>img{
+       width: 32%;
+    }
+}
 
 /* @media screen and (max-width: 64em) and (orientation: portrait){
     .box-macro-people-card{
