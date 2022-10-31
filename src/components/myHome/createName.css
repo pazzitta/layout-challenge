@@ -84,4 +84,15 @@
         font-size: 9vw;    
     }
 }
+@media screen and (max-width: 46.875em) and (orientation: portrait) {
+    .main-name-order{
+        height: 17vw;
+    }
+    .main-name-order>div:last-child h2{
+        font-size: 12vw;
+    }
+    .main-name-order>div:first-child>h2{
+        font-size: 12vw;    
+    }
+}
 
