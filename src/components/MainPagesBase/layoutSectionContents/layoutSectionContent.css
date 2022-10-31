@@ -756,7 +756,24 @@
         margin-right: auto;
     }
 }
-/* @media screen and (max-width: 64em) and (orientation: portrait) {
+@media screen and (max-width: 40em) and (orientation: portrait) {
+    .section-identification-posters-base{
+        line-height: 1.5vw;
+        font-size: 1.3vw;
+    }
+    .order-wooden-signs-LSC>div>h3{
+        font-size: 1.5vw;
+    }
+    .responsive-sizes-posters-base{
+        font-size: 1.5vw;
+    }
+    .section-link-identification-posters-base{
+        font-size: 1.8vw;
+    }
+}
+/* 
+VER SI VOLVER A HACER O SEGUIR COMO ESTA
+@media screen and (max-width: 64em) and (orientation: portrait) {
     .order-all-layout-section-content{
         height: 92%;
         margin-top: 13vw;

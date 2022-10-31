@@ -125,13 +125,27 @@
         font-size:5.2vw; 
     }
     .order-and-style-base-wanted-poster>div:first-child>p{
-        font-size: .9vw;
+        font-size: 1vw;
     }
     .order-and-style-base-wanted-poster>div:first-child>article>p{
         font-size: 1.5vw;
     }
     .order-and-style-base-wanted-poster>div:first-child>img{
         width: 50%;
+    } 
+}
+@media screen and (max-width: 46.875em) and (orientation: portrait) {
+    .order-and-style-base-wanted-poster>div:first-child>h3{
+        font-size:6.5vw; 
+    }
+    .order-and-style-base-wanted-poster>div:first-child>p{
+        font-size: 1.75vw;
+    }
+    .order-and-style-base-wanted-poster>div:first-child>article>p{
+        font-size: 1.9vw;
+    }
+    .order-and-style-base-wanted-poster>div:first-child>img{
+        width: 55%;
     } 
 }
 /* 
