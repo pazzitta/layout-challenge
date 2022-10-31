@@ -19,3 +19,6 @@ Más allá de que me gusta el resultado, sé que hay cosas que no van a funciona
 A nivel código y buenas prácticas sin duda alguna va a ver más que un "temita", soy nueva en esto, no es excusa es fáctico. Y acá viene el mangazo, si ves algo que te hace muy mal a los ojos, o simplemente me querés dar una mano para que aprenda lo podés comentar, yo encantada de aprender siempre.</br>
 
 <h2>GRACIAS Y NOS VEMOS EN LA PRÓXIMA</BR>
+
+<h4>Deploy</h4>
+http://layout-challenge-lake.vercel.app 
