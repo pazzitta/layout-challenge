@@ -1,9 +1,10 @@
 import './inConstruction.css'
+import imageInC from '../../../assets/myHome/Aiporfolio.png'
 const BoardContentInConstruction = () => {
     return(
         <div className="all-board-content-proyect-p">
            <div className="header-proyect-p" >
-            <div>soy un cartel</div>
+            <div></div>
             <div>
             <div className='poster-come-back-base-and-order-proyect-p'>
                     <a href='/'>
@@ -16,7 +17,9 @@ const BoardContentInConstruction = () => {
                 </div>
             </div>
            </div>
-           <div className="ux-designe-proyect-p"></div>
+           <div className="ux-designe-proyect-p">
+            <img src={imageInC} alt="" />
+           </div>
         </div>
     )
 }
