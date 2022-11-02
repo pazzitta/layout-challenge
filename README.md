@@ -10,7 +10,7 @@
 <h3>Diagnóstico final</h3>
 😬 Las maquetaciones (que están bajo el nombre de "mi reproducción") tienen algunas funcionalidades, las lupas, los navicons, el contador, etc. funcionan y usé JS y React para que lo hagan. </br>
 😒 ¿A quién se le ocurrió ilustrar en CSS con ese UI? Hermoso el aprendizaje, me divertí mucho, es mucho más liviana que una página llena de imágenes, pero no fue tan agradable ordenar 1200 div (esto solo de un solo componente) y que coincidan para todo los breakpoints del responsive.</br>
-✍(nota para mí) El diseño del responsive se plantea y se hace antes que el web para "pc", no al revés... la cantidad de posicionamientos relativos y absolutos que tuve que usar para reordenar cosas. Entre 7 y 4 breakpoints por hoja de estilo tuve que usar y yo que quería hacer adaptive design🙄.</br>
+✍(nota para mí) El diseño del responsive se plantea y se hace antes que el web para "pc", no al revés... la cantidad de posicionamientos relativos y absolutos que tuve que usar para reordenar cosas. Entre 7 y 4 breakpoints por hoja de estilo tuve que usar y yo que quería hacer fluid design🙄.</br>
 😍 Aprendí mucho, me divertí más y estoy muy contenta con el resultado.
 
 <h2>Nota para vos que estás viendo esto </h2>
